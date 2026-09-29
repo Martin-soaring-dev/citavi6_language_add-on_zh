@@ -259,7 +259,7 @@ OptionsDialog_includeCoreStatementWhenInsertingKnowledgeItemCheckBox	Include cor
 MainForm_taskPlannerAssignedOnLabel	… before/on:	…在之前/当天：
 CriteriaRating	Evaluation	评估
 DbServerCurrentUsersDialog_ProjectColumnHeaderText	Project	项目
-AcceptImportDialog_ImportSelectionAll_Smart	{0:The one reference found|All {0} found references}	
+AcceptImportDialog_ImportSelectionAll_Smart	{0:The one reference found|All {0} found references}	{0:找到 1 条参考文献|找到的全部 {0} 条参考文献}
 SearchForm_clearAllFieldsLabel	Clear all fields	清除所有字段
 WelcomeWizardDialog_accountButton3InfoLabel	Without an account you cannot create cloud projects and your license key might not be applied.	没有账户，您将无法创建云端项目，并且您的许可证密钥可能无法应用。
 CreateCompilationDialog_SelectedRadioButton_SelectedPlural	The {0} selected knowledge items	{0} 条选定的知识项
@@ -316,7 +316,7 @@ CitationStyleFavoriteDialog_advancedSearchFullReferenceBookUsesEditionLabel	Shou
 BibliographyGrouping_CustomField4All_None	(Without Custom field 4)	（没有自定义字段 4）
 StartForm_projectTitleLabel	Recently opened projects	最近打开的项目
 KeyItemConfigurationDialog_textFirstWordRadioButton	First word only (ignore articles)	仅第一个词（忽略冠词）
-NumberOfReferencesLabel_Smart	{0:1 reference|{0} references}	
+NumberOfReferencesLabel_Smart	{0:1 reference|{0} references}	{0:1 条参考文献|{0} 条参考文献}
 CharacterFormatControl_foreColorButton	Text color…	文本颜色…
 OpenProjectDialog_sqliteTab	Local	本地
 AddOnsForm_addOnVersionLabel	Version:	版本：
@@ -409,7 +409,7 @@ PdfWpfViewer_searchButtonToolTip	Start search	开始搜索
 PageSetupControl_rightMarginLabel	Right:	右：
 BackgroundTaskErrorDialog_ignoreButtonText	Ignore problem	忽略问题
 LookupReferenceIdentifierDialog_importButton	Add to project	添加到项目
-NumberOfLocationsLabel_Smart	{0:1 location|{0} locations}	
+NumberOfLocationsLabel_Smart	{0:1 location|{0} locations}	{0:1 个位置|{0} 个位置}
 CriteriaMarks_NoMarks	No labels	无标签
 TaskPlanner_Sort_Type	Task type	任务类型
 ImportWizardDialog_tagDefinitionBibTeXReplaceKeyCheckBox	Replace imported BibTeX keys	替换导入的 BibTeX 键
@@ -642,7 +642,7 @@ NumberOfLocationsLabelNone	No locations	无位置
 notesLabel	Notes:	备注：
 ExportWizardDialog_bibTeXExportTransformerPersonNameSequenceLabel	Order of person names:	人名顺序：
 SaveProjectAsNewDesktopLocalProject_Progress_ProtectProject	Protecting project…	正在保护项目…
-FullTextListForm_extractSelectedRadioButton	The {0:selected file|{0} selected files}	
+FullTextListForm_extractSelectedRadioButton	The {0:selected file|{0} selected files}	{0:所选文件|所选的 {0} 个文件}
 NavigationControl_referencesButton	References	文献条目
 PageSetupDialog_headerMarginLabel	Header:	页眉：
 LicenseDialog_proTeamReaderTitleLabel	You are using <span style="font-weight:bold;">{0}</span>.	您正在使用 <span style="font-weight:bold;">{0}</span>。
@@ -689,7 +689,7 @@ QuitCitaviDialog_updateTitle3Label_2	The update will be installed when you exit 
 CitationStyleFavoriteDialog_advancedSearchFullReferenceJournalArticleTitleFormatLabel	How are journal article titles formatted in bibliography entries?	参考文献条目中期刊文章标题的格式是怎样的？
 CreateBibliographyDialog_groupsOptionsLabel	Options…	选项…
 SeriesTitleForm_userAbbreviation2Label	Abbreviation 3:	缩写 3：
-NumberOfTasksLabel_Smart	{0:1 task|{0} tasks}	
+NumberOfTasksLabel_Smart	{0:1 task|{0} tasks}	{0:1 个任务|{0} 个任务}
 CopyOrMoveToProjectWizard_selectionLabel	Which references do you want to include?	您想包括哪些参考文献？
 FontStyleEditorControl_sameAsPreviousRadioButton	Same as previous style	与上一样式相同
 OptionsDialog_resetWarningsGroupBox	Program warnings	程序警告
@@ -704,7 +704,7 @@ ReferenceGridColumnsForm_selectedColumnsLabel	Selected columns:	已选列：
 GroupsEditorDefaultText	Type to enter groups	输入以进入分组
 ReplacementListDialog_Column_ReplaceBy	With this	用此
 SortReferencesCustomDialog_sort4DescendingRadioButton	descending	降序
-PdfExportDialog_exportToExistingFileRadioButton	To the existing {0:file|files}	
+PdfExportDialog_exportToExistingFileRadioButton	To the existing {0:file|files}	添加至现有{0:文件|文件}
 OptionsDialog_autoDownloadCoverFromLehmannCheckBox	Include cover art	包括封面图
 issnLabel	ISSN:	ISSN：
 ImportFieldMappingEditor_citaviFieldLabel	Field in Citavi:	Citavi 中的字段：
@@ -837,7 +837,7 @@ Offline_Connected	Connected	已连接
 TabContent_Rating	Evaluation	评估
 ExportWizardDialog_bibTeXExportTransformerSaveYesRadioButton	Save as:	另存为：
 BookstoreFavoriteDialog_cultureLabel	Country/region:	国家/地区：
-FullTextListForm_extractNotExtractedRadioButton	The {0:file not yet processed|{0} files not yet processed}	
+FullTextListForm_extractNotExtractedRadioButton	The {0:file not yet processed|{0} files not yet processed}	{0:尚未处理的文件|{0} 个尚未处理的文件}
 MainForm_categoriesLabel	Categories	分类
 CitaviUpdateDialog_titleLabel	Citavi Update	Citavi 更新
 LoginDialog_userNameLabel	User name:	用户名：
@@ -887,7 +887,7 @@ WelcomeWizardDialog_convertProjectsSelectionIndividuelTitleInfoLabel	Choose whic
 SearchForm_addRowLabel	Add condition	添加条件
 MacroEditor_infoTabControl_ErrorList	Error list	错误列表
 NoReferencesFound	No references found.	未找到文献。
-NumberOfQuotationsLabel_Smart	{0:1 quotation|{0} quotations}	
+NumberOfQuotationsLabel_Smart	{0:1 quotation|{0} quotations}	{0:1 条引文|{0} 条引文}
 CriteriaTasks	Tasks	任务
 CriteriaKeywords	Keywords	关键词
 ParagraphFormatDialog_spacingBeforeLabel	Before:	之前：
@@ -963,7 +963,7 @@ MassReferenceIdentifierDownloadDialog_isbnTextRadioButton	Manual entry	手动输
 LibraryForm_nameLabel	Name:	名称：
 ProjectDetailsControl_sqliteAttachmentsPathInfoLabel	Please note: You can change the path for attachments if you open the project and then click  File > This project Project > Properties.	请注意：如果您打开项目，然后点击 文件 > 此项目 > 属性，即可更改附件的路径。
 ProxyConfigurationDialog_expect100ContinueCheckBox	Compatibility mode for HTTP 1.0 proxies	HTTP 1.0 代理的兼容模式
-SearchReplaceForm_StatusBarAll_Matches	Search all {0} references in this project – {1:1 reference|{1} references} found	
+SearchReplaceForm_StatusBarAll_Matches	Search all {0} references in this project – {1:1 reference|{1} references} found	搜索本项目中的全部 {0} 条参考文献 – 找到 {1:1 条参考文献|{1} 条参考文献}
 MainForm_taskPlannerCreatedByLabel	… by:	…按：
 KnowledgeItemFileForm_keywordsLabel	Keywords:	关键词：
 SavedSearches	Saved searches	已保存的检索
@@ -1173,7 +1173,7 @@ PageSetupDialog_footerMarginLabel	Footer:	页脚：
 LicenseDialog_requestFreeLicenseDataLabel	Request a license key at no cost	免费申请许可证密钥
 ReplacementListDialog_showAllCheckBox1	Show all	全部显示
 BibliographyGrouping_CategorySingle	References in the category <i>{0}</i>	类别 <i>{0}</i> 中的文献
-SearchReplaceForm_StatusBarFilter_Matches	Search all {0} references in the current selection – {1:1 reference|{1} references} found	
+SearchReplaceForm_StatusBarFilter_Matches	Search all {0} references in the current selection – {1:1 reference|{1} references} found	搜索当前选择范围内的全部 {0} 条参考文献 – 找到 {1:1 条参考文献|{1} 条参考文献}
 GroupForm_displayTypeLabel	Show:	显示：
 KnowledgeItemCoreStatementDialog_manualRadioButton_Image	A custom caption:	自定义标题：
 BibTeXKeyDialog_createAllOverwriteLabel	Generate new BibTeX keys for all references	为所有文献生成新的 BibTeX 键
@@ -1330,7 +1330,7 @@ ProjectPropertiesDialog_createdByModifiedByReplaceByContactLabel	Replace with:	�
 KnowledgeOrganizerNavigationPaneCollapsedGroups	Groups	组
 OptionsImportExportDialog_exportAutoCheckUpdateCheckBox	Check for updates automatically	自动检查更新
 LicenseDialog_Problem	{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang2055{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Segoe UI;}}\r\n{\\colortbl ;\\red255\\green255\\blue255;}\r\n{\\*\\generator Msftedit 5.41.21.2509;}\\viewkind4\\uc1\\pard\\f0\\fs18 The license entered is not valid.\\par\r\n\\par\r\nCommon causes:\\par\r\n\\bullet   Typos (including capitalization).\\par\r\n\\bullet   For personal licenses, the word "Personal" \\par\r\n\\cf1\\bullet   \\cf0 is missing in the Organization field.\\par\r\n\\bullet   For site licenses, the expiration date is missing.\\par\r\n\\par\r\nClick \\b Back\\b0  and carefully verify the information.\\par\r\n\\par\r\nIf you continue to receive this error after double-\\par\r\nchecking, contact us at www.citavi.com/service\\par\r\n}	{\rtf1\ansi\ansicpg1252\deff0\deflang2055{\fonttbl{\f0\fswiss\fprq2\fcharset0 Segoe UI;}}\r\n{\colortbl ;\red255\green255\blue255;}\r\n{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\f0\fs18 输入的许可证无效。\par\r\n\par\r\n常见原因：\par\r\n\bullet   拼写错误（包括大小写）。\par\r\n\bullet   对于个人许可证，"Personal" 一词\par\r\n\cf1\bullet   \cf0 在“组织”字段中缺失。\par\r\n\bullet   对于站点许可证，缺少到期日期。\par\r\n\par\r\n单击 \b 返回\b0 并仔细核对信息。\par\r\n\par\r\n如果反复核对后仍收到此错误，请通过 www.citavi.com/service 联系我们。\par\r\n}
-NumberOfKnowledgeItemsLabel_Smart	{0:1 knowledge item|{0} knowledge items}	
+NumberOfKnowledgeItemsLabel_Smart	{0:1 knowledge item|{0} knowledge items}	{0:1 个知识条目|{0} 个知识条目}
 PreviewControl_errorTextEditor_Remote	This Internet address cannot be previewed.	无法预览此 Internet 地址。
 CreateCompilationDialog_includeEmptyCategoriesCheckBox	Include categories with no knowledge items	包含无知识条目的类别
 FolderForm_nameLabel	Name:	名称：
@@ -1430,7 +1430,7 @@ PersonsDialog_mainGrid_TemplateAddRowPrompt	Click to add a person	点击添加�
 NavigationReferenceSmartRepeaterRow_parentReferenceInLabel	In:	位于：
 PrepareProjectForCloudUploadDialog_projectCloseInfoWarningLabel	Do not exit Citavi during the upload.	上传期间请勿退出 Citavi。
 BibliographyGrouping_CategoryAll_None	(Without categories)	（无分类）
-CitationStyleFavoriteDialog_resultsCountTitleLabel_Smart	Results: {0:1 citation style|{0} citation styles} found	
+CitationStyleFavoriteDialog_resultsCountTitleLabel_Smart	Results: {0:1 citation style|{0} citation styles} found	结果：找到 {0:1 种引文样式|{0} 种引文样式}
 FullTextListForm_mainGrid_AddressHeaderCaption	File	文件
 DesktopAlert_Footer_CreateEMail	Send error message to the Citavi team	将错误消息发送给 Citavi 团队
 userAbbreviation2Label	Abbreviation 3:	缩写 3：
@@ -1603,7 +1603,7 @@ SortKnowledgeItemsDialog_previewButton	Update preview	更新预览
 BibliographyGrouping_CustomField3Single	References with <i>{0}</i> in Custom field 3	自定义字段 3 中包含 <i>{0}</i> 的参考文献
 OptionsDialog_pathGroupBox	File locations	文件位置
 ProxyConfigurationDialog_customProxyHostLabel	Address:	地址：
-NumberOfParentedReferencesLabel_Smart	{0:1 contribution|{0} contributions}	
+NumberOfParentedReferencesLabel_Smart	{0:1 contribution|{0} contributions}	{0:1 项贡献|{0} 项贡献}
 SortTasksCustomDialog_sort3AscendingRadioButton	ascending	升序
 DbServerConnectionDialog_titleLabel	Configure DBServer	配置 DBServer
 LicenseDialog_Header_Problem	Problem	问题
@@ -1730,7 +1730,7 @@ SortReferencesCustomDialog_sort2Label	Then by:	然后按：
 AcceptImportDialog_additionalDataTextEditor	Include additional information:	包含附加信息：
 FinishButton	Finish	完成
 AdditionalFieldsForm_showOnReferenceTabLabel	Add to Reference tab	添加到参考文献选项卡
-AcceptImportDialog_ImportSelectionChecked_Smart	{0:The selected reference|All {0} selected references}	
+AcceptImportDialog_ImportSelectionChecked_Smart	{0:The selected reference|All {0} selected references}	{0:所选参考文献|所选的 {0} 条参考文献}
 PdfExportDialog_selectionLabel	Which PDF documents would you like to export annotations from?	您想从哪些 PDF 文档导出注释？
 ExportWizardDialog_mergeTitleFieldsShortTitleCheckBox	Subtitle	副标题
 PreviewControl_referenceHasNoLocationsTitleLabel	No files are linked to this reference.	没有文件链接到此参考文献。
@@ -1791,7 +1791,7 @@ PageSetupControl_paperSourceLabel	Paper feed:	进纸:
 PageSetupControl_pageMarginsTab	Page margins	页边距
 LiveUpdateDialog_updateInfoLabel	Do you want to install the update now?	是否立即安装更新?
 LibraryForm_abbreviationLabel	Abbreviation:	缩写：
-LicenseDialog_licensesTitleText	Your {0:License|Licenses}	
+LicenseDialog_licensesTitleText	Your {0:License|Licenses}	您的{0:许可证|许可证}
 BackgroundTaskErrorDialog_subtitleWarnings	Fix the following problems before closing the project:	关闭项目前请解决以下问题:
 SearchSaveAsDialog_nameLabel	Name:	名称：
 ReplacementListDialog_showAllCheckBox	Show all	全部显示

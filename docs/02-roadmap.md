@@ -44,7 +44,10 @@ C:\Program Files (x86)\Citavi 6\bin\zh\
   - 用数字 id 作键,避免译员抄错英文原文;分片流程可反复执行,只切未翻译的词条。
 - 备用通道:免费 Google 接口(`Translate-Draft.ps1`)或本地 MCP 翻译服务(`mcp_translate.py`);
   免费接口在批量下会被限流(429/403),不作为主通道。
-- 跳过项:含 `|` 的多语言占位符/正则等内部数据**不翻译**,否则会改变 Citavi 的匹配行为。
+- 跳过项:含 `|` 且**不含** `{n:...}` 条件的内部数据(多语言占位符词表、文件过滤器等)
+  **不翻译**,否则会改变 Citavi 的匹配行为。
+- 注意:.NET **SmartFormat 单复数条件** `{0:1 reference|{0} references}` 属于界面文本,
+  必须翻译,且要完整保留 `{n:` / `|` / 结尾 `}` 结构。
 - 未翻译/留空的条目在构建时自动回退英文。
 - 规范见 [03-translation-guide.md](03-translation-guide.md)。
 
@@ -95,7 +98,8 @@ Extract-Resources.ps1 -Diff   →  只列出 translations 中缺失的 key
 - [ ] 用模型完成全量翻译(8,078 条唯一原文,分片进行中)
 - [ ] 人工校对(术语、占位符、长度)
 - [ ] 在真实 Citavi 中端到端验证(语言菜单出现「中文」)
-- [x] CI(校验 TSV 格式、占位符一致、构建产物)
+- [x] CI:校验 TSV 格式、占位符一致、构建产物、打包 zip(Artifact)
+- [x] 自动发布:推送 `v*` 标签自动创建 GitHub Release 并附 zip
 - [ ] Citavi 升级后的词条 diff 流程
 
 ## 已实现的脚本行为

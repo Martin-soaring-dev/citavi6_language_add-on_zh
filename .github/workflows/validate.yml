@@ -28,3 +28,16 @@ jobs:
           $count = (Get-ChildItem dist/zh -Filter *.dll).Count
           Write-Host "生成 $count 个附属程序集"
           if ($count -ne 6) { throw "预期 6 个程序集,实际 $count" }
+
+      - name: 打包 zip
+        shell: pwsh
+        run: |
+          $v = if ($env:GITHUB_REF_TYPE -eq 'tag') { $env:GITHUB_REF_NAME -replace '^v','' } else { 'dev' }
+          ./tools/Package-Release.ps1 -Version $v -SkipBuild
+
+      - name: 上传 zip 构件
+        uses: actions/upload-artifact@v4
+        with:
+          name: citavi6-zh-language-pack
+          path: dist/citavi6-zh-*.zip
+          if-no-files-found: error

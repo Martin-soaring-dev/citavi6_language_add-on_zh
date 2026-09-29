@@ -115,10 +115,19 @@ translations/<程序集名>/<资源基名>.tsv
 3. `tools/Merge-TranslationShards.ps1` 校验 `{n}` 占位符后合并,并回填 `translations/`。
 4. 未完成的分片可反复重跑;合并后再次 `Prepare-TranslationShards.ps1` 只会切出仍未翻译的词条。
 
-### 跳过项
+### 跳过项与 SmartFormat
 
-含 `|` 的词条(多语言占位符、正则/内部数据,如
-`im Druck|in Vorbereitung|forthcoming|...`)默认**不翻译**,否则会改变 Citavi 的匹配行为。
+- 含 `|` **且不含** `{n:...}` 的词条(多语言占位符词表、文件过滤器等内部数据)默认**不翻译**,
+  否则会改变 Citavi 的匹配行为。
+- 但 .NET **SmartFormat 单复数条件**属于界面文本,**必须翻译**,并完整保留结构:
+
+  | 原文 | 译文 |
+  |---|---|
+  | `{0:1 reference\|{0} references} total` | `{0:1 条参考文献\|{0} 条参考文献} 总计` |
+  | `The {0:selected file\|{0} selected files}` | `已选 {0:文件\|{0} 个文件}` |
+
+  要求:`{n:`、中间的 `|`、结尾的 `}` 位置不变;两个分支都译;分支内的 `{0}`/`{1}` 原样保留。
+  中文无单复数,两分支译成相同说法也可以,但结构必须都在。
 
 ### 备用通道
 

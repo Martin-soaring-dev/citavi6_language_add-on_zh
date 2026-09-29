@@ -11,16 +11,16 @@ DeleteReference	Move to recycle bin	移到回收站
 PDFTextLabel	Text:	文本：
 TakeOverAvailableKeywords	Keywords	关键词
 ImportMenu_ImportTexts	Import texts	导入文本
-DeleteEntityLink_Smart	Do you want to delete the {0:{0} link|{0} links}?	
+DeleteEntityLink_Smart	Do you want to delete the {0:{0} link|{0} links}?	是否要删除{0:{0} 个链接|{0} 个链接}？
 AcceptSelection	Narrow results	缩小结果范围
-DeleteGroups_Smart	Do you want to delete the {0:{0} group|{0} groups}?	
+DeleteGroups_Smart	Do you want to delete the {0:{0} group|{0} groups}?	是否要删除{0:{0} 个组|{0} 个组}？
 DeleteAllReferencesWarning	<span class="segoeUiSemibold">Warning</span><br/>Additional references not in the selection will be deleted. This can happen if you delete an edited book that has contributions.	<span class="segoeUiSemibold">警告</span><br/>不在选择范围内的其他文献将被删除。如果您删除有贡献的编著图书，可能会发生这种情况。
 TaskItem_Until	Until {0}	直到 {0}
 OnlineSearchCatalogsPanel_Found	Results	结果
 ExportFiltersTitle	Add or remove export filter	添加或移除导出筛选器
 CallNumber	Call number	索书号
-DeleteLibraries_Smart	Do you want to delete the {0:{0} library|{0} libraries}?	
-DeletePeriodicals_Smart	Do you want to delete the {0:{0} periodical|{0} periodicals}?	
+DeleteLibraries_Smart	Do you want to delete the {0:{0} library|{0} libraries}?	是否要删除{0:{0} 个图书馆|{0} 个图书馆}？
+DeletePeriodicals_Smart	Do you want to delete the {0:{0} periodical|{0} periodicals}?	是否要删除{0:{0} 个期刊|{0} 个期刊}？
 KeywordList	Open keywords	打开关键字
 PdfToolbar_IndirectQuotation	Indirect quotation	间接引用
 InsertLink_Text	Text	文本
@@ -79,7 +79,7 @@ Tabs_TasksTab	Tasks	任务
 NavigationBar_References	References	文献条目
 NewGroup	New group	新建分组
 TaskPlanner_ProjectTasks	Project tasks	项目任务
-DeleteGroupsInUse_Smart	{0:Warning: The group "{1}" is assigned to a reference or knowledge item. All links will be deleted if you delete the group. Do you want to delete the group "{1}" anyway?|Warning: at least one of the {0} selected groups is assigned to a reference or knowledge items. All links will be deleted if you delete the group. Do you want to delete the {0} selected groups anyway?}	
+DeleteGroupsInUse_Smart	{0:Warning: The group "{1}" is assigned to a reference or knowledge item. All links will be deleted if you delete the group. Do you want to delete the group "{1}" anyway?|Warning: at least one of the {0} selected groups is assigned to a reference or knowledge items. All links will be deleted if you delete the group. Do you want to delete the {0} selected groups anyway?}	{0:警告：组"{1}"已分配给参考文献或知识条目。如果删除该组，所有链接都将被删除。是否仍要删除组"{1}"？|警告：所选的 {0} 个组中至少有一个已分配给参考文献或知识条目。如果删除该组，所有链接都将被删除。是否仍要删除所选的 {0} 个组？}
 LastViewedReference	Reference last viewed	最近查看的文献
 NoCategories_AddFirst	<a class="noEntitiesAddFirst" data-value="category">Click here</a> to add a category	<a class="noEntitiesAddFirst" data-value="category">单击此处</a>以添加类别
 CriteriaPeople	Persons and organizations	个人与组织
@@ -92,7 +92,7 @@ NavigationBar_ExportPrint_Text	Export / Print	导出 / 打印
 Checks	Circle	圆形
 ImportReferences_NoReferences	The file does not contain data that can be imported.	该文件不包含可导入的数据。
 CriteriaRating	Evaluation	评估
-ReferencePrivateCollectionsDeleted_Smart	<b>{0:1 private collection|{0} private collections} moved to recycle bin.</b>	
+ReferencePrivateCollectionsDeleted_Smart	<b>{0:1 private collection|{0} private collections} moved to recycle bin.</b>	<b>{0:1 个私人收藏|{0} 个私人收藏}已移至回收站。</b>
 NavTooltipFullTextSearch	Find full text	查找全文
 CriteriaTasksTeamTasks	Team tasks	团队任务
 AssignNewTask	Assign new task	分配新任务
@@ -149,7 +149,7 @@ Export_Format	Format	格式
 ProjectLocked_Unlocked	Saving resumed	已恢复保存
 CriteriaTasksStatus	Task status	任务状态
 Survey_Likely	Highly likely	极有可能
-DeleteKeywords_Smart	Do you want to delete the {0:{0} keyword|{0} keywords}?	
+DeleteKeywords_Smart	Do you want to delete the {0:{0} keyword|{0} keywords}?	是否要删除{0:{0} 个关键词|{0} 个关键词}？
 Export_PDFProject	All PDFs in the project	项目中的所有 PDF
 KnowledgeItemTextPlaceholder_DirectQuotation	Exact wording from the orginal text.	原文的精确措辞。
 DragNDrop_Group_Copy	Add group	添加分组
@@ -167,7 +167,7 @@ CriteriaAdvanced	Other	其他
 IsbnCatalogsMove	Change search order	更改搜索顺序
 TaskPlanner_Sort_DueDate	Due date	截止日期
 NoCover	No cover art	无封面图片
-DeleteCategoriesWithSubcategories_Smart	{0:The category|One or more of the selected categories} contain subcategories that will also be deleted.<br/>Links to references and knowledge items will be deleted as well.<br/>Do you want to delete the category anyway?	
+DeleteCategoriesWithSubcategories_Smart	{0:The category|One or more of the selected categories} contain subcategories that will also be deleted.<br/>Links to references and knowledge items will be deleted as well.<br/>Do you want to delete the category anyway?	{0:该分类|所选分类中的一个或多个}包含也将被删除的子分类。<br/>指向参考文献和知识条目的链接也将被删除。<br/>是否仍要删除该分类？
 Export_PDFWithAnnotations	Save with annotations	保存并附带批注
 OnlineSearchPanel_SearchResultsDelete	Delete all search results	删除所有搜索结果
 Export_Change	Change	更改
@@ -178,7 +178,7 @@ StandardFilter	Common filters (RIS, BibTeX, and ENW)	常用筛选器（RIS、Bib
 CriteriaGroups	Groups	组
 SelectAllEntitiesCountTotal	{0} {1} total	共 {0} {1}
 Tabs_ContextTab	Context	上下文
-DeleteLocations_Smart	Do you want to delete the {0:{0} location|{0} locations}?	
+DeleteLocations_Smart	Do you want to delete the {0:{0} location|{0} locations}?	是否要删除{0:{0} 个位置|{0} 个位置}？
 NavigationBar_Import_Text	Import / Online search	导入 / 在线搜索
 RecycleBin_Restoring	<b>Restoring deleted elements.</b>	<b>正在恢复已删除的元素。</b>
 GroupList	Open groups	打开分组
@@ -189,7 +189,7 @@ NotFound	Not found	未找到
 RecycleBinItemType_TaskItem	Tasks	任务
 NewReferenceMenu_MoreReferenceTypes	Additional reference types…	其他题录类型…
 OnlineSearchIsbnDoiNotFound	Please double-check your entry or \r\npick a different\r\n catalog or database.	请检查您的输入，或\r\n选择其他\r\n目录或数据库。
-DeleteCategories_Smart	Do you want to delete the {0:{0} category|{0} categories}?	
+DeleteCategories_Smart	Do you want to delete the {0:{0} category|{0} categories}?	是否要删除{0:{0} 个分类|{0} 个分类}？
 PDFSearchInfo	Tips for good search strategies can be found <a id="pdfSearchInfo">in the manual</a>.	有关良好检索策略的提示可在<a id="pdfSearchInfo">手册</a>中找到。
 BibTeXKey_CurrentReferenceAutomaticDescription	Generates a BibTeX key for the current reference.	为当前题录生成 BibTeX 键。
 Export_SpecialFile	Save as text file (RIS, BibTeX, …)	保存为文本文件（RIS、BibTeX 等）
@@ -205,7 +205,7 @@ CitationStyleLoadError	Error	错误
 CriteriaTasksType	Task type	任务类型
 SeriesTitleList	Edit series titles	编辑丛书名称
 TakeOverAvailableLocations	Locations	位置
-DeleteReferences_Smart	Do you want to delete the {0:{0} reference|{0} references}?	
+DeleteReferences_Smart	Do you want to delete the {0:{0} reference|{0} references}?	是否要删除{0:{0} 条参考文献|{0} 条参考文献}？
 EditInTextsPage	Edit in the text editor	在文本编辑器中编辑
 InsertLink_MissingText	Missing text	缺少文本
 Reload	Please refresh the page	请刷新页面
@@ -260,7 +260,7 @@ NoGroups_AddFirst	<a class="noEntitiesAddFirst" data-value="group">Click here</a
 KnowledgeItemTextPlaceholder_Summary	A substantially faithful rendition of a chapter or section, in your own words	用自己的话对章节或部分内容进行基本忠实的改写
 Thought	Thought	想法
 CriteriaYear_To	to	至
-DeletePeriodicalsInUse_Smart	{0:The periodical "{1}" cannot be deleted because it is in use by at least one reference.|The {0} selected periodicals cannot be deleted because at least one of them is in use by at least one reference.} Select only unused periodicals to delete.	
+DeletePeriodicalsInUse_Smart	{0:The periodical "{1}" cannot be deleted because it is in use by at least one reference.|The {0} selected periodicals cannot be deleted because at least one of them is in use by at least one reference.} Select only unused periodicals to delete.	{0:期刊"{1}"无法删除，因为它正被至少一个参考文献使用。|所选的 {0} 个期刊无法删除，因为其中至少有一个正被至少一个参考文献使用。} 请只选择未使用的期刊进行删除。
 TabQuotation_New	New	新建
 Export_Word	Word document (*.docx)	Word 文档 (*.docx)
 Export_Save	Save as...	另存为…
@@ -295,7 +295,7 @@ ShowTopLevelCategories	Show main categories only	仅显示主分类
 SortReferences_AuthorAsc	By short title: A to Z	按短标题：A 到 Z
 ImportPDFDescription	<div class="violet">Multiple PDFs</div>You can import multiple PDFs from a folder saved on your device.	<div class="violet">多个 PDF</div>您可以从设备上保存的文件夹中导入多个 PDF。
 CriteriaResources_WithOtherAttachments_Tooltip	References with other attachments	含其他附件的题录
-ReferenceLibrariesDeleted_Smart	<b>{0:1 library|{0} libraries} moved to recycle bin.</b>	
+ReferenceLibrariesDeleted_Smart	<b>{0:1 library|{0} libraries} moved to recycle bin.</b>	<b>{0:1 个图书馆|{0} 个图书馆}已移至回收站。</b>
 PrivateCollections	Private collections	私人收藏
 OnlineSearchPanel_AvailablePlaceholdersSearchOptions	Available wildcards and search options	可用的通配符和搜索选项
 StandardFilterDescription	<html>\r\n\t<head>\r\n\t\t<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />\r\n\t\t<meta http-equiv="Content-Style-Type" content="text/css" />\r\n\t\t<meta name="generator" content="Aspose.Words for .NET 11.11.0.0" />\r\n\t\t<title>\r\n\t\t</title>\r\n\t</head>\r\n\t<body>\r\n\t\t<div>\r\n\t\t\t<p style="margin:0pt 0pt 4pt; line-height:110%; widows:0; orphans:0; font-size:9pt"><span style="font-family:'Segoe UI'; font-size:9pt; color:#ff0000">Common filters</span></p>\r\n\t\t\t<p style="margin:0pt 0pt 4pt; line-height:110%; widows:0; orphans:0; font-size:9pt"><span style="font-family:'Segoe UI'; font-size:9pt">When you export search results from a database, they will usually be saved in RIS, BibTeX, EndNote Tagged, or PubMed format. Here you can select the file or files you want to import in your Citavi project. The file must have the extension .ris, .bib, or .enw.</span></p>\r\n\t\t</div>\r\n\t</body>\r\n</html>	<html>\r\n\t<head>\r\n\t\t<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />\r\n\t\t<meta http-equiv="Content-Style-Type" content="text/css" />\r\n\t\t<meta name="generator" content="Aspose.Words for .NET 11.11.0.0" />\r\n\t\t<title>\r\n\t\t</title>\r\n\t</head>\r\n\t<body>\r\n\t\t<div>\r\n\t\t\t<p style="margin:0pt 0pt 4pt; line-height:110%; widows:0; orphans:0; font-size:9pt"><span style="font-family:'Segoe UI'; font-size:9pt; color:#ff0000">常用筛选</span></p>\r\n\t\t\t<p style="margin:0pt 0pt 4pt; line-height:110%; widows:0; orphans:0; font-size:9pt"><span style="font-family:'Segoe UI'; font-size:9pt">当您从数据库导出检索结果时，通常会保存为 RIS、BibTeX、EndNote Tagged 或 PubMed 格式。在此您可以选择要导入 Citavi 项目的文件。文件扩展名必须为 .ris、.bib 或 .enw。</span></p>\r\n\t\t</div>\r\n\t</body>\r\n</html>
@@ -311,7 +311,7 @@ CitationKey_AllReferencesNew	Generate new citation keys for all references (repl
 NewReferenceMenu_SpecialFiles	Text file (RIS, BibTeX, etc.)	文本文件（RIS、BibTeX 等）
 Tooltip_PdfProtected	This PDF is protected	此 PDF 受保护
 OnlineSearchPanel_LoadedReferences	{0} references loaded	已加载 {0} 条题录
-DeletePersonsInUse_Smart	{0:The person or organization "{1}" cannot be deleted bacause it is in use by one or more references or series.|The {0} selected persons or organizations cannot be deleted because at least one of them is in use by one or mor references or series.} Select only unused persons or organizations to delete.	
+DeletePersonsInUse_Smart	{0:The person or organization "{1}" cannot be deleted bacause it is in use by one or more references or series.|The {0} selected persons or organizations cannot be deleted because at least one of them is in use by one or mor references or series.} Select only unused persons or organizations to delete.	{0:个人或组织"{1}"无法删除，因为它正被一个或多个参考文献或丛书使用。|所选的 {0} 个个人或组织无法删除，因为其中至少有一个正被一个或多个参考文献或丛书使用。} 请只选择未使用的个人或组织进行删除。
 SessionExpired	The session has expired.	会话已过期。
 ProjectProperties	Project properties	项目属性
 OtherContributions	Other contributions in reference:	题录中的其他贡献：
@@ -382,11 +382,11 @@ PageRangeType	Type	类型
 ChoosePhoto	Upload profile image	上传个人资料图片
 ImportGroupList	Open keywords	打开关键字
 Tooltip_ChangeView	Change view	更改视图
-ReferencesDeleted_Smart	<b>{0:1 reference|{0} references} moved to <a id='goToRecycleBin'>recycle bin</a>.</b>	
+ReferencesDeleted_Smart	<b>{0:1 reference|{0} references} moved to <a id='goToRecycleBin'>recycle bin</a>.</b>	<b>{0:1 条参考文献|{0} 条参考文献}已移至<a id='goToRecycleBin'>回收站</a>。</b>
 OtherTasks	Additional tasks	其他任务
 OnlineSearchCatalogsPanel_SelectSourcesIsbn	Add catalogs for the ISBN download	为 ISBN 下载添加目录
 PdfToolbar_More	More	更多
-DeleteSeriesTitles_Smart	Do you want to delete the {0:{0} series title|{0} series titles}?	
+DeleteSeriesTitles_Smart	Do you want to delete the {0:{0} series title|{0} series titles}?	是否要删除{0:{0} 个丛书标题|{0} 个丛书标题}？
 CriteriaYear_ThisYear	This year	今年
 ExportReferencesToProjectStart	Exporting references. You'll be notified once the export is complete	正在导出题录。导出完成后您将收到通知
 ImportFiltersTitle	Add or remove import filter	添加或移除导入筛选器
@@ -445,7 +445,7 @@ FromYear	{0} or later	{0} 或更高版本
 PeopleSearchPlaceholder	Search persons and organizations	搜索人员和机构
 NoGrouping	Without grouping	不分组
 Aborted	Canceled	已取消
-DeletePersons_Smart	Do you want to delete the {0:{0} person or organization|{0} persons or organizations}?	
+DeletePersons_Smart	Do you want to delete the {0:{0} person or organization|{0} persons or organizations}?	是否要删除{0:{0} 个个人或组织|{0} 个个人或组织}？
 KnowledgeItemTextPlaceholder_QuickReference	Not required	非必需
 DeleteKnowledgeItem	Permanently delete knowledge item?	永久删除知识条目？
 KnowledgeItemFileForm_coreStatementLabelPlaceholder	Enter a short image caption or core statement	输入简短的图片说明或核心陈述
@@ -453,7 +453,7 @@ TaskItemSort_ShortTitle	Short title	短标题
 CreateKeys_BibTeXKey_Creating_Single	Creating BibTeX key...	正在创建 BibTeX 键…
 ReferenceNavigationSearchPlaceholder	Search references	搜索题录
 UploadFilesDone	The files were uploaded.	文件已上传。
-DeleteCategoriesInUse_Smart	{0:Warning: The category or one of its subcategories are assigned to a reference or knowledge items. All links will be deleted if you delete the category.<br/>\r\nDo you want to delete the category anyway?|The categories or one of their subcategories are assigned to references or knowledge items. All links will be deleted if you delete the category.<br/>\r\nDo you want to delete the categories anyway?}	
+DeleteCategoriesInUse_Smart	{0:Warning: The category or one of its subcategories are assigned to a reference or knowledge items. All links will be deleted if you delete the category.<br/>\r\nDo you want to delete the category anyway?|The categories or one of their subcategories are assigned to references or knowledge items. All links will be deleted if you delete the category.<br/>\r\nDo you want to delete the categories anyway?}	{0:警告：该分类或其某个子分类已分配给参考文献或知识条目。如果删除该分类，所有链接都将被删除。<br/>\r\n是否仍要删除该分类？|这些分类或其某个子分类已分配给参考文献或知识条目。如果删除该分类，所有链接都将被删除。<br/>\r\n是否仍要删除这些分类？}
 Export_CopyTitle	Copy to a Citavi project	复制到 Citavi 项目
 ResortReferences	Sort	排序
 DontAskAgain	Don't ask again	不再询问
@@ -466,12 +466,12 @@ MergeGroups_Placeholder	Search for another group	搜索其他组
 DocumentSearchPlaceholder	Search document…	搜索文档…
 Survey_DoNotShowAgain	Don't show again	不再显示
 RemoveParagraphs	Remove paragraphs and tabs	移除段落和制表符
-CannotDeleteEntities_Smart	{0:This item cannot be deleted. It is part of the bibliographic information.|One or more items cannot be deleted. They are part of the bibliographic information.}	
+CannotDeleteEntities_Smart	{0:This item cannot be deleted. It is part of the bibliographic information.|One or more items cannot be deleted. They are part of the bibliographic information.}	{0:此条目无法删除。它是书目信息的一部分。|一个或多个条目无法删除。它们是书目信息的一部分。}
 KnowledgeItemDelete	Delete knowledge item	删除知识条目
 ReferenceQuotationsMenu_Categories	Categories	分类
 SelectAllEntitiesCount	Select all {0} {1}	全选 {0} {1}
 TaskPlanner_Sort_ShortTitle	Short title	短标题
-DeleteTaskItems_Smart	Do you want to delete the {0:{0} task|{0} tasks}?	
+DeleteTaskItems_Smart	Do you want to delete the {0:{0} task|{0} tasks}?	是否要删除{0:{0} 个任务|{0} 个任务}？
 OpenProjectInAnotherTab	Open project in new tab	在新标签页中打开项目
 TaskItemSort_DoneDesc	Last completed	最近完成
 CurrentParentReference	Current parent reference	当前父题录
@@ -507,7 +507,7 @@ SaveDisabled	Saving temporarily disabled due to synchronization process.	由于�
 RenameShortTitle	Edit short title	编辑短标题
 InvalidEmailDomainAndEmailAlreadyPresent	Invalid email domain. This address already belongs to this account.	电子邮件域无效。此地址已属于此账户。
 Export_DuplicateProject_Color	Project color	项目颜色
-KnowledgeItemsDeleted_Smart	<b>{0:1 knowledge item|{0} knowledge items} moved to <a id='goToRecycleBin'>recycle bin</a>.</b>	
+KnowledgeItemsDeleted_Smart	<b>{0:1 knowledge item|{0} knowledge items} moved to <a id='goToRecycleBin'>recycle bin</a>.</b>	<b>{0:1 个知识条目|{0} 个知识条目}已移至<a id='goToRecycleBin'>回收站</a>。</b>
 ProjectLocked_Locked	Saving paused	保存已暂停
 Export_DuplicateProject_Error	Invalid characters	无效字符
 RemoveCatalog	Do you want to remove "{0}" from the list?	是否要从列表中移除“{0}”？
@@ -540,9 +540,9 @@ InsertLink_MissingUrl	Missing URL	缺少 URL
 HtmlCode	HTML Code	HTML 代码
 NoSearchResults	No results	无结果
 LinkAddRemove	Add link	添加链接
-DeleteEntities_Smart	Do you want to delete the {0:{0} item|{0} items}?	
+DeleteEntities_Smart	Do you want to delete the {0:{0} item|{0} items}?	是否要删除{0:{0} 个条目|{0} 个条目}？
 GoToForm	Edit in form	在表单中编辑
-DeletePublishersInUse_Smart	{0:The publisher "{1}" cannot be deleted because it is in use by one or more references.|The {0} selected publishers cannot be deleted because at least one of them has child references.} Select only unused publishers to delete.	
+DeletePublishersInUse_Smart	{0:The publisher "{1}" cannot be deleted because it is in use by one or more references.|The {0} selected publishers cannot be deleted because at least one of them has child references.} Select only unused publishers to delete.	{0:出版商"{1}"无法删除，因为它正被一个或多个参考文献使用。|所选的 {0} 个出版商无法删除，因为其中至少有一个有子参考文献。} 请只选择未使用的出版商进行删除。
 SortReferences_ModifiedDesc	Most recently modified	最近修改
 Library	Library	图书馆
 Survey_Placeholder_Bad	Sorry to hear that! What would you like us to change first?	很抱歉！您希望我们先更改什么？
@@ -610,7 +610,7 @@ RemoveFromSelectedReferences	Clear for selected references	为所选题录清除
 DeleteRefenceContributionsMessage	Deleting this reference will also delete any contributions that were added to it.	删除此题录也会删除添加到其中的所有贡献。
 NavTooltipUsers	Users	用户
 TabQuotation_CollapseAll	Collapse all	全部折叠
-DeleteLibrariesInUse_Smart	{0:The selected library is in use by at least one reference as a location. This location will also be deleted. Do you want to delete the selected library anyway?|The {0} selected libraries are in use by at least one reference as a location. These locations will also be deleted.Do you want to delete the {0} selected libraries anyway?}	
+DeleteLibrariesInUse_Smart	{0:The selected library is in use by at least one reference as a location. This location will also be deleted. Do you want to delete the selected library anyway?|The {0} selected libraries are in use by at least one reference as a location. These locations will also be deleted.Do you want to delete the {0} selected libraries anyway?}	{0:所选图书馆正被至少一个参考文献用作位置。该位置也将被删除。是否仍要删除所选图书馆？|所选的 {0} 个图书馆正被至少一个参考文献用作位置。这些位置也将被删除。是否仍要删除所选的 {0} 个图书馆？}
 WrongTransformerId	The selected filter cannot be used.	无法使用所选的筛选。
 ExportOption_WithAttachments	With attachments	含附件
 GroupsSearchPlaceholder	Search groups	搜索组
@@ -624,7 +624,7 @@ PdfToolbar_Tasks	Tasks	任务
 SortReferences_CreatedDesc	Most recently added	最近添加
 OnlineSearch_Duplicate	In project. Enable checkbox to import duplicate.	已在项目中。启用复选框以导入重复项。
 CitationKey_CurrentReferenceAutomatic	Automatically generate citation key for the current reference	自动为当前参考文献生成引用键
-DeleteKeywordsInUse_Smart	{0:Warning: the keyword "{1}" is assigned to a reference or knowledge items. All links will be deleted if you delete the group. Do you want to delete the keyword "{1}" anyway?|Warning: at least on of the {0} selected keywords is assigned to a reference or knowledge item. All keywords will be deleted if you delete the keywords. Do you want to delete the {0} selected keywords anyway?}	
+DeleteKeywordsInUse_Smart	{0:Warning: the keyword "{1}" is assigned to a reference or knowledge items. All links will be deleted if you delete the group. Do you want to delete the keyword "{1}" anyway?|Warning: at least on of the {0} selected keywords is assigned to a reference or knowledge item. All keywords will be deleted if you delete the keywords. Do you want to delete the {0} selected keywords anyway?}	{0:警告：关键词"{1}"已分配给参考文献或知识条目。如果删除该组，所有链接都将被删除。是否仍要删除关键词"{1}"？|警告：所选的 {0} 个关键词中至少有一个已分配给参考文献或知识条目。如果删除这些关键词，所有关键词都将被删除。是否仍要删除所选的 {0} 个关键词？}
 NewReferenceMenu_AddReference	Add reference	添加参考文献
 Survey_NotLikely	Highly unlikely	极不可能
 SplitterTrigger_Knowledge_Right	Show details	显示详细信息
@@ -633,7 +633,7 @@ NewReferenceMenu_Automatic	Automatically	自动
 CommentToKnowledgeItem	Add comment to item	为条目添加评论
 SourceCode	Edit source code	编辑源代码
 SortReferences_AuthorDesc	By short title: Z to A	按短标题：Z 到 A
-TaskItemsDeleted_Smart	<b>{0:1 task|{0} tasks} moved to <a id='goToRecycleBin'>recycle bin</a>.</b>	
+TaskItemsDeleted_Smart	<b>{0:1 task|{0} tasks} moved to <a id='goToRecycleBin'>recycle bin</a>.</b>	<b>{0:1 个任务|{0} 个任务}已移至<a id='goToRecycleBin'>回收站</a>。</b>
 ReportSuccessful	Bug report sent.	问题报告已发送。
 PrivateCollection	Private Collection	私人收藏
 CitationKey_CurrentReferenceManual	Manually create a citation key for the current reference	手动为当前参考文献创建引用键
@@ -704,7 +704,7 @@ PanelThought_PreviewLabel	Image preview or file name	图片预览或文件名
 PrivateCollectionName_Placeholder	Name of the private collection	私人合集的名称
 Countdown	Remaining time: {0} seconds	剩余时间：{0} 秒
 Location	Location	位置
-DeleteSeriesTitlesInUse_Smart	{0:The series title "{1}" cannot be deleted because it is in use by one or more references.|The {0} selected series titles cannot be deleted because at least one of them is in use by one or more references.} Select only unused series titles to delete.	
+DeleteSeriesTitlesInUse_Smart	{0:The series title "{1}" cannot be deleted because it is in use by one or more references.|The {0} selected series titles cannot be deleted because at least one of them is in use by one or more references.} Select only unused series titles to delete.	{0:丛书标题"{1}"无法删除，因为它正被一个或多个参考文献使用。|所选的 {0} 个丛书标题无法删除，因为其中至少有一个正被一个或多个参考文献使用。} 请只选择未使用的丛书标题进行删除。
 ResumeWork	<a>Continue where you left off.</a>	<a>从上次中断处继续。</a>
 CategoryList	Edit categories	编辑分类
 NavigationBar_Texts	Texts	文本

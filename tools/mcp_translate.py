@@ -172,10 +172,11 @@ def save_cache(cache, path):
 
 
 def is_skippable(en):
-    """内部数据(非 UI 文本)不应翻译,例如多语言占位符/正则列表:
-        im Druck|in Vorbereitung|forthcoming|... 或 (Freigeschaltet bis|Expiration date|...)
-    翻译它们会改变 Citavi 的匹配行为。"""
-    return "|" in en
+    """内部数据(非 UI 文本)不应翻译,例如多语言占位符/文件过滤器:
+        im Druck|in Vorbereitung|forthcoming|...
+        BibTeX Files (*.bib; *.txt)|*.bib;*.txt|All Files (*.*)|*.*
+    注意:含 `{n:...|...}` 的是 .NET SmartFormat 单复数条件,属于界面文本,必须翻译。"""
+    return ("|" in en) and not re.search(r"\{\d+:", en)
 
 
 def scan_pending(translations_dir, cache, only, limit, include_pipes=False):

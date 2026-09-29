@@ -175,7 +175,7 @@ TeamMembers_Title	Team options	团队选项
 YouCanHelpUs	Here's how you can help us:	您可以通过以下方式帮助我们:
 MaxChars	{0} characters or less	{0} 个字符或更少
 LoadFailed	A setting on your computer is preventing Citavi Account from loading.	您计算机上的某项设置阻止了 Citavi 帐户的加载。
-TeamMembers_DeleteSmart	Do you want to remove the {0:selected team member|{0} selected team members} from the project?	
+TeamMembers_DeleteSmart	Do you want to remove the {0:selected team member|{0} selected team members} from the project?	是否要从项目中移除{0:所选团队成员|所选的 {0} 个团队成员}？
 TelemetryInitializationFailed	The page could not be initialized. This may be due to a temporary problem with our server. Please try again in 10 minutes.	页面无法初始化。这可能是由于我们服务器的临时问题。请在 10 分钟后重试。
 Tooltip_EditKnowledgeItem	Edit knowledge item	编辑知识条目
 SystemInformation	System information	系统信息
@@ -232,7 +232,7 @@ ProtocolEnd	Stop activity log.	停止活动日志。
 Tooltip_DeleteAnnotations	Delete annotation	删除注释
 EmailSentLogin	Email sent	邮件已发送
 ChangeRole_AuthorDescription	Authors can change project data	作者可以更改项目数据
-TeamMembers_ConfirmRemove	Do you want to remove {0:the selected team member|the {0} selected team members} from the project?	
+TeamMembers_ConfirmRemove	Do you want to remove {0:the selected team member|the {0} selected team members} from the project?	是否要从项目中移除{0:所选团队成员|所选的 {0} 个团队成员}？
 ChangeRole_ManagerDescription	Project leaders can make changes to project information and the project team	项目负责人可以更改项目信息和项目团队
 HasNotCitaviLicenseToOpenProject	You cannot open this project because you do not have a valid license. For more details, check <a href="https://citaviweb.citavi.com/account" target="_blank">https://citaviweb.citavi.com/account</a>.	您无法打开此项目,因为您没有有效的许可证。有关更多详细信息,请查看 <a href="https://citaviweb.citavi.com/account" target="_blank">https://citaviweb.citavi.com/account</a>。
 Tooltip_RecycleBin	Move to recycle bin	移到回收站

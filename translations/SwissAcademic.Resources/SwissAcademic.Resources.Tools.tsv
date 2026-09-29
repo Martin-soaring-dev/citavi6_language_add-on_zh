@@ -7,7 +7,7 @@ MainForm_CreateTaskList	Print task list…	打印任务列表…
 MainForm_PasteAndSwitchPersonNames	Paste 'first name last name' as 'last name, first name'	将 '名 姓' 粘贴为 '姓, 名'
 MainForm_PreviewShowCover	Cover art	封面图片
 ViewColumns_ToolTipText	Add, remove, and reorder the columns.	添加、移除和重新排序列。
-RemoveCategoryFromSelectedKnowledgeItems	Remove category "{0}" {1:from the selected knowledge item|from the {1} selected knowledge items}	
+RemoveCategoryFromSelectedKnowledgeItems	Remove category "{0}" {1:from the selected knowledge item|from the {1} selected knowledge items}	从{1:所选知识条目|所选的 {1} 个知识条目}中移除分类"{0}"
 ShowClassification_Short_Off	Hide category numbers	隐藏分类编号
 NewThoughtFile	Thought (image or file)	想法（图片或文件）
 NewThoughtText	Thought (text)	想法（文本）
@@ -137,7 +137,7 @@ PreviewControl_NewPictureQuotation_ToolTipText	Save and highlight selected regio
 ListOfLibraries	List of libraries	图书馆列表
 MainForm_KnowledgeItemsNewMenu	New	新建
 CitationStyleListDialogEx_CitationStyleSortAsc	From A to Z	从 A 到 Z
-RemoveKeywordFromSelectedKnowledgeItems	Remove the keyword "{0}" {1:from the selected knowledge item|from the {1} selected knowledge items}	
+RemoveKeywordFromSelectedKnowledgeItems	Remove the keyword "{0}" {1:from the selected knowledge item|from the {1} selected knowledge items}	从{1:所选知识条目|所选的 {1} 个知识条目}中移除关键词"{0}"
 Delete	Delete	删除
 LocationForm_DeleteLocation	Delete location	删除位置
 StartForm_AccountOpen	Open account online…	在线打开账户…
@@ -426,7 +426,7 @@ StyleEditorForm_SetTemplateUseCaseEditStateNone	Undefined	未定义
 StyleEditorForm_SetTemplateUseCaseEditStateMenu	Set edit state of all reference types to	将所有参考文献类型的编辑状态设置为
 CustomizeSavedOnlineImportDataExchangeProperties	Manage saved searches…	管理已保存的搜索…
 FilterByYearCustom_PlaceholderText	Enter a year	输入年份
-MainForm_SaveSelectedTask_Smart	Save {0:selected task|the {0} selected tasks}…	
+MainForm_SaveSelectedTask_Smart	Save {0:selected task|the {0} selected tasks}…	保存{0:所选任务|所选的 {0} 个任务}…
 ViewColumns_ToolTipTitle	Columns	列
 SpecialCharsLowerUpperQuotes	Lower/upper double quotation marks	下/上双引号
 ListOfPublishers	List of publishers	出版商列表
@@ -1064,7 +1064,7 @@ ReferenceSmartRepeaterQuickEditForm_AddCoverFromFile	Add cover art from file…	
 HelpCitaviOnlineFAQ	Frequently Asked Questions (FAQ)	常见问题解答 (FAQ)
 HideReferenceEditorFilterTabs	Hide column	隐藏列
 ReferenceGridForm_HideColumnSpecified	Hide "{0}" column	隐藏“{0}”列
-MainForm_PrintSelectedTask_Smart	Print the {0:selected task|{0} selected tasks}…	
+MainForm_PrintSelectedTask_Smart	Print the {0:selected task|{0} selected tasks}…	打印{0:所选任务|所选的 {0} 个任务}…
 KeywordList_ApplyRelatedReferencesAsSelection	Apply related references as selection	将相关文献应用为选择
 MainForm_NewProject	New project…	新建项目…
 MainForm_ShowRecycleBin	Recycle Bin…	回收站…
@@ -1162,7 +1162,7 @@ MainForm_PrintCompilation_ToolTipTitle	Print or save compilation	打印或保存
 MainForm_OpenUrlLink	Check availability with OpenURL…	使用 OpenURL 检查可用性…
 MainForm_ToolsLanguage	Change language	更改语言
 PersonList_PersonsMenu	Persons	人员
-RemoveGroupFromSelectedKnowledgeItems	Remove {1:the selected knowledge item|the {1} selected knowledge items} from the group "{0}"	
+RemoveGroupFromSelectedKnowledgeItems	Remove {1:the selected knowledge item|the {1} selected knowledge items} from the group "{0}"	从组"{0}"中移除{1:所选知识条目|所选的 {1} 个知识条目}
 TableDeleteColumn	Column	列
 StyleEditorForm_ComponentPartMenu	Component	组件
 ExportToConceptDraw	To ConceptDraw…	到 ConceptDraw…
@@ -1207,7 +1207,7 @@ TableInsertTable	Table…	表格…
 MainForm_PrintToFileGroupedBibliography	Save grouped…	分组保存…
 MainForm_PrintCompilationByKeyword_ToolbarInstance	List	列表
 MainForm_SaveBibliography	Save in current citation style…	以当前引用样式保存…
-MainForm_ShowPreviewNumberOfFiles	{0} {0:file|files}	
+MainForm_ShowPreviewNumberOfFiles	{0} {0:file|files}	{0} 个{0:文件|文件}
 ReferenceGridGroupsForm_MoveColumnDown	Move down	下移
 AssignedReferencesMenu	Related reference	相关文献
 MainForm_ReferenceManagement_NewReferenceTask_InstanceCaption	Task for current reference… (Tools)	当前文献的任务…（工具）

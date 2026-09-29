@@ -47,7 +47,7 @@ NoUpgradesAvailable	Your account does not contain any licenses that are eligible
 AddToCart	Add to basket	添加到购物篮
 AddLicenses	Add licenses	添加许可证
 YouCanAddOtherProducts	You can still add other products.	您仍然可以添加其他产品。
-Licenses_Smart	{0:License|Licenses}	
+Licenses_Smart	{0:License|Licenses}	{0:许可证|许可证}
 SelectAllowedSubscription	You already have a product with the same validity period in your basket. In this order you can only add products with the same validity period. To add an additional subscription with a different validity period, place a second order.	您的购物篮中已有具有相同有效期的产品。在此订单中,您只能添加具有相同有效期的产品。要添加具有不同有效期的其他订阅,请下第二笔订单。
 StartNewSubscription	Create new subscription	创建新订阅
 CurrentlyInYourPossession	Currently in your possession	当前拥有

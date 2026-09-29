@@ -64,7 +64,8 @@ foreach ($f in (Get-ChildItem $translationsDir -Recurse -Filter *.tsv | Sort-Obj
         if (-not [string]::IsNullOrEmpty($p[2])) { continue }
         if ($done.ContainsKey($en) -or $seen.ContainsKey($en)) { continue }
         if ($en -notmatch '[A-Za-z]') { $seen[$en] = $true; continue }
-        if (-not $IncludePipes -and $en.Contains('|')) { $skipped++; continue }
+        # 只跳过真正的内部数据(多语言词表/文件过滤器等):含 | 但**不含** SmartFormat 条件 {n:...|...}
+        if (-not $IncludePipes -and $en.Contains('|') -and $en -notmatch '\{\d+:') { $skipped++; continue }
         $seen[$en] = $true
         $pending.Add($en)
     }
