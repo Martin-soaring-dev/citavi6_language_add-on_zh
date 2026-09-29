@@ -117,18 +117,26 @@ pwsh ./tools/Package-Release.ps1 -Version 0.1
 
 仓库自带 GitHub Actions(Windows runner,无需 Citavi):
 
-| 工作流 | 触发 | 产物 |
+| 工作流 | 触发 | 行为 |
 |---|---|---|
 | `validate` | push 到 `main` / PR / 手动 | 校验译文 → 构建 → 打包 zip,作为 **Artifact** 可下载 |
-| `release` | 推送 `v*` 标签 / 手动 | 同上,并自动创建 **GitHub Release** 并附上 zip |
+| `release` | **在 GitHub 上发布 Release** / 推送 `v*` 标签 / 手动 | 校验 → 构建 → 打包 → **把 zip 附到该 Release** |
 
-发版只需打标签:
+发布方式二选一:
+
+**A. 在 GitHub 网页上发布**(推荐)
+
+`Releases → Draft a new release` → 填 tag(如 `v0.1`)→ `Publish release`。
+CI 会自动构建并把 `citavi6-zh-v0.1.zip` 附加到这个 Release 上(不会覆盖你写的发布说明)。
+
+**B. 命令行**
 
 ```bash
-git tag v0.1 && git push origin v0.1
+git tag v0.1 && git push origin v0.1        # CI 自动创建 Release 并附 zip
+gh release create v0.1                       # 先建空 Release,CI 之后自动补上 zip
 ```
 
-CI 会自动构建 `citavi6-zh-v0.1.zip` 并发布到 Releases。
+> 注意:workflow 文件必须存在于**默认分支**,`release` 事件才会触发。
 
 ## 参与翻译
 

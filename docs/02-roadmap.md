@@ -99,7 +99,7 @@ Extract-Resources.ps1 -Diff   →  只列出 translations 中缺失的 key
 - [ ] 人工校对(术语、占位符、长度)
 - [ ] 在真实 Citavi 中端到端验证(语言菜单出现「中文」)
 - [x] CI:校验 TSV 格式、占位符一致、构建产物、打包 zip(Artifact)
-- [x] 自动发布:推送 `v*` 标签自动创建 GitHub Release 并附 zip
+- [x] 自动发布:在 GitHub 上发布 Release 时自动构建并附加 zip(也支持推送 `v*` 标签)
 - [ ] Citavi 升级后的词条 diff 流程
 
 ## 已实现的脚本行为
