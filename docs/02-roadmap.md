@@ -135,3 +135,16 @@ Extract-Resources.ps1 -Diff   →  只列出 translations 中缺失的 key
 | 长文本/富文本 | 含 HTML、`{0}` 占位符 | 翻译规范强制保留占位符;CI 校验 |
 | 版式溢出 | 中文较短一般无碍,个别按钮可能变长 | 抽查截图 |
 | 版权 | 不得分发 Citavi 原始二进制 | `.gitignore` 排除 `reference/`;仅提交译文 |
+
+---
+
+## 第二阶段:中文文献元数据 Add-On
+
+语言包(v0.1)完成后,下一阶段做"中文期刊 DOI 查不到元数据"的问题,详见 **[04-cn-metadata-addon.md](04-cn-metadata-addon.md)**。
+
+- [ ] M1 调研 `ReferenceIdentifierSupport` 可扩展性;搭 Add-On 骨架 + 菜单命令
+- [ ] M2 方案 B:中文 DOI 结构解析(ISSN/年/期)+ 本地 ISSN→刊名表
+- [ ] M3 方案 C:OpenAlex / Crossref 按标题回查
+- [ ] M4 方案 A:WebView2 渲染抓取(万方 / 期刊官网)
+- [ ] M5 批量检索 + 进度/取消 + 缓存 + 日志
+- [ ] M6 Toolkit 打包(语言包 + Add-On 同一发布包)与文档

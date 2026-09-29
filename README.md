@@ -10,6 +10,20 @@
 
 ---
 
+## 项目构成(中文用户 Toolkit)
+
+本项目定位为 **面向中文用户的一站式 Toolkit**,一个发布包含两部分,可**独立安装**:
+
+| 组件 | 作用 | 状态 |
+|---|---|---|
+| **语言包** | Citavi 6 界面简体中文(本仓库主体) | ✅ v0.1 可用 |
+| **中文文献元数据 Add-On** | 解决中文期刊 DOI 查不到元数据的问题 | 📝 [设计稿](docs/04-cn-metadata-addon.md) |
+
+> 中文期刊 DOI(ISTIC/万方注册)在 `doi.org` 上**没有元数据**,Citavi 原生「按 DOI 检索」必然失败。
+> 设计稿分析了根因、数据源与三种实现方案(DOI 结构解析 / WebView2 渲染抓取 / OpenAlex 兜底)。
+
+---
+
 ## 目录
 
 - [效果 / 原理](#效果--原理)
@@ -75,7 +89,9 @@ pwsh ./tools/Install-LanguagePack.ps1 -CitaviBin "C:\Program Files (x86)\Citavi 
 ├─ docs/
 │  ├─ 01-mechanism.md           # 语言机制与反编译证据(核心文档)
 │  ├─ 02-roadmap.md             # 实施计划与流水线设计
-│  └─ 03-translation-guide.md   # 翻译规范与术语表
+│  ├─ 03-translation-guide.md   # 翻译规范与术语表
+│  └─ 04-cn-metadata-addon.md   # 【设计稿】中文文献元数据 Add-On
+├─ addon/                       # 【规划】中文文献元数据 Add-On 源码
 ├─ tools/                       # 构建/提取/安装脚本(骨架,待实现)
 │  ├─ Extract-Resources.ps1
 │  ├─ Build-LanguagePack.ps1
