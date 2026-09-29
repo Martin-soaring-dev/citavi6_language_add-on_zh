@@ -18,11 +18,27 @@ concurrency:
   group: release-${{ github.ref_name }}
   cancel-in-progress: true
 
+env:
+  # 版本号自动跟随 tag:
+  #  - release 事件取 release 的 tag 名
+  #  - tag push 取 ref 名
+  RELEASE_TAG: ${{ github.event.release.tag_name || github.ref_name }}
+
 jobs:
   build-and-attach:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: 确定版本号
+        shell: pwsh
+        run: |
+          $tag = "$env:RELEASE_TAG"
+          $version = $tag -replace '^v',''
+          "TAG     = $tag"
+          "VERSION = $version"
+          "TAG=$tag"         >> $env:GITHUB_ENV
+          "VERSION=$version" >> $env:GITHUB_ENV
 
       - name: 校验译文
         shell: pwsh
@@ -32,11 +48,9 @@ jobs:
         shell: pwsh
         run: ./tools/Build-LanguagePack.ps1
 
-      - name: 打包 zip
+      - name: 打包 zip(版本来自 tag)
         shell: pwsh
-        run: |
-          $v = if ($env:GITHUB_REF_TYPE -eq 'tag') { $env:GITHUB_REF_NAME -replace '^v','' } else { 'dev' }
-          ./tools/Package-Release.ps1 -Version $v -SkipBuild
+        run: ./tools/Package-Release.ps1 -Version $env:VERSION -SkipBuild
 
       - name: 把 zip 附到 Release
         if: startsWith(github.ref, 'refs/tags/') || github.event_name == 'release'
@@ -44,7 +58,8 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          $tag = if ($env:GITHUB_EVENT_NAME -eq 'release') { "${{ github.event.release.tag_name }}" } else { "${{ github.ref_name }}" }
+          $tag = $env:TAG
+          $version = $env:VERSION
           $zip = (Get-ChildItem dist/citavi6-zh-*.zip | Select-Object -First 1).FullName
           Write-Host "Release: $tag  <-  $zip"
 
@@ -54,7 +69,7 @@ jobs:
             gh release upload $tag $zip --clobber
           } else {
             $notes = @"
-          Citavi 6 简体中文语言包(自动构建)。
+          Citavi 6 简体中文语言包 $tag(自动构建)。
 
           安装:把 zip 中的 ``zh`` 文件夹复制到 Citavi 安装目录的 ``bin\`` 下,例如
           ``C:\Program Files (x86)\Citavi 6\bin\zh\``,然后打开 Citavi → 工具 → 语言 → 选择「中文」。
