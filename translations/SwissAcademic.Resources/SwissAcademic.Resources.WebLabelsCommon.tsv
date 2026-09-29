@@ -1,0 +1,296 @@
+Tooltip_MoveKnowledgeItemUp	Move up	上移
+Tooltip_Paragraph	Paragraph settings	段落设置
+ProtocolStartDescriptionHtml	Activity logs can help us figure out what's causing an error to occur. It protocols the actions you took before the problem occurred and in what order. The activity log also includes your Citavi Account ID, which we need in case we have questions. Passwords and other personal information are not transferred.	活动日志可帮助我们查明错误发生的原因。它会记录您在问题发生前执行的操作及其顺序。活动日志还包含您的 Citavi 账户 ID，以备我们有疑问时需要。密码和其他个人信息不会被传输。
+SystemInformation_Device	Device	设备
+ImportProgram	Program	程序
+Tooltip_SearchOptions	Search options	搜索选项
+Offline_NoInternet	No internet connection	无 Internet 连接
+PasswordRequirementNumbers	Numbers	数字
+Working	Working…	处理中…
+Tooltip_Account	Account	账户
+TeamMembers_ChangeRole	Change role	更改角色
+LoggingActivated	Logging has been enabled. <a href="/">Click here to return to the start page.</a>	日志记录已启用。<a href="/">点击此处返回起始页。</a>
+ChangeRole_ReaderDescription	Readers cannot change project data	阅读者无法更改项目数据
+UseHere	Use here	在此使用
+FileUpload_FileTooLarge	The file {0} is too large. The maximum size allowed is {1} MB.	文件 {0} 太大。允许的最大大小为 {1} MB。
+DescribeError	The Citavi team will be informed automatically.	Citavi 团队将自动收到通知。
+AnErrorHasOccurred_1	Your university is not sending an ID	您的大学未发送 ID
+ActivateLoggingButton	Enable logging now	立即启用日志记录
+DeleteProject	Delete project	删除项目
+Tooltip_LastUsedProjects	Recent projects	最近的项目
+Tooltip_CloseChat	Close the chat	关闭聊天
+CitaviWebsite	Citavi Website	Citavi 网站
+Offline_Restored	Connection restored.	连接已恢复。
+Tooltip_EnterPageNumber	Add page number	添加页码
+NotAllowed	Not allowed.	不允许。
+TeamMembers_ResendInvitation	Resend invitation	重新发送邀请
+ProjectUnauthorized	You are not authorized to view this project's properties	您无权查看此项目的属性
+AnErrorHasOccurred	An error has occurred.	发生错误。
+Months	January,February,March,April,May,June,July,August,September,October,November,December	一月,二月,三月,四月,五月,六月,七月,八月,九月,十月,十一月,十二月
+Manual	Manual	手动
+ContactSupport_Word	Writing with Word	使用 Word 写作
+ContactSupport_AddLabels	Adding labels	添加标签
+Tooltip_SaveChanges	Save changes	保存更改
+WhereIsMyLicense	Where can I find my license?	我在哪里可以找到我的许可证？
+Tooltip_MoreKnowledgeItemsNavigation	Edit and other options	编辑及其他选项
+Cancel	Cancel	取消
+HideColumn	Hide	隐藏
+JavascriptModelInitializationFailed	Javascript model could not be initialized.	无法初始化 Javascript 模型。
+AddAttachment	Add files	添加文件
+ContactSupport_ManageLists	Managing lists	管理列表
+ThankYouMessage	We will fix the problem as soon as possible	我们将尽快修复该问题
+Tooltip_JumpToAnnotation	Show in PDF	在 PDF 中显示
+Tooltip_ParentReference	Show parent reference and other contributions	显示父级文献和其他贡献
+NotNow	Not now	暂不
+CitationKeyType_ShortForm	Citation key	引用键
+YourCitaviAccount	Your Citavi Account	您的 Citavi 账户
+ChangeRole_SelectedPersons	Change project role for {0} selected team members:	更改 {0} 位所选团队成员的项目角色：
+Offline_Internet	Internet connection	Internet 连接
+Logout	Log out	注销
+Tooltip_MoveKnowledgeItemDown	Move down	下移
+ProjectPropertiesChangePermissionsLabel	Project properties can only be changed by the project owner or leader.	项目属性只能由项目所有者或负责人更改。
+CitaviSpaceFull	Citavi Space: limit exceeded	Citavi Space：已超出限制
+Tooltip_ShowEditKeywords	Show or edit keywords	显示或编辑关键词
+Definition	Salutation	称呼
+WhoContactPurchase	Who can I contact about a purchase?	关于购买事宜我可以联系谁？
+CreateAccountAnyEmail	Can I create an account with any email address?	我可以使用任意电子邮件地址创建账户吗？
+Tooltip_PreviousPage	Show previous page	显示上一页
+ActivateLoggingDescription	When you click <span class="segoeUiSemibold">Enable logging now</span>, a new tab is opened in your browser.<br/>Please perform the following steps:<br/><ul><li>Fill out the form with your contact information</li><li>Click "Send" to submit the form to our support team.</li><li>Close the form's browser tab and continue your work in Citavi.</li></ul>	当您点击<span class="segoeUiSemibold">立即启用日志记录</span>时，浏览器中会打开一个新选项卡。<br/>请执行以下步骤：<br/><ul><li>填写包含您联系信息的表单</li><li>点击“发送”，将表单提交给我们的支持团队。</li><li>关闭该表单的浏览器选项卡，继续在 Citavi 中工作。</li></ul>
+LoadFailedButton	View solutions	查看解决方案
+ProjectDeleted	The project was deleted.	项目已删除。
+PageMustReload	Refreshing page...	正在刷新页面...
+LeaveProjectConfirm	Do you really want to leave the project <span id="projectLeaveLabel" class="segoeUiSemibold">{0}</span>?<br/><br/>The project owner will not be automatically notified.	您确定要离开项目 <span id="projectLeaveLabel" class="segoeUiSemibold">{0}</span> 吗？<br/><br/>项目所有者不会自动收到通知。
+ThankYou	Thank you for your assistance!	感谢您的帮助！
+ContactSupport_InteractiveTours	Interactive tours	交互式导览
+PageNoLongerAvailable	This confirmation link is no longer available. You either received another email with a new link or you already clicked this link once.<br/><br/>\r\nYou can either close this window or <a href="/account">go to the login page</a>.	此确认链接已失效。您可能收到了包含新链接的另一封邮件，或者已经点击过此链接一次。<br/><br/>\r\n您可以关闭此窗口，或者<a href="/account">前往登录页面</a>。
+JavascriptModelInitializationError	<span class="font18">Login not possible</span><br/><br/><span class="font15">A setting on your computer is preventing the login form from being loaded (<a href="https://www.citavi.com/javascript-model-not-initialized">Details</a>).</span><br/><br/><span class="font12">Internal error message: Javascript model could not be initialized</span>	<span class="font18">无法登录</span><br/><br/><span class="font15">您计算机上的某项设置阻止了登录表单的加载（<a href="https://www.citavi.com/javascript-model-not-initialized">详细信息</a>）。</span><br/><br/><span class="font12">内部错误消息：无法初始化 Javascript 模型</span>
+ProjectRoleType_Manager	Project leader	项目负责人
+ContactSupport_AnnotatingPdfs	Annotating PDFs	为 PDF 添加注释
+ContactSupport_AnnotatingText	Annotating Texts	为文本添加注释
+TelemetryScope_Trace	Send detailed and potentially personally identifiable information	发送详细且可能包含个人身份信息的数据
+Remove	Remove	移除
+ContactSupport_KnowledgeItemTextForm	Adding Thoughts and Quotations	添加想法和引文
+TeamMembersTableHeader_Role	Role	角色
+ProjectColor	Project color	项目颜色
+String	AccessDenied	AccessDenied
+PasswordRequirementMinimum	At least 8 characters	至少 8 个字符
+Tooltip_NextOccurrence	Next result	下一个结果
+ProjectProperties_Title1	Project properties	项目属性
+Send_1	Send	发送
+ContactSupport_WritingAbstractsAndComments	Writing Abstracts and Evaluations	撰写摘要和评价
+YourCitaviTeam	Your Citavi Team	您的 Citavi 团队
+YourCitaviShop	Your Citavi Shop	您的 Citavi 商店
+NoSearchQuery	No search term was entered	未输入搜索词
+YourCitaviStartpage	The Citavi Welcome Screen	Citavi 欢迎屏幕
+ProjectDescriptionPlaceholder	Can remain empty	可以留空
+ContactSupport_ReferenceTypes	What are reference types?	什么是文献类型？
+ProjectRoleType_Author	Author	作者
+CitaviWebRestarts	Citavi Web will now be reloaded.	Citavi Web 即将重新加载。
+TeamMembers_InvitationResent	The invitation has been sent again.	邀请已重新发送。
+ContactSupport_AndOrSelections	Selections with "and/or"	使用“和/或”的选择
+MyUniversityMeans	What does "my university" mean?	“我的大学”是什么意思？
+ImportTitle	Import from other reference management tools	从其他文献管理工具导入
+Offline_NewAttempt	New attempt	重新尝试
+Profile	Profile	个人资料
+EmailAddressIsNotVerified	This email address has been registered but not yet confirmed. Please click the confirmation link in the email we sent you. \r\nNo email? Not even in the Spam folder? <a id="resendVerificationEmailLink">We'll send you a new one!</a>	此电子邮件地址已注册,但尚未确认。请点击我们发送的电子邮件中的确认链接。\r\n没有收到邮件?垃圾邮件文件夹里也没有?<a id="resendVerificationEmailLink">我们会再给您发一封!</a>
+HowToRedeemVoucher	How do I redeem multiple voucher codes?	如何兑换多个优惠券代码?
+CitationKeyType_ShortTitle	Short title	短标题
+Tooltip_YellowHighlight	Highlight text passages without saving as knowledge items.	高亮文本段落但不保存为知识项。
+PageAlreadyOpenHtml	{0} is open in another browser tab or window. Either <br/><div class='tabbed segoeUiSemibold'>close this tab and go back to the other tab</div><div class='clear'></div>or<div class='clear'></div><div class='tabbed segoeUiSemibold'><a>continue working in this tab.</a></div>	{0} 已在另一个浏览器标签页或窗口中打开。您可以 <br/><div class='tabbed segoeUiSemibold'>关闭此标签页并返回另一个标签页</div><div class='clear'></div>或者<div class='clear'></div><div class='tabbed segoeUiSemibold'><a>继续在此标签页中操作。</a></div>
+WhyLicenseDataNotAccepted	Why is Citavi not accepting my license key?	为什么 Citavi 不接受我的许可证密钥?
+AttachmentTooLarge	The file exceeds the maximum size of 1.5 MB	文件超过 1.5 MB 的最大大小
+ProjectName	Name	名称
+AskCitaviTeam	Ask a question	提问
+Tooltip_HideSearchInPdf	Hide search panel	隐藏搜索面板
+Comment	Comment	评论
+HowCanWeHelp_1	How can we help?	我们能为您提供什么帮助?
+StartPage	Homepage	主页
+TeamMembers_Invite	Invite	邀请
+Tooltip_ShowCover	Show cover	显示封面
+QuestionTooLong	Description can contain up to 100 characters	描述最多可包含 100 个字符
+ProtocolSend	Send and stop activity log	发送并停止活动日志
+CreateDemoProject	Open example project	打开示例项目
+Tooltip_TextSelect	Text selection	文本选定范围
+DeleteAll	Delete all notifications	删除所有通知
+Tooltip_AlphabeticalSortedProjects	Sort projects alphabetically	按字母顺序对项目排序
+TeamMembers_Add	Add members	添加成员
+TelemetryScope_None	Do not send any information	不发送任何信息
+TelemetryScope_CEIP	Send anonymous, statistical information only	仅发送匿名统计信息
+ProjectProperties_Title	Project properties	项目属性
+TeamMembers_InvitationSent	The invitation has been sent.	邀请已发送。
+Tooltip_ZoomOut	Zoom out	缩小
+TelemetryScope	Activity log scope	活动日志范围
+ProjectProperties	Properties	属性
+Tooltip_ChatMembers	Team options	团队选项
+SystemInformation_Zoom	Zoom	缩放
+SystemInformation_Copy	Copy	复制
+ProjectRole_RemoveMember	Remove team member	移除团队成员
+Tooltip_ShowEditGroups	Show or edit groups	显示或编辑组
+Details	Details	详细信息
+AccessDenied	You either entered an incorrect URL or you do not have permission to access this project.<br/><br/><a href="javascript:;" id="manualLogoutLink">Login with a different account</a>	您输入的 URL 不正确,或者您没有访问此项目的权限。<br/><br/><a href="javascript:;" id="manualLogoutLink">使用其他帐户登录</a>
+FileUpload_CanUploadOnlyOneFile	Only one file can be uploaded at a time.	一次只能上传一个文件。
+NoJavascript	Javascript needs to be enabled on your browser in order to run Citavi Web.	您的浏览器需要启用 Javascript 才能运行 Citavi Web。
+ProjectRoleReaderDescription	Readers cannot make changes to project information	读者无法更改项目信息
+EmailAddressIsNotVerifiedPasswordReset	This email address was registered but still needs to be confirmed.	此电子邮件地址已注册,但仍需确认。
+ProjectRoleType_Reader	Reader	读者
+ContactSupport_Videos	Videos	视频
+TeamMembers_Remove	Remove	移除
+ContactSupport_RetainingAndOrganizingKnowledge	Retaining and Organizing Knowledge	保存和组织知识
+ProjectDeletedConfirmation	<b>Project deleted</b> <br/> Second thoughts? Restore within ten days using the link in the deletion notification email.	<b>项目已删除</b> <br/> 改变主意了?请在十天内使用删除通知邮件中的链接恢复。
+SearchManual	Search the manual	搜索手册
+ImportFile_WrongContent	The import file does not match the selected import format.<a href="//www.citavi.com/cw/rm-import" target="_blank">More information</a>	导入文件与所选的导入格式不匹配。<a href="//www.citavi.com/cw/rm-import" target="_blank">更多信息</a>
+ContactSupport_BookThroughISBN	Adding books by ISBN	按 ISBN 添加图书
+EmailShort	Email	电子邮件
+RemovePhoto	Delete profile image	删除个人资料图片
+ChoosePhoto	Upload profile image	上传个人资料图片
+Unconfirmed	Unconfirmed	未确认
+SystemInformation_OS	Operating system	操作系统
+ContactSupport_Picker	Using the Pickers	使用选择器
+Mr	Mr.	先生
+ReadSavedFile	Import saved file	导入已保存的文件
+ChangeRole_Title	Change project role	更改项目角色
+Tooltip_FitWidth	Fit to width	适应宽度
+ContactSupport_SearchReferences	Using filters	使用过滤器
+Tooltip_Contribution	Show or add contributions	显示或添加贡献
+ProtocolStarted	The activity log was started.	活动日志已启动。
+ContactSupport_SearchInPdfs	Searching PDFs	搜索 PDF
+Tooltip_Pan	Pan	平移
+Tooltip_JumpToNextAnnotation	Next annotation	下一个批注
+Tooltip_ShowBookmarks	Show bookmarks	显示书签
+Mrs	Ms.	女士
+Email	Email address	电子邮件地址
+DragPhotoHere	Drag image here	将图像拖到此处
+Close	Close	关闭
+CloseHelpPanel	Close help panel	关闭帮助面板
+Feedback	Send us your feedback	向我们发送您的反馈
+LeaveProject	Leave project	退出项目
+FileUpload_DangerousFileFormat	"{0}" has an invalid file format.	"{0}" 的文件格式无效。
+ShibbolethError	The Shibboleth login was successful but license verification failed. Please see this FAQ article: <a href="https://www.citavi.com/shibboleth-error">https://www.citavi.com/shibboleth-error</a>.	Shibboleth 登录成功,但许可证验证失败。请参阅此常见问题解答文章:<a href="https://www.citavi.com/shibboleth-error">https://www.citavi.com/shibboleth-error</a>。
+OtherProgramsManual	See manual for other programs	有关其他程序,请参阅手册
+HelpCitaviOnlineSupport	Customer service and support	客户服务和支持
+Tooltip_ApplyCriteria	Add additional filters or cancel selection	添加其他过滤器或取消选择
+Continue	Continue	继续
+HowCanWeHelp	Additional help	其他帮助
+TeamMembers_Title	Team options	团队选项
+YouCanHelpUs	Here's how you can help us:	您可以通过以下方式帮助我们:
+MaxChars	{0} characters or less	{0} 个字符或更少
+LoadFailed	A setting on your computer is preventing Citavi Account from loading.	您计算机上的某项设置阻止了 Citavi 帐户的加载。
+TeamMembers_DeleteSmart	Do you want to remove the {0:selected team member|{0} selected team members} from the project?	
+TelemetryInitializationFailed	The page could not be initialized. This may be due to a temporary problem with our server. Please try again in 10 minutes.	页面无法初始化。这可能是由于我们服务器的临时问题。请在 10 分钟后重试。
+Tooltip_EditKnowledgeItem	Edit knowledge item	编辑知识条目
+SystemInformation	System information	系统信息
+Question	Question	问题
+InviteProjectMembersMessage	Add a short message (up to 160 characters)	添加简短消息（最多 160 个字符）
+ContactSupport_Create	Adding references	添加文献
+NewProject	New project	新建项目
+SystemInformation_Browser	Browser	浏览器
+ContactSupport_EvaluateReference	Evaluating references	评估文献
+ProjectRoleType_Owner	Owner	所有者
+Tooltip_ZoomIn	Zoom in	放大
+AttachmentAlreadyPresent	This file was already added.	此文件已添加。
+Tooltip_AddReference	Import references or create manually	导入文献或手动创建
+Tooltip_SearchInPdf	Show or hide search panel	显示或隐藏搜索面板
+ProtocolSendThanx	Thank you for helping us improve Citavi!<br/>We appreciate your help.	感谢您帮助我们改进 Citavi!<br/>感谢您的帮助。
+FileUpload_WrongFileFormat	"{0}" has an invalid file format. Please use one of the following formats: {1}	"{0}" 的文件格式无效。请使用以下格式之一:{1}
+PageNotFound	Error 404 <br/>The requested page was not found.	错误 404 <br/>未找到请求的页面。
+ReportError	Send information about this error.	发送关于此错误的信息。
+Tooltip_AddCover	Add cover art	添加封面图片
+InvalidEmailAddress	Invalid email address	电子邮件地址无效
+ContactSupport_Manage	Managing references	管理文献
+AppOpenInAnotherTab	Citavi Web is already open in another tab or browser. Please close this page or continue using it here.	Citavi Web 已在另一个标签页或浏览器中打开。请关闭此页面或在此继续使用。
+Register	Register	注册
+Offline_AutoRetry	Citavi will attempt to reconnect.	Citavi 将尝试重新连接。
+ProvideLicenseToPcs	How can I install licenses on several computers?	如何在多台计算机上安装许可证?
+YourName	Your name	您的姓名
+Tooltip_ReloadList	Reload list	重新加载列表
+Tooltip_RedHighlight	Highlight terms and short text passages and save as knowledge items.	高亮显示术语和短文本段落并保存为知识条目。
+ProtocolStartHead	Did the Citavi Support team ask you to send an activity log?<br/> Then you're in the right place!	Citavi 支持团队是否要求您发送活动日志?<br/> 那您来对地方了!
+Tooltip_FitPage	Fit page to screen	使页面适合屏幕
+CookiesDisabled	Cookies must be enabled in order to use Citavi Web.	必须启用 Cookies 才能使用 Citavi Web。
+Tooltip_Search	Search	搜索
+ContactSupport_Teamwork	Working in a team	在团队中工作
+TeamMembers	Team members	团队成员
+Tooltip_Paperclip	Show PDF attachments	显示 PDF 附件
+Tooltip_Mark	Set or remove circle	设置或移除圆圈
+Tooltip_More	More features	更多功能
+Tooltip_Font	Font	字体
+Tooltip_Flag	Set or remove flag	设置或移除标记
+Tooltip_Help	Help	帮助
+Tooltip_Edit	Edit	编辑
+Tooltip_Redo	Redo	重做
+Tooltip_Send	Send	发送
+Tooltip_Undo	Undo	撤销
+ContactSupport_GroupsVsCategories	Groups vs. categories	组与类别
+HashNotFound	The requested page was not found.	未找到请求的页面。
+ProjectDescription	Description	描述
+NoConfirmationEmailReceived	Where is my confirmation email?	我的确认邮件在哪里?
+ValidUntilMeans	What does "activated until" mean?	"激活至"是什么意思?
+Attachment	Attachment	附件
+InvalidUrl	The provider URL is invalid.	提供商 URL 无效。
+Tooltip_NextPage	Show next page	显示下一页
+ProtocolEnd	Stop activity log.	停止活动日志。
+Tooltip_DeleteAnnotations	Delete annotation	删除注释
+EmailSentLogin	Email sent	邮件已发送
+ChangeRole_AuthorDescription	Authors can change project data	作者可以更改项目数据
+TeamMembers_ConfirmRemove	Do you want to remove {0:the selected team member|the {0} selected team members} from the project?	
+ChangeRole_ManagerDescription	Project leaders can make changes to project information and the project team	项目负责人可以更改项目信息和项目团队
+HasNotCitaviLicenseToOpenProject	You cannot open this project because you do not have a valid license. For more details, check <a href="https://citaviweb.citavi.com/account" target="_blank">https://citaviweb.citavi.com/account</a>.	您无法打开此项目,因为您没有有效的许可证。有关更多详细信息,请查看 <a href="https://citaviweb.citavi.com/account" target="_blank">https://citaviweb.citavi.com/account</a>。
+Tooltip_RecycleBin	Move to recycle bin	移到回收站
+TermsOfUsage	Terms of use	使用条款
+Loading	Loading…	正在加载……
+Tooltip_LinkAnnotation	Link selected text	链接选中的文本
+ContactSupport_RssFeeds	Using RSS feeds	使用 RSS 源
+ChangeRole_Cancel	Cancel	取消
+Message	Message	消息
+DataProtection	Privacy information	隐私信息
+ExternalProviderAlreadyPresent	The external provider could not be added. <a id='externalProviderFailed'>Why not?</a>	无法添加外部提供商。<a id='externalProviderFailed'>为什么?</a>
+TeamMembersTableHeader_Confirmed	Confirmed	已确认
+WhichData	What information is shared with Citavi, Facebook, Google, Microsoft?	与 Citavi、Facebook、Google、Microsoft 共享哪些信息?
+ProjectRoleManagerDescription	Project leaders can make changes to project information and the project team	项目负责人可以更改项目信息和项目团队
+ProjectRoleAuthorDescription	Authors can make changes to project information	作者可以修改项目信息
+SystemInformation_Screen	Screen	屏幕
+ContactSupport_RecycleBin	Using the recycle bin	使用回收站
+Tooltip_PreviousOccurrence	Previous result	上一个结果
+ContactSupport_AddKeywords	Adding keywords	添加关键词
+Tooltip_AddKnowledgeItem	Add knowledge item	添加知识条目
+ConsoleWarning	This browser feature is meant for developers only. If someone told you to copy something here to enable a Citavi feature or to gain access to someone else's data, it's a scam to gain access to your Citavi account.	此浏览器功能仅供开发人员使用。如果有人让您在此处复制某些内容以启用 Citavi 功能或访问他人的数据,那是为了获取您 Citavi 帐户访问权限的骗局。
+PasswordRequirementLowercase	Lowercase letters	小写字母
+PasswordRequirementUppercase	Uppercase letters	大写字母
+FileUpload_WrongFileFormat_Image	"{0}" has an invalid file format. Only image files are allowed.	"{0}" 的文件格式无效。仅允许图像文件。
+ProtocolStart	Start an activity log	启动活动日志
+Tooltip_HideCover	Hide cover	隐藏封面
+SupportRequestSuccessful	Thank you for your support request. We will get back to you within two working days. 	感谢您的支持请求。我们将在两个工作日内回复您。
+ProtocolEnded	Activity logging was stopped.	活动日志记录已停止。
+TeamMembersTableHeader_FullName	Name	名称
+Offline_Reconnecting	Reconnecting...	正在重新连接...
+ContactSupport_Order	Organizing references	组织文献
+ContactSupport_Latex	Writing with LaTeX	使用 LaTeX 写作
+TeamMembers_EmailError	One or more entered email addresses are not valid.	一个或多个输入的电子邮件地址无效。
+Tooltip_ShowEditCategories	Show or edit categories	显示或编辑类别
+Tooltip_EntityInfo	Date created and date modified	创建日期和修改日期
+HelpUsFindError	Please help us find the error!	请帮助我们找到错误!
+Tooltip_JumpToPreviousAnnotation	Previous annotation	上一个注释
+ProtocolEndDescription	Please include a description of the steps leading to the error or any other helpful observations. We will respond as soon as we can.	请描述导致该错误的步骤或任何其他有用的观察结果。我们会尽快回复。
+MergeAccounts	Merge accounts	合并账户
+ContactSupport_GoogleDocs	Writing with Google Docs	使用 Google Docs 写作
+CopiedToClipboard	Copied to Clipboard	已复制到剪贴板
+HideAll	Hide all notifications	隐藏所有通知
+CitaviSpaceFullDescription	You've exceeded your limit of Citavi Space. You can no longer save additional attachments online.<br/><br/>Delete attachments you no longer need to free up space.<br/><br/>Purchase additional Citavi Space <a class="box_link" id="citaviSpaceLink">here</a>.	您已超出 Citavi Space 的限制。您无法再在线保存其他附件。<br/><br/>删除不再需要的附件以释放空间。<br/><br/>在<a class="box_link" id="citaviSpaceLink">此处</a>购买更多 Citavi Space。
+HowToGetHelp	Where can I get assistance?	我在哪里可以获得帮助?
+ShowColumn	Show	显示
+AskQuestionHere	Enter your search term	输入搜索词
+WhatIsVoucher	What is a license voucher code?	什么是许可证优惠券代码?
+Tooltip_MoreKnowledgeItemSelecteds	Recycle and other options	回收及其他选项
+FileUpload_WrongFileFormat_Zip	"{0}" has an invalid file format. Only ZIP files are allowed.	"{0}" 的文件格式无效。仅允许 ZIP 文件。
+OrDragInThisField	Drag and drop	拖放
+ProjectNameError	The project name contains invalid characters	项目名称包含无效字符
+CostCitaviAccount	Do I have to pay for an account?	我需要为帐户付费吗?
+NewProjectName	Name of the new project	新项目名称
+Tooltip_DownloadChat	Download chat history	下载聊天记录
+Days	Su,Mo,Tu,We,Th,Fr,Sa	日,一,二,三,四,五,六
+Max3	(maximum of three)	(最多三个)
+Back	Back	返回
+Info	Info	信息
+Name	Name	名称
+Send	Send message	发送消息
+TeamMembers_EmailFieldDescription	Enter email addresses to invite other team members	输入电子邮件地址以邀请其他团队成员

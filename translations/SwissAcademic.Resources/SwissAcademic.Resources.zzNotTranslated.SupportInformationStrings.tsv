@@ -1,0 +1,71 @@
+WinwordAddinsList	Currently Installed Add-Ins	当前已安装的加载项
+WinwordTrustedLocationList	List of Trusted Locations	受信任位置列表
+WordAddInTitle	WAI	WAI
+WinwordInterfaceLanguage	Interface Language	界面语言
+CitaviProjectReferencesCount	Titles	标题
+OSBuildNumber	Build Number	内部版本号
+CitaviCoversPath	Covers Folder (Resolved)	封面文件夹（已解析）
+OSMajorVersion	Major Version	主版本号
+CitaviProjectTitle	CITAVI CURRENT PROJECT	CITAVI 当前项目
+CitaviProjectCategoriesCount	Categories	分类
+WinwordCompatibilityMode	Document Compatibilty Mode	文档兼容模式
+Http10	Http 1.0	Http 1.0
+OSCurrentVersion	Version	版本
+WinwordInformationTitle	MICROSOFT WORD	Microsoft Word
+OSVersion	Windows Version	Windows 版本
+WordAddInVersion	Word Add-In Version	Word 加载项版本
+CitaviProjectFilePath	Path	路径
+OSReleaseId	Release ID	发行版 ID
+CitaviAttachmentsPathProjectSetting	Attachments Folder (Project Setting)	附件文件夹（项目设置）
+DefaultWordProcessorTitle	DEFAULT WORD PROCESSOR	默认文字处理程序
+WinwordAppstore	Word installed from Microsoft Store	Word 从 Microsoft Store 安装
+WinwordTrustcenterSettings	Trust Center Settings	信任中心设置
+NetworkInformation	Network Status	网络状态
+GoogleChromeVersion	Google Chrome Version	Google Chrome 版本
+WinwordPathInstance	Word Path (Version from Instance)	Word 路径（实例中的版本）
+CitaviIsPlaceholdersFeatureAllowed	US Version	美国版本
+WinwordAddinsInformationTitle	MICROSOFT WORD ADD-INS	MICROSOFT WORD 加载项
+DefaultWordProcessor	Default Word Processor	默认文字处理程序
+OSProductName	Product Name	产品名称
+CitaviBackupFolderPath	Backup Folder	备份文件夹
+WinwordVersionCurVer	Word Version according to Registry	注册表中的 Word 版本
+SystemInformationTitle	SYSTEM	系统
+WebProxy	Proxy	代理
+WinwordPathCurVer	Word Path (Version from Registry)	Word 路径（注册表中的版本）
+SupportInfoFileName	Citavi Support-Infos {0}	Citavi 支持信息 {0}
+WebserviceCheck	Webservice Check	Web 服务检查
+WinwordVBAInfo	VBA Installation	VBA 安装
+CitaviUserSettingsPath	User Files Folder	用户文件文件夹
+CitaviFoldersTitle	CITAVI FOLDERS	CITAVI 文件夹
+WinwordBuildNumber	Word Build Number	Word 内部版本号
+OSInstallLanguage	Installation Language	安装语言
+WinwordTrustedLocationNetwork	Network paths are allowed?	是否允许网络路径？
+WinwordVersionInstance	Word Version according to Word	Word 显示的版本
+CitaviInstallPath	Citavi Installation Path	Citavi 安装路径
+WordAddInFilesList	Word Add-In Files	Word 加载项文件
+OSCurrentLanguage	OS Current Language	操作系统当前语言
+OSEdition	Edition	版次
+CitaviAttachmentsPath	Attachments Folder	附件文件夹
+OSMinorVersion	Minor Version	次版本号
+WordAddInLoadBehavior	Word Add-In LoadBehavior Settings	Word 加载项 LoadBehavior 设置
+WinwordBitness	Bitness	位数
+WordVersion	Word Version	Word 版本
+FirefoxVersion	Firefox Version	Firefox 版本
+WinwordAddinsDisabledList	Disabled Add-Ins	已禁用的加载项
+InternetExplorerVersion	Internet Explorer Version	Internet Explorer 版本
+CitaviAttachmentsPathResolved	Attachments Folder (Resolved)	附件文件夹（已解析）
+CitaviBuildNumber	Citavi Build Number	Citavi 内部版本号
+CitaviLicence	Citavi Licence	Citavi 许可证
+BrowserInformationTitle	BROWSER	浏览器
+WinwordSaveFormat	Word Document Default Format	Word 文档默认格式
+OSAntivirus	Installed Antivirus Solution	已安装的防病毒软件
+InternetInformationTitle	CITAVI INTERNET CONNECTIVITY	CITAVI 互联网连接
+CitaviInformationTitle	CITAVI	Citavi
+CitaviProjectKeywordsCount	Keywords	关键词
+WinwordTrustedLocationSettings	Trusted Locations	受信任位置
+OSIs64bit	64bit Operating System	64 位操作系统
+WinwordTrustedLocationDisabled	All trusted locations are disabled?	是否已禁用所有受信任位置？
+WinwordDocumentFormat	Default Document Format	默认文档格式
+WindowsSID	Windows SID	Windows SID
+OSCurrentUILanguage	OS Current UI Language	操作系统当前界面语言
+OSSystemRoot	Windows Root Path	Windows 根路径

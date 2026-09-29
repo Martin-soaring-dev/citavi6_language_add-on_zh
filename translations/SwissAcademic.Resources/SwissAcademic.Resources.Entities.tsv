@@ -1,0 +1,301 @@
+KnowledgeItem_QuotationType	Quotation type	引文类型
+Person_Suffix	Suffix	后缀
+Reference_ArxivId	arXiv ID	arXiv ID
+Keyword_KnowledgeItems	Knowledge items	知识条目
+CommonProperty_ModifiedByCitaviUserName	Modified by Citavi user	由 Citavi 用户修改
+KnowledgeItem_EndPage	End page	结束页
+Category_Classification	Classification	分类
+Location_Unknown	Unknown	未知
+KnowledgeItem_TextIsComplex	Complex text formatting	复杂文本格式
+TaskItem_Notes	Notes	笔记
+TaskItem_State	Status	状态
+EntityLink_Target	Link to	链接到
+Reference_PmcId	PMCID	PMCID
+Reference_Price	Price	价格
+Reference_Tasks	Tasks	任务
+Reference_Title	Title	标题
+Reference_Cover	Cover art	封面图片
+Location_MirrorsReferenceOnlineAddress	Mirrors the reference's online address	镜像文献的在线地址
+Reference_Date2	Date 2	日期 2
+Reference_Eisbn	EISBN	EISBN
+Reference_Notes	Notes	笔记
+Reference_Language	Language	语言
+Reference_TitleSupplementTagged	Title supplement (with formatting tags)	标题补充（带格式标记）
+Reference_ModifiedBy	Modified by	修改者
+Library_Priority	Priority	优先级
+Reference_TableOfContentsSourceTextFormat	Table of contents format	目录格式
+KnowledgeItem_SourceTextFormat	Text format	文本格式
+Reference_Authors	Author	作者
+EntityLink_Source	Link from	链接自
+Person_Prefix	Prefix	前缀
+KnowledgeItem	Knowledge item	知识条目
+Person_Notes	Notes	笔记
+Reference_EvaluationRtf	Evaluation	评估
+KnowledgeItem_EndPageFormatted	End page (formatted)	结束页（已格式化）
+Person_Title	Title	标题
+Keyword_Notes	Notes	笔记
+Library_Locations	Locations	位置
+Reference_SourceOfBibliographicInformation_Short	Source	来源
+KnowledgeItem_Categories	Categories	分类
+Publisher_Protected	Protected	受保护
+Reference_OriginalCheckedBy_Short	Original checked	原件已核对
+Keyword_Name	Name	名称
+SeriesTitle_Notes	Notes	笔记
+Groups	Groups	组
+CommonProperty_ModifiedByWindowsUserName	Modified by Windows user	由 Windows 用户修改
+Reference_Groups	Groups	组
+TaskItems	Tasks	任务
+References	References	文献条目
+Reference_PageRangeNumberingType	Page range numbering type	页码范围编号类型
+Periodicals	Periodicals	期刊
+Reference_SourceOfBibliographicInformation	Source of bibliographic information	书目信息来源
+Reference_StartPage	Start page	起始页
+CommonProperty_CreatedBy_Short	Created by	创建者
+Reference_Affiliation	Affiliation	隶属机构
+TaskItem_Name	Task	任务
+Reference_OthersInvolved	Others involved	其他参与人
+Keyword_References	References	文献条目
+KnowledgeItem_Address	File location	文件位置
+Reference_PlaceOfPublication	Place of publication	出版地
+Reference_Number	Number	编号
+Library_Notes	Notes	笔记
+Reference_Publishers	Publisher	出版社
+Reference_FullName	Full reference	完整文献
+Reference_Label2	Red label	红色标签
+Reference_Label1	Blue label	蓝色标签
+Person_LastName	Last name	姓氏
+Reference_TitleSupplement	Title supplement	标题补充
+Account_EMail	Email	电子邮件
+SeriesTitle_Editors	Editor	编辑
+Person_FirstName	First name	名
+ImportGroups	Import groups	导入分组
+KnowledgeItem_ModifiedBy	Modified by	修改者
+Location_Library	Library	图书馆
+Group_KnowledgeItems	Knowledge items	知识条目
+Group_Notes	Notes	笔记
+Reference	Reference	参考文献
+TaskItem_AssignedOnTo	Assigned to/on	分配给/时间
+TaskItem_CreatedBy	Created by	创建者
+TaskItem_CreatedOn	Created on	创建日期
+Role_Name	Name	名称
+ImportGroup_Notes	Notes	笔记
+Location_PrivateCollectionAddress	Private Collection location	私人收藏位置
+Thoughts	Thoughts	想法
+Reference_AuthorsOrEditors	Author or editor	作者或编者
+CommonProperty_CreatedBy	Created by	创建者
+CommonProperty_CreatedOn	Created	创建时间
+KnowledgeItem_QuotationIndex	Quotation index	引文索引
+Location_CallNumber	Call number	索书号
+Reference_TranslatedTitle	Translated title	译名
+Reference_EvaluationSourceTextFormat	Evaluation format	评估格式
+Libraries	Libraries	图书馆
+ImportGroup_ImportGroupType	Import group type	导入分组类型
+Reference_Editors	Editors	编者
+Reference_Edition	Edition	版次
+TaskItem_AssignedOn	Assigned on	分配时间
+TaskItem_AssignedTo	Assigned to	分配给
+ProjectTaskItems	Project tasks	项目任务
+Location_LocationType	Type of location	位置类型
+Reference_TitleInOtherLanguages_Short	In other languages	其他语言
+Person	Person or organization	个人或组织
+Reference_PageCount	Page count	页数
+Reference_PageRange	Page range	页码范围
+CommonProperty_Notes	Notes	笔记
+Category	Category	分类
+ImportGroup	Import group	导入分组
+KnowledgeItem_Keywords	Keywords	关键词
+Location_Address	Address	地址
+Reference_PageRangeNumeralSystem	Page range numeral system	页码范围数字系统
+Reference_PubMedId	PubMed ID	PubMed ID
+CommonProperty_ModifiedBy_Short	Modified by	修改者
+Thought	Thought	想法
+Reference_ReferenceType	Reference type	文献类型
+KnowledgeItem_TextHtml	Text (HTML)	文本 (HTML)
+KnowledgeItem_NumberingType	Numbering type	编号类型
+Reference_Year	Year	年份
+Reference_Date	Date	日期
+Reference_Isbn	ISBN	ISBN
+Reference_None	(None)	(无)
+Person_MiddleName	Middle name(s)	中间名
+ReferenceTypes	Reference types	参考文献类型
+Persons	Persons and organizations	个人与组织
+CommonProperty_ModifiedByCitaviUserId	Modified by Citavi user ID	修改者 Citavi 用户 ID
+KnowledgeItem_CoreStatementUpdateType	Core statement update type	核心论述更新类型
+Reference_OriginalCheckedBy	Original checked by/on	原文核对人/时间
+Publishers	Publishers	出版社
+Reference_Organizations	Organization	组织
+Reference_Additions	Additions	补充信息
+Reference_EndPage	End page	结束页
+Reference_Categories	Categories	分类
+Reference_TitleTagged	Title (with formatting tags)	标题(含格式标记)
+Reference_FileLink	Local file	本地文件
+TaskItem_Importance	Importance	重要性
+Person_SeriesTitles	Series	系列
+KnowledgeItem_Text	Text	文本
+Reference_EndPageFormatted	End page (formatted)	结束页（已格式化）
+Role_Permissions	Permissions	权限
+Account_Role	Role	角色
+Reference_AbstractSourceTextFormat	Abstract format	摘要格式
+Reference_EvaluationIsComplex	Evaluation has complex text formatting	评估具有复杂的文本格式
+Reference_FirstFootnoteCitationNumber	First footnote number	首个脚注编号
+KnowledgeItem_StartPage	Start page	起始页
+Reference_FormattedReference	Formatted reference	带格式的参考文献
+Location_Uri	URI	URI
+Keywords	Keywords	关键词
+Annotations	PDF annotations	PDF 注释
+CommonProperty_Name	Name	名称
+Periodical_References	References	文献条目
+Reference_TitleInOtherLanguages	Title in other languages	其他语言标题
+Person_LastNameForSorting	Sort by	排序方式
+Account_Password	Password	密码
+Reference_PageCountNumeralSystem	Page count numeral system	页数数字系统
+CommonProperty_NumberOfAssignedReferences	Number	编号
+CommonProperty_CreatedByCitaviUserId	Created by Citavi user ID	创建者 Citavi 用户 ID
+Group_References	References	文献条目
+Category_References	References	文献条目
+Reference_Periodical	Periodical	期刊
+Reference_DefaultLocation	Last location shown	上次显示位置
+KnowledgeItem_NumeralSystem	Numeral system	数字系统
+EntityLinks	Links	链接
+Person_Sex	Gender	性别
+Group	Group	分组
+Publisher_Notes	Notes	笔记
+Reference_Evaluation	Evaluation	评估
+Reference_ExternalLinks	External links	外部链接
+KnowledgeItem_KnowledgeItemType	Knowledge item type	知识条目类型
+Role_Notes	Notes	笔记
+Publisher	Publisher	出版社
+Reference_CoverPath	Path to cover art	封面图片路径
+Reference_CustomField1	Custom field 1	自定义字段 1
+Reference_CustomField2	Custom field 2	自定义字段 2
+Reference_CustomField3	Custom field 3	自定义字段 3
+Reference_CustomField4	Custom field 4	自定义字段 4
+Reference_CustomField5	Custom field 5	自定义字段 5
+Reference_CustomField6	Custom field 6	自定义字段 6
+Reference_CustomField7	Custom field 7	自定义字段 7
+Reference_CustomField8	Custom field 8	自定义字段 8
+Reference_CustomField9	Custom field 9	自定义字段 9
+KnowlegeItem_TextRtf	Text (RTF)	文本 (RTF)
+Reference_ChildReferences	Child references	子参考文献
+Reference_BibTeXKey	BibTeX key	BibTeX 键
+Location_Reference	Reference	参考文献
+Location_FullText	Full text	全文
+CommonProperty_Id	ID	ID
+Reference_QuotationPageRange	Quotation page range	引文页码范围
+SeriesTitle_Name	Name	名称
+Reference_TableOfContentsIsComplex	Table of contents has complex text formatting	目录具有复杂的文本格式
+SeriesTitle_StandardAbbreviation	Abbreviation 1	缩写 1
+KnowledgeItem_PageRange	Page range	页码范围
+SeriesTitle_UserAbbreviation1	Abbreviation 2	缩写 2
+SeriesTitle_UserAbbreviation2	Abbreviation 3	缩写 3
+Reference_SubitleTagged	Subtitle (with formatting tags)	副标题(含格式标记)
+Group_DisplayType	Show in	显示于
+Reference_AuthorsOrEditorsOrOrganizations	Author, editor or organization	作者、编者或组织
+TaskItem	Task	任务
+TaskItem_HasPdfTaskItemLink	Linked with PDF	已链接 PDF
+KnowledgeItem_Groups	Groups	组
+SeriesTitle_References	References	文献条目
+Locations	Locations	位置
+Reference_ShortTitleUpdateType	Short title update	短标题更新
+Reference_TableOfContentsRtf	Table of Contents	目录
+TaskItem_Reference	Reference	参考文献
+EntityLink_TargetData	Page/chapter	页/章
+Reference_Abstract	Abstract	摘要
+Reference_ParallelTitle	Parallel title	并列标题
+Periodical_StandardAbbreviation	Abbreviation 1	缩写 1
+Reference_EditionNumberResolved	Edition number derived	版次号(推导)
+SeriesTitle	Series	系列
+Reference_ShortTitle	Short title	短标题
+Reference_AbstractIsComplex	Abstract has complex text formatting	摘要具有复杂的文本格式
+CommonProperty_CreatedByWindowsUserName	Created by Windows user	创建者 Windows 用户
+CommonProperty_CreatedOn_Short	Created	创建时间
+Library	Library	图书馆
+ImportGroup_References	References	文献条目
+Periodical	Periodical	期刊
+Reference_TableOfContents	Table of contents	目录
+Reference_IndexInBibliography	Index in bibliography	参考文献中的索引
+Keyword	Keyword	关键词
+Categories	Categories	分类
+Reference_ParentReference	Parent reference (in:)	父参考文献(in:)
+KnowledgeItem_ImageDescription	Image description	图片描述
+Reference_YearResolved	Year derived	年份(推导)
+SeriesTitles	Series	系列
+Reference_AccessDate	Access date	访问日期
+ReferenceTaskItems	Reference tasks	文献任务
+Reference_NumberOfVolumes	Number of volumes	卷数
+Reference_StorageMedium	Storage medium	存储介质
+CommonProperty_FullName	Full name	全名
+Reference_Subtitle	Subtitle	副标题
+Reference_SeriesTitle	Series	系列
+CommonProperty_CreatedBySid	Created by Windows SID	创建者 Windows SID
+Reference_Collaborators	Collaborators	合著者
+Person_References	References	文献条目
+KnowledgeItem_File_CoreStatement	Caption	标题
+Reference_SeriesTitleEditors	Series editors	丛书编者
+Publisher_References	References	文献条目
+EntityLink_RelationType	Type of link	链接类型
+Category_Level	Level	层级
+Reference_SpecificField3	Specific field 3	特定字段 3
+Reference_SpecificField2	Specific field 2	特定字段 2
+Reference_SpecificField1	Specific field 1	特定字段 1
+Reference_SpecificField7	Specific field 7	特定字段 7
+Reference_SpecificField6	Specific field 6	特定字段 6
+Reference_SpecificField5	Specific field 5	特定字段 5
+Reference_SpecificField4	Specific field 4	特定字段 4
+EntityLink_Notes	Note	注释
+Periodical_Notes	Notes	笔记
+Periodical_Eissn	eISSN	eISSN
+Person_Abbreviation	Abbreviation	缩写
+KnowledgeItems	Knowledge items	知识条目
+ReferenceType_NameLocalized	Name (localized)	名称(本地化)
+Reference_StartPageFormatted	Start page (formatted)	起始页(带格式)
+CommonProperty_ModifiedBy	Modified by	修改者
+CommonProperty_ModifiedOn	Modified	修改时间
+Reference_OriginalPublication	Original publication	原始出版物
+Reference_CitationKey	Citation key	引用键
+Reference_CitationKeyUpdateType	Citation key update type	引用键更新类型
+Category_Path	Path	路径
+Reference_TextLinks	Additional links	其他链接
+Location_AddressUri	Address URI	地址 URI
+Reference_Translators	Translator	译者
+Reference_Locations	Locations	位置
+CommonProperty_CreatedByCitaviUserName	Created by Citavi user	创建者 Citavi 用户
+Reference_AbstractHtml	Abstract	摘要
+TaskItem_ModifiedBy	Modified by	修改者
+TaskItem_ModifiedOn	Modified on	修改时间
+Annotation	PDF annotation	PDF 注释
+Reference_Keywords	Keywords	关键词
+EntityLink	Link	链接
+Location_SkipPreviewEntryPage	Always preview this location immediately	始终立即预览此位置
+Reference_UniformTitle	Uniform title	统一题名
+Periodical_UserAbbreviation1	Abbreviation 2	缩写 2
+Periodical_UserAbbreviation2	Abbreviation 3	缩写 3
+KnowledgeItem_CoreStatement	Core statement	核心论述
+Reference_HasLabel1	Has blue label	有蓝色标签
+Reference_HasLabel2	Has red label	有红色标签
+Reference_TableOfContentsHtml	Table of contents	目录
+Group_Name	Name	名称
+Reference_Rating	Rating	评分
+Keyword_Protected	Protected	受保护
+Publisher_Name	Name	名称
+Reference_EvaluationHtml	Evaluation	评估
+TaskItem_DueDate	Due date	截止日期
+Reference_AbstractRtf	Abstract	摘要
+Reference_Suffix	Suffix	后缀
+Quotations	Quotations, summaries, comments	引文、摘要、评论
+Reference_Prefix	Prefix	前缀
+Role_Accounts	Accounts	账户
+CommonProperty_ModifiedBySid	Modified by  Windows SID	修改者 Windows SID
+Reference_Doi	DOI name	DOI 名称
+ReferenceType	Reference type	文献类型
+EntityLink_SourceData	Pages	页码
+Location	Location	位置
+Reference_Volume	Volume	卷
+KnowledgeItem_Reference	Reference	参考文献
+Library_Abbreviation	Abbreviation	缩写
+Periodical_Issn	ISSN	ISSN
+KnowledgeItem_StartPageFormatted	Start page (formatted)	起始页(带格式)
+Reference_OnlineAddress	Online address	在线地址
+KnowledgeItem_Relevance	Relevance	相关性
+Reference_Quotations	Quotations	引文
+CommonProperty_ModifiedOn_Short	Modified	修改时间

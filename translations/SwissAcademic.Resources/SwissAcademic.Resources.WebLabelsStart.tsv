@@ -1,0 +1,88 @@
+AddIns_Criteria	Add-Ins	加载项
+FeedsAreLoadedOverHttps	Feed will be loaded over https://	订阅源将通过 https:// 加载
+AddIns_Picker_Description	The Citavi Picker for {0} lets you add online content to your Citavi projects.	适用于 {0} 的 Citavi Picker 可让您将在线内容添加到您的 Citavi 项目中。
+NavigationBar_Projects	Projects	项目
+AddInsInstallationInstructions	See the manual for more information on installing the add-ins.	有关安装加载项的详细信息，请参阅手册。
+OpenProject	Create project	创建项目
+Tooltip_MarkAsRead	Hide	隐藏
+AddIns	Add-Ins for Microsoft Word and Google Docs	适用于 Microsoft Word 和 Google Docs 的加载项
+CitaviWebsite	Citavi website	Citavi 网站
+CurrentProjects	Projects	项目
+Others_FirstPublicationYear	Year derived includes Original publication (for citations)	年份推算包含原始出版物（用于引文）
+Delete	Delete	删除
+Import_Others	Another reference management program	其他文献管理程序
+Manual	Manual	手动
+CitaviNewsArchive	Citavi news archive	Citavi 新闻存档
+RSSFeedUrl	Subscribe to feed:	订阅源：
+AddIns_Picker_Install	Install the Picker	安装 Picker
+Orange	Orange	橙色
+Others	Other settings	其他设置
+Logout	Log out	注销
+DeleteFeed	This feed and all of its \r\nmessages will be deleted. \r\nThis action cannot be undone. \r\nDo you want to continue?	此订阅源及其所有 \r\n消息都将被删除。 \r\n此操作无法撤销。 \r\n是否继续？
+AddInsDescription	Automatically format your citations and bibliography according to the citation style you select.	根据您选择的引文样式自动设置引文和参考文献的格式。
+ShareProjectLabel	Share project	共享项目
+ProjectNameIsWrong	Incorrect project name.	项目名称不正确。
+InstallPicker	Install the Picker	安装 Picker
+RSSHiddenNewsVisibleAgain	Hidden messages successfully marked as unread.	已成功将隐藏的消息标记为未读。
+AskQuestion	Ask a question…	提问……
+RSSFeedLoadError	Some feeds could not be loaded	部分订阅源无法加载
+WhyNot	Why not?	为何不可？
+ProjectOwner	Project owner	项目所有者
+Saving	Saving…	正在保存…
+Picker	Citavi Picker for your browser	适用于您浏览器的 Citavi Picker
+Profile	Profile	个人资料
+ProjectManager	Project leader	项目负责人
+LastUsedProjects	Recent projects	最近的项目
+ImportReferencesStart	The reference is being imported. You will be notified once the import is complete.	正在导入文献。导入完成后将通知您。
+ImportReferencesEnd	<b>Reference imported.</b><br />Click <a>here</a> to display.	<b>文献已导入。</b><br />单击<a>此处</a>显示。
+Language	Language	语言
+IsDesktopDefinition	Citavi will use your settings from Citavi for Windows.	Citavi 将使用您在 Citavi for Windows 中的设置。
+ResetReadNews	Show hidden RSS messages	显示隐藏的 RSS 消息
+MoreInfoInManual	See the manual for more information.	更多信息请参阅手册。
+RSSSubscribedFeeds	My feeds:	我的订阅源：
+AddIns_WordAssistant_Description	With the Citavi Word Assistant, you can insert quotations and citations into your Word document. A bibliography is created automatically in the citation style of your choice.	使用 Citavi Word 助手，您可以将引语和引文插入到 Word 文档中。系统会自动按您选择的引文样式创建参考文献。
+DeleteProjectConfirmationProjectName	Please enter the project name for confirmation:	请输入项目名称以确认：
+RSSError	Error	错误
+RSSFeeds	RSS feeds	RSS 订阅源
+CurrentProjectsAZ	Projects A-Z	项目 A-Z
+Add	Add	添加
+Why	Why?	为什么？
+Red	Red	红色
+Green	Green	绿色
+Brown	Purple	紫色
+ProjectIsBeingCreated	<b>Creating project</b>	<b>正在创建项目</b>
+Tooltip_Import	Import	导入
+DownloadCitaviForWindows	Download Citavi for Windows	下载适用于 Windows 的 Citavi
+RSSShowHiddenNews	Show hidden RSS messages	显示隐藏的 RSS 消息
+Others_FirstPublicationYear_Description	When this option is selected, Year derived first checks whether a year is present in the Original publication field (of the reference or its parent reference) and uses it if present.	选中此选项后，年份推算会先检查原始出版物字段（该文献或其父文献的字段）中是否存在年份，如果存在则使用该年份。
+RSSFeedAlreadyPresent	RSS feed URL already exists	RSS 订阅源 URL 已存在
+AddIns_WordAssistant	Word Assistant	Word 助手
+PickerDescription	Save references and quotations you find online in your project.	将您在网上找到的文献和引语保存到项目中。
+ImportInWhichProject	Which project would you like to import the reference into?	您要将文献导入哪个项目？
+NavigationBar_Settings	Add-Ins and Settings	加载项和设置
+InvalidUrl	Invalid URL	URL 无效
+ProjectCouldNotBeCreated	The project could not be created. Please try again.	无法创建项目。请重试。
+RSSSettings	RSS settings	RSS 设置
+TermsOfUsage	Terms of use	使用条款
+Loading	Loading…	正在加载……
+SplitterTrigger_Projects_Left	Selection	选择
+DataProtection	Privacy policy	隐私政策
+ShareProject	Team options	团队选项
+ProjectSuccessfullyCreated	<b>Project created.</b><br/>Click <a>here</a> to open.	<b>项目已创建。</b><br/>单击<a>此处</a>打开。
+DeleteProjectConfirmation	Do you really want to delete the project {0} and all its attachments?	您确实要删除项目 {0} 及其所有附件吗？
+AddIns_WordAssistant_Install	Install the Word Assistant	安装 Word 助手
+FeedRSS	RSS feed	RSS 订阅源
+MoreInfo	Learn more	了解详情
+ShowNoMore	Don't show again	不再显示
+RSSFeedUrlPlaceholder	Feed URL	订阅源 URL
+MergeAccounts	Merge accounts	合并账户
+HttpsUrlRequired	URL should begin with "https://"	URL 应以“https://”开头
+AskQuestionHere	Ask a question here…	在此提问…
+MissingInput	Missing entry	缺少条目
+Countdown	Remaining time: {0} seconds	剩余时间：{0} 秒
+Gray	Gray	灰色
+Blue	Blue	蓝色
+Next	Next	下一步
+News	News	新闻
+Undo	Undo	撤销
+Help	Help	帮助

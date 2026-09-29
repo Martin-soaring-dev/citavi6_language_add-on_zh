@@ -1,0 +1,176 @@
+ReferenceGridForm	Table View	表视图
+OrderedListDialog	Numbering	编号
+ReferenceIdentifierDownloadOptionsDialog_PubMedId	Retrieve by PubMed ID	通过 PubMed ID 获取
+TemplateConditionDialog	Template Conditions	模板条件
+HelpInformationForm	About This Quick Help Text	关于此快速帮助文本
+CreateTaskListDialog	Task List	任务列表
+OrganizationSettingsAdminDialog	Manage organizational settings	管理组织设置
+LocalFileMoreOptionsDialog	More Options	更多选项
+BibliographyGroupingForm	Grouping Section	分组区域
+KeywordList	Keywords	关键词
+KeywordForm	Keyword	关键词
+ImportWizardDialog	Import	导入
+OnlineSearchDialogEx	Online Search	在线搜索
+PrintForm	Print	打印
+ImportForm	Import	导入
+QuitCitaviDialog	Exit Citavi	退出 Citavi
+MathEditorForm	Formula Editor	公式编辑器
+LiveUpdateDialog	Citavi Update	Citavi 更新
+KeyConfigurationDialog	BibTeX Key Settings	BibTeX 键设置
+TabStopDialog	Tab Stops	制表位
+MassIsbnDownloadDialog	Batch Import ISBN Numbers	批量导入 ISBN 号
+MacroEditorExternalReferencesDialog	References	文献条目
+NumberingTypeDialog	Numbering Type	编号类型
+ProgressDialog	Working…	处理中…
+ImageForm	Cover Art	封面图片
+FindLicensedDatabasesDialog	Add Subscribed Databases	添加订阅数据库
+OrganizationSettingsImportDialog	Import settings	导入设置
+EntityLinkForm	Link	链接
+CitationStyleForm	Browse Citation Styles	浏览引文样式
+KnowledgeItemFileForm	Quotation	引文
+CitationStyleListDialog	Citation Styles on www.citavi.com	www.citavi.com 上的引文样式
+SearchReplaceForm	Search and Replace	搜索并替换
+ProofingToolsDialog	Spelling	拼写
+AddOnsForm	Citavi Add-Ons	Citavi 加载项
+ExportWizardDialog	Export	导出
+KeyConfiguration_BibTeXKey	Customize BibTeX Key Template	自定义 BibTeX 键模板
+BookOrderForm	Online Booksellers	在线书店
+LicenseDialog	License	许可证
+GroupList	Groups	组
+GroupForm	Group	分组
+LookupFullTextDialog	Find Full Text	查找全文
+RetrievalDefinitionFavoritesDialog	Online Connections	在线连接
+SeriesTitleList	List of Series	丛书列表
+SeriesTitleForm	Series	系列
+LoginDialog	Log In	登录
+ComponentPartEditorForm	Edit component	编辑组件
+TaskItemForm_ProjectTask	Project Task	项目任务
+EquivalentCharactersListDialog	Equivalent Characters	等效字符
+BibTeXExport_2_Copy	Customize BibTeX Export: {0} (Copy)	自定义 BibTeX 导出：{0}（副本）
+CreatedByModifiedByForm	Created or modified by	创建或修改者
+FilterDialog	Filter by Field Content	按字段内容筛选
+KnowledgeItemFileForm_Thought	Thought	想法
+BatchAssignOrRemoveCategoriesDialog_Assign	Batch Assign Categories	批量分配分类
+BatchApplyOrRemoveGroupsDialog_Remove	Batch Remove Groups	批量移除组
+FormTextSimpleReadOnly	{0} - {1} (Read Only)	{0} - {1}（只读）
+MergeItemsDialog	Merge Items	合并项
+ZoomForm	Zoomed Editor	缩放编辑器
+ConvertProjectsDialog	Convert Project	转换项目
+PlaceholderEntryPageNumbersDialog	Page Numbering	页码
+OpenProjectDialog	Open project	打开项目
+StartForm	Citavi 6 Welcome Screen	Citavi 6 欢迎屏幕
+SaveProjectAsNewDesktopLocalProjectDialog	Save a copy as new local project	将副本另存为新的本地项目
+PublicationAssistant	LaTeX Assistant	LaTeX 助手
+SearchForm	Search	搜索
+BackgroundTaskErrorDialog	Background task error	后台任务错误
+CustomFieldDialog	Custom Field	自定义字段
+DeleteUnusedItemsDialog	Delete Unused Items	删除未使用的项
+ReferenceGridColumnsForm	Table View Columns	表视图列
+CustomizeReferenceQuotationsTBMDialog	Select your favorite quotation types	选择您常用的引文类型
+BatchAssignOrRemoveCategoriesDialog_Remove	Batch Remove Categories	批量删除类别
+CreateProjectDialogEx	New Project	新建项目
+BatchApplyOrRemoveGroupsDialog_Apply	Batch Assign Groups	批量分配组
+UngroupedReferencesSettingsForm	Ungrouped References	未分组的文献
+CitationStyleEditorInitialDialog	Edit Citation Style	编辑引文样式
+LocationForm	Location	位置
+BibliographyGroupingSetsForm	Group Bibliography	分组文献目录
+CopyOrMoveToProjectWizard	Copy or Move to a Citavi Project	复制或移动到 Citavi 项目
+MainForm_ReferenceEditor	Reference Editor	文献编辑器
+BibTeXKeyDialog	Customize BibTeX Keys	自定义 BibTeX 键
+ShortTitleDialog	Short Title	短标题
+ProjectPropertiesDialog	Project Properties	项目属性
+ChooseReferenceDialog	Select Reference	选择参考文献
+UserDataFolderPathDialog	Citavi Folder for User Files	用户文件的 Citavi 文件夹
+TeXPublicationForm	Automatic BibTeX Export	自动 BibTeX 导出
+ReplacementListDialog	Replacements	替换
+FolderForm	Folder	文件夹
+OpenUrlSelectionDialog	OpenURL Selection	OpenURL 选择
+BibliographyGroupingDialog	Gruppiertes Literaturverzeichnis	分组文献目录
+OptionsDialog	Options	选项
+SortReferencesCustomDialog	Sort References	排序文献
+MorePersonNameOptionsDialog	More Name Options	更多姓名选项
+PeriodicalForm	Periodical	期刊
+PeriodicalList	Periodicals	期刊
+PersonForm	Person or Organization	个人或组织
+PersonList	Persons and Organizations	个人与组织
+SearchDetailForm	Define Search	定义检索
+BackOfficeCitationStyleElementsDialog_BibliographyGroupingSet	Groupings from the Citavi Server	来自 Citavi 服务器的分组
+SortTasksCustomDialog	Sort Tasks	排序任务
+MainForm_KnowledgeOrganizer	Knowledge Organizer	知识管理器
+InsertTableDialog	Insert Table	插入表格
+SupportInformationDialog	Support Information	支持信息
+PageSetupDialog	Page Margins	页边距
+StartFormInfoDialog	Samples and Information	示例和信息
+CitationKeyDialog	Citation Key	引用键
+MainFormLayoutInputBox_Save	Save main form	保存主窗体
+MainFormLayoutInputBox_Load	Load main form	加载主窗体
+CloudChangeProjectRoleDialog	Change project role	更改项目角色
+ParagraphFormatDialog	Paragraph	段落
+MainForm_TaskPlanner	Task Planner	任务计划器
+AboutDialog	About Citavi	关于 Citavi
+CharacterFormatDialog	Character Format	字符格式
+ApplyKeywordsForm	Apply Keywords	应用关键词
+EquivalentCharactersPairDialog	Equivalent Characters	等效字符
+TagDefinitionFavoritesDialog	Text Import Definitions	文本导入定义
+LookupReferenceIdentifierDialog	Retrieve reference by ID	按 ID 检索文献
+PublisherList	List of Publishers	出版商列表
+PublisherForm	Publisher	出版社
+ColumnInformationDialog	Column Information	列信息
+KnowledgeItemTextForm	Quotation	引文
+FormTextReadOnly	{0} - {1} (Read Only) - {2}	{0} - {1}（只读）- {2}
+ReferenceIdentifierDownloadOptionsDialog_Isbn	Retrieve by ISBN	按 ISBN 检索
+AssignCategoriesForm	Assign Categories	分配类别
+RtfForm	Editor	编辑
+TaskItemForm	Task	任务
+LibraryList	Libraries	图书馆
+LibraryForm	Library	图书馆
+CloudProjectMembersDialog	Share project	共享项目
+CorrectPathsDialog	Correct Paths	更正路径
+BatchApplyOrRemoveKeywordsDialog_Apply	Batch Apply Keywords	批量应用关键词
+DateTimeFormatDialog	Custom Date Format	自定义日期格式
+GenericProgressDialog_RepairProject	Repairing database…	正在修复数据库…
+DataExchangePropertyConfigurationDialog_Export	Manage Export Presets	管理导出预设
+CitaviTextMessageBox	Information	信息
+BackupFolderPathDialog	Folder for Backups	备份文件夹
+LookupLocationsDialog	Find Library Locations	查找图书馆位置
+RecycleBinDialog	Recycle bin	回收站
+PersonsDialog	Persons and Organizations	个人与组织
+SortKnowledgeItemsForm	Sort Knowledge Items	排序知识条目
+DirectImportDialog	Direct Import	直接导入
+TextBasedFilterDialog	Text-Based Filter	基于文本的过滤器
+CitationStyleFavoriteDialog	Add Citation Styles	添加引用样式
+CreateBibliographyOptionsDialog	Options for Group Headers	组标题选项
+BookStoreFavoritesDialog	Online Booksellers	在线书店
+OnlineSearchCredentialConfigurationDialog	Edit Credentials	编辑凭据
+KnowledgeItemTextForm_Thought	Thought	想法
+CitationStyleSettingsDialog	Citation Style Properties	引用样式属性
+CreateCompilationDialog	Compilation	汇编
+ReferenceGridGroupsForm	Group References – Table View	分组文献 – 表格视图
+ExtendedSearchForm	Advanced Search	高级搜索
+CreateBibliographyDialog	Annotated Project Bibliography	带注释的项目参考文献
+BatchApplyOrRemoveKeywordsDialog_Remove	Batch Remove Keywords	批量移除关键词
+AdditionalFieldsForm	More Fields	更多字段
+TextExportForm	Text Export	文本导出
+PlaceholderEntryPrefixSuffixDialog	Prefix and Suffix 	前缀和后缀
+MacroEditorForm	Macro Editor	宏编辑器
+OnlineSearchCredentialDialog	Authentication Required: {0}	需要身份验证：{0}
+UnorderedListDialog	Bullets	项目符号
+ReferenceDeletionDialog	Delete References	删除文献
+ReplacementDialog	Replace	替换
+BibliographyCompositionEditorForm	Customize Overview	自定义概览
+ReferenceIdentifierDownloadOptionsDialog_Doi	Retrieve by DOI Name	按 DOI 名称检索
+KeyReplacementInputDialog	Add Character	添加字符
+BatchAddTasksDialog	Batch Add Tasks	批量添加任务
+OrganizationSettingsExportDialog	Export settings	导出设置
+OptionsImportExportDialog	Import or Export Settings	导入或导出设置
+BibTeXExport_2	Customize BibTeX Export: {0}	自定义 BibTeX 导出：{0}
+BibTeXExport_1	Export BibTeX File	导出 BibTeX 文件
+DataExchangePropertyConfigurationDialog_OnlineImport	Manage Saved Searches	管理已保存的搜索
+CategoryForm	Category	分类
+CategoryList	Categories	分类
+CreateGroupedBibliographyDialog	Grouped Project Bibliography	分组的项目参考文献
+ProxyConfigurationDialog	Proxy Settings	代理设置
+SampleProjectsDialog	Sample Projects	示例项目
+ExportAdminSettingsDialog	Administrative Settings Assistant	管理设置助手
+ShowReferenceTypeSelectionDialog	Reference Types	参考文献类型
+KeyConfiguration_CitationKey	Customize Citation Key Template	自定义引用键模板

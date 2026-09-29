@@ -1,0 +1,422 @@
+ConfirmProjectInvitationResult_ProjectInvitationNotFound	<span class="segoeUiSemibold">Your project invitation could not be found.</span><br/>\r\n<br/>\r\n<br/>                                                                   \r\n<span class="segoeUiSemibold">Did you already accept the invitation?</span><br/>\r\nIf so, start Citavi. Click "Open project". The project will be listed on the "Cloud" tab.\r\n<br/><br/>\r\n<span class="segoeUiSemibold">Did you receive a new project invitation email?</span><br/>\r\nIf so, please accept the invitation in the new email.\r\n<br/><br/>\r\n<span class="segoeUiSemibold">Did you not yet receive a new invitation?</span><br/>\r\nPlease ask the project leader to send you a new invitation.	<span class="segoeUiSemibold">找不到您的项目邀请。</span><br/>\r\n<br/>\r\n<br/>                                                                   \r\n<span class="segoeUiSemibold">您是否已经接受了邀请？</span><br/>\r\n如果是，请启动 Citavi。单击“打开项目”。项目将列在“云端”选项卡中。\r\n<br/><br/>\r\n<span class="segoeUiSemibold">您是否收到了新的项目邀请邮件？</span><br/>\r\n如果是，请在新邮件中接受邀请。\r\n<br/><br/>\r\n<span class="segoeUiSemibold">您是否还没有收到新邀请？</span><br/>\r\n请让项目负责人给您发送新的邀请。
+AssignLicenseTitle	Assign license	分配许可证
+Student	Student	学生
+EmailDoesNotExist	The email address you entered does not exist.	您输入的电子邮箱地址不存在。
+LicenseForStudyPrivateUsage	License for personal and student use	供个人和学生使用的许可证
+StillNoAccount	Don't have a Citavi account?	还没有 Citavi 账户？
+ActivateCitavi6	Here's how you can use the license in Citavi for Windows:\r\n<ol><li>If you haven't already done so, download and install Citavi 6: <a href="https://www.citavi.com/download" target="_blank">www.citavi.com/download</a></li><li>Start Citavi 6 and log in to your account.</li><li>Citavi automatically pulls the license displayed here from our server. You do not need to perform any additional steps.</li></ol>	以下是在 Citavi for Windows 中使用该许可证的方法：\r\n<ol><li>如果尚未下载并安装 Citavi 6，请前往：<a href="https://www.citavi.com/download" target="_blank">www.citavi.com/download</a></li><li>启动 Citavi 6 并登录您的账户。</li><li>Citavi 会自动从我们的服务器获取此处显示的许可证。您无需执行任何其他步骤。</li></ol>
+RequestNewLink	Request a new link	请求新链接
+AssignedButNotYetConfirmed	Assigned	已分配
+AccountClosed	This account was closed	此账户已关闭
+Licenses	Licenses	许可证
+License_CloudSpaceAssignedTo	Assign storage space to	将存储空间分配给
+ShowPassword	Show password	显示密码
+Working	Working…	处理中…
+LogoutLabel	You have successfully logged out.<br/>If you are working on a public computer,<br/>please close all browser windows.	您已成功退出登录。<br/>如果您使用的是公共计算机，<br/>请关闭所有浏览器窗口。
+OrRegisterAnEmailAddress	Or register with your email address	或使用您的电子邮箱地址注册
+License_Deactivate	Exclude this license from renewal	将此许可证排除在续订之外
+WantToDeleteCitaviAccount	Want to delete your Citavi account?	想删除您的 Citavi 账户？
+PasswordContainsInvalidChars	Following charachters are not allowed: & \\\\	不允许使用以下字符：& \\\\
+CitaviFree	In order to try out Citavi for 30 days, you can get a <a id="account_testLicense">free license for 30 days</a>.<br/><br/>To edit projects with no limitations, you can<ul class='tabbed'><li><a id='campus'>obtain a license</a>, if your university or organization has a site license (usually the license will be free for you),</li><li><a target='_blank' href='/shop'>purchase a license in our online shop</a>, or </li><li><a id='voucher'>redeem a gift certificate or voucher code.</a></li></ul><br/>	为了试用 Citavi 30 天，您可以获取 <a id="account_testLicense">30 天免费许可证</a>。<br/><br/>若要不受限制地编辑项目，您可以<ul class='tabbed'><li>如果您的大学或机构拥有站点许可证，可以<a id='campus'>获取许可证</a>（通常对您是免费的），</li><li><a target='_blank' href='/shop'>在我们的在线商店购买许可证</a>，或 </li><li><a id='voucher'>兑换礼品卡或优惠券代码。</a></li></ul><br/>
+MyEmailAddress	My email address	我的电子邮箱地址
+AccountPresent	An account with this address already exists.	使用此地址的账户已存在。
+PleaseChooseYourSchool	Please select your university	请选择您的大学
+BusinessOrAcademicLicenseAlreadyPresent	You cannot assign a Business or Academic license to yourself if you already have one.	如果您已拥有商业版或学术版许可证，则无法再给自己分配一个。
+AccountIsKeyContact	The email address you entered is a key contact email address. Please write to <a href="mailto:account@citavi.com">account@citavi.com</a> if you want to merge your accounts or the account of a colleague.	您输入的电子邮箱地址是关键联系人邮箱地址。如果您想合并您的账户或同事的账户，请写信至 <a href="mailto:account@citavi.com">account@citavi.com</a>。
+PasswordRequirementsFailed	The password does not meet the requirements	密码不符合要求
+UseHere	Use here	在此使用
+VoucherCode	Voucher code	优惠券代码
+ResetPassword	Reset password	重置密码
+ConfirmMembershipShibboleth	<a id="confirmThroughShibboleth">Log in to your Citavi account again here</a>	<a id="confirmThroughShibboleth">在此重新登录您的 Citavi 账户</a>
+SetPassword	Choose a password	选择密码
+EmailConfirmedMobile	Your registration is complete. You can now log in to the Citavi Mobile App with your user name and password.	您的注册已完成。现在您可以使用用户名和密码登录 Citavi 移动应用。
+Upgrade	Upgrade	升级
+MergeAccountsCancel	Cancel	取消
+ConfirmPasswordReset	<p>Enter your new password here.</p><br/><p>It must be at least 8 characters long and must contain numbers and uppercase and lowercase letters.</p>	<p>在此输入您的新密码。</p><br/><p>密码长度必须至少为 8 个字符，且必须包含数字以及大小写字母。</p>
+Subscription_ValidityPeriod	Valid until	有效期至
+NotInIPRange	You can only get your license when your computer is <a href="//www.citavi.com/computeriniprange" target="_blank">in your university's or organization's IP range</a>.	只有当您的计算机<a href="//www.citavi.com/computeriniprange" target="_blank">位于您大学或机构的 IP 范围内</a>时，您才能获取许可证。
+LicenseFilter_CitaviForDBServer	Citavi for DBServer	Citavi for DBServer
+CodeDoesNotExists	The code you entered does not exist.	您输入的代码不存在。
+OrLoginWith	or with	或使用
+YouCanUsePassword	Password added.	密码已添加。
+License_Deactivated	This license has been excluded from the next renewal. It will only remain active until the end of the current validity period.	此许可证已被排除在下一次续订之外。它仅在当前有效期结束前保持有效。
+InvalidUsernameOrPassword	Invalid username or password.	用户名或密码无效。
+VoucherAlreadyUsed	This voucher code was already redeemed	此优惠券代码已被兑换
+ConfirmMembershipIP	<a id="confirmThroughIP">Log in to your Citavi account again once your computer is in your university's IP range.</a>	<a id="confirmThroughIP">当您的计算机位于您大学的 IP 范围内后，请重新登录您的 Citavi 账户。</a>
+VerificationCode	Verification code	验证码
+VoucherForLicense	Gift certificate code for a Citavi license	Citavi 许可证的礼品卡代码
+RemoveAnyway	Remove anyway?	仍要移除？
+CreateYourAccountWith	Create your account with	使用以下方式创建账户
+PrivacyPolicy	Privacy policy	隐私政策
+License_Deactivate_Description	The excluded license will remain active until the end of the current validity period. When the subscription is renewed, this license will not be included.	被排除的许可证将在当前有效期结束前保持有效。订阅续订时，将不包含此许可证。
+License_NotAssigned	Not assigned	未分配
+EmailConfirmedUsernamePassword	Your registration is complete. You can now log in to Citavi with your user name and password.	您的注册已完成。现在您可以使用用户名和密码登录 Citavi。
+NewLicense	New license	新许可证
+LoginAgain	Log in again	重新登录
+ExternalClientMobile	Your registration is complete. You can now log in to the Citavi Mobile App with your user name and password.	您的注册已完成。现在您可以使用用户名和密码登录 Citavi 移动应用。
+EmailAddress	Email address	电子邮件地址
+County	State	省/州
+Cancel	Cancel	取消
+MoreEmailAddresses	Additional email addresses:	其他电子邮箱地址：
+License_CloudspaceActivate	Include storage space in the next subscription renewal.	在下一次订阅续订时包含存储空间。
+GoToAccountPage	Go to account page with your license key(s)	转到包含您的许可证密钥的账户页面
+AddHighSchoolAccount	Add a university account	添加大学账户
+LicenseFilter_AssignedToMe	Assigned to me	分配给我
+YourHighSchoolEmailAddress	Your university email address	您的大学电子邮箱地址
+AccountDeleted	Your Citavi account will now be deleted.<br/><div id="deleteMsg">This may take a few minutes. You can close this tab.</div>	您的 Citavi 账户现在将被删除。<br/><div id="deleteMsg">这可能需要几分钟。您可以关闭此选项卡。</div>
+NumberOfVouchers	Number of total vouchers	优惠券总数
+ExternalClientDesktopShibboleth	Your registration is complete. You can now log in to Citavi with your university login under "My university".	您的注册已完成。现在您可以在“我的大学”下使用您的大学登录名登录 Citavi。
+AddressAddition	Address addition	地址补充
+ExternalProvidersMergeAccounts	Do you want to merge the two accounts? Click "Merge accounts" in the left column. Learn more in the <a href="//www.citavi.com/merge-accounts" target="_blank">manual</a>.	您想合并这两个账户吗？单击左栏中的“合并账户”。在<a href="//www.citavi.com/merge-accounts" target="_blank">手册</a>中了解更多信息。
+InvalidVoucherCode	Invalid voucher code.	优惠券代码无效。
+ManageAccount	Manage account	管理账户
+DBServerChecklist	Setup checklist: <a target="_blank" href="https://www.citavi.com/dbserver_checklist">www.citavi.com/dbserver_checklist</a>	设置检查清单：<a target="_blank" href="https://www.citavi.com/dbserver_checklist">www.citavi.com/dbserver_checklist</a>
+BuyHomeLicense	License for personal and student use	供个人和学生使用的许可证
+RegisterFree	Register here for free.	在此免费注册。
+Shibboleth_Redirect	We're redirecting you to your university's login page.<br/><br/> This can take a few seconds. \r\nLog in there with the username and password for your university account.	我们正在将您重定向到您大学的登录页面。<br/><br/> 这可能需要几秒钟。 \r\n请在那里使用您大学账户的用户名和密码登录。
+NothingFound	Not found	未找到
+CheckYourEmailResent	Please check your inbox. <br/>We just sent a <b>new</b> email to	请检查您的收件箱。<br/>我们刚刚向以下地址发送了一封<b>新</b>邮件：
+Subscription_EndSubscription	Cancel subscription	取消订阅
+MyVoucherCode	My voucher code	我的优惠券代码
+ConfirmMembershipEmailSent	Please check your inbox. We just sent an email to {0}. No email? <a id="resendConfirmEmail">We'll send you a new one!</a><br />	请检查您的收件箱。我们刚刚向 {0} 发送了一封邮件。没有收到邮件？<a id="resendConfirmEmail">我们会给您再发一封！</a><br />
+PostalCode	Zip code	邮政编码
+LicenseFilter_CitaviForWindows	Citavi for Windows	Citavi for Windows
+CurrentPassword	Current password	当前密码
+LicenseFilter_Unused	Unused	未使用
+Projects	Projects	项目
+ConcurrentUser	Concurrent User	并发用户
+EmailPresentMerge	An account with this email address is already present. You can <a id="mergeEmailAccount">merge it with the current account</a>.	使用此电子邮箱地址的账户已存在。您可以<a id="mergeEmailAccount">将其与当前账户合并</a>。
+Subscription_ConfirmEndSubscription	The licenses in this subscription will remain active until the end of the current validity period. After that the subscription containing the licenses will not be renewed.	此订阅中的许可证将在当前有效期结束前保持有效。之后，包含这些许可证的订阅将不会续订。
+AddEmailAddress	Add email address	添加电子邮箱地址
+ResetPasswordWarning	<span class="segoeUiSemibold">Warning</span>: After you enter your new password, you'll be logged out of all active sessions.<br/>Close all instances of Citavi (including Citavi for Windows) before you continue.	<span class="segoeUiSemibold">警告</span>：输入新密码后，您将从所有活动会话中退出登录。<br/>在继续之前，请关闭所有 Citavi 实例（包括 Citavi for Windows）。
+PasswordMismatch	Passwords do not match	密码不匹配
+EmailAlreadyPresent	This email address was already registered.	此电子邮箱地址已被注册。
+MergeAccountsSource	Enter the email address for the account you want to merge with the current account:	请输入您要与当前账户合并的账户的电子邮箱地址：
+YouHave2Accounts	Merge two accounts	合并两个账户
+AssignCloudSpace	<a id="editUserData">Assign storage space to a user</a>	<a id="editUserData">将存储空间分配给用户</a>
+TooManyAttempts	Please retry later. For security reasons login is now disabled for 5 minutes.	请稍后重试。出于安全原因，登录现已禁用 5 分钟。
+AskQuestion	Ask a question…	提问……
+NoMatch	No results. Please check your spelling or try just entering the first three or four letters of the university name.	无结果。请检查您的拼写，或尝试只输入大学名称的前三到四个字母。
+OrInIPRange	You can also get your license when your computer is <a href="//www.citavi.com/computeriniprange" target="_blank">within your university's or organization's IP range</a>.	当您的计算机<a href="//www.citavi.com/computeriniprange" target="_blank">位于您大学或机构的 IP 范围内</a>时，您也可以获取许可证。
+AddMoreHighSchoolAccounts	Add another university account	添加另一个大学账户
+EmailAddressConfirmation	Email address confirmation	电子邮箱地址确认
+NewVersionInfo	New feature information	新功能信息
+AccountSuccessfullyVerifiedTitle	Welcome to your Citavi Account!	欢迎使用您的 Citavi 账户！
+Subscription_NextValidityPeriod	Next validity period	下一个有效期
+StreetNumber	Street address	街道地址
+LicenseDataHtml	<p>You have a license for {0}.</p><p>With this license, you can install Citavi on all personal devices and can save as many references as you want in each project.</p><p>To unlock the license, copy the license key to the Clipboard and start Citavi. On the Welcome Screen, click <b>License</b> > <b>Enter a license key</b>.</p>	<p>您拥有 {0} 的许可证。</p><p>使用此许可证，您可以在所有个人设备上安装 Citavi，并可在每个项目中保存任意数量的参考文献。</p><p>要解锁许可证，请将许可证密钥复制到剪贴板并启动 Citavi。在欢迎屏幕上，单击 <b>许可证</b> > <b>输入许可证密钥</b>。</p>
+ThenYouCanDeleteAccount	Afterwards you can delete your Citavi account.	之后您可以删除您的 Citavi 账户。
+Repeat	Confirm:	确认：
+Reload	Please refresh the page	请刷新页面
+BetaLoginInfo	In this beta version authentication via external providers is not possible.<br/><br/>Please log in with your email address and password.	在此 Beta 版本中，无法通过外部提供商进行身份验证。<br/><br/>请使用您的电子邮箱地址和密码登录。
+LicenseIsAssignedTo	License is assigned to:	许可证分配给：
+NewAccountFromExternalProviderButEmailAlreadyExists	Please login with your username and password first and then add this Shibboleth account.	请先使用您的用户名和密码登录，然后再添加此 Shibboleth 账户。
+NewHere	Don't have an account?	还没有账户？
+Send_1	Send	发送
+Saving	Saving…	正在保存…
+NotYetAssigned	Unassigned	未分配
+NoLicenseSelected	No license selected	未选择许可证
+AutomaticRestartAfterMerge	Citavi Account will automatically restart after the merging process is complete.	合并过程完成后，Citavi 账户将自动重启。
+CancelPageMessage	<p>The new acount creation was canceled before it could be completed.</p><p>Do you want to try again?</p>	<p>新账户创建在完成之前已取消。</p><p>您想重试吗？</p>
+LicenseAssigned_1	License assigned to	许可证分配给
+LicenseAssignedTo	Assign license to:	将许可证分配给：
+VerificationKeyNotFound	The code is incorrect.	代码不正确。
+NameAddress	Name and address	姓名和地址
+Subscription_SubscriptionEnded	The subscription has been cancelled. The licenses will remain active until the end of the current validity period.	订阅已取消。许可证将在当前有效期结束前保持有效。
+AccountsMergedSuccessfully	Your account was merged successfully	您的账户已成功合并
+Subscription	Subscription	订阅
+ConfirmProjectInvitationResult_OK	You have successfully accepted the invitation to the Citavi project <span class="segoeUiSemibold">{0}</span>.<br/><br/> Here's how you can access the project <span class="segoeUiSemibold">{0}</span>:<br/><ol><li>Start Citavi 6 for Windows.</li><li>On the Welcome Screen, click the icon in the upper right to login with your email address.</li><li>At the bottom of the Welcome Screnn, click <span class="segoeUiSemibold">Open project.</span></li><li>You'll see the project <span class="segoeUiSemibold">{0}</span> on the <span class="segoeUiSemibold">Cloud</span> tab.</li></ol><br/>You can now close this page.<br/><br/>If you have not installed Citavi yet, you can <a href="//www.citavi.com/download" target="_blank">download it here</a>.	您已成功接受加入 Citavi 项目 <span class="segoeUiSemibold">{0}</span> 的邀请。<br/><br/> 以下是访问项目 <span class="segoeUiSemibold">{0}</span> 的方法：<br/><ol><li>启动 Citavi 6 for Windows。</li><li>在欢迎屏幕上，单击右上角的图标，使用您的电子邮箱地址登录。</li><li>在欢迎屏幕底部，单击 <span class="segoeUiSemibold">打开项目。</span></li><li>您将在 <span class="segoeUiSemibold">云端</span> 选项卡中看到项目 <span class="segoeUiSemibold">{0}</span>。</li></ol><br/>您现在可以关闭此页面。<br/><br/>如果您尚未安装 Citavi，可以<a href="//www.citavi.com/download" target="_blank">在此处下载</a>。
+NewAddress	New address	新地址
+License_ChangeUserNotAllowed_Title	User can't be changed	无法更改用户
+IncompatibleBrowser	Your current browser is not compatible with Citavi Web. <br/>Please use another browser.	您当前的浏览器与 Citavi Web 不兼容。<br/>请使用其他浏览器。
+UniList	Go to the list of universities with a Citavi site license	转到拥有 Citavi 站点许可证的大学列表
+AccountSuccessfullyVerified	The login page should appear shortly.<br/>If it does not, <a id="gotoLogin">click here</a>.	登录页面应会很快出现。<br/>如果没有出现，<a id="gotoLogin">请单击此处</a>。
+LicenseFilter_Assigned	Assigned	已分配
+AdministratorAccountHtml	An administrator account is necessary for distributing Citavi licenses in an organization. For this reason, you cannot delete this account, but you can transfer the account to a colleague. If you would like to do this, please write us at <a href="mailto: account@citavi.com">account@citavi.com</a>	在机构中分发 Citavi 许可证需要管理员账户。因此，您无法删除此账户，但可以将该账户转移给同事。如果您想这样做，请写信至 <a href="mailto: account@citavi.com">account@citavi.com</a>
+AdministratorAccountInfo	Information about your Administrator Account	关于您的管理员账户的信息
+CheckYourEmailRegistrationCode	In order to ensure that the email address belongs to you, we have sent an email to <b>{0}</b>. The email contains a confirmation code. Please enter the code here:	为确保该电子邮箱地址属于您，我们已向 <b>{0}</b> 发送了一封邮件。邮件中包含确认码。请在此输入该代码：
+Subscription_Description	Licenses and other products with the same renewal date are bundled together in a subscription. You'll only receive one bill for the renewal of all items in the subscription.	具有相同续订日期的许可证和其他产品会捆绑为一个订阅。对于订阅中所有项目的续订，您只会收到一张账单。
+EmailAddresses	Email addresses	电子邮箱地址
+License_ExcludeCloudspaceFromRenewal	Exclude this storage space from renewal	将此存储空间排除在续订之外
+License_CloudspaceDeactivated	This storage space has been excluded from the next renewal. It will only remain active until the end of the current validity period.	此存储空间已被排除在下一次续订之外。它仅在当前有效期结束前保持有效。
+InvoiceNumber	Reference number	参考编号
+EmailAlreadyConfirmed	This email address has already been confirmed.	此电子邮箱地址已确认。
+NoProblem	No problem.	没问题。
+Confirm	Confirm	确认
+WeSentAnEmailTo	We sent an email to:	我们已向以下地址发送邮件：
+CheckYourEmail	Please check your inbox.<br/>We just sent an email to	请检查您的收件箱。<br/>我们刚刚向以下地址发送了一封邮件：
+CannotAddEmailAddress	To log in with this email address, you need a password. <br/> You have not yet entered a password.	要使用此电子邮箱地址登录，您需要密码。<br/> 您尚未输入密码。
+Country	Country	国家
+License_User	User	用户
+LoginWithAnotherMethod	Choose another way to create your account.	选择其他方式创建您的账户。
+Password	Password	密码
+ExternalProviders	Log in with:	使用以下方式登录：
+LicenseCount	Number of licenses	许可证数量
+MergeAccountsConfirm	Continue	继续
+LicenseAdded	Here is your license key. We hope you enjoy using Citavi!	这是您的许可证密钥。希望您使用 Citavi 愉快！
+ToLogin	To login	登录
+LoginNotAllowed	The login with this Citavi Account is not allowed at the moment.\r\nIf you are the owner of this account, please contact the Citavi-Support: \r\n<a href="https://www.citavi.com/service">https://www.citavi.com/service</a>.	目前不允许使用此 Citavi 账户登录。\r\n如果您是该账户的所有者，请联系 Citavi 支持： \r\n<a href="https://www.citavi.com/service">https://www.citavi.com/service</a>。
+MultipleCitaviAccounts	Have more than one Citavi account?	拥有多个 Citavi 账户？
+DeleteAccount	Delete account	删除账户
+LinkExpired	The confirmation link is no longer valid	确认链接已失效
+License_Assigned	Assigned	已分配
+DownloadLicenseData	Download license file	下载许可证文件
+RepeatPassword	Re-enter password	重新输入密码
+Deselect	Remove	移除
+UserHasProductAlready	This user already has a license	此用户已有许可证
+PasswordTooShort	The minimum password length is 8 characters	密码最小长度为 8 个字符
+Subscription_LicenseSubscriptionEnded	The subscription containing this license has been cancelled. The license will remain active until the end of the current validity period.	包含此许可证的订阅已取消。该许可证将在当前有效期结束前保持有效。
+VeryStrong	Very strong	非常强
+RevokeLicenseDescription	To assign the license to another person, please do the following: \r\n<ol><li>Remove the license from the current user. This panel will then automatically close. </li><li>In the right-hand column click Assign license to.</li>	要将许可证分配给另一个人，请执行以下操作： \r\n<ol><li>从当前用户移除该许可证。此面板随后将自动关闭。 </li><li>在右栏中单击“分配许可证给”。</li>
+EmailConfirmationMessage	To continue, please click the confirmation link in the email we sent. For security reasons, the link is only valid for the next 72 hours.	要继续，请单击我们发送的邮件中的确认链接。出于安全原因，该链接仅在接下来的 72 小时内有效。
+MyOrganizationEmailAddress	My work email address	我的工作电子邮箱地址
+Subscription_CurrentValidityPeriod	Current validity period	当前有效期
+FreeEmailWithNoLicense	{0} is not a university or organization with a site license.	{0} 不是拥有站点许可证的大学或机构。
+Licenses_ChooseFilter	Make a selection in the left column to display licenses.	在左栏中进行选择以显示许可证。
+PasswordResetConfirmationMessage	Click the link in the email we sent you. After that you can choose your new password.	单击我们发送给您的邮件中的链接。之后您可以选择新密码。
+LicenseNotVerified	This license is not yet verified.	此许可证尚未验证。
+Impressum	Legal	法律
+SessionExpired	The session expired. Please log in again.	会话已过期。请重新登录。
+DeleteOrMergeAccounts	Want to delete or merge the other account?	想删除或合并另一个账户？
+ClaimCampusLicensePreviousVersions	Request a license key for a previous version	请求以前版本的许可证密钥
+ChooseNewPassword	Choose a new password here	在此选择新密码
+RecipientUnknownNotified	The recipient was automatically notified by email. However, the recipient has not yet created a Citavi account.\r\n<br/><br/>\r\nYou can <a id="resendAssignLicenseEmail">send the email again</a>.\r\n<br/><br/>\r\nOr you can enter another email address to assign the license to another user. The original recipient will then no longer receive a license.	收件人已通过电子邮件自动收到通知。但是，收件人尚未创建 Citavi 账户。\r\n<br/><br/>\r\n您可以<a id="resendAssignLicenseEmail">再次发送该邮件</a>。\r\n<br/><br/>\r\n或者，您可以输入另一个电子邮箱地址，将许可证分配给其他用户。原收件人随后将不再收到许可证。
+DownloadVoucherBlock	Download vouchers	下载优惠券
+UserNotFound	There is no Citavi account associated with this email address.	没有与此电子邮箱地址关联的 Citavi 账户。
+Subscription_NextRenewalOn	Next renewal on	下次续订日期
+DeleteAccountInfo	Read this first.	请先阅读此内容。
+MobileAuthentication	Mobile authentication	移动设备身份验证
+ConfirmDeleteLicense	Are you sure you want to delete this license?	您确定要删除此许可证吗？
+DiscountHomeLicense	You are entitled to a 50% discount for the purchase of a Home license	您有权在购买家庭版许可证时享受 50% 折扣
+SetAsPrimaryAddress	Set as primary email address	设为主要电子邮箱地址
+LinkExpiredText	<p>For security reasons, the link was deactivated after 72 hours. </p><div class="clear6"></div><p class="noMargin"> Please request a new link.<br/>The link will be sent to you by email.</p>	<p>出于安全原因，该链接已在 72 小时后停用。 </p><div class="clear6"></div><p class="noMargin"> 请请求一个新链接。<br/>该链接将通过电子邮件发送给您。</p>
+PasswordStrength	Password strength	密码强度
+IfYouHaveNoVoucher	If you have no voucher code,	如果您没有优惠券代码，
+TwoStepVerification_Enabled	Enabled	已启用
+PasswordForgotten	Forgot your password?	忘记密码了？
+RegistrationSuccessful	Registration successful	注册成功
+PasswordRequirementsLabelLong	The password must be at least 8 charachters long and contain numbers and uppercase and lowercase letters	密码长度必须至少为 8 个字符，且必须包含数字以及大小写字母
+VoucherIsNotActive	This voucher code is inactive.	此优惠券代码处于非活动状态。
+RemoveAddress	Remove email	移除电子邮件
+WithdrawLicenseHtml	Learn how to withdraw a license <a id="withdrawLicense_manual">in the Citavi manual</a>	了解如何撤销许可证，请参阅<a id="withdrawLicense_manual">Citavi 手册</a>
+CodeExpired	The code expired after 72 hours and is no longer valid.	该代码已在 72 小时后过期，不再有效。
+Collaborator	Faculty or staff member	教职员工
+IAm_Logged	I am a:	我是：
+ChangePassword	Change password	更改密码
+ToActivateCitavi	To enable {0}, 	要启用 {0}， 
+VerificationCancelled	Verification canceled	验证已取消
+FirstNames	First name	名
+Or	Or:	或：
+VerifyOnlyEmail	Verify email address	验证电子邮件地址
+OrLoginWithMobile	or with	或使用
+RequestVoucherMessage	You can also get your license without a voucher code if your computer is <a href="//www.citavi.com/computeriniprange" target="_blank">within your university's or organization's IP range</a>.	如果您的计算机<a href="//www.citavi.com/computeriniprange" target="_blank">位于您所在大学或机构的 IP 范围内</a>，您也可以无需兑换码获取许可证。
+RemoveProvider	Remove provider	移除提供商
+ImageSizeTooLarge	Image size must be less than 5 MB.	图片大小必须小于 5 MB。
+RegistrationUpdateEmailTitle	Enter the correct email address here:	在此输入正确的电子邮件地址：
+LicenseData	License key	许可证密钥
+Subscription_CurrentValidityEnd	End of current validity period	当前有效期结束
+LicenseSuccessfullyVerified	The license has been successfully verified.	许可证已成功验证。
+ConfirmMembershipLowerHtml	<div class="segoeUiSemibold">Alternative 1: Purchase a personal license</div>                    \r\n                <div class="tabbed">\r\n\t                If you’re no longer a member of the university or organization, you can click <b>New License</b> below to purchase a personal license.\r\n                </div>\r\n                <br/>\r\n                <div class="segoeUiSemibold">Alternative 2: Remove site license</div>\r\n                <div class="tabbed">\r\n                    If you're no longer a member of the university or organization and don't want to purchase a license, you can <a id="deleteCampusLicense">remove the site license from your account.</a>\r\n                </div>	<div class="segoeUiSemibold">备选方案 1：购买个人许可证</div>                    \r\n                <div class="tabbed">\r\n\t                如果您已不再是该大学或机构的成员，可以点击下方的<b>新建许可证</b>购买个人许可证。\r\n                </div>\r\n                <br/>\r\n                <div class="segoeUiSemibold">备选方案 2：移除站点许可证</div>\r\n                <div class="tabbed">\r\n                    如果您已不再是该大学或机构的成员且不想购买许可证，可以<a id="deleteCampusLicense">从您的账户中移除站点许可证。</a>\r\n                </div>
+ConfirmMembershipUpperHtml	The site license was renewed by your organization <span class="italic">{0}</span> until {1}. Please confirm that you still belong to the organization.	您的机构 <span class="italic">{0}</span> 已将站点许可证续订至 {1}。请确认您仍属于该机构。
+Error404	Error 404	错误 404
+PleaseComplete	Please complete	请填写完整
+ClaimCampusLicense	Get your site license	获取您的站点许可证
+CreateNewAccount	Complete Your Citavi Account Registration	完成您的 Citavi 账户注册
+Fax	Fax	传真
+For	for	对于
+IAm	I have no Citavi account yet and am a:	我还没有 Citavi 账户，我的身份是：
+Why	Why?	为什么？
+Email	Email	电子邮件
+Error	Error	错误
+LoginData	Login information	登录信息
+LoginWith	Log in with	使用以下方式登录
+ConfirmMembershipEmail	<a id="confirmThroughEmail">Request that an email be sent to {0}.</a><br />	<a id="confirmThroughEmail">请求向 {0} 发送电子邮件。</a><br />
+Order	Order	订购
+Login	Log in	登录
+Until	Activated until:	激活截止日期：
+PleaseRepeatPassword	Confirm password	确认密码
+Title	Title	标题
+Subscription_Licenses	Licenses	许可证
+Place	City	城市
+NewVersionAvailable	New version available	有新版本可用
+ConfirmMembershipTitle	Please confirm that you belong to the organization	请确认您属于该机构
+WeSendItAgain	We'll send you a new one.	我们将为您发送一封新的邮件。
+BillingAddress	Billing address	账单地址
+ConfirmCancel	Confirm cancel	确认取消
+CheckYourEmailRegistrationResent	To ensure that you were the one who made this request, we just sent a <b>new</b> email to	为确保是您本人发出了此请求，我们刚刚向以下地址发送了一封<b>新</b>邮件
+AcademicLicense	License for education, government, and non-profit 	面向教育、政府和非营利机构的许可证 
+InvalidImageFile	The selected file is not a valid image file	所选文件不是有效的图片文件
+Username	Username	用户名
+UserData	User information	用户信息
+LastName	Last name	姓氏
+NoLicenseAvailable	You are not entitled to a free Citavi license, since your organization does not have a site license.	您无权获得免费的 Citavi 许可证，因为您的机构没有站点许可证。
+ActivateCitavi	Here's how to enter your license key:<br/><br/>\r\n<ol>\r\n<li>Install Citavi 5.7.1 Free if you haven't already: <a href="https://www.citavi.com/download" target="_blank">www.citavi.com/download</a></li>\r\n<li><a id="copyToClipboardLink">Click here</a> to copy your license key to the Clipboard.</li>\r\n<li>Start Citavi 5.</li>\r\n<li>On the Welcome Screen, click "License".</li>\r\n<li>Click "Enter a license key".</li>\r\n<li>Accept the license agreement, and then click "OK".</li>\r\n</ol>	输入许可证密钥的方法如下：<br/><br/>\r\n<ol>\r\n<li>如果尚未安装，请先安装 Citavi 5.7.1 Free：<a href="https://www.citavi.com/download" target="_blank">www.citavi.com/download</a></li>\r\n<li><a id="copyToClipboardLink">点击此处</a>将许可证密钥复制到剪贴板。</li>\r\n<li>启动 Citavi 5。</li>\r\n<li>在欢迎屏幕上，点击“许可证”。</li>\r\n<li>点击“输入许可证密钥”。</li>\r\n<li>接受许可协议，然后点击“确定”。</li>\r\n</ol>
+ClaimCampusLicensePreviousVersionsError	You already have a license for this Citavi version.	您已拥有此 Citavi 版本的许可证。
+BuyUpgrade	Purchase an upgrade	购买升级
+LicenseEmailSent	We just sent an email to your new email address. <br/>Please click the confirmation link in the email. <br/> You will then get your Citavi license.	我们刚刚向您的新电子邮件地址发送了一封邮件。<br/>请点击邮件中的确认链接。<br/> 之后您将获得 Citavi 许可证。
+LicenseVerificationError	An error occurred while verifying the license.	验证许可证时发生错误。
+Account	Account	账户
+AssignLicense	<a id="editUserData">Assign the license to a user</a>	<a id="editUserData">将许可证分配给用户</a>
+InvalidEmailDomain	Invalid email domain	无效的电子邮件域
+MyHighSchoolEmailAddress	My university email address	我的大学电子邮件地址
+ClaimLicenseThrough	Get license through:	通过以下方式获取许可证：
+CampusLicense	Site license	站点许可证
+DownloadCitaviForWindows	Download Citavi for Windows	下载适用于 Windows 的 Citavi
+SiteLicense	Site license	站点许可证
+LoginWithMobile	Log in with	使用以下方式登录
+YouCanAddMultipleEmails	You can use the following email addresses to log in:	您可以使用以下电子邮件地址登录：
+RegistrationUpdateEmailDescription	You are logged in to your university Shibboleth account but the email address contains a typo.	您已登录大学的 Shibboleth 账户，但电子邮件地址中有拼写错误。
+CannotResetPassword	The password cannot be reset.	无法重置密码。
+DeleteAccountDescriptionHtml	\r\n<ol>\r\n    <li>Your Citavi license and related personal information will be deleted.</li>\r\n    <li>Your cloud projects and all attached files (PDFs, etc.) will be <b>deleted forever immediately</b>. If you want to save information from Citavi Cloud, create local copies of your cloud projects <b>before</b> you delete your account. <a href="https://www.citavi.com/converting-cloud-projects" target="_blank">How can I do that?</a></li>\r\n    <li>You will not be able to access cloud projects that others shared with you.</li>\r\n    <li>If you shared cloud projects with others, they will no longer be able to access these projects.\r\n    <li>All locally created files, including your local projects, custom citation styles, and Word documents created with Citavi's Word Add-In will not be affected by the account deletion.</li>\r\n    <li>After you log out of your local installation (Citavi 6 and later) or after 365 days at the latest, you will only be able to make changes to projects containing fewer than 100 references. Larger projects can be viewed but not modified.</li>\r\n    <li>Your Citavi data will be deleted as outlined above. There is additional non-project data stored in internal systems. We will be in touch to confirm your request to be removed from all systems.</li>\r\n</ol>\r\n    	\r\n<ol>\r\n    <li>您的 Citavi 许可证及相关个人信息将被删除。</li>\r\n    <li>您的云项目及所有附件（PDF 等）将被<b>立即永久删除</b>。如果您想保存 Citavi Cloud 中的信息，请在删除账户<b>之前</b>创建云项目的本地副本。<a href="https://www.citavi.com/converting-cloud-projects" target="_blank">我该如何操作？</a></li>\r\n    <li>您将无法访问他人与您共享的云项目。</li>\r\n    <li>如果您与他人共享了云项目，他们将无法再访问这些项目。\r\n    <li>所有本地创建的文件，包括您的本地项目、自定义引文样式以及使用 Citavi 的 Word 加载项创建的 Word 文档，均不受账户删除的影响。</li>\r\n    <li>在您从本地安装（Citavi 6 及更高版本）注销后，或最迟 365 天后，您将只能修改包含少于 100 条文献的项目。较大的项目可以查看，但无法修改。</li>\r\n    <li>您的 Citavi 数据将如上所述被删除。内部系统中还存储有额外的非项目数据。我们将与您联系，以确认将您从所有系统中移除的请求。</li>\r\n</ol>\r\n    
+KeyAccountHtml	Your central account ensures that you can carry out uninterrupted licensing procedures. For this reason, you can only edit your profile by contacting the Swiss Academic Software team.<br/><br/>You can make changes to the password and profile image. If you would like any other changes (for example, a change in your address) or if you would like to transfer the central account to a colleague, please write to us at <a href='mailto:account@citavi.com'>account@citavi.com</a>.	您的中央账户可确保您能不受干扰地完成许可流程。因此，您只能通过联系 Swiss Academic Software 团队来编辑个人资料。<br/><br/>您可以更改密码和头像。如果您需要其他更改（例如更改地址），或想将中央账户转移给同事，请通过 <a href='mailto:account@citavi.com'>account@citavi.com</a> 与我们联系。
+KeyAccountInfo	Information about your central account	关于您的中央账户的信息
+ConfirmProjectInvitationResult_OK_CWeb	You have successfully accepted the invitation to the Citavi project <span class="segoeUiSemibold">{0}</span>.<br/><br/> Here's how you can access the project <span class="segoeUiSemibold">{0}</span>:<br/><ol><li>Start Citavi 6 for Windows.</li><li>On the Welcome Screen, click the icon in the upper right to login with your email address.</li><li>At the bottom of the Welcome Screen, click <span class="segoeUiSemibold">Open project</span>.</li><li>You'll see the project <span class="segoeUiSemibold">{0}</span> on the Cloud tab.</li></ol><br/>If you have not installed Citavi yet, you can <a href="//www.citavi.com/download" target="_blank">download it here</a>.<br/><br/><div class="grayLabel"><b>NEW:</b> On November 30, 2020 the beta test for Citavi Web started. You can now also work with your cloud projects in your browser.<br/>\r\n<ol>\r\n<li><a id="readHereBeta">Click here</a> to read important information about Citavi Web Beta.</li>\r\n<li><a href="/projects/{1}">Log in to Citavi Web Beta here</a>. Your cloud project will open automatically.</li></ol></div><br/>You can now close this page.	您已成功接受加入 Citavi 项目 <span class="segoeUiSemibold">{0}</span> 的邀请。<br/><br/> 访问项目 <span class="segoeUiSemibold">{0}</span> 的方法如下：<br/><ol><li>启动适用于 Windows 的 Citavi 6。</li><li>在欢迎屏幕右上角点击图标，使用您的电子邮件地址登录。</li><li>在欢迎屏幕底部，点击<span class="segoeUiSemibold">打开项目</span>。</li><li>您将在“云端”选项卡上看到项目 <span class="segoeUiSemibold">{0}</span>。</li></ol><br/>如果您尚未安装 Citavi，可以<a href="//www.citavi.com/download" target="_blank">在此下载</a>。<br/><br/><div class="grayLabel"><b>新功能：</b>2020 年 11 月 30 日，Citavi Web 的 Beta 测试已启动。您现在还可以在浏览器中使用您的云项目。<br/>\r\n<ol>\r\n<li><a id="readHereBeta">点击此处</a>了解关于 Citavi Web Beta 的重要信息。</li>\r\n<li><a href="/projects/{1}">在此登录 Citavi Web Beta</a>。您的云项目将自动打开。</li></ol></div><br/>您现在可以关闭此页面。
+UserHasNoAccountYet	The user has not yet created an account.	该用户尚未创建账户。
+License_UsedSpace	Space used	已用空间
+LicenseExpiringMessage	Your subscription date is about to expire and your account will be changed to read-only mode.	您的订阅即将到期，账户将变为只读模式。
+TwoStepVerification	Two-Step Verification	两步验证
+TermsOfUsageAgreement	I agree with the <a href="//www.citavi.com/eula" target="_blank">terms of use</a>.	我同意<a href="//www.citavi.com/eula" target="_blank">使用条款</a>。
+BuyLicense	Buy license	购买许可证
+License_CloudSpace	Storage space	存储空间
+Subscription_RemoveLicensesDescriptionHtml	Please do the following:<br/><br/>\r\n            <ol>\r\n                <li>Close this panel. You will see a list of the licenses in the selected subscription.</li>\r\n                <li>In the middle column, select the license you want to remove from the subscription.</li>\r\n                <li>In the lower right, click "{0}".</li>                \r\n            </ol>\r\n            <br/>            \r\n            The licenses will remain active until the end of the current validity period. When the subscription is renewed, these licenses will not be included.	请执行以下操作：<br/><br/>\r\n            <ol>\r\n                <li>关闭此面板。您将看到所选订阅中的许可证列表。</li>\r\n                <li>在中间列中，选择您要从订阅中移除的许可证。</li>\r\n                <li>在右下角点击“{0}”。</li>                \r\n            </ol>\r\n            <br/>            \r\n            这些许可证将保持有效直到当前有效期结束。订阅续订时，将不再包含这些许可证。
+MergeTwoAccounts	Merge two accounts	合并两个账户
+LearnMore	(Info)	（信息）
+EmailSent	We've sent an email to your new email address. <br/>Please click the confirmation link in the email. <br/> You can then log in with your new email address.	我们已向您的新电子邮件地址发送了一封邮件。<br/>请点击邮件中的确认链接。<br/> 之后您即可使用新的电子邮件地址登录。
+Settings	Settings	设置
+CreatedOn	Created on:	创建于：
+CouldNotVerifyAccount	The account could not be verified.	无法验证该账户。
+AllChangesSaved	All changes saved at {0}	所有更改已于 {0} 保存
+DataDisclaimer	Your personal information will be used only for your Citavi account	您的个人信息仅用于您的 Citavi 账户
+License_ChangeUserNotAllowed_Description	To change the user for the storage space, the current user needs to allow access to his storage space. The user will need to delete projects until only 1 GB of free storage is in use.	要更改存储空间的用户，当前用户需要允许访问其存储空间。该用户需要删除项目，直到仅使用 1 GB 的可用存储空间。
+ConfirmProjectInvitationResult_Error	An error has occurred while accepting the invitation. Please contact the Citavi support team.	接受邀请时发生错误。请联系 Citavi 支持团队。
+InvalidEmailDomainAndEmailAlreadyPresent	Invalid email domain. This address already belongs to this account.	电子邮件域无效。此地址已属于此账户。
+YourHighSchool	Your university or organization	您的大学或机构
+Telephone	Telephone number	电话号码
+RegisterNow	Register now	立即注册
+PageNotFound	The requested page could not be found.	找不到请求的页面。
+PasswordTooLong	The maximum password length is 72 characters	密码最大长度为 72 个字符
+PasswordTooWeak	Password is too weak	密码强度太弱
+TryAgain	Try again	重试
+ExternalClientDesktop	Your registration is complete. You can now log in to Citavi with your user name and password.	您的注册已完成。现在您可以使用用户名和密码登录 Citavi。
+FirstName	First name	名
+FillOnlyIfBillingAddressIsDifferent	Only necessary if the billing address is different from the user address	仅当账单地址与用户地址不同时才需要
+Register	Register	注册
+ConfirmProjectInvitationResult_OK_CWeb_Prod	You have successfully accepted the invitation to the Citavi project <span class="segoeUiSemibold">{0}</span>.<br/><br/> Here's how you can access the project <span class="segoeUiSemibold">{0}</span> with Citavi 6:<br/><ol><li>Start Citavi 6 for Windows.</li><li>On the Welcome Screen, click the icon in the upper right to login with your email address.</li><li>At the bottom of the Welcome Screen, click <span class="segoeUiSemibold">Open project</span>.</li><li>You'll see the project <span class="segoeUiSemibold">{0}</span> on the Cloud tab.</li></ol><br/>If you have not installed Citavi yet, you can <a href="//www.citavi.com/download" target="_blank">download it here</a>.<br/><br/><div class="grayLabel">Alternatively you can now also work with your cloud projects in your browser using Citavi Web.<br/>\r\n<ol>\r\n<li><a id="readHereBeta">Click here</a> to learn more about Citavi Web.</li>\r\n<li><a href="/projects/{1}">Log in to Citavi Web Beta here</a>. Your cloud project will open automatically.</li></ol></div><br/>You can now close this page.	您已成功接受加入 Citavi 项目 <span class="segoeUiSemibold">{0}</span> 的邀请。<br/><br/> 使用 Citavi 6 访问项目 <span class="segoeUiSemibold">{0}</span> 的方法如下：<br/><ol><li>启动适用于 Windows 的 Citavi 6。</li><li>在欢迎屏幕右上角点击图标，使用您的电子邮件地址登录。</li><li>在欢迎屏幕底部，点击<span class="segoeUiSemibold">打开项目</span>。</li><li>您将在“云端”选项卡上看到项目 <span class="segoeUiSemibold">{0}</span>。</li></ol><br/>如果您尚未安装 Citavi，可以<a href="//www.citavi.com/download" target="_blank">在此下载</a>。<br/><br/><div class="grayLabel">或者，您现在也可以使用 Citavi Web 在浏览器中使用您的云项目。<br/>\r\n<ol>\r\n<li><a id="readHereBeta">点击此处</a>了解更多关于 Citavi Web 的信息。</li>\r\n<li><a href="/projects/{1}">在此登录 Citavi Web Beta</a>。您的云项目将自动打开。</li></ol></div><br/>您现在可以关闭此页面。
+Subscription_RemoveLicenses	Remove licenses	移除许可证
+ClickHere	click here.	点击此处。
+EmailNotFound	No confirmation email? Not even in the spam folder?	没有收到确认邮件？垃圾邮件文件夹里也没有？
+BusinessLicense	License for commercial use	商业用途许可证
+ProvideEmailAddress	To reset your password, please enter the email address for your Citavi account:	要重置密码，请输入您 Citavi 账户的电子邮件地址：
+MyHighSchool	My university or organization	我的大学或机构
+FalseInput	Invalid entry	输入无效
+License	Licenses	许可证
+HidePassword	Hide password	隐藏密码
+AccountNotVerified	Your account has not yet been confirmed	您的账户尚未确认
+ResendMembershipVerificationEmail	Click <a id="resendMembershipVerificationEmail">here</a>, and we'll send you a new email.	点击<a id="resendMembershipVerificationEmail">此处</a>，我们将为您发送一封新邮件。
+HighSchoolNotFound	Is your university not in the list? Then it does not support <a href="https://www.citavi.com/shibboleth" target="_blank">Shibboleth</a> authentication.	您的大学不在列表中？那么它不支持 <a href="https://www.citavi.com/shibboleth" target="_blank">Shibboleth</a> 身份验证。
+AlreadyHaveCitaviAccount	I already have a Citavi account:	我已经有 Citavi 账户：
+ReloginButton	Login again	重新登录
+WrongPassword	The password is incorrect.	密码不正确。
+PerSeatLicense	Per-seat license	单机许可证
+VoucherCashIn	Redeem voucher	兑换代金券
+VoucherBlock	Vouchers	代金券
+MergeAccountsHere	Merge two accounts here.	在此合并两个账户。
+MergeAccountsCode	An email with a security code has been sent to the specified email address. Please enter the security code here:	一封包含安全代码的邮件已发送至指定的电子邮件地址。请在此输入安全代码：
+NotYetAvailable	(not yet available)	（尚不可用）
+ResendEmail	Click <a id="resendEmail">here</a>, and we'll send you a new email.	点击<a id="resendEmail">此处</a>，我们将为您发送一封新邮件。
+PasswordRequirementsLabel	Password must be at least 8 characters long and contain numbers and uppercase and lowercase letters	密码长度至少为 8 个字符，且必须包含数字以及大小写字母
+SearchBeginsAfter3Letters	The search begins as soon as three letters are entered.	输入三个字母后即开始搜索。
+ConfirmEmailAddress	Confirm email address	确认电子邮件地址
+ConfirmMembership	Please confirm you are a member of the organization	请确认您是该机构的成员
+PleaseConfirmEmail	Please confirm your email address.	请确认您的电子邮件地址。
+VoucherNotFound	This voucher code does not exist.	该兑换码不存在。
+AddPassword	Add password	添加密码
+ConfirmMembershipEmailDomains	<a id="confirmThroughEmailDomains">Please add an email address with one of these domains: <br/> {0}</a><br />	<a id="confirmThroughEmailDomains">请添加使用以下域之一的电子邮件地址：<br/> {0}</a><br />
+RevokeLicense	Remove license	移除许可证
+PasswordEqualsUsername	Your password cannot be the same as your username	密码不能与用户名相同
+EmailAlreadyPresentGoToLogin	There is already an account associated with this email address. You can <a  id="gotoLogin">log in with this email address</a>.	此电子邮件地址已关联一个账户。您可以<a  id="gotoLogin">使用此电子邮件地址登录</a>。
+PasswordForEmail	Password for {0}	{0} 的密码
+EmailIsSameAsContact	This email address already belongs to the current account	此电子邮件地址已属于当前账户
+DontUseEmail	Don't want to use the new address? Click here: 	不想使用新地址？点击此处： 
+PasswordHasNoNumbers	Password must contain at least one number	密码必须至少包含一个数字
+License_ValidityPeriodUntil	Valid until	有效期至
+ExternalClientMobileShibboleth	Your registration is complete. You can now log in to the Citavi Mobile App with your university login under "My university".	您的注册已完成。您现在可以在 Citavi 移动应用中使用您的大学登录信息，在“我的大学”下登录。
+ConfirmProjectInvitationResult_UserIsNotVerified	You have successfully accepted access to the project, but your Citavi account is not yet verified. Please verify your account to access the project.	您已成功接受对项目的访问权限，但您的 Citavi 账户尚未验证。请验证您的账户以访问该项目。
+Subscription_DueAmountOn	Due by	截止日期
+RememberMeInfoHtml	<div class="infotitle">If <i>Keep me logged in</i> <span class="error">is enabled,</span</div>the email address and password are encrypted and saved by the broswer in a cookie. This cookie is automatically deleted after 30 days. After that, you will need to log in again.<br/>This only works if you do not log out of Citavi or delete your browser history.<br/><br/><div class="infotitle">If <i>Keep me logged in</i> <span class="error">is disabled,</span></div>you only need to close your broswer (not just the window), and you will be logged out.<br/>\r\nThis is especially important when working on a public computer.	<div class="infotitle">如果<i>保持登录状态</i> <span class="error">已启用，</span</div>电子邮件地址和密码将由浏览器加密并保存在 Cookie 中。该 Cookie 会在 30 天后自动删除。之后，您需要重新登录。<br/>这仅在您不退出 Citavi 或不删除浏览器历史记录时有效。<br/><br/><div class="infotitle">如果<i>保持登录状态</i> <span class="error">已禁用，</span></div>您只需关闭浏览器（而不仅仅是窗口），就会退出登录。<br/>\r\n在公共计算机上工作时，这一点尤为重要。
+Relogin	Please login again	请重新登录
+PasswordRequirements	Password must be at least 8 characters long and contain numbers and uppercase and lowercase letters 	密码长度至少为 8 个字符，且必须包含数字以及大小写字母 
+NewEmailAddress	New email address	新的电子邮件地址
+Loading	Loading…	正在加载……
+LicenseAssignedMessage	<b>License assigned.</b><br/>A notification email has been sent.	<b>许可证已分配。</b><br/>已发送通知邮件。
+Subscription_CurrentValidityEndOn	End of current validity period on	当前有效期结束于
+EmailAddressInUse	This address is associated with your site license. We will send license renewal and other important notifications to this email address.	此地址与您的站点许可证关联。我们将向此电子邮件地址发送许可证续订及其他重要通知。
+RecipientNotified	The recipient will receive an automatic email notification. If the recipient does not yet have a Citavi account, he or she will need to create one to access the license key.\r\n<br/><br/>\r\nLicensee information will then also be displayed in this account.	收件人将收到自动电子邮件通知。如果收件人还没有 Citavi 账户，则需要创建一个账户才能访问许可证密钥。\r\n<br/><br/>\r\n随后许可证持有人的信息也将显示在此账户中。
+License_EditUser	Change user	更改用户
+NotificationsSentToThisEmail	Notifications will be sent to this email address:	通知将发送至以下电子邮件地址：
+ConfirmMembershipVoucher	<a id="confirmThroughVoucher">Enter the new voucher code you received from your university.</a><br />	<a id="confirmThroughVoucher">输入您从大学收到的新兑换码。</a><br />
+LicenseExpiredMessage	You have exceeded your subscription date and your account is in read-only mode.	您的订阅已过期，账户处于只读模式。
+MyHighSchool_Shibboleth	My university	我的大学
+VoucherForLicenseDescription	Enter the voucher code to obtain a personalized Citavi license. The new license key will then appear in the Citavi account.	输入兑换码以获取个性化的 Citavi 许可证。新的许可证密钥随后将显示在 Citavi 账户中。
+License_SpaceAvailable	Available	可用
+DesktopLoginSuccess	<ol><li>On the login screen in Citavi for Windows, select a login option and then click "Log in".</li><li>As soon as you're logged in, you can close this tab.</li></ol>	<ol><li>在适用于 Windows 的 Citavi 登录屏幕上，选择一个登录选项，然后点击“登录”。</li><li>登录后，您即可关闭此选项卡。</li></ol>
+Unlimited	Unlimited	无限制
+WhatHappens	What happens if you delete your Citavi account?	如果删除您的 Citavi 账户会怎样？
+NoLicenseWithFreeMail	It's not possible to use a site license with a free webmail service (for example, gmail.com)	无法使用免费网络邮件服务（例如 gmail.com）的地址来使用站点许可证
+ConfirmProjectRestoredResult_OK	The project "{0}" has been restored.	项目“{0}”已恢复。
+YouHaveNoLicenses	You have no Citavi license in your account.	您的账户中没有 Citavi 许可证。
+ConfirmMembershipMiddleHtml	Here's how:<br/>{0}	方法如下：<br/>{0}
+RecoverDeletedProject_Error	You have either entered a wrong URL, or the corresponding project has been deleted more than ten days ago. After that period, all project data is permanently deleted and the project cannot be recovered any more.	您输入的 URL 有误，或者相应的项目已在十天前被删除。超过该期限后，所有项目数据将被永久删除，项目将无法再恢复。
+HighSchoolSearchPlaceholder	Enter location or part of the name	输入地点或名称的一部分
+Subscriptions	Subscriptions	订阅
+PleaseCheckEmail	Please check your inbox	请检查您的收件箱
+TermsOfUsageAndDataProtection	Terms of use and privacy information	使用条款和隐私信息
+NewPassword	New password	新密码
+AccountSuccessfullyVerifiedEmailAdded	You can now use the email address {0} to log in.	您现在可以使用电子邮件地址 {0} 登录。
+LicenseAssigned	<div class='segoeUiSemibold'>License assigned.</div><div class='clear'></div>A notification email has been sent.	<div class='segoeUiSemibold'>许可证已分配。</div><div class='clear'></div>已发送通知邮件。
+ValidityDate	Activated until	激活有效期至
+WrongEmailEntered	Wrong email address?	电子邮件地址有误？
+YouHaveNoPassword	You currently have no Citavi password. You only need a Citavi password if you want to log in with your email address.	您目前没有 Citavi 密码。只有当您想使用电子邮件地址登录时才需要 Citavi 密码。
+ActivateCitaviOldVersion	This is a license for a previous Citavi version. We recommend using <a href="https://www.citavi.com" target="_blank">Citavi 6</a> instead.	这是旧版 Citavi 的许可证。我们建议改用 <a href="https://www.citavi.com" target="_blank">Citavi 6</a>。
+ExternalProvidersError	There is already an account with this email address. You can merge it with the current account.	此电子邮件地址已存在一个账户。您可以将其与当前账户合并。
+UnknownEmailAddress	Unknown email address	未知的电子邮件地址
+LoadFailedProject	The project can't be loaded right now. Please try again later.	目前无法加载该项目。请稍后重试。
+RememberMe	Keep me logged in.<br/><a id="moreInfo">Learn more.</a>	保持登录状态。<br/><a id="moreInfo">了解更多。</a>
+GoToLogin	Go to login	前往登录
+IKnowWhatHappens	I understand	我了解
+License_Deactivate_Title	Exclude this license from renewal	将此许可证排除在续订之外
+ChangePasswordWarning	<span class="segoeUiSemibold">Warning</span>: When you change your password, you'll be logged out of all active sessions.<br/>Close all instances of Citavi (including Citavi for Windows) before you continue.	<span class="segoeUiSemibold">警告</span>：更改密码后，您将从所有活动会话中退出登录。<br/>继续之前，请关闭所有 Citavi 实例（包括适用于 Windows 的 Citavi）。
+MergeAccounts	Merge accounts	合并账户
+LoginNow	Log in now	立即登录
+EmailPresentNoPassword	The email address you entered corresponds to that of an external provider.<br/>Please select the corresponding external provider instead.	您输入的电子邮件地址属于外部提供商。<br/>请改为选择相应的外部提供商。
+PasswordAlreadyEntered	This password is already in use	此密码已被使用
+ConcurrentUserLicense	Concurrent User license	并发用户许可证
+CampusLicenseInfo	Your university's Citavi page	您所在大学的 Citavi 页面
+VerifyLicense	Verify license	验证许可证
+PleaseCheckEmailMembershipVerification	We've sent an email to {0}. Please click the confirmation link in the email.	我们已向 {0} 发送了一封邮件。请点击邮件中的确认链接。
+EmailSuccessfullyResent	Email resent	邮件已重新发送
+CheckYourEmailRegistration	To ensure that you were the one who made this request, we just sent an email to	为确保是您本人发出了此请求，我们刚刚向以下地址发送了一封邮件
+License_Activate	Include license in the next subscription renewal.	在下次订阅续订时包含此许可证。
+Subscription_AddLicenses	Add licenses	添加许可证
+MissingInput	Entry needed	需要输入
+ConfirmProjectInvitationResult_Button	Open the project	打开项目
+MobileAuthenticationLabel	Enter the code that was sent to your mobile device.	输入发送到您移动设备的代码。
+VoucherBlockCampus	Site license vouchers	站点许可证代金券
+ExternalProviderText	You can use your account from an external provider to log in to Citavi.<br/>You can select one or more providers.<br/>After a selection you will be redirected to the page of the corresponding provider.	您可以使用外部提供商的账户登录 Citavi。<br/>您可以选择一个或多个提供商。<br/>选择后，您将被重定向到相应提供商的页面。
+NoCampusContractLicenseFound	No site license was found.	未找到站点许可证。
+TwoStepVerification_Disabled	Disabled	已禁用
+License_CloudspaceDeactivate	Exclude this storage space from renewal	将此存储空间排除在续订之外
+EmailUsedByAnotherSystem	This email address is in use by multiple systems. The login (i.e. the email address and social logins associated with this account) won’t be migrated. However, Citavi data (i.e. your projects) will still be transferred to the target account. Do you wish to proceed?	此电子邮件地址被多个系统使用。登录信息（即此账户关联的电子邮件地址和社交登录）将不会迁移。但是，Citavi 数据（即您的项目）仍将转移到目标账户。您希望继续吗？
+IfYouForgotYourPassword	If you forgot your password, choose a new one here.	如果您忘记了密码，请在此选择新密码。
+Edit	edit	编辑
+Firm	Organization	组织
+Done	Done	完成
+Code	Security code	安全代码
+Next	Next	下一步
+Help	Help	帮助
+Here	here	此处
+Send	Send	发送
+RevokeLicenseConfirm	The license <b>{1}</b> will be removed from <b>{0}</b>. Do you want to continue?	许可证 <b>{1}</b> 将从 <b>{0}</b> 中移除。是否继续？
+MissingTermsOfUsage	Please agree to the terms of use.	请同意使用条款。
+PasswordMustHaveUppercaseLowercase	Password must contain uppercase and lowercase letters	密码必须包含大写和小写字母
+HighSchool	University	大学

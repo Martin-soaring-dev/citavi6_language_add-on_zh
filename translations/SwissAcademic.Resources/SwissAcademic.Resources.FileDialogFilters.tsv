@@ -1,0 +1,50 @@
+ExcelExtension	.xls	.xls
+Access	Microsoft Access Databases  (*.mdb)|*.mdb|All Files (*.*)|*.*	
+CitaviDBServerProject	Citavi DBServer Projects|*.ctvdbs6	
+CitaviDBServerDatabase	Citavi DBServer Databases|*.cdm6	
+CalcExtension	.ods	.ods
+BibTeX	BibTeX Files (*.bib; *.txt)|*.bib;*.txt|All Files (*.*)|*.*	
+Bitmap	All Bitmap Formats (*.bmp; *.gif; *.ico; *.jpg; *.jpeg; *.png; *.tif; *.tiff)|*.bmp; *.gif; *.ico; *.jpg; *.jpeg; *.png; *.tif; *.tiff|All Files (*.*)|*.*	
+Citavi6Archive	Citavi Archive|*.ctv6archive	
+WordProcessorSave	Rich Text Format|*.rtf|Plain Text|*.txt|Word Document (*.doc)|*.doc|OpenDocument Text (*.odt)|*.odt	
+WordProcessorOpen	Supported Formats (*.rtf; *.txt; *.doc; *.docx; *.odt)|*.txt;*.rtf;*.doc;*.docx;*.odt|Rich Text Format (*.rtf)|*.rtf|ASCII Text (*.txt)|*.txt|Unicode Text (*.txt)|*.txt|Word Documents (*.doc; *.docx)|*.doc;*.docx|OpenDocument Text (*.odt)|*.odt|All Files (*.*)|*.*	
+Citavi	Citavi Projects|*.ctv6;*.ctvdbs6;*.ctv6archive;*.ctv6bak;*.ctv5;*.ctvdbs5;*.ctv4;*.ctt4;*.ctv3;*.ctt3|All Files|*.*	
+BitmapSave	JPEG |*.jpg|BMP |*.bmp|GIF |*.gif|PNG |*.png|TIFF |*.tif	
+CitaviCitationStyle	Citavi Citation Style (*.ccs)|*.ccs|All Files (*.*)|*.*	
+Writer	OpenDocument Text (*.odt)|*.odt	
+SaveChatHistoryFilter	Text files (*.txt)|*.txt|html files (*.html)|*.html	
+CitaviArchiveExtension	.ctv6archive	.ctv6archive
+BibliographyGroupingSets_Export	Groupings (*.ctvbgd)|*.ctvbgd	
+SQLite	SQLite Databases (*.sqlite)|*.sqlite|All Files (*.*)|*.*	
+BibliographyGroupingSets_Import	Groupings (*.ctvbgd)|*.ctvbgd|All Files|*.*	
+TeXFilter	TeX Documents (*.tex)|*.tex|LyX Documents (*.lyx)|*.lyx|All Files (*.*)|*.*	
+CitaviLog	Citavi Activity Log (*.zip)|*.zip	
+Citavi5	Citavi Projects|*.ctv5;*.ctvdbs5	
+Citavi6	Citavi Projects|*.ctv6;*.ctvdbs6	
+Bibliographix	Bibliographix Files (*.bgx; *bx7; *bx9)|*.bgx;*bx7;*bx9|All Files (*.*)|*.*	
+EndNote	EndNote Libraries (*.enl)|*.enl|All Files (*.*)|*.*	
+MindManager	Mind Manager Documents  (*.mmap)|*.mmap|All Files (*.*)|*.*	
+CitaviDBServerConnectionFileExtension	.ctvdbs6	.ctvdbs6
+All	All Files (*.*)|*.*	
+MPX	MPX File (*.mpx)|*.mpx|All Files (*.*)|*.*	
+Csv	CSV Files (*.csv)|*.csv|All Files (*.*)|*.*	
+Txt	Text Files (*.txt)|*.txt|All Files (*.*)|*.*	
+Ris	RIS Files, Text Files (*.ris; *.txt)|*.ris;*.txt|All Files (*.*)|*.*	
+Pdf	PDF Files (*.pdf)|*.pdf|All Files|*.*	
+Xml	Xml Files (*.xml)|*.xml|All Files (*.*)|*.*	
+Excel	Excel Workbooks (*.xlsx)|*.xlsx|All Files (*.*)|*.*	
+Cover	Cover Art Formats|*.bmp; *.emf; *.exif; *.gif; *.ico; *.jpg; *.jpeg; *.pdf; *.png; *.tif; *.tiff; *.wmf|All files|*.*	
+Image	All Image Formats (*.bmp; *.emf; *.exif; *.gif; *.ico; *.jpg; *.jpeg; *.png; *.tif; *.tiff; *.wmf)|*.bmp; *.emf; *.exif; *.gif; *.ico; *.jpg; *.jpeg; *.png; *.tif; *.tiff; *.wmf|All Files (*.*)|*.*	
+CitaviDBServerLicense	Citavi DBServer Licenses (*.cdb6lic)|*.cdb6lic|All Files (*.*)|*.*	
+ReferenceIdentifierLookup	Supported Formats (*.rtf; *.txt; *.doc; *.docx; *.odt;*.pdf;*.csv)|*.txt;*.rtf;*.doc;*.docx;*.odt;*.pdf;*.csv|Rich Text Format (*.rtf)|*.rtf|ASCII Text (*.txt; *.csv)|*.txt;*.csv|Unicode Text (*.txt)|*.txt|Word Documents (*.doc; *.docx)|*.doc;*.docx|OpenDocument Text (*.odt)|*.odt|PDF (*.pdf)|*.pdf|All Files (*.*)|*.*	
+Excel2003Save	Excel 97-2003 Workbook (*.xls)|*.xls	
+LiteRat	LiteRat Databases (*.mdb)|*.mdb|All Files (*.*)|*.*	
+CitaviBackupExtension	.ctv6bak	.ctv6bak
+CitationStyleExtension	.ccs	.ccs
+TabularText	Text Files (*.txt; *.csv)|*.txt; *csv|All Files (*.*)|*.*	
+CitaviCacheExtension	ctc	ctc
+AsposeDocumentSave	Word Document (*.docx)|*.docx|Word 97-2003 Document (*.doc)|*.doc|PDF (*.pdf)|*.pdf|OpenDocument Text (*.odt)|*.odt|Rich Text Format (*.rtf)|*.rtf|Webpage (*.html)|*.html|XPS (*.xps)|*.xps|Plain Text (*.txt)|*.txt	
+CitaviDefaultExtension	.ctv6	.ctv6
+CitaviSettings	Citavi Settings Files (*.csd;*.xml)|*.csd;*.xml|All Files (*.*)|*.*	
+Calc	OpenDocument Spreadsheets (*.ods)|*.ods|All Files (*.*)|*.*	
+Word	Word Documents  (*.doc; *.docx)|*.doc;*.docx|All Files (*.*)|*.*	

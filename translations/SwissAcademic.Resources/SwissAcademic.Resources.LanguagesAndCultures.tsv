@@ -1,0 +1,169 @@
+MN_MONG	Mongolian (Traditional Mongolian)	蒙古语（传统蒙古文）
+MN_CYRL	Mongolian (Cyrillic)	蒙古语（西里尔文）
+AZ_LATN	Azeri (Latin)	阿塞拜疆语（拉丁文）
+TZM_TFNG	Tamazight (Tifinagh)	塔马齐格特语（提非纳文）
+TZM_LATN	Tamazight (Latin)	塔马齐格特语（拉丁文）
+PA_ARAB	Punjabi (Arabic)	旁遮普语（阿拉伯文）
+KU_ARAB	Central Kurdish (Arabic)	中库尔德语（阿拉伯文）
+ZGH_TFNG	Standard Morrocan Tamazight (Tifinagh)	标准摩洛哥塔马齐格特语（提非纳文）
+SR_CYRL	Serbian (Cyrillic)	塞尔维亚语（西里尔文）
+SR_LATN	Serbian (Latin)	塞尔维亚语（拉丁文）
+JV_LATN	Basa Jawa (Latin)	爪哇语（拉丁文）
+CHR_CHER	Cherokee (Cherokee)	切罗基语（切罗基文）
+ZH_CHS	Chinese (Simplified) Legacy	中文（简体，旧版）
+ZH_CHT	Chinese (Simplified) Legacy	中文（简体，旧版）
+IU_CANS	Inuktitut (Syllabics)	因纽特语（音节文字）
+IU_LATN	Inutktitut (Latin)	因纽特语（拉丁文）
+UZ_CYRL	Uzbek (Cyrillic)	乌兹别克语（西里尔文）
+UZ_LATN	Uzbek (Latin)	乌兹别克语（拉丁文）
+SD_ARAB	Sindhi (Arabic)	信德语（阿拉伯文）
+SN_LATN	chiShona (Latin)	绍纳语（拉丁文）
+EL	Greek	希腊语
+EN	English	英语
+EO	Esperanto	世界语
+ES	Spanish	西班牙语
+ET	Estonian	爱沙尼亚语
+EU	Basque	巴斯克语
+FA	Persian	波斯语
+FF	Fulah	富拉语
+FI	Finnish	芬兰语
+FO	Faroese	法罗语
+FR	French	法语
+FY	Frisian	弗里斯兰语
+AF	Afrikaans	南非荷兰语
+AA	Afar	阿法尔语
+AB	Abkhaz	阿布哈兹语
+AM	Amharic	阿姆哈拉语
+AR	Arabic	阿拉伯语
+AS	Assamese	阿萨姆语
+AZ	Azeri	阿塞拜疆语
+DA	Danish	丹麦语
+DE	German	德语
+DV	Divehi	迪维希语
+GA	Irish	爱尔兰语
+GD	Scottish Gaelic	苏格兰盖尔语
+GN	Guarani	瓜拉尼语
+GL	Galician	加利西亚语
+GU	Gujarati	古吉拉特语
+BG	Bulgarian	保加利亚语
+BE	Belarusian	白俄罗斯语
+BA	Bashkir	巴什基尔语
+BO	Tibetan	藏语
+BN	Bengali	孟加拉语
+BS	Bosnian	波斯尼亚语
+BR	Breton	布列塔尼语
+MI	Maori	毛利语
+MK	Macedonian (FYROM)	马其顿语（前南斯拉夫马其顿共和国）
+ML	Malayalam	马拉雅拉姆语
+MN	Mongolian	蒙古语
+MG	Malagasy	马达加斯加语
+MY	Burmese	缅甸语
+MR	Marathi	马拉地语
+MS	Malay	马来语
+MT	Maltese	马耳他语
+CA	Catalan	加泰罗尼亚语
+CO	Corsican	科西嘉语
+CS	Czech	捷克语
+CY	Welsh	威尔士语
+NO	Norwegian	挪威语
+NN	Norwegian (Nynorsk)	挪威语（尼诺斯克语）
+NL	Dutch	荷兰语
+NB	Norwegian (Bokmål)	挪威语（博克马尔语）
+NE	Nepali	尼泊尔语
+II	Yi	彝语
+ID	Indonesian	印度尼西亚语
+IG	Igbo	伊博语
+IT	Italian	意大利语
+IU	Inuktitut	因纽特语
+IS	Icelandic	冰岛语
+LO	Lao	老挝语
+LB	Luxembourgish	卢森堡语
+LT	Lithuanian	立陶宛语
+LV	Latvian	拉脱维亚语
+OM	Oromoo	奥罗莫语
+OC	Occitan	奥克语
+OR	Oriya	奥里亚语
+JA	Japanese	日语
+JV	Basa Jawa	爪哇语
+UR	Urdu	乌尔都语
+UZ	Uzbek	乌兹别克语
+UG	Uyghur	维吾尔语
+UK	Ukrainian	乌克兰语
+HI	Hindi	印地语
+HE	Hebrew	希伯来语
+HA	Hausa	豪萨语
+HY	Armenian	亚美尼亚语
+HU	Hungarian	匈牙利语
+HR	Croatian	克罗地亚语
+KN	Kannada	卡纳达语
+KO	Korean	韩语
+KL	Greenlandic	格陵兰语
+KM	Khmer	高棉语
+KK	Kazakh	哈萨克语
+KA	Georgian	格鲁吉亚语
+KY	Kyrgyz	吉尔吉斯语
+KU	Central Kurdish	中库尔德语
+VI	Vietnamese	越南语
+TS	Xitsonga	聪加语
+TR	Turkish	土耳其语
+TT	Tatar	鞑靼语
+TA	Tamil	泰米尔语
+TE	Telugu	泰卢固语
+TG	Tajik	塔吉克语
+TH	Thai	泰语
+TK	Turkmen	土库曼语
+TN	Setswana	茨瓦纳语
+WO	Wolof	沃洛夫语
+RW	Kinyarwanda	卢旺达语
+RU	Russian	俄语
+RO	Romanian	罗马尼亚语
+RM	Romansh	罗曼什语
+PT	Portuguese	葡萄牙语
+PS	Pashto	普什图语
+PA	Punjabi	旁遮普语
+PL	Polish	波兰语
+SV	Swedish	瑞典语
+SW	Kiswahili	斯瓦希里语
+ST	Sesotho	塞索托语
+SR	Serbian	塞尔维亚语
+SQ	Albanian	阿尔巴尼亚语
+SD	Sindhi	信德语
+SE	Sami (Northern)	萨米语（北部）
+SA	Sanskrit	梵语
+SN	chiShona	绍纳语
+SO	Soomaali	索马里语
+SL	Slovenian	斯洛文尼亚语
+SK	Slovak	斯洛伐克语
+SI	Sinhala	僧伽罗语
+YO	Yoruba	约鲁巴语
+ZU	Zulu	祖鲁语
+ZH	Chinese	中文
+XH	Xhosa	科萨语
+FIL	Filipino	菲律宾语
+ARN	Mapudungun	马普切语
+DSB	Lower Sorbian	下索布语
+GSW	Alsatian	阿尔萨斯语
+MOH	Mohawk	莫霍克语
+CHR	Cherokee	切罗基语
+NQO	N'Ko	恩科语
+NSO	Sesotho sa Leboa	北索托语
+HAW	Hawaiian	夏威夷语
+HSB	Upper Sorbian	上索布语
+KOK	Konkani	孔卡尼语
+QUT	K'iche	基切语
+QUZ	Quechua	克丘亚语
+TZM	Tamazight	塔马齐格特语
+PRS	Dari	达里语
+SYR	Syriac	叙利亚语
+SAH	Sakha	萨哈语
+SMS	Sami (Skolt)	萨米语（斯科尔特）
+SMJ	Sami (Lule)	萨米语（吕勒）
+SMN	Sami (Inari)	萨米语（伊纳里）
+SMA	Sami (Southern)	萨米语（南部）
+ZGH	Standard Morrocan Tamazight	标准摩洛哥塔马齐格特语
+FF_LATN	Fulah (Latin)	富拉语（拉丁文）
+HA_LATN	Hausa (Latin)	豪萨语（拉丁文）
+ZH_HANT	Chinese (Traditional)	中文（繁体）
+ZH_HANS	Chinese (Simplified)	中文（简体）
+BS_LATN	Bosian (Latin)	波斯尼亚语（拉丁文）
+BS_CYRL	Bosnian (Cyrillic)	波斯尼亚语（西里尔文）

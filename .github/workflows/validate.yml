@@ -1,0 +1,30 @@
+name: validate
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 校验译文格式与占位符
+        shell: pwsh
+        run: ./tools/Test-Translations.ps1
+
+      - name: 构建语言包
+        shell: pwsh
+        run: ./tools/Build-LanguagePack.ps1
+
+      - name: 检查构建产物
+        shell: pwsh
+        run: |
+          $required = 'dist/zh/SwissAcademic.Resources.resources.dll'
+          if (-not (Test-Path $required)) { throw "缺少 $required" }
+          $count = (Get-ChildItem dist/zh -Filter *.dll).Count
+          Write-Host "生成 $count 个附属程序集"
+          if ($count -ne 6) { throw "预期 6 个程序集,实际 $count" }

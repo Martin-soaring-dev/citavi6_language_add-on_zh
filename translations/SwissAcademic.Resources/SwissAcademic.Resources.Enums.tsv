@@ -1,0 +1,973 @@
+SyncFolderType_OneDrive	OneDrive	OneDrive
+AutoRenamePropertyId_Title	Title	标题
+EntityLinkRelationType_SomewhatPositive	Somewhat positive	略微正面
+ImportFieldType_PubMedId	PubMed ID	PubMed ID
+VirtualSearchFieldType_Full	All fields	所有字段
+VirtualSearchFieldType_Isbn	ISBN	ISBN
+VirtualSearchFieldType_Date	Date	日期
+VirtualSearchFieldType_Year	Year	年份
+VirtualSearchFieldType_Text	Knowlege item text	知识条目文本
+FontStyle_SmallCaps	Small caps	小型大写字母
+LinkedResourceType_AttachmentFile	Citavi attachment (local)	Citavi 附件(本地)
+StyleFinderFullReferenceJournalArticleTitleFormat_Neutral	Plain	纯文本
+Pagination_Annually	By volume	按卷
+ImportFieldType_PrivateCollectionItemCallNumber	Private Collection: Call number	私人收藏:索书号
+VirtualSearchFieldType_PersonFields	Person fields	个人字段
+StyleFinderFullReferenceJournalArticleJournalNameFormat_Indifferent	Any	任意
+KnownTaskName_Discuss	Discuss	讨论
+LinkedResourceType_RelativeFileUri	Linked file (relative)	链接文件(相对)
+StyleFinderFullReferenceAuthorsLastNameFontStyle_SmallCaps	Small caps	小型大写字母
+SearchInContext_KeywordList	In the keywords list	在关键词列表中
+ImportReferenceType_AudioBook	Audio book	有声书
+SearchAttributeType_Title	Title	标题
+FullTextExtractionResult_CannotOpenPdf	The PDF file could not be opened is likely corrupted.	无法打开 PDF 文件,文件可能已损坏。
+VirtualSearchFieldType_StandardAbbreviation	Abbreviation 1 (Series and Periodicals)	缩写 1(丛书和期刊)
+Z3950ExceptionType_ConnectionInitRejected	Login failed	登录失败
+ImportFieldType_CreatedBy	Created	创建时间
+ShowMainIndexNumbersInMultipleCitation_Always	Always, e.g. [1a, 1b] or [1a, 1b, 2a-2c]	始终,例如 [1a, 1b] 或 [1a, 1b, 2a-2c]
+ImportReferenceType_ContributionInBookEdited	Contribution	贡献
+StyleFinderFullReferenceBookTitleFormat_Neutral	Plain	纯文本
+KnownTaskName_Read	Read	已读
+CitationStyleAnalysis_BibliographyBookAuthorsEnumeration		
+BackupFolderPathDialogContext_PathIsEmpty	Select the folder for Citavi backups. Note the help text to the right.	选择 Citavi 备份文件夹。请注意右侧的帮助文本。
+FontStyle_Italic	Italic	斜体
+StyleFinderRepeatingConsecutiveFootnoteCitation_Full	As a full reference	作为完整参考文献
+FontStyle_Superscript	Superscript	上标
+FinalCharacter_FullStop	. (period)	.(句点)
+VirtualSearchFieldType_ImageDescription	Image description	图片描述
+FullTextExtractionStatus_NotExtractable	Cannot be extracted	无法提取
+ImportFieldType_TitleInOtherLanguages	Title in other languages	其他语言标题
+SimpleFontStyleFormatting_Underlined	Underline	下划线
+ImportFieldType_StartPage	Start page	起始页
+ImportFieldType_Categories	Categories	分类
+PdfExportSelection_FilteredReferencesPdfs	From the {0} PDF files of the the filtered references	从筛选出的参考文献的 {0} 个 PDF 文件中
+LaTeXEditor_WinShell	WinShell	WinShell
+VirtualSearchFieldType_KnowledgeItemCategories	Categories (in knowledge items)	分类(在知识条目中)
+ImportFieldType_AuthorsSuffix	{0}: Suffix	{0}:后缀
+AttachmentAction_Link	Link	链接
+AttachmentAction_Move	Move	移动
+AttachmentAction_Copy	Copy	复制
+StyleFinderFullReferenceAuthorsFirstNameFormat_Indifferent	Any	任意
+CompareType_Text	Alphabetical	按字母顺序
+StyleFinderFullReferenceBookUsesEdition_No	No	否
+VirtualSearchFieldType_MiddleName	Middle name	中间名
+SearchResultGroupType_Periodicals	Periodicals	期刊
+ImportFieldMappingTag_Pages	page|pages	
+SearchAttributeType_BlissClassification	Bliss classification	Bliss 分类法
+ImportFieldMappingTag_Title	title	标题
+StyleFinderShortCitationSystem_CitationKey	Citation key, e.g. [Smi08]	引用键,例如 [Smi08]
+VirtualSearchFieldType_CreatedOrModifiedBy	Created or modified by	创建或修改者
+VirtualSearchFieldType_CreatedOrModifiedOn	Created or modified on	创建或修改时间
+VirtualSearchFieldType_ReferenceTasks	Reference tasks	文献任务
+ImportFieldMappingTag_Notes	note|notes	
+ImportFieldType_OthersInvolvedLastName	Other persons: Last name	其他人员:姓氏
+VirtualSearchFieldType_Keywords	Keywords (all)	关键词(全部)
+StyleFinderFullReferenceBookUsesPublisher_Yes	Yes	是
+SearchAttributeType_CodeInstitution	Institution (code)	机构(代码)
+ConcentrationArea_SociologyAndPoliticalScience	Sociology and Political Science	社会学与政治学
+VirtualSearchFieldType_Number	Number	编号
+AddressableTextEditor_Word	Microsoft Word	Microsoft Word
+Sex_Neutral	Neutral	中性
+TaskStatus_WaitingToRun	Waiting for processing	等待处理
+ImportFieldType_LocationCallNumber	Location: Call number	位置:索书号
+PersonNameOrder_LastNameFirstName	Last name, first name ("Doe, John Mike")	姓,名 ("Doe, John Mike")
+InformationProviderType_Library	Libraries	图书馆
+KnowledgeItemFilterTypeInternal_All	All knowledge items	所有知识条目
+NameFormat_Compact	Compact ("JM")	紧凑 ("JM")
+PersonNameSequence_LastnameFirstnameWithComma	Last name, first name	姓，名
+StyleFinderShortCitationSystem_ReferenceNumbers	Reference numbers, e.g. [14]	参考文献编号,例如 [14]
+VirtualSearchFieldType_ElectronicLocations	Locations (electronic)	位置(电子)
+NumeralSystem_LetterUpperCase	Uppercase letters	大写字母
+StyleFinderPlaceOfReferences_Indifferent	Any	任意
+VirtualSearchFieldType_Cover_Description	Reference cover art	参考文献封面图片
+SourceOfBibliographicInformationPreset_BooksellerCatalog	Bookseller catalog	书商目录
+ImportFieldType_AuthorsPrefix	{0}: Prefix	{0}:前缀
+NumeralSystem_Default	None (as entered)	无(按输入)
+VirtualSearchFieldType_LastName	Last name	姓氏
+VirtualSearchFieldType_TitleFields	Title fields	标题字段
+FullTextExtractionResult_ErrorWhileExtractingIFilterText	An error occurred during extraction.	提取过程中发生错误。
+FullTextExtractionResult_EPubIsDrmProtected	The ePub file is protected by DRM. The text could not be extracted.	ePub 文件受 DRM 保护。无法提取文本。
+ImportFieldType_QuotationTextRtf	Quotation: Text (RTF)	引文:文本 (RTF)
+SearchAttributeType_PASubject	PA subject	PA 主题
+VirtualSearchFieldType_ParentReference	Parent reference	父参考文献
+StyleFinderRepeatingNonConsecutiveFootnoteCitation_Full	As a full reference	作为完整参考文献
+MainFormWorkspace_Knowledge	Knowledge	知识
+VirtualSearchFieldType_Notes	Notes	笔记
+ConcentrationArea_NaturalSciences	Natural Sciences	自然科学
+DbServerLicenseType_ConcurrentReader	Concurrent Reader	并发读者
+VirtualSearchFieldType_Cover	Cover art	封面图片
+VirtualSearchFieldType_Date2	Date2	Date2
+SearchAttributeType_LCSubjectHeading	LC subject heading	LC 主题词
+StyleFinderFullReferenceJournalArticleJournalNameFormat_AbbreviatedNameItalics	Abbreviated name, italicized	缩写名称,斜体
+VirtualSearchFieldType_State	Status	状态
+VirtualSearchFieldType_Title	Title	标题
+VirtualSearchFieldType_Tasks	Tasks	任务
+VirtualSearchFieldType_Price	Price	价格
+VirtualSearchFieldType_PmcId	PMC ID	PMC ID
+BackupFolderPathDialogContext_UserSettingsManagement	Select the folder for Citavi backups. Note the help text to the right. 	选择 Citavi 备份文件夹。请注意右侧的帮助文本。
+ImportFieldMappingTag_Publisher	publisher|publishers	
+ReferenceFilterTypeInternal_MovedReferences	Moved references	已移动的参考文献
+ImportFieldType_EditorsMiddleName	{0}: Middle name	{0}:中间名
+ImportFieldType_AuthorsFullName	{0}: Name	{0}:名称
+SearchAttributeType_ConferenceName	Conference	会议
+ImportFieldType_PmcId	PMCID	PMCID
+ImportFieldType_Price	Price	价格
+SimpleFontStyleCaps_SmallCaps	Small caps	小型大写字母
+ImportFieldType_Notes	Notes	笔记
+ConcentrationArea_AppliedSciencesAndEngineering	Applied Sciences and Engineering	应用科学与工程
+CitationSystem_Other	Other	其他
+KnowledgeItemFilterTypeInternal_KnowledgeItemType	Type of knowledge item	知识条目类型
+VirtualSearchFieldType_Evaluation	Evaluation	评估
+ImportReferenceType_BookEdited	Book, edited	图书(编著)
+ImportFieldType_Additions	Additions	补充信息
+UngroupedReferencesPosition_Bottom	Bottom	底部
+KnowledgeItemType_Subheading	Subheading	副标题
+AutoRenamePropertyId_CustomField8	Custom field 8	自定义字段 8
+AutoRenamePropertyId_CustomField9	Custom field 9	自定义字段 9
+AutoRenamePropertyId_CustomField6	Custom field 6	自定义字段 6
+AutoRenamePropertyId_CustomField7	Custom field 7	自定义字段 7
+AutoRenamePropertyId_CustomField4	Custom field 4	自定义字段 4
+AutoRenamePropertyId_CustomField5	Custom field 5	自定义字段 5
+AutoRenamePropertyId_CustomField2	Custom field 2	自定义字段 2
+AutoRenamePropertyId_CustomField3	Custom field 3	自定义字段 3
+AutoRenamePropertyId_CustomField1	Custom field 1	自定义字段 1
+StyleFinderFullReferenceBookTitleFormat_Italics	Italicized	斜体
+SearchInContext_MainFormKnowledgeKnowledgeItemsWithNoCategories	In uncategorized knowledge items	在未分类的知识条目中
+ImportReferenceType_StatuteOrRegulation	Statute or regulation	法规或条例
+PdfExportSelection_SelectedReferencesPdfs	From the {0} PDF files of the selected references	从所选参考文献的 {0} 个 PDF 文件中
+ElementApplyCondition_Always	Always	始终
+ImportFieldType_TableOfContents	Table of contents	目录
+KnowledgeItemCompositionReferenceHandling_InsertPlaceholderInText	Text and in-text placeholders	文本和文中占位符
+ImportFieldType_CollaboratorsLastName	{0}: Last name	{0}:姓氏
+VirtualSearchFieldType_Collaborators	Collaborator	合著者
+SearchAttributeType_DateOfAcquisition	Date of acquisition	获取日期
+ConcentrationArea_VeterinaryMedicine	Veterinary Medicine	兽医学
+VirtualSearchFieldType_Groups	Groups (all)	分组(全部)
+SearchAttributeType_MaterialType	Document type	文档类型
+ImportFieldType_EditorsFullName	{0}: Name	{0}:名称
+FontStyle_SameAsPrevious	Same as previous style	与上一样式相同
+TaskStatus_Faulted	Process failed	进程失败
+PublicationAssistantDoubleClickAction_Insert	Insert in {0}	插入到 {0}
+AppendIdentifyingLetterTo_CitationKey	Citation key	引用键
+SearchAttributeType_BodyOfText	Body of text	正文
+StyleFinderFullReferenceAuthorsLastNameFontStyle_Indifferent	Any	任意
+ReferenceCompositionSortOption_Custom	As sorted in the project	按项目中排序
+ImportFieldType_InternetLink	Internet address	互联网地址
+FileNameSeparator_Dash	Dash	短横线
+FileNameSeparator_None		
+ImportFieldType_AbstractRtf	Abstract (RTF)	摘要 (RTF)
+OrganizationNameOrder_NameAbbreviation	Full name Abbreviation ("United Nations [UN]")	全名缩写 ("United Nations [UN]")
+TaskPlannerQuickFilter_ProjectTasks	Project tasks	项目任务
+SearchInContext_MainFormKnowledgeReferencesCurrentCategoryAndBelow	In the selected category (incl. child categories)	在所选分类中(含子分类)
+SearchAttributeType_LCCallNumber	LCCN	LCCN
+VirtualSearchFieldType_Quotations	Quotations	引文
+VirtualSearchFieldType_UniformTitle	Uniform title	统一题名
+FontStyle_AllCaps	All caps	全部大写
+FileNameSeparator_Period	Period	句号
+StyleFinderRepeatingNonConsecutiveFootnoteCitation_Indifferent	Any	任意
+LOBExceptionType_OnlineOrderNotPossibleNoInternetConnection	The order cannot be processed because your computer does not have an active connection to the Internet.	由于您的计算机没有活动的互联网连接,无法处理该订单。
+TaskPlannerQuickFilter_Custom	Selected tasks	所选任务
+SearchAttributeType_LocationCallNumber	Call number	索书号
+AdobeAcrobatFileImport	PDF file import	PDF 文件导入
+ReferenceFilterTypeInternal_ChildReferences	Child references	子参考文献
+GdPictureStatus_OutOfMemory	Out of memory	内存不足
+SearchAttributeType_Date	Date of event	事件日期
+SearchAttributeType_ISBN	ISBN	ISBN
+SearchAttributeType_ISSN	ISSN	ISSN
+SearchAttributeType_Note	Note	注释
+VirtualSearchFieldType_PageRangeNumberingType	Page range numbering type	页码范围编号类型
+ConcentrationArea_Theology	Theology	神学
+TaskState_Done	Done	完成
+TaskPlannerQuickFilter_ImportantTaskItems	Important tasks	重要任务
+ImportReferenceType_Unknown	Unknown reference type	未知参考文献类型
+ImportReferenceType_JournalArticle	Journal article	期刊文章
+VirtualSearchFieldType_DueDate	Due date	截止日期
+StyleFinderFullReferenceBookUsesPublisher_Indifferent	Any	任意
+RolePermissionType_ReadAllEntities	Read	已读
+VirtualSearchFieldType_KnowledgeItemsText	Knowledge items (text)	知识条目(文本)
+VirtualSearchFieldType_KnowledgeItemsFile	Knowledge items (image or file)	知识条目(图片或文件)
+Z3950ExceptionType_ConnectionUnavailable	The information provider is not available at the moment.	信息提供程序当前不可用。
+DataCenter_WestEurope	West Europe	西欧
+InformationProviderType_CSA	CSA	CSA
+ReferenceFilterTypeInternal_ReferencesWithNoGroup	References without groups	未分组参考文献
+VirtualSearchFieldType_KnowledgeFields	Knowledge fields	知识字段
+FontStyle_Neutral	Plain	纯文本
+ImportFieldType_Language	Language	语言
+SchemaRole_Reader	Reader	读者
+SearchInContext_PublisherList	In the publishers list	在出版社列表中
+StyleFinderFullReferenceAuthorsLastNameFontStyle_Bold	Bold	粗体
+NumberingType_Page	Pages	页码
+IndentationType_Hanging	Hanging	悬挂
+VirtualSearchFieldType_NumberOfVolumes	Number of volumes	卷数
+ImportFieldMappingTag_Year	year	年份
+StyleFinderFullReferenceBookUsesPublisher_No	No	否
+ImportField_CreatedBy	Created	创建时间
+VirtualSearchFieldType_FirstName	First name	名
+BibliographyRepeatedPersonsOmissionHandling_None	No special output for repetition or omission	重复或省略时不作特殊输出
+StyleFinderFullReferenceAuthorsLastNameFontStyle_Neutral	No formatting	无格式
+LinkedResourceType_AbsoluteFileUri	Linked file	链接文件
+FontStyle_DoubleUnderline	Double underline	双下划线
+CompareType_Number	By first number found in field	按字段中找到的第一个数字
+VirtualSearchFieldType_Subtitle	Subtitle	副标题
+NumeralSystem_RomanUpperCase	Uppercase Roman numerals	大写罗马数字
+SearchResultGroupType_SeriesTitles	Series	系列
+KnownTaskName_ExamineAndAssess	Examine and assess	查看并评估
+FavoriteListSortType_Layout	Layout	布局
+PdfExportSelection_AllReferencesPdfs	From all {0} PDF files in the project	从项目中的所有 {0} 个 PDF 文件中
+SourceOfBibliographicInformationPreset_LibraryCatalog	Library catalog	图书馆目录
+ColorScheme_Blue	Blue	蓝色
+ColorScheme_Grey	Gray	灰色
+GdPictureStatus_AccessDenied	Access denied	访问被拒绝
+EntityLinkRelationType_Neutral	Neutral	中性
+KnowledgeItemCompositionReferenceHandling_InsertShortTitle	With short title	使用短标题
+VirtualSearchFieldType_OriginalCheckedBy	Original checked by/on	原文核对人/时间
+FullTextExtractionResult_ErrorWhileExtractingPdfText	An error occurred during extraction.	提取过程中发生错误。
+SearchAttributeType_RVMSubjectHeading	RVM subject	RVM 主题
+EntityLinkRelationType_SomewhatNegative	Somewhat negative	略为负面
+ReferenceCompositionSortOption_CitationStyle	As specified in the citation style	按引文样式中的指定
+CitationSystem_FootnoteFullCitation	Footnote: full citation	脚注：完整引文
+PersonNameOrder_LastNameFirstNameCompact	Last name first name ("Doe John Mike")	姓 名（"Doe John Mike"）
+ReferenceFilterTypeInternal_Periodical	Periodical	期刊
+VirtualSearchFieldType_HasLabel1_Description	Reference - Blue label	文献 - 蓝色标签
+VirtualSearchFieldType_QuotationsText	Quotations (text)	引用（文本）
+VirtualSearchFieldType_QuotationsFile	Quotations (image or file)	引用（图像或文件）
+ImportFieldType_ParentReferenceID	In (Import ID)	位于（导入 ID）
+ProjectRoleType_Manager	Project leader	项目负责人
+ImportFieldType_QuotationCoreStatement	Quotation: CoreStatement	引用：核心陈述
+ImportFieldType_SetLabel1	Blue label	蓝色标签
+ImportFieldType_SetLabel2	Red label	红色标签
+VirtualSearchFieldType_QuotationType	Type of quotation	引用类型
+SyncFolderType_DropBox	DropBox	DropBox
+ImportFieldType_AuthorsMiddleName	{0}: Middle name	{0}:中间名
+VirtualSearchFieldType_HasLabel2_Description	Reference - Red label	文献 - 红色标签
+FirstNameAbbreviation_Abbreviated	Abbreviated: Miller, J.	缩写：Miller, J.
+LinkedResourceType_RemoteAttachmentUri	Citavi URL	Citavi URL
+ReferenceFilterTypeInternal_Year	Year: {0}	年份：{0}
+StyleFinderOrderOfReferenceNumbers_OrderOfBibliography	In the order of the bibliography	按参考文献顺序
+SimpleFontStyleFormatting_Unspecified	Unspecified	未指定
+MiddleNameUsage_FirstOnly	First middle name only	仅第一个中间名
+PersonNameSequence_None	Unknown	未知
+ImportFieldType_EditorsPrefix	{0}: Prefix	{0}:前缀
+FullTextExtractionResult_Success	Full-text extraction completed successfully.	全文提取成功完成。
+Sex_Unknown	Unknown	未知
+ImportFieldType_OriginalPublication	Original publication	原始出版物
+PublicationAssistantKnowledgeItemDoubleClickAction_Show	Edit knowledge item	编辑知识条目
+FullTextExtractionResult_None	The location was not processed.	该位置未被处理。
+TemplateUseCaseEditState_Completed	Completed	已完成
+VirtualSearchFieldType_ReferenceIdentifiers	Identifiers	标识符
+VirtualSearchFieldType_Volume	Volume	卷
+ImportFieldType_PrivateCollectionItemNotes	Private Collection: Notes	私人收藏：备注
+ImportFieldType_AuthorsTitle	{0}: Title	{0}：标题
+ReferenceFilterTypeInternal_Library	Library	图书馆
+StyleFinderFullReferenceAuthorsFirstNameFormat_AbbreviatedNoPeriod	Abbreviated, no periods: J M	缩写，无句点：J M
+SearchResultGroupType_Persons	Persons, organizations	人员、组织
+ImportFieldType_AuthorsNotes	{0}: Notes	{0}：备注
+SchemaRole_None	No access	无访问权限
+FullTextExtractionResult_Manual	The full text was edited manually.	全文已手动编辑。
+QuotationType_Comment	Comment	评论
+KnownTaskName_ExcerptQuotations	Excerpt quotations	摘录引用
+ImportReferenceType_Broadcast	Radio or TV broadcast	广播或电视播出
+SearchAttributeType_DeweyClassification	Dewey classification	杜威分类
+TemplateUseCaseEditState_None	None	无
+ConcentrationArea_Philosophy	Philosophy	哲学
+PersonNameSequence_LastnameFirstnameWithoutComma	Last name first name	姓 名
+VirtualSearchFieldType_TextLinks	Additional links	其他链接
+ImportGroupType_AdobeAcrobatFileImport	PDF file import	PDF 文件导入
+OpenUrlMetaTagType_Stitle	Periodical: Abbreviation 1	期刊：缩写 1
+CitationSystem_InTextReferenceNumber	In-text citation: number	文内引文：编号
+SearchAttributeType_SubjectHeading	Keywords	关键词
+FullTextExtractionStatus_CloudProcessing	Processing in the cloud…	正在云端处理…
+ImportFieldType_EditorsSuffix	{0}: Suffix	{0}:后缀
+SearchAttributeType_MESHSubject	MeSH subject	MeSH 主题
+ImportFieldType_ReferenceType	Reference type	文献类型
+RuleSetType_InTextCitation	In-text citation	文内引用
+FontStyle_StrikeThrough	Strikethrough	删除线
+SearchInContext_PeriodicalList	In the periodicals list	在期刊列表中
+ImportFieldType_ParentReferenceCreatedBy	Parent reference: Created	父文献：创建日期
+ProjectRoleType_Author	Author	作者
+ImportFieldType_QuotationText	Quotation: Text	引用：文本
+BibliographyRepeatedPersonsOmissionHandling_Standard	Same as above	同上
+LineSpacingType_One	One	一
+ShowMainIndexNumbersInMultipleCitation_Once	Once, e.g.  [1a, b] or [1a, b, 2a-c]	一次，例如 [1a, b] 或 [1a, b, 2a-c]
+ImportFieldMappingTag_OnlineAddress	onlineaddress|www|internet	
+LOBExceptionType_ReferenceInfoNotPossibleNotAvailable	Bibliographic information cannot be shown because the ISBN number is unknown to the online book store.	无法显示书目信息，因为在线书店未知该 ISBN 号。
+FileNameSeparator_Comma	Comma	逗号
+VirtualSearchFieldType_Doi	DOI name	DOI 名称
+UserDataFolderState_ExistsButCannotWrite	Citavi startup cannot continue because Citavi could not write to the default folder for Citavi user files. This can occur because the folder is write-protected, or because you do not have rights to write in that folder. Citavi must be able to write to the folder to continue. \r\n\r\nSelect a different folder to put the Citavi folder in, or correct the permissions on the Documents folder and try again.\r\n	Citavi 无法继续启动，因为 Citavi 无法写入 Citavi 用户文件的默认文件夹。这可能是因为该文件夹受写保护，或者您没有在该文件夹中写入的权限。Citavi 必须能够写入该文件夹才能继续。 \r\n\r\n请选择其他文件夹来放置 Citavi 文件夹，或更正“文档”文件夹的权限后重试。\r\n
+ImportReferenceType_NewsAgencyReport	News agency report	通讯社报道
+VirtualSearchFieldType_Rating	Rating	评分
+ImportFieldType_AccessDate	Access date	访问日期
+TaskState_Advanced	Advanced	高级
+LinkedResourceType_Empty	(Empty)	（空）
+LinkedResourceType_Error	Error	错误
+VirtualSearchFieldType_Suffix	Suffix	后缀
+Alignment_Center	Centered	居中
+ImportReferenceType_Thesis	Thesis	学位论文
+MainFormWorkspace_ReferenceEditor	Reference Editor	文献编辑器
+SimpleFontStyleScript_Subscript	Subscript	下标
+StyleFinderFullReferenceAuthorsFirstNameFormat_Abbreviated	Abbreviated: J. M.	缩写：J. M.
+VirtualSearchFieldType_Editors	Editor	编辑
+VirtualSearchFieldType_Edition	Edition	版次
+GdPictureStatus_EncryptionSchemeNotSupported	Encryption scheme not supported	不支持该加密方案
+KnowledgeItemType_File	File	文件
+KnowledgeItemType_Text	Text	文本
+ImportFieldType_ParentReferenceSeriesTitle	Parent reference: Series	父文献：丛书
+StyleFinderFullReferenceBookUsesEdition_Yes	Yes	是
+NameFormat_AbbreviatedCompact	Abbreviated, compact ("J.M.")	缩写，紧凑（"J.M."）
+VirtualSearchFieldType_CoreStatement	Core statement	核心论述
+SearchAttributeType_LocalClassification	Local classification	本地分类
+ImportFieldType_OthersInvolvedMiddleName	Other persons: Middle name	其他人员：中间名
+TaskStatus_WaitingForChildrenToComplete	Waiting for subprocesses to complete	正在等待子进程完成
+OrganizationNameOrder_AbbreviationOnly	Abbreviation only ("UN")	仅缩写（"UN"）
+OrganizationNameOrder_AbbreviationName	Abbreviation Full name ("UN [United Nations]")	缩写 全名（"UN [United Nations]"）
+ImportFieldType_EditorsLastName	{0}: Last name	{0}:姓氏
+ModificationInfoMeasurementUnit_Minutes	Minutes	会议纪要
+VirtualSearchFieldType_PageRangeNumeralSystem	Page range numeral system	页码范围数字系统
+ImportReferenceType_Manuscript	Manuscript	手稿
+OpenUrlMetaTagType_Volume	Volume	卷
+LOBExceptionType_ReferenceInfoNotPossibleNoIsbn	Bibliographic information cannot be shown because  the reference does not have an ISBN number.	无法显示书目信息，因为该文献没有 ISBN 号。
+VirtualSearchFieldType_WebLocations	Locations (Web)	位置（网络）
+PasswordStrength_None	Password strength: none	密码强度：无
+NameFormat_AbbreviatedNoPeriod	Abbreviated, no period ("J M")	缩写，无句点（"J M"）
+PasswordStrength_Weak	Password strength: weak	密码强度：弱
+MainFormWorkspace_KnowledgeOrganizer	Knowledge Organizer	知识管理器
+DbServerLicenseType_Free	Free	免费版
+VirtualSearchFieldType_ThoughtsFile	Thoughts (image or file)	想法（图像或文件）
+VirtualSearchFieldType_ThoughtsText	Thoughts (text)	想法（文本）
+ImportReferenceType_ContributionInSpecialIssue	Contribution in a special issue or supplement	特刊或增刊中的文章
+SchemaRole_Author	Author	作者
+NumeralSystem_Omit	[Omit]	[省略]
+NumeralSystem_None	None	无
+KnownTaskName_BuyOrOrder	Buy or order	购买或订购
+ColorScheme_Yellow	Orange	橙色
+ElementApplyCondition_PreviousElementHasData	The previous element contains data	前一个元素包含数据
+PeriodicalNameUsage_StandardAbbreviation	Abbreviation 1	缩写 1
+SearchAttributeType_Organizations	Institution	机构
+VirtualSearchFieldType_LibraryLocations	Locations (library)	位置（图书馆）
+ShowMainIndexNumbersInMultipleCitation_OnceOnlyWhenAllReferencesAreOfSingleMainIndex	Once, but only if all references have the same main index number, e.g. [1a, b] or [1a, 1b, 2a-c]	一次，但仅当所有文献具有相同的主索引号时，例如 [1a, b] 或 [1a, 1b, 2a-c]
+SearchResultGroupType_Locations_FullText	Full text, locations	全文、位置
+ImportFieldType_QuotationCategory	Quotation: Category	引用：类别
+ReferenceFilterTypeInternal_Keyword	Keyword	关键词
+VirtualSearchFieldType_SpecificField5	Specific field 5	特定字段 5
+VirtualSearchFieldType_SpecificField4	Specific field 4	特定字段 4
+VirtualSearchFieldType_SpecificField7	Specific field 7	特定字段 7
+VirtualSearchFieldType_SpecificField6	Specific field 6	特定字段 6
+VirtualSearchFieldType_SpecificField1	Specific field 1	特定字段 1
+VirtualSearchFieldType_SpecificField3	Specific field 3	特定字段 3
+VirtualSearchFieldType_SpecificField2	Specific field 2	特定字段 2
+VirtualSearchFieldType_CitationKey	Citation key	引用键
+SearchResultGroupType_Libraries	Libraries	图书馆
+KnowledgeKeywordEditorRowType_AllEntries	(All)	（全部）
+ImportReferenceType_CollectedWorks	Collected work	文集
+TemplateUseCaseEditState_NeedsReview	Needs review	需要检查
+ImportReferenceType_InterviewMaterial	Interview material	访谈材料
+ProjectType_DesktopSQLite	Local project	本地项目
+VirtualSearchFieldType_PrivateCollectionLocations	Locations (Private Collection)	位置（私人收藏）
+ImportReferenceType_Patent	Patent	专利
+MiddleNameFormatInfo_IsAbbreviated	Abbreviate	缩写
+ImportReferenceType_PersonalCommunication	Personal communication	个人通信
+LOBExceptionType_ReferenceInfoNotPossibleNoInternetConnection	Bibliographic information cannot be shown because your computer does not have an active connection to the Internet.	无法显示书目信息，因为您的计算机没有活动的 Internet 连接。
+ImportFieldType_ReviewingReferenceID	Review: Reviewed in (Import ID)	书评：评论收录于（导入 ID）
+VirtualSearchFieldType_Prefix	Prefix	前缀
+ImportFieldType_CitationKey	Citation key	引用键
+KnowledgeItemCompositionReferenceHandling_FullFormatWithInTextCitations	Text, in-text citations, and bibliography	文本、文内引文和参考文献
+UpdateType_Manual	Custom	自定义
+KnownTaskName_VerifyBibliographicInformation	Verify bibliographic information	验证书目信息
+StyleFinderFullReferenceAuthorsNameOrder_FirstNameLastName	First name last name	名 姓
+ReferenceFilterTypeInternal_ImportGroup	Import	导入
+ConcentrationArea_EarthSciences	Earth Sciences	地球科学
+ModificationInfoMeasurementUnit_Months	Months	月
+KnowledgeItemFilterTypeInternal_Group	Group	分组
+VirtualSearchFieldType_TaskItemsModifiedBy	Tasks modified by	任务修改者
+VirtualSearchFieldType_TaskItemsModifiedOn	Tasks modified on	任务修改日期
+ModificationInfoMeasurementUnit_Minute	Minute	分钟
+SearchAttributeType_TitleSeries	Publication or series	出版物或丛书
+KnownTaskName_Photocopy	Photocopy or scan	影印件或扫描件
+KnowledgeItemFilterTypeInternal_Other	Other filter	其他筛选器
+VirtualSearchFieldType_PersonSex	Gender (Persons and organizations)	性别（人员和组织）
+ConcentrationArea_SportsScience	Sports Science	体育科学
+AppendIdentifyingLetterTo_Year	Year	年份
+AppendIdentifyingLetterTo_Auto	Auto	自动
+AppendIdentifyingLetterTo_Both	Citation key and year	引文键和年份
+KnowledgeItemCompositionReferenceHandling_FullFormatWithFootnotes	Text, footnote citations, and bibliography	文本、脚注引文和参考文献
+MiddleNameUsage_None	No middle names	无中间名
+PlaceholderEntryOption_None	None	无
+VirtualSearchFieldType_SeriesTitle	Series	系列
+SearchInContext_MainFormTasks	In the Task Planner	在任务计划器中
+FullTextExtractionResult_CannotOpenEPub	The ePub file could not be opened is likely corrupted.	无法打开该 ePub 文件，它可能已损坏。
+ImportFieldType_OthersInvolvedFirstName	Other persons: First name	其他人员：名
+FontStyle_Bold	Bold	粗体
+VirtualSearchFieldType_UserAbbreviation2	Abbreviation 3 (Series and Periodicals)	缩写 3（丛书和期刊）
+VirtualSearchFieldType_UserAbbreviation1	Abbreviation 2 (Series and Periodicals)	缩写 2（丛书和期刊）
+ImportReferenceType_File	Files	文件
+AttachmentAction_MoveAndRename	Move files and rename with Citavi short title	移动文件并使用 Citavi 短标题重命名
+ImportReferenceType_Book	Book	图书
+SearchAttributeType_PersonalName	Person names	人名
+ReferenceListFormatInfoSortOption_CitationStyle	As specified in the citation style	按引文样式中的指定
+VirtualSearchFieldType_DateFields	Publication date	出版日期
+VirtualSearchFieldType_HasLabel2	Red label	红色标签
+VirtualSearchFieldType_HasLabel1	Blue label	蓝色标签
+PublicationAssistantDoubleClickAction_Show	Show reference	显示文献
+PublicationAssistantDoubleClickAction_Copy	Copy	复制
+PublicationAssistantDoubleClickAction_None	No action	无操作
+ImportFieldType_None	Don't import	不导入
+BibliographyRepeatedPersonsOmissionHandling_Special	Special repetition or omission output…	特殊的重复或省略输出…
+KnowledgeItemCompositionReferenceHandling_FullFormatAuto	Text, citations, and bibliography	文本、引文和参考文献
+LinkedResourceType_RemoteUri	URL	URL
+ColorScheme_Red	Red	红色
+ReferenceFilterTypeInternal_All	All references	所有参考文献
+KnowledgeItemFilterTypeInternal_Keyword	Keyword	关键词
+FullTextExtractionResult_UnexpectedError	An unexpected error occurred while the file was being processed.	处理文件时发生意外错误。
+KnowledgeKeywordEditorRowType_EntriesWithNoKeyword	(No keywords assigned)	（未分配关键词）
+SearchInContext_ProjectShell	In the current selection	在当前选择中
+VirtualSearchFieldType_Abstract	Abstract	摘要
+UserDataFolderState_UnknownInstallation	Citavi cannot start yet because Citavi has never been run from this location before. This can happen if:\r\n- You moved the Citavi program folder.\r\n- You installed Citavi to several locations on the same computer.\r\n\r\nSelect the folder for Citavi user files for this location of Citavi.	Citavi 尚无法启动，因为以前从未从该位置运行过 Citavi。这可能发生在以下情况：\r\n- 您移动了 Citavi 程序文件夹。\r\n- 您在同一台计算机的多个位置安装了 Citavi。\r\n\r\n请为该位置的 Citavi 选择 Citavi 用户文件的文件夹。
+SimpleFontStyleScript_None	Not superscript or subscript	非上标或下标
+ImportReferenceType_AudioOrVideoDocument	Audio or video document	音频或视频文档
+StyleFinderFullReferenceJournalArticleJournalNameFormat_AbbreviatedName	Abbreviated name	缩写名称
+ConcentrationArea_General	General	常规
+LicenseType_Free	Free	免费版
+DatePublishedPosition_Unspecified	Unspecified	未指定
+TaskStatus_WaitingForActivation	Waiting for activation	等待激活
+TaskStatus_Created	Created	创建时间
+ReferenceFilterTypeInternal_ReferencesWithNoCategory	References without categories	无类别的文献
+ImportFieldType_ModifiedBy	Modified:	修改时间：
+ImportFieldType_ParentReferencePlaceOfPublication	Parent reference: Place of publication	父文献：出版地
+SimpleFontStyleCaps_AllCaps	All caps	全部大写
+VirtualSearchFieldType_ReferenceGroups	Groups (for references)	组（用于文献）
+FileNameSeparator_UnderLine	Underline	下划线
+FontStyle_SameAsNext	Same as next style	与下一个样式相同
+InformationProviderType_ThomsonReuters	Clarivate	Clarivate
+VirtualSearchFieldType_CustomField8	Custom field 8	自定义字段 8
+VirtualSearchFieldType_CustomField9	Custom field 9	自定义字段 9
+VirtualSearchFieldType_CustomField6	Custom field 6	自定义字段 6
+VirtualSearchFieldType_CustomField7	Custom field 7	自定义字段 7
+VirtualSearchFieldType_CustomField4	Custom field 4	自定义字段 4
+VirtualSearchFieldType_CustomField5	Custom field 5	自定义字段 5
+VirtualSearchFieldType_CustomField2	Custom field 2	自定义字段 2
+VirtualSearchFieldType_CustomField3	Custom field 3	自定义字段 3
+VirtualSearchFieldType_CustomField1	Custom field 1	自定义字段 1
+KnowledgeItemFilterTypeInternal_ExcludeKnowledgeItems_Singular	1 knowledge item excluded	已排除 1 个知识条目
+VirtualSearchFieldType_ReferencesModifiedBy	References modified by	文献修改者
+VirtualSearchFieldType_ReferencesModifiedOn	References modified on	文献修改日期
+ImportFieldType_AuthorsFirstName	{0}: First name	{0}：名
+BuiltInRole_Author	Author	作者
+FullTextExtractionResult_FileNotFound	The file could not be found.	找不到该文件。
+StyleFinderFullReferenceAuthorsFirstNameFormat_Full	Full: Jane Margaret	全名：Jane Margaret
+ImportFieldType_PeriodicalUserAbbreviation2	{0}: Abbreviation 3	{0}：缩写 3
+ImportFieldType_PeriodicalUserAbbreviation1	{0}: Abbreviation 2	{0}：缩写 2
+TaskState_Started	Started	已开始
+ConcentrationArea_Economics	Economics	经济学
+ImportFieldMappingTag_FilePath	path|filepath	
+ImportGroupType_LookupFullTextWithAttachment	Full text	全文
+ReferenceFilterTypeInternal_Publisher	Publisher	出版社
+ImportFieldType_BibTeXKey	BibTeX key	BibTeX 键
+KnownTaskName_EnterLocations	Enter locations	输入位置
+ProjectRoleType_Reader	Reader	读者
+BuiltInRole_ProjectLeader	Project leader	项目负责人
+SearchAttributeType_Author	Author	作者
+FullTextExtractionStatus_Success	Full text extraction completed successfully.	全文提取成功完成。
+ListSortDirection_Ascending	Ascending	升序
+StyleFinderFullReferenceAuthorsNameOrder_Indifferent	Any	任意
+ImportFieldType_PageRangeNumberingType	Type of range:	范围类型：
+StyleFinderFullReferenceAuthorsLastNameFontStyle_Italics	Italics	斜体
+KnownTaskName_WriteOrEditAbstract	Write or edit abstract	撰写或编辑摘要
+ImportFieldType_LocationElectronic	Locations (electronic)	位置(电子)
+VirtualSearchFieldType_Thoughts	Thoughts	想法
+FinalCharacter_None	No punctuation	无标点
+AutoRenamePropertyId_SubTitle	Subtitle	副标题
+StyleFinderFullReferenceJournalArticleTitleFormat_Indifferent	Any	任意
+AutoRenamePropertyId_None		
+AutoRenamePropertyId_Year	Year	年份
+StyleFinderFullReferenceJournalArticleJournalNameFormat_FullNameItalics	Full name, italicized	全名，斜体
+SearchInContext_MainFormKnowledgeKnowledgeItemsCurrentCategoryAndBelow	In the selected category (incl. child categories)	在所选分类中(含子分类)
+ImportReferenceType_ArchiveMaterial	Archive material	档案材料
+StyleFinderFullReferenceAuthorsFirstNameFormat_AbbreviatedCompact	Abbreviated, compact: J.M.	缩写，紧凑：J.M.
+ReferenceFilterTypeInternal_SavedSearch	Saved search	已保存的搜索
+OpenUrlMetaTagType_Spage	Start page	起始页
+OpenUrlMetaTagType_Pages	Pages	页码
+OpenUrlMetaTagType_Title	Title	标题
+QuotationType_None	None	无
+ImportFieldType_UniformTitle	Uniform title	统一题名
+OpenUrlMetaTagType_Genre	Reference type	文献类型
+GdPictureStatus_PdfRasterizerCanNotBeDecrypted	PDF document could not be decrypted	无法解密 PDF 文档
+OpenUrlMetaTagType_Epage	End page	结束页
+OpenUrlMetaTagType_Issue	Number	编号
+ConcentrationArea_ArtMusicAndTheatre	Art, Music and Theatre	艺术、音乐和戏剧
+KnowledgeItemFilterTypeInternal_Periodical	Periodical	期刊
+VirtualSearchFieldType_ShortTitle	Short title	短标题
+InformationProviderType_OCLC	OCLC	OCLC
+InformationProviderType_None	All information providers	所有信息提供商
+InformationProviderType_Gale	Gale	Gale
+OpenUrlMetaTagType_Atitle	Title of the contribution	文章标题
+OpenUrlMetaTagType_Aulast	Author: Last name	作者：姓
+VirtualSearchFieldType_CallNumber	Call number	索书号
+KnowledgeItemFilterTypeInternal_Person	Person	人员
+LaTeXEditor_None2	word processor	文字处理软件
+ImportGroupType_OnlineSearch	Online search	在线搜索
+KnowledgeItemFilterTypeInternal_KnowledgeItemsWithNoKeyword	Knowledge items without keywords	没有关键词的知识项
+SearchAttributeType_AnyField	All fields	所有字段
+UserDataFolderState_UnknownState	Citavi startup cannot continue because the folder for Citavi user files could not be found for an unknown reason. \r\n\r\nSelect the folder for Citavi user files.	Citavi 无法继续启动，因为由于未知原因找不到 Citavi 用户文件的文件夹。 \r\n\r\n请选择 Citavi 用户文件的文件夹。
+SearchAttributeType_Editor	Editor	编辑
+VirtualSearchFieldType_YearResolved	Year derived	年份(推导)
+VirtualSearchFieldType_TaskFields	Task fields	任务字段
+StyleFinderShortReferenceType_CitationKey	Citation key, e.g. [Smi08]	引用键,例如 [Smi08]
+RuleSetType_Footnote	Footnote	脚注
+ProjectDbPermission_Unknown	Unknown	未知
+ColorScheme_Brown	Purple	紫色
+SimpleFontStyleFormatting_Bold	Bold	粗体
+SimpleFontStyleFormatting_None	None	无
+ImportFieldType_FileLink	Local file	本地文件
+ImportFieldType_ParentReferenceModifiedBy	Parent reference: Modified	父文献：修改日期
+ColorScheme_Green	Green	绿色
+PdfExportSelection_ActiveReferencePdfs	From the {0} PDF files of the current reference	从当前文献的 {0} 个 PDF 文件中
+StyleFinderFullReferenceAuthorsNameOrder_LastNameOnly	Last name only	仅姓氏
+CitationSystem_InTextCitation	In-text citation: author date	文内引文：作者 日期
+VirtualSearchFieldType_CreatedOn	Created on	创建日期
+VirtualSearchFieldType_CreatedBy	Created by	创建者
+ImportGroupType_LookupFullTextWithUrl	URLs for full text	全文的 URL
+ReferenceFilterTypeInternal_Other	Other filter	其他筛选器
+ImportGroupType_Picker	Picker import	选择器导入
+ReferenceFilterTypeInternal_Group	Group	分组
+MainFormWorkspace_TaskPlanner	Task Planner	任务计划器
+ReferenceFilterTypeInternal_SelectedReferences	Selected references	所选文献
+ImportFieldType_IntranetLink	Intranet address	内网地址
+SourceOfBibliographicInformationPreset_PublisherBrochure	Publisher brochure	出版商宣传册
+BuiltInRole_Reader	Reader	读者
+VirtualSearchFieldType_OnlineAddress	Online address	在线地址
+VirtualSearchFieldType_AuthorsOrEditorsOrOrganizations	Author, editor, or organization	作者、编者或组织
+Pagination_InFascicles	By issue	按期
+SearchInContext_PersonList	In the persons and organizations list	在人员和组织列表中
+ImportFieldType_TableOfContentsRtf	Table of contents (RTF)	目录（RTF）
+ImportReferenceType_PressRelease	Press release	新闻稿
+DbServerLicenseType_PerSeat	Per seat	每席位
+ReferenceListFormatInfoSortOption_Custom	As sorted in the project	按项目中排序
+ImportFieldMappingTag_Volume	volume	卷
+SearchResultGroupType_EntityLinks	Links	链接
+SearchInContext_MainFormKnowledgeReferencesCurrentList	In the selected category (without child categories)	在所选类别中（不含子类别）
+TaskState_NotStarted	Not started	未开始
+StyleFinderOrderOfReferenceNumbers_Indifferent	Any	任意
+VirtualSearchFieldType_Abbreviation	Library abbreviation	图书馆缩写
+ElementApplyCondition_AnyElementInComponentHasData	Any element in this component contains data	此组件中任一元素包含数据
+LaTeXEditor_None	your word processor	您的文字处理软件
+NumberingType_Paragraph	Section numbers	章节编号
+ImportFieldType_TaskDueDate	Task: Due date	任务：截止日期
+PasswordStrength_Medium	Password strength: medium	密码强度：中
+Alignment_Left	Left	左
+DataCenter_GermanyCentral	Germany Central	德国中部
+VirtualSearchFieldType_Additions	Additions	补充信息
+ImportReferenceType_Standard	Standard	标准
+VirtualSearchFieldType_TitleInOtherLanguages	Title in other languages	其他语言标题
+ImportReferenceType_ContributionInConferenceProceedings	Contribution in conference proceedings	会议论文集文章
+ImportReferenceType_CourtDecision	Court decision	法院判决
+SearchResultGroupType_Publishers	Publishers	出版社
+SourceOfBibliographicInformationPreset_InformationProvider	Information provider	信息提供商
+SearchResultGroupType_TaskItems	Tasks	任务
+GdPictureStatus_Aborted	Canceled	已取消
+KnowledgeItemFilterTypeInternal_CategoryAndSubcategories	Category (including Subcategories)	类别（含子类别）
+VirtualSearchFieldType_OriginalPublication	Original publication	原始出版物
+SearchResultGroupType_Categories	Categories	分类
+VirtualSearchFieldType_TitleSupplement	Title supplement	标题补充
+ReferenceFilterTypeInternal_ReferenceType	Reference type	文献类型
+CitationSystem_FootnoteCitationKey	Footnote: citation key	脚注：引文键
+FontStyle_Subscript	Subscript	下标
+Alignment_Right	Right	右
+ImportFieldType_LocationNotes	Location: Notes	位置：备注
+StyleFinderFullReferenceBookUsesEdition_YesAsSuperscript	Yes, in superscript in front of the year of publication	是，以上标形式置于出版年份之前
+LaTeXEditor_TeXMaker	Texmaker	Texmaker
+GdPictureStatus_PdfRasterizerPasswordNeeded	PDF document is password protected	PDF 文档受密码保护
+ImportFieldType_ImportID	Import ID	导入 ID
+LaTeXEditor_TeXworks	TeXworks	TeXworks
+ImportFieldType_Keywords	Keywords	关键词
+MiddleNameFormatInfo_MiddleNameUsage	Usage	用法
+KnownTaskName_Other	Other	其他
+DatePublishedPosition_AuthorTitlePlaceYear	Publication date appears after title	出版日期显示在标题之后
+VirtualSearchFieldType_ArxivId	arXiv ID	arXiv ID
+SearchAttributeType_SubjectRameau	RAMEAU subject	RAMEAU 主题
+ImportFieldType_EditorsNotes	{0}: Notes	{0}：备注
+StyleFinderFullReferenceBookTitleFormat_Indifferent	Any	任意
+QuotationType_IndirectQuotation	Indirect quotation	间接引用
+MiddleNameFormatInfo_Separator	Separator between middle names	中间名之间的分隔符
+ImportFieldType_Affiliation	Affiliation	隶属机构
+DatePublishedPosition_AuthorYearTitlePlace	Publication date appears before title	出版日期显示在标题之前
+ImportFieldType_EditorsTitle	{0}: Title	{0}：标题
+LinkedResourceType_AttachmentWaitingForServerTransaction	Citavi attachment (processing)	Citavi 附件（处理中）
+VirtualSearchFieldType_Authors	Author	作者
+VirtualSearchFieldType_ReferenceKeywords	Keywords (for references)	关键词（用于文献）
+RolePermissionType_ModifyAllEntities	Change	更改
+ImportReferenceType_LegalCommentary	Legal commentary	法律评注
+VirtualSearchFieldType_PageRange	Page range	页码范围
+ImportFieldType_SourceOfBibliographicInformation	Source	来源
+ImportFieldType_EditorsFirstName	{0}: First name	{0}：名
+VirtualSearchFieldType_PageCount	Page count	页数
+ReferenceFilterTypeInternal_SeriesTitle	Series	系列
+ImportFieldMappingTag_Number	issuenumber|issue|number	
+InformationProviderType_SilverPlatter	SilverPlatter	SilverPlatter
+StyleFinderShortReferenceType_Indifferent	Any	任意
+SearchAttributeType_SubjectPRECIS	PRECIS subject	PRECIS 主题
+OptimizeForSlowDatabaseAccess_Always	Always	始终
+VirtualSearchFieldType_OthersInvolved	Others involved	其他参与人
+SearchAttributeType_INSPECSubject	INSPEC subject	INSPEC 主题
+VirtualSearchFieldType_PageCountNumeralSystem	Page count numeral system	页数数字系统
+SearchInContext_LibraryList	In the libraries list	在图书馆列表中
+ImportFieldType_CoverFilePath	Cover art (file)	封面图（文件）
+UserDataFolderState_InstallationSpecificUserDataFolderDoesNotExist	Citavi startup cannot continue because Citavi could not find the Citavi folder for user files. This can occur because the disk or network share the folder is on is not connected.\r\n\r\nSelect a different folder for Citavi user files, or connect the disk or network share with the existing folder and try again.	Citavi 无法继续启动，因为 Citavi 找不到用户文件的 Citavi 文件夹。这可能是因为该文件夹所在的磁盘或网络共享未连接。\r\n\r\n请为 Citavi 用户文件选择其他文件夹，或连接包含现有文件夹的磁盘或网络共享后重试。
+SourceOfBibliographicInformationPreset_OriginalSource	Original source	原始来源
+FullTextExtractionResult_ErrorWhileExtractingEPubText	An error occurred during extraction.	提取过程中发生错误。
+KnowledgeItemCompositionReferenceHandling_InsertPlaceholderAuto	Text and placeholders	文本和占位符
+SearchResultGroupType_References	References	文献条目
+PasswordStrength_Strong	Password strength: strong	密码强度：强
+StyleFinderFullReferenceBookTitleFormat_NeutralInQuotationMarks	Plain and in quotation marks	纯文本并加引号
+VirtualSearchFieldType_TableOfContents	Table of contents	目录
+FavoriteListSortType_Language	Language	语言
+ImportFieldType_PeriodicalNotes	{0}: Notes	{0}：备注
+ConcentrationArea_MathematicsAndComputerScience	Mathematics and Computer Science	数学与计算机科学
+ImportFieldType_PeriodicalEIssn	{0}: eISSN	{0}：eISSN
+CitationStyleSortOption_Custom	Custom	自定义
+ImportReferenceType_Lecture	Presentation	演示文稿
+OrganizationNameOrder_NameOnly	Full name only ("United Nations")	仅全名（"United Nations"）
+StyleFinderRepeatingConsecutiveFootnoteCitation_Indifferent	Any	任意
+ImportFieldType_ParentReferenceTitle	Parent reference: Title	父文献：标题
+ImportFieldType_CollaboratorsTitle	{0}: Title	{0}：标题
+ImportFieldType_CustomField8	Custom field 8	自定义字段 8
+ImportFieldType_CustomField9	Custom field 9	自定义字段 9
+ImportFieldType_CustomField4	Custom field 4	自定义字段 4
+ImportFieldType_CustomField5	Custom field 5	自定义字段 5
+ImportFieldType_CustomField6	Custom field 6	自定义字段 6
+ImportFieldType_CustomField7	Custom field 7	自定义字段 7
+ImportFieldType_CustomField1	Custom field 1	自定义字段 1
+ImportFieldType_CustomField2	Custom field 2	自定义字段 2
+ImportFieldType_CustomField3	Custom field 3	自定义字段 3
+TaskImportance_Low	Low	低
+ReferenceFilterTypeInternal_CitedReferences	Cited references	被引文献
+SearchInContext_MainFormKnowledgeKnowledgeItemsCurrentList	In the selected category (without child categories)	在所选类别中（不含子类别）
+ImportFieldMappingTag_Authors	author|authors	
+ImportGroupType_FileImport	File import	文件导入
+LinkedResourceType_NotAnUri	(Invalid)	（无效）
+ImportFieldType_CollaboratorsNotes	{0}: Notes	{0}：备注
+ReferenceFilterTypeInternal_LastImport	Last import	上次导入
+CompareType_DateTime	By first date found in field	按字段中找到的第一个日期
+VirtualSearchFieldType_KnowledgeItems	Knowledge items	知识条目
+FavoriteListSortType_ConcentrationArea	Subject area	学科领域
+ProjectRoleType_Owner	Owner	所有者
+TaskStatus_Running	Running	运行中
+TemplateUseCaseEditState_NotNeeded	Not needed	不需要
+VirtualSearchFieldType_FileLink	Local file	本地文件
+Alignment_Justify	Justified	两端对齐
+ReferenceFilterTypeInternal_ReferencesWithNoKeyword	References without keywords	无关键词的文献
+GdPictureStatus_PdfRasterizerCanNotOpenFile	PDF document could not be opened	无法打开 PDF 文档
+NumberingType_Column	Columns	列
+ReferenceFilterTypeInternal_ExcludeReferences_Singular	1 reference excluded	已排除 1 条文献
+FullTextExtractionResult_PdfIsPasswordProtected	The PDF file is password-protected. The text could not be extracted.	PDF 文件受密码保护。无法提取文本。
+ImportFieldType_PeriodicalName	{0}: Name	{0}:名称
+ImportFieldType_PeriodicalIssn	{0}: ISSN	{0}：ISSN
+SearchAttributeType_TitleParallel	Title parallel	并列标题
+Sex_Female	Female	女
+AutoRenamePropertyId_ShortTitle	Shorttitle	短标题
+ReferenceFilterTypeInternal_ReferencesInPublication	Cited references	被引文献
+NumeralSystem_RomanLowerCase	Lowercase Roman numerals	小写罗马数字
+FullTextExtractionStatus_NotProcessed	Not processed	未处理
+FullTextExtractionResult_UnexpectedErrorWhileProcessingPdf	An unexpected error occurred while the PDF file was being processed.	处理 PDF 文件时发生意外错误。
+VirtualSearchFieldType_ReferenceIdentifiers_Description	Reference identifiers (ISBN, DOI, PubMed ID, PMCID, arXiv ID)\r\n\r\nThis field only searches if an identifier is there (*) or not there (!). Other search terms will not be found.	文献标识符（ISBN、DOI、PubMed ID、PMCID、arXiv ID）\r\n\r\n此字段仅在标识符存在（*）或不存在（!）时进行检索。其他检索词将不会找到。
+LaTeXEditor_TeXstudio	TeXstudio	TeXstudio
+OptimizeForSlowDatabaseAccess_Auto	Auto	自动
+ImportReferenceType_NewspaperArticle	Newspaper article	报纸文章
+PlaceholderEntryOption_Option1	Option 1	选项 1
+PlaceholderEntryOption_Option3	Option 3	选项 3
+PlaceholderEntryOption_Option2	Option 2	选项 2
+ImportFieldType_EndPage	End Page	结束页
+ImportFieldType_TextLinks	Additional links	其他链接
+FirstNameAbbreviation_NotAbbreviated	Spelled out: Miller, Joe	拼写完整：Miller, Joe
+VirtualSearchFieldType_ModifiedOn	Modified on	修改时间
+VirtualSearchFieldType_ModifiedBy	Modified by	修改者
+ConcentrationArea_MedicinePharmacyAndNursing	Medicine, Pharmacy, and Nursing	医学、药学和护理学
+ReferenceFilterTypeInternal_Label1	Blue labels	蓝色标签
+ReferenceFilterTypeInternal_Label2	Red labels	红色标签
+BackupFolderPathDialogContext_DirectoryDoesNotExist	The current folder for backups, "{0}", no longer exists or is not valid. Please create or select a valid folder for Citavi backups. 	当前备份文件夹“{0}”已不存在或无效。请为 Citavi 备份创建或选择一个有效的文件夹。
+VirtualSearchFieldType_Library	Library	图书馆
+VirtualSearchFieldType_Translators	Translator	译者
+LineSpacingType_OneAndHalf	1.5 lines	1.5 倍行距
+SchemaRole_Manager	Project leader	项目负责人
+KnownTaskName_Borrow	Borrow	借阅
+ImportReferenceType_Movie	Movie	影片
+KnowledgeItemFilterTypeInternal_QuotationType	Type of quotation	引用类型
+InformationProviderType_ProQuest	ProQuest	ProQuest
+ImportFieldType_CollaboratorsMiddleName	{0}: Middle name	{0}:中间名
+SimpleFontStyleScript_Superscript	Superscript	上标
+LineSpacingType_Double	Double	双倍
+RuleSetType_Bibliography	Bibliography	文献目录
+Sex_Male	Male	男
+ProjectDbPermission_None	None	无
+ImportFieldType_CollaboratorsFullName	{0}: Name	{0}:名称
+ProjectDbPermission_Read	Read-only	只读
+KnowledgeItemFilterTypeInternal_Quotations	Quotations	引文
+InformationProviderType_EBSCO	EBSCO	EBSCO
+InformationProviderType_DIMDI	DIMDI	DIMDI
+NumberingType_Margin	Margin numbers	页边编号
+StyleFinderShortCitationSystem_Indifferent	Any	任意
+MiddleNameUsage_All	All middle names	所有中间名
+EntityLinkRelationType_Negative	Negative	负数
+VirtualSearchFieldType_ProjectTasks	Project tasks	项目任务
+ElementApplyCondition_NextElementHasData	The following element contains data	以下元素包含数据
+OpenUrlMetaTagType_Date	Date	日期
+OpenUrlMetaTagType_Isbn	ISBN	ISBN
+OpenUrlMetaTagType_Issn	Periodical: ISSN	期刊：ISSN
+VirtualSearchFieldType_ReferencesCreatedOrModifiedOn	References created or modified on	文献创建或修改日期
+VirtualSearchFieldType_ReferencesCreatedOrModifiedBy	References created or modified by	文献创建或修改者
+UserDataFolderState_CannotCreateDefaultFolder	Citavi startup cannot continue because Citavi could not create the default folder for Citavi user files in the Documents folder. \r\n\r\nSelect a different folder to put the Citavi folder in, or correct the permissions on the Documents folder and try again.	Citavi 无法在“文档”文件夹中创建用于 Citavi 用户文件的默认文件夹，因此无法继续启动。\r\n\r\n请选择其他文件夹来放置 Citavi 文件夹，或更正“文档”文件夹的权限后重试。
+ImportReferenceType_ComputerProgram	Software	软件
+StyleFinderFullReferenceAuthorsNameOrder_LastNameFirstName	Last name first name	姓 名
+PdfExportSelection_PreviewPdf	From the PDF file currently displayed in the preview	从预览中当前显示的 PDF 文件
+LOBExceptionType_OnlineOrderNotPossibleNotAvailable	The order cannot be processed because the ISBN number is unknown to the online book store.	由于网上书店无法识别该 ISBN 号，无法处理订单。
+FirstNameFormatInfo_FontStyle	Font Style	字体样式
+ImportFieldType_ParentReferenceVolume	Parent reference: Volume	上级文献：卷
+KnowledgeItemFilterTypeInternal_ExcludeKnowledgeItems	{0} knowledge items excluded	已排除 {0} 个知识项
+KnowledgeItemFilterTypeInternal_KnowledgeItemsWithNoCategory	Knowledge items without categories	无分类的知识条目
+ImportReferenceType_ContributionInLegalCommentary	Contribution in legal commentary	法律评注中的篇章
+UpdateType_Automatic	Automatic	自动
+UngroupedReferencesPosition_Top	Top	顶部
+InformationProviderType_WilsonWeb	WilsonWeb	WilsonWeb
+StyleFinderPlaceOfReferences_OnlyInFootnotes	Footnotes only	仅脚注
+ConcentrationArea_Law	Law	法律
+ConcentrationArea_All	All subject areas	所有学科领域
+TemplateUseCaseEditState_UnderConstruction	Under construction	建设中
+SyncFolderType_GoogleDrive	Google Drive	Google Drive
+SearchResultGroupType_Groups	Groups	组
+KnowledgeItemFilterTypeInternal_Thoughts	Thoughts	想法
+VirtualSearchFieldType_Organizations	Organization	组织
+ReferenceFilterTypeInternal_CategoryAndSubcategories	Category (including Subcategories)	类别（含子类别）
+ConcentrationArea_History	History	历史记录
+SearchResultGroupType_KnowledgeItems	Knowledge items	知识条目
+SearchAttributeType_TitleUniform	Title series	丛书标题
+VirtualSearchFieldType_TranslatedTitle	Translated title	译名
+VirtualSearchFieldType_Importance	Importance or priority	重要性或优先级
+ImportFieldMappingTag_PlaceOfPublication	placepublished|place|placeofpublication	
+NameFormat_Abbreviated	Abbreviated ("J. M.")	缩写（"J. M."）
+FontStyle_Underline	Underline	下划线
+StyleFinderPlaceOfReferences_InTextAndBibliography	In-text citations and bibliography	文内引注和文献目录
+StyleFinderRepeatingConsecutiveFootnoteCitation_Short	Shortened, e.g. author, shortened title, quotation page range	缩短形式，例如作者、缩短标题、引用页码范围
+VirtualSearchFieldType_LocalAndLanLocations	Locations (my computer and local network)	位置（我的电脑和本地网络）
+NumeralSystem_Arabic	Arabic numerals	阿拉伯数字
+PersonNameOrder_LastNameOnly	Last name only ("Doe")	仅姓氏（"Doe"）
+VirtualSearchFieldType_UpdateType	Generation of short title or core statement	生成短标题或核心陈述
+SearchAttributeType_Publisher	Publisher	出版社
+ImportFieldMappingTag_Periodical	periodical|journal	
+AutoFirstLetterCapitalization_Always	At the beginning of every sentence	每句开头
+ImportFieldType_ArxivId	arXiv ID	arXiv ID
+VirtualSearchFieldType_EntityLinksAsTarget	Links to	链接到
+KnowledgeItemFilterTypeInternal_KnowledgeItemsWithNoGroup	Knowledge items without groups	无分组的知识项
+FirstNameFormatInfo_IsAbbreviated	Abbreviate	缩写
+RolePermissionType_ChangePermissions	Full access	完全访问
+LaTeXEditor_LyX	LyX	LyX
+LaTeXEditor_LEd	LEd (LaTeX Editor)	LEd (LaTeX Editor)
+ImportFieldType_ParentReferenceIsbn	Parent reference: ISBN	上级文献：ISBN
+VirtualSearchFieldType_StorageMedium	Storage medium	存储介质
+ImportFieldType_ParentReferenceYear	Parent reference: Year	上级文献：年份
+ConcentrationArea_LanguageAndLiteratureSciences	Language and Literary Sciences	语言与文学科学
+StyleFinderFullReferenceBookUsesEdition_Indifferent	Any	任意
+VirtualSearchFieldType_KnowledgeItemKeywords	Keywords (in knowledge items)	关键词（在知识项中）
+OpenUrlMetaTagType_jtitle	Periodical: Name	期刊：名称
+TaskPlannerQuickFilter_MyTasks	My tasks	我的任务
+LaTeXEditor_WinEdt	WinEdt	WinEdt
+LaTeXEditor_WinTeX	WinTeX	WinTeX
+OpenUrlMetaTagType_Aufirst	Author: First name	作者：名
+AutoRenamePropertyId_AuthorOrEditorOrOrganization	Author	作者
+TaskStatus_RanToCompletion	Process complete	处理完成
+PeriodicalNameUsage_Name	Full name	全名
+SearchAttributeType_CorporateName	Corporate Name	团体名称
+ImportReferenceType_InternetDocument	Internet document	互联网文献
+VirtualSearchFieldType_ReferenceType	Reference type	文献类型
+FullTextExtractionStatus_Error	Error	错误
+StyleFinderFullReferenceAuthorsSeparator_Indifferent	Any	任意
+VirtualSearchFieldType_EntityLinksAsSource	Links from	链接自
+VirtualSearchFieldType_KnowledgeItemType	Knowlege item type	知识项类型
+ProjectType_DesktopCloud	Cloud project	云项目
+VirtualSearchFieldType_SourceOfBibliographicInformation	Source for bibliographic information	文献信息来源
+VirtualSearchFieldType_AccessDate	Access date	访问日期
+ImportFieldType_TaskImportance	Task: Importance	任务：重要性
+ReferenceFilterTypeInternal_Category	Category	分类
+ImportFieldType_ParallelTitle	Parallel title	并列标题
+StyleFinderFullReferenceAuthorsSeparator_Slash	Slash	斜线
+SearchInContext_SeriesTitleList	In the series list	在丛书列表中
+StyleFinderFullReferenceAuthorsSeparator_Other	Other	其他
+StyleFinderFullReferenceAuthorsSeparator_Comma	Comma	逗号
+KnowledgeItemFilterTypeInternal_Category	Category	分类
+ImportFieldType_Abstract	Abstract	摘要
+ImportFieldType_QuotationPageRange	Quotation: Page range	引文：页码范围
+CitationSystem_InTextCitationKey	In-text citation: citation key	文内引注：引注键
+VirtualSearchFieldType_BibTeXKey	BibTeX key	BibTeX 键
+NumeralSystem_LetterLowerCase	Lowercase letters	小写字母
+GdPictureStatus_PdfRasterizerBadPassword	Incorrect password for PDF document	PDF 文档密码错误
+StyleFinderFullReferenceAuthorsFirstNameFormat_Compact	Abbreviated, compact, no periods: JM	缩写、紧凑、无点号：JM
+SearchAttributeType_TitleAbbreviated	Title abbreviated	标题缩写
+VirtualSearchFieldType_Location	Location	位置
+ReferenceFilterTypeInternal_CopiedReferences	Copied references	已复制的文献
+VirtualSearchFieldType_ReferencesCreatedOn	References created on	文献创建日期
+VirtualSearchFieldType_ReferencesCreatedBy	References created by	文献创建者
+LinkedResourceType_AttachmentRemote	Citavi attachment (cloud)	Citavi 附件（云）
+FullTextExtractionResult_UnexpectedErrorWhileProcessingEPub	An unexpected error occurred while the ePub file was being processed.	处理 ePub 文件时发生意外错误。
+StyleFinderShortCitationSystem_AuthorYear	Author date, e.g. (Smith 2008)	作者日期，例如（Smith 2008）
+KnownTaskName_Return	Return	返回
+KnownTaskName_Recall	Recall	召回
+LaTeXEditor_LibreWriter	LibreOffice Writer	LibreOffice Writer
+FullTextExtractionResult_FileFormatNotExtractable	The file format is not supported by the Citavi full text search.	Citavi 全文检索不支持该文件格式。
+ImportFieldType_CollaboratorsFirstName	{0}: First name	{0}：名
+ImportFieldType_ShortTitle	Short title	短标题
+ReferenceFilterTypeInternal_ExcludeReferences	{0} references excluded	已排除 {0} 条文献
+QuotationType_Highlight	Highlight	高亮
+LineSpacingType_Precise	Exactly	固定值
+SearchAttributeType_PlacePublication	Place	地点
+LineSpacingType_Multiple	Multiple	多个
+ImportFieldType_ParentReferenceEditorsFullName	Parent reference: Editor	上级文献：编者
+ReferenceFilterTypeInternal_LookupLocationsReferences	References from location search	来自位置检索的文献
+ImportFieldMappingTag_Editors	editor|editors|ed|eds	
+ImportFieldType_TaskType	Task: Type	任务：类型
+StyleFinderRepeatingNonConsecutiveFootnoteCitation_FirstFootnoteIOndex	With a cross-reference to the first footnote, e.g. author, (see footnote 12), quotation page range.	带指向首个脚注的交叉引用，例如作者、（见脚注 12）、引用页码范围。
+BackupFolderPathDialogContext_NoWritePermission	You do not have write permissions for the current folder for backups, "{0}". Please create or select a folder that you have write permission for. 	您没有当前备份文件夹“{0}”的写入权限。请创建或选择您拥有写入权限的文件夹。
+StyleFinderRepeatingConsecutiveFootnoteCitation_Ibidem	With ibid. or ibidem. when the reference is repeated.	文献重复出现时使用 ibid. 或 ibidem.。
+StyleFinderFullReferenceJournalArticleTitleFormat_Italics	Italicized	斜体
+LineSpacingType_Minimum	Minimum	最小值
+VirtualSearchFieldType_FullText	Full text	全文
+StyleFinderFullReferenceBookTitleFormat_ItalicsInQuotationMarks	Italicized and in quotation marks	斜体并加引号
+SearchInContext_MainFormKnowledgeAllKnowledgeItems	In all knowledge items	在所有知识项中
+SimpleFontStyleCaps_None	No caps	无大写
+LicenseType_Pro	Citavi for Windows	Citavi for Windows
+QuotationType_Summary	Summary	摘要
+VirtualSearchFieldType_TaskItemsAssignedOn	Assigned on	分配时间
+VirtualSearchFieldType_TaskItemsAssignedTo	Assigned to	分配给
+FirstNameAbbreviation_Unspecified	Unspecified	未指定
+PersonNameSequence_FirstnameLastname	First name last name	名 姓
+QuotationType_QuickReference	Red highlight	红色高亮
+ImportFieldType_OthersInvolvedFullName	Other persons: Name	其他人员：姓名
+PersonNameOrder_FirstNameLastName	First name last name ("John Mike Doe")	名 姓（"John Mike Doe"）
+TaskPlannerQuickFilter_AllTaskItems	All tasks	所有任务
+VirtualSearchFieldType_PlaceOfPublication	Place of publication	出版地
+SearchAttributeType_UDCClassification	UDC classification	UDC 分类
+ReferenceFilterTypeInternal_Rating	Rating: {0}	评分：{0}
+SearchAttributeType_CodeLanguage	Language (code)	语言（代码）
+VirtualSearchFieldType_Publishers	Publishers	出版社
+ModificationInfoMeasurementUnit_Days	Days	天
+ModificationInfoMeasurementUnit_Week	Week	周
+ModificationInfoMeasurementUnit_Hour	Hour	小时
+ImportFieldType_ParentReferencePublishers	Parent reference: Publishers	上级文献：出版者
+ImportFieldType_PageCount	Page count	页数
+StyleFinderFullReferenceJournalArticleJournalNameFormat_FullName	Full name	全名
+IndentationType_FirstLine	First line	首行
+FullTextExtractionResult_ErrorWhenConvertingUriToFileInfo	The location could not be converted to a file path.	无法将该位置转换为文件路径。
+GdPictureStatus_FileNotFound	File was not found	未找到文件
+KnowledgeItemFilterTypeInternal_SeriesTitle	Series	系列
+VirtualSearchFieldType_KnowledgeItemsModifiedOn	Knowledge items modified on	知识项修改日期
+VirtualSearchFieldType_KnowledgeItemsModifiedBy	Knowledge items modified by	知识项修改者
+ImportFieldType_PrivateCollectionItemLocation	Private Collection: Location	私人收藏：位置
+ImportFieldType_Evaluation	Evaluation	评估
+ImportFieldType_TranslatedTitle	Translated title	译名
+OptimizeForSlowDatabaseAccess_Never	Never	从不
+DbServerLicenseType_Concurrent	Concurrent	并发
+SearchAttributeType_Abstract	Abstract	摘要
+KnownTaskName_GoThroughBibliography	Go through bibliography	浏览文献目录
+StyleFinderShortReferenceType_ReferenceNumbers	Reference numbers, e.g. [14]	参考文献编号,例如 [14]
+KnowledgeItemCompositionReferenceHandling_OmitReference	Omit reference	省略文献
+ElementApplyCondition_PreviousAndNextElementsHaveData	Both previous and following elements contain data	前一个和后一个元素均包含数据
+PeriodicalNameUsage_UserAbbreviation2	Abbreviation 3	缩写 3
+PeriodicalNameUsage_UserAbbreviation1	Abbreviation 2	缩写 2
+SearchInContext_Project	In the whole project	在整个项目中
+KnowledgeItemFilterTypeInternal_KnowledgeItemsInPublication	Cited knowledge items	被引用的知识项
+NumberingType_Other	Other	其他
+StyleFinderFullReferenceJournalArticleTitleFormat_NeutralInQuotationMarks	Plain and in quotation marks	纯文本并加引号
+Z3950ExceptionType_ConnectionTimeout	Could not establish a connection to the information provider.	无法连接到信息提供商。
+VirtualSearchFieldType_Categories	Categories	分类
+LOBExceptionType_OnlineOrderNotPossibleNoIsbn	The order cannot be processed because the reference does not have an ISBN number.	由于该文献没有 ISBN 号，无法处理订单。
+ImportFieldType_TaskState	Task: State	任务：状态
+ImportFieldType_CollaboratorsPrefix	{0}: Prefix	{0}:前缀
+ImportReferenceType_UnpublishedWork	Report or gray literature	报告或灰色文献
+ImportReferenceType_RadioPlay	Radio play	广播剧
+TaskImportance_Middle	Medium	媒介
+FullTextExtractionResult_NoLocalFile	The location is not a local file (attachment or linked file).	该位置不是本地文件（附件或链接文件）。
+ImportFieldMappingTag_Keywords	keyword|keywords|tags	
+VirtualSearchFieldType_Affiliation	Affiliation	隶属机构
+QuotationType_DirectQuotation	Direct quotation	直接引用
+MainFormWorkspace_References	References	文献条目
+IndentationType_None	(None)	(无)
+ImportFieldType_TaskNotes	Task: Notes	任务：备注
+AutoFirstLetterCapitalization_None	Never	从不
+CitationStyleSortOption_AuthorYearTitle	Author, year, title	作者、年份、标题
+LaTeXEditor_TeXnicCenter	TeXnicCenter	TeXnicCenter
+VirtualSearchFieldType_ParallelTitle	Parallel title	并列标题
+ImportFieldType_PeriodicalStandardAbbreviation	{0}: Abbreviation 1	{0}：缩写 1
+EntityLinkRelationType_Positive	Positive	正
+KnowledgeItemFilterTypeInternal_SavedSearch	Saved search	已保存的搜索
+CitationSystem_FootnoteCitation	Footnote: author date	脚注：作者日期
+ReferenceFilterTypeInternal_Person	Person	人员
+VirtualSearchFieldType_KnowledgeItemGroups	Groups (in knowledge items)	分组（在知识项中）
+InformationProviderType_OvidSP	OvidSP	OvidSP
+ImportFieldType_LocationLibrary	Location: Library	位置：图书馆
+ConcentrationArea_EducationAndPsychology	Education and Psychology	教育与心理学
+AutoFirstLetterCapitalization_StartTextInFootnotesForAllElements	At the beginning of every footnote	每个脚注开头
+VirtualSearchFieldType_Periodical	Periodical	期刊
+StyleFinderFullReferenceJournalArticleTitleFormat_ItalicsInQuotationMarks	Italicized and in quotation marks	斜体并加引号
+TaskImportance_High	High	高
+StyleFinderFullReferenceAuthorsSeparator_Semicolon	Semicolon	分号
+FirstNameFormatInfo_AbbreviationString	Abbreviation	缩写
+LinkedResourceType_AttachmentAttaching	Citavi attachment (processing)	Citavi 附件（处理中）
+ImportFieldType_PrivateCollection	Locations (Private Collection)	位置（私人收藏）
+StyleFinderOrderOfReferenceNumbers_OrderOfCitation	In the order cited	按引用顺序
+SearchInContext_MainFormKnowledgeReferencesWithNoCategories	In uncategorized references	在未分类的文献中
+VirtualSearchFieldType_TaskType	Task type	任务类型
+CitationSystem_None	All citation systems	所有引用体系
+StyleFinderRepeatingNonConsecutiveFootnoteCitation_Short	Shortened, e.g. author, shortened title, quotation page range	缩短形式，例如作者、缩短标题、引用页码范围
+ListSortDirection_Descending	Descending	降序
+MiddleNameFormatInfo_AbbreviationString	Abbreviation	缩写
+TaskPlannerQuickFilter_CurrentTaskItems	Current tasks	当前任务
+AutoFirstLetterCapitalization_StartTextInFootnotesForLiteralElements	At the beginning of every footnote, for static text only	每个脚注开头，仅限静态文本
+ModificationInfoMeasurementUnit_Month	Month	月
+DateOfPublicationType_AllYears	All years	所有年份
+ShowMainIndexNumbersInMultipleCitation_AlwaysButOncePerRange	Always, but only once per range, e.g. [1a, 1b] or [1a, 1b, 2a-c]	始终，但每个范围仅一次，例如 [1a, 1b] 或 [1a, 1b, 2a-c]
+ImportReferenceType_Map	Map	地图
+CitationStyleSortOption_IndexInBibliography	In the order of the bibliography	按参考文献顺序
+ModificationInfoMeasurementUnit_Weeks	Weeks	周
+ModificationInfoMeasurementUnit_Hours	Hours	小时
+ImportFieldType_CollaboratorsSuffix	{0}: Suffix	{0}:后缀
+ImportFieldType_OthersInvolvedPrefix	Other persons: Prefix	其他人员：前缀
+ImportFieldType_AuthorsLastName	{0}: Last name	{0}:姓氏
+PublicationAssistantDoubleClickAction_InsertAsFootnote	Insert in {0} as footnote	在 {0} 中作为脚注插入
+SearchAttributeType_BDIIndexSubject	BDI index subject	BDI 索引主题
+VirtualSearchFieldType_ReferenceCategories	Categories (for references)	分类（用于文献）
+ReferenceFilterTypeInternal_DuplicateReferences	Duplicates	重复项
+GdPictureStatus_UnsupportedImageFormat	Unsupported image format	不支持的图像格式
+ImportFieldMappingTag_Abstract	abstract|summary	
+GdPictureStatus_UnknownImageFormat	Unknown image format	未知图像格式
+ModificationInfoMeasurementUnit_Day	Day	天
+FinalCharacter_Semicolon	; (semicolon)	;（分号）
+SimpleFontStyleFormatting_Italic	Italic	斜体
+Pagination_Unknown	Unknown	未知
+ReferenceListFormatInfoSortOption_Custom_Grid	As sorted in table view in the project	按项目表视图中的排序
+KnowledgeItemFilterTypeInternal_SelectedKnowledgeItems	Selected knowledge items	所选知识条目
+ImportReferenceType_ContributionInCollectedWorks	Contribution in collected work	文集中的篇章
+SearchResultGroupType_Keywords	Keywords	关键词
+KnowledgeItemCompositionReferenceHandling_ReferencePlaceholder	Placeholders only (without text)	仅占位符（不含文本）
+ProjectDbPermission_Write	Read / write	读 / 写
+ImportReferenceType_ConferenceProceedings	Proceedings	会议论文集
+SearchAttributeType_DateOfPublication	Year	年份
+AttachmentAction_CopyAndRename	Copy files and rename with Citavi short title	复制文件并用 Citavi 短标题重命名
+StyleFinderPlaceOfReferences_InFootnotesAndBibliography	Footnotes and bibliography	脚注和文献目录
+ReferenceCompositionSortOption_Custom_Grid	As sorted in table view in the project	按项目表视图中的排序
+ImportReferenceType_MusicTrack	Music track in	音乐曲目，来自
+ProjectType_DesktopSqlServer	DBServer project	DBServer 项目
+ImportFieldType_OthersInvolvedSuffix	Other persons: Suffix	其他人员：后缀
+KnowledgeItemCompositionReferenceHandling_InsertPlaceholderAsFootnote	Text and placeholders in footnotes	脚注中的文本和占位符
+CitationStyleSortOption_OrderOfAppearance	In the order cited	按引用顺序
+NameFormat_Full	Full ("John Mike")	完整（"John Mike"）
+ImportReferenceType_MusicAlbum	Musical work or music album	音乐作品或音乐专辑
+VirtualSearchFieldType_PersonAbbreviation	Abbreviation (Persons and organizations)	缩写（人员和机构）
+VirtualSearchFieldType_Language	Language	语言
+MainFormWorkspace_Tasks	Tasks	任务
+VirtualSearchFieldType_Locations	Locations	位置
+TaskStatus_Canceled	Canceled	已取消
+SearchAttributeType_CodeGeographicArea	Geographic area (code)	地理区域（代码）
+StyleFinderShortReferenceType_AuthorYear	Author date, e.g. (Smith 2008)	作者日期，例如（Smith 2008）
+ImportFieldType_OthersInvolvedNotes	Other persons: Notes	其他人员：备注
+SearchResultGroupType_Locations	Locations	位置
+ImportReferenceType_SpecialIssue	Special issue	特刊
+SearchAttributeType_SubjectRSWK	RWSK subject	RWSK 主题
+ImportFieldType_OthersInvolvedTitle	Other persons: Title	其他人员：标题
+GdPictureStatus_AllOther	Error ({0})	错误（{0}）

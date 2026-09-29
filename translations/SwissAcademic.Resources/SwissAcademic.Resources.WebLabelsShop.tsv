@@ -1,0 +1,106 @@
+Benefit	Discount for site license users	站点许可证用户的折扣
+Licenses	Licenses:	许可证:
+AddLicensesHomeDescription	The total price is displayed. If sales tax is applicable it will be shown on your invoice.	显示总价。如果适用销售税,将显示在您的发票上。
+ActionPriceDescriptionHtml	This price is only valid for\r\n<ul>\r\n<li>Persons using Citavi exclusively for their own use</li>\r\n<li>Students</li>\r\n</ul>	此价格仅适用于\r\n<ul>\r\n<li>仅供个人使用 Citavi 的用户</li>\r\n<li>学生</li>\r\n</ul>
+ActionPrice	Special price only valid on	特价仅适用于
+Upgrade	Upgrades	升级
+GoToCashRegister	Check out	结账
+Action	Special	特价
+Amount	Amount	金额
+TotalWithoutTax	Subtotal (excl. VAT)	小计(不含增值税)
+SpecialPriceForCampusLicense	Special price for site license users	站点许可证用户的特价
+RenewalDate	Renewal date	续订日期
+RemovedFromCart	The selected product has been removed	所选产品已移除
+SpecialDiscountPrice	Special price for former site license users	前站点许可证用户的特价
+HomePricingLabel	Home pricing for personal and student use	个人和学生使用的家庭定价
+CitaviForStudents	Citavi for personal and student use	用于个人和学生使用的 Citavi
+Offers	Categories	分类
+DiscountedPricesDescriptionHtml	These prices are only valid for\r\n<ul>\r\n<li>Institutions of higher education</li>\r\n<li>Schools</li>\r\n<li>Government agencies</li>\r\n<li>Non-Governmental Organizations (NGOs)</li>\r\n<li>Registered non-profit organizations</li>\r\n</ul>	这些价格仅适用于\r\n<ul>\r\n<li>高等教育机构</li>\r\n<li>学校</li>\r\n<li>政府机构</li>\r\n<li>非政府组织(NGO)</li>\r\n<li>注册的非营利组织</li>\r\n</ul>
+VoucherDescriptionHtml	Gift certificates can only be given to\r\n<ul>\r\n<li>Persons using Citavi exclusively for their own use</li>\r\n<li>Students</li>\r\n</ul>	礼品券只能给予\r\n<ul>\r\n<li>仅供个人使用 Citavi 的用户</li>\r\n<li>学生</li>\r\n</ul>
+Products	Products	产品
+AddProducts	Add additional products	添加其他产品
+CitaviForHighSchools	Citavi for education, government, and non-profit	用于教育、政府和非营利的 Citavi
+Order_OpenAccount	Open Citavi Account	打开 Citavi 帐户
+Validity	Validity	有效期
+PriceNetto	Subtotal (without VAT)	小计(不含增值税)
+IntegrateSubscription	Add {0} subscription	添加 {0} 订阅
+WithDiscount	with a {0}% discount	享受 {0}% 折扣
+Cart_SubscriptionPayment	The payment method you used last time will be used again unless you change it. Sie können sie <a id="subscriptionPaymentMethod">View or edit payment method</a>.	除非您更改,否则将再次使用您上次使用的付款方式。您可以<a id="subscriptionPaymentMethod">查看或编辑付款方式</a>。
+UpgradeOffers	Upgrade offers	升级优惠
+SpecialOffers	Special offers	特别优惠
+Present	Gift certificate	礼品券
+CartIsEmpty	Your basket is empty. Click "Add to basket" to add licenses to the basket.	您的购物篮为空。单击"添加到购物篮"将许可证添加到购物篮。
+Product	Product	产品
+UnitPriceDiscount	Unit price {0} (excl. VAT)	单价 {0}(不含增值税)
+Cart_IntegrateSubscriptionDescription	The subscription is valid until {0}.<br/>The price will be reduced based on the date.	订阅有效期至 {0}。<br/>价格将根据日期减少。
+HighSchoolsAuthoritiesEtc	Universities, government agencies, non-profit organizations, etc.	大学、政府机构、非营利组织等。
+DiscountedPrices	Discounted prices	折扣价格
+CitaviAccountLogin	Login	登录
+CitaviAccountPresentYes	Please log in<br/><br/>You may benefit from the following:<br/><br/><ul><li>volume discounts due to previous orders</li><li>upgrade discounts</li><li>special offers</li></ul>	请登录<br/><br/>您可能享有以下优惠:<br/><br/><ul><li>基于以往订单的数量折扣</li><li>升级折扣</li><li>特别优惠</li></ul>
+CompareProducts	Compare products	比较产品
+InYourPossession	Already purchased	已购买
+SpecialPriceForCampusLicenseDescriptionHtml	After you leave your university (or if the site license is not renewed), you can purchase your own personal, non-expiring license for Citavi for Windows at a 50% discount. This discount can only be used once and is not valid for future purchases. The license can be used on all personal devices, but it cannot be shared with or given to another person.  The license is meant exclusively for home or educational use and cannot be used at work. For use in a commercial or non-profit organization, a license for <a class="goToCriteria" id="l_0">commercial use</a> or for <a class="goToCriteria" id="l_1">education, government, and non-profit organizations</a> must be purchased instead.	在您离开大学后(或者如果站点许可证未续订),您可以以 50% 的折扣购买自己的个人、永久有效的 Citavi for Windows 许可证。此折扣只能使用一次,且对未来购买无效。该许可证可用于所有个人设备,但不得共享或转让给他人。该许可证仅供家庭或教育使用,不得在工作中使用。如需在商业或非营利组织中使用,必须改为购买<a class="goToCriteria" id="l_0">商业用途</a>或<a class="goToCriteria" id="l_1">教育、政府和非营利组织</a>的许可证。
+MaintenanceInfo	The selected licenses are valid indefinitely for the version purchased but upgrades to a new version require an additional purchase.<br/><br/><span class="segoeUiSemibold">With a maintenance subscription you will receive new upgrades as soon as they are released.</span><br/><br/>If you decide not purchase a maintenance subscription, you can still purchase upgrades individually with a 50% discount off the normal price.	所选许可证对所购买的版本永久有效,但升级到新版本需要额外购买。<br/><br/><span class="segoeUiSemibold">使用维护订阅,您将在新版本发布后立即获得升级。</span><br/><br/>如果您决定不购买维护订阅,仍可以按正常价格的 50% 折扣单独购买升级。
+PartialBillInfo	The new licenses have been added to an existing subscription. In the future, you'll only receive one bill for the renewal of all items in the subscription.<br/><br/>The price for this order will be calculated based on the time remaining until the subscription renewal.	新许可证已添加到现有订阅中。今后,您只会收到一张包含订阅中所有项目续订的账单。<br/><br/>此订单的价格将根据距离订阅续订的剩余时间计算。
+CitaviAccountPresentNo	No account?<br/> Continue without logging in.	没有帐户?<br/> 不登录继续。
+NoUpgradesAvailable	Your account does not contain any licenses that are eligible for an upgrade.	您的帐户不包含任何符合升级条件的许可证。
+AddToCart	Add to basket	添加到购物篮
+AddLicenses	Add licenses	添加许可证
+YouCanAddOtherProducts	You can still add other products.	您仍然可以添加其他产品。
+Licenses_Smart	{0:License|Licenses}	
+SelectAllowedSubscription	You already have a product with the same validity period in your basket. In this order you can only add products with the same validity period. To add an additional subscription with a different validity period, place a second order.	您的购物篮中已有具有相同有效期的产品。在此订单中,您只能添加具有相同有效期的产品。要添加具有不同有效期的其他订阅,请下第二笔订单。
+StartNewSubscription	Create new subscription	创建新订阅
+CurrentlyInYourPossession	Currently in your possession	当前拥有
+Buy	Purchase	购买
+Vat	VAT	增值税
+Tax	VAT {0}%:	增值税 {0}%:
+Order_Title	Thank you for your order!	感谢您的订购!
+CartHasCommercialProducts	You already have a product in your basket. Subscription-based products can only be ordered along with a new subscription. If you want to extend an existing subscription, please place a second order.	您的购物篮中已有产品。基于订阅的产品只能随新订阅一起订购。如果您想延长现有订阅,请下第二笔订单。
+Netto	Subtotal	小计
+Total	Total	总计
+Price	Price	价格
+SelectSubscription	Select subscription	选择订阅
+AddMaintenance	Add maintenance (yearly payments)	添加维护(按年付款)
+Quantity	Quantity	数量
+Order_Text	You will receive two emails from our e-commerce provider cleverbridge:<br/><ul><li>An email with your receipt</li><li>An email with subscription information</li></ul><br/><br/>Your order is now available in your Citavi account.	您将收到来自我们电子商务提供商 cleverbridge 的两封电子邮件:<br/><ul><li>一封包含您收据的电子邮件</li><li>一封包含订阅信息的电子邮件</li></ul><br/><br/>您的订单现在可在您的 Citavi 帐户中查看。
+LoginToMyShop	Already have a Citavi license?<br/> <a href="/my-shop#/products/upgrade">Log in</a> or <a id="registerHere">create an account</a> to receive upgrade and volume discounts.	已有 Citavi 许可证?<br/> <a href="/my-shop#/products/upgrade">登录</a>或<a id="registerHere">创建帐户</a>以享受升级和数量折扣。
+CartUpdated	Your basket has been updated	您的购物篮已更新
+RequestOffer	Print quote	打印报价
+SelectSubscriptionText2	The price for this order will be calculated based on the time remaining until the subscription renewal.<br/><br/>Upon renewal you'll pay the full price for the next year.	此订单的价格将根据距离订阅续订的剩余时间计算。<br/><br/>续订时,您将支付下一年的全额费用。
+SelectSubscriptionText1	Licenses and other products with the same renewal date are bundled together in a subscription.<br/><br/>Select the subscription you want to add products to or create a new subscription.	具有相同续订日期的许可证和其他产品会捆绑在一个订阅中。<br/><br/>选择您要添加产品的订阅,或创建新订阅。
+CitaviAccountContinueWithoutLogin	Continue without logging in	不登录继续
+YouSave	You save	您节省
+Cart_CompleteOrder	Complete your order	完成您的订单
+YourCart	Your shopping basket	您的购物篮
+SpecialPrice	Special price	特价
+AddUpgrade	Add upgrade	添加升级
+ShowDiscountLevels	Discount levels	折扣级别
+CitaviAccountPresent	Already have a Citavi account?	已有 Citavi 帐户?
+SpecialPriceDescriptionHtml	This special price is only valid for\r\n<ul>\r\n<li>Persons using Citavi exclusively for their own use</li>\r\n<li>Students</li>\r\n</ul>	此特价仅适用于\r\n<ul>\r\n<li>仅供个人使用 Citavi 的用户</li>\r\n<li>学生</li>\r\n</ul>
+ClickToOpen	Click to open	单击打开
+EligibleLicenses	Eligible upgrade licenses	符合升级条件的许可证
+Editions	Editions	版本
+NewSubscription	New subscription	新订阅
+CommercialClients	commercial clients	商业客户
+SpecialDiscountPriceHtmlDescription	After you leave your university (or if the site license is not renewed), you can purchase your own personal, non-expiring license for Citavi for Windows at a 50% discount. This license is only for home or educational use, cannot be given to another person, and cannot be used in commercial, educational, or other organizations, for which you can purchase {0} or a {1}.	在您离开大学后(或者如果站点许可证未续订),您可以以 50% 的折扣购买自己的个人、永久有效的 Citavi for Windows 许可证。此许可证仅用于家庭或教育用途,不得转让给他人,也不得在商业、教育或其他组织中使用,为此您可以购买 {0} 或 {1}。
+Voucher	Gift certificate	礼品券
+SubscriptionsCountLabel	Licenses in subscription (valid until {0})	订阅中的许可证(有效期至 {0})
+BuyVoucherDescriptionHtml	Before purchasing a gift certificate, please make sure that the recipient is not already able to use Citavi for free <a href='//www.citavi.com/students#license' target='_blank'>through a site license</a>.	在购买礼品券之前,请确保收件人尚不能<a href='//www.citavi.com/students#license' target='_blank'>通过站点许可证</a>免费使用 Citavi。
+CannotBuy	Subscriptions cannot be combined with product purchases in the same order. Please carry out one purchase at a time or remove the existing item from your basket.	订阅不能与产品购买合并在同一订单中。请一次只进行一笔购买,或将现有项目从购物篮中移除。
+BusinessPricingLabel	Business pricing for commercial use	商业用途的商业定价
+PriceCalculationDisclaimer	The VAT amount depends on international trade agreements and is displayed on the invoice. In certain cases, there may be no VAT.	增值税金额取决于国际贸易协定,并显示在发票上。在某些情况下,可能没有增值税。
+CartQuantityIsOverLimit	Want more than {0} licenses? Please contact us: <a href="mailto:sales@citavi.com">sales@citavi.com</a>	想要超过 {0} 个许可证?请联系我们:<a href="mailto:sales@citavi.com">sales@citavi.com</a>
+Unlimited	Unlimited	无限制
+UnitPrice	Unit price (excl. VAT):	单价(不含增值税):
+AcademicPricingLabel	Academic pricing for education, government, and non-profit	教育、政府和非营利的学术定价
+TotalPriceWithVat	Total price	总价
+AddLicensesDescription	The total price is displayed with discounts applied (if any). If sales tax is applicable it will be shown on your invoice. 	显示应用折扣(如果有)后的总价。如果适用销售税,将显示在您的发票上。
+MonthsLabel	months	月
+IntegrationOfSubscription	Add subscription	添加订阅
+CitaviForCommercialUse	Citavi for commercial use	用于商业用途的 Citavi
+PartialBillLabel	Partial bill until {0}	分期账单至 {0}
+UpgradeHtml1	Would you like to obtain an upgrade for licenses you purchased in the past?<br/>You can do so in your Citavi account.	您希望为过去购买的许可证获取升级吗？<br/>您可以在您的 Citavi 账户中完成此操作。
+UpgradeHtml2	Already have a Citavi account?	已有 Citavi 帐户?
+UpgradeHtml3	Log in here.	在此登录。
+UpgradeHtml4	Don't have a Citavi Account yet?	还没有 Citavi 账户？
+UpgradeHtml5	<a id="registerHere">Register here</a> with the email address that you used for your last order.	<a id="registerHere">在此注册</a>，请使用您上次下单时所用的电子邮件地址。

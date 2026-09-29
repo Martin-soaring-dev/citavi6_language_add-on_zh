@@ -1,0 +1,237 @@
+MSG_TAG_TABLE_MISSING	Tag Table data missing or tag table allocation error.	标签表数据缺失或标签表分配错误。
+MSG_CLIPBOARD_NO_FMT	Clipboard does not contain specified formatted data.	剪贴板不包含指定的格式数据。
+MSG_MARGIN	Margin (cm)	边距（厘米）
+MSG_SEL_PROTECTED	This selection contains protected text.	所选内容包含受保护的文本。
+MSG_NO_OLE_CLASS	OLE class not found in the Registration Database.	在注册数据库中找不到 OLE 类。
+MSG_ERR_ADDING_STRING	Error adding string to listbox.	向列表框添加字符串时出错。
+MSG_NO_ERROR	No User error.	不是用户错误。
+MSG_ERR_FILE_ACCESS	Unable to access the file.	无法访问该文件。
+MSG_ERR_INSTANCE	Can not create proc instance.	无法创建进程实例。
+MSG_INVALID_PRINT_RECT	The 'rect' variable may not be NULL when printing to a Windows' device context.	打印到 Windows 设备上下文时，'rect' 变量不能为 NULL。
+MSG_ERR_END_PAGE	Error finishing the page.	结束页面时出错。
+MSG_OUT_OF_WIN_SLOTS	Ran out of non-standard window slots.	非标准窗口槽位已用尽。
+MSG_MULTIPLE	Multiple	多个
+MSG_BAD_OBJ_SIZE	Object size rror.	对象大小错误。
+MSG_BULLET_MISSING	Bullet Table data missing or bullet allocation error.	项目符号表数据缺失或项目符号分配错误。
+MSG_PNG_FILES	PNG Files(*.PNG)|*.PNG|	
+MSG_PNG_ABORT	PNG File Read aborted	PNG 文件读取已中止
+MSG_PP_ONE_PAGE	One Page	一页
+MSG_LINE_TOO_LONG	Line too long.	行过长。
+MSG_SB_INS	INS	INS
+MSG_SB_COL	Col: 	列： 
+MSG_SB_ROW	Row: 	行： 
+MSG_SINGLE	Single	单倍
+MSG_PP_EDIT	Edit	编辑
+MSG_END_BACKWARD_SEARCH	End of Backward search.	向后搜索结束。
+MSG_PFRAME_DATA_MISSING	Paragraph Frame Table data missing.	段落框架表数据缺失。
+MSG_OUT_OF_MEM	Ran out of memory.	内存不足。
+MSG_ERR_INIT_OLE	Error initializing OLE.	初始化 OLE 时出错。
+MSG_ERR_INIT_BMP	Error initializing the bitmap.	初始化位图时出错。
+MSG_ICO_FILES	Windows Icon Files(*.ICO)|*.ICO|	
+MSG_ATLEAST	At least	至少
+MSG_SPL_CHECKED	Words Checked: 	已检查单词数： 
+MSG_POINTS	Points	磅
+MSG_NO_SERVER	The server application not found.	找不到服务器应用程序。
+MSG_ERR_META_BAD_FILE	Invalid Windows Metafile File.	无效的 Windows 图元文件。
+MSG_SECT_TBL_MISSING	Section Table data missing.	节表数据缺失。
+MSG_NO_STRING	String not found.	找不到字符串。
+MSG_FONT_TBL_INCOMPL	Font table incomplete.	字体表不完整。
+MSG_MAX_WIN_LINES	Exceeded max lines per window limit.	超过每个窗口的最大行数限制。
+MSG_ERR_STORAGE_CREATE	Error creating OLE storage.	创建 OLE 存储时出错。
+MSG_BAD_PNG_DATA	Invalid PNG Data.	无效的 PNG 数据。
+MSG_ERROR	Error	错误
+MSG_NO_HELP	Help file not found!	找不到帮助文件！
+MSG_LINES	Lines	行
+MSG_SB_OT	OT 	OT 
+MSG_PP_PG	Pg: 	页： 
+MSG_SAVE_MODS	File modified. Do you wish to save the modifications?	文件已修改。是否要保存修改？
+MSG_PRINT_AREA_SMALL	Printing area too small.	打印区域太小。
+MSG_ERR_FILE_LENGTH	Error getting file length.	获取文件长度时出错。
+MSG_DEL_FRAME	Delete current frame and its contents?	删除当前框架及其内容？
+MSG_PP_FITTED	Fitted	适应
+MSG_15LINES	1.5 Lines	1.5 倍行距
+MSG_OUT_OF_TAB_POS	No more tab settings allowed.	不允许更多制表位设置。
+MSG_NODEL_MIX_HTML	This deletion joins dissimilar HTML paragraphs. Invalid action.	此删除操作会合并不同的 HTML 段落。操作无效。
+MSG_PICTURE_SIZE	Picture Size (cm)	图片大小（厘米）
+MSG_GET_ENH_META	Error retrieving enhanced metafile data.	检索增强图元文件数据时出错。
+MSG_CREATE_NEW_FILE	File does not exist, Create a new file?	文件不存在，是否创建新文件？
+MSG_BAD_VERSION	Invalid TER DLL version.	无效的 TER DLL 版本。
+MSG_ERR_JPG_MCU	Max MCU exceeded in Jpeg read.	读取 JPEG 时超出最大 MCU 数。
+MSG_PARASTYLE_IN_USE	This name is already in use by a Paragraph style. Select new name.	该名称已被某个段落样式使用。请选择新名称。
+MSG_ERR_TEXT_METRIC	Unable to get text metric for the font.	无法获取字体的文本度量。
+MSG_ERR_META_READ	Can not read the Metafile.	无法读取图元文件。
+MSG_ERR_META_COPY	Error copying metafile.	复制图元文件时出错。
+MSG_ERR_JPG_MARKER	Misplaced restart marker found in JPEG file.	JPEG 文件中发现位置错误的重新开始标记。
+MSG_MERGE_DATA_TOO_LONG	Data too long. Data Merge error.	数据过长。数据合并错误。
+MSG_OUT_OF_GROUP	Ran out of Group Table for RTF data.	RTF 数据的组表已用尽。
+MSG_OUT_OF_RANGE	Value out of range.	值超出范围。
+MSG_ERR_TOO_MANY_FILES	Not enough file handles available.	可用的文件句柄不足。
+MSG_NO_PRINTER	Printer not available.	打印机不可用。
+MSG_PRINTING_CANCELLED	Printing cancelled.	打印已取消。
+MSG_OLEERR_NEED_SHARE	Share Utility required.	需要共享实用程序。
+MSG_ADD	&Add	添加(&A)
+MSG_ERR_PEN	Unable to create control pens.	无法创建控件画笔。
+MSG_SPELL_OVER	Spell checking session over.	拼写检查会话已结束。
+MSG_DELETED_BY	Deleted by: 	删除者： 
+MSG_ACCEPT_CHANGES	Accept all changes?	接受所有更改？
+MSG_MISSING_ROW_MARKER	Row marker not found. Cannot split the cell.	找不到行标记。无法拆分单元格。
+MSG_EXPIRED	Eval expired!	评估版已过期！
+MSG_ERR_CTL_CREATE	Error creating the control window.	创建控件窗口时出错。
+MSG_PP_TWO_PAGES	Two Pages	两页
+MSG_EXACTLY	Exactly	固定值
+MSG_SB_LINE	Line: 	行： 
+MSG_SB_PAGE	Page: 	页： 
+MSG_PROTECTED	Text Protection error.	文本保护错误。
+MSG_CHARSTYLE_IN_USE	This name is already in use by a character style. Select new name.	该名称已被某个字符样式使用。请选择新名称。
+MSG_CLIPBOARD_NO_DATA	Error retrieving the clipboard data.	检索剪贴板数据时出错。
+MSG_INVALID_NUMBER	Must enter a valid number.	必须输入有效的数字。
+MSG_ERR_FONT_SELECT	Unable to select the font.	无法选择字体。
+MSG_ERR_INIT_PRINTER	Error initializing the printer.	初始化打印机时出错。
+MSG_ERR_MAIL_MERGE	Error during mail merge.	邮件合并过程中出错。
+MSG_BAD_FNOTE_MARKER	A space or an invalid character in the footnote marker	脚注标记中包含空格或无效字符
+MSG_PAGE_LFTR	Page Left Footer	页面左页脚
+MSG_PAGE_LHDR	Page Left Header	页面左页眉
+MSG_PAGE_RHDR	Page Right Header	页面右页眉
+MSG_PAGE_RFTR	Page Right Footer	页面右页脚
+MSG_SECTION_FULL	Section Table full.	节表已满。
+MSG_ERR_OLE_DATA_CONV	OLE data conversion error.	OLE 数据转换错误。
+MSG_OUT_OF_TAB_TABLE	Tab Table Exhausted.	制表位表已用尽。
+MSG_MAX_LINES_EXCEEDED	Max Line exceeded.	超出最大行数。
+MSG_READ_ONLY	Read only file. Can not save.	只读文件。无法保存。
+MSG_ERR_OLE_LOAD	OLE load error.	OLE 加载错误。
+MSG_ERR_OLE_USER	Error writing user type.	写入用户类型时出错。
+MSG_ERR_OLE_SAVE	Error saving the OLE object.	保存 OLE 对象时出错。
+MSG_IRREVERSIBLE_DEL	Irreversible Delete?	不可恢复的删除？
+MSG_TAB_POS	Tab Positions (cm)	制表位位置（厘米）
+MSG_REDO_EMPTY	Redo buffer empty. Redo not available.	重做缓冲区为空。无法重做。
+MSG_ERR_PICT_FILE_FMT	Invalid Picture File Format.	无效的图片文件格式。
+MSG_CHANGES_COUNT	Number of changes accepted: 	已接受的更改数量： 
+MSG_BAD_JPG_FILE	Invalid JPEG file.	无效的 JPEG 文件。
+MSG_KEEP_HDRFTR_LINE	Must keep at least one header/footer line.	必须至少保留一行页眉/页脚。
+MSG_OUT_OF_PARA_SLOT	Paragraph Table exhausted.	段落表已用尽。
+MSG_ERR_JPG_HUFF	Too many Huffman tables in the JPEG image.	JPEG 图像中的霍夫曼表过多。
+MSG_OUT_OF_IMAGE_MAP_TABLE	Ran out of Image Map table.	图像映射表已用尽。
+MSG_IGNORE_ALL	&Ignore All	全部忽略(&I)
+MSG_METAFILES	Windows Metafiles(*.WMF)|*.WMF|	
+MSG_BAD_PRINTER_DRV	Invalid printer driver.	无效的打印机驱动程序。
+MSG_ERR_OBJ_DATA	Error getting OLE storage data.	获取 OLE 存储数据时出错。
+MSG_ERR_OBJ_SAVE	Error getting object size. File save incomplete.	获取对象大小时出错。文件保存未完成。
+MSG_ERR_OBJ_SIZE	Error getting object size.	获取对象大小时出错。
+MSG_DBL_LINE	Double Line	双线
+MSG_ERR_PRINT	Printer error.	打印机错误。
+MSG_OUT_OF_COMP_DC	Unable to create compatible DC.	无法创建兼容的设备上下文。
+MSG_ERR_ADVISE_CONNECT	Error setting the data advise connection.	设置数据通知连接时出错。
+MSG_OUT_OF_CHAR_STACK	Out of character stack.	字符栈已用尽。
+MSG_SB_PRINTING_PAGE	Printing page: 	正在打印页： 
+MSG_FILE_INFO_MISSING	File information data missing.	文件信息数据缺失。
+MSG_ENH_METAFILES	Enhanced Metafiles(*.EMF)|*.EMF|	
+MSG_PARA_TBL_INCOMPL	Paragraph Table data missing.	段落表数据缺失。
+MSG_OUT_OF_DRAG_OBJ	Ran out of Drag Object Table.	拖动对象表已用尽。
+MSG_ERR_FONT_CREATE	Error creating font.	创建字体时出错。
+MSG_NO_HILIGHT	No highlighted block found.	找不到高亮显示的块。
+MSG_TAB_TBL_MISSING	Tab Table data missing.	制表位表数据缺失。
+MSG_READ_ABORTED	Read aborted.	读取已中止。
+MSG_ERR_OLE_CLSID	Error writing class id.	写入类 ID 时出错。
+MSG_REJECT_CHANGES	Reject all changes?	拒绝所有更改？
+MSG_GIF_FILES	Gif Files (*.GIF)|*.GIF|	
+MSG_CELL_WITHOUT_ROW	Table cell found without table row.	找到没有表格行的表格单元格。
+MSG_ERR_OLE_VERSION	Invalid OLE version.	OLE 版本无效。
+MSG_UNDO_EMPTY	Undo buffer empty. Undo not available.	撤销缓冲区为空。撤销不可用。
+MSG_COUNT_MISMATCH	Field name count not equal field data count, or too many fields. Mail Merge error.	字段名称数量与字段数据数量不相等，或字段过多。邮件合并错误。
+MSG_ERR_LOAD_ACCEL	Unable to load the accelerator table.	无法加载快捷键表。
+MSG_DEL_TOC	Delete current table-of-content?	删除当前目录？
+MSG_DEL_HDR	Delete Page Header?	删除页眉？
+MSG_DEL_FTR	Delete Page Footer?	删除页脚？
+MSG_ERR_META_RECREATE	Error recreating Metafile.	重新创建图元文件时出错。
+MSG_INVALID_SECT_DATA	Invalid Section Data encountered.	遇到无效的节数据。
+MSG_INVALID_SELECT	Invalid selection.	选择无效。
+MSG_ERR_DIB_CREATE	Error creating Device Independent Bitmap.	创建与设备无关的位图时出错。
+MSG_COLUMNS	Space Between the Columns (cm)	列间距（厘米）
+MSG_ERR_META_ACCESS	Error accessing meta file data.	访问元文件数据时出错。
+MSG_OUT_OF_BLT_TABLE	Bullet Table exhausted.	项目符号表已耗尽。
+MSG_ERR_META_CREATE	Error creating metafile DC.	创建图元文件 DC 时出错。
+MSG_ERR_BMP_CREATE	Error creating the bitmap.	创建位图时出错。
+MSG_BAD_RTF	Cannot understand this RTF syntax!	无法理解此 RTF 语法！
+MSG_OUT_OF_FONT_SLOT	Ran out of Font/Picture/Object Table.	字体/图片/对象表已耗尽。
+MSG_NODEL_HDRFTR_BODY	Cannot delete the header text with the body text.	无法将页眉文本随正文文本一起删除。
+MSG_ERR_FILE_OPEN	Could not open the file.	无法打开文件。
+MSG_ERR_FILE_READ	File read error.	文件读取错误。
+MSG_ERR_FILE_SEEK	Error in file seek.	文件定位出错。
+MSG_XML_READER	XML Processing Error	XML 处理错误
+MSG_BAD_WIN_HANDLE	Invalid window handle.	窗口句柄无效。
+MSG_PP_PRINT	Print	打印
+MSG_OUT_OF_DC	Unable to allocate a Display Context.	无法分配显示上下文。
+MSG_PP_CLOSE	Close	关闭
+MSG_ERR_DATA_RETRIEVE	Error retrieving data object.	检索数据对象时出错。
+MSG_ERR_FILE_WRITE	Error writing to file.	写入文件时出错。
+MSG_SPL_INCORRECT	Incorrect Words: 	错误的词： 
+MSG_ERR_BLOCK_SIZE	Block Size error.	块大小错误。
+MSG_SMALL_CELL_MARGIN	Cell margin should be atleast as large as the cell border width.	单元格边距至少应与单元格边框宽度一样大。
+MSG_OUT_OF_CELL_SLOT	Ran out of cell table.	单元格表已耗尽。
+MSG_DEL_DRAW_OBJ	Delete current drawing object?	删除当前绘图对象？
+MSG_END_FORWARD_SEARCH	End of Forward search.	向前搜索结束。
+MSG_PAGE_BREAK	Page Break	分页符
+MSG_NO_LIST_OR_BLOCK	List override table missing	缺少列表覆盖表
+MSG_ERR_START_PRINTER	Unable to Start the Print Job.	无法启动打印作业。
+MSG_CLIPBOARD_BUSY	Clipboard in use by another application.	剪贴板正被另一个应用程序使用。
+MSG_ERR_PRESENT_DATA	Error retrieving presentation data.	检索演示文稿数据时出错。
+MSG_ERR_ENH_META_HDR	Error accessing enhanced metafile header.	访问增强图元文件头时出错。
+MSG_TIF_FILES	Tag Image Format Files(*.TIF)|*.TIF|	
+MSG_OUT_OF_PARAFID_SLOT	Paragraph Frame Table exhausted.	段落框表已耗尽。
+MSG_ERR_JPG_NO_HUFF	Huffman symbol not found in JPEG read.	读取 JPEG 时未找到 Huffman 符号。
+MSG_SEL_SPAN_HDRFTR	Selection may not extend across header/footer and page text.	选择范围不能跨越页眉/页脚和页面文本。
+MSG_OUT_OF_TASK	Ran out of Task Table.	任务表已耗尽。
+MSG_UNEXPECTED_EOF	Unexpected end of file.	文件意外结束。
+MSG_ERR_VIEW_RETRIEVE	Error retrieving view object.	检索视图对象时出错。
+MSG_NO_CHANGED_TEXT	No more changed text found.	未找到更多已更改的文本。
+MSG_COL_BREAK	Column Break	分栏符
+MSG_SECT_BREAK	Section Break	分节符
+MSG_OUT_OF_STYLESHEET	Ran out of memory for the Style Sheet Table.	样式表内存已耗尽。
+MSG_ERR_PICT_FILE_READ	Error reading the picture file.	读取图片文件时出错。
+MSG_ERR_PICT_FILE_OPEN	Cannot open the picture file.	无法打开图片文件。
+MSG_PARA_FMT_BY	Paragraph changed by: 	段落更改者： 
+MSG_FIRST_FTR	First Page Footer	首页页脚
+MSG_FIRST_HDR	First Page Header	首页页眉
+MSG_INTERNAL_ERROR	Internal Error	内部错误
+MSG_NO_RTF_INFO_BLOCK	RTF Information block missing	缺少 RTF 信息块
+MSG_BMP_FILES	Bitmap Files(*.BMP)|*.BMP|	
+MSG_DATA_TOO_BIG	Max size exceeded. 	已超出最大大小。 
+MSG_PARA_FMT_MISSING	Some Paragraph Formatting data missing.	缺少某些段落格式数据。
+MSG_REJECT_COUNT	Number of changes rejected: 	已拒绝的更改数量： 
+MSG_OUT_OF_ROW_SLOT	Ran out of row table.	行表已耗尽。
+MSG_MARGIN_TOO_LARGE	Margin(s) or Header/Footer distance too large.	页边距或页眉/页脚距离过大。
+MSG_TYPE_STYLE_NAME	Specify a name for the new style.	请为新样式指定名称。
+MSG_CANT_SET_PROP	Property assignment Failed! This is a Control Initializing Property.  Most Tern methods and also some properties such as the 'Parent' property can force the creation of the Control Handle. These methods and properties should not be called before setting this Control Initializing Property.	属性赋值失败！这是一个控件初始化属性。大多数 Tern 方法以及某些属性（例如 'Parent' 属性）可能强制创建控件句柄。在设置此控件初始化属性之前，不应调用这些方法和属性。
+MSG_FILE_OPEN	File Open Error!	文件打开错误！
+MSG_TBL_DATA_MISSING	Table array data missing or table allocation error.	缺少表格数组数据或表格分配错误。
+MSG_NO_LIST_BLOCK	List table missing	缺少列表表
+MSG_FATAL_ERROR	Fatal Error	致命错误
+MSG_REPLACE_STRING	Replace this string?	替换此字符串？
+MSG_BAD_BMP_FILE	Invalid bitmap file.	位图文件无效。
+MSG_ROW_BREAK	Row Break	分行符
+MSG_ERR_SITE_CREATE	Error creating client site.	创建客户端站点时出错。
+MSG_LINE_TRUNCATED	Line(s) truncated.	行被截断。
+MSG_ERR_ADDING_VALUE	Error adding value to listbox.	向列表框添加值时出错。
+MSG_NOT_TE_FILE	Not a valid TE document. Formatting data ignored.	不是有效的 TE 文档。已忽略格式数据。
+MSG_OLEERR_NO_CLASS	Class not registered.	类未注册。
+MSG_INSERTED_BY	Inserted by: 	插入者： 
+MSG_CHAR_FMT_MISSING	Some character formatting data missing.	缺少某些字符格式数据。
+MSG_FMT_BY	Font changed by: 	字体更改者： 
+MSG_CELL_DATA_MISSING	Cell table data missing or cell table allocation error.	缺少单元格表数据或单元格表分配错误。
+MSG_FILE_SIGN_MISSING	File information signature missing.	缺少文件信息签名。
+MSG_JPG_FILES	Jpeg Files(*.JPG)|*.JPG|	
+MSG_SOFT_PAGE_BREAK	Soft Page Break	软分页符
+MSG_INVOKE_TEXT_LINK	CTRL + click to follow link.	按住 CTRL 并单击以访问链接。
+MSG_SAVE_INCOMPL	Save not complete.	保存未完成。
+MSG_ERR_END_PRINTER	Error finishing printing.	完成打印时出错。
+MSG_UNKNOWN	Unknown	未知
+MSG_DEL_FIRST_FTR	Delete First Page Footer?	删除首页页脚？
+MSG_DEL_FIRST_HDR	Delete First Page Header?	删除首页页眉？
+MSG_NULL_FIELD	Zero length field name not allowed. Mail Merge error.	不允许使用长度为零的字段名称。邮件合并错误。
+MSG_ERR_STORAGE_RETRIEVE	Error retrieving the OLE storage.	检索 OLE 存储时出错。
+MSG_PAGE_HDR	Page Header	页眉
+MSG_PAGE_FTR	Page Footer	页脚
+MSG_PAGE_BOX	Page: 	页： 
+MSG_ERR_ADV_CREATE	AdviseSink Creation error.	AdviseSink 创建错误。
+MSG_ERR_MEM_LOCK	Could not obtain buffer lock.	无法获取缓冲区锁。
+MSG_NO_RANGE_PRINTING	Range printing not available in page header/footer editing mode.	页眉/页脚编辑模式下无法使用范围打印。

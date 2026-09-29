@@ -1,0 +1,737 @@
+MergeKeywords_Placeholder	Search for another keyword	搜索其他关键字
+ImportMenu_TextFile	Text file (RIS, BibTeX, etc.)	文本文件（RIS、BibTeX 等）
+TakeOverAvailable	Include if available:	可用时包含：
+OnlineSearchPanel_ResultsTitle_Found	Results: {0} references	结果：{0} 条文献
+NavTooltipBackgroundProcess	Background process	后台进程
+ProjectBeingSharedToNVivo	This project is being shared with NVivo	此项目正与 NVivo 共享
+Export_SavePrint	Save and print	保存并打印
+SearchPerIsbnDoiCatalogs	Catalogs used for the ISBN download	用于 ISBN 下载的目录
+LastNameFirstNamePlaceholder	Last name, first name;	姓，名；
+DeleteReference	Move to recycle bin	移到回收站
+PDFTextLabel	Text:	文本：
+TakeOverAvailableKeywords	Keywords	关键词
+ImportMenu_ImportTexts	Import texts	导入文本
+DeleteEntityLink_Smart	Do you want to delete the {0:{0} link|{0} links}?	
+AcceptSelection	Narrow results	缩小结果范围
+DeleteGroups_Smart	Do you want to delete the {0:{0} group|{0} groups}?	
+DeleteAllReferencesWarning	<span class="segoeUiSemibold">Warning</span><br/>Additional references not in the selection will be deleted. This can happen if you delete an edited book that has contributions.	<span class="segoeUiSemibold">警告</span><br/>不在选择范围内的其他文献将被删除。如果您删除有贡献的编著图书，可能会发生这种情况。
+TaskItem_Until	Until {0}	直到 {0}
+OnlineSearchCatalogsPanel_Found	Results	结果
+ExportFiltersTitle	Add or remove export filter	添加或移除导出筛选器
+CallNumber	Call number	索书号
+DeleteLibraries_Smart	Do you want to delete the {0:{0} library|{0} libraries}?	
+DeletePeriodicals_Smart	Do you want to delete the {0:{0} periodical|{0} periodicals}?	
+KeywordList	Open keywords	打开关键字
+PdfToolbar_IndirectQuotation	Indirect quotation	间接引用
+InsertLink_Text	Text	文本
+Export_CopyOrMove	Copy or move to a Citavi project	复制或移动到 Citavi 项目
+OnlineSearchPanel_Duplicate	Duplicate	重复
+ChangesetDiffTooManyChanges	Refresh the page to see recent changes.	刷新页面以查看最新更改。
+ShowAllFields	Show all fields	显示所有字段
+Export_PDFFiles	PDF files	PDF 文件
+ImportFilters_Found	Available online: {0}	可在线获取：{0}
+ExpandAll	Expand all	全部展开
+ExportReferences_TooManyReferencesGrouping	Cannot export more than {0} references when grouping is set	设置分组时无法导出超过 {0} 条文献
+Editor	Editor	编辑
+CriteriaHistory	History	历史记录
+ImportFilterAddRemove	Add or remove import filter	添加或移除导入筛选器
+AddPrivateCollection	Add private collection	添加私人收藏
+Export	Export	导出
+NewReference	New reference	新建参考文献
+NavTooltipSettings	Project settings	项目设置
+TaskPlanner_Important	Important	重要
+TaskItemSort_Importance	Importance	重要性
+PdfToolbar_Summary	Summary	摘要
+OnlineSearchCatalogsPanel_Search	Search	搜索
+CreateKeys_BibTeXKey_Created_Single	BibTeX key created.	BibTeX 键已创建。
+TaskPlanner_WithNotes	With notes	含注释
+SearchPerIsbnDoiTitle	Retrieve references by identifier	通过标识符检索文献
+CreateKeys_CitationKey_Created_Single	Citation key created.	引用键已创建。
+RichTextEditorFormatMenu_Bigger	Larger	增大
+CriteriaResources_WithPDFAttachments	PDF	PDF
+Chat_EnterMessage	Enter message	输入消息
+ImportMenu_PDF	PDF upload	PDF 上传
+RemoveAllMarks	Clear all	全部清除
+Resources	Attachments/URLs	附件/URL
+Chat_NooneInChatBox	Communicate with other team members who are online in the chat window. <br/>Since you are the only team member who is online, the chat is not available.	在聊天窗口中与在线的其他团队成员交流。<br/>由于您是唯一在线的团队成员，因此聊天不可用。
+Export_CopyOrMoveTitle	Copy or move to a Citavi project	复制或移动到 Citavi 项目
+CriteriaImports	Import groups	导入分组
+TaskPlanner_Sort_Importance	Importance	重要性
+ExportCommon	Share with NVivo	与 NVivo 共享
+CoreStatementThoughtPlaceholder	Enter a core statement	输入核心陈述
+BibTeXKey_CurrentReferenceManual	Manually create a BibTeX key for the current reference	为当前文献手动创建 BibTeX 键
+ReferenceTypesSearchPlaceholder	Search reference types	搜索文献类型
+ProjectNameApp	Project name	项目名称
+Tasks_OnlyOpen	Open tasks	打开任务
+CriteriaResources_WithoutResources	Without attachments	无附件
+Upload_Attachment	Uploading attachment.	正在上传附件。
+Export_PDFReference	All PDFs for the selected reference	所选文献的所有 PDF
+KnowledgeItemNavigationSearchPlaceholder	Search knowledge items	搜索知识条目
+CreatingAnnotation	Creating annotation…	正在创建批注…
+ImageDisplayError	An error occurred while displaying the image	显示图像时出错
+Survey_Placeholder_Fair	It looks like we have some room for improvement. What would you like to see changed?	看来我们还有改进的空间。您希望更改什么？
+Survey_Placeholder_Good	We're glad to hear that! Is there anything you'd like us to change?	很高兴听到这个消息！您希望我们做出哪些更改？
+Export_LocalDirectory	Save bibliography	保存文献目录
+Export_DuplicateProject_DescriptionPlaceholder	Can remain empty	可以留空
+Delete	Delete	删除
+EntryDoesNotCorrespondToCriteriaAnyMore	This element no longer fits your selection.	此元素不再适合您的选择。
+Tabs_TasksTab	Tasks	任务
+NavigationBar_References	References	文献条目
+NewGroup	New group	新建分组
+TaskPlanner_ProjectTasks	Project tasks	项目任务
+DeleteGroupsInUse_Smart	{0:Warning: The group "{1}" is assigned to a reference or knowledge item. All links will be deleted if you delete the group. Do you want to delete the group "{1}" anyway?|Warning: at least one of the {0} selected groups is assigned to a reference or knowledge items. All links will be deleted if you delete the group. Do you want to delete the {0} selected groups anyway?}	
+LastViewedReference	Reference last viewed	最近查看的文献
+NoCategories_AddFirst	<a class="noEntitiesAddFirst" data-value="category">Click here</a> to add a category	<a class="noEntitiesAddFirst" data-value="category">单击此处</a>以添加类别
+CriteriaPeople	Persons and organizations	个人与组织
+FontColor	Font color	字体颜色
+TaskPlanner_WithDate	With due date	有截止日期
+CriteriaReferenceWithPdfs	References with PDFs	带 PDF 的文献
+Export_PDFSaveAsMetadata	Save Citavi reference information in the PDF metadata	将 Citavi 参考文献信息保存到 PDF 元数据中
+CriteriaMarks_Blue	Circle	圆形
+NavigationBar_ExportPrint_Text	Export / Print	导出 / 打印
+Checks	Circle	圆形
+ImportReferences_NoReferences	The file does not contain data that can be imported.	该文件不包含可导入的数据。
+CriteriaRating	Evaluation	评估
+ReferencePrivateCollectionsDeleted_Smart	<b>{0:1 private collection|{0} private collections} moved to recycle bin.</b>	
+NavTooltipFullTextSearch	Find full text	查找全文
+CriteriaTasksTeamTasks	Team tasks	团队任务
+AssignNewTask	Assign new task	分配新任务
+Export_Grouping	Grouping	分组
+BibTeXKey_AllReferencesDescription	Generates BibTeX keys for all the references whose BibTeX key field is empty.	为所有 BibTeX 键字段为空的参考文献生成 BibTeX 键。
+ModifiedByLabel	Modified by	修改者
+SeeAlso	See also:	另请参阅：
+Sending	Sending...	正在发送...
+CriteriaYear_From	From	发件人
+RemoveFilter	Remove filter	移除筛选器
+SearchInAllPdfs	Search all PDFs	搜索所有 PDF
+PDFPasswordDontSaveOnServer	Don't save password on the Citavi server<br/><br/><b>Advantage</b>: The content of the PDF file is only visible after entering the password<br/><b>Disadvantag:</b> The full-text search and <a href="" target="_blank">other features</a> will not be available for this PDF. You will have to enter the password every time in order to open the PDF file.	不在 Citavi 服务器上保存密码<br/><br/><b>优点</b>：只有在输入密码后才能看到 PDF 文件的内容<br/><b>缺点</b>：此 PDF 的全文搜索和 <a href="" target="_blank">其他功能</a>将不可用。每次打开 PDF 文件时都必须输入密码。
+OnlineSearchPanel_TakeSelection	Apply selection	应用选择
+Import_FileTitle1	Upload file	上传文件
+TaskItem_Selecteds	Selected tasks	所选任务
+PanelThought_By	by	由
+RemoveUserFromProjectPlaceholder	Add a short message (up to 160 characters)	添加简短消息（最多 160 个字符）
+NoPersons_AddFirst	<a class="noEntitiesAddFirst" data-value="person">Click here</a> to add a person	<a class="noEntitiesAddFirst" data-value="person">单击此处</a>以添加人员
+KnowledgeItemFileForm_imageDescriptionLabelPlaceholder	Additional information, for example about the creator or source	附加信息，例如关于创建者或来源
+GroupingsTitle	Group bibliography	分组文献目录
+Export_CurrentSelection	All references in the current selection	当前选择中的所有文献
+SupportInformationDialog_saveAsTextFIleButton	Save as text file…	另存为文本文件…
+Settings_ShowMarks	Show labels	显示标签
+Logout	Log out	注销
+Legend	Caption	标题
+Export_SpecialFileDescription	<div class="violet">Edit list</div><a id="export_addFilterLink">Add export format</a> or remove by selecting and clicking [x].	<div class="violet">编辑列表</div><a id="export_addFilterLink">添加导出格式</a>，或通过选择并单击 [x] 来移除。
+OrderedList	Numbered list	编号列表
+CitationKey_AllReferencesNewDescription	Generates new citation keys for all references. Existing citation keys will be replaced.	为所有文献生成新的引用键。现有引用键将被替换。
+ExecuteForMoreThanTresholdWarning	{0} elements will be affected. Do you want to proceed?	{0} 个元素将受到影响。是否继续？
+RecycleBin_Open	Open recycle bin	打开回收站
+GroupingInfo	<div class="violet">About groupings</div>Select a row.	<div class="violet">关于分组</div>选择一行。
+CriteriaYear_Last5Years	Last 5 years	最近 5 年
+WithDetails	With details	包含详细信息
+RichTextEditorFormatMenu_Color	Color	颜色
+Upload	Upload	上传
+ProjectPropertiesChangePermissionsLabel	Project properties can only be changed by its owner and managers.	项目属性只能由其所有者和管理员更改。
+SearchPerIsbnDoiDescription	<div class="violet">Enter multiple IDs</div>\r\n<div class="clear"></div>\r\nYou can mix DOI, ISBNs, etc.\r\nSeparate the IDs with spaces.<br/><br/>\r\n<div class="violet">Copy IDs</div>\r\nCopy and paste text containing multiple DOI, ISBNs, etc.\r\nfrom the clipboard.\r\nCitavi searches for\r\nthe IDs in the text.	<div class="violet">输入多个 ID</div>\r\n<div class="clear"></div>\r\n您可以混合使用 DOI、ISBN 等。\r\n用空格分隔 ID。<br/><br/>\r\n<div class="violet">复制 ID</div>\r\n复制并粘贴包含多个 DOI、ISBN 等的文本\r\n从剪贴板。\r\nCitavi 会搜索\r\n文本中的 ID。
+RecycleBin_Restored	<b>The deleted elements were restored.</b>	<b>已删除的元素已恢复。</b>
+CriteriaResources_WithPDFAttachments_Tooltip	References with attached PDFs	带有附加 PDF 的文献
+CreatedByLabel	Created by	创建者
+RemoveFilterById_KnowledgeItems	Show all knowledge items	显示所有知识条目
+CitationKey_CurrentReferenceManualPlaceholder	Enter citation key	输入引用键
+CoreStatementMissing	[No core statement]	[无核心论点]
+MissingSources	Can't find the database you want?	找不到您想要的数据库？
+RemoveSelection	Cancel selection	取消选择
+CreatedByOnLabel	Created	创建时间
+KnowledgeItemQuickReference_coreStatementLabelPlaceholder	Optional	可选
+Survey_Placeholder_Super	Great to hear! Could you let us know what you especially like?	很高兴听到！能否告诉我们您特别喜欢什么？
+UploadProjectConfirmation	Do you really want to share the project {0} and all its attachments with Nvivo?	您确定要将项目 {0} 及其所有附件与 Nvivo 共享吗？
+MergePublishers_Placeholder	Search for another publisher	搜索其他出版商
+AttachmentsUploadLocalFile	Upload file	上传文件
+Export_Filter	Export format	导出格式
+Export_Format	Format	格式
+ProjectLocked_Unlocked	Saving resumed	已恢复保存
+CriteriaTasksStatus	Task status	任务状态
+Survey_Likely	Highly likely	极有可能
+DeleteKeywords_Smart	Do you want to delete the {0:{0} keyword|{0} keywords}?	
+Export_PDFProject	All PDFs in the project	项目中的所有 PDF
+KnowledgeItemTextPlaceholder_DirectQuotation	Exact wording from the orginal text.	原文的精确措辞。
+DragNDrop_Group_Copy	Add group	添加分组
+CriteriaMarks_NoMarks	No label	无标签
+TaskPlanner_Sort_Type	Task type	任务类型
+CreateParentReference	Click here to create a new parent reference	单击此处创建新的父级文献
+OnlineSearch_TooManyResultsDescription	Your search returned over 1000 results. You can continue to view the first 1000 hits or go back to refine your search.	您的搜索返回了超过 1000 个结果。您可以继续查看前 1000 个结果，或返回优化搜索。
+BibTeXKey_CurrentReferenceManualPlaceholder	Enter BibTeX key	输入 BibTeX 键
+ThoughtUploadLocalFile	Add image or text file	添加图像或文本文件
+SearchPerIsbnDoiPlaceholder	Enter IDs or text	输入 ID 或文本
+CriteriaSeriesTitle	Series	系列
+TaskCriteria_AssignedToMe	Assigned to me	分配给我
+ImportFilter	Import format	导入格式
+CriteriaAdvanced	Other	其他
+IsbnCatalogsMove	Change search order	更改搜索顺序
+TaskPlanner_Sort_DueDate	Due date	截止日期
+NoCover	No cover art	无封面图片
+DeleteCategoriesWithSubcategories_Smart	{0:The category|One or more of the selected categories} contain subcategories that will also be deleted.<br/>Links to references and knowledge items will be deleted as well.<br/>Do you want to delete the category anyway?	
+Export_PDFWithAnnotations	Save with annotations	保存并附带批注
+OnlineSearchPanel_SearchResultsDelete	Delete all search results	删除所有搜索结果
+Export_Change	Change	更改
+ReferenceTitle_LibrariesAndCollections	Libraries and collections	库和收藏
+Tabs_ContentTab	Content	内容
+NewSubheadingDefaultText	Insert subheading	插入副标题
+StandardFilter	Common filters (RIS, BibTeX, and ENW)	常用筛选器（RIS、BibTeX 和 ENW）
+CriteriaGroups	Groups	组
+SelectAllEntitiesCountTotal	{0} {1} total	共 {0} {1}
+Tabs_ContextTab	Context	上下文
+DeleteLocations_Smart	Do you want to delete the {0:{0} location|{0} locations}?	
+NavigationBar_Import_Text	Import / Online search	导入 / 在线搜索
+RecycleBin_Restoring	<b>Restoring deleted elements.</b>	<b>正在恢复已删除的元素。</b>
+GroupList	Open groups	打开分组
+TabContent_Groups	Groups	组
+PdfToolbar_DirectQuotation	Direct quotation	直接引用
+InsertThought	Insert new thought	插入新想法
+NotFound	Not found	未找到
+RecycleBinItemType_TaskItem	Tasks	任务
+NewReferenceMenu_MoreReferenceTypes	Additional reference types…	其他题录类型…
+OnlineSearchIsbnDoiNotFound	Please double-check your entry or \r\npick a different\r\n catalog or database.	请检查您的输入，或\r\n选择其他\r\n目录或数据库。
+DeleteCategories_Smart	Do you want to delete the {0:{0} category|{0} categories}?	
+PDFSearchInfo	Tips for good search strategies can be found <a id="pdfSearchInfo">in the manual</a>.	有关良好检索策略的提示可在<a id="pdfSearchInfo">手册</a>中找到。
+BibTeXKey_CurrentReferenceAutomaticDescription	Generates a BibTeX key for the current reference.	为当前题录生成 BibTeX 键。
+Export_SpecialFile	Save as text file (RIS, BibTeX, …)	保存为文本文件（RIS、BibTeX 等）
+ExportOption_WithCategories	With categories	含分类
+RichTextEditorFormatMenu_Font	Font	字体
+PdfToolbar_ImageQuotation	Image&shy; quot&shy;ation	图片&shy;引&shy;用
+CitationKey_CurrentReferenceAutomaticDescription	Generates a citation key for the current reference.	为当前题录生成引用键。
+SetToSelectedReferences	Set for selected references	为所选题录设置
+NormalView	Normal view	普通视图
+Libraries	Libraries	图书馆
+NavTooltipProfile	Profile	个人资料
+CitationStyleLoadError	Error	错误
+CriteriaTasksType	Task type	任务类型
+SeriesTitleList	Edit series titles	编辑丛书名称
+TakeOverAvailableLocations	Locations	位置
+DeleteReferences_Smart	Do you want to delete the {0:{0} reference|{0} references}?	
+EditInTextsPage	Edit in the text editor	在文本编辑器中编辑
+InsertLink_MissingText	Missing text	缺少文本
+Reload	Please refresh the page	请刷新页面
+TaskItem_AssignedTo	Assigned to	分配给
+MissingFilters	Need a different format?	需要其他格式？
+Export_GroupingDescription	<div class="violet">Grouping</div>You can\r\ngroup your bibliography with\r\ncorresponding\r\nsubheadings:<div class="clear"></div><span class="violet">Printed sources - Online sources<br/>Primary sources - Secondary sources<br/>Sources - Cases</span>	<div class="violet">分组</div>您可以使用相应的\r\n小标题对参考文献\r\n进行\r\n分组：<div class="clear"></div><span class="violet">印刷来源 - 在线来源<br/>一次文献 - 二次文献<br/>来源 - 案例</span>
+Tabs_QuotationTab	Quotations	引文
+ProjectMemberRemoved	You have been removed from this project. The project will now close.	您已被移出该项目。项目即将关闭。
+NewTask	New task	新建任务
+TaskPlanner_Sort_CreatedOn	Created on	创建日期
+TaskPlanner_Sort_CreatedBy	Created by	创建者
+TabQuotation_ExpandAll	Expand all	全部展开
+Search	Browse	浏览
+Source	Source	来源
+Saving	Saving…	正在保存…
+AttachmentsAdd	Add	添加
+IsbnCatalogsTitle	Catalogs for the ISBN download	ISBN 下载的目录
+NoPeriodicals_AddFirst	<a class="noEntitiesAddFirst" data-value="periodical">Click here</a> to add a periodical	<a class="noEntitiesAddFirst" data-value="periodical">单击此处</a>添加期刊
+Export_Action	Action	操作
+PageOf	of	共
+CriteriaYear	Year of publication	出版年份
+ShowAllCategories	Expand all	全部展开
+SplitterTrigger_References_Tabs	Show tabs	显示标签页
+Tabs_NoReferenceSelected	No reference selected	未选择参考文献
+SplitterTrigger_References_List	Show the list of references	显示题录列表
+OpenPdfAnnotationInTextsPage	Open PDF annotations in the Text Collator	在文本整理器中打开 PDF 注释
+MergeSeriesTitles_Placeholder	Search for another series	搜索其他丛书
+CriteriaApplyReferencesCriteria	Apply filter	应用筛选
+TaskPlanner_MyTasks	My tasks	我的任务
+RecycleBin_ElementsAutomaticallyDeleted	Items in the Recycle Bin are automatically deleted after 60 days.	回收站中的项目将在 60 天后自动删除。
+ProjectNameChangePermission	(can only be changed by the project owner or leader)	（只能由项目所有者或负责人更改）
+DbServerConnectionDialog_connectionStringInfoEditor	Enter the connection information you received from your server administrator or open the <a fref="OpenDataConnectionDialog">Connection</a> dialog.	输入您从服务器管理员处收到的连接信息，或打开<a fref="OpenDataConnectionDialog">连接</a>对话框。
+MergeCategories_Placeholder	Search for another category	搜索其他分类
+ProjectSettings	General settings	常规设置
+CitationKey_CurrentReferenceManualDescription	Create the citation key yourself.	自行创建引用键。
+Profile	Profile	个人资料
+Export_DuplicateProject	Duplicate project	复制项目
+NvivoTrialBanner	You can trial NVivo for 14 days using this <a href="/trial" target="_blank">link</a>.	您可以通过此<a href="/trial" target="_blank">链接</a>试用 NVivo 14 天。
+DragNDrop_Keyword_Copy	Add keyword	添加关键词
+SearchQueryEnter	Enter your search term	输入搜索词
+RemoveFilterById_Tasks	All tasks	所有任务
+CopyEmail	Copy email address	复制电子邮件地址
+ImportsSearchPlaceholder	Search import groups	搜索导入组
+ComplexTextMoreInfo	Why?	为什么？
+Signature	Call number	索书号
+RecycleBin	Recycle Bin	回收站
+Chat_NooneInChat	You're the last one in the chat. \r\nMessages will not be sent.	您是聊天室中最后一个人。\r\n消息将不会被发送。
+CriteriaAdvanced_Invert	Invert filter	反转筛选
+ExportOption_WithKeywords	With keywords	含关键词
+Attachments	Attachments:	附件：
+NoGroups_AddFirst	<a class="noEntitiesAddFirst" data-value="group">Click here</a> to add a group	<a class="noEntitiesAddFirst" data-value="group">单击此处</a>添加组
+KnowledgeItemTextPlaceholder_Summary	A substantially faithful rendition of a chapter or section, in your own words	用自己的话对章节或部分内容进行基本忠实的改写
+Thought	Thought	想法
+CriteriaYear_To	to	至
+DeletePeriodicalsInUse_Smart	{0:The periodical "{1}" cannot be deleted because it is in use by at least one reference.|The {0} selected periodicals cannot be deleted because at least one of them is in use by at least one reference.} Select only unused periodicals to delete.	
+TabQuotation_New	New	新建
+Export_Word	Word document (*.docx)	Word 文档 (*.docx)
+Export_Save	Save as...	另存为…
+Export_Move	Move	移动
+Export_Copy	Copy	复制
+ReferenceTitle_IntegrateEntries	More fields	更多字段
+ApplyPersonsForm_allPersonsLabel	Persons and organizations	个人与组织
+ChangeRole	Change role	更改角色
+ImportMenu_PerISBNDoi	DOI, ISBN, PMID, PMCID, arXiv ID	DOI、ISBN、PMID、PMCID、arXiv ID
+ImportReferencesStart	Importing references.<br/>\r\nYou'll be notified when the\r\nprocess is complete.	正在导入题录。<br/>\r\n过程完成后\r\n您将收到通知。
+ClosePanel	Close panel	关闭面板
+ImportFiltersAdd	Add import filter	添加导入过滤器
+OnlineSearch_TooManyResults	Too many results	结果过多
+NewReferenceMenu_DOIISBN	DOI, ISBN, PMID, PMCID, arXiv ID	DOI、ISBN、PMID、PMCID、arXiv ID
+StartPage	Homepage	主页
+ReferenceTypeSelectionDialog_currentReferenceTypeLabel	Current	当前
+NewSeriesTitle	New series	新建丛书
+ImportReferencesEnd	<b>References imported</b><br/>View references <a id="selectImportedReferences">here.</a>	<b>题录已导入</b><br/>在<a id="selectImportedReferences">此处</a>查看题录。
+NavigationBar_Knowledge	Knowledge	知识
+RecycleBin_DeletedOn	Deleted on	删除时间
+RecycleBin_DeletedBy	Deleted by	删除者
+Export_CitationStyle	Citation style	引文样式
+LibrariesSearchPlaceholder	Search libraries	搜索图书馆
+CollapseAll	Collapse all	全部折叠
+PDFDragHere	Drag and drop PDF file	拖放 PDF 文件
+CriteriaTasksImportance	Importance	重要性
+Export_TargetProject	Target project	目标项目
+AttachComment	Attach comment	附加评论
+NewParentReference	New parent reference	新建父题录
+PDFPasswordSaveOnServer	Save password on the Citavi server<br/><br/><b>Advantage</b>: The full-text search and <a href="" target="_blank">other features</a> will be available for this PDF.<br/><b>Disadvantage:</b> The <a href="" target="_blank">text extracted from the PDF</a> is visible to other project members without a password.	在 Citavi 服务器上保存密码<br/><br/><b>优点</b>：此 PDF 的全文搜索和<a href="" target="_blank">其他功能</a>将可用。<br/><b>缺点：</b><a href="" target="_blank">从 PDF 中提取的文本</a>无需密码即可被其他项目成员查看。
+ShowTopLevelCategories	Show main categories only	仅显示主分类
+SortReferences_AuthorAsc	By short title: A to Z	按短标题：A 到 Z
+ImportPDFDescription	<div class="violet">Multiple PDFs</div>You can import multiple PDFs from a folder saved on your device.	<div class="violet">多个 PDF</div>您可以从设备上保存的文件夹中导入多个 PDF。
+CriteriaResources_WithOtherAttachments_Tooltip	References with other attachments	含其他附件的题录
+ReferenceLibrariesDeleted_Smart	<b>{0:1 library|{0} libraries} moved to recycle bin.</b>	
+PrivateCollections	Private collections	私人收藏
+OnlineSearchPanel_AvailablePlaceholdersSearchOptions	Available wildcards and search options	可用的通配符和搜索选项
+StandardFilterDescription	<html>\r\n\t<head>\r\n\t\t<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />\r\n\t\t<meta http-equiv="Content-Style-Type" content="text/css" />\r\n\t\t<meta name="generator" content="Aspose.Words for .NET 11.11.0.0" />\r\n\t\t<title>\r\n\t\t</title>\r\n\t</head>\r\n\t<body>\r\n\t\t<div>\r\n\t\t\t<p style="margin:0pt 0pt 4pt; line-height:110%; widows:0; orphans:0; font-size:9pt"><span style="font-family:'Segoe UI'; font-size:9pt; color:#ff0000">Common filters</span></p>\r\n\t\t\t<p style="margin:0pt 0pt 4pt; line-height:110%; widows:0; orphans:0; font-size:9pt"><span style="font-family:'Segoe UI'; font-size:9pt">When you export search results from a database, they will usually be saved in RIS, BibTeX, EndNote Tagged, or PubMed format. Here you can select the file or files you want to import in your Citavi project. The file must have the extension .ris, .bib, or .enw.</span></p>\r\n\t\t</div>\r\n\t</body>\r\n</html>	<html>\r\n\t<head>\r\n\t\t<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />\r\n\t\t<meta http-equiv="Content-Style-Type" content="text/css" />\r\n\t\t<meta name="generator" content="Aspose.Words for .NET 11.11.0.0" />\r\n\t\t<title>\r\n\t\t</title>\r\n\t</head>\r\n\t<body>\r\n\t\t<div>\r\n\t\t\t<p style="margin:0pt 0pt 4pt; line-height:110%; widows:0; orphans:0; font-size:9pt"><span style="font-family:'Segoe UI'; font-size:9pt; color:#ff0000">常用筛选</span></p>\r\n\t\t\t<p style="margin:0pt 0pt 4pt; line-height:110%; widows:0; orphans:0; font-size:9pt"><span style="font-family:'Segoe UI'; font-size:9pt">当您从数据库导出检索结果时，通常会保存为 RIS、BibTeX、EndNote Tagged 或 PubMed 格式。在此您可以选择要导入 Citavi 项目的文件。文件扩展名必须为 .ris、.bib 或 .enw。</span></p>\r\n\t\t</div>\r\n\t</body>\r\n</html>
+ApplyPersonsForm_addPerson	<a id="managePersonsAddPerson">Click here to enter a new name </a><br/>or add names from the list.	<a id="managePersonsAddPerson">单击此处输入新名称 </a><br/>或从列表中添加名称。
+ContributionsAddNew	Add additional contribution	添加其他贡献
+CitationKey_AllReferencesDescription	Generates citations keys for all the references whose citation key field is empty.	为引用键字段为空的所有题录生成引用键。
+IsbnCatalogsAdd	Add catalogs	添加目录
+KnowledgeItemComment_coreStatementLabelPlaceholder	Your own opinion or evaluation	您自己的观点或评价
+Upload_Cover	Uploading cover image	正在上传封面图片
+CreateKeys_CitationKey_Creating_All	Creating citation keys...	正在创建引用键…
+PdfToolbar_Comment	Comment	评论
+CitationKey_AllReferencesNew	Generate new citation keys for all references (replace existing citation keys)	为所有文献生成新的引用键（替换现有引用键）
+NewReferenceMenu_SpecialFiles	Text file (RIS, BibTeX, etc.)	文本文件（RIS、BibTeX 等）
+Tooltip_PdfProtected	This PDF is protected	此 PDF 受保护
+OnlineSearchPanel_LoadedReferences	{0} references loaded	已加载 {0} 条题录
+DeletePersonsInUse_Smart	{0:The person or organization "{1}" cannot be deleted bacause it is in use by one or more references or series.|The {0} selected persons or organizations cannot be deleted because at least one of them is in use by one or mor references or series.} Select only unused persons or organizations to delete.	
+SessionExpired	The session has expired.	会话已过期。
+ProjectProperties	Project properties	项目属性
+OtherContributions	Other contributions in reference:	题录中的其他贡献：
+OnlineSearchPanel_ResultsTitle_Loading	Resources searched: {0}, {1} from {2} references	已检索资源：{0}、{1}，来自 {2} 条题录
+DeleteRefenceContributionsMessagePlural	Deleting these references will also delete any contributions that were added to them.	删除这些题录也会删除添加到其中的所有贡献。
+CriteriaAdvanced_HasKnowledgeItems	Has knowledge items	含知识条目
+CriteriaPeriodicals	Periodicals	期刊
+SupportInformationDialog_copyToClipboardButton	Copy to the Clipboard	复制到剪贴板
+SearchParentReference	Search parent reference	搜索父题录
+CriteriaReferenceType	Reference types	参考文献类型
+ApplyPersonsForm_searchPersonsPlaceholder	Search names	搜索姓名
+BibTeXKey_AllReferencesNewDescription	Generates new BibTeX keys for all references. Existing BibTeX keys will be replaced.	为所有参考文献生成新的 BibTeX 键。现有的 BibTeX 键将被替换。
+PreviewControl_orDragFile	Drag and drop	拖放
+SaveEnabled	Saving enabled.	已启用保存。
+TabContent_Rating	Evaluation	评估
+IsbnCatalogsChange	Change catalogs	更改目录
+DownloadLocationWithAnnotations	Download with annotations	下载并包含注释
+OnlineSearchPanel_NewSearch	Search again	重新检索
+KeywordsSearchPlaceholder	Search keywords	搜索关键词
+ViewImage	Open cover image in new tab	在新标签页中打开封面图片
+BibTeXKey_CurrentReferenceAutomatic	Automatically generate BibTeX key for the current reference	为当前题录自动生成 BibTeX 键
+ReferenceField_AccessDate	Access date	访问日期
+ShowTextPosition	Show text position	显示文本位置
+PagesAbbreviation	p.	页
+ReferenceTitle_AttachmentsAndInternetAddresses	Attachments and online addresses	附件和在线地址
+NewPerson	New person	新建人员
+RecycleBinItemType_Location	Attachments, online addresses, and locations	附件、在线地址和位置
+SearchInPdfs	Search in PDFs	在 PDF 中搜索
+NoPublishers_AddFirst	<a class="noEntitiesAddFirst" data-value="publisher">Click here</a> to add a publisher	<a class="noEntitiesAddFirst" data-value="publisher">单击此处</a>添加出版商
+EditPdf	Edit PDF	编辑 PDF
+CriteriaExpanderCollapse	Main options only	仅主要选项
+CloudFiles	Cloud files	云文件
+IntoRecycleBinLabel	Move to recycle bin	移到回收站
+CriteriaTasks	Tasks	任务
+CriteriaKeywords	Keywords	关键词
+SavingLargeChangeset	It's not possible to save because a running save process is disabled.	无法保存，因为正在运行的保存进程已禁用。
+ReferenceTypeLabelLabel	Reference type	文献类型
+SelectAllEntitiesCountOfTotal	{1} {0} of {2} selected	已选择 {1} {0}，共 {2} 个
+ComplexTextEditWarning	Editing this text could cause some formatting to be lost.	编辑此文本可能导致部分格式丢失。
+DeleteAnnotationAndKnowledgeItem	Delete the selected highlight its corresponding Citavi item	删除所选高亮及其对应的 Citavi 条目
+ReferenceQuotationsMenu_Show	Show	显示
+CriteriaMarks	Labels	标签
+Tabs_MoreTab	More…	更多…
+NoKeywords_AddFirst	<a class="noEntitiesAddFirst" data-value="keyword">Click here</a> to add a keyword	<a class="noEntitiesAddFirst" data-value="keyword">单击此处</a>添加关键词
+MergePeriodicals_Placeholder	Search for another periodical	搜索其他期刊
+TaskItemSort_DueDate	Due date	截止日期
+OnlineSearchPanel_CancelAll	Cancel all	全部取消
+OnlineSearchPanel_Cancelled	Canceled	已取消
+RecycleBinItemType_KnowledgeItem	Knowledge items	知识条目
+SortReferences_RatingDesc	Highest rated on top	评分最高者在上
+TaskState_Overdue	Overdue	已逾期
+MultipleSelection	Multiple selections	多项选择
+ReferenceQuotationsMenu_Modified	Modified	修改时间
+SortReferences_YearDesc	By year: newest on top	按年份：最新的在前
+ExportReferencesGroupingError	Cannot export more than {0} references when grouping is set	设置分组时无法导出超过 {0} 条文献
+Notifications_Empty	No current tasks and no new notifications.	没有当前任务，也没有新通知。
+ReferenceQuotationsMenu_Groups	Groups	组
+SplitterTrigger_Knowledge_Left	Show filters	显示筛选
+TabContent_Categories	Categories	分类
+TaskItemSort_Type	Task type	任务类型
+OnlineSearch_Year	Year:	年份：
+RemovePhoto	Delete profile image	删除个人资料图片
+BibTeXKey_AllReferences	Generate BibTeX keys for references that don't have one	为没有 BibTeX 键的参考文献生成 BibTeX 键
+DoneTasks	Completed tasks	已完成的任务
+RecycleBinItemType_Reference	References	文献条目
+RecycleBin_RefreshButton	Refresh recycle bin	刷新回收站
+PageRangeType	Type	类型
+ChoosePhoto	Upload profile image	上传个人资料图片
+ImportGroupList	Open keywords	打开关键字
+Tooltip_ChangeView	Change view	更改视图
+ReferencesDeleted_Smart	<b>{0:1 reference|{0} references} moved to <a id='goToRecycleBin'>recycle bin</a>.</b>	
+OtherTasks	Additional tasks	其他任务
+OnlineSearchCatalogsPanel_SelectSourcesIsbn	Add catalogs for the ISBN download	为 ISBN 下载添加目录
+PdfToolbar_More	More	更多
+DeleteSeriesTitles_Smart	Do you want to delete the {0:{0} series title|{0} series titles}?	
+CriteriaYear_ThisYear	This year	今年
+ExportReferencesToProjectStart	Exporting references. You'll be notified once the export is complete	正在导出题录。导出完成后您将收到通知
+ImportFiltersTitle	Add or remove import filter	添加或移除导入筛选器
+UploadError	An error occurred while uploading	上传时发生错误
+DuplicateReference	Duplicate reference	复制题录
+CitaviAppIconTooltip	Open additional windows	打开其他窗口
+Criterias_ApplyButton	Apply as selection	作为选择应用
+TaskItem_AddReferenceTask	Reference task	参考文献任务
+CreateKeys_BibTeXKey_Created_All	BibTeX keys have been generated for all references.	已为所有题录生成 BibTeX 键。
+InvertSelection	Invert selection	反选
+Export_DuplicateProject_Description	Description	描述
+ExportReferencesToProjectEnd	Export complete. Open the target project <a href="/projects/{0}" target="_blank">here</a>.	导出完成。在<a href="/projects/{0}" target="_blank">此处</a>打开目标项目。
+OnlineSearch_CatalogsListEdit	Edit list	编辑列表
+NoSeriesTitle_AddFirst	<a class="noEntitiesAddFirst" data-value="seriesTitle">Click here</a>to add a first serie	<a class="noEntitiesAddFirst" data-value="seriesTitle">单击此处</a>以添加第一个丛书
+AttachmentDeleted	Attachment moved to <a id='goToRecycleBin'>recycle bin</a>.	附件已移至<a id='goToRecycleBin'>回收站</a>。
+PublishersSearchPlaceholder	Search publishers	搜索出版商
+ParentReference	Parent reference:	父题录：
+MoreFields	More fields	更多字段
+NavTooltipHelp	Help	帮助
+NavTooltipIdea	Thought	想法
+NavTooltipChat	Chat	聊天
+PeriodicalList	Edit periodicals	编辑期刊
+PdfPreviewClose	Close preview	关闭预览
+OnlineSearchPanel_NoFurtherInfo	No additional information	无其他信息
+All	All	全部
+For	For	对于
+DragNDrop_Category_Copy	Add category	添加分类
+PersonList	Edit persons and organizations	编辑人员和机构
+DragPhotoHere	Drag and drop image	拖放图片
+Marks	Flag	标记
+Close	Close	关闭
+SupportInformationDialog_titleLabel	The following information helps us better answer your support question:	以下信息有助于我们更好地回答您的支持问题：
+Notes	Notes	笔记
+Tooltip_EditFilter	Edit filter	编辑筛选
+Quick	Quick add	快速添加
+IncludeAttachments	Include attachments	包含附件
+ReferenceQuotationsMenu_Created	Created	创建时间
+ProjectRoleChanged	Your project role has been changed to "{0}".	您的项目角色已更改为“{0}”。
+KnowledgeItemIndirectQuotation_coreStatementLabelPlaceholder	A substantially faithful rendition of a text, in your own words	用自己的话对文本进行基本忠实的复述
+Export_DuplicateProject_Name	Name of the new project	新项目名称
+CriteriaChangeReferenceCriteria	Switch to References to change filter	切换到“题录”以更改筛选
+SelectAll	Select all	全选
+OrDragFileHere	Drag and drop	拖放
+ProjectPropertiesDialog_autoExportPdfAnnotationsCheckBox	Export PDF annotations automatically	自动导出 PDF 注释
+TaskCriteria_CreatedByMe	Created by me	由我创建
+CreateKeys_BibTeXKey_Creating_All	Creating BibTeX keys...	正在创建 BibTeX 键…
+QuotationType_ImageOrFile	Image or file	图片或文件
+RSSLoadError	An error has occurred	发生错误
+CriteriaYear_Last10Years	Last 10 years	最近 10 年
+TaskItemSort_CreatedOnDesc	Last created	最近创建
+CriteriaTasksMyTasks	My tasks	我的任务
+ImportTextTitle	Import text files	导入文本文件
+Export_PDFOptions	Options	选项
+CriteriaAdvanced_CheckedOriginalSource	Check reference information	检查题录信息
+FromYear	{0} or later	{0} 或更高版本
+PeopleSearchPlaceholder	Search persons and organizations	搜索人员和机构
+NoGrouping	Without grouping	不分组
+Aborted	Canceled	已取消
+DeletePersons_Smart	Do you want to delete the {0:{0} person or organization|{0} persons or organizations}?	
+KnowledgeItemTextPlaceholder_QuickReference	Not required	非必需
+DeleteKnowledgeItem	Permanently delete knowledge item?	永久删除知识条目？
+KnowledgeItemFileForm_coreStatementLabelPlaceholder	Enter a short image caption or core statement	输入简短的图片说明或核心陈述
+TaskItemSort_ShortTitle	Short title	短标题
+CreateKeys_BibTeXKey_Creating_Single	Creating BibTeX key...	正在创建 BibTeX 键…
+ReferenceNavigationSearchPlaceholder	Search references	搜索题录
+UploadFilesDone	The files were uploaded.	文件已上传。
+DeleteCategoriesInUse_Smart	{0:Warning: The category or one of its subcategories are assigned to a reference or knowledge items. All links will be deleted if you delete the category.<br/>\r\nDo you want to delete the category anyway?|The categories or one of their subcategories are assigned to references or knowledge items. All links will be deleted if you delete the category.<br/>\r\nDo you want to delete the categories anyway?}	
+Export_CopyTitle	Copy to a Citavi project	复制到 Citavi 项目
+ResortReferences	Sort	排序
+DontAskAgain	Don't ask again	不再询问
+BibTeXKey_CurrentReferenceManualDescription	Create the BibTeX key yourself.	自行创建 BibTeX 键。
+SelectedKnowledgeItems	Details	详细信息
+OnlineSearchPanel_SearchResultsKeep	Add to selected search results	添加到所选搜索结果
+ReferenceTitle_ReferenceLinks	Links to other references	指向其他题录的链接
+AddContribution	Add contribution	添加贡献
+MergeGroups_Placeholder	Search for another group	搜索其他组
+DocumentSearchPlaceholder	Search document…	搜索文档…
+Survey_DoNotShowAgain	Don't show again	不再显示
+RemoveParagraphs	Remove paragraphs and tabs	移除段落和制表符
+CannotDeleteEntities_Smart	{0:This item cannot be deleted. It is part of the bibliographic information.|One or more items cannot be deleted. They are part of the bibliographic information.}	
+KnowledgeItemDelete	Delete knowledge item	删除知识条目
+ReferenceQuotationsMenu_Categories	Categories	分类
+SelectAllEntitiesCount	Select all {0} {1}	全选 {0} {1}
+TaskPlanner_Sort_ShortTitle	Short title	短标题
+DeleteTaskItems_Smart	Do you want to delete the {0:{0} task|{0} tasks}?	
+OpenProjectInAnotherTab	Open project in new tab	在新标签页中打开项目
+TaskItemSort_DoneDesc	Last completed	最近完成
+CurrentParentReference	Current parent reference	当前父题录
+CriteriaYear_LastYear	This year and last year	今年和去年
+TabMore_Locations	Locations	位置
+CitationKey_AllReferences	Generate citation keys for all references that do not have one yet	为所有尚无引用键的文献生成引用键
+RichTextEditorFormatMenu_Smaller	Smaller	更小
+AndMore	...and more	……及其他
+AttachmentsLocations	Internet adresses	互联网地址
+OnlineSearchPanel_ImportAndProjectDuplicate	In import and project	在导入和项目中
+CriteriaCategories	Categories	分类
+OnlineSearchPanel_ProjectDuplicate	In project	在项目中
+TabContent_Abstract	Abstract	摘要
+CriteriaSelected	Selected references	所选文献
+InternetDocuments	Internet adresses	互联网地址
+AttachmentsLinkInternetAddress	Online address	在线地址
+LibraryName_Placeholder	Library name	图书馆名称
+CriteriaResources	Attachments and online addresses	附件和在线地址
+Survey_Title	How do you like Citavi Web?	您觉得 Citavi Web 怎么样？
+ProjectReadyAccessedInNVivo	This project is ready to be accessed in NVivo	该项目已可在 NVivo 中访问
+OnlineSearchPanel_AvailablePlaceholders	Available wildcards and search options	可用的通配符和搜索选项
+Notifications	Notifications	通知
+AddLibrary	Add library	添加图书馆
+CriteriaMarks_RedAndBlue	Both labels	两个标签
+ExportOption_WithGroups	With groups	含组
+SelectedReferences	Selected references	所选文献
+SelectedReferencesHeader	Selected references	所选文献
+ProjectLocked_LockedDescription	A running process has temporarily locked the database.<br/>You can continue working once the process is finished.<br/>Your changes will not be lost.	正在运行的进程已暂时锁定数据库。<br/>进程完成后您即可继续工作。<br/>您的更改不会丢失。
+NewKeyword	New keyword	新建关键词
+AllChangesSaved	All changes saved at {0}	所有更改已于 {0} 保存
+ResetAutomaticShortTitle	Reset automatic short title	重置自动短标题
+SaveDisabled	Saving temporarily disabled due to synchronization process.	由于同步过程，保存已暂时禁用。
+RenameShortTitle	Edit short title	编辑短标题
+InvalidEmailDomainAndEmailAlreadyPresent	Invalid email domain. This address already belongs to this account.	电子邮件域无效。此地址已属于此账户。
+Export_DuplicateProject_Color	Project color	项目颜色
+KnowledgeItemsDeleted_Smart	<b>{0:1 knowledge item|{0} knowledge items} moved to <a id='goToRecycleBin'>recycle bin</a>.</b>	
+ProjectLocked_Locked	Saving paused	保存已暂停
+Export_DuplicateProject_Error	Invalid characters	无效字符
+RemoveCatalog	Do you want to remove "{0}" from the list?	是否要从列表中移除“{0}”？
+TaskItem_MoreMenuTitle	Show	显示
+SearchResult	Search results	搜索结果
+ImportMenu_Other	Another reference management program	其他文献管理程序
+NewReferenceMenu_OnlineSearch	Online search	在线搜索
+TaskPlanner_ReferenceTasks	Reference tasks	文献任务
+ExportOption_WithKnowledgeItems	With quotations	含引文
+ExportOption_WithRatings	With ratings	含评分
+OnlineSearchIsbnDoiNoValidIds	No valid Ids could be found.	未找到有效的 ID。
+Load_NoTasks	No tasks	无任务
+Locations	Locations	位置
+TaskPlanner_Done	Done	完成
+OnlineSearchPanel_FurtherInfo	More information	更多信息
+SelectParentReference	Parent reference from the list	列表中的父题录
+CreateKeys_CitationKey_Creating_Single	Creating citation key...	正在创建引用键…
+Survey_Subtitle	Your feedback is very important for us. Therefore the question: <br/> Would you recommend Citavi Web?	您的反馈对我们非常重要。因此想问：<br/>您会推荐 Citavi Web 吗？
+TabContent_Keywords	Keywords	关键词
+ReferenceQuotation_MissingLinkMessage	Select the\r\npassage in the PDF and then\r\nclick the icon again.	在 PDF 中选择\r\n该段落，然后\r\n再次单击该图标。
+KnowledgeItemTextPlaceholder_IndirectQuotation	A substantially faithful rendition of a text, in your own words.	用自己的语言对文本进行实质忠实的转述。
+AllCategories	All categories	所有分类
+CommentNew	New comment	新建评论
+NewReferenceMenu_Manual	Manually	手动
+DeleteReference_Attachment	Move currently displayed attachment to recycle bin	将当前显示的附件移至回收站
+RemoveFilterById	Show all references	显示所有题录
+GoToNextAnnotation	Go to next annotation	转到下一注释
+Export_CopyToProject	Copy to a Citavi project	复制到 Citavi 项目
+InsertLink_MissingUrl	Missing URL	缺少 URL
+HtmlCode	HTML Code	HTML 代码
+NoSearchResults	No results	无结果
+LinkAddRemove	Add link	添加链接
+DeleteEntities_Smart	Do you want to delete the {0:{0} item|{0} items}?	
+GoToForm	Edit in form	在表单中编辑
+DeletePublishersInUse_Smart	{0:The publisher "{1}" cannot be deleted because it is in use by one or more references.|The {0} selected publishers cannot be deleted because at least one of them has child references.} Select only unused publishers to delete.	
+SortReferences_ModifiedDesc	Most recently modified	最近修改
+Library	Library	图书馆
+Survey_Placeholder_Bad	Sorry to hear that! What would you like us to change first?	很抱歉！您希望我们先更改什么？
+CriteriaResources_WithInternetAddress	Online address, DOI, PMID, etc.	在线地址、DOI、PMID 等
+SplitterTrigger_References_Criteria	Show criteria	显示条件
+KeyboardShortcuts	Keyboard shortcuts	键盘快捷键
+SelectedKnowledgeItemsHeader	Selected knowledge items	所选知识条目
+Export_PDFCurrentShown	The current PDF file	当前 PDF 文件
+AllSelectedKnowledgeItems	Selected knowledge items	所选知识条目
+ComplexTextEditAnyway	Edit anyway	仍然编辑
+ParentReferences	Parent references	父题录
+Tooltip_View	View	视图
+TagsChangedTooManyEntries	It's not possible to add more than 50 entries at a time.	一次最多只能添加 50 个条目。
+ReferenceQuotationsMenu_Keywords	Keywords	关键词
+ReferenceQuotations_moveDownButton	Move down	下移
+NavigationBar_Import	Import/ <br/> Online search	导入/<br/>在线搜索
+ImportMenu_OnlineSearch	Online search	在线搜索
+PersonLastNameHelpText	<div class="violet">Name</div>\r\n= last name or full (not abbreviated)\r\norganization name.<br/>\r\n<div class="helpTextTabbed violet">Leutheuser-Schnarrenberger<br/>\r\nUnited Nations</div>\r\nFor <span class="violet">organizations enter the </span>official abbrevation in the\r\n<span class="violet">Abbreviation</span> field (for example, \r\n<span class="violet">UN</span>).	<div class="violet">名称</div>\r\n= 姓氏或完整的（不缩写）\r\n机构名称。<br/>\r\n<div class="helpTextTabbed violet">Leutheuser-Schnarrenberger<br/>\r\nUnited Nations</div>\r\n对于<span class="violet">机构，请输入 </span>官方缩写，填写在\r\n<span class="violet">缩写</span>字段中（例如 \r\n<span class="violet">UN</span>）。
+OnlineSearchPanel_NoReferencesFound	No references found	未找到题录
+OnlineSearchPanel_Sources	Online resources	在线资源
+NewPeriodical	New periodical	新建期刊
+OnlineSearchPanel_ImportDuplicate	In import	导入中
+DragNDrop_Replace	Replace "{0}" with "{1}"	将“{0}”替换为“{1}”
+HideEmptyFields	Hide empty fields	隐藏空字段
+Load_NoKnowledgeItems	No knowledge items	无知识条目
+PleaseTryAgainLater	Please try again later	请稍后重试
+WholeWordOnly	Whole words only	仅全字匹配
+InvalidPdf	An error occurred while loading the PDF. The PDF is either corrupt or not a valid PDF file. <a id="invalidPdfLink">Click here</a> to manually load the PDF.	加载 PDF 时发生错误。该 PDF 可能已损坏或不是有效的 PDF 文件。<a id="invalidPdfLink">单击此处</a>手动加载 PDF。
+OnlineSearchCatalogsPanel_SelectFromSources	Available online: {0}	可在线获取：{0}
+OpenStartPage	Open Welcome Screen	打开欢迎屏幕
+KnowledgeItemFileForm_legendPlaceholder	Caption for the image or core statement (also ©)	图片说明或核心陈述（也包括 ©）
+TaskItem_Others	Other tasks	其他任务
+Contributions	Contributions	贡献
+EnableCEIP	Enable CEIP?	启用 CEIP？
+Renaming	Renaming…	正在重命名…
+DeleteWholeEntry	Delete whole entry	删除整个条目
+DeleteOnlyAnnotation	Delete the selected highlight only	仅删除所选高亮
+Survey_Contact	Should we need to contact you for technical issues, please enter your email address along with your comment.	如果因技术问题需要与您联系，请在评论中一并填写您的电子邮件地址。
+ModifiedByOnLabel	Modified	修改时间
+Tabs_LinksTab	Links	链接
+Export_ProjectReferences	All references in this project	此项目中的所有题录
+ExportReferencesStart	<b>Exporting references.</b><br/>Once the export is complete you can download the file.	<b>正在导出题录。</b><br/>导出完成后，您即可下载文件。
+OtherGroupingsFromServer	Retrieve from the Citavi server.	从 Citavi 服务器获取。
+NameSurnamePlaceholder	Last name, first name; last name, first name	姓氏，名字；姓氏，名字
+SearchQuery_SyntaxError	Invalid search term. Please check parentheses and quotation marks.	搜索词无效。请检查括号和引号。
+Tabs_NoKnowledgeItemSelected	No knowledge item selected	未选择知识条目
+CriteriaExpanderExpand	More	更多
+SeriesTitleSearchPlaceholder	Search series titles	搜索丛书名称
+KnowledgeItemTextPlaceholder_Comment	Your own opinion or evaluation	您自己的观点或评价
+NavigationBar_ExportPrint	Export/ <br/> Print	导出/<br/>打印
+Export_Pdf	PDF (*.pdf)	PDF (*.pdf)
+Export_Odt	Open document text (*.odt)	OpenDocument 文本 (*.odt)
+TaskPlanner_Pending	Pending	待处理
+NoPDFAvailable	No PDF file	无 PDF 文件
+CriteriaThoughts	Thoughts	想法
+KnowledgeItemDirectQuotation_coreStatementLabelPlaceholder	Add or use automatically generated	添加或使用自动生成的
+KnowledgeItemSummary_coreStatementLabelPlaceholder	A substantially faithful rendition of a chapter or section, in your own words	用自己的话对章节或部分内容进行基本忠实的改写
+SeeHintInManual	See tips in our manual	请参阅手册中的提示
+MergeLibraries_Placeholder	Search for another library	搜索其他图书馆
+RecycleBin_Subtitle	It can take up to a minute after deletion before the items in the recycle bin are available again.	删除后最多可能需要一分钟，回收站中的项目才会重新可用。
+NameMissing	[No name]	[无名称]
+OnlineSearchPanel_SelectReference	Select a reference	选择题录
+Criterias_CancelButton	Cancel	取消
+RemoveFromSelectedReferences	Clear for selected references	为所选题录清除
+DeleteRefenceContributionsMessage	Deleting this reference will also delete any contributions that were added to it.	删除此题录也会删除添加到其中的所有贡献。
+NavTooltipUsers	Users	用户
+TabQuotation_CollapseAll	Collapse all	全部折叠
+DeleteLibrariesInUse_Smart	{0:The selected library is in use by at least one reference as a location. This location will also be deleted. Do you want to delete the selected library anyway?|The {0} selected libraries are in use by at least one reference as a location. These locations will also be deleted.Do you want to delete the {0} selected libraries anyway?}	
+WrongTransformerId	The selected filter cannot be used.	无法使用所选的筛选。
+ExportOption_WithAttachments	With attachments	含附件
+GroupsSearchPlaceholder	Search groups	搜索组
+Splitter_Show	Show	显示
+AttachmentsDeleteFile	Do you want to move the file "{0}" to the recycle bin?	是否要将文件“{0}”移至回收站？
+ProjectLocked_UnlockedDescription	You can now continue working.<br/>Your changes will be saved automatically.	您现在可以继续工作。<br/>您的更改将自动保存。
+IsbnCatalogsDescription	<div class="violet">Catalogs for the ISBN search</div><br/>\r\nSelect a catalog. Click\r\n<span class="violet">X</span> to remove it or click the \r\n<span class="violet">arrow</span> buttons to move it.<br/><br/>\r\nYour preferred catalog should be at the \r\ntop of the list. If you want to find call numbers in your library, on the "Retrieve references by identifier" panel, select \r\n<span class="violet">Change\r\ncatalogs</span>.	<div class="violet">ISBN 搜索的目录</div><br/>\r\n选择一个目录。单击\r\n<span class="violet">X</span> 将其移除，或单击 \r\n<span class="violet">箭头</span>按钮以移动它。<br/><br/>\r\n您首选的目录应位于\r\n列表顶部。如果您想在图书馆中查找索书号，请在“按标识符获取题录”面板中选择 \r\n<span class="violet">更改\r\n目录</span>。
+NeedNVivoLicenseToAccess	You need an NVivo license to access this feature	您需要 NVivo 许可证才能访问此功能
+NoAttachments	No attachments	无附件
+PdfToolbar_Tasks	Tasks	任务
+SortReferences_CreatedDesc	Most recently added	最近添加
+OnlineSearch_Duplicate	In project. Enable checkbox to import duplicate.	已在项目中。启用复选框以导入重复项。
+CitationKey_CurrentReferenceAutomatic	Automatically generate citation key for the current reference	自动为当前参考文献生成引用键
+DeleteKeywordsInUse_Smart	{0:Warning: the keyword "{1}" is assigned to a reference or knowledge items. All links will be deleted if you delete the group. Do you want to delete the keyword "{1}" anyway?|Warning: at least on of the {0} selected keywords is assigned to a reference or knowledge item. All keywords will be deleted if you delete the keywords. Do you want to delete the {0} selected keywords anyway?}	
+NewReferenceMenu_AddReference	Add reference	添加参考文献
+Survey_NotLikely	Highly unlikely	极不可能
+SplitterTrigger_Knowledge_Right	Show details	显示详细信息
+CitationStyleNotFound	Style not found 	未找到样式 
+NewReferenceMenu_Automatic	Automatically	自动
+CommentToKnowledgeItem	Add comment to item	为条目添加评论
+SourceCode	Edit source code	编辑源代码
+SortReferences_AuthorDesc	By short title: Z to A	按短标题：Z 到 A
+TaskItemsDeleted_Smart	<b>{0:1 task|{0} tasks} moved to <a id='goToRecycleBin'>recycle bin</a>.</b>	
+ReportSuccessful	Bug report sent.	问题报告已发送。
+PrivateCollection	Private Collection	私人收藏
+CitationKey_CurrentReferenceManual	Manually create a citation key for the current reference	手动为当前参考文献创建引用键
+CriteriaRating_WithoutWrittenEvaluation	Without evaluation	不评估
+UploadFilesProgress	Uploading files.<br/>\r\nYou'll be notified when the\r\nprocess is complete.	正在上传文件。<br/>\r\n流程完成后，\r\n您将收到通知。
+PreviewControl_noFileLinked	No file attached	未附加文件
+NewReferenceMenu_PdfUpload	PDF file upload	PDF 文件上传
+NoLibraries_AddFirst	<a class="noEntitiesAddFirst" data-value="library">Click here</a> to add a library	<a class="noEntitiesAddFirst" data-value="library">单击此处</a>添加库
+CriteriasTitle	Show	显示
+Affiliation_Placeholder	Optional information for institutions, workgroups, project directors, addresses	机构、工作组、项目负责人、地址的可选信息
+Export_LocalPDFFiles	Save attachments to device	将附件保存到设备
+ReferenceQuotations_moveUpButton	Move up	上移
+ReferenceTypeSelectionDialog_referenceTypesListLabel	Reference types already used appear in <span class="segoeUiSemibold">bold</span>.	已使用的参考文献类型以<span class="segoeUiSemibold">粗体</span>显示。
+DeleteReference_Reference	Move to recycle bin	移到回收站
+CriteriaMarks_Red	Flag	标记
+PanelThought_UseFile	Use image or file	使用图片或文件
+CreateKeys_CitationKey_Created_All	Citation keys have been generated for all references.	已为所有参考文献生成引用键。
+PeriodicalsSearchPlaceholder	Search periodicals	搜索期刊
+DeleteWholeEntryQuestion	Delete whole entry?	删除整个条目？
+Export_SelectedReferences	All references selected	已选择所有参考文献
+NoCitationStylesFound	No styles match these filters	没有样式匹配这些筛选条件
+TabMore_Tasks	Tasks	任务
+DeletePermanently	Delete permanently	永久删除
+CriteriaResources_WithInternetAddress_Tooltip	References with online addresses	带在线地址的参考文献
+CategoriesSearchPlaceholder	Search categories	搜索类别
+TaskItemSort_State	Status	状态
+DownloadLocationWithoutAnnotations	Download without annotations	下载时不包含批注
+Export_References	References	文献条目
+AttachmentsAddOthers	Add more attachments	添加更多附件
+BibTeXKey_AllReferencesNew	Generate new BibTeX keys for all references (replace existing keys)	为所有参考文献生成新的 BibTeX 键（替换现有键）
+TaskItemSort_Author	Task creator	任务创建者
+Export_AddFilter	Add export format	添加导出格式
+TaskItem_AddProjectTask	Project task	项目任务
+TaskPlanner_AllTasks	All tasks	所有任务
+CriteriaCurrentReferenceCriteria	Current filter	当前筛选
+Export_Options	Options	选项
+CaseSensitive	Case sensitive	区分大小写
+SortReferences_YearAsc	By year: oldest on top	按年份：最早的在上
+IsbnCatalogsSelected	Currently selected	当前已选
+StyleNotFound	Style not found?	未找到样式？
+Export_AllAttachments	All project attachments (PDFs, images, etc.)	项目中的所有附件（PDF、图片等）
+ChatTyping	{0} is typing...	{0} 正在输入……
+Tabs_LocationsTab	Locations	位置
+Export_NoGrouping	Without grouping	不分组
+EditPdfSwitchToTextsPage	Switch to the Text Collator and display linked passages?	切换到文本对照器并显示已链接的段落？
+SaveError	An error occurred while saving	保存时发生错误
+TaskItem_SearchPlaceholder	Search tasks	搜索任务
+OnlineSearchCatalogsPanel_SelectSources	Select online resources	选择在线资源
+IntoRecycleBin	Move to recycle bin	移到回收站
+AllReferences	All references	所有参考文献
+SaveSuccess	All changes were saved successfully	所有更改已成功保存
+ConvertQuotationIn	Add as	添加为
+CriteriaRating_WithWrittenEvaluation	With evaluation	带评估
+OnlineSearchPanel_TakeAll	Add all	全部添加
+Export_PDFSelection	All PDFs in the current selection	当前选择中的所有 PDF
+MergePersons_Placeholder	Search for another person or organization	搜索其他个人或机构
+TabContent_TableOfContents	Table of contents	目录
+Notes_Placeholder	Personal notes for this reference	此参考文献的个人注释
+EmailCopied	Copied to the Clipboard	已复制到剪贴板
+DeleteRecycleBinItems	Do you want to permanently delete the selected items?	您要永久删除所选项吗？
+DefaultCitationStyleName	Citavi Default Style	Citavi 默认样式
+Tabs_ReferenceTab	Reference	参考文献
+Occurrences	Results:	结果：
+MissingInput	Missing input.	缺少输入。
+PdfPreviewContext	Preview	预览
+Load_NoLocations	No locations	无位置
+PanelThought_PreviewLabel	Image preview or file name	图片预览或文件名
+PrivateCollectionName_Placeholder	Name of the private collection	私人合集的名称
+Countdown	Remaining time: {0} seconds	剩余时间：{0} 秒
+Location	Location	位置
+DeleteSeriesTitlesInUse_Smart	{0:The series title "{1}" cannot be deleted because it is in use by one or more references.|The {0} selected series titles cannot be deleted because at least one of them is in use by one or more references.} Select only unused series titles to delete.	
+ResumeWork	<a>Continue where you left off.</a>	<a>从上次中断处继续。</a>
+CategoryList	Edit categories	编辑分类
+NavigationBar_Texts	Texts	文本
+NavigationBar_Tasks	Tasks	任务
+Export_PDFFilesDescription	<div class="violet">Annotations</div>PDFs can be saved with or without\r\nannotations made\r\nin Citavi. Quotations, comments, etc.\r\nthat are linked to an annotation\r\nwill not be saved in the PDF.<br/><br/><div class="violet">Save bibliographic information as metadata</div>Save <span class="violet">bibliographic information as metadata</span> in the PDF file. The advantage is that when you import\r\n into another Citavi project, they will be automatically\r\nlinked.	<div class="violet">批注</div>PDF 可以带有或不带有\r\n在 Citavi 中所做批注\r\n进行保存。引用、评论等\r\n与某个批注关联的内容\r\n将不会保存在 PDF 中。<br/><br/><div class="violet">将文献信息保存为元数据</div>将<span class="violet">文献信息保存为元数据</span>保存在 PDF 文件中。优点在于当您导入\r\n到另一个 Citavi 项目时，它们将自动\r\n建立关联。
+WithPDFsOnly	With PDFs only	仅包含 PDF
+Warning	Warning	警告
+CriteriaResources_WithoutResources_Tooltip	References with no attachments or online addresses	没有附件或在线地址的参考文献
+TextFile	Text file	文本文件
+OnlineSearchPanelTitle	Search online for references	在线搜索参考文献
+UnorderedList	Bulleted list	项目符号列表
+CitationStylesPanel_SelectFromSources	Available online: {0}	可在线获取：{0}
+AttachmentsDownload	Download	下载
+GoToPreviousAnnotation	Go to previous annotation	转到上一个批注
+ImportPDFTitle	Import PDF files	导入 PDF 文件
+NamePlaceholder	Name	名称
+CriteriaResources_WithOtherAttachments	Other (JPG, PNG, DOCX, PPTX, etc.)	其他（JPG、PNG、DOCX、PPTX 等）
+TaskItem_MoreMenuDueDate	Due date	截止日期
+File	File	文件
+Beta	Beta version	Beta 版本
+Open	Open	打开
+Undo	Undo	撤销
+Redo	Redo	重做
+PDFs	PDFs	PDF
+Save	Save	保存
+OnlineSearchPanel_SelectSources	Select one or more resources	选择一个或多个资源
+OtherContributionsParentReference	Other contributions in parent reference:	上级参考文献中的其他投稿：
+TaskPlanner_All	All	全部
+KnowledgeItem_CategoriesClickOnLabel	Click the label to manage categories	单击标签以管理分类
+Success	Success!	成功！

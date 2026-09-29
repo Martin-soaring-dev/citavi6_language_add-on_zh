@@ -1,0 +1,19 @@
+# ---- 构建与中间产物 ----
+/dist/*
+!/dist/README.md
+/build/*
+
+# ---- 从 Citavi 提取的原始资源(含版权,不入库)----
+/reference/*
+!/reference/README.md
+
+# ---- 本地工具/临时 ----
+/tmp/
+*.user
+*.suo
+.vs/
+
+# ---- 编辑器 / OS ----
+Thumbs.db
+desktop.ini
+.DS_Store

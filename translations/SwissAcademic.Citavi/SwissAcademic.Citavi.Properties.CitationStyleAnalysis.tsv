@@ -1,0 +1,86 @@
+BibliographyJournalArticleIssueNumberUsesPrefix	LV Präfix vor Heftnummer	文献目录期号前缀
+BibliographyUsesDoi	LV verwendet DOI	文献目录使用 DOI
+GeneralInternalName	Interner Name	内部名称
+BibliographyJournalArticleVolumeUsesPrefix	LV Zeitschriftenaufsatz Präfix vor Jahrgang	文献目录期刊论文卷次前缀
+BibliographyBookUsesSeriesTitle	LV Reihentitel genannt?	文献目录是否显示丛编标题？
+BibliographyBookEditedEditorsEnumeration	LV Anzahl angezeigte Herausgeber	文献目录显示的编者数量
+GeneralCreatedOn	Erstellt am	创建于
+ShortCitationYearPunctuationBefore	In Text: Interpunktion vor Jahr	正文中：年份前的标点
+BibliographyBookAuthorsEnumeration	LV Anzahl angezeigte Autoren	文献目录显示的作者数量
+BibliographyJournalArticlePageRangeUsesPrefix	LV Zeitschriftenaufsatz Präfix Seiten	文献目录期刊论文页码前缀
+BibliographyUsesIssueNumber	LV verwendet Heftnummer	文献目录使用期号
+ShortCitationQuotationPageRangeHasFormattingError	In Text: Zitatseiten mit Formatierfehler?	正文中：引用页码存在格式错误？
+GeneralConcentrationAreas	Fachgebiete	学科领域
+BibliographyBookTitleFontStyle	LV Zeichenformat Titel	文献目录标题的字体格式
+GeneralCitationSystem	Zitiermethode	引用方式
+BibliographyBookEditionUsesSuperscript	LV Auflage hochgestellt?	文献目录版次是否上标？
+GeneralFileName	Dateiname	文件名
+GeneralModifiedBy	Geändert von	修改者
+GeneralModifiedOn	Geändert am	修改于
+ShortCitationIsInSquareBrackets	In Text: Kurznachweis in eckigen Klammern?	正文中：简短引用使用方括号？
+GeneralUsesBibliography	Nutzt Literaturverzeichnis	使用文献目录
+GeneralPersonFieldElementHasOrganizationNameFormattingDiscrepancy	Problem bei Formatierung Organisation	机构格式化问题
+ShortCitationIndexInBibliographyBracketType	Klammern um Index im Lit.Verz.	文献目录中索引的括号
+GeneralBibliographySorting	LV Sortierung	文献目录排序
+BibliographyBookAuthorsLastAuthorSeparator	LV Trennzeichen vor letztem Autor	文献目录中最后一位作者前的分隔符
+GeneralUsesIndexInBibliography	Nutzt "Index im Literaturverzeichnis"	使用“文献目录中的索引”
+BibliographyBookAuthorsSeparator	LV Trennzeichen Autoren	文献目录作者之间的分隔符
+BibliographyJournalArticlePeriodicalNameUsesAbbreviation	LV Zeitschriftenname abgekürzt	文献目录期刊名称缩写
+GeneralUsesFullReferenceInFootnote	Vollbeleg in der Fußnote	脚注中的完整引用
+BibliographyJournalArticleUsesIssueNumber	LV Zeitschriftenaufsatz mit Jahrgang	文献目录期刊论文含卷次
+BibliographyBookAuthorsNameOrder	LV Reihenfolge Autorennamen	文献目录作者姓名的顺序
+BibliographyBookEditedEditorsFirstNameFormat	LV Format Vornamen Hrsg.	文献目录编者名字格式
+GeneralHasPageRangeFieldElementWithNumberingStyleAbbreviateLastPage	Nutzt Seite von...bis mit abgekürzter Endseite	使用“起始页-止页”并缩写终止页
+GeneralJournalArticleUsesYearAndOriginalPublication	Zeitschrift verwendet Jahr und Erstveröffentlichung	期刊使用年份和首次发表信息
+GeneralMasterReplicaGroup	Master Replica Gruppe	主副本组
+GeneralCompilationErrors	Script mit Kompilierfehler vorhanden?	是否存在有编译错误的脚本？
+GeneralBasedOnStyleName	Basiert auf	基于
+BibliographyInternetDocumentOnlineAddressUsesPrefix	LV Präfix vor URL	文献目录 URL 前缀
+BibliographyBookEditedEditorsNameOrder	LV Reihenfolge Hrsg.-Namen	文献目录编者姓名顺序
+BibliographyBookYearSucceedsAuthor	LV Jahr kommt direkt nach Autor am Anfang	文献目录年份位于开头并紧跟作者
+ShortCitationUsesQuotationPageRange	In Text: Nutzt Zitatseiten?	正文中：使用引用页码？
+BibliographyInternetDocumentUsesAccessDate	LV URL mit Zugriffsdatum	文献目录 URL 含访问日期
+BibliographyJournalArticleTitleFontStyle	LV Zeichenformatierung Titel des Aufsatzes	文献目录论文标题的字体格式
+BibliographyBookAuthorsFirstNameFormat	LV Format Vornamen	文献目录名字格式
+GeneralUsesRepeatedInTextCitationConditionalTemplates	Nutzt Wiederholungsbedd. im Text	在正文中使用重复条件
+GeneralUsesRepeatedFootnoteCitationConditionalTemplates	Nutzt Wiederholungsbedd. in FN	在脚注中使用重复条件
+ShortCitationQuotationPageRangeUsesPrefix	In Text: Präfix vor Zitatseiten	正文中：引用页码前缀
+BibliographyJournalArticleTitleUsesQuotationMarks	LV Titel des Aufsatzes in Anführungszeichen	文献目录论文标题加引号
+ShortCitationQuotationPageRangePunctuationBefore	In Text: Interpunktion vor Zitatseiten	正文中：引用页码前的标点
+BibliographyUsesPublisher	LV verwendet Verlag	文献目录使用出版社
+ShortCitationIndexInBibliographyUsesSuperscript	In Text: Index im Lit.-Verz. hochgestellt?	正文中：文献目录中的索引是否上标？
+BibliographyUsesPMCID	LV verwendet PMCID	文献目录使用 PMCID
+GeneralLanguage	Sprache	语言
+GeneralContentVersion	Inhaltliche Version (zählt hoch)	内容版本（递增计数）
+GeneralMasterId	Master ID	主样式 ID
+BibliographyContributionInBookEditedTitleOfContributionUsesQuotationMarks	LV Beitrag in Anführungszeichen?	文献目录中的篇目是否加引号？
+GeneralUsesFullReferenceInBibliography	Vollbeleg im Literaturverzeichnis	文献目录中的完整引用
+ShortCitationIndexInBibliographyFontStyle	Formatierung Index im Lit.-Verz	文献目录中的索引格式
+GeneralIsDuplicate	Doppelte ID gefunden?	是否发现重复 ID？
+GeneralAbbreviations	Abkürzungen	缩写
+GeneralUsesLiteralElementIbid	Nutzt "ebenda"	使用“同上”
+BibliographyBookEditedEditorsLastNameFontStyle	LV Zeichenformat Nachnamen Hrsg.	文献目录编者姓氏的字体格式
+GeneralKeywords	Schlagwörter	关键词
+BibliographyBookPunctuationBeforeYear	LV Zeichen vor Jahr	文献目录年份前的字符
+BibliographyBookUsesEdition	LV Auflage genannt?	文献目录是否显示版次？
+BibliographyJournalArticleUsesPeriodicalName	LV Zeitschriftenaufsatz mit Zeitschriftenname	文献目录期刊论文含期刊名称
+GeneralIsMaster	Ist Master Stil?	是否为主样式？
+GeneralUsesCitationKey	Nutzt "Kurzbeleg"	使用“简短引用”
+GeneralId	ID	ID
+BibliographyJournalArticlePeriodicalNameFontStyle	LV Zeichenformatierung Zeitschriftenname	文献目录期刊名称的字体格式
+GeneralComponentPartScripts	Komponentenscripte	组件脚本
+BibliographyBookTitleUsesQuotationMarks	LV Titel in Anführungszeichen?	文献目录标题是否加引号？
+BibliographyBookPunctuationBeforeTitle	LV Zeichen vor Titel	文献目录标题前的字符
+BibliographyBookUsesPublisher	LV Verlagsort genannt?	文献目录是否显示出版地？
+GeneralStoredSchemaVersion	Gespeicherte Schema Version	已保存的架构版本
+GeneralUsesOriginalPublication	Nutzt Erstveröffentlichung	使用首次发表信息
+BibliographyBookAuthorsLastNameFontStyle	LV Zeichenformat Nachnamen	文献目录姓氏的字体格式
+BibliographyUsesPubMedId	LV verwendet Pubmed ID	文献目录使用 PubMed ID
+GeneralUsesFirstFootnoteCitationNumber	Nutzt "Erste Fußnotennummer"	使用“首个脚注编号”
+ShortCitationAuthorsEditorsOrOrganizationsEnumeration	In Text: Zahl der Autoren	正文中：作者数量
+BibliographyJournalArticlePunctuationBeforeYear	LV Zeitschriftenaufsatz Interpunktion vor Jahr	文献目录期刊论文年份前的标点
+ShortCitationAuthorsEditorsOrOrganizationsFontStyle	In Text: Formatierung der Namen	正文中：姓名的格式
+GeneralJournalArticleHasFormattingBasedOnPagination	Zeitschrift unterscheidet Formatierung nach Paginierung	期刊根据页码编排区分格式
+BibliographyBookPlaceOfPublicationEnumeration	LV Anzahl angezeigte Verlagsorte	文献目录显示的出版地数量
+ShortCitationIndexInBibliographyBracketPosition	Ort der Klammern um Index im Lit.Verz.	文献目录中索引括号的位置
+GeneralUsesQuotationPrefixVgl	Nutzt "vgl."	使用“参见”

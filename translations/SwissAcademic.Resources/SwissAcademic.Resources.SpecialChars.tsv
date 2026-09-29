@@ -1,0 +1,36 @@
+GuillemetsSingleGerman	Single guillemets inward	单角引号（向内）
+GuillemetsSingle	Single guillemets outward	单角引号（向外）
+Parentheses	Parentheses	圆括号
+NothingReplacement	[nothing]	[无]
+ParenthesesWithEllipsis	Ellipsis in parentheses	括号中的省略号
+OneThird	One third	三分之一
+ConvertTextToUnicodeCharacter	Convert text to Unicode	将文本转换为 Unicode
+Brackets	Brackets	方括号
+GuillemetsGerman	Guillemets inward	角引号（向内）
+NonBreakingHyphen	Non-breaking hyphen	不换行连字符
+CommaReplacement	[comma]	[逗号]
+LowerUpperDoubleQuotationMarks	Lower/upper quotation marks	下/上引号
+SoftHyphen	Soft hyphen	软连字符
+UpperQuotesSingle	Single quotation marks	单引号
+EmptyStringReplacement	[none]	[无]
+ZeroWidthBreakOpportunity	Zero-width space	零宽空格
+ContextMenu	Special characters	特殊字符
+OneQuarter	One quarter	四分之一
+NonBreakingSpaceReplacement	[non-breaking space]	[不换行空格]
+TabReplacement	[tab]	[制表符]
+CharMap	Windows Character Map	Windows 字符映射表
+Guillemets	Guillemets outward	角引号（向外）
+BracketsWithEllipsis	Ellipsis in brackets	方括号中的省略号
+SoftReturnReplacement	[soft return]	[软换行]
+NonBreakingHyphenReplacement	[non-breaking hyphen]	[不换行连字符]
+DotReplacement	[period]	[句号]
+ColonReplacement	[colon]	[冒号]
+LowerUpperSingleQuotationMarks	Single lower/upper quotation marks	单下/上引号
+SpaceReplacement	[space]	[空格]
+UpperQuotes	Quotation marks	引号
+SemicolonReplacement	[semicolon]	[分号]
+NonBreakingSpace	Non-breaking space	不换行空格
+Ellipsis	Ellipsis	省略号
+ReturnReplacement	[return]	[换行]
+Dash	En dash	短破折号
+Half	One half	二分之一

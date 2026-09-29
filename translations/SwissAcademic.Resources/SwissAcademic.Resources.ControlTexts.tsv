@@ -1,0 +1,1941 @@
+SearchForm_extendedSearchStartButton	Search	搜索
+noButton	No	否
+OptionsImportExportDialog_exportRetrievalDefinitionIsbnCheckBox	Catalogs for ISBN download	用于下载 ISBN 的目录
+BibTeXExportForm_fileDialogButton	Browse…	浏览…
+ReplacementListDialog_Column_ReplaceBy1	Replace with	替换为
+PageRangeNumberingTypeFormCaption_Paragraph	§ nos.	§ 编号
+BibTeXExportForm_personSplitterLabel	Person separator	人员分隔符
+ImportTabularWizard_editCustomDefinitionCheckBox	Edit import definition	编辑导入定义
+OptionsImportExportDialog_exportUserNameCheckBox	User name	用户名
+ImportForm_cancelledButton	Cancel all	全部取消
+MassReferenceIdentifierDownloadDialog_opacLabel	Search for references in:	在以下位置搜索文献：
+LookupReferenceIdentifierDialog_titleLabel	Retrieve references by identifier	通过标识符检索文献
+EditCitationStyleSASInternalDialog_option2DescriptionLabel_Derived	Der abgeleitete Stil wird kopiert und zum Bearbeiten geöffnet. Die Kopie ist nicht mehr mit dem Master-Stil verbunden und kann z.B. als unabhängiger System-Stil in die Cloud geladen werden.	派生的样式将被复制并打开以供编辑。该副本不再与主样式关联，例如可以作为独立的系统样式上传到云端。
+ApplyKeywordsForm_referenceLabel	From reference: {0}	来自文献：{0}
+BibliographyGrouping_GroupAll	All groups	所有组
+CitationStyleFavoriteDialog_advancedSearchFullReferenceAuthorsFirstNameFormatLabel	How do first names appear?	名字如何显示？
+OpenUrlFavoriteDialog_criteriaLabel	Name:	名称：
+OrganizationSettingsImportDialog_importAllRadioButton	Import all settings	导入所有设置
+PrepareProjectForCloudUploadDialog_nameLabel	Project name:	项目名称：
+OptionsDialog_publicationAssistantGroupBox	LaTeX Assistant	LaTeX 助手
+SeriesTitleSmartRepeaterRow_userAbbreviation2Label	Abbreviation 3:	缩写 3：
+EditCitationStyleSASInternalDialog_nameOfCopyLabel	Name der Kopie:	副本名称：
+LastNameFirstNamePlaceholder	Last name, first name;	姓，名；
+DbServerManager_Licenses	Licenses	许可证
+ProjectPropertiesDialog_refreshPathsButton	Refresh	刷新
+ImportWizardDialog_tabularDefinitionEncodingLabel	Character encoding:	字符编码：
+DbServerProjectOnServer	DBServer project on {0}	{0} 上的 DBServer 项目
+OpenUrlFavoriteDialog_applyButton	Apply	应用
+FontStyleEditorControl_doubleUnderlineCheckBox	Double underline	双下划线
+SearchForm_extendedSearchMatchWholeWordCheckBox	Whole words only	仅全字匹配
+NavigationControl_knowledgeButton	Knowledge	知识
+CitationKeyDialog_updateAllButton	Update all citation keys…	更新所有引文键…
+AdditionalFieldsForm_autoShowFieldsWithValuesCheckBox	Show all non-empty fields on the Reference tab automatically	自动在“文献”选项卡上显示所有非空字段
+BibliographyGroupingForm_SingleAuthorOrEditorOrOganization	References by this person or organization:	此人或组织撰写的文献：
+SortKnowledgeItemsDialog_sortTypeLabel	Sort order:	排序顺序：
+KeyItemConfigurationDialog_personName2Label	Additional persons:	其他人员：
+PageSetupDialog_bottomMarginLabel	Bottom:	底部：
+MainFormLayoutInputBox_NameLabel	Name:	名称：
+TaskDueDateDropDownForm_currentRadioButton	Current	当前
+CreateProjectDialogEx_cloudProjectTitleLabel	Cloud project	云项目
+BibliographyGrouping_SeriesTitleAll_None	(Without series title)	（无丛书名）
+ReferenceTypeSelectionDialog_rightClickColorExplanationLabel	Highlight your favorite reference types by right-clicking on them	通过右键单击来突出显示您最喜欢的文献类型
+OptionsDialog_telemetryScopeCeipLabel	<span style="font-weight:bold;">Important:</span> We cannot guarantee that only anonymous information is sent.&edsp;&edsp;Read <a href="http://www.citavi.com/manual-ceip">this information</a> before enabling this option.<br/>	<span style="font-weight:bold;">重要：</span>我们无法保证仅发送匿名信息。&edsp;&edsp;在启用此选项前，请阅读<a href="http://www.citavi.com/manual-ceip">此信息</a>。<br/>
+NavigationPaneCollapsedGroupArea_ToolTipText_KnowledgeOrganizer_Categories	Click to expand the Categories pane.	单击以展开“类别”窗格。
+EditCitationStyleSASInternalDialog_option1DescriptionLabel_Derived	Statt des abgeleiteten Stils wird der Master-Stil '{0}' zum Bearbeiten geöffnet.	将改为打开主样式“{0}”以供编辑，而不是派生的样式。
+BibliographyGroupingEditor_CustomField3All_None	References without Custom field 3	不含自定义字段 3 的文献
+RelationTypeEditor_negativeLabel	Negative	负数
+CopyOrMoveToProjectWizard_copyOrMoveLabel	Do you want to copy or move the references?	您想复制还是移动这些文献？
+CreateCompilationByKeywordDialog_currentKeywordRadioButton	Knowledge items with the current keyword	包含当前关键词的知识条目
+BibliographyGrouping_CreatedByAll_None	(Without Created by)	（无创建者）
+SaveTaskPlannerFilterInputBoxTitle	Save selection	保存选择
+OptionsDialog_rssFeedAddLabel	Feed URL:	Feed URL：
+CreateTaskListDialog_allRadioButton	All project and reference tasks in the Task Planner	任务规划器中的所有项目和文献任务
+OrderedListDialog_trailingTextFontStyleLabel	Style for suffix:	后缀样式：
+ProjectPropertiesDialog_createdByModifiedByExstingContactLabel	Previous entry:	上一条目：
+KeyItemConfigurationDialog_textAbbreviateRadioButton	First character of each word	每个单词的首字符
+RtfForm_TableInsertMenu	Insert	插入
+PreviewControl_findFullTextLabel	Find full text	查找全文
+CreateProjectDialogEx_sqliteProjectFolderLabel	Folder:	文件夹：
+CreateBibliographyDialog_groupsAllFieldsRadioButton	Show all fields	显示所有字段
+BibliographyGrouping_CustomField7Single	References with <i>{0}</i> in Custom field 7	自定义字段 7 中包含 <i>{0}</i> 的文献
+LicenseDialog_buyFullLicenseLabel	Purchase license key	购买许可证密钥
+PreviewControl_locationHasInvalidAddressEditLocationLabel	Edit location	编辑位置
+MainForm_ReferencesTabControl_Overview	Overview	概览
+SearchReplaceForm_Full	Full	完整
+KeyItemConfigurationDialog_textRemoveCharCountRadioButton	First n characters:	前 n 个字符：
+ImportFieldMappingEditor_personNameSplitterLabel	Separator:	分隔符：
+NewImportDialog_addImportSessionButton_File	Add to existing import	添加到现有导入
+CitationStyleFavoriteDialog_advancedSearchFullReferenceAuthorsNameSeparatorLabel	What punctuation is used to separate author names?	使用什么标点符号分隔作者姓名？
+CreateCitationKeyDialog_completeInstructionLabel	Generate citation keys only for references that do not have a citation key	仅为没有引文键的文献生成引文键
+OrderedListDialog_trailingTextLabel	Suffix:	后缀：
+EquivalentCharactersListDialog_deleteButton	Delete	删除
+BookstoreFavoritesDialog_moveUpButton	Up	上移
+LookupFullTextDialogEx_ezProxyLabel_Login	Log in to {0}	登录到 {0}
+BibliographyGrouping_CreatedBySingle	References created by <i>{0}</i>	由 <i>{0}</i> 创建的文献
+MainForm_showMoreFieldsLabel	More fields…	更多字段…
+OrganizationSettingsAdminDialog_manualLinkLabel	More information on these settings can be found in the Citavi Manual	有关这些设置的更多信息，请参阅 Citavi 手册
+OnlineSearchDialogEx_AdvancedSearch	Advanced online search	高级在线搜索
+BibliographyGrouping_CaptionSingle	Heading for multiple sections	多节的标题
+BibTeXKeyDialog_customizeLabel	Customize BibTeX key template	自定义 BibTeX 键模板
+BibTeXExportForm_textFormatLabel	Character encoding:	字符编码：
+SortReferencesCustomDialog_sort1AscendingRadioButton	ascending	升序
+BatchAssignOrRemoveCategoriesDialog_Remove_titleLabel	Batch remove categories	批量删除类别
+ChooseReferenceDialog_instructionLabel_AssignLocationToReference	Assign the new location to a reference.	将新位置分配给文献。
+KeywordsEditorDefaultText	Type to enter keywords	输入以添加关键词
+ImportFieldMappingEditor_substitutionsAllLabel	Everywhere:	全部位置：
+OrganizationSettingsAdminDialog_title2Label	Settings files for this organization:	此组织的设置文件：
+CharacterFormatControl_boldCheckEditor	Bold	粗体
+ReferenceDuplicateSettingsDialog_useLastNameRadioButton	Compare last names only	仅比较姓氏
+BibliographyGrouping_SavedSearchSingle	References in the saved search <i>{0}</i>	已保存搜索 <i>{0}</i> 中的文献
+ReferenceIdentifierDownloadOptionsDialog_completeReferenceRadioButton	Append bibliographic information if different	若不同则附加书目信息
+TabStopDialog_newButton	New	新建
+NavigationPaneCollapsedGroupArea_ToolTipText_TaskPlanner	Click to expand the Task Planner pane.	单击以展开“任务规划器”窗格。
+AcceptImportDialog_keywordsCheckBox	Keywords	关键词
+CreateBibliographyOptionsDialog_printFieldNamesCheckBox	Include field names (for example "Reference type: Book")	包含字段名称（例如“文献类型：图书”）
+ChooseReferenceDialog_instructionLabel_AssignFileQuotationToReference	Assign the new image or file quotation to a reference.	将新图片或文件引文分配给文献。
+NumberOfTasksLabelNone	No tasks	无任务
+BackgroundTaskErrorDialog_closeCitaviLabel	Close Citavi and restart your computer.	关闭 Citavi 并重新启动计算机。
+KnowledgeItemFileForm_categoriesLabel	Categories:	类别：
+LicenseDialog_goToShopButtonDefaultText	Go to shop	前往商店
+PreviewControl_fileTypeNotSupportedOpenLabel	Open in {0}	在 {0} 中打开
+CitaviAccountLoginDialog_registerTitleLabel	Don't have an account?	还没有账户？
+LicenseDialog_goToShopLabel	<a href="http://www.citavi.com/shop">Purchase a license in the Citavi Shop.</a>	<a href="http://www.citavi.com/shop">在 Citavi 商店购买许可证。</a>
+TaskPlanner_Important	Important	重要
+MainForm_abstractLabel	Abstract	摘要
+TransformerFavoriteDialogEx_cultureLabel	Country/region:	国家/地区：
+ProjectPropertiesDialog_Statistics_DoneTasks	Completed tasks	已完成的任务
+ProjectPropertiesDialog_browseForAttachmentsFolder_DialogTitle	Folder for Project Attachments	项目附件文件夹
+ImportWizardDialog_applicationDefinitionFileSelectionButton	Browse…	浏览…
+ExportWizardDialog_bibTeXExportTransformerPersonNameSplitterLabel	Person separator:	人员分隔符：
+ImportTabularWizard_titleLabel	This title will change depending on the page of the wizard	此标题将根据向导的页面而变化
+CitationStyleEditorInitialDialog_editButton	Edit	编辑
+CopyProjectDialog_keepCloudProjectTitleLabel	Keep the cloud project	保留云项目
+ParagraphFormatControl_hasPageBreakBeforeCheckBox	Page break before	段前分页
+OnlineSearchCredentialDialog_credentialsRadioButton	Authenticate by username and password	使用用户名和密码进行身份验证
+KeyItemConfigurationDialog_textNoneRadioButton	Complete content	完整内容
+ImportDefinitionFavoriteDialog_concentrationAreaLabel	Subject area:	主题领域：
+BibliographyGrouping_PeriodicalSingle	References from the periodical <i>{0}</i>	来自期刊 <i>{0}</i> 的文献
+LicenseDialog_buyFullLicenseInfoLabel	In the <a href="http://www.citavi.com/shop">Citavi Online Shop</a> you can purchase a license key for a full license.	在 <a href="http://www.citavi.com/shop">Citavi 在线商店</a>中，您可以购买完整许可证的许可证密钥。
+KeyConfigurationDialog_previewLabel	Preview:	预览：
+TaskPlanner_WithNotes	With notes	含注释
+referencesListHelpNotesTabControl_ReferenceList	Reference list	文献列表
+PageSetupControl_footerMarginLabel	Footer:	页脚：
+PdfExportDialog_titleLabel	Export PDF annotations	导出 PDF 注释
+CloudChangeProjectRoleDialog_projectRoleManagerDescriptionLabel	Project leaders can make changes to project information and the project team	项目负责人可以更改项目信息和项目团队
+CreateProjectDialogEx_cloudProjectShareProjectCheckBox	Share after project creation.	项目创建后共享。
+BibTeXKeyDialog_customizeDescriptionLabel	Configure the template that defines how BibTeX keys are generated automatically.	配置用于定义如何自动生成 BibTeX 键的模板。
+BackupWorkerMainForm_SaveLogButton	Save log…	保存日志…
+ExportWizardDialog_encodingLabel	Text encoding:	文本编码：
+TransformerFavoriteDialogEx_addTransformerButton	Add	添加
+TeXPublicationForm_citationsLabel	BibTeX keys in document:	文档中的 BibTeX 键：
+OnlineSearchCredentialDialog_passwordLabel	Password:	密码：
+LicenseDialog_enterLicenseKeyInfoLabel	1.&edsp;&edsp;Log in to your account: <a href="http://www.citavi.com/my-account">www.citavi.com/my-account</a><br/><br/>2.&edsp;&edsp;Copy the license key to the Clipboard.<br/><br/>3.&edsp;&edsp;Click <span style="font-weight:bold;">OK</span>.	1.&edsp;&edsp;登录到您的账户：<a href="http://www.citavi.com/my-account">www.citavi.com/my-account</a><br/><br/>2.&edsp;&edsp;将许可证密钥复制到剪贴板。<br/><br/>3.&edsp;&edsp;单击<span style="font-weight:bold;">确定</span>。
+OnlineSearchDialogEx_searchFieldLabel	In field	在字段中
+KeyItemConfigurationDialog_threePersonsName2Label	Additional persons:	其他人员：
+CopyOrMoveToProjectWizard_newProjectButton	New project…	新建项目…
+OpenProjectDialog_cloudTab	Cloud	云
+RecycleBinCapacityExceededMessageBox_textLabel	Do you want to delete these items anyway?\r\nThis action cannot be undone.	您仍要删除这些项目吗？\r\n此操作无法撤销。
+ExportWizardDialog_bibTeXExportTransformerMergeTitleFieldsCheckBox	Merge title fields	合并标题字段
+LicenseDialog_licenseUpgradeLinkLabel	Save 50% when you buy a personal license key with no expiration date. This offer is only valid for site license users. Click to learn more.	购买无到期日期的个人许可证密钥可节省 50%。此优惠仅对站点许可证用户有效。单击了解更多信息。
+ProjectPropertiesDialog_lastChangeTimeLabel	Last modified:	上次修改：
+FindLicensedDatabasesDialog_addTransformerButton	Add	添加
+TaskItemForm_dueDateLabel	Due date:	截止日期：
+KnowledgeItemSmartRepeaterRow_ChainButton_ToolTipText	Show in PDF	在 PDF 中显示
+OrganizationSettingsAdminDialog_metadataDescriptionLabel	Description:	描述：
+TransformerFavoriteDialogEx_criteriaLabel	Name:	名称：
+BatchAssignOrRemoveCategoriesDialog_referencesOrKnowledgeItemsLabel	{0} references and knowledge items selected	已选择 {0} 条文献和知识条目
+MainForm_HeadingLabel_TaskPlannerSpecialTaskItems	Advanced select	高级选择
+CitationStyleFavoriteDialog_titleLabel	Add citation style	添加引文样式
+TaskPlanner_Sort_Importance	Importance	重要性
+WelcomeWizardDialog_sqliteProjectsTitleLabel	Save locally as a Citavi 6 project	在本地保存为 Citavi 6 项目
+BookstoreFavoriteDialog_applyButton	Apply	应用
+CreateBibliographyDialog_copyToClipboardInstructionLabel	Copy the bibliography as formatted text to paste into another program.	将参考文献目录复制为带格式的文本，以便粘贴到其他程序中。
+LicenseDialog_deleteLicenseLabel	Are you sure you want to remove your license key? If you do, you will not be able to work with Citavi anymore. Your projects will be retained.	您确定要移除许可证密钥吗？如果移除，您将无法再使用 Citavi。您的项目将被保留。
+ProjectPropertiesDialog_Statistics_LibraryLocations	Library locations	馆藏位置
+TabStopControl_clearButton	Delete	删除
+ParagraphFormatControl_firstLineIndentationLabel	First line:	首行：
+HelpInformationForm_cultureLabel	Name of culture:	区域名称：
+RemoveButtonEllipsis	Remove	移除
+BibTeXExportForm_mergeTitleFieldsTitleSupplementLabel	Separator:	分隔符：
+ProjectDetailsControl_sqlserverConnectionStringValueLabel	Server: {0}\r\nDatabase: {1}\r\nSecurity: {2}	服务器：{0}\r\n数据库：{1}\r\n安全性：{2}
+CopyProjectDialog_cloudProjectShareProjectLabel	You can also choose to share the project later on.	您也可以选择稍后共享项目。
+SplitKeywordsDialog_commaCheckBox	Comma	逗号
+QuitCitaviDialog_QuitWithoutUpdateInstall	Exit without installing the update and remind me later	退出而不安装更新，并稍后提醒我
+MainForm_taskPlannerModifiedByOnGroupLabel	Modified …	已修改…
+EntityLinkForm_sourceDataLabel	Pages:	页数：
+RenameSavedTaskPlannerFilter	Rename saved selection	重命名已保存的选择
+ProjectDetailsControl_deleteProjectLabel	Delete project…	删除项目…
+OptionsDialog_downloadKeywordsCheckBox	Include keywords	包含关键词
+OptionsDialog_resampleImagesInRtfCheckBox	Reduce resolution	降低分辨率
+OrganizationSettingsAdminDialog_title1Label	Which organization do you want to manage settings for?	您想为哪个组织管理设置？
+OptionsDialog_detectConnectedStateCheckBox	Ignore Windows network connection status	忽略 Windows 网络连接状态
+BackgroundTaskErrorDialog_titleLabel	Errors	错误
+EquivalentCharactersPairDialog_findLabel	Searching for:	正在搜索：
+LoginDialog_infoLabel	"{0}" is password protected. Please use your login credentials to open it.	"{0}" 受密码保护。请使用您的登录凭据打开它。
+LicenseDialog_olderVersionInfoText	This license is for an older version of Citavi.	此许可证适用于较旧版本的 Citavi。
+CopyProjectDialog_deleteCloudProjectDescriptionLabel	If you will continue working with the local project only, we recommend deleting the cloud project.	如果您只打算继续使用本地项目，我们建议删除云端项目。
+BackgroundTaskErrorDialog_retryButtonText	Retry	重试
+KnowledgeItemNavigationSearchPlaceholder	Search knowledge items...	搜索知识项…
+EntityLinkForm_targetDataLabel	Pages/chapters:	页/章节：
+CreateCitationKeyDialog_overwriteOnlyAutoCheckBox	Do not replace custom citation keys	不替换自定义引文键
+ProxyConfigurationDialog_customProxyRadioButton	Use this proxy:	使用此代理：
+LicenseDialog_enterLicenseKeyLabel	<a href="EnterLicenseKey">Enter a license key</a>	<a href="EnterLicenseKey">输入许可证密钥</a>
+CharacterFormatControl_fontSizeLabel	Font size:	字号：
+CopyOrMoveToProjectWizard_projectNameLabel	Project name:	项目名称：
+BibliographyGroupingForm_sortDirectionLabel	Sort:	排序：
+OptionsDialog_downloadLocationsCheckBox	Include locations	包含位置
+ParagraphFormatControl_hasWidowOrphanControlCheckBox	Widow/orphan control	孤行控制
+AboutDialog_versionLabel	Version:	版本：
+LicenseDialog_goToDbServerLabel	<a href="www.citavi.com/c6prg/c6dbserver">We recommend Citavi for DBServer for large organizations.</a>	<a href="www.citavi.com/c6prg/c6dbserver">对于大型组织，我们推荐使用 Citavi for DBServer。</a>
+TransformerFavoriteDialogEx_concentrationAreaLabel	Subject area:	主题领域：
+ChooseReferenceDialog_instructionLabel_AssignSummaryToReference	Assign the new summary to a reference.	将新摘要分配给一个文献条目。
+HelpInformationForm_citaviHelpLabel	Online Citavi Help	Citavi 在线帮助
+BibliographyGroupingForm_SingleCategory	References in this category	此分类中的文献条目
+OrganizationSettingsAdminDialog_exportTitleLabel	Select the settings you want to export:	选择要导出的设置：
+OpenDbServerProjectDialog_titleLabel	Open DBServer project	打开 DBServer 项目
+ModificationInfoForm_ModifiedBy	Modified by:	修改者：
+UltraGridColumnChooser_selectedColumnsLabel	Selected columns:	已选列：
+LicenseDialog_privateUserLabel	I am a personal license user	我是个人许可证用户
+LookupLocationsDialog_customizeOpacLabel	Customize this list…	自定义此列表…
+OptionsDialog_autoCheckForLiveUpdateCheckBox	Check for updates automatically	自动检查更新
+CharacterFormatControl_italicCheckEditor	Italic	斜体
+WelcomeWizardDialog_sqliteProjectsFolderLabel	Project folder:	项目文件夹：
+BackButton	Back	返回
+SearchForm_executeSavedSeachButton	Run search	运行搜索
+CreateProjectDialogEx_sqliteProjectDescriptionLabel	Local projects are saved on your hard drive or on a network drive. They are meant for individual users or small teams.	本地项目保存在您的硬盘或网络驱动器上。它们适用于个人用户或小型团队。
+SaveProjectAsNewDesktopLocalProject_Progress_UnprotectProject	Unprotecting project…	正在取消项目保护…
+Offline_Connecting	Connecting shortly...	即将连接…
+ReferenceIdentifierDownloadOptionsDialog_isbnDownloadLocationsCheckBox	Include locations	包含位置
+OpenUrlFavoriteDialog_availableLabel	Found:	找到：
+ImportWizardDialog_personNameParseSettingsSaveForSessionCheckBox	Remember for this session	在此会话中记住
+Tabs_TasksTab	Tasks	任务
+NavigationBar_References	References	文献条目
+FontStyleEditorControl_subscriptCheckBox	Subscript	下标
+OptionsDialog_pageNumberSeparatorLabel	Page range separator:	页码范围分隔符：
+TaskPlanner_ProjectTasks	Project tasks	项目任务
+MainForm_taskPlannerStandardSearchesTitleLabel	Common selections	常用选择
+PrepareProjectForCloudUploadDialog_ignoreMissingFilesAndContinueButton	Ignore missing files and continue	忽略缺失的文件并继续
+TaskItemForm_importanceLowLabel	Low	低
+KnowledgeItemFileForm_previewLabel	Preview:	预览：
+LicenseDialog_refreshButtonText	Refresh	刷新
+RemoveButton	Remove	移除
+EntityLinkForm_positiveLabel	positive	正
+OrganizationSettingsAdminDialog_metadataUpdatedOnLabel	Last update: {0}	上次更新：{0}
+CriteriaPeople	Persons	人员
+OptionsDialog_defaultFontForRtfGroupBox	Default text style for formattable text fields	可格式化文本字段的默认文本样式
+SearchReplaceForm_StatusBarAll	Search all {0} references in this project	搜索此项目中的所有 {0} 条文献条目
+BackupFolderPathDialog_backupFolderPathLabel	Click here to select the backup folder	单击此处选择备份文件夹
+ImportWizardDialog_referenceTypeLabel	Reference type:	文献类型：
+ExportWizardDialog_exportSettingsBibTeXTitleLabel	BibTeX export options	BibTeX 导出选项
+BibTeXExportForm_referenceTypeLabel	For reference type:	用于文献类型：
+OnlineSearchDialogEx_searchTextLabel	Search for	搜索
+BibliographyGroupingForm_AllAuthorsOrEditorsOrOrganizations	All authors, editors, or organizations with their references	所有作者、编者或组织及其文献条目
+FontColor	Font color	字体颜色
+ApplyGroupsForm_titleLabel	Assign groups	分配组
+SplashScreen_behindLinkLabel	Who is behind Citavi?	Citavi 背后是谁？
+BibliographyGrouping_CategoryAll	All categories	所有分类
+PreviewControl_mediaPlayerSkipEntryPageLabel	Always play this media immediately	始终立即播放此媒体
+TaskPlanner_WithDate	With due date	有截止日期
+BibliographyGroupingEditor_CustomField5All_None	References without Custom field 5	没有自定义字段 5 的文献条目
+WelcomeWizardDialog_skipAccountLoginTitleLabel	Log in to your Citavi account	登录您的 Citavi 账户
+TaskItemForm_BatchAssignLabelText	The new task will be assigned to {0} selected references.	新任务将分配给 {0} 条选定的文献条目。
+LookupReferenceIdentifierDialog_identifierRadioButton	Manual entry: 	手动输入：
+ParagraphFormatDialog_spacingAfterLabel	After:	之后：
+StartForm_rssOptionsLabel	RSS tools…	RSS 工具…
+MainForm_taskPlannerCreatedByOnGroupLabel	Created …	已创建…
+KnowledgeItemFileForm_coreStatementLabel	Caption:	标题：
+BibTeXExportForm_displayNameLabel	Name of export definition:	导出定义的名称：
+CitaviAccountLoginDialog_infoLabel	Please log in to your Citavi account to continue. <a href="">Learn more</a>.	请登录您的 Citavi 账户以继续。<a href="">了解详情</a>。
+BibliographyGrouping_KeywordSingle	References with the keyword <i>{0}</i>	具有关键词 <i>{0}</i> 的文献条目
+SearchForm_extendedSearchMatchEquivalentCharactersCheckBox	Equivalent characters (e.g. ä=ae)	等效字符（例如 ä=ae）
+CriteriaMarks_Blue	Blue labels	蓝色标签
+LiveUpdateDialog_noButton	Close	关闭
+ImportDefinitionFavoriteDialog_infoLabel	Use these fields to select appropriate libraries and databases for your searches:	使用这些字段为您的搜索选择合适的图书馆和数据库：
+DirectImportDialog_titleLabel	Which project do you want to import the references to?	您想将文献条目导入到哪个项目？
+SeriesTitleForm_standardAbbreviationLabel	Abbreviation 1:	缩写 1：
+PersonForm_abbreviationLabel	Abbreviation:	缩写：
+OptionsDialog_includeCoreStatementWhenInsertingKnowledgeItemCheckBox	Include core statements	包含核心陈述
+MainForm_taskPlannerAssignedOnLabel	… before/on:	…在之前/当天：
+CriteriaRating	Evaluation	评估
+DbServerCurrentUsersDialog_ProjectColumnHeaderText	Project	项目
+AcceptImportDialog_ImportSelectionAll_Smart	{0:The one reference found|All {0} found references}	
+SearchForm_clearAllFieldsLabel	Clear all fields	清除所有字段
+WelcomeWizardDialog_accountButton3InfoLabel	Without an account you cannot create cloud projects and your license key might not be applied.	没有账户，您将无法创建云端项目，并且您的许可证密钥可能无法应用。
+CreateCompilationDialog_SelectedRadioButton_SelectedPlural	The {0} selected knowledge items	{0} 条选定的知识项
+CitaviUpdateDialog_info2Label	You can continue working while the update is being downloaded. The update will be installed the next time you start Citavi. \r\nYour projects and license key will not be affected by the update.	在下载更新时，您可以继续工作。更新将在您下次启动 Citavi 时安装。\r\n您的项目和许可证密钥不会受到更新的影响。
+OpenUrlFavoriteDialog_titleLabel	Select your college or university	选择您的学院或大学
+MainForm_ReferencesTabControl_TasksAndLocations	Tasks && locations	任务 && 位置
+CreatedByModifiedByForm_openChatWindowLabel	Open chat window…	打开聊天窗口…
+ReferenceDuplicateSettingsDialog_useCharsAndDigitsOnlyCheckBox	Ignore spaces and punctuation	忽略空格和标点符号
+BookstoreFavoriteDialog_titleLabel	Online Booksellers	在线书店
+CategoryForm_parentCategoryLabel	ParentCategory:	父分类：
+ExceptionDialog_copyToClipboardButton	Copy error report	复制错误报告
+NewImportDialog_titleLabel_File	Import again	再次导入
+PersonForm_firstNameLabel	First name:	名字：
+OrganizationSettingsAdminDialog_metadataUrlLabel	URL:	URL：
+BibliographyGroupingForm_AllTasks	All tasks with their references	所有任务及其文献条目
+RecycleBinDialog_restoreButton	Restore	还原
+OptionsDialog_orderByOtherEMailAddressLabel	Other order by email:	其他通过电子邮件订购：
+OnlineSearchDialogEx_basicSearchTitleLabel	Search terms	搜索词
+SeeAlso	See also:	另请参阅：
+ProofingToolsDialog_checkSpellingAsYouTypeCheckBox	Check spelling as you type	键入时检查拼写
+CriteriaYear_From	From	发件人
+CopyProjectDialog_archiveLocalProjectDescriptionLabel	The local project and all of its attachments will be moved to the <a href="OpenArchiveFolder">Archive</a> folder. The project will no longer be displayed on the Citavi Welcome Screen.	本地项目及其所有附件将移动到 <a href="OpenArchiveFolder">存档</a> 文件夹。该项目将不再显示在 Citavi 欢迎屏幕上。
+CorrectPathsDialog_allReferencesRadioButton	In all references	在所有文献条目中
+OrganizationSettingsImportDialog_importSelectOptionsRadioButton	Select settings	选择设置
+CopyProjectDialog_cloudProjectTitleLabel	Create a project copy in the cloud	在云端创建项目副本
+WelcomeWizardDialog_accountInfoLabel	With a Citavi account you can use cloud projects. Cloud projects can be accessed anywhere and made available for other team members.\r\nYour license is also normally applied from the Citavi account.	使用 Citavi 账户，您可以使用云端项目。云端项目可在任何地方访问，并可提供给其他团队成员。\r\n您的许可证通常也通过 Citavi 账户应用。
+ReferenceGridGroupsForm_titleLabel	Group references	对文献条目分组
+CitationStyleFavoriteDialog_advancedSearchFullReferenceBookUsesPublisherLabel	Should the publisher be listed?	是否列出出版商？
+OptionsDialog_rssFeedTitleLabel	My feeds: 	我的订阅源：
+BibliographyGrouping_ModifiedBySingle	References modified by <i>{0}</i>	由 <i>{0}</i> 修改的文献条目
+MainForm_tasksLabel	Tasks	任务
+DbServerConnectionDialog_licenseLabel	License:	许可证：
+PreviewControl_downloadCredentialsTitleLabel	Enter user name and password	输入用户名和密码
+LicenseDialog_Info	Learn more	了解详情
+LicenseDialog_expiryDateInfoLabel	For a site license key, enter the expiration date here.	对于站点许可证密钥，请在此处输入到期日期。
+MainForm_taskPlannerModifiedByLabel	… by:	…按：
+MainForm_taskPlanningSavedSearchesTitleLabel	Saved selections	已保存的选择
+LicenseDialog_accountOfflineWarningText	Citavi currently can't connect to your Citavi Account. Please check your Internet connection.\r\nPlease note: Citavi will save your license information for up to 365 days when you're working offline. On or before {0} Citavi needs access to your Citavi Account to update your license information. After this date, you cannot work with Citavi anymore.	Citavi 目前无法连接到您的 Citavi 账户。请检查您的 Internet 连接。\r\n请注意：当您离线工作时，Citavi 会将您的许可证信息保存最多 365 天。在 {0} 当天或之前，Citavi 需要访问您的 Citavi 账户以更新您的许可证信息。在此日期之后，您将无法再使用 Citavi。
+PdfWpfViewer_cancelSearchButtonToolTip	Cancel search	取消搜索
+CreateCitationKeyDialog_descriptionEditor	You changed the citation key template. How do you want to proceed?	您更改了引文键模板。您希望如何继续？
+ReferenceDeletionDialog_doNotDeleteButton	Don't delete	不删除
+ActivateOfflineModeDialog_activateOfflineModeButton	Enable offline mode	启用离线模式
+SearchForm_quickSearchMatchCaseCheckBox	A = a	A = a
+ImportFieldMappingEditor_personNameSequenceLabel	Sequence:	顺序：
+SearchForm_quickSearchMatchEquivalentCharactersCheckBox	Equivalent characters (e.g. ä=ae)	等效字符（例如 ä=ae）
+BackupFolderPathDialog_noBackupButton	Don't create backups	不创建备份
+ReferenceDeletionDialog_titleLabel	Delete reference	删除文献条目
+KeyConfigurationDialog_defaultKeyLabel	Default:	默认：
+CitationStyleForm_openButton	Open citation style file…	打开引文样式文件…
+OrderedListDialog_leadingTextLabel	Prefix:	前缀：
+CitationStyleListDialog_availableLabel	Available	可用
+CitationKeyDialog_manualRadioButton	A custom citation key:	自定义引文键：
+CitationStyleFavoriteDialog_advancedSearchFullReferenceBookUsesEditionLabel	Should editions be given?	是否给出版本？
+BibliographyGrouping_CustomField4All_None	(Without Custom field 4)	（没有自定义字段 4）
+StartForm_projectTitleLabel	Recently opened projects	最近打开的项目
+KeyItemConfigurationDialog_textFirstWordRadioButton	First word only (ignore articles)	仅第一个词（忽略冠词）
+NumberOfReferencesLabel_Smart	{0:1 reference|{0} references}	
+CharacterFormatControl_foreColorButton	Text color…	文本颜色…
+OpenProjectDialog_sqliteTab	Local	本地
+AddOnsForm_addOnVersionLabel	Version:	版本：
+OnlineSearchDialogEx_addAdvancedSearchTermLabel	Add row	添加行
+KnowledgeItemFileForm_imageDescriptionLabel	Description:	描述：
+CitationKeyDialog_customizeButton	Edit Template…	编辑模板…
+CreateBibliographyDialog_groupsCommonFieldsRadioButton	Show common fields	显示常用字段
+CustomFieldDialog_nameLabel	Name:	名称：
+NewImportDialog_clearImportSessionButton_Online	Replace existing results	替换现有结果
+GroupForm_displayTypeKnowledgeOrganizerCheckBox	in the Knowledge Organizer	在知识管理器中
+ExportWizardDialog_autoExportSaveCheckBox	Automatically export when saving	保存时自动导出
+KnowledgeItemFileForm_imageDescriptionLabelPlaceholder	Additional information about the image or file	关于图像或文件的附加信息
+MainForm_keywordsLabel	Keywords	关键词
+CreateBibliographyDialog_groupsLabel	Outline by:	大纲依据：
+LookupLocationsDialog_allLocationsRadioButton	Add all locations found for each reference	为每个文献条目添加找到的所有位置
+BackgroundTasksDialog_ShowExportFolder	Show export folder in Windows Explorer	在 Windows 资源管理器中显示导出文件夹
+MainForm_ReferencesTabControl_Quotations	Quotations && comments	引文 && 评论
+BackgroundTaskErrorDialog_licenseLimitationExceededGoToShopLabel	With your <span style="font-style:italic;">Citavi Free</span> license you can work with up to 100 references. To continue working with Citavi, you need to purchase a license key for <span style="font-style:italic;">Citavi for Windows</span>. <br/>To enable the license you will need to <span style="font-weight:bold;">restart Citavi</span>.	使用 <span style="font-style:italic;">Citavi Free</span> 许可证，您最多可以使用 100 条文献条目。要继续使用 Citavi，您需要购买 <span style="font-style:italic;">Citavi for Windows</span> 的许可证密钥。<br/>要启用许可证，您需要 <span style="font-weight:bold;">重新启动 Citavi</span>。
+PageSetupDialog_rightMarginLabel	Right:	右：
+SupportInformationDialog_saveAsTextFIleButton	Save as text file…	另存为文本文件…
+MathEditorForm_acceptButton	Insert	插入
+Settings_ShowMarks	Show labels	显示标签
+ExportWizardDialog_exportToFileRadioButton	Save to text file:	保存到文本文件：
+OptionsDialog_resetWarningsButton	Reset warnings	重置警告
+NumberingTypeDialog_numeralSystemLabel	Numeral system	数字系统
+SortTasksCustomDialog_sort3Label	Then by:	然后按：
+CitationKeyDialog_titleLabel	Which citation key do you want to use for this reference?	您想为此文献条目使用哪个引文键？
+CitationStyleListDialog_selectedLabel	Selected	已选
+BackgroundTaskErrorDialog_sendOperationIdButtonText	Send	发送
+ReferencesNavigationPaneCollapsedText	Reference list	文献列表
+KnowledgeItemsWithNoKeyword	Knowledge items without keywords	没有关键词的知识项
+NextButton	Next	下一步
+ImportForm_newImportButton_File	Import again	再次导入
+OptionsDialog_favoriteBookstoreLinkLabel	Online booksellers:	在线书店：
+MainForm_StatusBarPanel_ModificationInfoReadOnly	Recent changes (read-only)	最近更改（只读）
+CategoryForm_nameLabel	Name:	名称：
+SortReferencesCustomDialog_sort5AscendingRadioButton	ascending	升序
+WelcomeWizardDialog_ceipNoDescriptionLabel	Citavi never sends activity logs or statistical information to our server.	Citavi 绝不会向我们的服务器发送活动日志或统计信息。
+BibTeXExportForm_useCrossRefCheckBox	Use crossref/xref	使用 crossref/xref
+SortReferencesCustomDialog_sort4AscendingRadioButton	ascending	升序
+PrepareProjectForCloudUploadDialog_missingFilesLabel	These files could not be found:	找不到这些文件：
+KeyConfigurationDialog_addReferenceTypeTemplateLabel	Add template for reference type	为文献类型添加模板
+PersonsDialog_PrefixColumnHeader	Prefix	前缀
+KeyItemConfigurationDialog_useDifferentSetsForDifferentNumberOfPersonsCheckBox	Format differently depending on the number of persons	根据人数采用不同的格式
+TabStopDialog_clearButton	Clear	清除
+BibliographyGroupingForm_AllReferenceTypes	All reference types with their references	所有文献类型及其文献条目
+ImportFieldMappingEditor_personNameGroupBox	Persons	人员
+StartForm_SampleProject	Open sample project	打开示例项目
+MainForm_referenceTypeLabelLabel	Reference type:	文献类型：
+CharacterFormatControl_allCapsCheckEditor	All caps	全部大写
+CreateCitationKeyDialog_overwriteOnlyAutoLabel	Replace automatic citation keys	替换自动引文键
+ExportWizardDialog_bibTeXExportTransformerMergeTitleFieldsTitleSupplementLabel	Separator:	分隔符：
+ImportDefinitionFavoriteDialog_providerLabel	Subscription provider	订阅提供商
+CitaviAccountLoginDialog_registerLinkLabel	Register here for free.	在此免费注册。
+BibliographyGrouping_GroupAll_None	(Without group)	（无组）
+BarcodeScannerProgressDialog_infoLabel	Checking port…	正在检查端口…
+CreateProjectDialog_titleLabel_NewProject	New project	新建项目
+BibTeXExportForm_fieldDelimiterLabel	Field separator:	字段分隔符：
+ExportWizardDialog_bibTeXExportTransformerUseLaTeXUrlCheckBox	Use URL package	使用 URL 包
+CitationStyleFavoriteDialog_advancedSearchLanguageLabel	Style language	样式语言
+KnowledgeItemQuickReference_coreStatementLabelPlaceholder	Optional	可选
+KnowledgeItemTextForm_quotationTypeLabel	Type:	类型：
+BibliographyGrouping_ReferenceTypeAll	All reference types	所有文献类型
+BackgroundTaskErrorDialog_subtitleNoWarnings	No errors were found	未发现错误
+OrganizationSettingsImportDialog_descriptionLabel	Description:	描述：
+TabStopControl_leaderTypeGroupBox	Leader	引导符
+FontStyleEditorControl_Caption	Style	样式
+FullTextForm_resultLabel	Extraction results	提取结果
+LookupReferenceIdentifierDialog_addToListButton	Add	添加
+OptionsDialog_userNameGroupBox	User name	用户名
+TeXPublicationForm_transformerLabel	Export definition:	导出定义：
+ConvertQuotation_MoreTips	See the online manual for additional information	请参阅在线手册以获取更多信息
+BackOfficeCitationStyleElementsDialog_languageLabel	Language:	语言：
+StartForm_newsTitleLabel	News	新闻
+KnowledgeItemTextForm_modifiedByLabel	Modified by:	修改者：
+SaveProjectAsNewDesktopLocalProject_Progress_MoveProject	Moving project…	正在移动项目…
+OnlineSearchDialogEx_BasicSearch	Simple online search	简单在线搜索
+OptionsDialog_telemetryScopeTraceLabel	Only enable this option if you were asked to do so by the Citavi support team.	仅在 Citavi 支持团队要求您这样做时才启用此选项。
+CreateProjectDialogEx_sqliteProjectTitleLabel	Local project	本地项目
+CreateBibliographyDialog_layoutLabel	What kind of bibliography do you want to create?	您想创建哪种参考文献目录？
+WelcomeWizardDialog_ceipNoTitleLabel	Do not send activity logs or additional information	不发送活动日志或其他信息
+CitaviUpdateDialog_infoLabel	You are using Citavi <span style="font-weight:bold;">{0}<br/><span style="font-weight:normal;"> The current version is Citavi <span style="font-weight:bold;">{1}<span style="font-weight:normal;">&edsp;<a href="{2}">(Learn more)</a></span></span></span><br/></span>	您正在使用 Citavi <span style="font-weight:bold;">{0}<br/><span style="font-weight:normal;"> 当前版本是 Citavi <span style="font-weight:bold;">{1}<span style="font-weight:normal;">&edsp;<a href="{2}">（了解详情）</a></span></span></span><br/></span>
+CitationStylePreviewControl_journalArticleLabel	Journal article	期刊文章
+BatchApplyOrRemoveGroupsDialog_Remove_titleLabel	Batch remove groups	批量移除组
+AboutDialog_copyrightLabel	Copyright © by Swiss Academic Software GmbH. All rights reserved.\r\nPDF technology in Citavi is powered by PDFNet SDK copyright © PDFTron™ Systems Inc., 2001-2019, and distributed by Swiss Academic Software GmbH under license. All rights reserved.\r\nWorldCat is © 1971-2019 OCLC Online Computer Library Center, Inc. (“OCLC”).  WorldCat information is displayed pursuant to a license agreement with OCLC.  OCLC, WorldCat, the WorldCat logo and Find in a Library are registered trademarks/service marks of OCLC.	版权所有 © Swiss Academic Software GmbH。保留所有权利。\r\nCitavi 中的 PDF 技术由 PDFNet SDK 驱动，版权 © PDFTron™ Systems Inc., 2001-2019，由 Swiss Academic Software GmbH 经许可分发。保留所有权利。\r\nWorldCat 是 © 1971-2019 OCLC Online Computer Library Center, Inc.（"OCLC"）。WorldCat 信息依据与 OCLC 的许可协议显示。OCLC、WorldCat、WorldCat 徽标和 Find in a Library 是 OCLC 的注册商标/服务商标。
+LicenseDialog_dbServerOfflineWarningText	You are not connected to the DBServer. Connect to the DBServer or your organization's network on or before {0} to continue using Citavi.	您未连接到 DBServer。请在 {0} 当天或之前连接到 DBServer 或您组织的网络，以继续使用 Citavi。
+ProjectDetailsControl_leaveProjectLabel	Leave project…	离开项目…
+CloudProjectMembersDialog_inviteProjectMemberTitleLabel	Add project member	添加项目成员
+PdfWpfViewer_searchButtonToolTip	Start search	开始搜索
+PageSetupControl_rightMarginLabel	Right:	右：
+BackgroundTaskErrorDialog_ignoreButtonText	Ignore problem	忽略问题
+LookupReferenceIdentifierDialog_importButton	Add to project	添加到项目
+NumberOfLocationsLabel_Smart	{0:1 location|{0} locations}	
+CriteriaMarks_NoMarks	No labels	无标签
+TaskPlanner_Sort_Type	Task type	任务类型
+ImportWizardDialog_tagDefinitionBibTeXReplaceKeyCheckBox	Replace imported BibTeX keys	替换导入的 BibTeX 键
+UltraGridColumnChooser_showButton	Add	添加
+EditCitationStyleSASInternalDialog_option3DescriptionLabel_Derived	Der abgeleitete Stil wird direkt zum Bearbeiten geöffnet. Er kann nicht in die Cloud geladen werden, da er nach wie vor mit dem Master-Stil verbunden bleibt. Die lokalen Änderungen am Stil gehen verloren, sobald eine neuere Version aus der Cloud zur Verfügung steht. Sie können den abgeleiteten Stil aber in den Zitationsstil-Eigenschaften aus seinem Master-Verbund herauslösen.	派生的样式将直接打开以进行编辑。由于它仍与主样式关联，因此无法上传到云。一旦云中提供了更新的版本，对样式所做的本地更改将会丢失。不过，您可以在引用样式属性中将派生样式从其主样式组合中分离出来。
+DataExchangePropertyConfigurationDialog_Name	Name	名称
+CharacterFormatControl_hiddenCheckEditor	Hidden	隐藏
+ProjectPropertiesDialog_createdByModifiedByTitleLabel	Change display names	更改显示名称
+ProjectPropertiesDialog_PrivateCollectionLocations	Private collection locations	私人馆藏位置
+referencesListHelpNotesTabControl_Help	Help	帮助
+CloudProjectMembersDialog_inviteProjectMemberInfoLabel	Email address:	电子邮件地址：
+BibliographyGroupingForm_SingleSeriesTitle	References in this series:	此系列中的文献条目：
+ParagraphFormatControl_spacingGroupBox	Spacing	间距
+CreateCitationKeyDialog_noneRadioButton	Don't apply the new template to any existing references	不将新模板应用于任何现有文献条目
+LicenseDialog_licenseInfo1LinkLabel	Learn more about your license key's expiration date and how to renew it. 	了解有关您的许可证密钥到期日期以及如何续订的更多信息。
+BibliographyGroupingEditor_CustomField2All_None	References without Custom field 2	没有自定义字段 2 的文献条目
+CriteriaSeriesTitle	Series	系列
+EditCitationStyleSASInternalDialog_titleLabel_Derived	Edit derived system citation style	编辑派生的系统引文样式
+OpenUrlFavoriteDialog_cultureLabel	Country/region:	国家/地区：
+CriteriaAdvanced	Additional criteria	附加条件
+SortTasksCustomDialog_sort2Label	Then by:	然后按：
+MergeItemsDialog_mergeToLabel	Merge to:	合并到：
+ExportWizardDialog_exportToClipboardRadioButton	Copy to Clipboard	复制到剪贴板
+MainForm_TaskPlanner_CurrentTasks_ToolTipTitle	Current tasks are tasks due today through the next 7 days.	当前任务是指从今天到未来 7 天内到期的任务。
+CreateProjectDialog_folderLabel	Create in folder:	在文件夹中创建：
+OpenProjectDialog_dbServerTab	DBServer	DBServer
+ReferenceIdentifierDownloadOptionsDialog_isbnDownloadKeywordsCheckBox	Include keywords	包含关键词
+CitaviAccountLoginDialog_dontRememberMeTitleinfoLabel	Select this option for public computers that you don't log in to with a personal account (for example, in an Internet cafe). This ensures that no one will gain access to your information.	对于不使用个人账户登录的公共计算机（例如在网吧），请选择此选项。这可确保没有人能够访问您的信息。
+TaskPlanner_Sort_DueDate	Due date	截止日期
+SmartRepeater_InternalErrorBuildingList	An internal error occurred while building the list.	构建列表时发生内部错误。
+ConvertDirectQuotation_Title	Convert direct quotation:	转换直接引文：
+MainForm_tableOfContentsLabel	Table of contents	目录
+CreateCitationKeyDialog_noneLabel	Don't apply	不应用
+OptionsDialog_overrideImportedShortTitlesCheckBox	Replace short titles when importing	导入时替换短标题
+OptionsDialog_exportAdminSettingsLinkLabel	Administrative Settings Assistant…	管理设置助手…
+BibliographyGrouping_CustomField1Single	References with <i>{0}</i> in Custom field 1	自定义字段 1 中包含 <i>{0}</i> 的参考文献
+SortTasksCustomDialog_sort1Label	Sort by:	排序依据：
+Tabs_ContentTab	Content	内容
+KnowledgeItemTextForm_textLabel	Text:	文本：
+NewSubheadingDefaultText	New subheading	新建子标题
+DataExchangePropertyConfigurationDialog_renameButton	Rename	重命名
+ExportWizardDialog_mergeTitleFieldsParentReferenceCheckBox	Merge title fields in parent reference	合并父级参考文献中的标题字段
+AddOnsForm_deactivateAddOnButton	Disable	禁用
+PreviewControl_referenceQuotationsInfoLabel	This reference has no quotations.	此参考文献没有引文。
+TransformerFavoriteDialogEx_nothingFoundLabel	No results found for the given criteria.\r\n\r\nPlease see the Quick Help.	未找到符合给定条件的结果。\r\n\r\n请参阅快速帮助。
+PersonsDialog_mainGrid_TemplateAddRowPrompt1	Click to add a person	点击添加人员
+LoginDialog_invalidLoginLabel	Invalid login credentials	登录凭据无效
+ProxyConfigurationDialog_windowsProxyRadioButton	Use Windows proxy settings	使用 Windows 代理设置
+Tabs_ContextTab	Context	上下文
+LookupLocationsDialog_firstLocationRadioButton	Add only the first location found for each reference	仅添加为每篇参考文献找到的第一个位置
+Tabs_Reference_NoShortTitle	[No short title]	[无短标题]
+HelpInformationForm_customHelpFolderLabel	Folder for custom Quick Help files:	自定义快速帮助文件文件夹：
+BibTeXExportForm_mergeTitleFieldsTitleSupplementCheckBox	Title supplement	标题补充
+MacroEditor_infoTabControl_Properties	Properties	属性
+KeyItemPersonDropDownForm_lastNameFirstNameRadioButton	Last name, first name	姓，名
+SampleProjectsDialog_noSampleProjectsAvailableLabel	(No sample projects were found.)	（未找到示例项目。）
+FontStyleEditorControl_strikeThroughCheckBox	Strikethrough	删除线
+SearchSaveAsDialog_titleLabel	Save Search	保存搜索
+EditBuildCitationStyleWarningMsgBox_Description	Creating or modifying citation styles is a job for specialists.\r\nThe Citavi Team will gladly create a citation style for you, as long as it is the official style of a periodical or publisher that has author guidelines. \r\n\r\nPlease use the following form to request a new style:\r\nwww.citavi.com/stylerequest\r\n\r\nPlease note that the Citation Style Editor is only available in English and German. In the Reference Editor, click "Tools" > "Change language" if you need to change the language.\r\n	创建或修改引用格式是专业人员的工作。\r\n只要某期刊或出版商有作者指南且其格式为官方格式，Citavi 团队很乐意为您创建引用格式。 \r\n\r\n请使用以下表单申请新格式：\r\nwww.citavi.com/stylerequest\r\n\r\n请注意，引用格式编辑器仅提供英文和德文版本。如需更改语言，请在参考文献编辑器中点击“工具”>“更改语言”。\r\n
+OnlineSearchDialogEx_ShowAdvancedSearch	Go to advanced search	转到高级搜索
+DeleteButton	Delete	删除
+LicenseDialog_Header_CampusLicense	Renewing your license	续订您的许可证
+CharacterFormatControl_strikeThroughCheckEditor	Strikethrough	删除线
+PersonsDialog_MiddleNameColumnHeader	Middle name(s)	中间名
+MainForm_taskPlannerAssignedToLabel	… to	… 至
+BackgroundTaskErrorDialog_sendOperationIdLabelText	Send us a detailed error report.	向我们发送详细的错误报告。
+ProjectPropertiesDialog_createdByModifiedByReplaceByContactKeyRadioButton	Team	团队
+CreateProjectDialogEx_sqlServerProjectDescriptionLabel_Selected	DBServer projects cannot be directly created in Citavi.\r\nClick OK to start the Citavi DBServer Manager.	无法在 Citavi 中直接创建 DBServer 项目。\r\n点击确定以启动 Citavi DBServer 管理器。
+BibliographyGroupingForm_SingleGroup	References in this group:	此分组中的参考文献：
+WelcomeWizardDialog_convertProjectsSelectionTitleLabel	Convert projects	转换项目
+InsertTableDialog_numberOfColumnsLabel	Number of columns:	列数：
+OrganizationSettingsAdminDialog_editButton	Edit	编辑
+ExportWizardDialog_mergeTitleFieldsTitleSupplementCheckBox	Title supplement	标题补充
+CitationStyleEditorInitialDialog_newButton	New…	新建…
+KeyItemPersonDropDownForm_person1TextBetweenLastNameFirstNameLabel	Text between first and last names:	名与姓之间的文本：
+KeyItemConfigurationDialog_textRemoveWordCountRadioButton	First n words:	前 n 个词：
+PrepareProjectForCloudUploadDialog_Title_MissingFiles	One or more files could not be found	找不到一个或多个文件
+OrganizationSettingsAdminDialog_exportRSSFeedsCheckBox	RSS feeds	RSS 订阅源
+CreateCitationKeyDialog_completeLabel	Generate missing citation keys	生成缺失的引用键
+SortKnowledgeItemsDialog_listIsEmptyLabel	List contains no elements.	列表不包含任何元素。
+MainForm_entityLinksTitleLabel	Links	链接
+OptionsDialog_pathsGroupBox	Paths	路径
+KeyItemConfigurationDialog_previewLabel	Preview:	预览：
+CreateCompilationDialog_allRadioButton	All knowledge items in the project	项目中的所有知识条目
+MainForm_ReferencesTabControl_Reference	Reference	参考文献
+CitationStyleFavoriteDialog_advancedSearchFullReferenceAuthorsNameOrderLabel	In what order do last and first names appear in bibliography entries?	参考文献条目中姓和名的顺序是怎样的？
+ImportWizardDialog_bibliographyImportInfoTextEditor	The quality of your results depends on <br/><span style="font-weight:bold;">a)<span style="font-weight:normal;"> entries being correctly separated from one another. Please make sure<span style="font-weight:bold;">that each reference is in a paragraph by itself. <br/>b)<span style="font-weight:normal;"> that any links, ISBNs, DOI names, and other identifiers do not contain any spaces. <span style="font-weight:bold;">Please delete any line breaks that were present in the PDF document.</span></span></span></span></span><br/>	您的结果质量取决于 <br/><span style="font-weight:bold;">a)<span style="font-weight:normal;"> 各条目之间是否正确分隔。请确保<span style="font-weight:bold;">每篇参考文献都单独位于一个段落中。 <br/>b)<span style="font-weight:normal;"> 任何链接、ISBN、DOI 名称和其他标识符中都不包含空格。<span style="font-weight:bold;">请删除 PDF 文档中存在的所有换行符。</span></span></span></span></span><br/>
+LicenseDialog_goToShopButtonPrivateLicenseText1	Personal license key at 50% off	个人许可证密钥 5 折优惠
+WelcomeWizardDialog_convertProjectProgressTitelLabel	Converting projects...	正在转换项目...
+KeyItemConfigurationDialog_moreThanThreePersonsAbbreviateToIndexCountLabel	Abbreviate after:	在此之后缩写：
+ThoughtNew	New thought	新建想法
+ActivateOfflineModeDialog_AttachmentsDescription	{\\rtf1\\ansi\\ansicpg1252\\deff0\\nouicompat\\deflang1031{\\fonttbl{\\f0\\fnil\\fcharset0 Calibri;}}\r\n{\\*\\generator Riched20 10.0.17134}\\viewkind4\\uc1 \r\n\\pard\\sl276\\slmult1\\f0\\fs22\\lang7 Save attachments for all open projects before enabling offline mode.\\par\r\nWarning: do \\b not \\b0 enable this option if you are working with an Internet connection that is unstable or expensive.\\par\r\n}	{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1031{\fonttbl{\f0\fnil\fcharset0 Calibri;}}\r\n{\*\generator Riched20 10.0.17134}\viewkind4\uc1 \r\n\pard\sl276\slmult1\f0\fs22\lang7 启用离线模式前，请保存所有打开项目的附件。\par\r\n注意：如果您的 Internet 连接不稳定或费用高昂，请 \b 不要 \b0 启用此选项。\par\r\n}
+ProofingToolsDialog_favoriteSpellCheckCulturesLabel	Select the languages to show in the Spelling menu:	选择要在拼写检查菜单中显示的语言：
+ChooseReferenceDialog_instructionLabel_AssignPastedQuotationToReference	Assign the quotations on the Clipboard to a reference.	将剪贴板中的引文分配给一篇参考文献。
+WelcomeWizardDialog_ceipYesTitleLabel	Send activity logs and additional information	发送活动日志和其他信息
+CreateCitationKeyDialog_titleLabel2	Update all citation keys	更新所有引用键
+OptionsDialog_isbnFavoriteLinkLabel	ISBN download from:	ISBN 下载来源：
+AboutDialog_licenceAgreementLabel	License agreement	许可协议
+EditInTextsPage	Edit in the text editor	在文本编辑器中编辑
+BibliographyGrouping_NoCaption	[Without heading]	[无标题]
+ImportExportWizard_personNameLabel	Order:	顺序：
+EquivalentCharactersListDialog_editButton	Edit…	编辑…
+Rename	Rename	重命名
+SortTasksCustomDialog_sort2AscendingRadioButton	ascending	升序
+PersonForm_lastNameLabel	Last name:	姓：
+ConvertQuotation_HelpTextTitle	Hint	提示
+BibliographyGroupingForm_SinglePeriodical	References from this periodical:	此期刊中的参考文献：
+BibliographyGroupingForm_SingleReferenceProperty	References with this entry:	包含此条目的参考文献：
+Offline_Reconnect	Reconnect	重新连接
+LookupFullTextDialogEx_ezProxyLabel_Logout	Log out of {0}	退出登录 {0}
+ParagraphFormatDialog_hasPageBreakBeforeCheckBox	Page break above	上方分页符
+EquivalentCharactersListDialog_resetDefaultButton	Default…	默认…
+ShortTitleDialog_manualRadioButton	A custom short title:	自定义短标题：
+DateTimeFormatDialog_previewCaptionLabel	Preview:	预览：
+Tabs_QuotationTab	Quotations	引文
+SearchReplaceForm_replaceLabel	Replace with:	替换为：
+LicenseDialog_freeTitleLabel	You are using <span style="font-weight:bold;">Citavi Free</span>. Citavi Free is limited to 100 references.	您正在使用 <span style="font-weight:bold;">Citavi Free</span>。Citavi Free 限制为 100 篇参考文献。
+NewName	New name:	新名称：
+TaskPlanner_Sort_CreatedOn	Created on	创建日期
+TaskPlanner_Sort_CreatedBy	Created by	创建者
+TabQuotation_ExpandAll	Expand all	全部展开
+BibliographyGrouping_CustomField7All_None	(Without Custom field 7)	（无自定义字段 7）
+StartForm_newProjectLabel	New project	新建项目
+FullTextListForm_mainGrid_AddressInfoHeaderCaption	File Type	文件类型
+Saving	Saving...	正在保存...
+KeyReplacementInputDialog_captionEditor	Character:	字符：
+LicenseDialog_goToAccountLabel	<a href="http://www.citavi.com/account">Log in to Citavi Account to retrieve your license.</a>	<a href="http://www.citavi.com/account">登录 Citavi 账户以获取您的许可证。</a>
+OptionsDialog_createBackupCheckBox	Create automatic backups of local projects	为本地项目创建自动备份
+LookupFullTextDialogEx_selectionLabel	Find full text for:	查找全文：
+OptionsDialog_laTeXEncodingForKnowledgeItemsCheckBox	Use LaTeX notation for quotations	对引文使用 LaTeX 记法
+LicenseDialog_goToShopButtonPrivateLicenseText	Personal license key at 50% off	个人许可证密钥 5 折优惠
+SearchForm_deleteSavedSearchButton	Delete	删除
+CreateCitationKeyDialog_noneInstructionLabel	Don't apply the new template to any existing references.	不要将新模板应用于任何现有参考文献。
+OrganizationSettingsAdminDialog_metadataNameLabel	Name:	名称：
+ExportWizardDialog_bibTeXExportTransformerExportTaggedFieldsCheckBox	Preserve formatting in title fields	保留标题字段中的格式
+OptionsDialog_configureBibTeXKeyButton	Customize BibTeX keys…	自定义 BibTeX 键…
+PreviewControl_browserSaveLocalCopyAsPdf_Wait	Please wait while the page is being converted.	页面正在转换，请稍候。
+ExportAdminSettingsDialog_exportLocationTransformerCheckBox	Library catalogs for location searches	用于位置搜索的图书馆目录
+BibTeXExportForm_useUnixFormatCheckBox	Save in Unix format	以 Unix 格式保存
+AssignCategoriesForm_titleLabel	Assign categories	分配类别
+MacroEditor_infoTabControl_Output	Output	输出
+CreateProjectDialog_titleLabel_SaveProjectAsNewDesktopLocalProject	Save a copy as a new local project	将副本另存为新的本地项目
+MainForm_customizeOverviewLabel	Customize overview…	自定义概览…
+CriteriaYear	Year of publication	出版年份
+ProxyConfigurationDialog_customProxyPortLabel	Port:	端口：
+QuitCitaviDialog_questionLabel	Do you want to exit Citavi?	您要退出 Citavi 吗？
+PrepareProjectForCloudUploadDialog_Title_BeginUpload	The project is now ready for upload.	项目现已准备好上传。
+OptionsDialog_isbnGroupBox	ISBN download	ISBN 下载
+NavigationPaneCollapsedGroupArea_ToolTipText_KnowledgeOrganizer_Keywords	Click to expand the Knowledge Organizer pane.	点击以展开知识组织器窗格。
+ImportExportWizard_fileDialogButton	Browse…	浏览…
+KeyItemConfigurationDialog_moreThanThreePersonsAbbreviateTextLabel	Abbreviation:	缩写：
+AttachmentFolderWarningDialog_defaultAttachmentsFolderPathLabel	Default folder path:	默认文件夹路径：
+SplitterTrigger_References_Tabs	Tabs	选项卡
+Tabs_NoReferenceSelected	No reference selected	未选择参考文献
+SplitterTrigger_References_Left	Criteria	条件
+BibliographyGroupingSetsForm_previewButton	Preview	预览
+CreateProjectDialog_progressiveDisclosureLabel_LinkText	Save in another location	保存到其他位置
+PreviewControl_errorTextEditor_File	This file may be damaged.	此文件可能已损坏。
+KeyItemPersonDropDownForm_firstNameLastNameRadioButton	First name, last name	名，姓
+UserDataFolderPathDialog_folderPathSelectionLabel	Folder for user files:	用户文件文件夹：
+ParagraphFormatControl_leftIndentationLabel	Left:	左：
+BibTeXKeyDialog_titleLabel	BibTeX keys	BibTeX 键
+CriteriaApplyReferencesCriteria	Apply reference criteria	应用参考文献条件
+DeleteButtonEllipsis	Delete…	删除…
+MainForm_TaskPlanner_ProjectTasks_ToolTipText	For example, doing searches, presentations, or turn-in dates.	例如，进行搜索、演示或提交日期。
+FontStyleEditorControl_neutralCheckBox	Plain	纯文本
+FontStyleEditorControl_defineStyleRadioButton	Format:	格式：
+TaskPlanner_MyTasks	My tasks	我的任务
+LicenseDialog_licenseKey2Label	License key:	许可证密钥：
+FullTextListForm_mainGrid_ExtractionResultHeaderCaption	Info	信息
+FullTextForm_fullTextLabel	Indexed text:	已索引文本：
+AssignCategoriesForm_lastAssignedCategoriesLabel	Recent:	最近：
+LookupLocationsDialog_searchButton	Find locations	查找位置
+LookupFullTextDialogEx_referencesWithAttachmentCheckBox	Include references that already have attached files	包括已附带文件的参考文献
+PageRangeNumberingTypeFormCaption_Other	(Other) range	（其他）范围
+CriteriaAdvanced_Attachments	Attachment available	附件可用
+HelpInformationForm_windowNameLabel	Help Context:	帮助上下文：
+CitationStyleFavoriteDialog_countLabel	Available online: {0}	可在线获取：{0}
+ExportWizardDialog_exportSettingsModifyBibTeXTransformerLabel	Edit BibTeX export definition…	编辑 BibTeX 导出定义…
+OptionsDialog_telemetryGroupBox	Product development	产品开发
+PreviewControl_fileNotFoundInfoEditor	The file {0} could not be found. The file may have been renamed, moved, or deleted, or it may be on another disk. 	找不到文件 {0}。该文件可能已被重命名、移动或删除，或者它位于其他磁盘上。 
+ChatWindow_sendButton	Send	发送
+AddButton	Add	添加
+SplitKeywordsDialog_titleLabel	Keywords separated by:	关键词分隔符：
+DbServerConnectionDialog_connectionStringInfoEditor	Enter the connection information you received from your server administrator or open the <a fref="OpenDataConnectionDialog">Connection</a> dialog.	输入您从服务器管理员处收到的连接信息，或打开<a fref="OpenDataConnectionDialog">连接</a>对话框。
+PreviewControl_fileTypeNotSupportedInfoEditor	Preview is not available for {0} files. 	{0} 文件无法预览。 
+SearchReplaceForm_Compact	Compact	紧凑
+ExceptionDialog_infoEditor	Please allow Citavi to send diagnostic information to our server so that we can fix the error. Your information will be kept confidential. Learn more in our <a href="http://www.citavi.com/privacy">Privacy policy</a>.\r\nIf the error occurs again, please contact <a href="http://service.citavi.com">service.citavi.com</a> after sending the error report and specify the following session ID:	请允许 Citavi 向我们的服务器发送诊断信息，以便我们修复该错误。您的信息将予以保密。请在<a href="http://www.citavi.com/privacy">隐私政策</a>中了解更多。\r\n如果再次发生该错误，请在发送错误报告后联系 <a href="http://service.citavi.com">service.citavi.com</a>，并注明以下会话 ID：
+WelcomeWizardDialog_convertProjectsSelectionCloudDescriptionLabel	Advantage: Work on projects on multiple computers. Invite others to work on projects. Backup projects automatically.\r\nYou do not need to have an active Internet connection to edit a cloud project.	优势：可在多台计算机上处理项目。邀请他人共同处理项目。自动备份项目。\r\n编辑云端项目无需保持活动的 Internet 连接。
+GoToShopButton	Go to shop	前往商店
+SearchForm_selectionButton	Apply search results as selection	将搜索结果应用为选定内容
+CreateProjectDialog_openAfterSavingCheckBox	Open after saving	保存后打开
+LicenseDialog_noDbServerLoginNotAllowedLabel	You system administrator has configured Citavi so that you cannot log in to Citavi Account. For this reason, Citavi Account licenses are not displayed here.\r\n\r\nContact your system administrator for an organizational license for Citavi for Windows.	您的系统管理员已配置 Citavi，使您无法登录 Citavi 账户。因此，此处不显示 Citavi 账户许可证。\r\n\r\n请联系您的系统管理员，获取 Citavi for Windows 的组织许可证。
+SeriesTitleForm_editorsLabel	Editor:	编者：
+CitaviAccountLoginDialog_dontRememberMeTitleLabel	When exiting Citavi log out of account.	退出 Citavi 时注销账户。
+WelcomeWizardDialog_createAccountTitleLabel	Log in to your Citavi Account	登录您的 Citavi 账户
+WelcomeWizardDialog_convertProjectsSelectionSkipTitleLabel	Skip conversion	跳过转换
+CopyProjectDialog_deleteCloudProjectTitleLabel	Delete the cloud project	删除云端项目
+WelcomeWizardDialog_createAccountNotOkTitleLabel	I couldn't set up my account and want to continue without registering.	我无法设置我的账户，想在不注册的情况下继续。
+OrganizationSettingsExportDialog_sharedCitationStylesFolderLabel	Folder for your organization's internal citation styles	您组织的内部引用样式文件夹
+SearchReplaceForm_findNextButton	&Find next	&查找下一个
+OrganizationSettingsExportDialog_settingsUpdatedOnLabel	Last update: {0}	上次更新：{0}
+SortTasksCustomDialog_sort1AscendingRadioButton	ascending	升序
+BibliographyGrouping_CustomField4Single	References with <i>{0}</i> in Custom field 4	自定义字段 4 中包含 <i>{0}</i> 的参考文献
+CreatedByModifiedByForm_createdByLabel	Created:	创建于：
+PersonDetailEditor_middleNameLabel	Middle name(s):	中间名：
+QuitCitaviDialog_updateTitleLabel	An update is ready to install	更新已准备好安装
+LookupFullTextDialogEx_downloadFullTextRadioButton	Download full text	下载全文
+MainForm_ReferencesTabControl_Content	Content	内容
+MainForm_ReferencesTabControl_Context	Context	上下文
+BibliographyGroupingEditor_CustomField4All_None	References without Custom field 4	不含自定义字段 4 的参考文献
+PdfWpfViewer_searchCaseSensitiveLabel	Case sensitive	区分大小写
+CopyProjectDialog_archiveLocalProjectTitleLabel	Archive local project and continue working with the cloud project only	归档本地项目并仅继续使用云端项目
+WelcomeWizardDialog_convertProjectsSelectionSqliteTitleInfoLabel	All projects will be saved on your computer or on a network drive.	所有项目都将保存在您的计算机或网络驱动器上。
+PersonDetailEditor_firstNameLabel	First name:	名字：
+UltraGridColumnChooser_hideButton	Remove	移除
+FontStyleEditorControl_underlineCheckBox	Underline	下划线
+PageSetupControl_paperWidthLabel	Width:	宽度：
+LookupLocationsDialog_applyButton	Save locations	保存位置
+BibliographyGrouping_ModifiedByAll	All entries in <i>Modified by</i>	<i>修改者</i>中的所有条目
+KnowledgeItemTextForm_keywordsLabel	Keywords:	关键词：
+QuitCitaviDialog_quitRadioButton_2	Exit Citavi now to install the update	立即退出 Citavi 以安装更新
+BibliographyGrouping_PeriodicalAll	All periodicals	所有期刊
+CloudProjectMembersDialog_inviteUsersDescriptionLabel	Add message	添加消息
+PreviewControl_knowledgeItemHasNoFileTitleLabel	No files are linked to this knowledge item.	没有文件链接到此知识条目。
+AllKnowledgeItems	All knowledge items	所有知识条目
+ParagraphFormatControl_spacingAfterLabel	After:	之后：
+SearchForm_showFullTextHitInPreviewButton	Show	显示
+NumberOfLocationsLabelNone	No locations	无位置
+notesLabel	Notes:	备注：
+ExportWizardDialog_bibTeXExportTransformerPersonNameSequenceLabel	Order of person names:	人名顺序：
+SaveProjectAsNewDesktopLocalProject_Progress_ProtectProject	Protecting project…	正在保护项目…
+FullTextListForm_extractSelectedRadioButton	The {0:selected file|{0} selected files}	
+NavigationControl_referencesButton	References	文献条目
+PageSetupDialog_headerMarginLabel	Header:	页眉：
+LicenseDialog_proTeamReaderTitleLabel	You are using <span style="font-weight:bold;">{0}</span>.	您正在使用 <span style="font-weight:bold;">{0}</span>。
+KeyItemPersonDropDownForm_person1FristNameCharCountLabel	Abbreviate first name to n characters:	将名字缩写为 n 个字符：
+CriteriaAdvanced_Invert	Invert criterion	反转条件
+UngroupedReferencesSettingsForm_positionLabel	Position	位置
+OptionsDialog_diagnosticsGroupBox	Diagnostics	诊断
+LocationForm_BatchAssignLabelText	The new location will be assigned to {0} selected references.	新位置将分配给选定的 {0} 篇参考文献。
+SaveProjectAsNewDesktopLocalProject_Progress_CopyProjectFolders	The project folder was created.	项目文件夹已创建。
+SearchFieldDropDownForm_infoButton	Details…	详细信息…
+LookupLocationsDialog_opacLabel	Search in:	搜索范围：
+LicenseDialog_Header_LicenseAgreement	License agreement	许可协议
+ImportExportWizard_saveCodePageOrPersonNamesCheckBox	Save for current session	保存以供当前会话使用
+SortReferencesCustomDialog_clearResetButton	Clear	清除
+DbServerConnectionDialog_usersLabel	Active users:	活动用户：
+MainForm_taskPlannerAssignedToGroupLabel	Assigned …	已分配 …
+BackgroundTaskErrorDialog_closeProjectActionLabelText	Close the project. Recent changes that were not saved will be lost.	关闭项目。未保存的最新更改将会丢失。
+CorrectPathsDialog_replaceLabel	Replace with:	替换为：
+WelcomeWizardDialog_noInternetConnectifityTitleInfoLabel	Your computer is not connected to the Internet. We recommend connecting in order to enable all setup options.	您的计算机未连接到 Internet。建议连接以启用所有设置选项。
+CharacterFormatControl_smallCapsCheckEditor	Small caps	小型大写字母
+SearchForm_saveSavedSearchButton	Save search	保存搜索
+OptionsDialog_showFontNamesInFontCheckBox	Show fonts in their own typefaces	以其自身字体显示字体
+PreviewControl_ConnectionIsBeingEstablished	Connecting to server…	正在连接到服务器…
+ProjectPropertiesDialog_useRelativePathsCheckBox	Use relative paths	使用相对路径
+CriteriaYear_To	To	至
+TabQuotation_New	New	新建
+LicenseDialog_supportCodeLabel	Support code:	支持代码：
+CreateCompilationDialog_resampleImagesInRtfCheckBox	Reduce resolution of images	降低图像分辨率
+BookstoreFavoriteDialog_criteriaLabel	Name:	名称：
+ReferenceGridColumnsForm_showButton	Add	添加
+PreviewControl_noPreviewTitleLabel	No item is selected, or the selected item is currently open for editing in another window.	未选择任何项目，或者所选项目当前正在另一个窗口中编辑。
+OptionsImportExportDialog_exportOrderByEMailCheckBox	E-mail addresses for orders	用于订单的电子邮件地址
+LicenseDialog_requestFreeLicenseDataInfoLabel	If your organization has purchased a site license for Citavi, you can usually obtain a license key for Citavi for Windows at no cost. Find out <a href="http://www.citavi.com/sitelicenses"> how you can acquire a Citavi license at your organization</a>.	如果您的组织已购买 Citavi 的站点许可证，您通常可以免费获得 Citavi for Windows 的许可证密钥。了解<a href="http://www.citavi.com/sitelicenses">如何在您的组织中获取 Citavi 许可证</a>。
+WelcomeWizardDialog_cloudProjectsTitleLabel	Save as Citavi 6 project in the cloud	在云端另存为 Citavi 6 项目
+DirectImportDialog_openFileDialogButton	Other project…	其他项目…
+LicenseDialog_goToUpgradeCheapText	<a href="citaviweb.citavi.com/my-shop">Purchase an upgrade at a discounted price</a>	<a href="citaviweb.citavi.com/my-shop">以优惠价格购买升级</a>
+HelpInformationForm_deleteHelpFile3Button	Delete…	删除…
+QuitCitaviDialog_createBackupCheckBox	Create backups of all projects with changes	为所有有更改的项目创建备份
+CreateCompilationDialog_compositionTitleLabel	Select the format of the compilation:	选择汇编的格式：
+CreateBibliographyDialog_copyToClipboardLabel	Copy to Clipboard	复制到剪贴板
+LookupReferenceIdentifierDialog_clipboardRadioButton	Text from Clipboard	来自剪贴板的文本
+CreateBibliographyDialog_bibliographyRadioButton	Simple bibliography	简单参考文献目录
+QuitCitaviDialog_updateTitle3Label_2	The update will be installed when you exit Citavi.	退出 Citavi 时将安装更新。
+CitationStyleFavoriteDialog_advancedSearchFullReferenceJournalArticleTitleFormatLabel	How are journal article titles formatted in bibliography entries?	参考文献条目中期刊文章标题的格式是怎样的？
+CreateBibliographyDialog_groupsOptionsLabel	Options…	选项…
+SeriesTitleForm_userAbbreviation2Label	Abbreviation 3:	缩写 3：
+NumberOfTasksLabel_Smart	{0:1 task|{0} tasks}	
+CopyOrMoveToProjectWizard_selectionLabel	Which references do you want to include?	您想包括哪些参考文献？
+FontStyleEditorControl_sameAsPreviousRadioButton	Same as previous style	与上一样式相同
+OptionsDialog_resetWarningsGroupBox	Program warnings	程序警告
+BackgroundTasksDialog_GroupRowDescription	Project: {0}	项目：{0}
+ConvertProjectsDialog_DefaultProjectFolder	[Default]	[默认]
+WelcomeWizardDialog_convertProjectsSelectionCloudTitleInfoLabel	All projects will be saved in the Citavi Cloud (Germany).	所有项目都将保存在 Citavi 云（德国）中。
+PageSetupControl_bottomMarginLabel	Top:	上：
+OptionsDialog_largeIconsCheckBox	Use large toolbar	使用大型工具栏
+OptionsDialog_userNameLabel	For local projects	适用于本地项目
+SortReferencesCustomDialog_sort1DescendingRadioButton	descending	降序
+ReferenceGridColumnsForm_selectedColumnsLabel	Selected columns:	已选列：
+GroupsEditorDefaultText	Type to enter groups	输入以进入分组
+ReplacementListDialog_Column_ReplaceBy	With this	用此
+SortReferencesCustomDialog_sort4DescendingRadioButton	descending	降序
+PdfExportDialog_exportToExistingFileRadioButton	To the existing {0:file|files}	
+OptionsDialog_autoDownloadCoverFromLehmannCheckBox	Include cover art	包括封面图
+issnLabel	ISSN:	ISSN：
+ImportFieldMappingEditor_citaviFieldLabel	Field in Citavi:	Citavi 中的字段：
+BibliographyGroupingEditor_CategoryAll_None	References without a category	不含类别的参考文献
+StartPage	Homepage	主页
+Tabs_Knowledge_NoCoreStatement	[No core statement]	[无核心论点]
+ActivateOfflineModeDialog_titleLabel	Go offline	离线
+ReferenceTypeSelectionDialog_currentReferenceTypeLabel	Current	当前
+BibliographyGroupingForm_AllReferenceProperty	All entries in this field with their references	此字段中所有条目及其参考文献
+ProjectPropertiesDialog_Statistics_AllTasks	All tasks	所有任务
+CitationStyleFavoriteDialog_searchLabel	Search for:	搜索：
+ProxyConfigurationDialog_windowsProxyUserNameLabel	Username:	用户名：
+BackgroundTaskErrorDialog_licenseLimitationExceededGoToShopDBServerLabel	With your <span style="font-style:italic;">Citavi Free license</span> you can work with up to 100 references. To continue working with Citavi, purchase a license key for <span style="font-style:italic;">Citavi for DBServer</span>. <br/>To enable the license you will need to <span style="font-weight:bold;">restart Citavi</span>.	使用您的<span style="font-style:italic;">Citavi Free 许可证</span>最多可以处理 100 篇参考文献。要继续使用 Citavi，请购买 <span style="font-style:italic;">Citavi for DBServer</span> 的许可证密钥。<br/>要启用该许可证，您需要<span style="font-weight:bold;">重启 Citavi</span>。
+OptionsDialog_laTeXNewLineLabel	Line break command	换行命令
+NavigationBar_Knowledge	Knowledge	知识
+SearchForm_closeParenthesisLabel	)	
+CharacterFormatControl_doubleUnderlineCheckEditor	Double underline	双下划线
+ProxyConfigurationDialog_windowsProxyPasswordLabel	Password:	密码：
+CreateCompilationDialog_SelectedRadioButton_Quotation	The selected quotation	所选引文
+CreateCompilationDialog_SelectedRadioButton_Subheading	The selected subheading	所选子标题
+BibliographyGrouping_PublisherAll_None	(Without publisher)	（无出版商）
+LicenseDialog_loginNowText	<a href="login">Login now</a>	<a href="login">立即登录</a>
+BibliographyGrouping_CustomField9All_None	(Without Custom field 9)	（无自定义字段 9）
+LicenseDialog_oneOreMoreLicensesAreAboutToExpireText	One or more of your licenses will expire soon. If you do not have another valid license or purchase a new license, Citavi will not work anymore.	您的一个或多个许可证即将到期。如果您没有其他有效许可证或购买新许可证，Citavi 将无法继续使用。
+WelcomeWizardDialog_createAccountNotOkTitleInfoLabel	Can we help you?	需要我们帮助吗？
+BibliographyGrouping_PersonAll_None	(Without author, editor, or organization)	（无作者、编者或组织）
+OnlineSearchCredentialConfigurationDialog_changeButton	Change	更改
+ProxyConfigurationDialog_customProxyUserNameLabel	Username:	用户名：
+MainForm_TaskPlanner_ImportantTasks_ToolTipText	All tasks with Importance set to "High".	重要性设置为“高”的所有任务。
+BibliographyGroupingEditor_PersonAll_None	References without author, editor, or organization	无作者、编者或组织的参考文献
+BibliographyGrouping_CustomField2Single	References with <i>{0}</i> in Custom field 2	自定义字段 2 中包含 <i>{0}</i> 的参考文献
+AcceptImportDialog_referencesLabel	Select the references you want to import:	选择要导入的参考文献：
+OrganizationSettingsExportDialog_updateOrganisationSettingLinkLabel	Update organizational settings...	更新组织设置...
+PeriodicalForm_paginationLabel	Pagination:	分页：
+SeriesTitleForm_userAbbreviation1Label	Abbreviation 2:	缩写 2：
+SearchFieldDropDownForm_filterLabel	Find field:	查找字段：
+BatchApplyOrRemoveGroupsDialog_referencesOrKnowledgeItemsLabel	{0} references and knowledge items selected	已选择 {0} 条文献和知识条目
+CharacterFormatControl_subscriptCheckEditor	Subscript	下标
+LookupFullTextDialogEx_ezProxyLoginMsgBox	Log in to {0} to access to full-text downloads provided by your university or organization.	登录 {0} 即可访问您所在大学或机构提供的全文下载。
+OnlineSearchCredentialDialog_checkLabel	The test can take up to 30 seconds.	测试最多需要 30 秒。
+ProjectPropertiesDialog_Statistics_KnowledgeItemText	Text	文本
+ProjectPropertiesDialog_Statistics_KnowledgeItemFile	File	文件
+BibliographyGrouping_SeriesTitleSingle	References in the series <i>{0}</i>	丛书 <i>{0}</i> 中的文献
+DbServerConnectionDialog_testConnectionSucceededLabel	The connection test was successful	连接测试成功
+DesktopAlert_ClipboardError_Caption	Copying failed	复制失败
+CloudChangeProjectRoleDialog_projectRoleAuthorDescriptionLabel	Authors can make changes to project information	作者可以修改项目信息
+PageSetupDialog_topMarginLabel	Top:	上：
+BibliographyGrouping_ReferenceTypeSingle	References with reference type <i>{0}</i>	文献类型为 <i>{0}</i> 的文献
+ProjectPropertiesDialog_autoRenameSeparatorLabel	Separator:	分隔符：
+BibliographyGrouping_UngroupedReferencesDescription	Remaining references	剩余文献
+LookupReferenceIdentifierDialog_fileImportRadioButton	Import file	导入文件
+KnowledgeItemSmartRepeaterRow_ChainButtonBroken_ToolTipText	Link to highlighted section in PDF	链接到 PDF 中高亮的区域
+BibliographyGrouping_TaskAll_None	(Without task)	（无任务）
+PdfExportDialog_browseButton	Browse	浏览
+PreviewControl_saveLocalCopy	Save a copy in the project	在项目中保存副本
+LicenseDialog_dbServerNoLicenseLabel	Citavi is connected to the DBServer. However, no valid license could be found.	Citavi 已连接到 DBServer。但未找到有效许可证。
+HelpInformationForm_citaviHelpFolderLabel	Folder for Citavi Quick Help files:	Citavi 快速帮助文件文件夹：
+BibliographyGroupingForm_SingleSavedSearch	References in this saved search:	此保存的检索中的文献：
+PreviewControl_fileEntryPageSkipEntryPageLabel	Always preview this location immediately	始终立即预览此位置
+ExportWizardDialog_bibTeXExportTransformerTextFormatLabel	Text encoding:	文本编码：
+SearchForm_contextMenuButton	More actions	更多操作
+CopyOrMoveToProjectWizard_targetLabel	Which project do you want to copy the references to?	您想将文献复制到哪个项目？
+OrganizationSettingsImportDialog_organizationSettingsTitleLabel	You can access the following settings:	您可以访问以下设置：
+FullTextForm_saveButton	Save	保存
+AdditionalCriteria	Additional criteria	附加条件
+SearchForm_quickSearchStartButton	Search	搜索
+SortReferencesCustomDialog_sort3DescendingRadioButton	descending	降序
+BatchApplyOrRemoveKeywordsDialog_referencesOrKnowledgeItemsLabel	{0} references and knowledge items selected	已选择 {0} 条文献和知识条目
+LookupLocationsDialog_titleLabel	Find library locations	查找图书馆位置
+OptionsDialog_laTeXCiteLabel	Cite command:	引用命令：
+OrganizationSettingsExportDialog_newOrganisationSettingLinkLabel	Create organizational settings...	创建组织设置...
+CreateProjectDialog_progressiveDisclosureLabel	Your project will be saved in the folder {0}. We recommend saving all projects here. \r\nYou can also {1} your project (for example on a USB flash drive if you want to work on another computer).	您的项目将保存在文件夹 {0} 中。建议将所有项目都保存在此处。\r\n您也可以{1}您的项目（例如，如果您想在另一台计算机上工作，可保存到 U 盘）。
+ProjectPropertiesDialog_TabControl_Project	Description	描述
+CorrectPathsDialog_searchLabel	Find:	查找：
+OrganizationSettingsExportDialog_adminDescriptionLabel	You can centrally configure many Citavi program options. All the settings you make will be automatically distributed to all users who are connected to the DBServer the next time Citavi is started. Learn more in the <a href="https://www.citavi.com/c6prg/deploy-settings"> Citavi manual</a>.	您可以集中配置许多 Citavi 程序选项。下次启动 Citavi 时，您所做的所有设置将自动分发到所有连接到 DBServer 的用户。有关详细信息，请参阅 <a href="https://www.citavi.com/c6prg/deploy-settings"> Citavi 手册</a>。
+WelcomeWizardDialog_convertProjectsTitleInfoLabel	Select the Citavi {0} projects that you would like to convert to Citavi 6 format. <span style="font-style:italic;">Citavi creates copies of your projects and then converts the copies. Your original projects remain unchanged.</span><br/>Projects you don't want to convert or projects from older versions can be converted later on by opening them with Citavi 6.	选择您要转换为 Citavi 6 格式的 Citavi {0} 项目。<span style="font-style:italic;">Citavi 会创建您项目的副本，然后转换这些副本。您的原始项目保持不变。</span><br/>不想转换的项目或较旧版本的项目可稍后通过 Citavi 6 打开它们来进行转换。
+KnowledgeItemComment_coreStatementLabelPlaceholder	Your own opinion or evaluation	您自己的观点或评价
+MainForm_TaskPlanner_CurrentTasks_ToolTipText	Overdue tasks are also included.	逾期任务也包括在内。
+OnlineSearchDialogEx_searchButton	Search	搜索
+ReferencesTabControlCollapsedText	References	文献条目
+KeyItemConfigurationDialog_twoPersonsName2Label	Second person:	第二人称：
+BackgroundTaskErrorDialog_contactSupportActionLabelText	Please contact the Citavi support team.	请联系 Citavi 支持团队。
+KnowledgeItemTextForm_coreStatementLabel	Core statement:	核心陈述：
+ImportWizardDialog_personNameParseSettingsLabel	Set order to:	将顺序设置为：
+ImportWizardDialog_endNoteFieldLabel	EndNote field	EndNote 字段
+BackgroundTasksDialog_NoRunningTasksLabel	Citavi is not running any tasks currently	Citavi 当前没有运行任何任务
+ImportForm_newImportButton_Online	Search again	重新检索
+BackroundTaskErrorDialog_unknwonErrorRetryLabel	Go to the <a href="https://www.citavi.com/forum">Citavi Forum</a> to check if the error is discussed there and what the Citavi support team recommends. <br/>If you could fix the problem click <span style="font-weight:bold;">Retry</span>.	请访问 <a href="https://www.citavi.com/forum">Citavi 论坛</a>，查看是否有人讨论过该错误以及 Citavi 支持团队的建议。<br/>如果您能解决问题，请点击 <span style="font-weight:bold;">重试</span>。
+PdfExportDialog_chooseLocationRadioButton	To a new file or files in the following location:	保存到以下位置的新文件：
+BibliographyGrouping_CustomField1All_None	(Without Custom field 1)	（无自定义字段 1）
+LicenseDialog_usernameLabel	User name:	用户名：
+ProjectPropertiesDialog_fileNameLabel	Path:	路径：
+ImportWizardDialog_customTransformerHelpContextLabel	Quick Help text:	快速帮助文本：
+BibTeXExportForm_useLaTeXCheckBox	Use LaTeX notation	使用 LaTeX 表示法
+CreateCompilationByKeywordDialog_compositionTitleLabel	Select the format of the list:	选择列表格式：
+DbServerManager_Licensing	Licensing	许可
+OptionsDialog_autoSaveCheckBox	Save changes automatically	自动保存更改
+MainForm_taskPlannerSaveSearchLinkLabel	Save selection	保存选择
+SearchEditorDefaultText	Enter search text …	输入检索文本…
+BibTeXExportForm_mergeTitleFieldsShortTitleLabel	Separator:	分隔符：
+CloudProjectMembersDialog_inviteProjectMemberButton	Invite	邀请
+BibliographyGroupingEditor_YearResolvedAll_None	References without year derived	无派生年份的文献
+ReplacementListDialog_Column_SearchFor	Replace this	替换此项
+AcceptLicenseButton	Accept	接受
+PreviewControl_pdfPasswordTitleLabel	Enter password:	输入密码：
+CloudProjectMembersDialog_changeProjectRoleButton	Change role…	更改角色…
+LookupFullTextDialogEx_searchButton	Search	搜索
+LicenseDialog_expiryDateLabel	Activated until:	激活截止日期：
+NewImportDialog_addImportSessionButton_Online	Add to existing results	添加到现有结果
+CreateBibliographyOptionsDialog_printNumberOfReferencesCheckBox	Include number of references (for example "Book (23 references)")	包含文献数量（例如“图书（23 篇文献）”）
+UngroupedReferencesSettingsForm_bottomRadioButton	At the end	在末尾
+ReferenceTypeSelectionDialog_dropInfoTextEditor	Drag reference types here to add them to your favorites.	将文献类型拖到此处以添加到收藏夹。
+QuitCitaviDialog_updateTitleLabel_2	Citavi Update	Citavi 更新
+TaskItemForm_importanceHighLabel	High	高
+BookstoreFavoriteDialog_addImageButton	Add	添加
+KeyConfigurationDialog_autoUpdateCheckBox	Update automatically	自动更新
+CriteriaPeriodicals	Periodicals	期刊
+SupportInformationDialog_copyToClipboardButton	Copy to the Clipboard	复制到剪贴板
+CriteriaReferenceType	Reference type	文献类型
+BookstoreFavoritesDialog_selectedLabel	Selected	已选
+MainForm_sourceEntityLinksTitleLabel	This reference links to:	此文献链接到：
+BibTeXExportForm_deleteButton	Delete	删除
+SortReferencesCustomDialog_sortAscendingRadioButton	ascending	升序
+HelpInformationForm_helpContextLabel	Name of help context:	帮助上下文名称：
+OrderedListDialog_segregatingTextLabel	Space characters:	空格字符：
+PreviewControl_knowledgeItemHasNoFileAddLabel	Add file	添加文件
+PreviewControl_orDragFile	or drag a file to this area:	或将文件拖到此处：
+BookstoreFavoriteDialog_availableLabel	Found:	找到：
+Offline_Connected	Connected	已连接
+TabContent_Rating	Evaluation	评估
+ExportWizardDialog_bibTeXExportTransformerSaveYesRadioButton	Save as:	另存为：
+BookstoreFavoriteDialog_cultureLabel	Country/region:	国家/地区：
+FullTextListForm_extractNotExtractedRadioButton	The {0:file not yet processed|{0} files not yet processed}	
+MainForm_categoriesLabel	Categories	分类
+CitaviUpdateDialog_titleLabel	Citavi Update	Citavi 更新
+LoginDialog_userNameLabel	User name:	用户名：
+KeyItemConfigurationDialog_lowercaseCheckBox	Lowercase	小写
+KeywordsSearchPlaceholder	Search keywords...	检索关键词...
+BibliographyGrouping_CustomField5Single	References with <i>{0}</i> in Custom field 5	自定义字段 5 中含 <i>{0}</i> 的文献
+KeywordForm_nameLabel	Name:	名称：
+WelcomeWizardDialog_convertProjectsSelectionCloudTitleLabel	Citavi Cloud	Citavi Cloud
+ShowTextPosition	Show text position	显示文本位置
+ExportWizardDialog_saveDataExchangePropertyNoRadioButton	Don't save	不保存
+DbServerManager_Name	Name	名称
+OptionsImportExportDialog_exportBookstoreCheckBox	Online booksellers	在线书店
+SearchReplaceForm_replaceAllButton	Replace &all	全部替换
+OptionsDialog_openUrl_Add_Button	Select	选择
+SearchForm_showFullTextHitInFullScreenButton	Open in full screen	全屏打开
+CharacterFormatControl_fontNameLabel	Font name:	字体名称：
+DbServerConnectionDialog_projectsLabel	Your projects:	您的项目：
+BookstoreFavoriteDialog_nothingFoundLabel	No results for the above criteria.	没有符合上述条件的结果。
+ExportWizardDialog_bibTeXExportTransformerUseBibLaTeXCheckBox	Use BibLaTeX package	使用 BibLaTeX 宏包
+OptionsDialog_openUrlGroupBox	Online resource access	在线资源访问
+BibliographyGroupingSetsForm_AddSectionsPlaceholder	Add sections to group the bibliography	添加分部以对参考文献分组
+Subheading	Subheading	副标题
+PreviewControl_imageViewerShowLabel	Show in preview pane	在预览窗格中显示
+PreviewControl_fileEntryPageShowLabel	Show in preview pane	在预览窗格中显示
+FileDialog_copyRadioButton_Files	Copy into the Citavi project	复制到 Citavi 项目中
+LicenseDialog_supportCodeCopyToClipboardLabel	Copy to Clipboard	复制到剪贴板
+CitationStyleFavoriteDialog_resultsTitleLabel	Results	结果
+BackgroundTaskDialog_statusBarPanelUnsafedChanges	{0} unsaved changes. Do not close Citavi.	{0} 项未保存的更改。请勿关闭 Citavi。
+ChooseReferenceDialog_instructionLabel_AssignIndirectQuotationToReference	Assign the new indirect quotation to a reference.	将新的间接引语分配给文献。
+OptionsDialog_publicationAssistantKnowledgeItemDoubleClickActionLabel	… knowledge item:	…知识条目：
+KnowledgeItemTextForm_pageRangeLabel	Page range:	页码范围：
+KeyItemConfigurationDialog_periodicalFallbackCheckBox	Fall back to next available name	回退到下一个可用名称
+ConvertToUtcDialog_moreInformationButton	More information	更多信息
+ReferenceGridGroupsForm_ungroupButton	Remove	移除
+BibliographyGroupingForm_captionLabel	Heading	标题
+ExportWizardDialog_onlineExportPasswordLabel	Password:	密码：
+CloudProjectMembersDialog_removeMemberButton	Remove…	移除…
+OpenProjectDialog_accountLoginButton	Log in	登录
+ApplyGroupsForm_allGroupsLabel	All groups	所有组
+KeyItemConfigurationDialog_periodicalAbbreviation3RadioButton	Abbreviation 3	缩写 3
+RecycleBinCapacityExceededMessageBox_titleLabel	Too Many Items	项目过多
+yesButton	Yes	是
+CitationStyleFavoriteDialog_availableLabel	Found:	找到：
+CreateProjectDialogEx_sqliteProjectDescriptionLabel_Disabled	Your system adminstrator has configured Citavi in such a way that you cannot create local projects.	您的系统管理员对 Citavi 进行了配置，使您无法创建本地项目。
+PageSetupControl_leftMarginLabel	Left:	左：
+WelcomeWizardDialog_convertProjectsSelectionIndividuelTitleInfoLabel	Choose which projects should be saved on your computer or in the cloud.	选择哪些项目应保存在您的计算机上或云端。
+SearchForm_addRowLabel	Add condition	添加条件
+MacroEditor_infoTabControl_ErrorList	Error list	错误列表
+NoReferencesFound	No references found.	未找到文献。
+NumberOfQuotationsLabel_Smart	{0:1 quotation|{0} quotations}	
+CriteriaTasks	Tasks	任务
+CriteriaKeywords	Keywords	关键词
+ParagraphFormatDialog_spacingBeforeLabel	Before:	之前：
+CitaviAccountLoginDialog_loginButton	Log in	登录
+PageSetupControl_topMarginLabel	Top:	上：
+userAbbreviation2RadioButton	Abbreviation 3	缩写 3
+DataExchangePropertyConfigurationDialog_deleteButton	Delete	删除
+ExportWizardDialog_bibTeXExportTransformerMergeTitleFieldsShortTitleLabel	Separator:	分隔符：
+BibTeXExportForm_customizeCheckBox	Customize export definition	自定义导出定义
+OptionsDialog_defaultFontForRtfNameLabel	Font:	字体：
+LicenseDialog_helpButtonText	About Citavi licenses	关于 Citavi 许可证
+ComplexTextEditWarning	The text editor is in read-only mode due to complex content. Click here to allow editing.	由于内容复杂，文本编辑器处于只读模式。点击此处以允许编辑。
+MainForm_evaluationLabel	Evaluation	评估
+AssignTaskDialog_titleLabel	Assign task	分配任务
+EntityLinkForm_titleLabel	Link	链接
+CriteriaMarks	Labels	标签
+Tabs_MoreTab	More...	更多...
+KeyItemPersonDropDownForm_person1NameFormatLabel	Order of names:	姓名顺序：
+CreateCompilationDialog_filteredRadioButton	Knowledge items in the current selection	当前选择中的知识条目
+CitationStylePreviewControl_footnoteCitationLabel	Footnote citation	脚注引用
+LookupFullTextDialogEx_titleLabel	Find full text	查找全文
+BibliographyGrouping_CustomField2All_None	(Without Custom field 2)	（无自定义字段 2）
+MainForm_taskPlannerCreatedOnLabel	… before/on:	…在之前/当天：
+LocationForm_callNumberLabel	Call number:	索书号：
+DesktopAlert_Caption_Error	An error has occurred in Citavi	Citavi 中发生错误
+MassReferenceIdentifierDownloadDialog_clipboardRadioButton	Text from Clipboard	来自剪贴板的文本
+LocalFileMoreOptionsDialog_defaultGroupBox	Default	默认
+editLabel	Edit	编辑
+FullTextListForm_mainGrid_ShortTitleHeaderCaption	Reference	参考文献
+FullTextForm_titleLabel	Full text	全文
+AddButtonEllipsis	Add…	添加…
+WelcomeWizardDialog_welcomeStartButton	Let's go	开始吧
+OptionsDialog_openUrl_Manuel_RadioButton	Enter URLs manually	手动输入 URL
+KnowledgeItemFileForm_groupsLabel	Groups:	组：
+WelcomeWizardDialog_ceipYesDescriptionLinkLabel	If errors occur, Citavi sends technical information to our server.&edsp;<br/>We <span style="font-style:italic;">cannot guarantee</span> that only anonymous information is sent. For example, a file path that is sent to us because of an error could contain the name of the current user. We do not collect this information and we never use it for any other purpose than error analysis.<br/>In addition to error information we also send statistical data that can help us improve Citavi, for example, the average project size. This information is always anonymous.	如果发生错误，Citavi 会将技术信息发送到我们的服务器。&edsp;<br/>我们<span style="font-style:italic;">无法保证</span>发送的信息都是匿名的。例如，因错误而发送给我们的文件路径可能包含当前用户的名称。我们不会收集这些信息，也绝不会将其用于错误分析以外的任何目的。<br/>除错误信息外，我们还会发送有助于我们改进 Citavi 的统计数据，例如平均项目大小。这些信息始终是匿名的。
+CitationStyleFavoriteDialog_advancedSearchShortReferenceTypeLabel	What format do in-text citations or footnotes have?	文内引用或脚注采用什么格式？
+ReferenceGridGroupsForm_allColumnsRadioButton	All fields	所有字段
+BibTeXKeyDialog_createCurrentLabel	Generate BibTeX key for current reference	为当前文献生成 BibTeX 键
+OptionsDialog_openUrl_BackOffice_RadioButton	University or organization:	大学或机构：
+SortReferencesCustomDialog_clearResetButton_Reset	Reset	重置
+NumberingTypeDialog_numberingTypeLabel	Type	类型
+KnowledgeItemCoreStatementDialog_autoRadioButton_Image	The caption generated automatically:	自动生成的题注：
+KeywordsButton_ToolTipText	Open keywords form	打开关键词表单
+ReplacementListDialog_showWhitespaceCharacterNamesCheckBox1	Show non-printable characters	显示不可打印字符
+ProjectPropertiesDialog_autoRenameCheckBox	Automatically rename Citavi attachments	自动重命名 Citavi 附件
+BibliographyGroupingForm_AllCategories	All categories with their references	所有分类及其文献
+ChooseReferenceDialog_instructionLabel_AssignEntityLinkToReference	Assign the new link to a reference.	将新链接分配给文献。
+ImportExportWizard_customizeButton	Add import filter…	添加导入过滤器…
+ExportWizardDialog_bibTeXExportTransformerUseBracesCheckBox	Place capital letters in braces	将大写字母放在花括号中
+OptionsImportExportDialog_exportCitationStyleCheckBox	Citation styles	引用样式
+LookupFullTextDialogEx_addURLRadioButton	Save links to full text	保存全文链接
+OrganizationSettingsImportDialog_openFromUriLabel	Enter path or URL manually	手动输入路径或 URL
+SplitterTrigger_Knowledge_Left	Criteria	条件
+TabContent_Categories	Categories	分类
+OptionsDialog_teXCheckBox	LaTeX support	LaTeX 支持
+MathEditorForm_FileExit	Close	关闭
+ReferenceIdentifierDownloadOptionsDialog_coverDownloadCheckBox	Include cover art	包括封面图
+PreviewControl_locationHasInvalidAddressInfoEditor	{0} is not a valid path or Internet address.	{0} 不是有效的路径或 Internet 地址。
+CitaviAccountLoginDialog_createAccountLabel	Create new account…	创建新账户…
+MainForm_targetEntityLinksTitleLabel	This reference is linked from:	此文献被以下文献链接：
+LicenseDialog_organisationSettingsAdminText	Special license for managing settings for your organization	用于管理您组织设置的特殊许可证
+BibliographyGroupingForm_suppressCheckBox	Omit references from bibliography	从参考文献中排除文献
+TracingActivated_SendData	Send activity log	发送活动日志
+SeriesTitleForm_nameLabel	Name:	名称：
+CopyOrMoveToProjectWizard_targetProjectEditor_NewProject	New project: {0}	新项目：{0}
+SaveProjectAsNewDesktopLocalProject_Progress_CopyProjectTemporarily	Creating temporary copy of project…	正在创建项目的临时副本…
+BibliographyGrouping_YearResolvedAll	All entries in <i>Year derived</i>	<i>派生年份</i>中的所有条目
+PrepareProjectForCloudUploadDialog_missingFilesInfoLabel	One or more files for upload could not be found.	找不到一个或多个要上传的文件。
+SplitKeywordsDialog_semiColonCheckBox	Semicolon	分号
+CitationStyleFavoriteDialog_cultureLabel	Language:	语言：
+suffixLabel	Suffix:	后缀：
+MassReferenceIdentifierDownloadDialog_isbnTextRadioButton	Manual entry	手动输入
+LibraryForm_nameLabel	Name:	名称：
+ProjectDetailsControl_sqliteAttachmentsPathInfoLabel	Please note: You can change the path for attachments if you open the project and then click  File > This project Project > Properties.	请注意：如果您打开项目，然后点击 文件 > 此项目 > 属性，即可更改附件的路径。
+ProxyConfigurationDialog_expect100ContinueCheckBox	Compatibility mode for HTTP 1.0 proxies	HTTP 1.0 代理的兼容模式
+SearchReplaceForm_StatusBarAll_Matches	Search all {0} references in this project – {1:1 reference|{1} references} found	
+MainForm_taskPlannerCreatedByLabel	… by:	…按：
+KnowledgeItemFileForm_keywordsLabel	Keywords:	关键词：
+SavedSearches	Saved searches	已保存的检索
+SearchForm_saveSearchButton	Save search	保存搜索
+OptionsDialog_configureCitationKeyButton	Customize citation keys…	自定义引用键…
+CharacterFormatControl_underlineCheckEditor	Underline	下划线
+TaskItemForm_titleLabel_ProjectTask	Project task	项目任务
+Offline_ConnectionAttemptFailed	Connection attempt failed	连接尝试失败
+FileDialog_linkRadioButton	Link the file, but don't move it (not recommended)	链接文件但不移动它（不推荐）
+WelcomeWizardDialog_legacyProjectsTitleLabel	Citavi {0} projects	Citavi {0} 项目
+ReferenceIdentifierDownloadOptionsDialog_overrideReferenceRadioButton	Replace bibliographic information	替换书目信息
+ClrExceptionDialog_saveChangesCheckBox	Save unsaved changes in all projects	保存所有项目中未保存的更改
+WelcomeWizardDialog_noInternetConnectifityIgnoreLabel	I want to continue without an Internet connection.	我想在没有 Internet 连接的情况下继续。
+DbServerConnectionDialog_testConnectionButton	Test connection	测试连接
+WelcomeWizardDialog_accountTitleLabel	Log in to your Citavi Account	登录您的 Citavi 账户
+LicenseDialog_facebookLabel	Find us on Facebook	在 Facebook 上找到我们
+ExportWizardDialog_bibTeXExportTransformerMaxFieldLengthCheckBox	Limit fields to 1000 characters	将字段限制为 1000 个字符
+CharacterFormatControl_superscriptCheckEditor	Superscript	上标
+OptionsDialog_installSetupBetaLabel	Install one-time update to current beta version.	安装当前 Beta 版本的一次性更新。
+CreateCompilationDialog_currentCategoryRadioButton_NoCategories	Knowledge items without categories	无分类的知识条目
+DbServerCurrentUsersDialog_UserIdColumnHeaderText	User	用户
+CloudProjectMembersDialog_projectRoleLabel	Role:	角色：
+BibliographyGroupingEditor_ModifiedByAll_None	References without modified by	无修改者的文献
+BibliographyGrouping_ModifiedByAll_None	(Without Modified by)	（无修改者）
+OptionsDialog_proxyConfigurationButton	Proxy settings…	代理设置…
+BibliographyGroupingEditor_CustomField7All_None	References without Custom field 7	自定义字段 7 为空的文献
+ConvertDirectQuotation_HelpTextTitle	Hint	提示
+SearchForm_extendedSearchStartButton_NewSearch	New search	新建检索
+PdfWpfViewer_searchFoundLabel	Results:	结果：
+UltraGridColumnChooser_titleLabel	Choose columns	选择列
+ParagraphFormatDialog_firstLineIndentationLabel	First line:	首行：
+AddOnsForm_installedAddOnsButton	Installed	已安装
+KeyItemPersonDropDownForm_lastNameRadioButton	Last name only	仅姓氏
+CopyOrMoveToProjectWizard_CustomFields	Custom fields	自定义字段
+ControlTexts.ProjectDetailsControl_sqlserverManagersLabel	Manager:	管理器：
+BibliographyGrouping_CustomField8Single	References with <i>{0}</i> in Custom field 8	自定义字段 8 中含 <i>{0}</i> 的文献
+ProjectPropertiesDialog_deleteUnusedItemsButton	Delete unused items…	删除未使用的项目…
+ExceptionDialog_sendButton	Send email with error report	发送带错误报告的电子邮件
+ReferenceDuplicateSettingsDialog_compareTheseFieldsLabel	Compare the following fields:	比较以下字段：
+BibTeXExportForm_useLaTeXUrlCheckBox	Use URL package	使用 URL 包
+ParagraphFormatDialog_leftIndentationLabel	Left:	左：
+OptionsImportExportDialog_exportTransformerFavoritesCheckBox	Export filters	导出过滤器
+BibliographyGroupingForm_AllSeriesTitles	All series titles with their references	所有丛书标题及其文献
+ExportWizardDialog_saveDataExchangePropertyYesRadioButton	Save as:	另存为：
+TaskItemForm_importanceMiddleLabel	Medium	媒介
+FilterByReferencesWithMissingFiles	Local file unavailable	本地文件不可用
+CreateProjectDialogEx_sqlServerProjectTitleLabel	DBServer project	DBServer 项目
+EquivalentCharactersPairDialog_replacementLabel	Also finds:	还可找到：
+PreviewControl_newLocationRemoteUriLabel	Add Internet address	添加 Internet 地址
+ReplacementDialog_replacementLabel	Replace with:	替换为：
+EntityLinkForm_targetLabel	To:	收件人：
+KnowledgeItemsWithNoCategory	Knowledge items without categories	无分类的知识条目
+BibliographyGroupingForm_AllKeywords	All keywords with their references	所有关键词及其文献
+Criterias_ApplyButton	Apply as selection	作为选择应用
+ParagraphFormatControl_indentationGroupBox	Indentation	缩进
+ProofingToolsDialog_defaultSpellCheckCultureLabel	Default spell check language for new quotations, abstracts, etc.:	新引语、摘要等的默认拼写检查语言：
+PublicationAssistantPreview_noValidBitmap	The file "{0}" cannot be displayed in the LaTex Assistant preview.	文件“{0}”无法在 LaTex Assistant 预览中显示。
+BackgroundTasksDialog_ShowProtocoll	Show activity log	显示活动日志
+ProjectPropertiesDialog_showInExplorerLabel	Open folder in Windows Explorer	在 Windows 资源管理器中打开文件夹
+BatchAssignOrRemoveCategoriesDialog_Assign_titleLabel	Batch assign categories	批量分配分类
+PageSetupDialog_leftMarginLabel	Left:	左：
+AdditionalFieldsForm_lostFieldsExplanationEditor	The following are orphaned fields (from an import or from changing reference type) that contain data not shown in the selected reference type. We recommend moving the data to appropriate fields, then erasing these.	以下孤立字段（来自导入或更改文献类型）包含所选文献类型中不显示的数据。建议将数据移动到合适的字段，然后清除这些字段。
+CancelButton	Cancel	取消
+BibliographyGroupingEditor_TaskAll_None	References without task	无任务的文献
+OptionsDialog_openLastProjectDirectlyCheckBox	Reopen last project automatically (skip Welcome Screen)	自动重新打开上一个项目（跳过欢迎屏幕）
+CopyOrMoveToProjectWizard_copyRadioButton	Copy	复制
+BibliographyGrouping_Suppressed	[Omitted]	[已省略]
+LicenseDialog_licenseKeyMailLabel	(in the license email message from us)	（在我们发送的许可证电子邮件中）
+LocalFileMoreOptionsDialog_notesLabel	Notes (saved in the Citavi project):	注释（保存在 Citavi 项目中）：
+SortReferencesCustomDialog_sort2AscendingRadioButton	ascending	升序
+knowledgeCategoriesKeywordsHelpTabControl_Help	Help	帮助
+OrganizationSettingsAdminDialog_metadataTestOnlyRadioButton	Grant access only to settings file adminstrators (test)	仅授予设置文件管理员访问权限（测试）
+ExceptionDialog_copySessionIdLabel	Copy	复制
+LookupFullTextDialogEx_acceptButton	Add	添加
+OptionsDialog_onlineResearchAndImportGroupBox	Online search and import	在线检索和导入
+PublishersSearchPlaceholder	Search publishers...	检索出版商...
+ImportFieldMappingEditor_substitutionsAtBeginLabel	At the top	在顶部
+ProjectDetailsControl_sqliteAttachmentsPathLabel	Attachments:	附件：
+ImportWizardDialog_encodingLabel	Character encoding:	字符编码：
+ActivateOfflineModeDialog_AttachmentsCheckbox	Download attachments now [{0}]	立即下载附件 [{0}]
+MainForm_locationsLabel	Locations	位置
+CreateCompilationDialog_currentCategoryRadioButton	Knowledge items in the current category	当前分类中的知识条目
+MoreFields	More fields	更多字段
+ParagraphFormatDialog_keepTogetherCheckBox	Keep lines together	段中不分页
+OptionsDialog_backupFolderPathLabel	Folder:	文件夹：
+TaskItemForm_createdLabel	Created:	创建于：
+StartForm_openProjectLabel	Open project	打开项目
+OrganizationSettingsExportDialog_adminTitleLabel	Manage organizational settings	管理组织设置
+SearchForm_executeSavedSearchButton	Run search	运行搜索
+BibliographyGroupingForm_autoCaption	Automatic	自动
+BibliographyGrouping_YearResolvedSingle	References with <i>{0}</i> in Year derived	派生年份中含 <i>{0}</i> 的文献
+ExportWizardDialog_scanTeXFileLabel	Only export references cited	仅导出被引用的文献
+SearchReplaceEllipsis	Search and replace…	检索并替换…
+ReferenceGridColumnsForm_titleLabel	Choose columns	选择列
+ReferenceGridColumnsForm_allColumnsLabel	All columns:	所有列：
+ConvertSQLiteProjectDialog_titleLabel	This project was created with an earlier Citavi version and will be converted to the current format. <span style="font-style:italic;">The original project will be copied and remain unchanged.</span><br/>What type of project would you like to create?	此项目是使用较早版本的 Citavi 创建的，将转换为当前格式。<span style="font-style:italic;">原始项目将被复制并保持不变。</span><br/>您想创建哪种类型的项目？
+For	For	对于
+ParagraphFormatDialog_indentationGroupBox	Indentation	缩进
+EquivalentCharactersListDialog_addCharacterPairButton	Add…	添加…
+SaveProjectAsNewDesktopLocalProject_Progress_ConfigureProject	Configuring project…	正在配置项目…
+ParagraphFormatControl_spacingBeforeLabel	Before:	之前：
+CopyProjectDialog_sqliteProjectDescriptionLabel_Disabled	Your system adminstrator has configured Citavi in such a way that you cannot create local projects.	您的系统管理员对 Citavi 进行了配置，使您无法创建本地项目。
+AddOnsForm_installAddOnButton	Install	安装
+KnowledgeItemSmartRepeaterRow_OpenInWindow_ToolTipText	Open in window	在窗口中打开
+NumberOfQuotationsLabelNone	No quotations	无引语
+PageSetupControl_orientationGroupBox	Orientation	方向
+PrepareProjectForCloudUploadDialog_Title_Settings	Save a copy as cloud project	将副本另存为云项目
+SearchForm_fieldLabel	Search field	检索字段
+CreatedByModifiedByForm_sendEmailLabel	Send email…	发送电子邮件…
+SupportInformationDialog_titleLabel	The following information helps us better answer your support question:	以下信息有助于我们更好地回答您的支持问题：
+ProxyConfigurationDialog_noProxyRadioButton	Do not use a proxy	不使用代理
+ApplyKeywordsForm_titleLabel	Apply keywords	应用关键词
+LocalFileMoreOptionsDialog_attachmentActionLabel	Action:	操作：
+OptionsDialog_telemetryScopeNoneRadioButton	Don't send usage information	不发送使用信息
+CitaviAccountLoginDialog_rememberMeTitleLabel	Remember me on this computer.	在此计算机上记住我。
+BibliographyGrouping_KeywordAll_None	(Without keyword)	（无关键词）
+BibliographyGroupingForm_criteriaLabel	Criteria	条件
+OptionsDialog_copyOrExportQuotations	Knowledge items	知识条目
+BackgroundTaskErrorDialog_ignoreAllButtonText	Ignore all {0} problems	忽略全部 {0} 个问题
+CloudProjectMembersDialog_projectMembersTitleLabel	Team members	团队成员
+OptionsDialog_telemetryScopeTraceCheckBox	Send activity log for error diagnosis	发送活动日志以诊断错误
+ConvertQuotation_HelpTextContent	Red highlights, indirect quotations, summaries, and comments cannot be converted to direct quotations.	红色高亮、间接引文、摘要和评论无法转换为直接引文。
+TaskDueDateDropDownForm_overdueRadioButton	Overdue	已逾期
+SplashScreen_citaviLabel	Citavi® is a product of Swiss Academic Software GmbH	Citavi® 是 Swiss Academic Software GmbH 的产品
+standardAbbreviationRadioButton	Abbreviation 1	缩写 1
+ImportForm_titleLabel	Import	导入
+ProjectPropertiesDialog_Statistics_ProjectTasks	Project tasks	项目任务
+CategoriesButton_ToolTipText	Open categories form	打开类别表单
+KnowledgeItemTextForm_OkButton2_ToolTipText	OK (Ctrl+Return)	确定（Ctrl+Return）
+ImportFieldMappingEditor_substitutionsGroupBox	Remove characters:	移除字符：
+TaskItemForm_importanceLabel	Importance:	重要性：
+KnowledgeItemIndirectQuotation_coreStatementLabelPlaceholder	A substantially faithful rendition of a text, in your own words	用自己的话对文本进行基本忠实的复述
+OptionsDialog_userDataFolderPathLabel	User files:	用户文件：
+ExportWizardDialog_bibTeXExportTransformerYearTwoDigitsCheckBox	Use two-digit year	使用两位年份
+FilterEditor_saveButton	Save selection as search…	将所选内容保存为搜索…
+CreateBibliographyDialog_exportToFileInstructionLabel	Save the bibliography to a Word or Writer document, PDF, or other file.	将参考文献目录保存为 Word 或 Writer 文档、PDF 或其他文件。
+OptionsDialog_enableTraceCheckBox	Create activity log 	创建活动日志 
+OrganizationSettingsImportDialog_importFromUriLabel	Enter path or URL manually	手动输入路径或 URL
+ParagraphFormatControl_indentationSpacingTab	Indentation and spacing	缩进和间距
+BibTeXExportForm_exportDefinitionLabel	Available export definitions:	可用的导出定义：
+Offline_AttemptingToReconnect	Attempting to reconnect...	正在尝试重新连接……
+SortReferencesCustomDialog_sort3AscendingRadioButton	ascending	升序
+BibliographyGroupingForm_SingleKeyword	References with this keyword:	带有此关键词的文献：
+CopyProjectDialog_cloudProjectDescriptionLabel_Disabled	Your system adminstrator has configured Citavi in such a way that you cannot create cloud projects.	您的系统管理员已对 Citavi 进行配置，使您无法创建云项目。
+RecycleBinCapacityExceededMessageBoxWeb_textLabel	You selected more than 250 items. These items will be permanently deleted.\r\nDo you want to delete these items anyway?	您选择了超过 250 个条目。这些条目将被永久删除。\r\n是否仍要删除这些条目？
+ExportWizardDialog_bibTeXExportUpdateBibFileCheckBox	Update existing BibTeX file	更新现有 BibTeX 文件
+CitationStyleFavoriteDialog_nothingFoundLabel	No styles match these criteria.\r\n\r\nPlease see the Quick Help for additional information.	没有样式符合这些条件。\r\n\r\n有关更多信息，请参阅快速帮助。
+NavigationControl_tasksButton	Tasks	任务
+CriteriaChangeReferenceCriteria	To change the reference filter criteria, switch to References	要更改文献筛选条件，请切换到文献
+PreviewControl_imageViewerSkipEntryPageLabel	Always preview this image immediately	始终立即预览此图像
+SelectAll	Select all	全选
+CreateCitationKeyDialog_completeRadioButton	Generate citation keys only for references that do not have a citation key	仅为没有引文键的文献生成引文键
+ProjectPropertiesDialog_autoExportPdfAnnotationsCheckBox	Always save Citavi annotations in PDF file as well	始终同时将 Citavi 注释保存到 PDF 文件中
+LicenseDialog_campusLicenseExpiryInfoLabel	The license key you are using is valid until {0}.\r\n\r\nIf your organization renews the site license, you can continue to use Citavi with no limitations. We will notify you by email about site license renewals. \r\n\r\nIf the site license is not renewed, or if you leave the organization, you cannot continue using this license key. To continue using Citavi, consider the following offer: 	您正在使用的许可证密钥有效期至 {0}。\r\n\r\n如果您的组织续订了站点许可证，您可以继续不受限制地使用 Citavi。我们将通过电子邮件通知您站点许可证的续订情况。\r\n\r\n如果站点许可证未续订，或者您离开了该组织，则无法继续使用此许可证密钥。如需继续使用 Citavi，请考虑以下优惠：
+LicenseDialog_deleteLicenseButton	Remove license	移除许可证
+BibTeXExportForm_mergeTitleFieldsShortTitleCheckBox	Subtitle	副标题
+CharacterFormatControl_underlineColorButton	Underline color…	下划线颜色…
+ProjectPropertiesDialog_attachmentsFolderReadOnly	The folder entered is read-only. The default path will be used instead:	输入的文件夹为只读。将改用默认路径：
+QuitCitaviDialog_quitAndInstallNow	Exit and install now	退出并立即安装
+SearchReplaceForm_StatusBarFilter	Search all {0} references in the current selection	在当前选择中搜索全部 {0} 篇文献
+BibTeXExportForm_useBracesCheckBox	Place capital letters in braces	将大写字母放在花括号中
+CitationStyleEditorInitialDialog_copyButton	Duplicate…	复制…
+OnlineSearchDialogEx_resetLabel	Reset form	重置表单
+AdditionalFieldsForm_titleLabel	More fields	更多字段
+OnlineSearchDialogEx_ShowBasicSearch	Go to simple search	转到简单搜索
+OrganizationSettingsExportDialog_activeOrganizationSettingTitleLabel	Current organizational settings:	当前组织设置：
+CreateBibliographyDialog_exportToFileLabel	Save…	保存…
+SearchForm_Tab_SavedSearches	Saved searches	已保存的检索
+MainForm_TaskPlanner_ImportantTasks_ToolTipTitle	Important tasks	重要任务
+TabStopControl_tabStopTypeGroupBox	Type	类型
+CitationStyleFavoriteDialog_addCitationStyleButton	Add	添加
+LicenseDialog_universityUserLabel	I am a student or a faculty or staff member at a university	我是大学的学生或教职员工
+ExceptionDialog_infoLabel	A program error has occurred	发生了程序错误
+SaveProjectAsNewDesktopLocalProject_Progress_SaveProject	Saving project…	正在保存项目…
+ProjectPropertiesDialog_attachmentsFolderPathDBServerInfoLabel	Use the Citavi DBServer Manager to change the path for attachments for DBServer projects.	使用 Citavi DBServer Manager 更改 DBServer 项目的附件路径。
+SortKnowledgeItemsForm_sortLabel	Sort by:	排序依据：
+CreateProjectDialog_titleLabel_ConvertC2Project	Convert project	转换项目
+PreviewControl_errorTitleLabel	An error occurred. 	发生错误。 
+BibliographyGrouping_CustomField6Single	References with <i>{0}</i> in Custom field 6	自定义字段 6 中包含 <i>{0}</i> 的文献
+OptionsDialog_penScannerLabel	Choose the "Other" option if you use a scanner that simulates a keyboard or inserts text using the Clipboard.	如果您使用的扫描仪模拟键盘或通过剪贴板插入文本，请选择“其他”选项。
+TeXPublicationForm_formatButton	Export…	导出…
+ExportWizardDialog_fileSelectionDialogButton	Browse…	浏览…
+CriteriaAdvanced_CheckedOriginalSource	Original checked	原件已核对
+MassReferenceIdentifierDownloadDialog_searchButton	Search	搜索
+DbServerConnectionDialog_showCurrentUsersLabel	Show project users	显示项目用户
+TaskItemForm_modifiedLabel	Changed by/on:	更改者/更改时间：
+ProjectPropertiesDialog_Statistics_Other	Other	其他
+OptionsImportExportDialog_exportRetrievalDefinitionCheckBox	Databases for online search	用于在线搜索的数据库
+PeopleSearchPlaceholder	Search persons...	搜索人员……
+LicenseDialog_Title_CitaviFree	You are using Citavi Free. Citavi Free is limited to 100 references.	您正在使用 Citavi Free。Citavi Free 限制为 100 篇文献。
+SplitterTrigger_References_Right	Tabs	选项卡
+ProjectPropertiesDialog_Statistics_Files	Linked files	链接的文件
+PersonForm_lastNameForSortingLabel	Sort by:	排序依据：
+PersonsDialog_FirstNameColumnHeader	First name	名
+prefixLabel	Prefix:	前缀：
+CreateCitationKeyDialog_overwriteInstructionLabel	Generate new citation keys for all references (replace existing citation keys).	为所有文献生成新的引用键（替换现有引用键）。
+EntityLinkForm_negativeLabel	negative	负数
+SearchForm_editSavedSearchButton	Edit search criteria	编辑搜索条件
+ActivateOfflineModeDialog_AttachmentsCheckboxDownloadSize	Download size: {0} MB	下载大小：{0} MB
+CreateCompilationDialog_SelectedRadioButton_SelectedNone	The selected knowledge items	所选知识条目
+OptionsImportExportDialog_exportOpenUrlCheckBox	OpenURL settings	OpenURL 设置
+ParagraphFormatControl_rightIndentationLabel	Right:	右：
+ProjectPropertiesDialog_attachmentsFolderPathLabel	Path for attachments:	附件路径：
+CloudChangeProjectRoleDialog_titleLabel	Change project role for selected team members:	更改所选团队成员的项目角色：
+PreviewControl_windowsPreviewShowLabel	Show in preview pane	在预览窗格中显示
+PageSetupDialog_footerMarginLabel	Footer:	页脚：
+LicenseDialog_requestFreeLicenseDataLabel	Request a license key at no cost	免费申请许可证密钥
+ReplacementListDialog_showAllCheckBox1	Show all	全部显示
+BibliographyGrouping_CategorySingle	References in the category <i>{0}</i>	类别 <i>{0}</i> 中的文献
+SearchReplaceForm_StatusBarFilter_Matches	Search all {0} references in the current selection – {1:1 reference|{1} references} found	
+GroupForm_displayTypeLabel	Show:	显示：
+KnowledgeItemCoreStatementDialog_manualRadioButton_Image	A custom caption:	自定义标题：
+BibTeXKeyDialog_createAllOverwriteLabel	Generate new BibTeX keys for all references	为所有文献生成新的 BibTeX 键
+OptionsDialog_citationKeyCheckBox	Citation key support	引用键支持
+FullTextListForm_extractLabel	Extract:	提取：
+CloudProjectMembersDialog_Grid_ProjectRole	Role	角色
+CloudProjectMembersDialog_Grid_Name	Name	名称
+BackgroundTaskErrorDialog_licenseLimitationExceededShowProjectLabel	Delete references from your project until you have under 100 again.	从项目中删除文献，直到再次少于 100 篇。
+KnowledgeItemFileForm_coreStatementLabelPlaceholder	Enter a short caption or core statement	输入简短的标题或核心陈述
+knowledgeCategoriesKeywordsHelpTabControl_Preview	Preview	预览
+OptionsDialog_preferredTextEditorLabel	Default text editor:	默认文本编辑器：
+PrepareProjectForCloudUploadDialog_Title_Progress	Preparing upload…	正在准备上传…
+OrganizationSettingsExportDialog_deleteSqlServerOrganisationSettingLabel	Delete organizational settings...	删除组织设置……
+ReferenceNavigationSearchPlaceholder	Search references...	搜索文献……
+SeriesTitleSmartRepeaterRow_editorsLabel	Editor:	编者：
+CitationStylePreviewControl_inTextCitationTitleLabel	In-text citation	文内引用
+MainForm_StatusBarPanel_ModificationInfo	Recent changes	最近更改
+WelcomeWizardDialog_accountInfo2LabelLabel	More information	更多信息
+PageSetupControl_pageFormatTab	Format	格式
+TaskDueDateDropDownForm_missingRadioButton	No date	无日期
+taskPlannerSavedSearchesRenameOrDeleteEditor	<a fref="RenameSavedTaskPlannerFilter">Rename</a> or <a fref="DeleteSavedTaskPlannerFilter">delete</a> saved selection.	<a fref="RenameSavedTaskPlannerFilter">重命名</a>或<a fref="DeleteSavedTaskPlannerFilter">删除</a>已保存的选择。
+SearchReplaceForm_searchLabel	Search for:	搜索：
+SelectedKnowledgeItems	Selected knowledge items	所选知识条目
+BibliographyGroupingEditor_CustomField9All_None	References without Custom field 9	不含自定义字段 9 的文献
+KeyItemConfigurationDialog_personAbbreviateTextLabel	Abbreviation text:	缩写文本：
+LicenseDialog_youCanUseCitaviForWindowsLabel	<span style="font-weight:bold;">You can use a Citavi for Windows license to work with local or cloud projects.</span>	<span style="font-weight:bold;">您可以使用 Citavi for Windows 许可证来处理本地或云项目。</span>
+FileDialog_moveRadioButton_Files	Move into the Citavi project	移动到 Citavi 项目中
+SearchReplaceForm_titleLabel	Search and replace	搜索并替换
+WelcomeWizardDialog_noInternetConnectivityTitleLabel	Connect to the Internet.	连接到 Internet。
+EditCitationStyleSASInternalDialog_introductionLabel_Derived	Der Stil '{0}' ist ein abgeleiteter Stil, der auf dem Master-Stil '{1}' basiert.	样式“{0}”是基于主样式“{1}”的派生样式。
+LicenseDialog_licenseInfo2LinkLabel	Click here to enter a new license key.	单击此处输入新的许可证密钥。
+ExportWizardDialog_onlineExportUsernameLabel	User name:	用户名：
+PreviewControl_pdfPasswordWrongLabel	Incorrect password.	密码不正确。
+TabStopDialog_tabStopTypeGroupBox	Type	类型
+LicenseDialog_aboutToExpireText	This license will expire in {0} days.	此许可证将在 {0} 天后过期。
+CitaviAccountLoginDialog_rememberMeTitleInfoLabel	Select this option for personal computers.	个人计算机请选择此选项。
+CreateBibliographyDialog_printInstructionLabel	Open the bibliography in the print preview window.	在打印预览窗口中打开参考文献目录。
+ParagraphFormatControl_keepTogetherCheckBox	Keep lines together	段中不分页
+OptionsImportExportDialog_exportExportFilterCheckBox	Export filters	导出过滤器
+DocumentSearchPlaceholder	Search document...	搜索文档……
+LicenseDialog_yourCitaviAccountButtonText	Your Citavi Account	您的 Citavi 账户
+Offline_NoConnection	No connection	无连接
+ProjectPropertiesDialog_createdByModifiedByReplaceByContactTextRadioButton	Other	其他
+RemoveParagraphs	Remove paragraphs and tabs	移除段落和制表符
+BackgroundTaskErrorDialog_ignoreLabelText	Is this error irrelevant for you?	此错误对您无关紧要吗？
+BibliographyGroupingEditor_KeywordAll_None	References without a keyword	不含关键词的文献
+MassReferenceIdentifierDownloadDialog_applyIsbnButton	Add to list	添加到列表
+DetailsText	Details	详细信息
+ImportFieldMappingEditor_tagLabel	Column/field:	列/字段：
+PreviewControl_browserSaveLocalCopyAsPdf	Save as PDF	保存为 PDF
+ProjectPropertiesDialog_TabControl_Database	Database	数据库
+OptionsDialog_orderByEMailTextLabel	E-mail text for bookseller orders:	书商订单的电子邮件文本：
+ExportWizardDialog_saveExportCredentialsCheckBox	Save credentials	保存凭据
+OrganizationSettingsImportDialog_importFromUriTitleLabel	Select the file you want to import settings from	选择要从中导入设置的文件
+ProjectPropertiesDialog_attachmentsFolderIllegal	The path entered is not valid. The default path will be used instead:	输入的路径无效。将改用默认路径：
+TaskPlanner_Sort_ShortTitle	Short title	短标题
+NumberOfKnowledgeItemsLabelNone	No knowledge items	无知识条目
+SearchForm_noSavedSearchesLabel	No saved searches.\r\nTo save a search, perform an advanced search and save your search query under the name of your choice. The command can be found in the footer.	没有已保存的搜索。\r\n要保存搜索，请执行高级搜索并以您选择的名称保存搜索查询。该命令位于页脚中。
+KeyItemConfigurationDialog_textAfterLabel	Text	文本
+OrganizationSettingsImportDialog_NoUpdateAvailabled	(imported, no update available)	（已导入，无可用更新）
+PreviewControl_mediaPlayerStartLabel	Play in preview pane	在预览窗格中播放
+OptionsDialog_installSetupAlphaLabel	Install one-time update to current alpha version.	安装一次性更新到当前 alpha 版本。
+AddOnsForm_noAddOnsInstalledLabel	You have no add-ons installed.	您未安装任何加载项。
+TabMore_Locations	Locations	位置
+ReferenceDuplicateSettingsDialog_isbnInfoLabel	Note: Citavi always considers references with identical valid ISBN numbers to be duplicates.	注意：Citavi 始终将具有相同有效 ISBN 号的文献视为重复项。
+OptionsDialog_clearHistoryButton	Clear recently opened projects	清除最近打开的项目
+ImportTabularWizard_fileDialogButton	Browse…	浏览…
+BibliographyGrouping_CustomField9Single	References with <i>{0}</i> in Custom field 9	自定义字段 9 中包含 <i>{0}</i> 的文献
+OnlineSearchWaitDialog_infoLabel	Building list of online libraries…	正在构建在线图书馆列表…
+SortReferencesCustomDialog_sortLabel	Sort by:	排序依据：
+OnlineSearchCredentialConfigurationDialog_deleteButton	Remove	移除
+KnowledgeItemCoreStatementDialog_titleLabel	Which core statement do you want to use?	您想使用哪个核心陈述？
+CriteriaCategories	Categories	分类
+MergeItemsDialog_mergeCategoriesInformationLabel	Note: You can also merge categories by dragging an entry in the category tree onto another entry while holding the Alt key.	注意：您也可以在按住 Alt 键的同时将类别树中的一个条目拖动到另一个条目上来合并类别。
+KeyItemConfigurationDialog_personAbbreviateToIndexCountLabel	Abbreviate after:	在此之后缩写：
+TabContent_Abstract	Abstract	摘要
+CreateProjectDialogEx_sqlServerProjectDescriptionLabel	Large teams can work most efficiently with DBServer projects on a database server.	大型团队使用数据库服务器上的 DBServer 项目可以获得最高的工作效率。
+CriteriaSelected	Selected references	所选文献
+TransformerFavoriteDialog_Title_Export	Add export filter	添加导出筛选器
+BibliographyGroupingEditor_CustomField1All_None	References without Custom field 1	不含自定义字段 1 的文献
+standardAbbreviationLabel	Abbreviation 1:	缩写 1：
+PageSetupControl_paperFormatGroupBox	Paper format	纸张格式
+LicenseDialog_proTeamReaderTitleLabel_Campus	You are using a <span style="font-weight:bold;">{0}</span> site license.	您正在使用 <span style="font-weight:bold;">{0}</span> 站点许可证。
+LicenseDialog_LicenseIdText	License ID:	许可证 ID：
+OptionsDialog_laTeXProjectFolderLabel	LaTeX project folder:	LaTeX 项目文件夹：
+WelcomeWizardDialog_createAccountOkTitleLabel	I successfully created an account and want to log in.	我已成功创建账户并想要登录。
+BibliographyGrouping_PersonSingle	References by author, editor, or organization <i>{0}</i>	作者、编者或组织 <i>{0}</i> 的文献
+PublicationAssistantPreview_knowledgeItemHasNoFile	No files are linked to the knowledge item "{0}".	没有文件链接到知识条目“{0}”。
+CitaviMessageBox_dontShowMessageAgainCheckBox	Don't show this message again	不再显示此消息
+CreateBibliographyDialog_sortOptionLabel	Sort:	排序：
+SearchForm_Tab_QuickSearch	Quick search	快速搜索
+LocationForm_libraryLabel	Library:	图书馆：
+CitationStyleFavoriteDialog_SimpleSearchTab	Quick search	快速搜索
+BibliographyGrouping_CustomField8All_None	(Without Custom field 8)	（无自定义字段 8）
+editEquivalentCharactersLabel	Equivalent characters…	等效字符…
+FindLicensedDatabasesDialog_titleLabel	The following databases were detected:	检测到以下数据库：
+EditCitationStyleSASInternalDialog_option2ActionLabel_Derived	Abgeleiteten Stil kopieren und bearbeiten	复制并编辑派生样式
+BibliographyGroupingForm_AllGroups	All groups with their references	所有组及其文献
+OpenUrlFavoriteDialog_searchLabel	Search:	搜索：
+BackOfficeCitationStyleElementsDialog_Title_BibliographyGroupingSet	Download grouping definition	下载分组定义
+CriteriaMarks_RedAndBlue	Red and blue labels	红色和蓝色标签
+KeyItemConfigurationDialog_moreThanThreePersonsName2Label	Additional persons:	其他人员：
+CopyOrMoveToProjectWizard_activateTargetProjectCheckBox	Switch to destination project after copy or move	复制或移动后切换到目标项目
+ReplacementDialog_findLabel	Search for:	搜索：
+BookstoreFavoriteDialog_searchLabel	Search:	搜索：
+CharacterFormatControl_characterSpacingLabel	Character spacing:	字符间距：
+CreateCompilationDialog_optionsLabel	Options…	选项…
+CloudChangeProjectRoleDialog_projectRoleReaderDescriptionLabel	Readers can make changes to project information	读者可以更改项目信息
+SortReferencesCustomDialog_sortDescendingRadioButton	descending	降序
+ActivateOfflineModeDialog_AttachmentsCheckboxCalculationSize	Calculating download size…	正在计算下载大小…
+SortKnowledgeItemsDialog_sortOrderLabel	Sort by:	排序依据：
+BrowseButton	Browse…	浏览…
+AcceptImportDialog_locationsCheckBox	Locations	位置
+SearchReplaceForm_fieldsLabel	Search these fields:	搜索这些字段：
+PreviewControl_locationHasInvalidAddressDeleteLocationLabel	Delete location	删除位置
+CloudProjectMembersDialog_Grid_Confirmed	Confirmed	已确认
+WelcomeWizardDialog_ceipTitleLabel	...while you wait, select which technical information Citavi can send.	……在您等待期间，请选择 Citavi 可以发送哪些技术信息。
+CitationStyleFavoriteDialog_previewTitleLabel	Preview	预览
+MassReferenceIdentifierDownloadDialog_importButton	Add to project	添加到项目
+BibTeXExportForm_yearTwoDigitsCheckBox	Use two-digit year	使用两位年份
+ProjectPropertiesDialog_resetAttachmentsFolderPathButton	Reset	重置
+ExportWizardDialog_onlineExportGroupLabel	Group:	组：
+TeXPublicationForm_previewLabel	Bibliographic information and BibTeX preview:	书目信息与 BibTeX 预览：
+OrganizationSettingsAdminDialog_deleteButton	Delete…	删除…
+CloudExceptionDialog_titleLabel	An operation in the Citavi Cloud failed.	Citavi Cloud 中的某项操作失败。
+TabStopDialog_clearAllButton	Clear all	全部清除
+PreviewControl_DownloadIsBeingPrepared	Preparing download…	正在准备下载…
+QuitCitaviDialog_showStartFormRadioButton	No (show welcome screen)	否（显示欢迎屏幕）
+TabStopDialog_leaderTypeGroupBox	Leader	引导符
+ReplacementListDialog_Column_SearchFor1	Search for	搜索
+FontStyleEditorControl_sameAsNextRadioButton	Same as next style	与下一个样式相同
+ConvertProjectsDialog_dontConvertRadioButton	No, I want to select projects for conversion.	否，我想要选择要转换的项目。
+BatchApplyOrRemoveKeywordsDialog_Apply_titleLabel	Batch apply keywords	批量应用关键词
+BibliographyGrouping_TaskSingle	References with task <i>{0}</i>	任务为 <i>{0}</i> 的文献
+knowledgeCategoriesKeywordsHelpTabControl_Categories	Categories	分类
+InputBox_nameLabel	Name:	名称：
+MainForm_TaskPlannerGrid_ColumnHeader_ShortTitle	Short title	短标题
+ImportForm_removeProjectDuplicatesCheckBox	Don't add project duplicates	不添加项目重复项
+BibliographyGroupingEditor_Suppressed	Omitted	已省略
+PreviewControl_errorTextEditor_DRM_AdobePubSec	The document is protected with Adobe PubSec security settings, which Citavi does not support.	该文档受 Adobe PubSec 安全设置保护，Citavi 不支持此设置。
+OrderedListDialog_fontStyleLabel	Style for numbers:	数字样式：
+BookstoreFavoriteDialog_removeImageButton	Remove	移除
+CopyProjectDialog_cloudToLocalTitleLabel	Citavi will create a local copy of the cloud project. What should happen to the original project?	Citavi 将创建云项目的本地副本。原项目应如何处理？
+TaskPlanner_ReferenceTasks	Reference tasks	文献任务
+ExportWizardDialog_bibTeXExportTransformerUseCrossRefCheckBox	Use crossref/xref	使用 crossref/xref
+ImportDefinitionFavoriteDialog_searchButton	Search	搜索
+SmartRepeater_ListContainsNoItems	No items	无条目
+ProjectDetailsControl_projectNameLabel	Name:	名称：
+MainForm_taskPlannerModifiedOnLabel	… before/on:	…在之前/当天：
+LicenseDialog_goToShopButtonDefaultText1	Go to shop	前往商店
+NavigationPaneCollapsedGroupArea_ToolTipText_KnowledgeOrganizer_Groups	Click to expand the Groups pane.	单击以展开“组”窗格。
+TabStopControl_newButton	New	新建
+ProjectPropertiesDialog_createdByModifiedByReplaceByContactLabel	Replace with:	替换为：
+KnowledgeOrganizerNavigationPaneCollapsedGroups	Groups	组
+OptionsImportExportDialog_exportAutoCheckUpdateCheckBox	Check for updates automatically	自动检查更新
+LicenseDialog_Problem	{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang2055{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Segoe UI;}}\r\n{\\colortbl ;\\red255\\green255\\blue255;}\r\n{\\*\\generator Msftedit 5.41.21.2509;}\\viewkind4\\uc1\\pard\\f0\\fs18 The license entered is not valid.\\par\r\n\\par\r\nCommon causes:\\par\r\n\\bullet   Typos (including capitalization).\\par\r\n\\bullet   For personal licenses, the word "Personal" \\par\r\n\\cf1\\bullet   \\cf0 is missing in the Organization field.\\par\r\n\\bullet   For site licenses, the expiration date is missing.\\par\r\n\\par\r\nClick \\b Back\\b0  and carefully verify the information.\\par\r\n\\par\r\nIf you continue to receive this error after double-\\par\r\nchecking, contact us at www.citavi.com/service\\par\r\n}	{\rtf1\ansi\ansicpg1252\deff0\deflang2055{\fonttbl{\f0\fswiss\fprq2\fcharset0 Segoe UI;}}\r\n{\colortbl ;\red255\green255\blue255;}\r\n{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\f0\fs18 输入的许可证无效。\par\r\n\par\r\n常见原因：\par\r\n\bullet   拼写错误（包括大小写）。\par\r\n\bullet   对于个人许可证，"Personal" 一词\par\r\n\cf1\bullet   \cf0 在“组织”字段中缺失。\par\r\n\bullet   对于站点许可证，缺少到期日期。\par\r\n\par\r\n单击 \b 返回\b0 并仔细核对信息。\par\r\n\par\r\n如果反复核对后仍收到此错误，请通过 www.citavi.com/service 联系我们。\par\r\n}
+NumberOfKnowledgeItemsLabel_Smart	{0:1 knowledge item|{0} knowledge items}	
+PreviewControl_errorTextEditor_Remote	This Internet address cannot be previewed.	无法预览此 Internet 地址。
+CreateCompilationDialog_includeEmptyCategoriesCheckBox	Include categories with no knowledge items	包含无知识条目的类别
+FolderForm_nameLabel	Name:	名称：
+ReferenceGridGroupsForm_groupedColumnsLabel	Group by:	分组依据：
+Load_NoTasks	No tasks	无任务
+TaskPlanner_Done	Done	完成
+ProjectPropertiesDialog_Statistics_Attachments	Attachments	附件
+OptionsDialog_defaultFontButton	Default	默认
+KnowledgeItemTextForm_categoriesLabel	Categories:	类别：
+TabContent_Keywords	Keywords	关键词
+RecycleBinCapacityExceededMessageBox_deleteButton	Delete	删除
+ImportTabularWizard_deleteButton	Delete	删除
+PublicationAssistantPreview_remoteUri	The address "{0}" cannot be displayed in the LaTeX Assistant preview.	地址“{0}”无法在 LaTeX 助手预览中显示。
+OptionsDialog_laTeXQuoteCommandLabel	Quote environment:	引用环境：
+userAbbreviation1Label	Abbreviation 2:	缩写 2：
+WelcomeWizardDialog_convertProjectsSelectionSqliteDescriptionLabel	Advantage: Projects can be loaded faster. You can always save individual projects in the cloud later on.	优点：项目加载更快。您随时可以将单个项目保存到云中。
+SortTasksCustomDialog_sort3DescendingRadioButton	descending	降序
+CitationStyleForm_customizeButton	Add citation styles…	添加引用样式…
+CreateProjectDialogEx_cloudProjectShareProjectLabel	You can also choose to share the project later on.	您也可以选择稍后共享项目。
+PreviewControl_fileNotFoundEditLocationLabel	Edit location	编辑位置
+OptionsDialog_dateTimeFormatLabel	Date format:	日期格式：
+ModificationInfoForm_teamInfoLabel	Change team account…	更改团队账户…
+CopyOrMoveToProjectWizard_subjectBibliographyTitleLabel	Which additional data do you want to copy or move?	您想要复制或移动哪些附加数据？
+CreateCitationKeyDialog_overwriteRadioButton	Generate new citation keys for all references (replace existing citation keys)	为所有文献生成新的引用键（替换现有引用键）
+RemoveFilterById	Remove single item filter	移除单个条目筛选器
+ProxyConfigurationDialog_customProxyPasswordLabel	Password:	密码：
+CreateBibliographyOptionsDialog_groupByRowInformationLabel	Subheading layout	副标题布局
+BibliographyGroupingEditor_CustomField6All_None	References without Custom field 6	不含自定义字段 6 的文献
+BibTeXKeyDialog_createCurrentDescriptionLabel	Generates the BibTeX key "{0}" for the current reference.	为当前文献生成 BibTeX 键“{0}”。
+TransformerFavoriteDialogEx_providerLabel	Provider:	提供商：
+ConvertToUtcDialog_remindButton	Remind me in a week	一周后提醒我
+BookstoreFavoritesDialog_availableLabel	Available	可用
+PersonsDialog_SuffixColumnHeader	Suffix	后缀
+ReferenceDuplicateSettingsDialog_useInitialsCheckBox	Compare initials of first and middle names only	仅比较名和中间名的首字母
+TaskITemSmartRepeater_ChainButton_ToolTipText	Show in PDF	在 PDF 中显示
+KeyItemConfigurationDialog_textBeforeLabel	Text	文本
+ProjectPropertiesDialog_createdByModifiedByApplyButton	Apply	应用
+KeyItemPersonDropDownForm_person1TextBetweenPersonLabel	Text between persons:	人员之间的文本：
+KeyItemPersonDropDownForm_person1LastNameCharCountLabel	Abbreviate last name to n characters:	将姓氏缩写为 n 个字符：
+TaskItemForm_nameLabel	Task:	任务：
+LicenseDialog_goToUniversityLabel	<a href="https://www.citavi.com/checkcampuslicenses">Check if your university has a site license.</a>	<a href="https://www.citavi.com/checkcampuslicenses">检查您的大学是否拥有站点许可证。</a>
+PreviewControl_fileWithoutExtensionNotSupportedOpenLabel	Open in default program	用默认程序打开
+ChooseReferenceDialog_instructionLabel_AssignDirectQuotationToReference	Assign the new direct quotation to a reference.	将新的直接引文分配给文献。
+SortKnowledgeItemsForm_orderLabel	Order:	顺序：
+CreateBibliographyDialog_printLabel	Print…	打印…
+ImportDefinitionFavoriteDialog_cultureLabel	Country/region:	国家/地区：
+OptionsDialog_backupGroupBox	Backups	备份
+BibliographyGroupingForm_manualCaption	Manual:	手动：
+OptionsDialog_orderByEMailAddressLabel	Bookseller order by email:	通过电子邮件向书商订购：
+CitationStylePreviewControl_contributionLabel	Contribution in an edited book	编著书籍中的章节
+OnlineSearchCredentialDialog_groupLabel	Organization:	组织：
+LinkAddRemove	Add or remove link	添加或移除链接
+ImportDefinitionFavoriteDialog_moveUpButton	Up	上移
+TransformerFavoriteDialog_Title_Online	Add database or catalog	添加数据库或目录
+WelcomeWizardDialog_accountButton1Label	I already have a Citavi account and want to log in.	我已有 Citavi 账户并想要登录。
+SearchForm_quickSearchCriteriaGroupBox	Search criteria:	搜索条件：
+LicenseDialog_goToUpgradeLicenseText	<a href="citaviweb.citavi.com/my-shop">Purchase an upgrade</a>	<a href="citaviweb.citavi.com/my-shop">购买升级</a>
+WelcomeWizardDialog_ceipTitle2Label	Would you like to help improve Citavi's user experience? Please give us permission to send certain information to our server.	您愿意帮助改善 Citavi 的用户体验吗？请允许我们向服务器发送某些信息。
+ExportWizardDialog_bibTeXExportTransformerUseUnixFormatCheckBox	Save in Unix format	以 Unix 格式保存
+ReferenceIdentifierDownloadOptionsDialog_thanksToLehmannsEditor	Cover art is downloaded, with kind permission, from the German bookseller <a href="http://www.lob.de">Lehmanns Fachbuchhandlung</a>.	封面图片经德国书商 <a href="http://www.lob.de">Lehmanns Fachbuchhandlung</a> 惠允下载。
+ImportReferenceTypeMappingControl_referenceTypeFieldLabel	Column/field:	列/字段：
+WelcomeWizardDialog_convertProjectsSelectionTitle2Label	Choose a location for the new projects:	选择新项目的位置：
+OptionsDialog_isbnDownloadKeywordsCheckBox	Include keywords	包含关键词
+FontStyleEditorControl_smallCapsCheckBox	Small caps	小型大写字母
+BackupWorkerMainForm_InfoLabel	Use this program only as directed by Citavi technical support. It creates a log of the Citavi backup process on your computer for diagnostic purposes.	仅在 Citavi 技术支持人员的指导下使用此程序。它会在您的计算机上创建 Citavi 备份过程的日志，用于诊断目的。
+FullTextListForm_mainGrid_ExtractionStatusHeaderCaption	Status	状态
+BackgroundTaskErrorDialog_contactSupportText	Contact support team	联系支持团队
+userAbbreviation1RadioButton	Abbreviation 2	缩写 2
+WelcomeWizardDialog_convertProjectsSelectionIndividuel2TitleInfoLabel	Choose which projects should be converted.	选择应转换哪些项目。
+OptionsDialog_rssFeedRemoveButton	Remove	移除
+LicenseDialog_alreadyLicensedLabel	I already have a Citavi license	我已有 Citavi 许可证
+TaskPlannerNavigationPaneCollapsedText	Task navigator	任务导航器
+BibliographyGrouping_CustomField2All	All entries in <i>Custom field 2</i>	<i>自定义字段 2</i> 中的所有条目
+BibliographyGrouping_CustomField1All	All entries in <i>Custom field 1</i>	<i>自定义字段 1</i> 中的所有条目
+BibliographyGrouping_CustomField6All	All entries in <i>Custom field 6</i>	<i>自定义字段 6</i> 中的所有条目
+BibliographyGrouping_CustomField3All	All entries in <i>Custom field 3</i>	<i>自定义字段 3</i> 中的所有条目
+BibliographyGrouping_CustomField5All	All entries in <i>Custom field 5</i>	<i>自定义字段 5</i> 中的所有条目
+BibliographyGrouping_CustomField7All	All entries in <i>Custom field 7</i>	<i>自定义字段 7</i> 中的所有条目
+BibliographyGrouping_CustomField4All	All entries in <i>Custom field 4</i>	<i>自定义字段 4</i> 中的所有条目
+BibliographyGrouping_CustomField9All	All entries in <i>Custom field 9</i>	<i>自定义字段 9</i> 中的所有条目
+BibliographyGrouping_CustomField8All	All entries in <i>Custom field 8</i>	<i>自定义字段 8</i> 中的所有条目
+ExportWizardDialog_titleLabel	What is the source of the data you want to import?	您要导入的数据来源是什么？
+ParagraphFormatDialog_hasWidowOrphanControlCheckBox	Widow/orphan control	孤行控制
+ConvertQuotation_Title	Convert to:	转换为：
+PdfWpfViewer_SearchToolTipPageNumber	Page {0}	第 {0} 页
+CreateCitationKeyDialog_overwriteOnlyAutoInstructionLabel	Generate new citation keys for all references with an automatic citation key. Manually-entered citation keys are left untouched.	为所有带有自动引用键的文献生成新的引用键。手动输入的引用键保持不变。
+BibliographyGroupingForm_SingleReferenceType	References with this reference type:	带有此文献类型的文献：
+BibliographyGroupingSetsForm_groupingSetsLabel	Groupings	分组
+ParagraphFormatDialog_rightIndentationLabel	Right:	右：
+SplitterTrigger_References_Criteria	Selection criteria &nbsp;	选择条件 &nbsp;
+CitationStyleFavoriteDialog_AdvancedSearchTab	Advanced search	高级搜索
+OptionsDialog_telemetryScopeCeipRadioButton	Send usage information to help improve Citavi	发送使用信息以帮助改进 Citavi
+CitationStyleFavoriteDialog_advancedSearchFullReferenceBookTitleFormatLabel	How are book titles formatted?	书名是如何格式化的？
+ImportFieldMappingEditor_substitutionsAtEndLabel	At the bottom	在底部
+CreateProjectDialog_nameLabel	Project name:	项目名称：
+PersonsDialog_mainGrid_TemplateAddRowPrompt	Click to add a person	点击添加人员
+NavigationReferenceSmartRepeaterRow_parentReferenceInLabel	In:	位于：
+PrepareProjectForCloudUploadDialog_projectCloseInfoWarningLabel	Do not exit Citavi during the upload.	上传期间请勿退出 Citavi。
+BibliographyGrouping_CategoryAll_None	(Without categories)	（无分类）
+CitationStyleFavoriteDialog_resultsCountTitleLabel_Smart	Results: {0:1 citation style|{0} citation styles} found	
+FullTextListForm_mainGrid_AddressHeaderCaption	File	文件
+DesktopAlert_Footer_CreateEMail	Send error message to the Citavi team	将错误消息发送给 Citavi 团队
+userAbbreviation2Label	Abbreviation 3:	缩写 3：
+HelpInformationForm_lastExceptionLabel	Latest error message:	最新错误消息：
+LicenseDialog_companyLabel	I work in a company or government agency. 	我在公司或政府机构工作。 
+OptionsImportExportDialog_expiryDateCheckBox	Login credentials expire on:	登录凭据到期日期：
+ImportExportWizard_customTransformerEditCheckBox	Edit	编辑
+CreateBibliographyDialog_annotatedBibliographyRadioButton	Annotated bibliography	注释书目
+SplitKeywordsDialog_spaceCheckBox	Space	空格
+SortKnowledgeItemsForm_titleLabel	Sort knowledge items	排序知识条目
+MassReferenceIdentifierDownloadDialog_customizeOpacLabel	Customize this list…	自定义此列表…
+BibliographyGroupingEditor_PublisherAll_None	References without publisher	无出版社的参考文献
+AddOnsForm_installedAddOnAdminLabel	This AddOn was installed by your Administrator and cannot be changed.	此插件由管理员安装，无法更改。
+NavigationPaneCollapsedGroupArea_ToolTipText_ReferenceEditor	Click to expand the Reference list pane.	单击展开参考文献列表面板。
+CopyProjectDialog_cloudProjectShareProjectCheckBox	Share after project creation.	项目创建后共享。
+HelpInformationForm_deleteHelpFile1Button	Delete…	删除…
+PdfImport_linkRecommendationLabel	(Why?)	（为什么？）
+CitationStyleFavoriteDialog_advancedSearchFullReferenceAuthorsLastNameFontStyleLabel	How are last names formatted?	姓氏是如何格式化的？
+CloudProjectMembersDialog_resendInvitationEmailLabel	Send invitation again	再次发送邀请
+OpenProjectDialog_accountLoginInfoLabel	Log in to your Citavi account to access your cloud projects.	登录 Citavi 账户以访问您的云项目。
+ReferenceQuotations_moveDownButton	Move down	下移
+ChooseReferenceDialog_instructionLabel_AssignCommentToReference	Assign the new comment to a reference.	将新评论分配给参考文献。
+BibliographyGrouping_TaskAll	All tasks	所有任务
+NavigationBar_Import	Import	导入
+BackgroundTaskErrorDialog_licenseLimitationExceededShowProjectButton	Show project	显示项目
+BibliographyGrouping_PublisherAll	All publishers	所有出版社
+ExportWizardDialog_referenceTypeLabel	For reference type:	用于文献类型：
+ProjectPropertiesDialog_cacheCloudAttachmentsButton	Save all attachments locally (for working offline)	将所有附件保存到本地（用于离线工作）
+LoginDialog_passwordLabel	Password:	密码：
+TransformerFavoriteDialogEx_searchLabel	Search for:	搜索：
+BibliographyGroupingForm_positionLabel	Position:	位置：
+OpenUrlFavoriteDialog_nothingFoundLabel	No results match the above criteria.	没有符合上述条件的结果。
+KeyItemConfigurationDialog_periodicalAbbreviation2RadioButton	Abbreviation 2	缩写 2
+CloudProjectMembersDialog_Grid_Email	Email address	电子邮件地址
+CitationStyleFavoriteDialog_criteriaLabel	Name:	名称：
+HelpInformationForm_referenceTypeLabel	Name of reference type:	参考文献类型名称：
+SearchForm_quickSearchMatchWholeWordCheckBox	Whole words only	仅全字匹配
+ReferenceGridColumnsForm_hideButton	Remove	移除
+KnowledgeItemFileForm_pageRangeLabel	Page range:	页码范围：
+AttachmentFolderWarningDialog_attachmentsFolderPathLabel	Folder for attachments:	附件文件夹：
+BookstoreFavoritesDialog_moveDownButton	Down	下
+ParagraphFormatControl_lineSpacingLabel	Line spacing:	行距：
+FontStyleEditorControl_boldCheckBox	Bold	粗体
+PreviewControl_downloadCredentialsPasswordLabel	Password:	密码：
+CopyProjectDialog_sqliteProjectDescriptionLabel	The project copy will be created on your hard drive or on a network drive.	项目副本将创建在您的硬盘或网络驱动器上。
+CreateProjectDialogEx_cloudProjectDescriptionLabel_Disabled	Your system adminstrator has configured Citavi in such a way that you cannot create cloud projects.	您的系统管理员已对 Citavi 进行配置，使您无法创建云项目。
+WelcomeWizardDialog_accountButton2Label	I would like to create an account online.	我想在线创建账户。
+BibliographyGroupingForm_AllPublishers	All publishers with their references	所有出版社及其参考文献
+BibliographyGroupingForm_SingleTask	References with this task:	包含此任务的参考文献：
+SortTasksCustomDialog_sort1DescendingRadioButton	descending	降序
+Load_NoKnowledgeItems	No knowledge items	无知识条目
+OptionsDialog_isbnDownloadLocationsCheckBox	Include locations	包含位置
+ActivateOfflineModeDialog_Description	{\\rtf1\\ansi\\ansicpg1252\\deff0\\nouicompat\\deflang1031{\\fonttbl{\\f0\\fnil\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset2 Symbol;}}\r\n{\\*\\generator Riched20 10.0.17134}\\viewkind4\\uc1 \r\n\\pard\\sa200\\sl276\\slmult1\\f0\\fs22\\lang7 Use Citavi's offline mode to avoid high data costs when working with an expensive Internet connection. \\par\r\nDifferences in offline mode: \\par\r\n\r\n\\pard{\\pntext\\f1\\'B7\\tab}{\\*\\pn\\pnlvlblt\\pnf1\\pnindent0{\\pntxtb\\'B7}}\\fi-358\\li721\\sl240\\slmult1 Citavi will only save changes to the cloud when you disable offline mode and have an active Internet connection. \\par\r\n{\\pntext\\f1\\'B7\\tab}You will not be able to see your team members' changes.\\par\r\n{\\pntext\\f1\\'B7\\tab}In cloud projects you can only see attachments (PDFs, etc.) that you downloaded before enabling offline mode. \\par\r\n\r\n\\pard\\sl240\\slmult1\\par\r\n\r\n\\pard\\sa200\\sl276\\slmult1 You can still do the following: \\par\r\n\r\n\\pard{\\pntext\\f1\\'B7\\tab}{\\*\\pn\\pnlvlblt\\pnf1\\pnindent0{\\pntxtb\\'B7}}\\fi-358\\li721\\sl240\\slmult1 It's still possible to use the online search, download citation styles, and import references. \\par\r\n{\\pntext\\f1\\'B7\\tab}Working with local and DBServer projects is the same as before.\\par\r\n}	{\\rtf1\\ansi\\ansicpg1252\\deff0\\nouicompat\\deflang1031{\\fonttbl{\\f0\\fnil\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset2 Symbol;}}\r\n{\\*\\generator Riched20 10.0.17134}\\viewkind4\\uc1 \r\n\\pard\\sa200\\sl276\\slmult1\\f0\\fs22\\lang7 使用 Citavi 的离线模式，以避免在使用昂贵的 Internet 连接时产生高额数据费用。 \\par\r\n离线模式的差异： \\par\r\n\r\n\\pard{\\pntext\\f1\\'B7\\tab}{\\*\\pn\\pnlvlblt\\pnf1\\pnindent0{\\pntxtb\\'B7}}\\fi-358\\li721\\sl240\\slmult1 只有当您禁用离线模式并具有活动的 Internet 连接时，Citavi 才会将更改保存到云。 \\par\r\n{\\pntext\\f1\\'B7\\tab}您将无法看到团队成员的更改。\\par\r\n{\\pntext\\f1\\'B7\\tab}在云项目中，您只能看到在启用离线模式之前下载的附件（PDF 等）。 \\par\r\n\r\n\\pard\\sl240\\slmult1\\par\r\n\r\n\\pard\\sa200\\sl276\\slmult1 您仍然可以执行以下操作： \\par\r\n\r\n\\pard{\\pntext\\f1\\'B7\\tab}{\\*\\pn\\pnlvlblt\\pnf1\\pnindent0{\\pntxtb\\'B7}}\\fi-358\\li721\\sl240\\slmult1 仍然可以使用在线搜索、下载引文样式和导入参考文献。 \\par\r\n{\\pntext\\f1\\'B7\\tab}使用本地项目和 DBServer 项目的工作方式与以前相同。\\par\r\n}
+LicenseDialog_twitterLabel	Follow us on Twitter	在 Twitter 上关注我们
+CreatedByModifiedByForm_addTaskLabel	Assign new task…	分配新任务…
+WelcomeWizardDialog_accountButton2InfoLabel	Clicking <span style="font-style:italic;">Next<span style="font-style:normal;"> </span></span> will open a browser window in which you can create your Citavi account. Continue here after your account has been created.	单击 <span style="font-style:italic;">下一步<span style="font-style:normal;"> </span></span> 将打开浏览器窗口，您可以在其中创建 Citavi 账户。创建账户后请在此处继续。
+BatchApplyOrRemoveGroupsDialog_Apply_titleLabel	Batch assign groups	批量分配组
+OrganizationSettingsAdminDialog_metadataPublicRadioButton	Make public for all users with a site license	向所有拥有站点许可证的用户公开
+OptionsDialog_changeOnlineCredentialsLabel	Edit credentials for subscription databases…	编辑订阅数据库的凭据…
+ProjectPropertiesDialog_fileSizeLabel	File size:	文件大小：
+WelcomeWizardDialog_accountButton3Label	I don't want to register at this time.	我暂时不想注册。
+TaskDueDateDropDownForm_customDateRadioButton	Choose a date:	选择日期：
+BatchApplyOrRemoveKeywordsDialog_Remove_titleLabel	Batch remove keywords	批量移除关键词
+ConvertProjectsDialog_projectFolderLabel	Project folder:	项目文件夹：
+ExportWizardDialog_bibTeXExportTransformerKeywordSplitterLabel	Keyword separator:	关键词分隔符：
+TaskItemForm_titleLabel_ReferenceTask	Reference task	参考文献任务
+CreatedByModifiedByForm_modifiedByLabel	Modified:	修改时间：
+ProjectPropertiesDialog_correctPathsButton	Repair paths…	修复路径…
+OptionsImportExportDialog_exportTransformerLocationCheckBox	Libraries for "Find library locations"	用于“查找图书馆位置”的图书馆
+CitationStyleEditorInitialDialog_loadButton	Open…	打开…
+CreateCompilationDialog_currentCategoryIncludingSubcategoriesRadioButton	Knowledge items in the current category and its subcategories	当前分类及其子分类中的知识条目
+ParagraphFormatControl_keepWithNextCheckBox	Keep with next paragraph	与下段同页
+DbServerCurrentUsersDialog_titleLabel	DBServer Project Users	DBServer 项目用户
+ParagraphFormatDialog_lineSpacingLabel	Line spacing:	行距：
+BibliographyCompositionEditorRow_Labels	Labels	标签
+OnlineSearchCredentialDialog_checkButton	Test	测试
+MainForm_taskPlannerSavedSearchesTitleLabel	Saved selections	已保存的选择
+Tabs_LinksTab	Links	链接
+PreviewControl_fileNotFoundDeleteLocationLabel	Delete location	删除位置
+EntityLinkForm_sourceLabel	From:	发件人：
+OrganizationSettingsExportDialog_title1Label	Which file do you want to export the settings to?	要将设置导出到哪个文件？
+knowledgeCategoriesKeywordsHelpTabControl_Keywords	Keywords	关键词
+LicenseDialog_Header_EnterLicenseKey	Enter license key	输入许可证密钥
+InsertTableDialog_numberOfRowsLabel	Number of rows:	行数：
+BibTeXExportForm_mergeTitleFieldsCheckBox	Merge title fields:	合并标题字段：
+EntityLinkForm_relationTypeLabel	Type of link:	链接类型：
+OrderedListDialog_minimumLengthLabel	Minimum digits:	最少位数：
+OptionsDialog_includeOriginalPublicationForYearResolvedCheckBox	Year derived includes Original publication	派生年份包含原始出版物
+ExportWizardDialog_bibTeXExportTransformerFieldDelimiterLabel	Field delimiter:	字段分隔符：
+ImportDefinitionFavoriteDialog_availableLabel	Available:	可用：
+BibliographyGrouping_KeywordAll	All keywords	所有关键词
+CreateCompilationByKeywordDialog_currentKeywordRadioButton_NoKeywords	Knowledge items without keywords	没有关键词的知识项
+ExportAdminSettingsDialog_exportCitationStylesCheckBox	Citation styles	引用样式
+PreviewControl_newLocationFileUriLabel	Add local file	添加本地文件
+OptionsDialog_rssFeedMarkAllAsUnreadButton	Show hidden RSS messages	显示隐藏的 RSS 消息
+CorrectPathsDialog_selectedReferencesRadioButton	In the current selection	在当前选择中
+Tabs_NoKnowledgeItemSelected	No knowledge item selected	未选择知识条目
+QuitCitaviDialog_updateTitle2Label_2	Download complete.	下载完成。
+OrganizationSettingsImportDialog_importTitleLabel	Select the settings you want to import:	选择要导入的设置：
+PrepareProjectForCloudUploadDialog_cancelAndShowMissingFilesButton	Cancel project creation and display missing files	取消项目创建并显示缺失的文件
+BibliographyGrouping_CustomField3All_None	(Without Custom field 3)	（无自定义字段 3）
+OptionsDialog_bookstoreGroupBox	Online booksellers	在线书店
+SplashScreen_behindLinkLabel_URL	http://www.citavi.com/softlink?linkid=aboutsas&language=en	http://www.citavi.com/softlink?linkid=aboutsas&language=en
+SeriesTitleSearchPlaceholder	Search series titles...	搜索丛书标题...
+OrganizationSettingsAdminDialog_metadataTitleLabel	Metadata	元数据
+RecycleBinDialog_typeLabel	Type	类型
+LicenseDialog_newsletterLabel	Subscribe to our newsletter	订阅我们的新闻通讯
+SearchForm_quickSearchResultsGroupBox	Found:	找到：
+PersonsDialog_AbbreviationColumnHeader	Abbreviation	缩写
+SortTasksCustomDialog_sort2DescendingRadioButton	descending	降序
+PersonsDialog_LastNameColumHeader	Last name	姓氏
+ProjectPropertiesDialog_attachmentsFolderMissing	This folder does not exist. The default path will be used instead:	此文件夹不存在。将改用默认路径：
+UngroupedReferencesSettingsForm_topRadioButton	At the beginning	在开头
+ClrExceptionDialog_quitCitaviButton	Exit Citavi	退出 Citavi
+NavigationBar_ExportPrint	Export/Print	导出/打印
+PreviewControl_errorTextEditor_DRM_fileOpen	This document is protected by Digital rights managment (DRM) (https://www.fileopen.com/) and cannot be opened by Citavi.	此文档受数字版权管理 (DRM) (https://www.fileopen.com/) 保护，Citavi 无法打开。
+TaskPlanner_Pending	Pending	待处理
+MainForm_taskPlannerAdvancedSelectionHideDoneTasksCheckBox	Hide completed tasks	隐藏已完成的任务
+SplashScreen_licenseLinkLabel	License agreement…	许可协议…
+CreateCompilationByKeywordDialog_includeItemsTitleLabel	Select what the list includes:	选择列表包含的内容：
+CreateBibliographyDialog_groupedBibliographyCheckBox_Category	With category headings	包含分类标题
+ImportDefinitionFavoriteDialog_moveDownButton	Down	下
+CriteriaThoughts	Thoughts	想法
+BibliographyGroupingEditor_CustomField8All_None	References without Custom field 8	无自定义字段 8 的参考文献
+SearchForm_renameSavedSearchButton	Rename	重命名
+OnlineSearchCredentialDialog_userNameLabel	Username:	用户名：
+KeyItemConfigurationDialog_periodicalAbbreviation1RadioButton	Abbreviation 1	缩写 1
+PreviewControl_fileNotAvailableOfflineInfoEditor	The file "{0}" is not available offline.	文件“{0}”无法离线使用。
+CopyProjectDialog_cloudProjectDescriptionLabel	Cloud projects can be opened on any computer with Citavi 6 and can be made accessible to others if desired.	云项目可在任何装有 Citavi 6 的计算机上打开，并且如有需要，可让其他人访问。
+ProjectPropertiesDialog_Statistics_ElectronicLocations	Electronic locations	电子位置
+LicenseDialog_noLicensesLabel	Your Citavi Account does not contain any licenses	您的 Citavi 账户不包含任何许可证
+KnowledgeItemSummary_coreStatementLabelPlaceholder	A substantially faithful rendition of a chapter or section, in your own words	用自己的话对章节或部分内容进行基本忠实的改写
+BackgroundTaskErrorDialog_solutionsLabelText	Suggested solutions	建议的解决方案
+Criterias_CancelButton	Cancel	取消
+OptionsDialog_applyButton	Apply	应用
+LocationForm_privateCollectionLocationLabel	Location:	位置：
+OptionsImportExportDialog_exportProxyConfigurationCheckBox	Proxy settings	代理设置
+LookupLocationsDialog_createDummyLocationCheckBox	Make note of unsuccessful searches	记录未成功的搜索
+SearchForm_quickSearchDetailedResultsGroupBox	Details for the selected result:	所选结果的详细信息：
+SplashForm_startLabel	Starting Citavi…	正在启动 Citavi…
+FullTextForm_extractButton	Extract	提取
+ExportWizardDialog_bibTeXExportTransformerSaveNoRadioButton	Don't save	不保存
+EditCitationStyleSASInternalDialog_option1ActionLabel_Derived	Master-Stil laden und bearbeiten	加载并编辑母版样式
+BibTeXKeyDialog_createAllLabel	Generate BibTeX keys for references that don't have one	为没有 BibTeX 键的参考文献生成 BibTeX 键
+OrganizationSettingsExportDialog_title5Label	Select the settings you want to export:	选择要导出的设置：
+BibliographyGroupingEditor_SeriesTitleAll_None	References without series title	无丛书标题的参考文献
+MainForm_TaskPlanner_ProjectTasks_ToolTipTitle	Project tasks are important events or milestones in the project. 	项目任务是项目中的重要事件或里程碑。 
+ConvertToUtcDialog_convertButton	Correct time zone	校正时区
+FullTextListForm_titleLabel	Full text extraction overview	全文提取概览
+NewImportDialog_titleLabel_Online	Search again	重新检索
+Loading	Loading...	正在加载...
+ReferenceDeletionDialog_deleteButton	Delete	删除
+KeyItemConfigurationDialog_fieldLabel	Field	字段
+CitationStyleFavoriteDialog_advancedSearchOrderOfReferenceNumbersLabel	How are reference numbers assigned?	参考文献编号是如何分配的？
+KnowledgeItemFileForm_addressLabel	Path:	路径：
+TabQuotation_CollapseAll	Collapse all	全部折叠
+ReferenceDuplicateSettingsDialog_useLastNameAndFirstNameRadioButton	Compare last and first names only	仅比较姓氏和名字
+OptionsDialog_embedImagesInRtfCheckBox	Embed images when exporting	导出时嵌入图像
+BibliographyGroupingForm_contentLabel	Content	内容
+DateTimeFormatDialog_formatStringLabel	Date format code:	日期格式代码：
+CloudUsersInfoForm_linkLabelChat	Open chat	打开聊天
+CreateCitationKeyDialog_titleLabel	You changed the citation key template. How do you want to proceed?	您更改了引文键模板。您希望如何继续？
+ImportForm_acceptedButton	Add to project	添加到项目
+OptionsDialog_defaultFontForRtfSizeLabel	Font size:	字号：
+CreateCompilationDialog_includeItemsTitleLabel	Select what the compilation includes:	选择汇编包含的内容：
+CitationStyleListDialogEx_onlineAvailableLabel	Available online: {0}	可在线获取：{0}
+ParagraphFormatControl_paragraphBreakTab	Line and page breaks	换行符和分页符
+WelcomeWizardDialog_convertProjectsSelectionSqliteTitleLabel	Local hard drive	本地硬盘
+SortKnowledgeItemsDialog_previewButton	Update preview	更新预览
+BibliographyGrouping_CustomField3Single	References with <i>{0}</i> in Custom field 3	自定义字段 3 中包含 <i>{0}</i> 的参考文献
+OptionsDialog_pathGroupBox	File locations	文件位置
+ProxyConfigurationDialog_customProxyHostLabel	Address:	地址：
+NumberOfParentedReferencesLabel_Smart	{0:1 contribution|{0} contributions}	
+SortTasksCustomDialog_sort3AscendingRadioButton	ascending	升序
+DbServerConnectionDialog_titleLabel	Configure DBServer	配置 DBServer
+LicenseDialog_Header_Problem	Problem	问题
+HelpInformationForm_customHelpLabel	Custom Quick Help	自定义快速帮助
+NumberOfReferencesLabelNone	No references	无参考文献
+ConvertDirectQuotation_HelpTextContent	<p>Do yiou want to save a direct quotation with its exact wording or comment on a section in the text?</p><p>Add the text with quotation marks to make it clear that the formulation is not your own.</p>	<p>您想保存逐字准确的原话引用，还是对文中某一部分进行评论？</p><p>请用引号添加文本，以表明该表述并非您自己的。</p>
+OptionsDialog_startFormGroupBox	Welcome Screen content	欢迎屏幕内容
+LicenseDialog_Finish	Thank you! You are now using <span style="font-weight:bold;">{0}</span>.<br/><br/>Enjoy!	谢谢！您现在使用的是 <span style="font-weight:bold;">{0}</span>。<br/><br/>祝您使用愉快！
+SearchForm_quickSearchResultsGroupsLabel	In:	位于：
+ExportWizardDialog_bibTeXExportTransformerUseLaTeXCheckBox	Use LaTeX notation	使用 LaTeX 表示法
+KeyItemConfigurationDialog_periodicalFormatNoneRadioButton	Full name	全名
+KeyItemConfigurationDialog_personAbbreviateAfterPersonLabel	If more than:	如果超过：
+CopyProjectDialog_keepLocalProjectDescriptionLabel	The cloud project and the local project are not connected to each other and will not be synchronized. 	云项目和本地项目彼此不连接，也不会同步。 
+ProjectPropertiesDialog_autoRenameGroupBox	Automatic renaming	自动重命名
+BackgroundTaskErrorDialog_retryLabelText	On the <a href="OpenHelpUrl"> Citavi Support page</a> you will find possible causes for this error. Once you've fixed the problem, click <b>Retry</b>.	在 <a href="OpenHelpUrl"> Citavi 支持页面</a> 上，您可以找到此错误的可能原因。解决问题后，请单击 <b>重试</b>。
+ProjectPropertiesDialog_TabControl_CreatedByModifiedBy	Display names	显示名称
+BibliographyGrouping_PublisherSingle	References from the publisher <i>{0}</i>	来自出版社 <i>{0}</i> 的参考文献
+SplitKeywordsDialog_otherCheckBox	Other	其他
+ImportWizardDialog_fileSelectionDialogButton	Browse…	浏览…
+ExportWizardDialog_customTransformerHelpContextLabel	Quick Help text:	快速帮助文本：
+LicenseDialog_noExpiryText	Unlimited	无限制
+BibliographyGrouping_PeriodicalAll_None	(Without periodical)	（无期刊）
+CopyOrMoveToProjectWizard_treatReferencesWithEqualIsbnAsEqualCheckBox	Do not copy or move references with the same ID (ISBN, DOI, PMID, PMC, arXiv).	不要复制或移动具有相同 ID（ISBN、DOI、PMID、PMC、arXiv）的参考文献。
+TabStopControl_positionLabel	Position:	位置：
+ReferenceDuplicateSettingsDialog_useFullNameRadioButton	Compare last, first and middle names	比较姓氏、名字和中间名
+ImportWizardDialog_tabularDefinitionFileSelectionButton	Browse…	浏览…
+PageSetupControl_headerMarginLabel	Header:	页眉：
+KnowledgeItemTextForm_indexOnPageLabel	Position:	位置：
+MainForm_addChildReferenceLabel	Add contribution	添加贡献
+ReferenceGridGroupsForm_commonColumnsRadioButton	Common fields	常用字段
+KnowledgeItemFileForm_modifiedByLabel	Modified by:	修改者：
+PersonForm_sexLabel	Gender:	性别：
+ImportWizardDialog_pdfImportFileOptionsGroupBox	File options	文件选项
+WelcomeWizardDialog_welcomeTitleLabel	Welcome to Citavi 6!	欢迎使用 Citavi 6！
+SearchForm_extendedSearchEditEquivalentCharactersLabel	Customize…	自定义…
+TaskItemForm_assignedToLabel	Assigned to/on:	分配给/日期：
+PreviewControl_CantOpenPasswordProtectedFile	Password protected {0} files cannot be displayed in the preview pane.	受密码保护的 {0} 文件无法在预览窗格中显示。
+CloseButton	Close	关闭
+SplitterTrigger_Knowledge_Right	Details	详细信息
+HelpInformationForm_citaviHelpFile3Label	Help Context.Language:	帮助上下文.语言：
+KeyItemConfigurationDialog_moreThanThreePersonsAbbreviateAfterPersonLabel	If more than:	如果超过：
+CitationStylePreviewControl_monographLabel	Book	图书
+ApplyKeywordsForm_allKeywordsLabel	All keywords	所有关键词
+OnlineSearchCredentialDialog_titleLabel	The database "{0}" is not publicly accessible. Select your authentication method.	数据库“{0}”不可公开访问。请选择您的身份验证方法。
+FileDialog_renameCheckBox	Rename with Citavi short title	使用 Citavi 短标题重命名
+SearchForm_editSavedSearchesButton	Edit search criteria	编辑搜索条件
+OnlineSearchCredentialDialog_ipRangeRadioButton	Authenticate by current IP address	通过当前 IP 地址进行身份验证
+OptionsDialog_openUrlParameterGroupBox	Parameters	参数
+OptionsDialog_privacyNavigationButton	Activity logging	活动日志记录
+SourceCode	Source code	源代码
+PublicationAssistantPreview_knowledgeItemFileIsNotAnUri	The address "{0}" is not a valid path or Internet address.	地址“{0}”不是有效的路径或 Internet 地址。
+PageSetupControl_paperHeightLabel	Height:	高度：
+PreviewControl_fileWithoutExtensionNotSupportedInfoEditor	This file cannot be previewed.	无法预览此文件。
+MainForm_TaskPlannerGrid_ColumnHeader_LibraryLocations	Locations	位置
+KeyReplacementDialog_deleteButton	Delete	删除
+LookupFullTextDialogEx_noReferencesInfoLabel	No references found for the given criteria.\r\n\r\nPlease see the Quick Help.	未找到符合给定条件的参考文献。\r\n\r\n请参阅快速帮助。
+Offline_ConnectionLost	Connection lost	连接丢失
+ReferenceDuplicateSettingsDialog_stringDuplicateSettingsGroupBox	Options for comparing text	文本比较选项
+TabStopControl_clearAllButton	Delete all	全部删除
+FontStyleEditorControl_allCapsCheckBox	All caps	全部大写
+SearchForm_extendedSearchMatchCaseCheckBox	A = a	A = a
+KeyItemConfigurationDialog_uppercaseCheckBox	All caps	全部大写
+ParagraphFormatDialog_alignmentLabel	Alignment:	对齐方式：
+KnowledgeItem_NoCoreStatement	[No core statement]	[无核心论点]
+KnowledgeItemCoreStatementDialog_autoRadioButton_Text	The core statement generated automatically:	自动生成的核心陈述：
+CriteriaRating_WithoutWrittenEvaluation	Without written evaluation	无书面评价
+BibliographyGroupingForm_AllPeriodicals	All periodicals with their references	所有期刊及其参考文献
+LicenseDialog_aboutCitaviLicensesLabel	<a href="http://www.citavi.com/manual">About Citavi licenses</a>	<a href="http://www.citavi.com/manual">关于 Citavi 许可证</a>
+PreviewControl_noFileLinked	No file associated	未关联文件
+SplashScreen_behindInfoLabel	Information about the development team as well as technical partnerships can be found on our website.	有关开发团队以及技术合作伙伴的信息，请参阅我们的网站。
+CopyProjectDialog_sqliteProjectFolderLabel	Folder:	文件夹：
+AddOnsForm_activateAddOnButton	Enable	启用
+CriteriasTitle	Criteria	条件
+ShortTitleDialog_autoRadioButton	The short title automatically generated by Citavi:	Citavi 自动生成的短标题：
+TaskItemForm_stateLabel	Status:	状态：
+NewImportDialog_clearImportSessionButton_File	Replace existing import	替换现有导入
+AddOnsForm_onlineAddOnsButton	Online	在线
+ProjectPropertiesDialog_executeReplaceContactButton	Apply changes	应用更改
+BibliographyGroupingEditor_GroupAll_None	References without a group	无组的参考文献
+LicenseDialog_dbServerLoginNotAllowedLabel	Citavi is connected to the DBServer. However, no valid license could be found.\r\n\r\nYour system administrator has configured Citavi so that you cannot log in to Citavi Account. For this reason, Citavi Account licenses are not displayed here.	Citavi 已连接到 DBServer。但是，未找到有效的许可证。\r\n\r\n您的系统管理员已配置 Citavi，使您无法登录 Citavi 账户。因此，此处不显示 Citavi 账户许可证。
+BibliographyGrouping_YearResolvedAll_None	(Without year derived)	（无派生年份）
+CreateProjectDialogEx_cloudProjectDescriptionLabel	Cloud projects can be opened on any computer with Citavi 6 and can be made accessible to others if desired.	云项目可在任何装有 Citavi 6 的计算机上打开，并且如有需要，可让其他人访问。
+ReferenceQuotations_moveUpButton	Move up	上移
+QuitCitaviDialog_QuitWithoutUpdateInstall_2	Exit Citavi later and install the update then	稍后退出 Citavi 并届时安装更新
+BibTeXKeyDialog_createAllDescriptionLabel	Generates BibTeX keys for all the references whose BibTeX key field is empty.	为所有 BibTeX 键字段为空的参考文献生成 BibTeX 键。
+HelpInformationForm_customHelpFile3Label	Help Context.Language:	帮助上下文.语言：
+LocationForm_localUriLabel	Local file:	本地文件：
+SortReferencesCustomDialog_sort5DescendingRadioButton	descending	降序
+PrepareProjectForCloudUploadDialog_projectCloseInfoLabel	This project will be closed. During the upload you can continue working on another Citavi project or upload another project to the cloud.	此项目将关闭。上传期间，您可以继续处理另一个 Citavi 项目，或将另一个项目上传到云。
+ShortTitleDialog_titleLabel	Which short title do you want to use for this reference?	您想为此参考文献使用哪个短标题？
+ReferenceTypeSelectionDialog_referenceTypesListLabel	All reference types (reference types already used appear in <b>bold</b>)	所有参考文献类型（已使用的参考文献类型以<b>粗体</b>显示）
+TransformerFavoriteDialogEx_countLabel	Available online: {0}	可在线获取：{0}
+OrderedListDialog_leadingTextFontStyleLabel	Style for prefix:	前缀样式：
+WelcomeWizardDialog_convertProjectsSelectionSkipTitleInfoLabel	No projects will be converted for use in Citavi 6 (not recommended). You can convert individual projects later on.	不会转换任何项目以用于 Citavi 6（不推荐）。您可以稍后转换单个项目。
+LicenseDialog_youNeedToVerifyYourMembershipText	Your university renewed its site license. <a href="www.citavi.com/c6prg/confirmcampusmembership">Reconfirm your affiliation</a> to activate this license.	您所在大学已续订站点许可证。<a href="www.citavi.com/c6prg/confirmcampusmembership">重新确认您的所属关系</a>以激活此许可证。
+CriteriaMarks_Red	Red labels	红色标签
+KnowledgeItemTextForm_spellCheckAddWord	Add "{0}" to dictionary	将“{0}”添加到词典
+CreateCompilationDialog_SelectedRadioButton_Thought	The selected thought	所选想法
+PeriodicalsSearchPlaceholder	Search periodicals...	搜索期刊...
+FontStyleEditorControl_superscriptCheckBox	Superscript	上标
+SortReferencesCustomDialog_sort3Label	Then by:	然后按：
+QuitCitaviDialog_quitRadioButton	Yes	是
+LookupLocationsDialog_selectionLabel	Find locations for:	查找以下内容的位置：
+OptionsDialog_updateChannelLabel	Update channel	更新通道
+LicenseDialog_organizationLabel	Organization:	组织：
+ImportWizardDialog_encodingSaveForSessionCheckBox	Remember for this session	在此会话中记住
+FullTextListForm_extractButton	Start extraction	开始提取
+ControlTexts.ProjectDetailsControl_sqlserverConnectionStringLabel	Connection:	连接：
+ParagraphFormatDialog_spacingGroupBox	Spacing	间距
+ConvertToUtcDialog_titleLabel	Time Zone Correction	时区校正
+AddOnsForm_onlineAddOnInfoLabel	More information	更多信息
+LocationForm_openButton	Open	打开
+CitationStyleFavoriteDialog_citationSystemLabel	Citation system:	引文系统：
+OptionsImportExportDialog_exportTagDefinitionCheckBox	Import filters	导入筛选器
+TabMore_Tasks	Tasks	任务
+BibliographyGrouping_CustomField5All_None	(Without Custom field 5)	（无自定义字段 5）
+HelpInformationForm_customHelpFile1Label	Help Context-Reference Type.Language:	帮助上下文-参考文献类型.语言：
+ParagraphFormatDialog_keepWithNextCheckBox	Keep paragraphs together	段落不分页
+ImportExportWizard_titleLabel	Select the format you want to export to:	选择要导出为的格式：
+OpenUrlSelectionDialog_titleLabel	OpenURL selection	OpenURL 选择
+BibliographyGrouping_GroupSingle	References in the group <i>{0}</i>	组 <i>{0}</i> 中的参考文献
+CreateBibliographyDialog_groupedAnnotatedBibliographyCheckBox	With subheadings	包含副标题
+SortReferencesCustomDialog_sort2Label	Then by:	然后按：
+AcceptImportDialog_additionalDataTextEditor	Include additional information:	包含附加信息：
+FinishButton	Finish	完成
+AdditionalFieldsForm_showOnReferenceTabLabel	Add to Reference tab	添加到参考文献选项卡
+AcceptImportDialog_ImportSelectionChecked_Smart	{0:The selected reference|All {0} selected references}	
+PdfExportDialog_selectionLabel	Which PDF documents would you like to export annotations from?	您想从哪些 PDF 文档导出注释？
+ExportWizardDialog_mergeTitleFieldsShortTitleCheckBox	Subtitle	副标题
+PreviewControl_referenceHasNoLocationsTitleLabel	No files are linked to this reference.	没有文件链接到此参考文献。
+CategoriesSearchPlaceholder	Search categories...	搜索分类...
+CreateBibliographyDialog_groupsTitleLabel	Which fields do you want to use as subheadings?	您想使用哪些字段作为副标题？
+LocationForm_electronicAddressNeutralLabel	Address:	地址：
+SortReferencesCustomDialog_sort1Label	Sort by:	排序依据：
+CitationStyleListDialogEx_InputLabel	  Name:	  名称：
+UltraGridColumnChooser_allColumnsLabel	All columns:	所有列：
+FontStyleEditorControl_punctuationAfterFontStyleGroupBox	Style for: Punctuation after	样式：后置标点
+MainForm_groupsLabel	Groups	组
+HelpInformationForm_citaviHelpFile1Label	Help Context-Reference Type.Language:	帮助上下文-参考文献类型.语言：
+BibliographyGrouping_SeriesTitleAll	All series titles	所有丛书标题
+OptionsDialog_directImportCheckBox	Enable direct import	启用直接导入
+SortReferencesCustomDialog_sortLabel2	Then by:	然后按：
+SearchForm_criteriaLabel	For	对于
+okButton	OK	确定
+OrganizationSettingsImportDialog_UpdateAvailabled	(imported, update available)	（已导入，有可用更新）
+CopyProjectDialog_sqliteProjectTitleLabel	Create local project copy	创建本地项目副本
+OnlineSearchCredentialDialog_saveCheckBox	Remember	记住
+SaveProjectAsNewDesktopLocalProject_Progress_CreateProjectFolders	Creating folders for project…	正在为项目创建文件夹…
+CreateBibliographyDialog_annotationTitleLabel	Which information do you want to include?	您想包含哪些信息？
+AssignCategoriesForm_previewLabel	Preview:	预览：
+LicenseDialog_copyLicenseKeyClipboardFailedLabel	Citavi did not find a valid license key on the Clipboard.\r\n\r\nEnter the license key by hand, paying attention to capitalization.	Citavi 在剪贴板中未找到有效的许可证密钥。\r\n\r\n请手动输入许可证密钥，注意大小写。
+ReferenceTypeSelectionDialog_referenceTypesLabel	Choose reference type	选择参考文献类型
+CitationStyleFavoriteDialog_availableLabel2	Custom styles:	自定义样式：
+ProjectPropertiesDialog_attachmentsFolderDriveMissing	The drive {0} is currently unavailable. The default path will be used instead:	驱动器 {0} 当前不可用。将改用默认路径：
+BibliographyCompositionEditorForm_titleLabel	Customize overview	自定义概览
+ApplyGroupsForm_selectedGroupsLabel	Selected groups	所选组
+PublisherForm_nameLabel	Name:	名称：
+WelcomeWizardDialog_convertProjectsSelectionIndividuelTitleLabel	Individual selection	单独选择
+FontStyleEditorControl_punctuationBeforeFontStyleGroupBox	Style for: Punctuation before	样式：前置标点
+BibliographyGrouping_CreatedByAll	All entries in <i>Created by</i>	<i>创建者</i>中的所有条目
+BibliographyGrouping_PersonAll	All authors, editors, and organizations	所有作者、编者和组织
+BibliographyGroupingForm_noCaption	None	无
+BibTeXKeyDialog_createAllOverwriteDescriptionLabel	Generates new BibTeX keys for all references. Existing BibTeX keys will be replaced.	为所有参考文献生成新的 BibTeX 键。现有的 BibTeX 键将被替换。
+TaskPlanner_AllTasks	All tasks	所有任务
+CitationKeyDialog_autoRadioButton	The citation key automatically generated by Citavi:	Citavi 自动生成的引文键：
+PeriodicalForm_eissnLabel	eISSN:	eISSN：
+CriteriaCurrentReferenceCriteria	Current reference criteria	当前参考文献条件
+MainForm_parentReferenceLocationsLabel	Locations of the parent reference:	父级参考文献的位置：
+CustomFieldDialog_defaultValueLabel	Default:	默认：
+KnowledgeItemTextForm_groupsLabel	Groups:	组：
+PageRangeNumberingTypeFormCaption_Page	Page range	页码范围
+PreviewControl_windowsPreviewSkipEntryPageLabel	Always preview this file immediately	始终立即预览此文件
+LicenseDialog_Header_DeleteLicense	Remove license key	删除许可证密钥
+LicenseDialog_Header_Free	License key	许可证密钥
+ProjectPropertiesDialog_TabControl_Statistics	Statistics	统计
+MassReferenceIdentifierDownloadDialog_fileImportRadioButton	Import file	导入文件
+TransformerFavoriteDialogEx_availableLabel	Found:	找到：
+ProxyConfigurationDialog_titleLabel	Proxy settings	代理设置
+PageRangeNumberingTypeFormCaption_Column	Column nos.	列号
+ApplyGroupsForm_referenceLabel	From reference: {0}	来自文献：{0}
+SearchForm_selectionSavedSearchButton	Apply search results as selection	将搜索结果应用为选定内容
+WelcomeWizardDialog_convertProjectsSelectionTitleInfoLabel	Before you can continue working on projects created with previous Citavi versions, you need to convert them to Citavi 6 format. Citavi converts a copy of the original project.	在继续处理使用旧版 Citavi 创建的项目之前,您需要将其转换为 Citavi 6 格式。Citavi 会转换原始项目的副本。
+KnowledgeItemSmartRepeaterRow_OpenInWindow_ToolTipTextWithShortcut	Open in window (Alt+Double-Click)	在窗口中打开(Alt+双击)
+PageSetupControl_paperSourceLabel	Paper feed:	进纸:
+PageSetupControl_pageMarginsTab	Page margins	页边距
+LiveUpdateDialog_updateInfoLabel	Do you want to install the update now?	是否立即安装更新?
+LibraryForm_abbreviationLabel	Abbreviation:	缩写：
+LicenseDialog_licensesTitleText	Your {0:License|Licenses}	
+BackgroundTaskErrorDialog_subtitleWarnings	Fix the following problems before closing the project:	关闭项目前请解决以下问题:
+SearchSaveAsDialog_nameLabel	Name:	名称：
+ReplacementListDialog_showAllCheckBox	Show all	全部显示
+KnowledgeItemCoreStatementDialog_manualRadioButton_Text	A custom core statement:	自定义核心语句:
+Tabs_LocationsTab	Locations	位置
+CreateBibliographyDialog_groupedBibliographyCheckBox	With subheadings	包含副标题
+EditCitationStyleSASInternalDialog_option3ActionLabel_Derived	Abgeleiteten Stil direkt bearbeiten	直接编辑派生样式
+GroupsButton_ToolTipText	Open groups form	打开组表单
+PdfWpfViewer_previousSearchResultButtonTooltip	Previous search result (Shift+F3)	上一个搜索结果(Shift+F3)
+ProjectPropertiesDialog_TabControl_Paths	Attachments	附件
+ImportDefinitionFavoriteDialog_selectedLabel	Selected:	已选择:
+SaveAndCloseButton	Save and close	保存并关闭
+CopyOrMoveToProjectWizard_moveRadioButton	Move	移动
+CustomFieldDialog_compareTypeLabel	Sort order:	排序顺序：
+CharacterFormatControl_protectedCheckEditor	Protected	受保护
+ReferenceDuplicateSettingsDialog_personCollectionDuplicateSettingGroupBox	Options for comparing names	姓名比较选项
+KeyItemConfigurationDialog_selectedFieldSettingsLabel	Settings for selected field	所选字段的设置
+SaveError	An error occurred while saving	保存时发生错误
+ProjectDetailsControl_projectDescriptionLabel	Description:	描述：
+OptionsDialog_baseUrlLabel	OpenURL:	OpenURL:
+SortKnowledgeItemsDialog_applyPermanentlyButton	Apply sort order	应用排序顺序
+CopyProjectDialog_keepLocalProjectTitleLabel	Keep local project	保留本地项目
+ProjectPropertiesDialog_DefaultAttachmentsFolderPath_Local	Default (Folder for the project database):\r\n{0}	默认(项目数据库文件夹):\r\n{0}
+ImportWizardDialog_citaviFieldLabel	Citavi field	Citavi 字段
+CopyProjectDialog_keepCloudProjectDescriptionLabel	The cloud project and the local project are not connected to each other and will not be synchronized.	云项目和本地项目未相互连接,不会进行同步。
+SortReferencesCustomDialog_sort5Label	Then by:	然后按：
+KeyItemConfigurationDialog_dateFormatCheckBox	Format if recognizable as date	若可识别为日期则格式化
+WelcomeWizardDialog_welcomeTitleInfoLabel	You just started Citavi 6 for the first time.\r\nThis assistant will help you set everything up.	您刚刚第一次启动 Citavi 6。\r\n此助手将帮助您完成所有设置。
+WelcomeWizardDialog_convertProjectsTitleLabel	Convert Citavi Projects	转换 Citavi 项目
+BackgroundTaskErrorDialog_deleteLabelText	Delete the location information in Citavi.	删除 Citavi 中的位置信息。
+OrganizationSettingsImportDialog_organizationSettingsUpdateCheckBox	Automatically load changes to organizational settings	自动加载组织设置的更改
+EntityLinkForm_notesLabel	Notes:	备注：
+CategoriesEditorDefaultText	Type to enter categories	输入以录入分类
+CreateBibliographyDialog_citationStyleLabel	Citation style:	引文样式:
+ProjectDetailsControl_sqliteProjectFilePathLabel	Path:	路径：
+CitationStyleFavoriteDialog_concentrationAreaLabel	Subject area:	主题领域：
+ImportDefinitionFavoriteDialog_nameLabel	Name:	名称：
+CreateCompilationDialog_includeCoreStatementCheckBox	Include core statements	包含核心陈述
+SortKnowledgeItemsForm_subtitleLabel	Select the knowledge items you want to sort:	选择要排序的知识条目:
+AllReferences	All references	所有参考文献
+ChooseReferenceDialog_instructionLabel_AssignPastedTasksToReference	Assign the tasks on the Clipboard to a reference.	将剪贴板上的任务分配给参考文献。
+SaveSuccess	All changes were saved successfully	所有更改已成功保存
+BibTeXExportForm_keywordSplitterLabel	Keyword separator:	关键词分隔符：
+LocalFileMoreOptionsDialog_saveAsDefaultButton	Save as default	保存为默认值
+CreateCitationKeyDialog_overwriteLabel	Generate new citation keys for all references	为所有参考文献生成新的引文键
+BibliographyGroupingEditor_CreatedByAll_None	References without created by	无创建者的参考文献
+CriteriaRating_WithWrittenEvaluation	With written evaluation	含书面评价
+PersonDetailEditor_lastNameLabel	Last name:	姓：
+SearchForm_quickSearchResultsGridLabel	Results:	结果：
+BibliographyGroupingForm_SinglePublisher	References from this publisher:	来自此出版商的参考文献:
+CreateTaskListDialog_selectionLabel	Which tasks do you want to include?	要包含哪些任务?
+BibTeXExportForm_personNameLabel	Sequence of person names:	人名顺序:
+ClrExceptionDialog_copyButton	Copy to Clipboard	复制到剪贴板
+ChooseReferenceDialog_titleLabel	Select reference	选择参考文献
+SortReferencesCustomDialog_sort4Label	Then by:	然后按：
+ModificationInfoForm_modificationsLabel	Recent changes	最近更改
+KeyConfigurationDialog_applyButton	Apply	应用
+OptionsDialog_numberOfBackupGenerationsLabel	Number of versions:	版本数量:
+CitationStyleFavoriteDialog_advancedSearchPlaceOfReferencesLabel	Where should the full source information appear?	完整来源信息应显示在何处?
+ExportAdminSettingsDialog_expiryDateCheckBox	Expiration date for login information:	登录信息到期日期:
+RelationTypeEditor_positiveLabel	Positive	正
+CustomFieldDialog_showAsDropDownCheckBox	Show as list	以列表显示
+LicenseDialog_licenseAgreementInfoLabel	You must accept the\r\nterms of the license \r\nagreement to enter \r\na license key.	您必须接受\r\n许可协议的\r\n条款才能输入\r\n许可证密钥。
+SearchForm_searchResultGroupsLabel	Please choose:	请选择:
+AddOnsForm_removeAddOnButton	Remove	移除
+ProjectPropertiesDialog_convertPathsButton	Convert paths…	转换路径…
+TabContent_TableOfContents	Table of contents	目录
+ReplacementListDialog_showWhitespaceCharacterNamesCheckBox	Show non-printable characters	显示不可打印字符
+Permission	Permission	权限
+ImportWizardDialog_customTransformerEditCheckBox	Edit	编辑
+BibliographyGrouping_CustomField6All_None	(Without Custom field 6)	(不含自定义字段 6)
+SortReferencesCustomDialog_sort2DescendingRadioButton	descending	降序
+SaveProjectAsNewDesktopLocalProject_Progress_CopyAttachments	Copying attachments…	正在复制附件…
+ClrExceptionDialog_infoEditor	A serious program error has occurred.	发生了严重的程序错误。
+Tabs_ReferenceTab	Reference	参考文献
+ParagraphFormatControl_alignmentLabel	Alignment:	对齐方式：
+Offline_WaitingToReconnect	Waiting to reconnect...	正在等待重新连接...
+PdfPreviewContext	Context	上下文
+nameLabel	Name:	名称：
+Load_NoLocations	No locations	无位置
+WelcomeWizardDialog_ceipTitleLabel_NoLegacyProjects	Select which technical information Citavi can send.	选择 Citavi 可以发送的技术信息。
+TabStopDialog_positionLabel	Position:	位置：
+CitationStyleFavoriteDialog_advancedSearchFullReferenceJournalArticleJournalNameFormatLabel	How are periodical names formatted?	期刊名称的格式如何?
+ApplyKeywordsForm_selectedKeywordsLabel	Selected keywords	选定的关键词
+ConvertProjectsDialog_startTitleLabel	You are starting Citavi 6 for the first time. Do you want Citavi to convert all of your Citavi 5 projects to Citavi 6 format? \r\nCitavi creates copies of your Citavi 5 projects and then converts the copies. Your original Citavi 5 projects remain unchanged.	您第一次启动 Citavi 6。是否希望 Citavi 将所有 Citavi 5 项目转换为 Citavi 6 格式?\r\nCitavi 会创建 Citavi 5 项目的副本,然后转换这些副本。您原来的 Citavi 5 项目保持不变。
+SearchForm_Tab_ExtendedSearch	Advanced search	高级搜索
+CreateBibliographyDialog_selectionLabel	Which references do you want to include?	您想包括哪些参考文献？
+NavigationBar_Texts	Texts	文本
+NavigationBar_Tasks	Tasks	任务
+PreviewControl_pdfPasswordInstructionEditor	This PDF is password-protected. Enter the password to view the file:	此 PDF 受密码保护。请输入密码以查看文件:
+TransformerFavoriteDialog_Title_Application	Add import filter	添加导入过滤器
+ReferenceGridGroupsForm_groupButton	Add	添加
+RecycleBinDialog_recycleBinDurationWarningLabel	It can take up to a minute before the items in the recycle bin are available.	回收站中的条目可能需要长达一分钟才能显示。
+CitaviUpdateDialog_infoLabel_Alpha	You are using Citavi <span style="font-weight:bold;">{0}<br/><span style="font-weight:normal;"> The current version is Citavi <span style="font-weight:bold;">{1}</span></span><br/></span>	您正在使用 Citavi <span style="font-weight:bold;">{0}<br/><span style="font-weight:normal;">当前版本是 Citavi <span style="font-weight:bold;">{1}</span></span><br/></span>
+OptionsDialog_orderByEMailOtherTextLabel	E-mail text for other orders:	其他订单的电子邮件文本:
+CopyProjectDialog_localToCloudTitleLabel	Citavi will create a cloud copy of the local project. What should happen to the original project?	Citavi 将创建本地项目的云副本。原项目应如何处理?
+ExceptionDialog_contextLabel	Please let us know what you were doing before the error occurred. 	请告知我们错误发生前您正在进行的操作。
+PageRangeNumberingTypeFormCaption_Margin	Margin nos.	边距号
+ImportReferenceTypeTagSelectionControl_columnLabel	Column:	列:
+HelpInformationForm_lastExceptionTitleLabel	Error	错误
+CitaviUpdateDialog_downloadButton	Download update	下载更新
+FontStyleEditorControl_italicCheckBox	Italic	斜体
+ProjectPropertiesDialog_convertToUtcButton	Convert time zones	转换时区
+QuitCitaviDialog_updateTitle2Label	Do you want to exit Citavi and install the update?	是否退出 Citavi 并安装更新?
+ProjectDetailsControl_projectColorLabel	Project color:	项目颜色:
+OrderedListDialog_fillMinimumLengthWithLabel	Pad with:	填充字符:
+PdfWpfViewer_searchWholeWordLabel	Whole words	全字匹配
+OnlineSearchCredentialDialog_titleLabel_Provider	The {0} databases are not publicly accessible. Select an authentication method.	{0} 数据库不可公开访问。请选择身份验证方法。
+SearchForm_openParenthesisLabel	(	
+WelcomeWizardDialog_skipAccountLoginInfoLabel	To log in later on, click the account symbol on the Citavi Welcome Screen:	如需稍后登录,请单击 Citavi 欢迎界面上的账户图标:
+MainForm_parentReferenceLabel	Parent reference	父参考文献
+PreviewControl_FileIsBeingDownloaded	Downloading {0}…	正在下载 {0}…
+WelcomeWizardDialog_noInternetConnectifityCheckAgainLabel	Connect to the Internet and then click <span style="font-style:italic;">Next</span>.	连接到 Internet,然后单击 <span style="font-style:italic;">下一步</span>。
+GroupForm_displayTypeReferenceEditorCheckBox	in the Reference Editor	在参考文献编辑器中
+SeriesTitleSmartRepeaterRow_userAbbreviation1Label	Abbreviation 2:	缩写 2：
+NamePlaceholder	Name;	名称;
+SearchReplaceForm_replaceButton	&Replace	&替换
+ImportWizardDialog_pdfImportIncludeSubfoldersCheckBox	Include subfolders	包括子文件夹
+BibliographyGroupingEditor_PeriodicalAll_None	References without periodicals	无期刊的参考文献
+BibliographyGroupingSetsForm_groupingsLabel	Sections for the grouping "{0}"	分组“{0}”的节
+OptionsDialog_publicationAssistantReferenceDoubleClickActionLabel	Double-click reference:	双击参考文献:
+OrganizationSettingsAdminDialog_newButton	New	新建
+OnlineSearchDialogEx_DisableSearchFieldText	Select at least one database or catalog to search.	请至少选择一个要搜索的数据库或目录。
+Hide	Hide	隐藏
+PdfExportDialog_exportMetadataCheckBox	Save Citavi reference information in the PDF metadata	将 Citavi 参考文献信息保存到 PDF 元数据中
+SearchForm_quickSearchEditEquivalentCharactersLabel	Customize…	自定义…
+ProjectPropertiesDialog_Statistics_URLs	Online addresses	在线地址
+ExportWizardDialog_scanTeXFileCheckBox	Only export references cited in the following TeX document	仅导出以下 TeX 文档中引用的参考文献
+SplitKeywordsDialog_previewLabel	Preview	预览
+ChooseReferenceDialog_instructionLabel_AssignTaskToReference	Assign the task to one or more references.	将任务分配给一个或多个参考文献。
+PdfWpfViewer_nextSearchResultButtonTooltip	Next search result (F3)	下一个搜索结果(F3)
+TaskPlanner_All	All	全部
+KnowledgeItem_CategoriesClickOnLabel	Click the label to manage categories	单击标签以管理分类
+BibTeXExportForm_label2	Quick Help text:	快速帮助文本：
+MainForm_taskPlannerQuickSelectionHideDoneTasksCheckBox	Hide completed tasks	隐藏已完成的任务
+CitationStyleFavoriteDialog_criteriaTitleLabel	Criteria	条件
+PersonForm_middleNameLabel	Middle name(s):	中间名：
+MainForm_textLinksLabel	Additional links:	其他链接:
+KeyItemConfigurationDialog_formatLabel	Format:	格式：
+MergeItemsDialog_titleLabel	Merge {0}	合并 {0}
+PreviewControl_downloadCredentialsUserNameLabel	User name:	用户名：
+CreateBibliographyDialog_targetTitleLabel	How do you want to export the project bibliography?	您希望如何导出项目参考文献目录?
+CreateProjectDialogEx_cloudProjectTitleLabel_Recommended	Cloud project	云项目
+CreateProjectDialog_titleLabel_SaveProjectAsNewDesktopLocalProject_Progress	The local copy of the project was created.	项目的本地副本已创建。
+ProjectPropertiesDialog_DefaultAttachmentsFolderPath_DbServer	Default (Documents\\Citavi 6 Attachments\\<Project name>):\r\n{0}	默认(Documents\\Citavi 6 Attachments\\<项目名称>):\r\n{0}
+RecycleBinDialog_dataTitleLabel	Items in the recycle bin	回收站中的条目
+BackupWorkerMainForm_ProgressLabel	Saving log… (This can take a few minutes.)	正在保存日志…(这可能需要几分钟。)
