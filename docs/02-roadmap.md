@@ -142,7 +142,8 @@ Extract-Resources.ps1 -Diff   →  只列出 translations 中缺失的 key
 
 语言包(v0.1)完成后,下一阶段做"中文期刊 DOI 查不到元数据"的问题,详见 **[04-cn-metadata-addon.md](04-cn-metadata-addon.md)**。
 
-- [ ] M1 调研 `ReferenceIdentifierSupport` 可扩展性;搭 Add-On 骨架 + 菜单命令
+- [x] M1 调研扩展机制(**已完成**):内置 DOI 检索硬编码(PubMed→CrossRef→DataCite);但 `IFetcher`/`Importer`/`FetcherFactory`/`Transformer` 均为 public 可复用;`.CitaviTX`(XML,可内嵌运行时编译的 C#)会被自动加载;Add-On 已用 Roslyn `csc` 编译验证通过
+- [ ] M1b 搭 Add-On 骨架 + 「文献条目」菜单命令 + 预览对话框(空实现)
 - [ ] M2 方案 B:中文 DOI 结构解析(ISSN/年/期)+ 本地 ISSN→刊名表
 - [ ] M3 方案 C:OpenAlex / Crossref 按标题回查
 - [ ] M4 方案 A:WebView2 渲染抓取(万方 / 期刊官网)
