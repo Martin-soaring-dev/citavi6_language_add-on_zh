@@ -1,4 +1,4 @@
-#!/usr/bin/env pwsh
+﻿#!/usr/bin/env pwsh
 <#
 .SYNOPSIS
     Citavi 6 中文语言包安装器(自动检测 Citavi / Word 加载项 → 预览 → 执行)。
