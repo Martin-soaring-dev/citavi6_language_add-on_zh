@@ -14,6 +14,11 @@
   `Editor(字段) → 编者`、`Open tasks → 未完成任务`、`Contribution → 篇章`;`Evaluation` 字段统一为「评价」,
   但动词/试用版(`评估其频率`、`评估版已过期`)保留「评估」。
 - 术语表(见 `docs/03-translation-guide.md`)已扩充。
+- **长尾资源组逐条校对**:`WordProcessorResources`(行距选项、图元文件、霍夫曼符号、重启标记等)、
+  `CRM`、`TeX`、`WebLabelsCitaviSpace/Offline/HelpTexts`、`LanguagesAndCultures` 等;
+  并统一「帐户 → 账户」。
+- **标点全/半角统一**:中文相邻的半角 `, ; : ? !` 与句末 `.` 统一为全角,`...` → `…`。
+- **按钮/标签长度抽查**:无超长候选。
 
 验证:`Test-Translations` 0 错误 0 警告(-Strict);构建 6 个附属程序集;`Test-LanguagePack` 通过。
 
