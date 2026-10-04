@@ -215,7 +215,7 @@ MainForm_NewReferenceTaskExcerptQuotations	Excerpt quotations	摘录引用
 ReferenceGridForm_InvertFilter	Invert selection	反选
 NewQuotationDirect_ChooseReference	Direct quotation…	直接引文…
 MainForm_NewReferenceTaskGoThroughBibliography	Go through bibliography	浏览文献目录
-MainForm_FilterByCategory_ToolbarInstance	Quick select by category	按类别快速选择
+MainForm_FilterByCategory_ToolbarInstance	Quick select by category	按分类快速选择
 ExpandAllCategories	Expand all	全部展开
 PreviewControl_SkipPreviewEntryPage	Always preview this location immediately	始终立即预览此位置
 NewQuotationSummary	Summary	摘要
@@ -246,8 +246,8 @@ MainForm_NavigationGoBack	Previous reference	上一条参考文献
 PreviewControl_NewPictureQuotation	Image quotation	图片引文
 MainForm_ShowReferenceEditor	Reference Editor	文献编辑器
 PublicationAssistant_KnowledgeItemInsert	Insert in-text citation	插入文内引文
-RemoveAllLabels2	Clear all red labels	清除所有红色标记
-RemoveAllLabels1	Clear all blue labels	清除所有蓝色标记
+RemoveAllLabels2	Clear all red labels	清除所有红色标签
+RemoveAllLabels1	Clear all blue labels	清除所有蓝色标签
 ViewNoDetails	No details	无详细信息
 KnowledgeItemsFilterByType	By type	按类型
 ToolsLanguageMenu	Language	语言
@@ -256,10 +256,10 @@ SearchForm_ReferencesLabel2Menu	Red label	红色标签
 NewQuotationDirect	Direct quotation	直接引用
 MainForm_ExportCategoriesToWriter	To Writer…	导出到 Writer…
 ApplyKeywordsForm_MoveKeywordUp	Move up	上移
-SearchForm_RemoveKnowledgeItemsFromProjectShell	Exclude selected knowledge items from selection	从选择中排除选定的知识项
+SearchForm_RemoveKnowledgeItemsFromProjectShell	Exclude selected knowledge items from selection	从选择中排除选定的知识条目
 MainForm_NewLocationUncompressedPdfUri	Upload uncompressed PDF	上传未压缩的 PDF
 GoToPeriodicalReferencesMenu_FilterByPeriodical	Apply all references in "{0}" as selection	将 "{0}" 中的所有文献应用为选择
-PreviewControl_YellowMarkerTool_ToolTipText	Highlight text passages without saving as knowledge items.	高亮文本段落但不保存为知识项。
+PreviewControl_YellowMarkerTool_ToolTipText	Highlight text passages without saving as knowledge items.	高亮文本段落但不保存为知识条目。
 DemoteCategory	Demote	降级
 CitaviHelpBox_Info	Information…	信息…
 CitaviHelpBox_Edit	Edit…	编辑…
@@ -268,7 +268,7 @@ ImportFromFreeMind	From a FreeMind document…	从 FreeMind 文档…
 FormatTextColorGreen	Green	绿色
 ShowReferenceEditorFilterTabs	Show column	显示列
 FormatTextColorBlack	Black	黑色
-PublicationAssistant_KnowledgeItemAssignCategories	Assign categories…	分配类别…
+PublicationAssistant_KnowledgeItemAssignCategories	Assign categories…	分配分类…
 EditPlaceholderInsert	Insert in Word	插入到 Word
 PublicationAssistant_ArrangeByKeywords	By keywords	按关键词
 ExportToFreeMind	To FreeMind…	到 FreeMind…
@@ -281,8 +281,8 @@ ReferenceTypeSelectionDialog_Gray	Gray	灰色
 SortAllReferencePublishersAlphabetically	Refresh sort order	刷新排序顺序
 PublicationAssistant_KnowledgeItemFilterText	Filter:	筛选：
 BibliographyGroupingSetsForm_MoveGroupingUp	Move up	上移
-RemoveLabel1	Clear blue label for selected references	清除选定参考文献的蓝色标记
-RemoveLabel2	Clear red label for selected references	清除选定参考文献的红色标记
+RemoveLabel1	Clear blue label for selected references	清除选定参考文献的蓝色标签
+RemoveLabel2	Clear red label for selected references	清除选定参考文献的红色标签
 ProjectMruListEmpty	(The recent items list is empty.)	（最近项列表为空。）
 SortKnowledgeItemsDialog_ShowCoreStatementOnly	Core statement only	仅核心陈述
 ReferencesSortMenu	Sort	排序
@@ -290,7 +290,7 @@ MainForm_PrintCompilationMenu	Print or save compilation	打印或保存汇编
 RtfForm_Export	Export to file…	导出到文件…
 NewLocationRemoteUri	Add Internet address…	添加网址…
 PreviewControl_QuoteAbstract	Abstract	摘要
-NewSubcategory	New subcategory	新建子类别
+NewSubcategory	New subcategory	新建子分类
 ShowZoomWindow	Zoom	缩放
 HelpCitationStyleEditorManual	Citation style editor manual	引文样式编辑器手册
 PublicationAssistant_ViewMiniaturize	Mini	迷你
@@ -298,7 +298,7 @@ ViewRefresh_ReferenceGrid_ToolTipText	Refreshes the table with its sorting and g
 SeriesTitleList_ApplyRelatedReferencesAsSelection	Apply related references as selection	将相关文献应用为选择
 MassReferenceIdentifierDownloadDialog_ReferenceDelete	Delete	删除
 PeriodicalEditorContextMenu	Context menu for the periodicals field	期刊字段的上下文菜单
-SearchForm_SetKnowledgeItemsAsProjectShell	Apply selected knowledge items as selection	将选定的知识项应用为选择
+SearchForm_SetKnowledgeItemsAsProjectShell	Apply selected knowledge items as selection	将选定的知识条目应用为选择
 QuickEditForm_AddCoverMenu_ToolTipTextFormatted	Add cover art from a file, the Clipboard, a screenshot, or from the Internet.	从文件、剪贴板、屏幕截图或互联网添加封面图片。
 ReferenceGridColumnsForm_MoveColumnDown	Move down	下移
 ParentReferenceContextMenu	Context menu for parent reference	父级参考文献的上下文菜单
@@ -306,7 +306,7 @@ MainForm_DeleteSourceEntityLink	Delete link	删除链接
 PublicationAssistant_ShowQuotationReference	Edit reference…	编辑参考文献…
 MainForm_ShowPreview_ToolTipText	Preview	预览
 StyleEditorForm_SetTemplateUseCaseEditStateCompleted	Completed	已完成
-BatchRemoveCategories	Remove categories…	移除类别…
+BatchRemoveCategories	Remove categories…	移除分类…
 ReferenceSmartRepeaterQuickEditForm_NewQuotationDirect	Direct quotation…	直接引文…
 ShowGroupList_Long	Open groups list	打开组列表
 FormatDoubleUnderline	Double underline	双下划线
@@ -316,12 +316,12 @@ ProjectSettings_ToolTipTitle	Manage project properties	管理项目属性
 PublicationAssistant_ShowOptions	Settings…	设置…
 MainForm_ShowPreview	Preview	预览
 PeriodicalList_ApplyRelatedReferencesAsSelection	Apply related references as selection	将相关文献应用为选择
-MainForm_KnowledgeOrganizer_CitationPlaceholderMenu_ToolTipText	Inserts selected knowledge items in your word processor.	将选定的知识项插入您的文字处理软件。
+MainForm_KnowledgeOrganizer_CitationPlaceholderMenu_ToolTipText	Inserts selected knowledge items in your word processor.	将选定的知识条目插入您的文字处理软件。
 ReferenceGridForm_HideColumn_Disabled	This column cannot be hidden	此列无法隐藏
 MainForm_SearchOnline_ToolTipText	Search more than 4000 library catalogs and databases worldwide.	搜索全球 4000 多个图书馆目录和数据库。
 PublicationAssistant_Placeholder	Reference	参考文献
-MainForm_PrintCompilationByKeyword_ToolTipText	Prints or saves a list of knowledge items in a customizable format.	以可自定义的格式打印或保存知识项列表。
-NewCategoryMenu	New category or subcategory	新建类别或子类别
+MainForm_PrintCompilationByKeyword_ToolTipText	Prints or saves a list of knowledge items in a customizable format.	以可自定义的格式打印或保存知识条目列表。
+NewCategoryMenu	New category or subcategory	新建分类或子分类
 MainForm_ReferenceEditorQuotations_FilterByMore_ToolTipText	Hides quotations and PDF annotations that you don't need.<br/>\r\nThe filter also applies to<i>yellow highlights</i>.	隐藏您不需要的引文和 PDF 注释。<br/>\r\n该筛选器也适用于<i>黄色高亮</i>。
 MoveCategoryDown	Move down	下移
 FormatIndentIncreaseLevel	Increase indent	增加缩进
@@ -356,12 +356,12 @@ MainForm_SwitchLeftPaneVisibility_Off	Hide left pane	隐藏左侧窗格
 MainForm_GoToRecordNumber	To record…	转到记录…
 MainForm_ShowCountOfReferenceAndKnowledgeItems	Show number of references	显示参考文献数量
 CopyWithOptions	Copy with options…	使用选项复制…
-CategoriesEditorContextMenu	Shortcut menu for categories	类别的快捷菜单
+CategoriesEditorContextMenu	Shortcut menu for categories	分类的快捷菜单
 ImportFromWriter	From a Writer document…	从 Writer 文档…
 MainForm_RenameAttachment	Rename this file…	重命名此文件…
 ManageDerivedCitationStyles_CloudState_Deleting_ToolTipText	This derived style is currently available in the cloud, but will be DELETED when changes are saved.	此派生样式当前在云端可用，但保存更改时它将被删除。
 MainForm_SetTaskStateStarted	Started	已开始
-ShowReferenceEditorCategories_ToolTipText	Show categories in separate column	在单独列中显示类别
+ShowReferenceEditorCategories_ToolTipText	Show categories in separate column	在单独列中显示分类
 BibliographyGroupingSetsForm_PromoteGrouping	Promote	提升级别
 SearchOnline_ToolbarInstance	Online search	在线搜索
 MainForm_CopyProject2	Duplizieren…	复制…
@@ -370,11 +370,11 @@ MainForm_OpenAssignedReferenceInNewWindow	Open reference in new window	在新窗
 QuickEditForm_EditTaskItem_ToolTipTitle	Edit task	编辑任务
 Remove	Remove	移除
 FormatParagraphFlowDefault	Default	默认
-ReferenceGridForm_FilterByLabel2	Quick select by red labels	按红色标记快速选择
-ReferenceGridForm_FilterByLabel1	Quick select by blue labels	按蓝色标记快速选择
+ReferenceGridForm_FilterByLabel2	Quick select by red labels	按红色标签快速选择
+ReferenceGridForm_FilterByLabel1	Quick select by blue labels	按蓝色标签快速选择
 ExportToWord	To Word…	导出到 Word…
 FormatParagraphFlowRightToLeft	Right to left	从右到左
-BatchAssignCategoriesDialog_FileOk	Assign selected categories	分配选定的类别
+BatchAssignCategoriesDialog_FileOk	Assign selected categories	分配选定的分类
 PreviewControl_Stop	Stop	停止
 PreviewControl_Back	Back	返回
 PreviewControl_Open	Open	打开
@@ -405,7 +405,7 @@ PreviewControl_TaskMenu	Task	任务
 SpecialCharsBrackets	Brackets	方括号
 MainForm_CustomizeOverview	Customize overview…	自定义概览…
 NewLocationLibrary_ToolbarInstance	Library location	图书馆位置
-ShowClassification_Long_On	Show category numbers	显示类别编号
+ShowClassification_Long_On	Show category numbers	显示分类编号
 GoToParentReference	Go to parent reference "{0}"	转到父级参考文献“{0}”
 MainForm_FilterByCreatedByModifiedByMe	Created or modified by me	由我创建或修改
 ClearFilter	Cancel	取消
@@ -434,10 +434,10 @@ GoToParentReferenceDisabled	Go to parent reference	转到父级参考文献
 SpecialCharsOneThird	One third	三分之一
 MainForm_Summary_ToolTipText	A short rendition of a chapter or section, in your own words.	用自己的话对章节或部分进行的简短概述。
 MainForm_ShowOrganizationSettingsExportDialog	Export settings…	导出设置…
-QuickEditForm_EditCategories_ToolTipTextFormatted	Open the category editor.	打开类别编辑器。
+QuickEditForm_EditCategories_ToolTipTextFormatted	Open the category editor.	打开分类编辑器。
 MainForm_FilterIncludeChildReferences	Add all child references to the selection	将所有子参考文献添加到选择中
 OriginalCheckedByEditorContextMenu	Context menu for the "Original checked by" field	“原文核对人”字段的上下文菜单
-Unrated	Unrated	未评级
+Unrated	Unrated	未评分
 CopyProject_ToolTipTextFormatted	Saves a second version of the project with all attachments to the location of your choice.<br/><span style="color:Gray;">Hold the Ctrl key and click to open the Citavi manual chapter for this feature.</span>	将包含所有附件的项目第二个版本保存到您选择的位置。<br/><span style="color:Gray;">按住 Ctrl 键并单击可打开此功能的 Citavi 手册章节。</span>
 PublicationAssistant_PlaceholderFilterText	Select:	选择：
 MainForm_DownloadCoverWithIsbn	ISBN download	ISBN 下载
@@ -445,7 +445,7 @@ QuickEditForm_EditGroups_ToolTipTitle	Edit groups	编辑组
 CitationPlaceholderMenu_ReferencesOnly_ToolTipText	Inserts selected references in your word processor.	将选定的参考文献插入您的文字处理软件。
 PublicationAssistant_PlaceholderCopy	Copy	复制
 PublicationAssistant_PlaceholderMenu	Reference	参考文献
-CategoriesExportMenu	Export category system	导出类别体系
+CategoriesExportMenu	Export category system	导出分类体系
 OpenRecentProject	List of recently opened projects	最近打开的项目列表
 ApplyKeywordsForm_SortKeywords	Sort alphabetically	按字母顺序排序
 DeleteCategory	Delete…	删除…
@@ -491,7 +491,7 @@ MacroEditorForm_BuildMenu	Build	构建
 MainForm_NewKnowledgeItemMenu_ToolbarInstance	Knowledge item	知识条目
 MainForm_PreviewShowAffiliation	Affiliation	隶属机构
 KeywordForm_DeleteKeyword	Delete this keyword…	删除此关键词…
-StyleEditorForm_CitationStyleProperties	Citation style properties…	引用样式属性……
+StyleEditorForm_CitationStyleProperties	Citation style properties…	引文样式属性……
 OnlineSearchDialogEx_SaveSearchTerm	Save search	保存搜索
 MainForm_ExportCategoriesToMindManager	To MindManager…	到 MindManager…
 TeXPublicationForm_Window	Window	窗口
@@ -504,7 +504,7 @@ MainForm_ShowTaskPlanner	Task Planner	任务计划器
 SpecialCharsCharMap	Windows Character Map	Windows 字符映射表
 ImportForm_CollapseAllImportSessions	Hide details	隐藏详细信息
 HelpCitaviOnlineFAQShort	FAQ	常见问题
-MainForm_FilterByLabel1_ToolbarInstance	Quick select by blue labels	按蓝色标记快速选择
+MainForm_FilterByLabel1_ToolbarInstance	Quick select by blue labels	按蓝色标签快速选择
 RatingOneStar	1 Star	1 星
 MainForm_QuotationSmartRepeaterKnowledgeItemCompositionMenu	Show	显示
 MainForm_TasksMenu	Tasks	任务
@@ -520,7 +520,7 @@ ReferencesList	References list	参考文献列表
 SearchForm_GoToNextHit	To next result	转到下一个结果
 PasteRtf	Paste with formatting	粘贴并保留格式
 ShowReferenceTable	Table	表格
-MoveCategory_ToolTipText	You can also drag categories to rearrange them.	您也可以拖动类别以重新排列它们。
+MoveCategory_ToolTipText	You can also drag categories to rearrange them.	您也可以拖动分类以重新排列它们。
 GroupList_ApplyRelatedReferencesAsSelection	Apply related references as selection	将相关文献应用为选择
 FormatTextColorRed	Red	红色
 ShowTeXPublicationForm	Choose documents…	选择文档…
@@ -532,7 +532,7 @@ ImportFromLocalCitaviProject	Import from local Citavi project…	从本地 Citav
 QuickEditForm_EditStandardReferenceProperty_ToolTipTitle	Edit {0}	编辑 {0}
 TaskNewReferenceTaskMenu	Quick insert	快速插入
 ReferenceTypeSelectionDialog_Red	Red	红色
-HideReferenceEditorCategories	Hide categories	隐藏类别
+HideReferenceEditorCategories	Hide categories	隐藏分类
 MainForm_PrintTaskList	Print task list…	打印任务列表…
 MainForm_SaveTaskListMenu	Save task list…	保存任务列表…
 ShowReferencesEditorFilterTab_Keywords_ToolTipText	Show column with keywords	显示关键词列
@@ -545,11 +545,11 @@ CollapseAll	Hide details	隐藏详细信息
 ImportFromMindManager	From a MindManager document…	从 MindManager 文档…
 MacroEditorForm_Compile	Compile	编译
 PreviewControl_ShowFullScreen	Open in full screen	全屏打开
-ShowClassification	Show/hide category numbers	显示/隐藏类别编号
+ShowClassification	Show/hide category numbers	显示/隐藏分类编号
 CitationStyleListDialogEx_CitationStyleSortDesc	From Z to A	从 Z 到 A
 ExportToWriter	To Writer…	导出到 Writer…
 MainForm_OpenProject	Choose project…	选择项目…
-MainForm_FilterByRating	By rating:	按评级：
+MainForm_FilterByRating	By rating:	按评分：
 InsertMenu	Insert	插入
 PrintForm_Export	Export to a new file…	导出到新文件…
 MainForm_CloseProject	Close project	关闭项目
@@ -562,8 +562,8 @@ LookupReferenceIdentifierDialog_ReferenceExportCalc	Export to OpenOffice.org Cal
 Categories_ImportFromCitaviProject	From a Citavi project…	从 Citavi 项目…
 MainForm_ShowMacroEditorForm	Macro Editor…	宏编辑器…
 MergeCategories	Merge…	合并…
-KnowledgeItemForm_FileDelete	Delete this knowledge item…	删除此知识项…
-ShowClassification_Short_On	Show category numbers	显示类别编号
+KnowledgeItemForm_FileDelete	Delete this knowledge item…	删除此知识条目…
+ShowClassification_Short_On	Show category numbers	显示分类编号
 SpecialCharsUpperQuotesSingle	Single upper quotation marks	单上引号
 ReferenceSmartRepeaterQuickEditForm_NewLocationRemoteUri	Internet address…	网址…
 MainForm_FilterByCreatedByModifiedBy	Created or modified by	创建或修改者
@@ -617,11 +617,11 @@ PreviewControl_NewKeywords	Keywords	关键词
 ReferenceGridForm_PrintTable	Print table	打印表格
 EditSeriesTitle	Edit "{0}"	编辑“{0}”
 MainForm_SetTaskStateNotStarted	Not started	未开始
-MainForm_PreviewShowHideCategories_Hide	Hide categories	隐藏类别
+MainForm_PreviewShowHideCategories_Hide	Hide categories	隐藏分类
 MainForm_PreviewShowHideCategories_Show	Show categories	显示分类
 KeywordList_ExpandAll	Show all knowledge items and references	显示所有知识条目和文献
-MainForm_FilterByLabel2	By red labels	按红色标记
-MainForm_FilterByLabel1	By blue labels	按蓝色标记
+MainForm_FilterByLabel2	By red labels	按红色标签
+MainForm_FilterByLabel1	By blue labels	按蓝色标签
 ReferenceSmartRepeaterQuickEditForm_NewLocationLocalFolderUri	Local folder…	本地文件夹…
 NewQuotationIndirect_ChooseReference	Indirect quotation…	间接引文…
 StyleEditorForm_TemplateMenu	Template	模板
@@ -635,7 +635,7 @@ MainForm_WindowNewWindow	New window for this project	为此项目新建窗口
 BibliographyGroupingSetsForm_DeleteGroupingSet	Delete grouping…	删除分组…
 PrintForm_ViewHeadersAndFooters	Header and footer	页眉和页脚
 KeywordList_KeywordsMenu	Keywords	关键词
-StyleEditorForm_ManageDerivedCitationStyles_Name	Manage citation styles derived from {0}…	管理派生自 {0} 的引用样式…
+StyleEditorForm_ManageDerivedCitationStyles_Name	Manage citation styles derived from {0}…	管理派生自 {0} 的引文样式…
 ShowCitationStyleList	Citation style	引文样式
 ApplyKeywordsForm_MoveKeywordDown	Move down	下移
 BatchAddPrivateCollectionLocation	Add Private Collection location…	添加私人收藏位置…
@@ -655,7 +655,7 @@ MainForm_FilterByKnowledgeItemsInPublication	By knowledge items in the current d
 ShowReferenceNavigationListWithShortTitle	Short Title	短标题
 ImportForm_ExpandAllImportSessions	Show details	显示详细信息
 ApplyRelatedReferencesAsSelection	Apply related references as selection	将相关文献应用为选择
-MainForm_FilterByLabel2_ToolbarInstance	Quick select by red labels	按红色标记快速选择
+MainForm_FilterByLabel2_ToolbarInstance	Quick select by red labels	按红色标签快速选择
 NoSpellCheckForSelection	Don't check	不检查
 SpecialCharsSoftHyphen	Soft hyphen	软连字符
 FormatTextColorLightGreen	Light green	浅绿色
@@ -695,7 +695,7 @@ PreviewControl_ShowFullScreenReferenceInPrimaryMainForm	Show reference	显示文
 SpecialCharsEllipsis	Ellipsis	省略号
 MainForm_ReferenceManagement_NewLocation_InstanceCaption	Location…	位置…
 SearchOnline	Online search	在线搜索
-MainForm_ToolsChangeCitationStyle	Change citation style…	更改引用样式…
+MainForm_ToolsChangeCitationStyle	Change citation style…	更改引文样式…
 BibliographyGroupingSetsForm_DeleteGrouping	Delete section	删除节
 FormatChangeTextCaseInitialUppercase	Capital letters at beginning of words	词首大写字母
 BatchRemoveCategoriesDialog_FileOk	Remove selected categories	移除所选分类
@@ -719,7 +719,7 @@ SiblingReferencesList	List of contributions	贡献列表
 CitationStyleListDialogEx_CitationStyleMoveUp	Up	上移
 EditItem_ToolTipText	Opens an editor for the selected item.	为选中项打开编辑器。
 MainForm_FilterByYear	By year of publication	按出版年份
-RefreshCitationKey	Refresh citation key	刷新引用键
+RefreshCitationKey	Refresh citation key	刷新引文键
 MainForm_FilterByMore	More selection options	更多选择选项
 ReferenceGridForm_AllowUpdate_Off	Turn off editing in place	关闭就地编辑
 FormatSmallCaps	Small caps	小型大写字母
@@ -749,7 +749,7 @@ FormatBulletsAndNumbering	Bullets and numbering…	项目符号和编号…
 SortReferencesAscending	From A to Z	从 A 到 Z
 ApplyRemoveKeywords	Apply or remove keywords	应用或移除关键词
 SearchForm_SetReferencesAsProjectShell	Apply as selection	作为选择应用
-MainForm_CitationCitationStyleWizard	Citation styles…	引用样式…
+MainForm_CitationCitationStyleWizard	Citation styles…	引文样式…
 SortReferencesYearDescending	By year (newest on top)	按年份（最新在上）
 ShowKnowledgeOrganizer_ToolTipText	Knowledge Organizer	知识管理器
 MainForm_NewTargetEntityLink	New link…	新建链接…
@@ -793,7 +793,7 @@ ReduceTextSelection1	Or do you want to remove text from a selection?	或者您�
 ReduceTextSelection2	Press and hold the Shift key and then select the text you want to remove.	按住 Shift 键，然后选择要移除的文本。
 MassReferenceIdentifierDownloadDialog_Edit	Edit	编辑
 SelectAll	Select all	全选
-AssignCategories	Assign categories	分配类别
+AssignCategories	Assign categories	分配分类
 BibTeXKeyEditorContextMenu	Shortcut menu for the BibTeX key field	BibTeX 键字段的快捷菜单
 TableSelectColumn	Column	列
 RemoveKeywordFromSelectedReferences	Remove the keyword "{0}" from the selected reference(s)	从所选文献中移除关键词 "{0}"
@@ -802,7 +802,7 @@ ReferenceSmartRepeaterQuickEditForm_NewQuotationFile	File quotation…	文件引
 ToolsMenu	Tools	工具
 ReferenceSmartRepeaterQuickEditForm_AddCoverFromIsbnDownload	Search for cover art by ISBN	按 ISBN 搜索封面图片
 MainForm_NewReferenceAuto_ToolTipTitle	Retrieve by ISBN, DOI name, or other identifier	按 ISBN、DOI 名称或其他标识符检索
-CitationKeyEditorContextMenu	Shortcut menu for the citation key field	引用键字段的快捷菜单
+CitationKeyEditorContextMenu	Shortcut menu for the citation key field	引文键字段的快捷菜单
 QuickEditForm_AddQuotation_ToolTipTitle	Add quotation…	添加引文…
 BatchRemoveKeywords	Remove keywords…	移除关键词…
 OpenActiveLinkFile	Open file…	打开文件…
@@ -830,7 +830,7 @@ MainForm_NewReference_ToolTipText	Does your book have an ISBN? Or does your jour
 GoToSourceEntityLink_WithPlaceholder	Go to "{0}"	转到 "{0}"
 MainForm_ShowReferenceTypeStructureForm	Document type structure…	文献类型结构…
 OpenActiveLinkFolder	Open folder…	打开文件夹…
-StyleEditorForm_UploadCitationStyle	Upload citation style to the cloud…	将引用样式上传到云端…
+StyleEditorForm_UploadCitationStyle	Upload citation style to the cloud…	将引文样式上传到云端…
 ImportFromCitaviProject	Import from Citavi project…	从 Citavi 项目导入…
 MainForm_GoToPrevious	To previous reference	上一个文献
 StyleEditorForm_UseCaseInhertFromListPopup	Inherit from	继承自
@@ -929,7 +929,7 @@ SpecialCharsGuillemetsSingleGerman	Single guillemets inward	单角引号（向�
 MainForm_ReferenceEditorQuotations_FilterByMore_ToolTipTitle	Filter quotations and PDF annotations	筛选引文和 PDF 注释
 QuickEditForm_AddLocation_ToolTipTitle	Add local file, Internet address or location	添加本地文件、Internet 地址或位置
 MainForm_PrintTaskListMenu_ToolbarInstance	Task list	任务列表
-RemoveSelectedKnowledgeItemsFromFilter	Exclude selected knowledge items from selection	从选择中排除选定的知识项
+RemoveSelectedKnowledgeItemsFromFilter	Exclude selected knowledge items from selection	从选择中排除选定的知识条目
 TableSplitMenu	Split	拆分
 PreviewControl_NewQuotationIndirect_ToolTipText	Save and add purple highlight in margin.	保存并在页边添加紫色高亮。
 ShowFieldEditorDialog	Open editor…	打开编辑器…
@@ -938,10 +938,10 @@ KnowledgeItemFileForm_NewCommentOnQuotation	Add comment to this item	为此项�
 Lists_SwitchLayoutShowAll	Show full view	显示完整视图
 ShowPeriodicalList_Long	List of periodicals	期刊列表
 MainForm_PreviewShowQuotations_ToolTipTitle	Preview Quotation	预览引文
-SetLabel1	Set blue label for selected references	为所选文献设置蓝色标记
-SetLabel2	Set red label for selected references	为所选文献设置红色标记
+SetLabel1	Set blue label for selected references	为所选文献设置蓝色标签
+SetLabel2	Set red label for selected references	为所选文献设置红色标签
 KeywordList_CollapseAll	Show keywords only	仅显示关键词
-PublicationAssistant_PlaceholderAssignCategories	Assign categories…	分配类别…
+PublicationAssistant_PlaceholderAssignCategories	Assign categories…	分配分类…
 MassReferenceIdentifierDownloadDialog_ReferenceDeleteAll	Clear all	全部清除
 PublicationAssistant_ArrangeByCoreStatement	By core statements	按核心论述
 ApplyGroups	Assign groups	分配组
@@ -981,7 +981,7 @@ BibliographyImportControl_SelectAll	Select all	全选
 PublicationAssistant_ShowKnowledgeItem	Edit knowledge item…	编辑知识条目…
 MainForm_QuotationSmartRepeaterKnowledgeItemCompositionKeywords	Keywords	关键词
 ReferenceGridForm_ViewGroupsCollapseAll	Collapse all groups	折叠所有组
-ShortTitleEditorContextMenu	Context menu for the citation key field	引用键字段的上下文菜单
+ShortTitleEditorContextMenu	Context menu for the citation key field	引文键字段的上下文菜单
 ThoughtListContextMenu	Context menu for quotation list	引文列表的上下文菜单
 MainForm_OpenProjectMenu	Open project	打开项目
 PrintForm_InsertDate	Insert date	插入日期
@@ -991,7 +991,7 @@ ShowHideReferenceEditorImportGroups_Hide	Hide import groups column	隐藏导入�
 ShowHideReferenceEditorImportGroups_Show	Show import groups column	显示导入组列
 PreviewControl_ContextMenu_NewTask	Add task	添加任务
 FormatTextColorYellow	Yellow	黄色
-MainForm_CategoriesExportMenu	Export category system	导出类别体系
+MainForm_CategoriesExportMenu	Export category system	导出分类体系
 MainForm_TasksOrder	Order	订购
 LinkedResourceAttachingInProgress	Adding attachment…	正在添加附件…
 MainForm_CreateBackup	Create backup…	创建备份…
@@ -1011,7 +1011,7 @@ QuickEditForm_EditCategories_ToolTipTitle	Edit categories	编辑分类
 FormatItalic	Italic	斜体
 GoToSourceEntityLink	Go to	转到
 ProjectSettings_ToolTipTextFormatted	Attachment management, user information correction, statistics, and more.<br/><span style="color:Gray;">Press the Ctrl key while clicking to to open the Citavi manual chapter for this feature.</span>	附件管理、用户信息更正、统计等。<br/><span style="color:Gray;">按住 Ctrl 键的同时单击，可打开 Citavi 手册中有关此功能的章节。</span>
-StyleEditorForm_ManageDerivedCitationStyles	Manage derived citation styles…	管理派生的引用样式…
+StyleEditorForm_ManageDerivedCitationStyles	Manage derived citation styles…	管理派生的引文样式…
 TagFormatting	Formatting	正在格式化
 MainForm_SelectAllKnowledgeItems	Select all knowledge items	选择所有知识条目
 FormatHidden	Hidden	隐藏
@@ -1043,8 +1043,8 @@ MainForm_UndoDeletion	Undo deletion…	撤销删除…
 ManageDerivedCitationStyles_CloudState_Waiting_ToolTipText	This derived style is BEING SAVED to the cloud.	此派生样式正在保存到云端。
 PeriodicalList_PeriodicalsMenu	Periodicals	期刊
 MainForm_ViewReferences	References	文献条目
-ShowHideReferenceEditorCategories_Hide	Hide category column	隐藏类别列
-ShowHideReferenceEditorCategories_Show	Show category column	显示类别列
+ShowHideReferenceEditorCategories_Hide	Hide category column	隐藏分类列
+ShowHideReferenceEditorCategories_Show	Show category column	显示分类列
 EditItem	Edit	编辑
 EditMenu	Edit	编辑
 EditFind	Find	查找
@@ -1110,7 +1110,7 @@ MainForm_MoveKnowledgeItems_ToolTipText	You can also drag knowledge items to rea
 NewQuotationSummary_ChooseReference	Summary…	摘要…
 MainForm_DeleteCategory	Delete…	删除…
 ManageDerivedCitationStyles_CloudState_Error_ToolTipText	There has been an error to save changes to this style in the cloud.	将此样式的更改保存到云端时出错。
-ShowCategoryList_Long	List of categories	类别列表
+ShowCategoryList_Long	List of categories	分类列表
 MainForm_NewThoughtText_ToolbarsInstance	Text	文本
 MainForm_SwitchPreviewQuickHelp_QuickHelp	Show Quick Help	显示快速帮助
 SplashForm_startLabel	Starting Citavi…	正在启动 Citavi…
@@ -1131,11 +1131,11 @@ KnowledgeItemTextForm_GenerateCoreStatementAutomatically	Generate core statement
 ReferenceGridForm_ShowReferenceTypeSelectionDialog	Change reference type…	更改文献类型…
 QuickEditForm_EditQuotation_ToolTipTitle	Edit quotation	编辑引文
 MainForm_PasteCover	Paste	粘贴
-BatchAssignCategories	Assign categories…	分配类别…
+BatchAssignCategories	Assign categories…	分配分类…
 MainForm_PrintBibliographyWithOptions	Print annotated…	打印批注…
 RatingThreeStars	3 Stars	3 星
 QuickEditForm_EditGroups_ToolTipTextFormatted	Open the group editor.	打开分组编辑器。
-CitationStyleListDialogEx_CitationStyleAddLocalFile	Open citation style file	打开引用样式文件
+CitationStyleListDialogEx_CitationStyleAddLocalFile	Open citation style file	打开引文样式文件
 FilterByRating_PlaceholderText	for example: 0; <=3; >4	例如：0; <=3; >4
 MainForm_FilterByKeyword_ToolbarInstance	Quick select by keyword	按关键字快速选择
 PreviewControl_SaveAs	Save as…	另存为…
@@ -1150,7 +1150,7 @@ MainForm_SetTaskStateAdvanced	Advanced	高级
 MainForm_EditMenuTaskPlanner_SelectAll	Select all tasks	选择所有任务
 ShowReferenceEditorCategories	Categories	分类
 PreviewControl_NewComment_ToolTipText	Save and add orange highlight in margin.	保存并在页边距添加橙色高亮。
-NewCategory	New category	新建类别
+NewCategory	New category	新建分类
 TableSelectRow	Row	行
 PreviewControl_StructuredSelection	Textauswahl	文本选择
 TaskItemForm_DeleteTaskItem	Delete task…	删除任务…
@@ -1170,12 +1170,12 @@ ChatWindow_toolbarButtonSaveChatHistory	Save chat history	保存聊天记录
 EditBibTeXKey	Edit or create BibTeX keys…	编辑或创建 BibTeX 键…
 MainForm_RenameFile	Rename files with the Citavi short title…	使用 Citavi 短标题重命名文件…
 MainForm_Comment_ToolTipText	Your own comments on a whole text, chapter, or section.	您自己对整篇文本、章节或小节的评论。
-ListOfCategories	List of categories	类别列表
+ListOfCategories	List of categories	分类列表
 StyleEditorForm_MoveTemplateUp	Promote	提升级别
-NewSubcategory_ToolbarsInstance	Subcategory	子类别
+NewSubcategory_ToolbarsInstance	Subcategory	子分类
 CitationStyleListDialogEx_CitationStyleMoveDown	Down	下
 MoveDown	Move down	下移
-MainForm_PrintCompilation_ToolTipText	Prints or saves a list of knowledge items in a customizable format.	以可自定义的格式打印或保存知识项列表。
+MainForm_PrintCompilation_ToolTipText	Prints or saves a list of knowledge items in a customizable format.	以可自定义的格式打印或保存知识条目列表。
 EditPageRangeNumeralSystem	Page range numeral system…	页码范围数字系统…
 ReferenceGridGroupsForm_MoveColumnUp	Move up	上移
 PreviewControl_FitWidth	Page width	页宽
@@ -1194,7 +1194,7 @@ ViewGroups_ToolTipText	Opens a window that lets you select and order columns acc
 BatchAssignCategoriesDialog_EditFilter	 Filter:	 筛选：
 MainForm_OrderByEMail	Book by email…	通过电子邮件获取图书…
 MainForm_NewSourceEntityLink	New link…	新建链接…
-EditCitationStyles	Edit citation style…	编辑引用样式…
+EditCitationStyles	Edit citation style…	编辑引文样式…
 MainForm_ReferenceEditor_CitationPlaceholderMenu_ToolTipTitle	Cite	引用
 InsertPlaceholderMenu	Insert in {0}	插入到 {0}
 ReferenceGridForm_CopyOrMoveReferencesToProject	Copy or move to a Citavi project…	复制或移动到 Citavi 项目…
@@ -1206,7 +1206,7 @@ StartForm_OpenSampleProject	Open sample project…	打开示例项目…
 TableInsertTable	Table…	表格…
 MainForm_PrintToFileGroupedBibliography	Save grouped…	分组保存…
 MainForm_PrintCompilationByKeyword_ToolbarInstance	List	列表
-MainForm_SaveBibliography	Save in current citation style…	以当前引用样式保存…
+MainForm_SaveBibliography	Save in current citation style…	以当前引文样式保存…
 MainForm_ShowPreviewNumberOfFiles	{0} {0:file|files}	{0} 个{0:文件|文件}
 ReferenceGridGroupsForm_MoveColumnDown	Move down	下移
 AssignedReferencesMenu	Related reference	相关文献
@@ -1225,10 +1225,10 @@ ShowPublisherList	Publishers	出版社
 HelpMenu	Help	帮助
 HelpInfo	About	关于
 MainForm_ImportCategoriesFromConceptDrawDocument	From a ConceptDraw document…	从 ConceptDraw 文档…
-FilterBySelectedKnowledgeItems	Apply selected knowledge items as selection	将选定的知识项应用为选择
+FilterBySelectedKnowledgeItems	Apply selected knowledge items as selection	将选定的知识条目应用为选择
 ReplacementListDialog_MoveReplacementUp	Up	上移
 PreviewControl_Pan	Pan	平移
-PublicationAssistant_ArrangeByCategories	By categories	按类别
+PublicationAssistant_ArrangeByCategories	By categories	按分类
 QuickSearch	Quick search	快速搜索
 ImportFromDBServerProject	Import from DBServer project…	从 DBServer 项目导入…
 NoSavedExportDataExchangeProperties	(No export presets)	（无导出预设）
@@ -1247,9 +1247,9 @@ MainForm_SwitchQuotationDisplay_CoreStatementAndText	Show core statement and tex
 RatingTwoStars	2 Stars	2 星
 MainForm_PreviewShowHideCreationText_Hide	Hide "Created by"	隐藏“创建者”
 MainForm_PreviewShowHideCreationText_Show	Show "Created by"	显示“创建者”
-ShowHideReferenceEditorFilterTabs_Show	Show category, keyword and group column	显示类别、关键字和分组列
+ShowHideReferenceEditorFilterTabs_Show	Show category, keyword and group column	显示分类、关键字和分组列
 MainForm_ReferenceManagement_PeriodicalEditorContextMenu_ShowPeriodicalList_InstanceCaption	List of periodicals	期刊列表
-ShowHideReferenceEditorFilterTabs_Hide	Hide category, keyword and group column	隐藏类别、关键字和分组列
+ShowHideReferenceEditorFilterTabs_Hide	Hide category, keyword and group column	隐藏分类、关键字和分组列
 MainForm_IndirectQuotation_ToolTipText	A substantially faithful rendition of a text, in your own words.	用自己的语言对文本进行实质忠实的转述。
 StyleEditorForm_NewComponentPart	New…	新建…
 PublisherList_ApplyRelatedReferencesAsSelection	Apply related references as selection	将相关文献应用为选择
@@ -1285,8 +1285,8 @@ InsertPlaceholderAsFootnote	Insert in {0} as footnote	在 {0} 中作为脚注插
 MainForm_NewReference	New reference by hand	手动新建文献
 ReferenceGridForm_Duplicate	Duplicate	重复
 PreviewControl_StructuredTextSelection	Text selection	文本选定范围
-ShowActiveReferenceInCitationStyle_Hide	Hide current reference in citation style	在引用样式中隐藏当前文献
-ShowActiveReferenceInCitationStyle_Show	Show current reference in citation style	在引用样式中显示当前文献
+ShowActiveReferenceInCitationStyle_Hide	Hide current reference in citation style	在引文样式中隐藏当前文献
+ShowActiveReferenceInCitationStyle_Show	Show current reference in citation style	在引文样式中显示当前文献
 MainForm_PrintBibliographyMenu_ToolbarInstance	Project bibliography	项目文献目录
 EditGroup	Edit "{0}"	编辑“{0}”
 MainForm_HelpCitaviManualShort	Manual	手动
@@ -1296,7 +1296,7 @@ ShowTeXPublicationFormWithFileSelector	Automatic BibTeX export	自动 BibTeX 导
 StyleEditorForm_UseCaseInheritFromNone	Don't inherit	不继承
 StyleEditorForm_UseCaseInheritFromGoTo	Go to "{0}"	转到 "{0}"
 HelpAccount	Your Citavi Account	您的 Citavi 账户
-RemoveCategoryFromSelectedReferences	Remove the category "{0}" from the selected reference(s)	从所选文献中移除类别“{0}”
+RemoveCategoryFromSelectedReferences	Remove the category "{0}" from the selected reference(s)	从所选文献中移除分类“{0}”
 TeXPublicationForm_EditShowReference	Show reference	显示文献
 InvertCondition	Invert criterion	反转条件
 NewLocationLocalFolderUri_ToolbarInstance	Local folder	本地文件夹
@@ -1316,7 +1316,7 @@ MainForm_ReferenceManagement_NewQuotationTextMenu_InstanceCaption	Quotation	引�
 MainForm_ShowOrganizationSettingsImportDialog	Import settings…	导入设置…
 SeriesTitleEditorContextMenu	Context menu for series	丛书的上下文菜单
 MainForm_NewLocationMenu	Location	位置
-ReferencesBatchRemoveCategories	Batch remove categories	批量删除类别
+ReferencesBatchRemoveCategories	Batch remove categories	批量删除分类
 ViewRefresh_ToolTipTitle	Refresh	刷新
 Copy	Copy	复制
 Open	Open…	打开…

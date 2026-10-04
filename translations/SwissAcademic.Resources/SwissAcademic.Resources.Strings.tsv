@@ -6,7 +6,7 @@ RepairIntegrity_CategoryCategory_ParentOrphaned	{0} category relationships were 
 Citavi4TeamUpgradeCitavi4Pro	Citavi 4 Team (Upgrade Citavi 4 Pro)	Citavi 4 Team（升级 Citavi 4 Pro）
 Citavi4TeamUpgradeCitavi3Pro	Citavi 4 Team (Upgrade Citavi 3 Pro)	Citavi 4 Team（升级 Citavi 3 Pro）
 ProjectCloudUpload_CreateProjectEnd	"{0}" was created.	“{0}”已创建。
-CitationKeyDialog_Name	Citation Key Settings	引用键设置
+CitationKeyDialog_Name	Citation Key Settings	引文键设置
 EquivalentCharactersPair_ToString	{0} also finds {1}	{0} 也可查找 {1}
 MoveFileToProject_Error	{0} file(s) were successfully moved.\r\n{1} file(s) could not be found.\r\nErrors occurred with {2} file(s).\r\n\r\nDo you want to open the log?	{0} 个文件已成功移动。\r\n{1} 个文件未找到。\r\n{2} 个文件发生错误。\r\n\r\n是否要打开日志？
 FullTextSearchNotIndexedWarning_SqlServer	The full text search will search your files individually. If you have a large number of files in your project, this may take several minutes. \r\n\r\nSince you are working with a DBServer project, we recommend installing full text indexing on the server. This lets you search across full text much more quickly.\r\n\r\n<a href="http://www.citavi.com/fulltextsearch">Please see the online manual for additional information.</a>	全文搜索将逐个搜索您的文件。如果项目中文件数量较多，这可能需要几分钟。\r\n\r\n由于您使用的是 DBServer 项目，我们建议在服务器上安装全文索引。这样可以更快速地跨全文进行搜索。\r\n\r\n<a href="http://www.citavi.com/fulltextsearch">更多信息请参阅在线手册。</a>
@@ -28,7 +28,7 @@ MassReferenceIdentifier_Invalid	Not a valid identifier	不是有效的标识符
 DeleteMirroredLocationForOnlineAddress	Do you want to remove the corresponding location?	是否要移除相应的位置？
 BibliographyGroupingSet_ImportError	The selected file is not a valid bibliography grouping	所选文件不是有效的书目分组
 ShowResults	Show results	显示结果
-CitationKeyDialog_GenerateKey	You have modified the template for citation keys. How do you want to proceed?	您已修改引用键模板。您希望如何继续？
+CitationKeyDialog_GenerateKey	You have modified the template for citation keys. How do you want to proceed?	您已修改引文键模板。您希望如何继续？
 ElectronicAddressInfo_NotAnUri_LocationLabel	Electronic: unknown	电子：未知
 FilterKeywordNotFound_ProjectShell	The keyword "{0}" ist not assigned to any references in the selection.	关键词“{0}”未分配给所选内容中的任何参考文献。
 ImportWizard_tabularDefinitionDelimiterSemiColonRadioButton	Semicolon	分号
@@ -119,7 +119,7 @@ Outlook_GroupByMode_Description_NextWeek	Next week	下周
 FormattableDocumentIsPasswordProtected	The document could not be scanned. It is probably password-protected. You must remove the password before you can format the document in Citavi.	无法扫描该文档。它可能受密码保护。您必须先移除密码,然后才能在 Citavi 中设置文档格式。
 ElectronicAddressInfo_Attachments_LocationPrefix	[Citavi]	[Citavi]
 ProxyConfigurationServerMissing	The proxy server address is required. Enter the server address.	必须填写代理服务器地址。请输入服务器地址。
-LookupLocationsFavoritesFormText	Search for Locations	搜索地点
+LookupLocationsFavoritesFormText	Search for Locations	搜索位置
 ScreenshotCannotBeTaken	Citavi cannot make a screenshot of this file.	Citavi 无法对此文件截图。
 MergePublishers_DragDropMessage	Do you want to merge the publisher "{1}" into "{0}"?\r\n\r\nAll references from "{1}" will use "{0}".	是否要将出版商“{1}”合并到“{0}”中?\r\n\r\n“{1}”中的所有参考文献都将使用“{0}”。
 CitationStyleEditAndSave	You cannot edit an included style directly. To edit a copy of the style, enter a name for the copy:	您无法直接编辑内置样式。要编辑样式的副本,请输入副本的名称:
@@ -155,7 +155,7 @@ ElectronicAddressInfo_Removable_LocationLabel_short	USB drive	USB 驱动器
 UserDataFolderSelection_DirectoryContainsFilesWarning	The selected folder "{0}" already contains other files. Do you want Citavi to create a folder inside it for your Citavi user data?	所选文件夹“{0}”中已包含其他文件。您是否希望 Citavi 在其中为您的 Citavi 用户数据创建一个文件夹?
 ConvertTextToUnicode_CannotConvertText	"{0}" cannot be converted to Unicode.	“{0}”无法转换为 Unicode。
 PdfPermissions_AssembleDocument	Modify document	修改文档
-ReferenceGrid_VirtualColumnLabel_LocationsInPrivateCollectionAddress	Location (in Private Collection)	地点(在私人收藏中)
+ReferenceGrid_VirtualColumnLabel_LocationsInPrivateCollectionAddress	Location (in Private Collection)	位置(在私人收藏中)
 CitaviSupport	Citavi Support	Citavi 支持
 UnsavedChangesRestoredSuccessfully	All changes have been recovered.	所有更改均已恢复。
 ElectronicAddressInfo_Ram_LocationPrefix	[RamDisk]	[RamDisk]
@@ -163,7 +163,7 @@ QuotationSelectionListSingular	The quotation in the current list	当前列表中
 BibliographyCompositionEditorRowToolTip_ShowTasksNumber	{0} tasks	{0} 个任务
 OpenProjectFromCloud_StartingJob	Citavi Cloud is starting the download job…	Citavi Cloud 正在启动下载任务…
 UploadFullText_ExtractingData	Extracting full text …	正在提取全文 …
-RepairIntegrity_Location_ReferenceNull	{0} locations were not assigned to any reference. Citavi has created a new reference with the short title "!!Citavi Project Repair" and assigned the locations to it.	{0} 个地点未分配给任何参考文献。Citavi 已创建一个简称为“!!Citavi Project Repair”的新参考文献,并将这些地点分配给它。
+RepairIntegrity_Location_ReferenceNull	{0} locations were not assigned to any reference. Citavi has created a new reference with the short title "!!Citavi Project Repair" and assigned the locations to it.	{0} 个位置未分配给任何参考文献。Citavi 已创建一个短标题为“!!Citavi Project Repair”的新参考文献,并将这些位置分配给它。
 DropBoxWarning	The selected project appears to be saved in a folder synchronized by DropBox. For technical reasons <a href="http://www.citavi.com/dropbox"> we do not recommend using DropBox to synchronize Citavi projects.\r\n\r\nDo you want to open the project anyway?	所选项目似乎保存在由 DropBox 同步的文件夹中。出于技术原因,<a href="http://www.citavi.com/dropbox">我们不建议使用 DropBox 同步 Citavi 项目。\r\n\r\n是否仍要打开该项目?
 USBInstallationNoRemovableDriveFound	No removable drives (USB flash drives, etc.) were found. Do you want to select the location where Citavi should be installed?	未找到可移动驱动器(USB 闪存盘等)。您是否要选择 Citavi 的安装位置?
 RepairIntegrity_SeriesTitleEditor_SeriesTitleOrphaned	{0} links between series and editors were removed because the series does not exist.	由于丛书不存在,已移除 {0} 个丛书与编辑之间的链接。
@@ -232,13 +232,13 @@ EMailClientProcessStartFailed	An error occurred while trying to communicate with
 ImportWizardTextTransformerRecordLayoutRecordsCount	({0} references found)	(找到 {0} 条参考文献)
 ThoughtSelectionSelectedSingular	The selected thought	所选想法
 DefaultSearches_ReferencesWithAttachements	References with attachments	带附件的参考文献
-FreeMindNoCategoriesImported	No categories imported.	未导入类别。
-BibliographyCompositionEditorRowToolTip_ShowLocationsNumber	{0} locations	{0} 个地点
+FreeMindNoCategoriesImported	No categories imported.	未导入分类。
+BibliographyCompositionEditorRowToolTip_ShowLocationsNumber	{0} locations	{0} 个位置
 CountFilters	{0} criteria	{0} 个条件
 CRM_Email_OrderProcessBilling_subject	Your Citavi license key	您的 Citavi 许可证密钥
 OverrideImportedCitationKeys	Replace short titles when importing	导入时替换短标题
 Outlook_GroupByMode_Description_Yesterday	Yesterday	昨天
-RepairIntegrity_CategoryCategory_SubCategoryNull	{0} category relationships were removed because the link to the subcategory was empty. Check the category system (Lists > Categories).	由于指向子类别的链接为空,已移除 {0} 个类别关系。请检查类别系统(列表 > 类别)。
+RepairIntegrity_CategoryCategory_SubCategoryNull	{0} category relationships were removed because the link to the subcategory was empty. Check the category system (Lists > Categories).	由于指向子分类的链接为空,已移除 {0} 个分类关系。请检查分类系统(列表 > 分类)。
 RemoveKeywordFromSelectedKnowledgeItems	Do you want to remove the keyword "{0}" from the selected knowledge item(s)?	是否要从所选知识条目中移除关键词“{0}”?
 Delete	Delete	删除
 BatchLogger_Verboses	Other	其他
@@ -302,7 +302,7 @@ Column	Column	列
 CopyOf	{0} [Copy]	{0} [副本]
 DbServerUsersConcurrent	{0:{0} concurrent user|{0} concurrent users}	{0:{0} 个并发用户|{0} 个并发用户}
 BackgroundTask_ErrorLabelWebApiException	A cloud request failed	云请求失败
-Transformer_Available_OnlineLocationTransformer	Available for location search: {0} of {1}	可用于地点搜索:{0}/{1}
+Transformer_Available_OnlineLocationTransformer	Available for location search: {0} of {1}	可用于位置搜索:{0}/{1}
 ErrorRecoveringData	Data recovery failed.\r\nPlease send the changemap file that will appear after you click OK to the Citavi Support team (support@citavi.com).	数据恢复失败。\r\n请将点击“确定”后出现的 changemap 文件发送给 Citavi 支持团队 (support@citavi.com)。
 PdfExport_InvalidDataException	The source or target document is not a PDF file.	源文档或目标文档不是 PDF 文件。
 CopyOrMoveFileToProject_FileNotFound	[Not found]    The file "{0}" of the reference "{1}" could not be found.	[未找到]    找不到参考文献“{1}”的文件“{0}”。
@@ -327,7 +327,7 @@ MergeSeriesTitles_DragDropMessage	Do you want to merge the series "{1}" into "{0
 LeaveProjectMsgBox_Title	Leave project	退出项目
 CreateProjectArchiveTask_ShortName	Create project archive	创建项目存档
 PickerOrDirectImportFailed_NoProjectOpened	You cannot import because no project is open.	无法导入,因为没有打开任何项目。
-RepairIntegrity_CategoryCategory_HierarchyLost	{0} categories have been moved to the top level of the category system because the hierarchy information was lost.	由于层次结构信息丢失,{0} 个类别已移动到类别系统的顶层。
+RepairIntegrity_CategoryCategory_HierarchyLost	{0} categories have been moved to the top level of the category system because the hierarchy information was lost.	由于层次结构信息丢失,{0} 个分类已移动到分类系统的顶层。
 ImportAccounts_NoAccountsFound	All of the team members in the selected project are already in this project.	所选项目中的所有团队成员都已在此项目中。
 NReferencesSelectedForEditing	{0} references selected for editing	已选择 {0} 条参考文献进行编辑
 RssFeedAlreadyExists	You already subscribe to this feed.	您已订阅此源。
@@ -366,7 +366,7 @@ PdfExportPreperationText	Export wird vorbereitet …	正在准备导出 …
 PdfExport_RemoteLocationNotCompatible	The document has not yet been saved on the hard drive.	该文档尚未保存到硬盘上。
 RepairIntegrity_ReferenceGroup_GroupNull	{0} links between references and groups were removed because the link to the group was empty.	由于指向分组的链接为空,已移除 {0} 个参考文献与分组之间的链接。
 Ascending	Ascending	升序
-PdfExport_LocationFileNotFound	The path ("{0}") to the location was not found.	找不到指向该地点的路径(“{0}”)。
+PdfExport_LocationFileNotFound	The path ("{0}") to the location was not found.	找不到指向该位置的路径(“{0}”)。
 CRM_Email_CampusContractExtensionRenewalVoucher	By voucher code: enter your code in your Citavi account to activate the new license. You will need to obtain a new voucher code from your university or organization.	通过兑换码:在您的 Citavi 账户中输入您的代码以激活新许可证。您需要从您的大学或组织获取新的兑换码。
 CRM_Email_ConfirmEmailAddressCampusContractLicenseMail_subject	Please confirm your email address	请确认您的电子邮件地址
 SearchFinished	Citavi has finished searching.	Citavi 已完成搜索。
@@ -413,7 +413,7 @@ CampusLicenseExpiryWarningAccountMessage	<span style="font-weight:bold">Importan
 ImportSettingHelpContext_SearchField_Title	t:| "Bird" restricts the search to references with "Bird" in the title or subtitle.	
 RtfLengthWarning_Content	This field requires too much storage space. It may contain a large image or a very long text. This can cause problems when saving or publishing.\r\n\r\nPlease edit this field now.	此字段需要的存储空间过大。它可能包含大尺寸图片或超长文本，这会在保存或发布时导致问题。\r\n\r\n请现在编辑此字段。
 SqlServerInfo_AlreadyConnectedToAnotherDbServer_CannotOpenProject	You cannot open this project since Citavi is already connected to another DBServer database.\r\nYou must close all projects before changing the connection.	由于 Citavi 已连接到另一个 DBServer 数据库，您无法打开此项目。\r\n更改连接前必须关闭所有项目。
-DeleteCategoryWithChildCategories	Do you want to delete the "{0}" category?\r\n\r\nWarning: This category contains subcategories that will also be deleted.	是否要删除“{0}”类别？\r\n\r\n警告：该类别包含子类别，它们也将被删除。
+DeleteCategoryWithChildCategories	Do you want to delete the "{0}" category?\r\n\r\nWarning: This category contains subcategories that will also be deleted.	是否要删除“{0}”分类？\r\n\r\n警告：该分类包含子分类，它们也将被删除。
 KnowledgeItemsWithNoKeyword	No keywords	无关键字
 FormattableString_Text	Text	文本
 BarcodeScannerException_ReadError	An error occurred while reading from the scanner.	从扫描仪读取时出错。
@@ -423,7 +423,7 @@ Update	Refresh	刷新
 RepairIntegrity_Reference_InvalidDateTimeString	{0} references had dates in the "Created on" or "Modified on" fields that were not valid.	{0} 条题录的“创建日期”或“修改日期”字段中的日期无效。
 NoYearParsed	(No year found)	（未找到年份）
 CopyOrMoveToProjectWizard_CannotCopyToCitavi4Project	You cannot copy to the project "{0}" because it is a Citavi 4 project. Open the project in Citavi 6 first, then copy to the Citavi 6 project.	由于“{0}”是 Citavi 4 项目，您无法复制到该项目。请先在 Citavi 6 中打开该项目，再复制到 Citavi 6 项目。
-CategoryTextEditorDropDownForm_UpdateInfo_AddCategoryNameMissing	Type name to create category:\r\n{0}	输入名称以创建类别：\r\n{0}
+CategoryTextEditorDropDownForm_UpdateInfo_AddCategoryNameMissing	Type name to create category:\r\n{0}	输入名称以创建分类：\r\n{0}
 NoIsbnDataAvailable	No data available for this ISBN number.\r\n\r\nDo you want to choose another catalog for ISBN number searches?	此 ISBN 编号没有可用数据。\r\n\r\n是否要为 ISBN 编号搜索选择其他目录？
 CRM_Email_ConfirmProjectInvitation_first_paragraph	##inviter has invited you to work on the Citavi project "##projectname" with the following role: ##projectrole.\r\n\r\n##description	##inviter 已邀请您使用以下角色参与 Citavi 项目“##projectname”：##projectrole。\r\n\r\n##description
 DataExchangeProperty_Overwrite_OnlineImport	The saved search "{0}" already exists. Do you want to replace it?	已保存的搜索“{0}”已存在。是否要替换它？
@@ -481,7 +481,7 @@ PdfControl_ExecuteLinkFailed	The link "{0}" could not be executed.\r\n\r\nError 
 EquivalentCharactersPairAlreadyExists	The equivalent character pair "{0}" already exists.	等效字符对“{0}”已存在。
 CRM_Email_CampusContractExtensionRenewalEmail	By email: add the email address of your university or organization to your Citavi Account to automatically receive your new license.	通过电子邮件：将您大学或组织的电子邮件地址添加到您的 Citavi 账户，以自动接收新许可证。
 BibliographyCompositionEditorRowToolTip_ShowFirstTaskOnly	First task only	仅第一个任务
-SearchForm_NoResults_MainFormKnowledgeKnowledgeItemsCurrentCategoryAndBelow	No results in the current category and child categories.	当前类别及其子类别中无结果。
+SearchForm_NoResults_MainFormKnowledgeKnowledgeItemsCurrentCategoryAndBelow	No results in the current category and child categories.	当前分类及其子分类中无结果。
 FilterReferencesWithNoKeywordNotFound_Project	The project contains no references without keywords.	该项目不包含无关键字的题录。
 CancellationInProgress	Canceling...	正在取消...
 ImportExportWizard_Option_ImportLiteRat	LiteRat	LiteRat
@@ -551,7 +551,7 @@ TodayOrYesterday	Yesterday or today	昨天或今天
 LinkedResource_Retry	Retry	重试
 RepairIntegrity_ReferenceEditor_ReferenceOrphaned	{0} links between references and editors were removed because the reference does not exist.	由于题录不存在，已移除 {0} 个题录与编者之间的链接。
 ShareWithNvivo	Share with NVivo	与 NVivo 共享
-FilterReferencesWithNoCategoryNotFound_ProjectShell	The current selection contains no references without categories.	当前选择不包含无类别的题录。
+FilterReferencesWithNoCategoryNotFound_ProjectShell	The current selection contains no references without categories.	当前选择不包含无分类的题录。
 MergeLibraryOption	Merge the edited library with the existing library"{0}"	将编辑后的库与现有库“{0}”合并
 Thoughts	Thoughts	想法
 DeleteSavedSearch	Are you sure you want to delete the saved search "{0}"?	确定要删除已保存的搜索“{0}”吗？
@@ -571,7 +571,7 @@ NoReferenceTypeDefined	No reference type.	无题录类型。
 ImportExportWizard_Option_ImportEndNote	EndNote	EndNote
 CloudProjectCouldNotBeFound_RemoveFromKnownProjects	The cloud project could not be found. Do you want to remove it from the list of recent projects?	找不到该云项目。是否要从最近项目列表中移除它？
 ResourceType_AttachmentAttaching_LocationPrefix	[Adding]	[正在添加]
-CompilationSelection_Category	The knowledge items in the selected category (including child categories)	所选类别（包括子类别）中的知识条目
+CompilationSelection_Category	The knowledge items in the selected category (including child categories)	所选分类（包括子分类）中的知识条目
 HtmlToPdfConversionFailed_FileNotFound	An error occurred while accessing HTML content from Internet Explorer. This is a known error, but cannot be corrected in Citavi. Please try converting the webpage to PDF later, or use a different program to convert it.	从 Internet Explorer 访问 HTML 内容时出错。这是已知错误，但无法在 Citavi 中修正。请稍后尝试将网页转换为 PDF，或使用其他程序进行转换。
 BibliographyGrouping_StatusBar_None	No grouping	不分组
 DesktopAlertSaveFaultedFooter	Click here to view the errors.	单击此处查看错误。
@@ -603,7 +603,7 @@ UndoEntryOption	Undo entry	撤消条目
 SearchForm_RefineNumberSearch	The number search found many results in fields that are often considered irrelevant (for example, in the modification date of notes).\r\nDo you want to restrict the search to relevant fields (for example, "year")?	数字搜索在许多通常被视为不相关的字段中找到了大量结果（例如笔记的修改日期）。\r\n是否要将搜索限制为相关字段（例如“年份”）？
 NoReferenceFound	found.	已找到。
 RecycleBinContainsUnsavedEntitiesCaption	Delete permanently	永久删除
-FilterReferencesWithNoCategoryNotFound_Project	The project contains no references without categories.	该项目不包含无类别的题录。
+FilterReferencesWithNoCategoryNotFound_Project	The project contains no references without categories.	该项目不包含无分类的题录。
 KeyItemConfigurationDialog_personMultipleSetsTabControl_OnePerson	1 person	1 人
 BookOrderTitleFavoriteSelection	Choose your favorite online bookseller from the following list:	请从以下列表中选择您喜爱的在线书店：
 OptionsDialog_mainTabControl_Scanner	Scanner	扫描仪
@@ -628,7 +628,7 @@ DuplicatePublisherInfoCancel	A publisher with this name already exists. Enter a 
 OptionsImportRetrievalDefinition	Databases for online search	用于在线搜索的数据库
 DeleteRowsConfirmation_Smart	The {0:selected member|{0} selected members} will be removed.	{0:所选成员|所选的 {0} 个成员}将被移除。
 MergePublishers_DragDropMessage_Multi	Do you want to merge the selected {1} publishers into "{0}"?	是否要将所选的 {1} 个出版商合并到“{0}”？
-AllKnowledgeItemsInAllCategories	All knowledge items in all categories	所有类别中的所有知识条目
+AllKnowledgeItemsInAllCategories	All knowledge items in all categories	所有分类中的所有知识条目
 OptionsOpenUrlBaseUrlIsEmpty	You have not specified a Base URL for OpenURL. Do you want to use the default Base URL?	您尚未为 OpenURL 指定基础 URL。是否要使用默认基础 URL？
 PersonFieldPropertyEditorControl_FillSubsequentRepetitionOutput	A special output format for repeating persons is already defined.\r\n\r\nDo you want to overwrite it?	已定义用于重复人员的特殊输出格式。\r\n\r\n是否要覆盖它？
 DefaultSearches_ReferencesWithQuotations	References with quotations	带引文的题录
@@ -646,13 +646,13 @@ CannotSaveFilterAsSearch	The selection contains filter conditions that cannot be
 TransformerHelpContext_ORRequestNotSupported	|OR| searches	
 ProjectIsFromNewerVersion	This project was created with a later version of Citavi and cannot be opened using this version.	此项目是用较新版本的 Citavi 创建的，无法使用此版本打开。
 ExportToClipboard	Export to clipboard	导出到剪贴板
-RepairIntegrity_KnowledgeItemCategory_CategoryOrphaned	{0} links between knowledge items and categories were removed because the category does not exist.	由于类别不存在，已移除 {0} 个知识条目与类别之间的链接。
+RepairIntegrity_KnowledgeItemCategory_CategoryOrphaned	{0} links between knowledge items and categories were removed because the category does not exist.	由于分类不存在，已移除 {0} 个知识条目与分类之间的链接。
 OpenProjectFromCloud_WaitingForActivation	Waiting for the download job to be started by Citavi Cloud…	正在等待 Citavi Cloud 启动下载作业…
 Sigel_DefaultLatex_Json	{\r\n  "AutoUpdate": false,\r\n  "CharsToRemove": [\r\n    "/",\r\n    "\\\\",\r\n    "#",\r\n    "%",\r\n    "'",\r\n    "|",\r\n    ",",\r\n    "=",\r\n    "{",\r\n    "}",\r\n    "\\"",\r\n    "-",\r\n    "[",\r\n    "]",\r\n    "(",\r\n    ")",\r\n    " "\r\n  ],\r\n  "Name": "DefaultLatex",\r\n  "Id": "3E94604B-95EB-4877-BCF0-DFE5BBCA2487",\r\n  "Items": [\r\n    {\r\n      "ReferenceTypeId": 0,\r\n      "KeyItems": [\r\n        {\r\n          "$type": "SwissAcademic.Citavi.BibTeXCitationKey.PersonKeyItem, SwissAcademic.Citavi",\r\n          "PersonElement1": {\r\n            "FirstNameCharCount": 0,\r\n            "FormatEndIndex": -1,\r\n            "FormatStartIndex": 1,\r\n            "LastNameCharCount": 100,\r\n            "PersonNameFormatType": 0,\r\n            "TextBetweenFirstNameLastName": ". ",\r\n            "TextBetweenPersons": "."\r\n          },\r\n          "PersonElement2": {\r\n            "FirstNameCharCount": 0,\r\n            "FormatEndIndex": 3,\r\n            "FormatStartIndex": 1,\r\n            "LastNameCharCount": 100,\r\n            "PersonNameFormatType": 0,\r\n            "TextBetweenFirstNameLastName": ". ",\r\n            "TextBetweenPersons": " & "\r\n          },\r\n          "PersonListElement": {\r\n            "AbbreviateAfterPersonIndex": 1,\r\n            "AbbreviateText": "",\r\n            "MaxPersonCount": 1\r\n          },\r\n          "PersonElementForOnePerson": {\r\n            "FirstNameCharCount": 0,\r\n            "FormatEndIndex": 3,\r\n            "FormatStartIndex": 1,\r\n            "LastNameCharCount": 100,\r\n            "PersonNameFormatType": 0,\r\n            "TextBetweenFirstNameLastName": ". ",\r\n            "TextBetweenPersons": " & "\r\n          },\r\n          "PersonElement1ForTwoPersons": {\r\n            "FirstNameCharCount": 0,\r\n            "FormatEndIndex": 3,\r\n            "FormatStartIndex": 1,\r\n            "LastNameCharCount": 100,\r\n            "PersonNameFormatType": 0,\r\n            "TextBetweenFirstNameLastName": ". ",\r\n            "TextBetweenPersons": " & "\r\n          },\r\n          "PersonElement2ForTwoPersons": {\r\n            "FirstNameCharCount": 0,\r\n            "FormatEndIndex": 3,\r\n            "FormatStartIndex": 1,\r\n            "LastNameCharCount": 100,\r\n            "PersonNameFormatType": 0,\r\n            "TextBetweenFirstNameLastName": ". ",\r\n            "TextBetweenPersons": " & "\r\n          },\r\n          "PersonElement1ForThreePersons": {\r\n            "FirstNameCharCount": 0,\r\n            "FormatEndIndex": 3,\r\n            "FormatStartIndex": 1,\r\n            "LastNameCharCount": 100,\r\n            "PersonNameFormatType": 0,\r\n            "TextBetweenFirstNameLastName": ". ",\r\n            "TextBetweenPersons": " & "\r\n          },\r\n          "PersonElement2ForThreePersons": {\r\n            "FirstNameCharCount": 0,\r\n            "FormatEndIndex": 3,\r\n            "FormatStartIndex": 1,\r\n            "LastNameCharCount": 100,\r\n            "PersonNameFormatType": 0,\r\n            "TextBetweenFirstNameLastName": ". ",\r\n            "TextBetweenPersons": " & "\r\n          },\r\n          "UseDifferentSetsForDifferentNumberOfPersons": false,\r\n          "Lowercase": false,\r\n          "ReferencePropertyId": 108,\r\n          "TextAfter": "",\r\n          "TextBefore": "",\r\n          "Uppercase": false\r\n        },\r\n        {\r\n          "$type": "SwissAcademic.Citavi.BibTeXCitationKey.DateKeyItem, SwissAcademic.Citavi",\r\n          "DateTimePattern": "yyyy",\r\n          "FormatDate": true,\r\n          "Lowercase": false,\r\n          "ReferencePropertyId": 201,\r\n          "TextAfter": "",\r\n          "TextBefore": ".",\r\n          "Uppercase": false\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      "ReferenceTypeId": 12,\r\n      "KeyItems": [\r\n        {\r\n          "$type": "SwissAcademic.Citavi.BibTeXCitationKey.PersonKeyItem, SwissAcademic.Citavi",\r\n          "PersonElement1": {\r\n            "FirstNameCharCount": 100,\r\n            "FormatEndIndex": -1,\r\n            "FormatStartIndex": 1,\r\n            "LastNameCharCount": 100,\r\n            "PersonNameFormatType": 0,\r\n            "TextBetweenFirstNameLastName": " ",\r\n            "TextBetweenPersons": " & "\r\n          },\r\n          "PersonElement2": {\r\n            "FirstNameCharCount": 0,\r\n            "FormatEndIndex": 3,\r\n            "FormatStartIndex": -1,\r\n            "LastNameCharCount": 100,\r\n            "PersonNameFormatType": 0,\r\n            "TextBetweenFirstNameLastName": ". ",\r\n            "TextBetweenPersons": " & "\r\n          },\r\n          "PersonListElement": {\r\n            "AbbreviateAfterPersonIndex": 1,\r\n            "AbbreviateText": "",\r\n            "MaxPersonCount": 1\r\n          },\r\n          "PersonElementForOnePerson": {\r\n            "FirstNameCharCount": 0,\r\n            "FormatEndIndex": 3,\r\n            "FormatStartIndex": 1,\r\n            "LastNameCharCount": 100,\r\n            "PersonNameFormatType": 0,\r\n            "TextBetweenFirstNameLastName": ". ",\r\n            "TextBetweenPersons": " & "\r\n          },\r\n          "PersonElement1ForTwoPersons": {\r\n            "FirstNameCharCount": 0,\r\n            "FormatEndIndex": 3,\r\n            "FormatStartIndex": 1,\r\n            "LastNameCharCount": 100,\r\n            "PersonNameFormatType": 0,\r\n            "TextBetweenFirstNameLastName": ". ",\r\n            "TextBetweenPersons": " & "\r\n          },\r\n          "PersonElement2ForTwoPersons": {\r\n            "FirstNameCharCount": 0,\r\n            "FormatEndIndex": 3,\r\n            "FormatStartIndex": 1,\r\n            "LastNameCharCount": 100,\r\n            "PersonNameFormatType": 0,\r\n            "TextBetweenFirstNameLastName": ". ",\r\n            "TextBetweenPersons": " & "\r\n          },\r\n          "PersonElement1ForThreePersons": {\r\n            "FirstNameCharCount": 0,\r\n            "FormatEndIndex": 3,\r\n            "FormatStartIndex": 1,\r\n            "LastNameCharCount": 100,\r\n            "PersonNameFormatType": 0,\r\n            "TextBetweenFirstNameLastName": ". ",\r\n            "TextBetweenPersons": " & "\r\n          },\r\n          "PersonElement2ForThreePersons": {\r\n            "FirstNameCharCount": 0,\r\n            "FormatEndIndex": 3,\r\n            "FormatStartIndex": 1,\r\n            "LastNameCharCount": 100,\r\n            "PersonNameFormatType": 0,\r\n            "TextBetweenFirstNameLastName": ". ",\r\n            "TextBetweenPersons": " & "\r\n          },\r\n          "UseDifferentSetsForDifferentNumberOfPersons": false,\r\n          "Lowercase": false,\r\n          "ReferencePropertyId": 152,\r\n          "TextAfter": "",\r\n          "TextBefore": "",\r\n          "Uppercase": false\r\n        },\r\n        {\r\n          "$type": "SwissAcademic.Citavi.BibTeXCitationKey.TextKeyItem, SwissAcademic.Citavi",\r\n          "NumberOfChars": 0,\r\n          "NumberOfWords": 0,\r\n          "TextKeyFormatType": 2,\r\n          "Lowercase": false,\r\n          "ReferencePropertyId": 176,\r\n          "TextAfter": "",\r\n          "TextBefore": ".",\r\n          "Uppercase": false\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      "ReferenceTypeId": 26,\r\n      "KeyItems": [\r\n        {\r\n          "$type": "SwissAcademic.Citavi.BibTeXCitationKey.PersonKeyItem, SwissAcademic.Citavi",\r\n          "PersonElement1": {\r\n            "FirstNameCharCount": 0,\r\n            "FormatEndIndex": -1,\r\n            "FormatStartIndex": 1,\r\n            "LastNameCharCount": 100,\r\n            "PersonNameFormatType": 0,\r\n            "TextBetweenFirstNameLastName": ". ",\r\n            "TextBetweenPersons": "."\r\n          },\r\n          "PersonElement2": {\r\n            "FirstNameCharCount": 0,\r\n            "FormatEndIndex": 3,\r\n            "FormatStartIndex": 1,\r\n            "LastNameCharCount": 100,\r\n            "PersonNameFormatType": 0,\r\n            "TextBetweenFirstNameLastName": ". ",\r\n            "TextBetweenPersons": " & "\r\n          },\r\n          "PersonListElement": {\r\n            "AbbreviateAfterPersonIndex": 1,\r\n            "AbbreviateText": "",\r\n            "MaxPersonCount": 1\r\n          },\r\n          "PersonElementForOnePerson": {\r\n            "FirstNameCharCount": 0,\r\n            "FormatEndIndex": 3,\r\n            "FormatStartIndex": 1,\r\n            "LastNameCharCount": 100,\r\n            "PersonNameFormatType": 0,\r\n            "TextBetweenFirstNameLastName": ". ",\r\n            "TextBetweenPersons": " & "\r\n          },\r\n          "PersonElement1ForTwoPersons": {\r\n            "FirstNameCharCount": 0,\r\n            "FormatEndIndex": 3,\r\n            "FormatStartIndex": 1,\r\n            "LastNameCharCount": 100,\r\n            "PersonNameFormatType": 0,\r\n            "TextBetweenFirstNameLastName": ". ",\r\n            "TextBetweenPersons": " & "\r\n          },\r\n          "PersonElement2ForTwoPersons": {\r\n            "FirstNameCharCount": 0,\r\n            "FormatEndIndex": 3,\r\n            "FormatStartIndex": 1,\r\n            "LastNameCharCount": 100,\r\n            "PersonNameFormatType": 0,\r\n            "TextBetweenFirstNameLastName": ". ",\r\n            "TextBetweenPersons": " & "\r\n          },\r\n          "PersonElement1ForThreePersons": {\r\n            "FirstNameCharCount": 0,\r\n            "FormatEndIndex": 3,\r\n            "FormatStartIndex": 1,\r\n            "LastNameCharCount": 100,\r\n            "PersonNameFormatType": 0,\r\n            "TextBetweenFirstNameLastName": ". ",\r\n            "TextBetweenPersons": " & "\r\n          },\r\n          "PersonElement2ForThreePersons": {\r\n            "FirstNameCharCount": 0,\r\n            "FormatEndIndex": 3,\r\n            "FormatStartIndex": 1,\r\n            "LastNameCharCount": 100,\r\n            "PersonNameFormatType": 0,\r\n            "TextBetweenFirstNameLastName": ". ",\r\n            "TextBetweenPersons": " & "\r\n          },\r\n          "UseDifferentSetsForDifferentNumberOfPersons": false,\r\n          "Lowercase": false,\r\n          "ReferencePropertyId": 108,\r\n          "TextAfter": "",\r\n          "TextBefore": "",\r\n          "Uppercase": false\r\n        },\r\n        {\r\n          "$type": "SwissAcademic.Citavi.BibTeXCitationKey.DateKeyItem, SwissAcademic.Citavi",\r\n          "DateTimePattern": "",\r\n          "FormatDate": false,\r\n          "Lowercase": false,\r\n          "ReferencePropertyId": 201,\r\n          "TextAfter": "",\r\n          "TextBefore": ".",\r\n          "Uppercase": false\r\n        },\r\n        {\r\n          "$type": "SwissAcademic.Citavi.BibTeXCitationKey.TextKeyItem, SwissAcademic.Citavi",\r\n          "NumberOfChars": 0,\r\n          "NumberOfWords": 0,\r\n          "TextKeyFormatType": 0,\r\n          "Lowercase": false,\r\n          "ReferencePropertyId": 179,\r\n          "TextAfter": "",\r\n          "TextBefore": ".",\r\n          "Uppercase": false\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      "ReferenceTypeId": 31,\r\n      "KeyItems": [\r\n        {\r\n          "$type": "SwissAcademic.Citavi.BibTeXCitationKey.TextKeyItem, SwissAcademic.Citavi",\r\n          "NumberOfChars": 0,\r\n          "NumberOfWords": 0,\r\n          "TextKeyFormatType": 0,\r\n          "Lowercase": false,\r\n          "ReferencePropertyId": 149,\r\n          "TextAfter": "",\r\n          "TextBefore": "",\r\n          "Uppercase": false\r\n        },\r\n        {\r\n          "$type": "SwissAcademic.Citavi.BibTeXCitationKey.DateKeyItem, SwissAcademic.Citavi",\r\n          "DateTimePattern": "",\r\n          "FormatDate": false,\r\n          "Lowercase": false,\r\n          "ReferencePropertyId": 201,\r\n          "TextAfter": "",\r\n          "TextBefore": ".",\r\n          "Uppercase": false\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      "ReferenceTypeId": 13,\r\n      "KeyItems": [\r\n        {\r\n          "$type": "SwissAcademic.Citavi.BibTeXCitationKey.PersonKeyItem, SwissAcademic.Citavi",\r\n          "PersonElement1": {\r\n            "FirstNameCharCount": 0,\r\n            "FormatEndIndex": -1,\r\n            "FormatStartIndex": 1,\r\n            "LastNameCharCount": 100,\r\n            "PersonNameFormatType": 0,\r\n            "TextBetweenFirstNameLastName": ". ",\r\n            "TextBetweenPersons": "."\r\n          },\r\n          "PersonElement2": {\r\n            "FirstNameCharCount": 0,\r\n            "FormatEndIndex": 3,\r\n            "FormatStartIndex": 1,\r\n            "LastNameCharCount": 100,\r\n            "PersonNameFormatType": 0,\r\n            "TextBetweenFirstNameLastName": ". ",\r\n            "TextBetweenPersons": " & "\r\n          },\r\n          "PersonListElement": {\r\n            "AbbreviateAfterPersonIndex": 1,\r\n            "AbbreviateText": "",\r\n            "MaxPersonCount": 1\r\n          },\r\n          "PersonElementForOnePerson": {\r\n            "FirstNameCharCount": 0,\r\n            "FormatEndIndex": 3,\r\n            "FormatStartIndex": 1,\r\n            "LastNameCharCount": 100,\r\n            "PersonNameFormatType": 0,\r\n            "TextBetweenFirstNameLastName": ". ",\r\n            "TextBetweenPersons": " & "\r\n          },\r\n          "PersonElement1ForTwoPersons": {\r\n            "FirstNameCharCount": 0,\r\n            "FormatEndIndex": 3,\r\n            "FormatStartIndex": 1,\r\n            "LastNameCharCount": 100,\r\n            "PersonNameFormatType": 0,\r\n            "TextBetweenFirstNameLastName": ". ",\r\n            "TextBetweenPersons": " & "\r\n          },\r\n          "PersonElement2ForTwoPersons": {\r\n            "FirstNameCharCount": 0,\r\n            "FormatEndIndex": 3,\r\n            "FormatStartIndex": 1,\r\n            "LastNameCharCount": 100,\r\n            "PersonNameFormatType": 0,\r\n            "TextBetweenFirstNameLastName": ". ",\r\n            "TextBetweenPersons": " & "\r\n          },\r\n          "PersonElement1ForThreePersons": {\r\n            "FirstNameCharCount": 0,\r\n            "FormatEndIndex": 3,\r\n            "FormatStartIndex": 1,\r\n            "LastNameCharCount": 100,\r\n            "PersonNameFormatType": 0,\r\n            "TextBetweenFirstNameLastName": ". ",\r\n            "TextBetweenPersons": " & "\r\n          },\r\n          "PersonElement2ForThreePersons": {\r\n            "FirstNameCharCount": 0,\r\n            "FormatEndIndex": 3,\r\n            "FormatStartIndex": 1,\r\n            "LastNameCharCount": 100,\r\n            "PersonNameFormatType": 0,\r\n            "TextBetweenFirstNameLastName": ". ",\r\n            "TextBetweenPersons": " & "\r\n          },\r\n          "UseDifferentSetsForDifferentNumberOfPersons": false,\r\n          "Lowercase": false,\r\n          "ReferencePropertyId": 108,\r\n          "TextAfter": "",\r\n          "TextBefore": "",\r\n          "Uppercase": false\r\n        },\r\n        {\r\n          "$type": "SwissAcademic.Citavi.BibTeXCitationKey.DateKeyItem, SwissAcademic.Citavi",\r\n          "DateTimePattern": "",\r\n          "FormatDate": false,\r\n          "Lowercase": false,\r\n          "ReferencePropertyId": 201,\r\n          "TextAfter": "",\r\n          "TextBefore": ".",\r\n          "Uppercase": false\r\n        },\r\n        {\r\n          "$type": "SwissAcademic.Citavi.BibTeXCitationKey.TextKeyItem, SwissAcademic.Citavi",\r\n          "NumberOfChars": 0,\r\n          "NumberOfWords": 0,\r\n          "TextKeyFormatType": 0,\r\n          "Lowercase": false,\r\n          "ReferencePropertyId": 149,\r\n          "TextAfter": "",\r\n          "TextBefore": ".",\r\n          "Uppercase": false\r\n        }\r\n      ]\r\n    }\r\n  ],\r\n  "IsBibTeXKey": true,\r\n  "NormalizeKeys": false\r\n}	
 SqlServerInfo_AlreadyConnectedToAnotherDbServer	You cannot change this DBServer connection since Citavi is already connected to another DBServer database.\r\nYou must close all projects before changing the connection.	由于 Citavi 已连接到另一个 DBServer 数据库，您无法更改此 DBServer 连接。\r\n更改连接前必须关闭所有项目。
 MassReferenceIdentifier_Doublet_List	This identifier is already in the export list.	该标识符已在导出列表中。
 SearchForm_NoResults_Project	No results anywhere in the project.	项目中任何位置都无结果。
-RepairIntegrity_CategoryCategory_SubcategoryOrphaned	{0} category relationships were removed because the subcategory does not exist. Check the category system (Lists > Categories).	由于子类别不存在，已移除 {0} 个类别关系。请检查类别系统（列表 > 类别）。
+RepairIntegrity_CategoryCategory_SubcategoryOrphaned	{0} category relationships were removed because the subcategory does not exist. Check the category system (Lists > Categories).	由于子分类不存在，已移除 {0} 个分类关系。请检查分类系统（列表 > 分类）。
 CRM_Email_SendFormattedReferences_first_paragraph	Copy the following text to the Clipboard and then enter it in your word processor to cite the selected reference correctly.	将以下文本复制到剪贴板，然后在您的文字处理软件中输入，以正确引用所选题录。
 StartFormHtml_ReadFeedEntry	[Read more]	[阅读更多]
 NoInternetConnection	Citavi could not connect to the Internet.\r\nPlease check your connection.	Citavi 无法连接到互联网。\r\n请检查您的连接。
@@ -660,7 +660,7 @@ CRM_Email_CitaviGiftCard_subject	Your Citavi gift certificate	您的 Citavi 礼�
 IsbnDownloadProgress	Checking: {0}	正在检查：{0}
 ConvertPathsToRelativePaths	Relative paths	相对路径
 DownloadFullText_CompressingData	Compressing full text …	正在压缩全文…
-KnowledgeItemSelectionSelectedPlural	The {0} selected knowledge items	{0} 条选定的知识项
+KnowledgeItemSelectionSelectedPlural	The {0} selected knowledge items	{0} 条选定的知识条目
 FormattableString_FontStyle	Style	样式
 CitaviSettingsNotOK	The settings file does not contain valid data.	设置文件不包含有效数据。
 RepairIntegrity_KnowledgeItemKeyword_KeywordOrphaned	{0} links between knowledge items and keywords were removed because the keyword does not exist.	由于关键字不存在，已移除 {0} 个知识条目与关键字之间的链接。
@@ -674,7 +674,7 @@ IsbnDownloadLocations	Download location information	下载馆藏地信息
 CRM_Email_OrderProcessLicensee_subject	You were assigned a Citavi license key	您被分配了一个 Citavi 许可证密钥
 ImportExportWizard_Option_Import	Import reference	导入题录
 FilterSeriesTitleNotFound_Project	The series "{0}" ist not assigned to any references in the project.	丛书“{0}”未分配到项目中的任何题录。
-LazyUpdateOfKnowledgeItemsWithNoGroup	<b>No groups</b> will update as soon as you click a different category. This delay gives you the opportunity to assign the selected knowledge items to multiple groups.	<b>无组</b>将在您单击其他类别时更新。此延迟让您有机会将所选知识条目分配到多个组。
+LazyUpdateOfKnowledgeItemsWithNoGroup	<b>No groups</b> will update as soon as you click a different category. This delay gives you the opportunity to assign the selected knowledge items to multiple groups.	<b>无组</b>将在您单击其他分类时更新。此延迟让您有机会将所选知识条目分配到多个组。
 StatusBarNumberOfReferencesFiltered_Smart	{0:1 reference|{0} references} shown	{0:显示 1 条参考文献|显示 {0} 条参考文献}
 Project	Project:	项目：
 Privacy	Privacy	隐私
@@ -683,10 +683,10 @@ MergePublisherOption	Merge the edited publisher with the existing publisher "{0}
 DeleteOrganizationSetting	Do you really want to delete the settings file?	确定要删除设置文件吗？
 SelectLocationsDialog_All	All files in this project	此项目中的所有文件
 ProjectImportErrorMessage_Unknown	An error occurred while determining privileges for the project. Please contact Citavi support for assistance: www.citavi.com/support.	确定项目权限时出错。请联系 Citavi 支持以获取帮助：www.citavi.com/support。
-DeleteCategory	Do you want to delete the "{0}" category?	是否要删除“{0}”类别？
+DeleteCategory	Do you want to delete the "{0}" category?	是否要删除“{0}”分类？
 HasLabel2_True	Has a red label	具有红色标签
 SupportInformation_CopyToClipboard_OK	{\\rtf1\\ansi\\ansicpg1252\\deff0\\nouicompat\\deflang2055{\\fonttbl{\\f0\\fnil\\fcharset0 Segoe UI;}}\r\n{\\*\\generator Riched20 6.3.9600}\\viewkind4\\uc1 \r\n\\pard\\sa200\\sl276\\slmult1\\f0\\fs18\\lang7 Support information successfully copied to the Clipboard.\\par\r\nPress \\b CTRL+V\\b0  or right-click and select \\b Paste\\b0  to include the information in your support request.\\fs22\\par\r\n}	{\\rtf1\\ansi\\ansicpg1252\\deff0\\nouicompat\\deflang2055{\\fonttbl{\\f0\\fnil\\fcharset0 Segoe UI;}}\r\n{\\*\\generator Riched20 6.3.9600}\\viewkind4\\uc1 \r\n\\pard\\sa200\\sl276\\slmult1\\f0\\fs18\\lang7 支持信息已成功复制到剪贴板。\\par\r\n按 \\b CTRL+V\\b0  或右键单击并选择 \\b 粘贴\\b0  以将信息包含在您的支持请求中。\\fs22\\par\r\n}
-CategoryTextEditorDropDownForm_UpdateInfo_InsertCategoryNameMissing	Type name to insert category:\r\n{0}	输入名称以插入类别：\r\n{0}
+CategoryTextEditorDropDownForm_UpdateInfo_InsertCategoryNameMissing	Type name to insert category:\r\n{0}	输入名称以插入分类：\r\n{0}
 ImportExportWizard_Option_ImportBiblioscape	Biblioscape	Biblioscape
 SelectLocationsDialog_SelectedReference	The files attached to the selected reference	附加到所选题录的文件
 OptionsDialog_mainTabControl_General	General	常规
@@ -703,7 +703,7 @@ CRM_Email_CampusContractExtensionVerifyAccountWithMail_second_paragraph	Need a l
 EMailDisabledInformation	The system administrator has disabled the email feature.	系统管理员已禁用电子邮件功能。
 CitaviVersionNumber	Version {0}	版本 {0}
 CRM_Email_CampusContractExtensionVerifyAccount_first_paragraph	Your current license for Citavi will expire soon. Get your new license now by first creating a password for your Citavi Account and Citavi.	您当前的 Citavi 许可证即将过期。请先为您的 Citavi 账户和 Citavi 创建密码，然后立即获取新许可证。
-CategoryTextEditorDropDownForm_UpdateInfo_Illegal	Error. Cannot create category:\r\n{0}	错误。无法创建类别：\r\n{0}
+CategoryTextEditorDropDownForm_UpdateInfo_Illegal	Error. Cannot create category:\r\n{0}	错误。无法创建分类：\r\n{0}
 DownloadAborted	You canceled the download.	您取消了下载。
 InvalidFilePath	"{0}" is not a valid file path.	"{0}" 不是有效的文件路径。
 StatusBarNumberOfKnowledgeItemsAll_Smart	{0:1 knowledge item|{0} knowledge items total}	{0:1 个知识条目|共 {0} 个知识条目}
@@ -713,7 +713,7 @@ ProjectCloudUpload_StartingJob	The Citavi Cloud is starting the upload job…	Ci
 ProjectCloudUpload_Finished	Project created in the Citavi Cloud.	项目已在 Citavi Cloud 中创建。
 CRM_Email_CampusContractExtension_subject	Citavi: Activate your new license	Citavi：激活您的新许可证
 HelpFileDeleteContinue	Are you sure you want to delete the Quick Help file "{0}"?	您确定要删除快速帮助文件"{0}"吗？
-CitationKeyDialog_GenerateAllReferenceOverwrite	Generate citation keys for all references again (existing citation keys will be overwritten)	为所有参考文献重新生成引用键（现有引用键将被覆盖）
+CitationKeyDialog_GenerateAllReferenceOverwrite	Generate citation keys for all references again (existing citation keys will be overwritten)	为所有参考文献重新生成引文键（现有引文键将被覆盖）
 EditorsToAuthors	You are changing from a reference type with editors to a reference type with authors. Do you want to move the contents of the Editor field into the Author field?	您正在从带编者的文献类型更改为带作者的文献类型。是否要将"编者"字段的内容移动到"作者"字段？
 SortKnowledgeItemsByCoreStatementTextNoCategoriesGroup	{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang2055\\deflangfe2055{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Arial;}}\r\n{\\colortbl ;\\red255\\green136\\blue17;\\red128\\green128\\blue128;}\r\n{\\*\\generator Msftedit 5.41.21.2508;}\\viewkind4\\uc1\\pard\\nowidctlpar\\sa80\\sl264\\slmult1\\cf1\\lang1033\\f0\\fs18 Note: \\cf2 Any sort order applied to the selected group (Not categorized) \\cf1 is strictly temporary and will not be saved.\\cf2\\par\r\n}\r\n 	{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang2055\\deflangfe2055{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Arial;}}\r\n{\\colortbl ;\\red255\\green136\\blue17;\\red128\\green128\\blue128;}\r\n{\\*\\generator Msftedit 5.41.21.2508;}\\viewkind4\\uc1\\pard\\nowidctlpar\\sa80\\sl264\\slmult1\\cf1\\lang1033\\f0\\fs18 注意：\\cf2 对所选组（未分类）应用的任何排序顺序 \\cf1 都只是临时的，不会被保存。\\cf2\\par\r\n}\r\n 
 RepairIntegrity_SeriesTitleEditor_SeriesTitleNull	{0} links between series and editors were removed because the link to the series was empty.	由于与丛书的链接为空，已移除 {0} 个丛书与编者之间的链接。
@@ -752,7 +752,7 @@ RecycleBinItemNotFoundMessage	Another user deleted one or more of the selected i
 RtfForm_TableOfContents	Table of contents	目录
 WarningBackgroundTasksRunningCloseProject_ForceClose	Not recommended: force closing the project. Background tasks will be stopped which could cause information to be lost.	不推荐：强制关闭项目。后台任务将被停止，这可能导致信息丢失。
 ImportProgressAllReadSuccessfully	All {0} references were retrieved successfully	已成功检索全部 {0} 条参考文献
-RepairIntegrity_ReferenceCategory_CategoryOrphaned	{0} links between references and categories were removed because the category does not exist.	由于类别不存在，已移除 {0} 个参考文献与类别之间的链接。
+RepairIntegrity_ReferenceCategory_CategoryOrphaned	{0} links between references and categories were removed because the category does not exist.	由于分类不存在，已移除 {0} 个参考文献与分类之间的链接。
 DuplicateShortTitleException	There is already a reference with this short title.	已存在使用此短标题的参考文献。
 RtfLengthWarning_KnowledgeItem	This knowledge item requires too much storage space. It may contain a large image or a very long text.\r\n\r\nThis can cause problems when saving or publishing. Images should always be saved as image quotations.\r\n\r\nPlease edit this knowledge item now.	此知识条目需要过多存储空间。它可能包含较大的图片或很长的文本。\r\n\r\n这可能导致保存或发布时出现问题。图片应始终保存为图片引文。\r\n\r\n请立即编辑此知识条目。
 RepairIntegrity_KnowledgeItemKeyword_KeywordNull	{0} links between knowledge items and keywords were removed because the link to the keyword was empty.	由于与关键词的链接为空，已移除 {0} 个知识条目与关键词之间的链接。
@@ -777,13 +777,13 @@ NewChatMessageReceived	You have a new chat message	您有一条新的聊天消�
 EMailAddressDoesNotAppearToBeValid	The email address "{0}" does not appear to be valid. Do you want to correct it?	电子邮件地址"{0}"似乎无效。是否要更正它？
 EndNoteImportParentCategoryName	Subject areas from EndNote library {0}, {1}	来自 EndNote 文库 {0} 的主题领域，{1}
 YouNeedALicenseToOpenProjects	You need a valid license to open this project. Please obtain a license and then restart Citavi. <a href="https://www1.citavi.com/sub/manual6/en/index.html?entering_a_license_key.html">More Info</a>.	您需要有效的许可证才能打开此项目。请获取许可证，然后重新启动 Citavi。<a href="https://www1.citavi.com/sub/manual6/en/index.html?entering_a_license_key.html">更多信息</a>。
-ImportProgressStatusChangedCaption_Categories	LiteRat import in progress: Assigning categories to the imported references…	LiteRat 导入进行中：正在为导入的参考文献分配类别…
+ImportProgressStatusChangedCaption_Categories	LiteRat import in progress: Assigning categories to the imported references…	LiteRat 导入进行中：正在为导入的参考文献分配分类…
 LOBDescription	{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1031{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Arial;}}\r\n{\\colortbl ;\\red255\\green136\\blue17;\\red128\\green128\\blue128;\\red0\\green116\\blue232;}\r\n{\\*\\generator Msftedit 5.41.21.2508;}\\viewkind4\\uc1\\pard\\sa80\\sl264\\slmult1\\cf1\\lang2055\\f0\\fs18\\u9658? Lehmanns Online Specialty Bookstore \\par\r\n\\cf2 Lehmanns is a bookstore and publisher with several stores in Germany. Their  focus is on scientific literature, especially for Human Medicine, Informatics, Veterinary Medicine, Natural Sciences, Engineering, Economics and Law.\\par\r\n\\pard\\sa80\\sl264\\slmult1\\qr\\cf3 http://www.lob.de\\par\r\n}	{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1031{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Arial;}}\r\n{\\colortbl ;\\red255\\green136\\blue17;\\red128\\green128\\blue128;\\red0\\green116\\blue232;}\r\n{\\*\\generator Msftedit 5.41.21.2508;}\\viewkind4\\uc1\\pard\\sa80\\sl264\\slmult1\\cf1\\lang2055\\f0\\fs18\\u9658? Lehmanns 在线专业书店 \\par\r\n\\cf2 Lehmanns 是一家在德国拥有多家门店的书店和出版商。他们专注于科学文献，尤其是人类医学、信息学、兽医学、自然科学、工程学、经济学和法律。\\par\r\n\\pard\\sa80\\sl264\\slmult1\\qr\\cf3 http://www.lob.de\\par\r\n}
 CRM_Email_CampusNewsletterStatisticMail_second_paragraph	<h1>Site license statistics (as of ##statisticsDate)</h1>\r\nNumber of licensees since the beginning of the contract: ##statisticsHistoric\r\n##newline\r\nCurrent number of licensees in this contract period: ##statisticsVerifiedCount\r\nStudents: ##statisticsStudentsVerifiedCount\r\nFaculty and staff: ##statisticsEmployeeVerifiedCount\r\n##newline\r\nDate of first order: ##statisticsContractFirstDate\r\nEnd of the current contract period: ##statisticsContractCurrentEndDate\r\n##newline\r\nStatistics FAQs: https://citavi.com/campusstatistik	<h1>站点许可证统计（截至 ##statisticsDate）</h1>\r\n合同开始以来的被许可人数：##statisticsHistoric\r\n##newline\r\n本合同期内的当前被许可人数：##statisticsVerifiedCount\r\n学生：##statisticsStudentsVerifiedCount\r\n教职员工：##statisticsEmployeeVerifiedCount\r\n##newline\r\n首次订购日期：##statisticsContractFirstDate\r\n当前合同期的结束日期：##statisticsContractCurrentEndDate\r\n##newline\r\n统计常见问题：https://citavi.com/campusstatistik
 HtmlToPdfConversionHeaderText	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\r\n<html xmlns="http://www.w3.org/1999/xhtml">\r\n<head>\r\n\t\t<title></title>\r\n</head>\r\n\t<body>\r\n\t\t\t<table style="font-family: {0}; font-size: 9pt; font-style: italic">\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t Converted from the Web using <a href="http://www.citavi.com">Citavi {1}.{2}</a> on {3}. Differences from the <a href="{4}">original page</a> are possible.\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t</table>\r\n\t</body>\r\n</html>	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\r\n<html xmlns="http://www.w3.org/1999/xhtml">\r\n<head>\r\n\t\t<title></title>\r\n</head>\r\n\t<body>\r\n\t\t\t<table style="font-family: {0}; font-size: 9pt; font-style: italic">\r\n\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t 于 {3} 使用 <a href="http://www.citavi.com">Citavi {1}.{2}</a> 从网络转换而来。与<a href="{4}">原始页面</a>可能存在差异。\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t</tr>\r\n\t\t\t</table>\r\n\t</body>\r\n</html>
 AddUnknownLibrary	You have entered an unknown library. Do you want to add the library "{0}" to the library list?	您输入了未知的图书馆。是否要将图书馆"{0}"添加到图书馆列表？
 LastTwoMonths	In the last two months	在过去两个月内
-RepairIntegrity_ReferenceCategory_CategoryNull	{0} links between references and categories were removed because the link to the category was empty.	由于与类别的链接为空，已移除 {0} 个参考文献与类别之间的链接。
+RepairIntegrity_ReferenceCategory_CategoryNull	{0} links between references and categories were removed because the link to the category was empty.	由于与分类的链接为空，已移除 {0} 个参考文献与分类之间的链接。
 UserDataFolderSelection_CannotWriteIntoSpecifiedFolder	The selected folder is write protected, or you do not have sufficient rights to write to the folder. Citavi must have write permission for the folder for user files in order to proceed.\r\n\r\nPlease select a different folder.	所选文件夹受写保护，或者您没有足够的权限写入该文件夹。为继续操作，Citavi 必须对用户文件文件夹具有写入权限。\r\n\r\n请选择其他文件夹。
 CRM_Email_AccountCreatedVerifyEmail_subject	Please confirm your email address	请确认您的电子邮件地址
 CopyProject_LocalProjectNameSuffix	(Local copy)	（本地副本）
@@ -817,10 +817,10 @@ PdfExportFilePreperationText	Preparing PDF …	正在准备 PDF…
 NoBibTeXKeyOrCitationKeyPreviewAvailable	The preview cannot be displayed. The current project contains no references of this type.	无法显示预览。当前项目不包含此类型的参考文献。
 RepairIntegrity_UserMessage_Success	Citavi was able to repair the project. \r\n\r\nCitavi determined that some data loss occurred. A log with details has been saved <a href="{0}">in the project folder</a>.\r\n\r\nTo recover lost data, restore from one of the backups Citavi created for you. If necessary, contact Citavi support for assistance: www.citavi.com/service.	Citavi 已成功修复项目。 \r\n\r\nCitavi 判定发生了部分数据丢失。包含详细信息的日志已保存<a href="{0}">在项目文件夹中</a>。\r\n\r\n要恢复丢失的数据，请从 Citavi 为您创建的备份之一进行还原。如有必要，请联系 Citavi 支持获取帮助：www.citavi.com/service。
 DefaultSearches_ReferencesWithUnfinishedTasks	References with unfinished tasks	有未完成任务的参考文献
-MindManagerNoCategoriesImported	No categories imported.	未导入类别。
+MindManagerNoCategoriesImported	No categories imported.	未导入分类。
 CitaviProject	Citavi project	Citavi 项目
 InvalidLicenseKey	The license key could not be validated.\r\n\r\nCommon causes of this problem are:\r\n\r\n- Capitalization did not match exactly.\r\n- Extra spaces were entered after the name, or other changes were made to the license key text.\r\n- The organization was not entered correctly (note that you may need to enter "Personal").\r\n- You are not using the latest version of Citavi (check on the Help menu or www.citavi.com).\r\n\r\nDouble-check that you entered everything correctly. If possible, cut and paste the info from the license email to avoid typos.\r\n\r\nIf your license key still does not work, contact us at www.citavi.com/service.	许可证密钥无法验证。\r\n\r\n此问题的常见原因有：\r\n\r\n- 大小写不完全匹配。\r\n- 在名称后面输入了多余的空格，或对许可证密钥文本做了其他改动。\r\n- 组织未正确输入（请注意，您可能需要输入"Personal"）。\r\n- 您使用的不是最新版本的 Citavi（请在"帮助"菜单或 www.citavi.com 上查看）。\r\n\r\n请仔细检查您是否输入正确。如有可能，请从许可证电子邮件中剪切并粘贴信息，以避免拼写错误。\r\n\r\n如果您的许可证密钥仍无法使用，请通过 www.citavi.com/service 联系我们。
-ConnectionToCitaviServerFailed_CitationStyle	Citavi cannot establish communication with the Citavi servers, so additional citation styles cannot be downloaded now. Check your Internet connection or try again later.	Citavi 无法与 Citavi 服务器建立通信，因此现在无法下载其他引用样式。请检查您的互联网连接，或稍后重试。
+ConnectionToCitaviServerFailed_CitationStyle	Citavi cannot establish communication with the Citavi servers, so additional citation styles cannot be downloaded now. Check your Internet connection or try again later.	Citavi 无法与 Citavi 服务器建立通信，因此现在无法下载其他引文样式。请检查您的互联网连接，或稍后重试。
 SaveChanges	Do you want to save changes?	是否要保存更改？
 Scope_Universal	Universal text filter	通用文本筛选器
 ThisYearAndLastYear	This year and last year	今年和去年
@@ -837,7 +837,7 @@ KnowledgeItemSelectionAll	All knowledge items	所有知识条目
 UnsupportedCharQuote	Do not use quotation marks in the query.	请勿在查询中使用引号。
 DeleteImportGroup	Do you want to delete the import group "{0}"?\r\nPlease note: the references in the group will not be deleted.	是否要删除导入组"{0}"？\r\n请注意：该组中的参考文献不会被删除。
 ProjectCloudUpload_FileUpload	Uploading: {0}	正在上传：{0}
-ReGenerateCitationKey	Update citation key	更新引用键
+ReGenerateCitationKey	Update citation key	更新引文键
 NoFullTextFound	No full text found.	未找到全文。
 CRM_Email_ConfirmEmailAddressMail_second_paragraph	To do so, click the blue button:	为此，请点击蓝色按钮：
 OptionsImportExportTransformerFavorites	Export filters	导出过滤器
@@ -849,7 +849,7 @@ SelectSingleValueForPdfLink	Select one highlighted section in the PDF file to li
 AccountIsDuplicate	There is already another account with this email address.	已存在使用此电子邮件地址的另一个账户。
 SmartTagEdit	Edit…	编辑…
 OutlineLevelWithoutText	[outline without text]	[无文本的大纲]
-MergeCategories	Do you want to merge the category "{0}" with the category "{1}"?	是否要将类别"{0}"与类别"{1}"合并？
+MergeCategories	Do you want to merge the category "{0}" with the category "{1}"?	是否要将分类"{0}"与分类"{1}"合并？
 ThoughtSelectionListSingular	The thought in the current list	当前列表中的想法
 FormattingFootnoteCitations	Formatting footnote citations	正在格式化脚注引用
 BibliographyGroupingSet_Import_Add	Import the file "{0}" as additional grouping	将文件"{0}"作为附加分组导入
@@ -922,7 +922,7 @@ WrongLicenseKeyC2	The license key you entered is valid only for an earlier versi
 FormattingInBibliography	Formatting bibliography	正在格式化参考文献目录
 CleaningUpAmbiguousPlaceholders	Cleaning up ambiguous placeholders	正在清理不明确的占位符
 ImportWizard_Title_23_Application	Select the reference management program you want to import from:	选择要从中导入的文献管理程序：
-NoOutlineLevelsInThisWordDocument	This Word document does not contain an outline from which categories could be imported.	此 Word 文档不包含可从中导入类别的大纲。
+NoOutlineLevelsInThisWordDocument	This Word document does not contain an outline from which categories could be imported.	此 Word 文档不包含可从中导入分类的大纲。
 ProjectNeedsConversionFromC2_Locked	This project was created with an earlier version of Citavi and must be converted before it can be opened. It cannot be converted because the file is in use by another process.\r\nMake sure no other process is using the project file, then try again.	此项目是用较早版本的 Citavi 创建的，必须先转换才能打开。由于文件正被另一个进程使用，无法转换。\r\n请确保没有其他进程正在使用该项目文件，然后重试。
 DuplicateInfo	Duplicate	重复
 BibTeXKeyDialog_GenerateKey	You have modified the template for BibTeX keys. How do you want to proceed?	您已修改 BibTeX 键的模板。您希望如何继续？
@@ -940,7 +940,7 @@ RecycleBinContainsUnsavedEntitiesText	Some of the items marked for deletiion hav
 MainForm_NavigationPaneCollapsedGroupArea_ToolTipText	Click to open the navigation pane	点击打开导航窗格
 CRM_Email_ConfirmEmailAddressMailWithSignature_first_paragraph	Enter the following security code to confirm your email address.	输入以下安全代码以确认您的电子邮件地址。
 HelpFileExistsButCannotBeShowDueToAnException	{0}\r\n\r\nThis file exists, but cannot be displayed because of an error. Please note the text in the field "Last error message".	{0}\r\n\r\n此文件存在，但由于错误无法显示。请注意"最后一条错误消息"字段中的文本。
-FilterCategoryNotFound_ProjectShell	The category "{0}" ist not assigned to any references in the selection.	类别"{0}"未分配给所选内容中的任何参考文献。
+FilterCategoryNotFound_ProjectShell	The category "{0}" ist not assigned to any references in the selection.	分类"{0}"未分配给所选内容中的任何参考文献。
 TransformerHelpContext_ReplacesManyOrNo_2	replaces 0 or more characters	替换 0 个或多个字符
 HelpFolderExists	{0}\r\n\r\nThis folder exists.	{0}\r\n\r\n此文件夹已存在。
 MergeKeywords_DragDropMessage	Do you want to merge the keyword "{1}" into "{0}"?\r\n\r\nAll items currently using "{1}" will have "{0}" applied.	是否要将关键词"{1}"合并到"{0}"？\r\n\r\n所有当前使用"{1}"的项目都将应用"{0}"。
@@ -955,11 +955,11 @@ TemplateUseCaseNameLocalized_ContributionInLegalCommentary_LegalCommentary	Contr
 DesktopAlertProjectArchiveTaskFinishedText	Finished archiving project	项目归档完成
 SelectLocationsDialog_SelectedReferences	The files attached to the {0} selected references	附加到所选 {0} 条题录的文件
 FindReplace_Question	Do you want to replace "{0}" with "{1}"?	是否要将"{0}"替换为"{1}"？
-CategoryTextEditorDropDownForm_UpdateInfo_UseSelectedCategory	Press Tab to assign category:\r\n{0}	按 Tab 键以分配类别：\r\n{0}
+CategoryTextEditorDropDownForm_UpdateInfo_UseSelectedCategory	Press Tab to assign category:\r\n{0}	按 Tab 键以分配分类：\r\n{0}
 ScannerFound	Communication with scanner succeeded.	与扫描仪的通信成功。
 PdfExport_RenameOption	Rename file(s)	重命名文件
 SaveFileAs_FileError	[Error]             An error occurred while saving the file "{0}" of the reference "{1}" . The error message is:\r\n{2}	[错误]             保存参考文献"{1}"的文件"{0}"时发生错误。错误消息为：\r\n{2}
-RepairIntegrity_ReferenceCategory_ReferenceNull	{0} links between references and categories were removed because the link to the reference was empty.	由于与参考文献的链接为空，已移除 {0} 个参考文献与类别之间的链接。
+RepairIntegrity_ReferenceCategory_ReferenceNull	{0} links between references and categories were removed because the link to the reference was empty.	由于与参考文献的链接为空，已移除 {0} 个参考文献与分类之间的链接。
 SearchForm_NoResults_SeriesTitleList	No results in the list of series.	丛书列表中没有结果。
 InvalidFolderPath	"{0}" is not a valid folder path.	"{0}" 不是有效的文件夹路径。
 LookupLocations_ApplySuccessfully	The location information was completed successfully.	馆藏地信息已成功完善。
@@ -1068,9 +1068,9 @@ ImportProgressNoReferencesFound	No matches were found that meet the search crite
 ImportExportWizard_Option_ImportTabularData	File containing tabular data	包含表格数据的文件
 CannotOpenCitavi2Project	Citavi 2 projects cannot be opened. Additional information can be found in the <a href="http://www.citavi.com/openc2inc6">Citavi manual</a>.	无法打开 Citavi 2 项目。其他信息可在 <a href="http://www.citavi.com/openc2inc6">Citavi 手册</a>中找到。
 HelpFileChangeButtonCaption	Change…	更改…
-DeleteGroupInUse	Warning: The group "{0}" is in use. If you delete the group, it will be permanently removed from all references and knowledge items that use it.\r\n\r\nDo you want to delete the group anyway?	警告：组“{0}”正在使用中。如果删除该组，它将从所有使用它的文献和知识项中永久移除。\r\n\r\n是否仍要删除该组？
+DeleteGroupInUse	Warning: The group "{0}" is in use. If you delete the group, it will be permanently removed from all references and knowledge items that use it.\r\n\r\nDo you want to delete the group anyway?	警告：组“{0}”正在使用中。如果删除该组，它将从所有使用它的文献和知识条目中永久移除。\r\n\r\n是否仍要删除该组？
 AlertBoxIgnorableException	The error message is: "{0}". Usually you can continue working with Citavi without any problems. If the error occurs again, please restart Citavi.\r\nIf this error occurs frequently, please contact Citavi support for assistance: www.citavi.com/service.	错误信息为：“{0}”。通常您可以继续正常使用 Citavi。如果再次出现该错误，请重新启动 Citavi。\r\n如果该错误频繁出现，请联系 Citavi 支持寻求帮助：www.citavi.com/service。
-BatchRemoveGroups_NoKnowledgeItemHasGroups	The selected knowledge items do not have any groups to remove.	所选知识项没有可移除的组。
+BatchRemoveGroups_NoKnowledgeItemHasGroups	The selected knowledge items do not have any groups to remove.	所选知识条目没有可移除的组。
 AttachmentUploadTaskCanceled	The attachment upload was canceled	附件上传已取消
 DeleteLibraryOption	Delete library.	删除图书馆。
 RepairIntegrity_EntityLink_SourceReferenceOrphaned	{0} links were removed because the reference in the "Links to" field does not exist.	已移除 {0} 个链接，因为“链接到”字段中的文献不存在。
@@ -1103,7 +1103,7 @@ MainForm_NavigationPaneCollapsedGroupAreaText_ReferenceManagement	Reference Edit
 NoSuchCommand	No such command "{0}".	没有命令“{0}”。
 ProjectInfo_NoErrorMessage	The project file can be accessed successfully.	可以成功访问项目文件。
 EditBibliographyGroupingSetFromServerWarning	This grouping is linked to the Citavi server and is automatically updated when modifications are made by the Citavi team. \r\nIf you make changes to it, the grouping will no longer be linked to the server or automatically updated.	此分组已链接到 Citavi 服务器，当 Citavi 团队进行修改时会自动更新。\r\n如果您对其进行更改，该分组将不再链接到服务器，也不再自动更新。
-OptionsDialog_CitationKey_Complete	Generate citation keys for all references that do not have one yet	为所有尚无引用键的文献生成引用键
+OptionsDialog_CitationKey_Complete	Generate citation keys for all references that do not have one yet	为所有尚无引文键的文献生成引文键
 RepairIntegrity_ReferenceKeyword_KeywordNull	{0} links between references and keywords were removed because the link to the keyword was empty.	已移除 {0} 个文献与关键词之间的链接，因为指向该关键词的链接为空。
 DuplicateGroupInfo	A group with the name "{0}"already exists. How do you want to proceed?	已存在名为“{0}”的组。您希望如何继续？
 CRM_Email_ConfirmProjectInvitation_button	Accept invitation	接受邀请
@@ -1145,13 +1145,13 @@ TransformerList_AddTransformer_Text	Add import filter	添加导入过滤器
 DbServerUsersPerSeat	{0:{0} per seat user|{0} per seat users}	{0:{0} 个单机版用户|{0} 个单机版用户}
 QuotationPageCountPlausibility	You entered the page range "{0}" for this quotation, which falls outside the number of pages ("{1}") of the source.\r\n\r\nIs the page range of this quotation correct?	您为此引文输入的页码范围“{0}”超出了来源的页数（“{1}”）。\r\n\r\n此引文的页码范围是否正确？
 SQLiteError_CantOpen_FriendlyText	An error occurred while accessing the project file.\r\n\r\nCommon causes include:\r\n\r\n1) The connection to the storage device (network share, USB flash drive, etc.) was interrupted. Try to re-establish the connection and try again.\r\n\r\n2) Another program may be blocking the project's journal file. Please wait a moment and try again.	访问项目文件时发生错误。\r\n\r\n常见原因包括：\r\n\r\n1) 与存储设备（网络共享、USB 闪存盘等）的连接中断。请尝试重新建立连接并重试。\r\n\r\n2) 其他程序可能正在阻止项目的日志文件。请稍候片刻，然后重试。
-CitationKeyDialog_OverwriteExistingCitationKeys	Replace citation keys when importing	导入时替换引用键
+CitationKeyDialog_OverwriteExistingCitationKeys	Replace citation keys when importing	导入时替换引文键
 ImportWizardDialogUseCitaviShortTitle	Use the short titles generated by Citavi	使用 Citavi 生成的短标题
 DeleteSeriesTitles_Smart	Do you want to delete the {0:series "{1}"|{0} selected series}?	是否要删除{0:丛书"{1}"|所选的 {0} 个丛书}？
 LicenseExpiryWarningMessage2	Warning: This version of Citavi for Windows expired on the {0}. On our website, www.citavi.com, you can purchase a personal license key.	警告：此版本的 Citavi for Windows 已于 {0} 过期。您可以在我们的网站 www.citavi.com 上购买个人许可证密钥。
 CloudAlertHeaderText	Important!	重要！
 BatchRemoveCategories_NoReferenceHasCategories	The selected references do not have any categories to remove.	所选文献没有可移除的分类。
-RepairIntegrity_KnowledgeItemCategory_KnowledgeItemOrphaned	{0} links between knowledge items and categories were removed because the knowledge item does not exist.	已移除 {0} 个知识项与分类之间的链接，因为该知识项不存在。
+RepairIntegrity_KnowledgeItemCategory_KnowledgeItemOrphaned	{0} links between knowledge items and categories were removed because the knowledge item does not exist.	已移除 {0} 个知识条目与分类之间的链接，因为该知识条目不存在。
 TransformerList_CreateNewTransformer_Text	Create text filter	创建文本筛选器
 BibTeXItem	Field must not be empty (set the BibTeX option "required")	字段不能为空（设置 BibTeX 选项“required”）
 RenameFile_Success_Smart	{0:The file was|All {0} files were} renamed successfully.	{0:该文件|全部 {0} 个文件}已成功重命名。
@@ -1178,7 +1178,7 @@ OpenCloudProject_UnknownError_WithException	An unknown error occurred while open
 RepairIntegrity_UserMessage_DBServer_Finished	Citavi repaired inconsistencies in the project "{0}".\r\n\r\nIf you still cannot open the project, please contact Citavi support for assistance:\r\nwww.citavi.com/support	Citavi 修复了项目“{0}”中的不一致之处。\r\n\r\n如果您仍然无法打开该项目，请联系 Citavi 支持寻求帮助：\r\nwww.citavi.com/support
 DeleteImportGroups_Smart	Do you want to delete {0:the import group "{1}"|the {0} selected import groups}?\r\nPlease note: the references in the {0:group|groups} will not be deleted.	是否要删除{0:导入组"{1}"|所选的 {0} 个导入组}？\r\n请注意：{0:该组|这些组}中的参考文献不会被删除。
 HelpFileDoesNotExist	{0}\r\n\r\nThis Quick Help file does not exist.	{0}\r\n\r\n此快速帮助文件不存在。
-AllKnowledgeItemsInAllKeywords	All knowledge items in all keywords	所有关键词中的所有知识项
+AllKnowledgeItemsInAllKeywords	All knowledge items in all keywords	所有关键词中的所有知识条目
 ImportExportWizard_Option_ExportOtherProject	To another Citavi project	到另一个 Citavi 项目
 TabStopType_Left	Left	左
 ExceptionSubject	Citavi program error	Citavi 程序错误
@@ -1240,7 +1240,7 @@ Later	Later	稍后
 Local	Local	本地
 SqlServerInfo_LicensePermissionNone	You do not have a DBServer license. Please purchase Citavi DBServer license in the <a href="https://citaviweb.citavi.com/shop">shop</a> to open this project.	您没有 DBServer 许可证。请在<a href="https://citaviweb.citavi.com/shop">商店</a>中购买 Citavi DBServer 许可证以打开此项目。
 CRM_Email_CloudSpaceExceeded_subject	Your Citavi Cloud storage space has been used up	您的 Citavi Cloud 存储空间已用尽
-OptionsDialog_CitationKey	You have activated citation key support. How do you want to proceed?	您已激活引用键支持。您希望如何继续？
+OptionsDialog_CitationKey	You have activated citation key support. How do you want to proceed?	您已激活引文键支持。您希望如何继续？
 NoCustomFieldLabel	[None]	[无]
 Video	Video	视频
 QuotationTextFormText	Text Quotation	文本引文
@@ -1265,7 +1265,7 @@ TextEditorFormatResetAllPictureWarning	The text you want to reset contains image
 Offline	Offline	脱机
 CloudProgress_ProjectDownload	Preparing {0} …	正在准备 {0}…
 CampusLicenseExpiryWarningMessageDontShow	Never	从不
-RepairIntegrity_KnowledgeItemKeyword_KnowledgeItemNull	{0} links between knowledge items and keywords were removed because the link to the knowledge item was empty.	已移除 {0} 个知识项与关键词之间的链接，因为指向该知识项的链接为空。
+RepairIntegrity_KnowledgeItemKeyword_KnowledgeItemNull	{0} links between knowledge items and keywords were removed because the link to the knowledge item was empty.	已移除 {0} 个知识条目与关键词之间的链接，因为指向该知识条目的链接为空。
 OrderByEMail_EMailMissing	To order by email, you must first provide the email address of your preferred bookseller. \r\n\r\nDo you want to do this now?	如需通过电子邮件订购，您必须先提供首选书商的电子邮件地址。\r\n\r\n是否现在进行？
 LazyUpdateOfReferencesWithNoKeywords	<b>No keywords</b> will update as soon as you click a different keyword. This delay gives you the opportunity to apply multiple keywords to references.	当您单击其他关键词时，<b>无关键词</b>才会更新。此延迟让您有机会为文献应用多个关键词。
 Scope_Specific	Database-specific text filter	数据库特定的文本筛选器
@@ -1273,7 +1273,7 @@ WarningBackgroundTasksFaultedCloseProject_DontCloseAndShowList	Leave project ope
 DeleteLibrariesWithAssignedReferences_Smart	{0:The selected library is in use|The {0} selected libraries are in use} {1:as a location|as {1} locations}.\r\nThe corresponding {1:location|{1} locations} will also be deleted.\r\n\r\nDo you want to delete the {0:selected library|{0} selected libraries} anyway?	{0:所选图书馆|所选的 {0} 个图书馆}正被用作{1:位置|{1} 个位置}。\r\n相应的{1:位置|{1} 个位置}也将被删除。\r\n\r\n是否仍要删除{0:所选图书馆|所选的 {0} 个图书馆}？
 MassReferenceIdentifier_ImportFromUserInput	Add to list	添加到列表
 FunctionIsNotAvailable	This feature is not available in this beta version of Citavi.	此功能在此 Beta 版 Citavi 中不可用。
-SortKnowledgeItemsByModifiedBy	{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang2055\\deflangfe2055{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Arial;}}\r\n{\\colortbl ;\\red128\\green128\\blue128;}\r\n{\\*\\generator Msftedit 5.41.21.2508;}\\viewkind4\\uc1\\pard\\nowidctlpar\\sa80\\sl264\\slmult1\\cf1\\lang1033\\f0\\fs18 Knowledge items will not be grouped.\\par\r\n}	{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang2055\\deflangfe2055{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Arial;}}\r\n{\\colortbl ;\\red128\\green128\\blue128;}\r\n{\\*\\generator Msftedit 5.41.21.2508;}\\viewkind4\\uc1\\pard\\nowidctlpar\\sa80\\sl264\\slmult1\\cf1\\lang1033\\f0\\fs18 知识项将不会被分组。\\par\r\n}
+SortKnowledgeItemsByModifiedBy	{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang2055\\deflangfe2055{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Arial;}}\r\n{\\colortbl ;\\red128\\green128\\blue128;}\r\n{\\*\\generator Msftedit 5.41.21.2508;}\\viewkind4\\uc1\\pard\\nowidctlpar\\sa80\\sl264\\slmult1\\cf1\\lang1033\\f0\\fs18 Knowledge items will not be grouped.\\par\r\n}	{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang2055\\deflangfe2055{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Arial;}}\r\n{\\colortbl ;\\red128\\green128\\blue128;}\r\n{\\*\\generator Msftedit 5.41.21.2508;}\\viewkind4\\uc1\\pard\\nowidctlpar\\sa80\\sl264\\slmult1\\cf1\\lang1033\\f0\\fs18 知识条目将不会被分组。\\par\r\n}
 CreateAllCategoriesInTargetProject	With complete category system	带有完整分类系统
 PdfCopyNoPermission	The author of this PDF file has configured it so that its contents cannot be copied to the Clipboard.	此 PDF 文件的作者已将其配置为内容无法复制到剪贴板。
 OptionsImportTransformerLocation	Location search	馆藏地搜索
@@ -1302,7 +1302,7 @@ SortOrderDateDescending	Most recent first	最新优先
 BookOrderTitle	You can order the book from the following online booksellers:	您可以从以下在线书商订购该书：
 ReferenceGrid_VirtualColumnLabel_EntityLinksAsTarget	Links from	链接自
 OpenProjectProgressText	Opening project…	正在打开项目…
-RepairIntegrity_EntityLink_SourceKnowledgeItemOrphaned	{0} links were removed because the knowledge item in the "Links to" field does not exist.	已移除 {0} 个链接，因为“链接到”字段中的知识项不存在。
+RepairIntegrity_EntityLink_SourceKnowledgeItemOrphaned	{0} links were removed because the knowledge item in the "Links to" field does not exist.	已移除 {0} 个链接，因为“链接到”字段中的知识条目不存在。
 CRM_Email_CampusVoucherBlockAdded_subject	Your Citavi voucher codes	您的 Citavi 优惠券代码
 MassReferenceIdentifier_Result	Search results	搜索结果
 RepairIntegrity_ReferenceReference_ChildReferenceOrphaned	{0} links between references were removed because the child reference does not exist.	已移除 {0} 个文献之间的链接，因为子文献不存在。
@@ -1616,7 +1616,7 @@ ProjectCloudUpload_EndUpload	Project created.	项目已创建。
 SearchForm_CannotDisplayPreview	The preview cannot be displayed. The search does not allow a preview or the element was changed such that it does not contain the search term anymore.	无法显示预览。该搜索不允许预览，或者元素已被修改，不再包含搜索词。
 CreateTaskList_CopySuccessful	The task list was copied to the Clipboard.	任务列表已复制到剪贴板。
 ProjectPermissions_FilePermission_None	The file cannot be opened. Windows permissions are likely preventing you from reading the file. Please contact your network administrator. 	无法打开该文件。可能是 Windows 权限阻止您读取该文件。请联系您的网络管理员。 
-SearchForm_CannotAddKnowledgeItemsToSelection	The knowledge items cannot be added to the current selection because none of the selected elements exist in the current project. Presumably they have been deleted since the last search.	无法将知识项添加到当前选择中，因为所选元素均不存在于当前项目中。它们可能自上次搜索后已被删除。
+SearchForm_CannotAddKnowledgeItemsToSelection	The knowledge items cannot be added to the current selection because none of the selected elements exist in the current project. Presumably they have been deleted since the last search.	无法将知识条目添加到当前选择中，因为所选元素均不存在于当前项目中。它们可能自上次搜索后已被删除。
 LaTeXProjectFolder_NoWritePermission	You do not have write permissions for the folder "{0}" where images for use in your preferred LaTeX editor are to be stored. \r\n\r\nCorrect the permissions or set a valid LaTeX project folder under Tools > Settings.	您没有文件夹 "{0}" 的写入权限，该文件夹用于存储供您的首选 LaTeX 编辑器使用的图片。 \r\n\r\n请更正权限，或在“工具 > 设置”下设置有效的 LaTeX 项目文件夹。
 FilterLabel2NotFound_ProjectShell	No red labels found in the current selection.	当前选择中未找到红色标签。
 ImportWizardTabularCancel	Are you sure you want to cancel the import?	确定要取消导入吗？
@@ -1627,7 +1627,7 @@ NoBibTeXKey	(No BibTeX key)	（无 BibTeX 键）
 CitationKeyDialog_GenerateCitationKeysSaving	Generate missing citation keys automatically when saving	保存时自动生成缺失的引文键
 StartFormHtml_LoadFailed	The contents of this column cannot be displayed because there is currently no Internet connection. 	当前没有 Internet 连接，因此无法显示此列的内容。 
 ShowIsbnTransformerDialogHelpContextPart	<a fref="ShowIsbnTransformerFavoriteDialog">Click here</a> to select other catalogs.	<a fref="ShowIsbnTransformerFavoriteDialog">单击此处</a>选择其他目录。
-DragKnowledgeItemsOnNoGroupsNode	Do you want to delete the selected knowledge items from all groups?	是否要从所有组中删除所选知识项？
+DragKnowledgeItemsOnNoGroupsNode	Do you want to delete the selected knowledge items from all groups?	是否要从所有组中删除所选知识条目？
 ExternalClipboardError	The requested data could not be copied to the clipboard. The Windows Clipboard reported an internal error.	无法将请求的数据复制到剪贴板。Windows 剪贴板报告了一个内部错误。
 HtmlToPdfConversionFailed_NoDocumentStream	PDF conversion has failed. The page does not appear to be an HTML file.	PDF 转换失败。该页面似乎不是 HTML 文件。
 SQLiteError_Error_FriendlyText	An error occurred while reading or writing the project file ("SQL error or missing database").\r\n\r\nIt is possible that the connection to the storage device (network share, USB flash drive, etc.) was interrupted. Try to re-establish the connection and try again.\r\n\r\nIf this error persists, please contact Citavi support for assistance: www.citavi.com/service.	读取或写入项目文件时出错（“SQL 错误或数据库缺失”）。\r\n\r\n可能是与存储设备（网络共享、USB 闪存盘等）的连接中断。请尝试重新建立连接后重试。\r\n\r\n如果此错误持续出现，请联系 Citavi 支持人员寻求帮助：www.citavi.com/service。
@@ -1647,8 +1647,8 @@ CRM_Email_OrderProcessBilling_Billomat_Business_subject	Welcome to Citavi 6!	欢
 ElectronicAddressInfo_Lan_LocationPrefix	[LAN]	[LAN]
 OpeningProject	Opening project "{0}"	正在打开项目 "{0}"
 SortByType_Reference	Quotations by short title or page, then thoughts by modification date	引文按短标题或页码，然后想法按修改日期
-CompilationSelection_Category_2	The knowledge items in the selected category (excluding child categories)	所选分类中的知识项（不包括子分类）
-CompilationSelection_Category_3	The knowledge items in the selected category	所选分类中的知识项
+CompilationSelection_Category_2	The knowledge items in the selected category (excluding child categories)	所选分类中的知识条目（不包括子分类）
+CompilationSelection_Category_3	The knowledge items in the selected category	所选分类中的知识条目
 FilterSeriesTitleNotFound_ProjectShell	The series "{0}" ist not assigned to any references in the selection.	丛书 "{0}" 未分配给选择中的任何文献。
 UserDataFolderPath_FolderBrowserDialogDescription	Select the folder for Citavi user files. 	选择 Citavi 用户文件的文件夹。 
 CannotUseSameSortCriterionTwice	You cannot define the same sort criterion twice.	不能重复定义相同的排序条件。
@@ -1664,7 +1664,7 @@ Transformer_Application_Add_Smart	{0:The import filter "{1}" was|{0} import filt
 CRM_Email_Salutation	Dear {0},	尊敬的 {0}:
 CitaviSettingsImportOK	The settings were imported successfully.	设置已成功导入。
 InsertPlaceholderWordNotRunning	This command inserts a placeholder or quotation into an open Word document. Citavi could not find an open document. Do you want to start Word now?	此命令会将占位符或引文插入打开的 Word 文档中。Citavi 找不到打开的文档。要立即启动 Word 吗？
-SortKnowledgeItems_MessageText	Are you sure you want to sort the knowledge items automatically?\r\n\r\nWarning: This cannot be undone and any manual sort order will be permanently lost.	确定要自动排序知识项吗？\r\n\r\n警告：此操作无法撤销，任何手动排序顺序都将永久丢失。
+SortKnowledgeItems_MessageText	Are you sure you want to sort the knowledge items automatically?\r\n\r\nWarning: This cannot be undone and any manual sort order will be permanently lost.	确定要自动排序知识条目吗？\r\n\r\n警告：此操作无法撤销，任何手动排序顺序都将永久丢失。
 CitationKeyDialog_NoGenerateKey	Do not apply new template to any existing references	不要将新模板应用于任何现有文献
 ElectronicAddressInfo_CDRom_LocationLabel_short	Optical media	光学介质
 PleaseProvideInitials	The initials cannot be empty. Please enter your initials.	首字母缩写不能为空。请输入您的首字母缩写。
@@ -1689,7 +1689,7 @@ DuplicateLibraryInfo	The library "{0}" already exists. How do you want to procee
 SearchFieldDropDownForm_InfoLabel	Search inside the following fields:	在以下字段中搜索：
 ImportSettingHelpContext_Port	Port:	端口：
 CRM_Email_AccountCreatedViaProcessOrderMailBilling_DbServer_button	Choose a password	选择密码
-RepairIntegrity_KnowledgeItemCategory_CategoryNull	{0} links between knowledge items and categories were removed because the link to the category was empty.	由于指向分类的链接为空，已移除 {0} 个知识项与分类之间的链接。
+RepairIntegrity_KnowledgeItemCategory_CategoryNull	{0} links between knowledge items and categories were removed because the link to the category was empty.	由于指向分类的链接为空，已移除 {0} 个知识条目与分类之间的链接。
 ElectronicAddressInfo_Remote_LocationLabel_withDomain	Online at {0}	在线于 {0}
 CRM_Email_CampusContractExtensionLicensfileExportData_second_paragraph	To learn more about creating settings files, please see the Citavi Manual.	要了解有关创建设置文件的更多信息,请参阅 Citavi 手册。
 ListOutputOptions_includeItemsGroupBox	Select the items to output:	选择要输出的项：
@@ -1711,12 +1711,12 @@ MassReferenceIdentifier_Title	Title	标题
 AnyFormal	Any	任意
 CloudSpaceExceededMessage	There is no more storage space available for attachments. Please go to www.citavi.com/nospace for more information.	附加文件已没有更多可用存储空间。更多信息请访问 www.citavi.com/nospace。
 DeletePeriodicalFromForm	Do you want to delete this periodical?	是否删除此期刊？
-BatchRemoveKeywords_NoKnowledgeItemHasKeywords	The selected knowledge items do not have any keywords to remove.	所选知识项没有可移除的关键词。
+BatchRemoveKeywords_NoKnowledgeItemHasKeywords	The selected knowledge items do not have any keywords to remove.	所选知识条目没有可移除的关键词。
 MassReferenceIdentifier_Found	found	已找到
 OnlineSearchAttribute_Title1Label	Title:	标题：
 Connection_Failed	Connection could not be established.	无法建立连接。
 DoubleClick	Double-click	双击
-RepairIntegrity_KnowledgeItemCategory_KnowledgeItemNull	{0} links between knowledge items and categories were removed because the link to the knowledge item was empty.	由于指向知识项的链接为空，已移除 {0} 个知识项与分类之间的链接。
+RepairIntegrity_KnowledgeItemCategory_KnowledgeItemNull	{0} links between knowledge items and categories were removed because the link to the knowledge item was empty.	由于指向知识条目的链接为空，已移除 {0} 个知识条目与分类之间的链接。
 CRM_Email_AccountMergingCleanup_second_paragraph	##email	##email
 DeleteKeyword	Do you want to delete the keyword "{0}"?	是否删除关键词 "{0}"？
 RepairCorruptedDatabase_RepairInProjectFolderSuccessfulButCantReplaceOriginal_InconsistenciesFound	Citavi was able to repair the project. However, the damaged project could not be replaced with the repaired copy. It may be in use by another program. Citavi has saved the repaired copy in the project folder as "{0}". Try to open the repaired project in Citavi. If you can, verify that the original project is not in use by any other program, then replace it with the repaired project.\r\n\r\nCitavi determined that some data loss occurred. A log with details has been saved and opened in a separate program.\r\n\r\nTo recover lost data, restore from one of the backups Citavi created for you. If necessary, contact Citavi support for assistance: www.citavi.com/service.	Citavi 已修复该项目。但是，无法用修复后的副本替换损坏的项目。它可能正被另一个程序使用。Citavi 已将修复后的副本以 "{0}" 为名保存在项目文件夹中。请尝试在 Citavi 中打开修复后的项目。如果可以打开，请确认原项目未被任何其他程序使用，然后用修复后的项目替换它。\r\n\r\nCitavi 判定发生了一些数据丢失。详细信息日志已保存并在单独的程序中打开。\r\n\r\n要恢复丢失的数据，请从 Citavi 为您创建的备份之一还原。如有必要，请联系 Citavi 支持人员寻求帮助：www.citavi.com/service。
@@ -1759,7 +1759,7 @@ ImportWizard_Title_14	Map the reference types from the source file:	映射源文
 ImportWizard_Title_15	Select the reference type you want to define the field mappings for:	选择要为其定义字段映射的文献类型：
 WrapperDllNotFoundException	Citavi has detected a damaged installation of the .NET Framework on your computer. Contact your system administrator. You can usually fix the problem by downloading and reinstalling the .NET Framework 2.0. Refer to <a href="http://www.citavi.com/softlink?linkid=enterprisewrapperdllnotfound">our support website</a> for more information.	Citavi 检测到您计算机上的 .NET Framework 安装已损坏。请联系系统管理员。通常可以通过下载并重新安装 .NET Framework 2.0 来解决此问题。更多信息请参阅<a href="http://www.citavi.com/softlink?linkid=enterprisewrapperdllnotfound">我们的支持网站</a>。
 HelpFileExistsAndIsActive	{0}\r\n\r\nThis file is currently displayed as the Quick Help text.	{0}\r\n\r\n此文件当前显示为快速帮助文本。
-KnowledgeItemRtfConversionError	An error occurred while converting a knowledge item from a Citavi 2 project. The text could not be recognized as valid RTF.	转换 Citavi 2 项目中的知识项时出错。无法将文本识别为有效的 RTF。
+KnowledgeItemRtfConversionError	An error occurred while converting a knowledge item from a Citavi 2 project. The text could not be recognized as valid RTF.	转换 Citavi 2 项目中的知识条目时出错。无法将文本识别为有效的 RTF。
 ReferenceDataCompletion_InvalidDoi	The DOI name field does not contain a valid DOI name.\r\nWith a valid DOI name, you can import bibliographic information automatically.	DOI 名称字段不包含有效的 DOI 名称。\r\n使用有效的 DOI 名称，您可以自动导入文献信息。
 LicenseTextCampus	You are using a Citavi for Windows site license.	您使用的是 Citavi for Windows 站点许可证。
 YouWantToCancelAllBackgroundTasks	Do you really want to cancel all background tasks of this type?	确定要取消此类型的所有后台任务吗？
@@ -1845,7 +1845,7 @@ DeleteImportSetting	Do you want to delete "{0}"?	是否删除 "{0}"？
 RepairIntegrity_Reference_PeriodicalNonExistent	{0} relationships between references and periodicals were removed because the periodical no longer exists.	由于期刊已不存在，已移除 {0} 个文献与期刊之间的关系。
 SearchForm_UnexpectedToken	Unexpected character in the search string. Expected: "{0}", Found: "{1}"	搜索字符串中出现意外字符。应为："{0}"，实际为："{1}"
 LOBConcentrationArea	Medicine, pharmacy and nursing science; mathematics and computer science; veterinary medicine; natural science; economics; law	医学、药学与护理学；数学与计算机科学；兽医学；自然科学；经济学；法学
-KnowledgeItemSelectionListPlural	The {0} knowledge items in the current list	当前列表中的 {0} 个知识项
+KnowledgeItemSelectionListPlural	The {0} knowledge items in the current list	当前列表中的 {0} 个知识条目
 WarningBackgroundTasksRunningCloseProject_DontCloseAndShowList	Leave project open and display list of background tasks.	使项目保持打开并显示后台任务列表。
 ConceptDrawExportDialogFilter	Text documents with outlines (*.txt)|*.txt|All files (*.*)|*.*	
 SmartTagDelete	Delete	删除
@@ -1855,7 +1855,7 @@ OpenProjectFromCloud_ForwardingJob	Sending download job to Citavi Cloud…	正�
 TransformerList_CreateNewTransformer_BibTeXExport	Create BibTeX export filter	创建 BibTeX 导出过滤器
 SearchFieldDropDownForm_GroupHeader_CommonFields	Frequently used fields	常用字段
 CannotLoginWithCachedPrincipal	Login was not possible because Citavi could not connect to the server. Please check your Internet connection.\r\nCitavi projects cannot be opened without logging in.	无法登录，因为 Citavi 无法连接到服务器。请检查您的 Internet 连接。\r\n不登录则无法打开 Citavi 项目。
-RepairIntegrity_KnowledgeItemGroup_KnowledgeItemOrphaned	{0} links between knowledge items and groups were removed because the knowledge item does not exist.	由于知识项不存在，已移除 {0} 个知识项与组之间的链接。
+RepairIntegrity_KnowledgeItemGroup_KnowledgeItemOrphaned	{0} links between knowledge items and groups were removed because the knowledge item does not exist.	由于知识条目不存在，已移除 {0} 个知识条目与组之间的链接。
 LocalToDbServerCopyHelper_InsertingTableData	Copying project information: {0}	正在复制项目信息：{0}
 ParentToolboxPaneCaptionNeutral	Parent reference type components	父文献类型组件
 RepairIntegrity_ReferenceCollaborator_PersonNull	{0} links between references and collaborators were removed because the link to the collaborator was empty.	由于指向协作人的链接为空，已移除 {0} 个文献与协作人之间的链接。
@@ -1915,7 +1915,7 @@ USBInstallationMultipleRemovableDrivesFound	More than one removable drive (USB f
 CopyOrMoveToProjectChildReferences	Child references (for example, all contributions in an edited book)	子文献（例如编著中的全部章节）
 LinkedResource_AttachmentsAttaching_LocationLabel	electronic, adding attachment 	电子版，正在添加附件 
 SqlServerProjectIsNewerThanEngine	This project was created with a later version of Citavi and cannot be deleted using this version of DBServer Manager.	此项目由更高版本的 Citavi 创建，无法使用此版本的 DBServer Manager 删除。
-CategoriesFromProject	Categories from project {0}, {1}	来自项目 {0} 的类别，{1}
+CategoriesFromProject	Categories from project {0}, {1}	来自项目 {0} 的分类，{1}
 LookupFullText_UrlFound	URL found for a website with linked full text	找到链接了全文的网站的 URL
 Recover	Recover changes	恢复更改
 ReferenceSelectionDialogTitle_RemoveFromFilter	Which references do you want to exclude from the selection?	您希望从选择中排除哪些文献？
@@ -1949,14 +1949,14 @@ PreviewControl_StatusBar_ZoomIn	Zoom in	放大
 UnexceptedFindEngineError	The syntax proofing was successful but an unknown error occurred during the search. The internal error message is:\r\n{0}	语法校验成功，但搜索期间发生未知错误。内部错误信息为：\r\n{0}
 RetrievalDefinition_CultureInternational	International	国际
 CRM_Email_CitaviGiftCard_second_paragraph	The recipient can redeem this gift certificate code for a personal Citavi license key.  Find out more in the Citavi manual.	收件人可使用此礼券代码兑换个人 Citavi 许可证密钥。请在 Citavi 手册中了解更多信息。
-CitationStyleEditorBusyWarning	Another style is already open in the Citation Style Editor.\r\nPlease save and close the other style before continuing.	引用样式编辑器中已打开另一个样式。\r\n请先保存并关闭其他样式，然后再继续。
+CitationStyleEditorBusyWarning	Another style is already open in the Citation Style Editor.\r\nPlease save and close the other style before continuing.	引文样式编辑器中已打开另一个样式。\r\n请先保存并关闭其他样式，然后再继续。
 PreviewControl_StatusBar_Bookmarks	Bookmarks	书签
 KnowledgeItemSortOption_ModifiedBy	Modification date	修改日期
 ShortTitleIsNotUnique	This short title is already in use by another reference in this project. Choose a different short title.	此短标题已被本项目中的另一条文献使用。请选择其他短标题。
 Outlook_GroupByMode_Description_ThreeWeeksAgo	Three weeks ago	三周前
-RepairIntegrity_CategoryCategory_CircularDependence	The category "{0}" (ID: {1}) cannot be its own child. It has been moved to the top level of the category system.	类别"{0}"（ID：{1}）不能作为其自身的子类别。它已被移动到类别系统的顶层。
+RepairIntegrity_CategoryCategory_CircularDependence	The category "{0}" (ID: {1}) cannot be its own child. It has been moved to the top level of the category system.	分类"{0}"（ID：{1}）不能作为其自身的子分类。它已被移动到分类系统的顶层。
 WarningBackgroundTasksFaultedCloseProject_ForceClose	force closing the project. This could cause information to be lost.	强制关闭项目。这可能导致信息丢失。
-DeleteCategoriesWithChildCategories	Do you want to delete the selected categories?\r\n\r\nWarning: At least one category contains subcategories that will also be deleted.	是否删除所选类别？\r\n\r\n警告：至少有一个类别包含子类别，这些子类别也将被删除。
+DeleteCategoriesWithChildCategories	Do you want to delete the selected categories?\r\n\r\nWarning: At least one category contains subcategories that will also be deleted.	是否删除所选分类？\r\n\r\n警告：至少有一个分类包含子分类，这些子分类也将被删除。
 ElectronicAddressInfo_Empty_LocationLabel	Electronic: unknown	电子：未知
 OptionsDialog_mainTabControl_OpenUrl	RSS / OpenUrl	RSS / OpenUrl
 CampusLicenseExpiryWarningMessage	<span style="font-weight:bold">Important: Your Citavi license is about to expire</span>\r\n\r\nIf your organization has renewed its site license, enter the new license key you received by email. If you didn’t receive the new license key, just <a href="http://www.citavi.com/campuslizenzen">request a new one</a> on our website.\r\nIf you have left the organization (or if the site license was not renewed), <a href="http://www.citavi.com/shop">you can purchase your own license key</a>.\r\n\r\nRemind me again:	<span style="font-weight:bold">重要提示：您的 Citavi 许可证即将到期</span>\r\n\r\n如果您的机构已续订站点许可证，请输入您通过电子邮件收到的新许可证密钥。如果您没有收到新的许可证密钥，只需在我们的网站上<a href="http://www.citavi.com/campuslizenzen">申请新的密钥</a>。\r\n如果您已离开该机构（或站点许可证未续订），<a href="http://www.citavi.com/shop">您可以购买自己的许可证密钥</a>。\r\n\r\n再次提醒我：
@@ -1979,7 +1979,7 @@ UltraGrid_GroupByBoxPrompt	Drag column headers here to group by fields.	将列�
 CRM_Email_AccountCreatedViaProcessOrderMailBilling_subject	Your Citavi license key	您的 Citavi 许可证密钥
 CreateBackupCancelled	You have canceled the process. No backup was created.	您已取消该过程。未创建备份。
 CancelAll	Cancel all	全部取消
-DragOnNoCategoriesNode	You dragged one or more items to "No categories". Do you want to remove the categories currently assigned to these items?	您将一个或多个项目拖到了"无类别"。是否移除这些项目当前已分配的类别？
+DragOnNoCategoriesNode	You dragged one or more items to "No categories". Do you want to remove the categories currently assigned to these items?	您将一个或多个项目拖到了"无分类"。是否移除这些项目当前已分配的分类？
 TemplateUseCaseNameLocalized_Contribution_SpecialIssue	Contribution in a special issue	特刊中的章节
 WhichReferencesDoYouWantToEdit	Which references do you want to edit?	您要编辑哪些文献？
 InsertPlaceholderWriterNotRunning	This command inserts a placeholder or quotation into an open Writer document. Citavi could not find an open document. Do you want to start Writer now?	此命令会将占位符或引文插入打开的 Writer 文档。Citavi 找不到打开的文档。是否立即启动 Writer？
@@ -1989,7 +1989,7 @@ OrderByEMailBodyText	{2}\r\n\r\n\r\n--------------------------------------------
 SearchForm_SearchButtonCaption	Search	搜索
 AllowOffline	The Citavi Project is temporarily unavailable. Your computer is likely not connected to the network or the Citavi project was deleted.\r\nAn offline copy of this project is saved on your computer.\r\nHow do you want to proceed?	Citavi 项目暂时不可用。您的计算机可能未连接到网络，或者该 Citavi 项目已被删除。\r\n此项目的离线副本已保存在您的计算机上。\r\n您希望如何继续？
 CopyOrMoveFileAttachmentTask_ShortName	Copy or move attachment	复制或移动附件
-OptionsDialog_CitationKey_Overwrite	Generate citation keys for all references (existing citation keys will be overwritten)	为所有文献生成引用键（现有引用键将被覆盖）
+OptionsDialog_CitationKey_Overwrite	Generate citation keys for all references (existing citation keys will be overwritten)	为所有文献生成引文键（现有引文键将被覆盖）
 UserDataFolderSelection_RootDirectoryWarning	"{0}" is the top level of a drive. We recommend that you instead use a folder to contain your Citavi user data. Do you want Citavi to create it for you?	"{0}"是驱动器的顶层。我们建议您改用文件夹来存放 Citavi 用户数据。是否让 Citavi 为您创建它？
 MergeLibraries_DragDropMessage_Multi	Do you want to merge the selected {1} libraries into "{0}"?	是否将所选的 {1} 个库合并到"{0}"？
 RepairIntegrity_Reference_SeriesTitleNonExistent	{0} relationships between references and series were removed because the series no longer exists.	由于丛书已不存在，文献与丛书之间的 {0} 个关系已被移除。
@@ -2028,7 +2028,7 @@ ImportExportWizardUseLiteRatShortTitle	Use existing LiteRat short titles	使用�
 MergeAs	Merge to	合并到
 CRM_Email_CloudSpaceWarning_first_paragraph	You can currently save up to ##description GB in the Citavi Cloud. This amount is now ##text percent full. We recommend deleting attachments you no longer need or purchasing more space.	您当前可以在 Citavi 云端保存最多 ##description GB。此容量现已使用 ##text%。我们建议删除不再需要的附件或购买更多空间。
 CitaviSettingsExportOK	The settings were exported successfully.	设置已成功导出。
-DeleteUnusedItems_Categories	Categories ({0})	类别（{0}）
+DeleteUnusedItems_Categories	Categories ({0})	分类（{0}）
 ImportWizardDialogUseLiteRatShortTitle	Use existing LiteRat short titles	使用现有的 LiteRat 短标题
 PdfExport_OverwriteOption	Replace file(s)	替换文件
 RepairIntegrity_ReferenceReference_ParentReferenceNull	{0} links between references were removed because the link to the parent reference was empty.	由于指向父文献的链接为空，文献之间的 {0} 个链接已被移除。
@@ -2037,7 +2037,7 @@ BackupFolderPath_SelectedPathIsInvalid	The selected folder path is not valid. Se
 SqlServerInfo_SchemaMissing	The "Schema" part (project name) of the connection string is missing.	连接字符串中缺少"Schema"（项目名称）部分。
 ResumeLabel1SearchAtBeginning	The end of the list has been reached. No references with blue labels were found. Do you want to continue searching from the beginning of the list?	已到达列表末尾。未找到带蓝色标签的文献。是否从列表开头继续搜索？
 SearchReplace_FormatsWarning_ReplaceAll_Omit	Don't replace in formatted fields	不在格式化字段中替换
-NewCategory	New category	新建类别
+NewCategory	New category	新建分类
 NoTemplateFoundForThisReferenceType	[Cannot display reference "{1}": No template found for the reference type "{0}".]	[无法显示文献"{1}"：未找到文献类型"{0}"的模板。]
 CRM_Email_OrderProcessBilling_Business_first_paragraph	Here's how you can get everything set up:\r\n\r\n<b>Step 1 – Assign licenses</b>\r\nIf you haven't done so already, log in to your Citavi account at www.citavi.com/login. Assign each license to a user at your organization. Users without a Citavi account will receive an email asking them to create one.\r\n\r\n<b>Step 2 – Install Citavi 6</b>\r\nIf you haven't done so already, install Citavi 6 on the users' computers. Download the Setup file and MSI Setup at www.citavi.com/download\r\nPlease read the following upgrade information: www.citavi.com/c6upgrade\r\n\r\n<b>Step 3 – Have your users log in to Citavi 6</b>\r\nAfter they start Citavi, users will be asked to log in to Citavi Account. They should enter their email addresses and passwords. If they have trouble, please have them use our login tips: www.citavi.com/login-hints\r\n\r\nCitavi 6 will automatically pull the license information from the account.\r\n\r\nIf you run into any trouble, please get in touch:\r\nwww.citavi.com/ticket	以下是完成全部设置的方法：\r\n\r\n<b>第 1 步 – 分配许可证</b>\r\n如果您尚未这样做，请在 www.citavi.com/login 登录您的 Citavi 帐户。将每个许可证分配给贵机构的一名用户。没有 Citavi 帐户的用户将收到一封要求其创建帐户的电子邮件。\r\n\r\n<b>第 2 步 – 安装 Citavi 6</b>\r\n如果您尚未这样做，请在用户的计算机上安装 Citavi 6。在 www.citavi.com/download 下载安装程序和 MSI 安装程序\r\n请阅读以下升级信息：www.citavi.com/c6upgrade\r\n\r\n<b>第 3 步 – 让您的用户登录 Citavi 6</b>\r\n启动 Citavi 后，系统会要求用户登录 Citavi 帐户。他们应输入自己的电子邮件地址和密码。如果他们遇到问题，请让他们使用我们的登录提示：www.citavi.com/login-hints\r\n\r\nCitavi 6 将自动从帐户中提取许可证信息。\r\n\r\n如果您遇到任何问题，请联系我们：\r\nwww.citavi.com/ticket
 DesktopAlert_ReconnectedToCloud_Caption	Connection restored	连接已恢复
@@ -2045,8 +2045,8 @@ OpenInAssociatedExe	Open in {0}	在 {0} 中打开
 StatusBarNumberOfTasksFiltered_Smart	{0:1 task|{0} tasks} shown	{0:显示 1 个任务|显示 {0} 个任务}
 SortByType_ReferenceEditor	Quotations by reference as sorted in the Reference Editor, then thoughts by modification date	按文献编辑器中的排序方式排列的文献引文，然后按修改日期排列的想法
 ImportSettingHelpContext_SearchField_Year	y:| "2008" finds references published in the year 2008.	
-DeleteCategories	Do you want to delete the selected categories?	是否删除所选类别？
-CitationStyle_AddFailed	An unknown error occurred while adding the citation style.	添加引用样式时发生未知错误。
+DeleteCategories	Do you want to delete the selected categories?	是否删除所选分类？
+CitationStyle_AddFailed	An unknown error occurred while adding the citation style.	添加引文样式时发生未知错误。
 ImportFormIsLocked	List and menu are currently disabled. Wait until the import is finished.	列表和菜单当前已禁用。请等待导入完成。
 SaveFileAs_Error	{0} file(s) were successfully saved.\r\n{1} file(s) could not be found.\r\nErrors occurred with {2} file(s).\r\n\r\nDo you want to open the log?	已成功保存 {0} 个文件。\r\n找不到 {1} 个文件。\r\n{2} 个文件发生错误。\r\n\r\n是否打开日志？
 TransformerOverride	There is already an export definition named "{0}". Do you want to replace it?	已存在名为"{0}"的导出定义。是否替换它？
@@ -2080,7 +2080,7 @@ CRM_Email_CloudSpaceWarning_button	Open Citavi Space overview	打开 Citavi Spac
 StatusBarClearFilterButton	Cancel selection	取消选择
 SaveThumbnail	The original file for this image could not be found. Do you want to save the thumbnail stored in the project file instead?\r\n\r\nNote: The thumbnail image is of significantly lower quality (resolution) than the original file.	找不到此图像的原始文件。是否改为保存项目文件中存储的缩略图？\r\n\r\n注意：缩略图的质量（分辨率）远低于原始文件。
 ElectronicAddressInfo_UnknownDriveType_LocationLabel	Electronic: unknown drive	电子版：未知驱动器
-NoOutlineLevelsInThisWriterDocument	This Writer document does not contain an outline from which categories could be imported.	此 Writer 文档不包含可从中导入类别的纲要。
+NoOutlineLevelsInThisWriterDocument	This Writer document does not contain an outline from which categories could be imported.	此 Writer 文档不包含可从中导入分类的纲要。
 OnlineCredentialCheckOK	Login successful.	登录成功。
 ConvertC4ProjectProgressText	Citavi is converting your project for use with this version of Citavi. The original project in Citavi 4 format has been retained.	Citavi 正在转换您的项目以用于此版本的 Citavi。Citavi 4 格式的原始项目已保留。
 TaskItemDisplayName	{0} (@{1}, finish by: {2})	{0}（@{1}，截止：{2}）
@@ -2110,7 +2110,7 @@ RepairIntegrity_Person_DuplicateCombinationOfNameParts	Duplicate entries were fo
 CoreStatementAsDateTimeAscending	By date found in the core statement, oldest first	按核心陈述中的日期，最早优先
 Clipboard	Clipboard	剪贴板
 ElectronicAddressInfo_Removable_LocationPrefix	[USB]	[USB]
-ImportProgressStatusChangedCaption_Locations	LiteRat import in progress: Assigning locations to the imported references…	LiteRat 导入进行中：正在为导入的文献分配馆藏地点…
+ImportProgressStatusChangedCaption_Locations	LiteRat import in progress: Assigning locations to the imported references…	LiteRat 导入进行中：正在为导入的文献分配馆藏位置…
 AddressInfo_LocationTypeLibrary_LocationLabel_withLibrary	Library {0}	库 {0}
 CRM_Email_CloudSpaceExceeded_button	Open Citavi Space overview	打开 Citavi Space 概览
 HighContrastModeChanged	You must restart Citavi for changes to projector mode to take effect.	您必须重启 Citavi，投影仪模式的更改才会生效。
@@ -2148,7 +2148,7 @@ DBServerLicenseExpiryWarningMessage2	<span style="font-weight:bold">Warning: You
 PerformCommandException	Error occurred when calling {0}	调用 {0} 时发生错误
 TransformerHelpContext_ReplacesOneOrNo_2	replaces 0 or 1 characters	替换 0 或 1 个字符
 CampusLicenseExpiryWarningAccountMessage2	<span style="font-weight:bold">Warning: Your Citavi license has expired</span>\r\n\r\nIf your organization has renewed its site license, enter the new license key, which can be found in your <a href="https://www.citavi.com/c6prog/account">Citavi Account</a>. \r\nIf you have left the organization (or if the site license was not renewed), <a href="http://www.citavi.com/shop">you can buy your own license key</a>.\r\n\r\n\r\nRemind me again:	<span style="font-weight:bold">警告：您的 Citavi 许可证已过期</span>\r\n\r\n如果您的机构已续订站点许可证，请输入新的许可证密钥，该密钥可在您的 <a href="https://www.citavi.com/c6prog/account">Citavi 帐户</a>中找到。\r\n如果您已离开该机构（或站点许可证未续订），<a href="http://www.citavi.com/shop">您可以购买自己的许可证密钥</a>。\r\n\r\n\r\n再次提醒我：
-CitationStyleNewerThanCitaviVersionExceptionMessage	This citation style requires a later version of Citavi than the version you are using.\r\n\r\nThe "{0}" citation style will only work with Citavi {1} or later.\r\n\r\nThe version you are using is Citavi {2}.	此引用样式需要的 Citavi 版本高于您当前使用的版本。\r\n\r\n"{0}"引用样式仅适用于 Citavi {1} 或更高版本。\r\n\r\n您使用的版本是 Citavi {2}。
+CitationStyleNewerThanCitaviVersionExceptionMessage	This citation style requires a later version of Citavi than the version you are using.\r\n\r\nThe "{0}" citation style will only work with Citavi {1} or later.\r\n\r\nThe version you are using is Citavi {2}.	此引文样式需要的 Citavi 版本高于您当前使用的版本。\r\n\r\n"{0}"引文样式仅适用于 Citavi {1} 或更高版本。\r\n\r\n您使用的版本是 Citavi {2}。
 CRM_Email_Delete_Account	Don't need Citavi anymore? Here's how you can delete your account:\r\nhttps://www.citavi.com/deleting-your-account	不再需要 Citavi？以下是删除您帐户的方法：\r\nhttps://www.citavi.com/deleting-your-account
 CRM_Email_CampusContractExtensionVerifyAccount_subject	Citavi: Activate your new license	Citavi：激活您的新许可证
 LeaveProjectMsgBox_Description	Do you really want to leave the project '{0}'? The project manager will not be automatically informed.	您确实要离开项目"{0}"吗？项目管理员不会自动收到通知。
@@ -2171,10 +2171,10 @@ Backup_Restore	The project '{0}' will be restored from the backup.	项目"{0}"�
 ImportSourceStatusCaption_ImportSuccess_Smart	{0:1 reference|{0} references} imported successfully.	{0:1 条参考文献|{0} 条参考文献}已成功导入。
 CRM_Email_CampusContractExtensionLicensfileExportData_button	Learn more in the Citavi Manual	在 Citavi 手册中了解更多
 OptionsImportRetrievalDefinitionIsbn	ISBN download	ISBN 下载
-NoCategoriesInThisCitaviProject	The selected Citavi project has no categories, or all categories to be imported already exist in the current project.	所选 Citavi 项目没有类别，或者要导入的所有类别都已在当前项目中存在。
+NoCategoriesInThisCitaviProject	The selected Citavi project has no categories, or all categories to be imported already exist in the current project.	所选 Citavi 项目没有分类，或者要导入的所有分类都已在当前项目中存在。
 RecycleBinQuestionDeleteSelectedItems	Do you really want to delete the {0:selected item|the {0} selected items}? This action cannot be undone.	确定要删除{0:所选条目|所选的 {0} 个条目}吗？此操作无法撤销。
 StatusBarNumberOfTasksAll_Smart	{0:1 task|{0} tasks} total	{0:1 个任务|{0} 个任务} 总计
-DeleteCategoryInUse	Warning: The category {0} or one of its subcategories is in use. If you delete the category, it will be permanently removed from all references and knowledge items that use it.\r\n\r\nDo you want to delete the category anyway?	警告：类别 {0} 或其某个子类别正在使用中。如果删除该类别，它将从所有使用它的文献和知识条目中永久移除。\r\n\r\n仍要删除该类别吗？
+DeleteCategoryInUse	Warning: The category {0} or one of its subcategories is in use. If you delete the category, it will be permanently removed from all references and knowledge items that use it.\r\n\r\nDo you want to delete the category anyway?	警告：分类 {0} 或其某个子分类正在使用中。如果删除该分类，它将从所有使用它的文献和知识条目中永久移除。\r\n\r\n仍要删除该分类吗？
 ProjectPermissions_License_None	This project cannot be opened with your Citavi license. (<a href="http://www.citavi.com/licenserestrictions">Why not?</a>)	此项目无法使用您的 Citavi 许可证打开。（<a href="http://www.citavi.com/licenserestrictions">为什么不能？</a>）
 OnlineSearchAttribute_AnyFieldLabel	All fields:	所有字段：
 OutOfMemoryException	Your computer's memory is full. We recommend saving the open project and restarting Citavi.\r\nIf this error occurs frequently, please contact Citavi support for assistance: www.citavi.com/service.	您的计算机内存已满。我们建议保存打开的项目并重启 Citavi。\r\n如果此错误频繁出现，请联系 Citavi 支持人员以获取帮助：www.citavi.com/service。
@@ -2194,7 +2194,7 @@ DeleteKeywordOption	Delete keyword.	删除关键词。
 CRM_Email_OrderProcessBilling_Billomat_Business_first_paragraph	Here's how you can get everything set up:\r\n\r\n<b>Step 1 – Assign licenses</b>\r\nIf you haven't done so already, log in to your Citavi account at www.citavi.com/login. Assign each license to a user at your organization. Users without a Citavi account will receive an email asking them to create one.\r\n\r\n<b>Step 2 – Install Citavi 6</b>\r\nIf you haven't done so already, install Citavi 6 on the users' computers. Download the Setup file and MSI Setup at www.citavi.com/download\r\nPlease read the following upgrade information: www.citavi.com/c6upgrade\r\n\r\n<b>Step 3 – Have your users log in to Citavi 6</b>\r\nAfter they start Citavi, users will be asked to log in to Citavi Account. They should enter their email addresses and passwords. If they have trouble, please have them use our login tips: www.citavi.com/login-hints\r\n\r\nCitavi 6 will automatically pull the license information from the account.\r\n\r\nIf you run into any trouble, please get in touch:\r\nwww.citavi.com/ticket\r\n\r\n##invoicenumber\r\n##customerordernumber	以下是完成全部设置的方法：\r\n\r\n<b>第 1 步 – 分配许可证</b>\r\n如果您尚未这样做，请在 www.citavi.com/login 登录您的 Citavi 帐户。将每个许可证分配给贵机构的一名用户。没有 Citavi 帐户的用户将收到一封要求其创建帐户的电子邮件。\r\n\r\n<b>第 2 步 – 安装 Citavi 6</b>\r\n如果您尚未这样做，请在用户的计算机上安装 Citavi 6。在 www.citavi.com/download 下载安装程序和 MSI 安装程序\r\n请阅读以下升级信息：www.citavi.com/c6upgrade\r\n\r\n<b>第 3 步 – 让您的用户登录 Citavi 6</b>\r\n启动 Citavi 后，系统会要求用户登录 Citavi 帐户。他们应输入自己的电子邮件地址和密码。如果他们遇到问题，请让他们使用我们的登录提示：www.citavi.com/login-hints\r\n\r\nCitavi 6 将自动从帐户中提取许可证信息。\r\n\r\n如果您遇到任何问题，请联系我们：\r\nwww.citavi.com/ticket\r\n\r\n##invoicenumber\r\n##customerordernumber
 FileFormatExpection	Incorrect file format	文件格式不正确
 DesktopAlertAttachmentCachingStartedText	The download has started. You can check the progress in the background tasks.	下载已开始。您可以在后台任务中查看进度。
-MergeCategoriesForbiddenSourceIsAncestorOfTarget	The selected categories cannot be merged. \r\nA parent category cannot be merged with one of its child categories.	无法合并所选类别。\r\n父类别不能与其某个子类别合并。
+MergeCategoriesForbiddenSourceIsAncestorOfTarget	The selected categories cannot be merged. \r\nA parent category cannot be merged with one of its child categories.	无法合并所选分类。\r\n父分类不能与其某个子分类合并。
 EditPdfSwitchToTextsPage	Would you like to switch to the "Texts" page to edit the text?	是否切换到"文本"页面以编辑文本？
 ChatWindow_Loading	Loading chat …	正在加载聊天 …
 HtmlToPdfConversionFailed_NullReferenceException	The webpage could not be saved as a PDF. This error is rare and usually cannot be reproduced. Please try saving the page as a PDF again. If the problem persists, please contact Citavi support for assistance: <a href="http://www.citavi.com/support">www.citavi.com/support</a>	该网页无法保存为 PDF。此错误很少见，通常无法重现。请再次尝试将页面保存为 PDF。如果问题仍然存在，请联系 Citavi 支持人员以获取帮助：<a href="http://www.citavi.com/support">www.citavi.com/support</a>
@@ -2223,7 +2223,7 @@ RepairIntegrity_ReferenceReference_ParentReferenceOrphaned	{0} links between ref
 WordCommunicationBlocked0x80010001	Communication with Word failed. The error message is: {0}\r\nFor a solution to this error please read the following <a href="https://support.microsoft.com/en-us/help/247028/a-corrupt-global-template-causes-errors-when-automating-word">article in the Microsoft knowledge base</a>.	与 Word 的通信失败。错误消息为：{0}\r\n有关此错误的解决方案，请阅读<a href="https://support.microsoft.com/en-us/help/247028/a-corrupt-global-template-causes-errors-when-automating-word">Microsoft 知识库中的文章</a>。
 RepairIntegrity_Reference_InvalidReferenceType	{0} references are of an invalid reference type. They will be assigned 'Unknown' as reference type instead.	{0} 个题录属于无效的题录类型。它们将被改为分配"未知"作为题录类型。
 ImportSettingHelpContext_Location	Location information| is not provided.	
-LookupLocations_NothingFound	No new locations were found.	未找到新的馆藏地点。
+LookupLocations_NothingFound	No new locations were found.	未找到新的馆藏位置。
 CategoryTextEditorDropDownForm_UpdateInfo_AddCategory	Press Tab to create category:\r\n{0}	按 Tab 键创建分类：\r\n{0}
 AllReferences	All references	所有参考文献
 DeleteNotes	Do you want to delete this note?	是否要删除此笔记？

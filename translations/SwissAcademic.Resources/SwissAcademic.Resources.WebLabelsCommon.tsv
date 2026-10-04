@@ -42,7 +42,7 @@ ThankYouMessage	We will fix the problem as soon as possible	我们将尽快修�
 Tooltip_JumpToAnnotation	Show in PDF	在 PDF 中显示
 Tooltip_ParentReference	Show parent reference and other contributions	显示父级文献和其他贡献
 NotNow	Not now	暂不
-CitationKeyType_ShortForm	Citation key	引用键
+CitationKeyType_ShortForm	Citation key	引文键
 YourCitaviAccount	Your Citavi Account	您的 Citavi 账户
 ChangeRole_SelectedPersons	Change project role for {0} selected team members:	更改 {0} 位所选团队成员的项目角色：
 Offline_Internet	Internet connection	Internet 连接
@@ -95,7 +95,7 @@ Profile	Profile	个人资料
 EmailAddressIsNotVerified	This email address has been registered but not yet confirmed. Please click the confirmation link in the email we sent you. \r\nNo email? Not even in the Spam folder? <a id="resendVerificationEmailLink">We'll send you a new one!</a>	此电子邮件地址已注册,但尚未确认。请点击我们发送的电子邮件中的确认链接。\r\n没有收到邮件?垃圾邮件文件夹里也没有?<a id="resendVerificationEmailLink">我们会再给您发一封!</a>
 HowToRedeemVoucher	How do I redeem multiple voucher codes?	如何兑换多个优惠券代码?
 CitationKeyType_ShortTitle	Short title	短标题
-Tooltip_YellowHighlight	Highlight text passages without saving as knowledge items.	高亮文本段落但不保存为知识项。
+Tooltip_YellowHighlight	Highlight text passages without saving as knowledge items.	高亮文本段落但不保存为知识条目。
 PageAlreadyOpenHtml	{0} is open in another browser tab or window. Either <br/><div class='tabbed segoeUiSemibold'>close this tab and go back to the other tab</div><div class='clear'></div>or<div class='clear'></div><div class='tabbed segoeUiSemibold'><a>continue working in this tab.</a></div>	{0} 已在另一个浏览器标签页或窗口中打开。您可以 <br/><div class='tabbed segoeUiSemibold'>关闭此标签页并返回另一个标签页</div><div class='clear'></div>或者<div class='clear'></div><div class='tabbed segoeUiSemibold'><a>继续在此标签页中操作。</a></div>
 WhyLicenseDataNotAccepted	Why is Citavi not accepting my license key?	为什么 Citavi 不接受我的许可证密钥?
 AttachmentTooLarge	The file exceeds the maximum size of 1.5 MB	文件超过 1.5 MB 的最大大小
@@ -214,13 +214,13 @@ Tooltip_Paperclip	Show PDF attachments	显示 PDF 附件
 Tooltip_Mark	Set or remove circle	设置或移除圆圈
 Tooltip_More	More features	更多功能
 Tooltip_Font	Font	字体
-Tooltip_Flag	Set or remove flag	设置或移除标记
+Tooltip_Flag	Set or remove flag	设置或移除标签
 Tooltip_Help	Help	帮助
 Tooltip_Edit	Edit	编辑
 Tooltip_Redo	Redo	重做
 Tooltip_Send	Send	发送
 Tooltip_Undo	Undo	撤销
-ContactSupport_GroupsVsCategories	Groups vs. categories	组与类别
+ContactSupport_GroupsVsCategories	Groups vs. categories	组与分类
 HashNotFound	The requested page was not found.	未找到请求的页面。
 ProjectDescription	Description	描述
 NoConfirmationEmailReceived	Where is my confirmation email?	我的确认邮件在哪里?
@@ -266,7 +266,7 @@ Offline_Reconnecting	Reconnecting...	正在重新连接...
 ContactSupport_Order	Organizing references	组织文献
 ContactSupport_Latex	Writing with LaTeX	使用 LaTeX 写作
 TeamMembers_EmailError	One or more entered email addresses are not valid.	一个或多个输入的电子邮件地址无效。
-Tooltip_ShowEditCategories	Show or edit categories	显示或编辑类别
+Tooltip_ShowEditCategories	Show or edit categories	显示或编辑分类
 Tooltip_EntityInfo	Date created and date modified	创建日期和修改日期
 HelpUsFindError	Please help us find the error!	请帮助我们找到错误!
 Tooltip_JumpToPreviousAnnotation	Previous annotation	上一个注释

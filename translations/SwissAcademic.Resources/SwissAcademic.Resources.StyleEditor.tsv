@@ -207,7 +207,7 @@ PersonFieldElementPropertyEditorControl_abbreviateGroupBoxCheckBox	Abbreviate li
 CitationStyleSettingsDialog_groupIndexInBibliographyCheckBox	Group consecutive numbers	对连续编号进行分组
 CitationStyleSettingsDialog_classificationNavigationButton	Classification	分类
 NumberingStyle_AbbreviateLastPageKeepingTwoDigits	Abbreviate end page to at least 2 digits (e.g. 153–59)	将结束页码缩写为至少 2 位数字（例如 153–59）
-CitationStyleSettingsDialog_fileLabel	Local citation style file	本地引用样式文件
+CitationStyleSettingsDialog_fileLabel	Local citation style file	本地引文样式文件
 PersonFieldElementPropertyEditorControl_firstGroupMiddleNameUsageLabel	Include middle names:	包含中间名：
 BuiltInConditionTemplateInvalidOrder_Ignore	Ignore this and similar errors when saving	保存时忽略此错误及类似错误
 LiteralElementPropertyEditorControl_textPreviewLabel	Preview:	预览：
@@ -277,7 +277,7 @@ CitationStyleSettingsDialog_hangingIndentationLabel	Hanging indent:	悬挂缩进
 PersonFieldElementPropertyEditorControl_organizationTextBeforeAbbreviationLabel	Text before abbreviation:	缩写前的文本：
 PersonFieldElementPropertyEditorControl_lastPersonMiddleNameUsageLabel	Include middle names:	包含中间名：
 CitationStyleSettingsDialog_ambiguityResolvingAddFirstNamesFirstNameFormatLabel	Format of first names:	名字格式：
-CitationStyleUploadSaveAsFileFirstPrompt	Before uploading, the citation style must be saved.\r\nWould you like to save the style now?	上传前必须保存引用样式。\r\n是否立即保存该样式？
+CitationStyleUploadSaveAsFileFirstPrompt	Before uploading, the citation style must be saved.\r\nWould you like to save the style now?	上传前必须保存引文样式。\r\n是否立即保存该样式？
 CitationStyleUploadDialog_fileLabel	Local style	本地样式
 CitationStyleSettingsDialog_inTextCitationsMultipleEntryConsecutiveAuthorsSeparatorLabel	Separate with:	分隔符：
 PersonFieldElementPropertyEditorControl_useDifferentLastPersonSeparatorIfExactlyTwoPersonsCheckBox	Use different separator, if number of persons is exactly 2	如果人员数量恰好为 2，则使用不同的分隔符
@@ -286,7 +286,7 @@ BuiltInConditionTemplateInvalidOrder_AutoCorrect	Let Citavi correct the error au
 ComponentPartPropertyEditorControl_namePreviewLabel	Preview:	预览：
 CitationStyleSettingsDialog_quotationAffixesNavigationButton	Quotation affixes	引文词缀
 LiteralElementPropertyEditorControl_applyAlwaysCheckBox	Always apply	始终应用
-ManageDerivedCitationStylesDialog_messageDifferentMasterForSingleStyleContinue	The derived citation style you are about to import originally belongs to a different master citation style.\r\n\r\nOther master citation style: '{0}'\r\nCurrent master citation style: '{1}'\r\n\r\nWhen changes are saved to the Cloud, the imported derived citation style will be removed from the former and added to the current master citation style.\r\n\r\nDo you agree?	您要导入的派生的引用样式原本属于另一个主引用样式。\r\n\r\n其它主引用样式：“{0}”\r\n当前主引用样式：“{1}”\r\n\r\n将更改保存到云端时，导入的派生的引用样式将从原主引用样式中移除，并添加到当前主引用样式中。\r\n\r\n是否同意？
+ManageDerivedCitationStylesDialog_messageDifferentMasterForSingleStyleContinue	The derived citation style you are about to import originally belongs to a different master citation style.\r\n\r\nOther master citation style: '{0}'\r\nCurrent master citation style: '{1}'\r\n\r\nWhen changes are saved to the Cloud, the imported derived citation style will be removed from the former and added to the current master citation style.\r\n\r\nDo you agree?	您要导入的派生的引文样式原本属于另一个主引文样式。\r\n\r\n其它主引文样式：“{0}”\r\n当前主引文样式：“{1}”\r\n\r\n将更改保存到云端时，导入的派生的引文样式将从原主引文样式中移除，并添加到当前主引文样式中。\r\n\r\n是否同意？
 ManageDerivedCitationStylesDialog_messageRefreshDespiteUnsavedChanges	You have made changes but not saved them to the cloud yet.\r\nThese changes will be lost.\r\n\r\nRefresh anyway?	您已进行更改，但尚未将其保存到云端。\r\n这些更改将丢失。\r\n\r\n仍要刷新吗？
 UnorderedListDialog_bulletRadioButton	 • (bullet)	 •（项目符号）
 CitationStyleSettingsDialog_schemaVersionLabel	Schema version:	架构版本：
@@ -301,7 +301,7 @@ CitationStyleSettingsDialog_footnotesMultipleEntryCustomizeSortButton	Customize�
 ElectronicAddressFieldElementPropertyEditorControl_suppressWWWCheckBox	Do not include "www"	不包含“www”
 PersonFieldElementPropertyEditorControl_firstGroupLenghOptionSet_All	All persons	所有人
 CitationStyleSettingsDialog_SortOptions_FirstAuthorYearAscendingTitle	First author, year (ascending), title	第一作者，年份（升序），标题
-NewCitationStyle	New citation style	新建引用样式
+NewCitationStyle	New citation style	新建引文样式
 BuiltInTemplateConditionId_PreviousReferenceIsPartOfMultipleCitationAtSecondPlaceOrFollowing	Previous reference is part of a multiple citation, in second or later position	前一条参考文献是多重引用的一部分，位于第二位或更后
 BuiltInTemplateConditionId_ConsecutiveCitationBySameAuthorEditor	Consecutive citations (same {0})	连续引用（相同 {0}）
 BuiltInTemplateConditionId_PlaceholderCitationQuotationTypeSummary	Citation is for a summary	引用用于摘要
@@ -315,7 +315,7 @@ PersonFieldElementPropertyEditorControl_organizationTextAfterAbbreviationLabel	T
 TemplateConditionDialog_placeholderConditionsGroupHeader	Conditions based on citation options	基于引用选项的条件
 CitationStyleReplacements_Many	{0} additional replacements are defined.	已定义 {0} 个其它替换。
 CitationStyleReplacements_None	No additional replacements are defined.	未定义其它替换。
-CitationStyleChangesCouldNotBeSaved	The changes to the citation style could not be saved. Try again?	引用样式的更改无法保存。是否重试？
+CitationStyleChangesCouldNotBeSaved	The changes to the citation style could not be saved. Try again?	引文样式的更改无法保存。是否重试？
 ComponentPartEditorControl_infoLabel	Drag elements here to create a component.	将元素拖到此处以创建组件。
 PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputSuppressedWithFormatOptionsLabel	Suppress repetition output when the following combination of format options is used:	使用以下格式选项组合时抑制重复输出：
 ElectronicAddressFieldElementPropertyEditorControl_suppressProtocolCheckBox	Do not include protocol	不包含协议
@@ -325,7 +325,7 @@ PageRangeFieldElementPropertyEditorControl_marginRangeFormattingMultiGroupBox	St
 ManageDerivedCitationStylesDialog_toolCopy	Copy	复制
 StyleEditor_BuildingPreview	Generating preview…	正在生成预览……
 ManageDerivedCitationStylesDialog_toolExport	Export	导出
-CitationStyleSavingRemovesC3CompatibilitiyWarning	The style "{0}" is a Citavi 3 citation style. If you save changes with the same file name, the compatibility with Citavi 3 will be lost and you will no longer be able to use the style in Citavi 3.\r\n\r\nIf you would like to keep the original style and save your changes in a copy of the style, please click "Cancel". Then, click "File" > "Save as".	样式“{0}”是 Citavi 3 引用样式。如果以相同文件名保存更改，将失去与 Citavi 3 的兼容性，并且您将无法再在 Citavi 3 中使用该样式。\r\n\r\n如果您想保留原始样式并将更改保存到样式的副本中，请单击“取消”。然后依次单击“文件”>“另存为”。
+CitationStyleSavingRemovesC3CompatibilitiyWarning	The style "{0}" is a Citavi 3 citation style. If you save changes with the same file name, the compatibility with Citavi 3 will be lost and you will no longer be able to use the style in Citavi 3.\r\n\r\nIf you would like to keep the original style and save your changes in a copy of the style, please click "Cancel". Then, click "File" > "Save as".	样式“{0}”是 Citavi 3 引文样式。如果以相同文件名保存更改，将失去与 Citavi 3 的兼容性，并且您将无法再在 Citavi 3 中使用该样式。\r\n\r\n如果您想保留原始样式并将更改保存到样式的副本中，请单击“取消”。然后依次单击“文件”>“另存为”。
 PersonFieldElementPropertyEditorControl_addLastPersonIfAbbreviatedCheckBox	Conclude with last person after abbreviation text	在缩写文本后以最后一位人员结束
 NumberingStyle_FullRange_DynamicExample	Start and end pages (e.g. {0})	起始页和结束页（例如 {0}）
 CitationStyleSettingsDialog_inTextCitationsMultipleEntrySortGroupBox	Sorting	排序
@@ -343,7 +343,7 @@ CitationStyleSettingsDialog_footnotesUseSameReferenceAsPreviousConditionsForMult
 CitationStyleSettingsDialog_subIndexTextAfterRepeatedMainIndexLabel	Text after:	后置文本：
 ManageDerivedCitationStylesDialog_toolImport	Import	导入
 TemplateConditionDialog_customConditionButton	Program a custom condition…	编写自定义条件……
-CitationStyleUploadDialog_citationStyleSettingsButton	Citation style properties…	引用样式属性……
+CitationStyleUploadDialog_citationStyleSettingsButton	Citation style properties…	引文样式属性……
 CitationStyleSettingsDialog_addPersonsUntilCitationIsUniqueCheckBox	Add authors or editors until the citation is unique	添加作者或编者，直到引用唯一
 PersonFieldElementPropertyEditorControl_groupPrefixPluralLabel	Plural:	复数：
 ComponentPartEditorForm_acceptButton	Apply	应用
@@ -380,13 +380,13 @@ PersonFieldElementPropertyEditorControl_abbreviateIfMoreThanPersonsLabel	If more
 PersonFieldElementPropertyEditorControl_firstGroupFirstNameFormatLabel	First name format:	名字格式：
 RuleSetEditorText_NotInherited	Rule set: {0}  |  <a fref="UseCaseEditInheritFrom_{1}_{2}">Not inherited</a>	
 CitationStyleUploadDialog_citationStyleIdLabel	Id:	ID：
-StylePropertyEditorControl_settingsButton	Citation style properties…	引用样式属性……
+StylePropertyEditorControl_settingsButton	Citation style properties…	引文样式属性……
 ManageDerivedCitationStylesDialog_mainGridColumnId	ID	ID
 PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputSuppressedForFirstCitationInsideMultipleCitationCheckBox	No output for first citation inside multiple citations	多重引用中的第一个引用不输出
 BuiltInTemplateConditionId_PlaceholderCitationQuotationTypeNone	Citation is for a reference only, not a knowledge item	引用仅用于参考文献，而非知识条目
 ComponentPartEditorControl_toolboxPanel_Caption	Elements	元素
 PersonFieldElementPropertyEditorControl_lastPersonSeparatorIfExactlyTwoPersonsLabel	Separator:	分隔符：
-ManageDerivedCitationStylesDialog_messageExportFinished	Export finished\r\n\r\n{0} derived citation styles exported\r\n	导出完成\r\n\r\n已导出 {0} 个派生的引用样式\r\n
+ManageDerivedCitationStylesDialog_messageExportFinished	Export finished\r\n\r\n{0} derived citation styles exported\r\n	导出完成\r\n\r\n已导出 {0} 个派生的引文样式\r\n
 PreviewPropertyEditorControl_simulateRepetitionWithIdenticalQuotationPageRangeCheckBox	Simulate repetitions with identical quotation page ranges	模拟具有相同引文页码范围的重复
 PersonFieldElementPropertyEditorControl_abbreviationLabel	Text of abbreviation:	缩写的文本：
 CitationStyleSettingsDialog_mainTabControl_HelpText	Quick Help text	快速帮助文本
@@ -424,14 +424,14 @@ StyleEditorPropertyPanelTextFieldElement	Properties of the field: {0}	字段属�
 CustomTemplateConditionPropertyEditorControl_nameLabel	Name:	名称：
 BuiltInTemplateConditionId_PlaceholderCitationEmptyQuotationPageRange	Citation has no quotaton page range	引用没有引文页码范围
 FontStyleEditorControl_sameAsNextRadioButton	Same as next style	与下一个样式相同
-DeleteCustomTemplateCondition	Do you really want to delete the custom condition "{0}" from the citation style?	您确实要从引用样式中删除自定义条件“{0}”吗？
+DeleteCustomTemplateCondition	Do you really want to delete the custom condition "{0}" from the citation style?	您确实要从引文样式中删除自定义条件“{0}”吗？
 BackOfficeCitationStyleElementsDialog_Title_CustomMacroCitationComparer	Download sortings	下载排序
 PlaceOfPublicationFieldElementPropertyEditorControl_placeOfPublicationFontStyleLabel	Style:	样式：
 PersonFieldElementPropertyEditorControl_lastPersonFirstNameFormatLabel	Format of first name:	名字格式：
 TemplateConditionDialog_titleLabel	Under which conditions should this template be applied?	应在哪些条件下应用此模板？
 CustomTemplateConditionPropertyEditorControl_notesLabel	Notes:	备注：
 PersonFieldElementPropertyEditorControl_differentLastPersonSeparatorIfExactlyTwoPersonsGroupBox	Different separator if exactly 2 persons	如果恰好 2 位人员则使用不同的分隔符
-CitationStyleSettingsDialog_builtInCheckBox	Citavi system citation style	Citavi 系统引用样式
+CitationStyleSettingsDialog_builtInCheckBox	Citavi system citation style	Citavi 系统引文样式
 CitationStyleSettingsDialog_inTextCitationsUseSameReferenceAsPreviousConditionsForMultipleCitationsCheckBox	Apply conditions for consecutive citations to multiple citations	将连续引用的条件应用于多重引用
 ManageDerivedCitationStylesDialog_mainGridColumnConcentrationAreas	Realms	领域
 PageRangeFieldElementPropertyEditorControl_columnRangeFormattingMultiGroupBox	Standard column formatting	标准列格式
@@ -454,7 +454,7 @@ CitationStyleSettingsDialog_ambiguityResolvingAddFirstNamesMiddleNameFormatLabel
 CitationStyleSettingsDialog_SortOptions_CustomMacro	Special sorting	特殊排序
 PreviewPropertyEditorControl_filterTemplatesGroupBox	Preview templates	预览模板
 CitationStyleSettingsDialog_citationStyleMasterIdLabel	Master ID	主样式 ID
-PreviewPropertyEditorControl_previewActiveTemplateOnlyRadioButton	Only active template (ignoring conditions and citation style options)	仅活动模板（忽略条件和引用样式选项）
+PreviewPropertyEditorControl_previewActiveTemplateOnlyRadioButton	Only active template (ignoring conditions and citation style options)	仅活动模板（忽略条件和引文样式选项）
 CitationStyleSettingsDialog_rangifySubIndexNumbersMinConsecutiveNumbersLabel	When at least:	当至少为：
 BuiltInTemplateConditionId_HasParentCitation	Parent reference is also cited	父级参考文献也被引用
 CitationStyleSettingsDialog_footnotesMultipleEntrySeparatorLabel	Separate multiple citations with:	用以下内容分隔多重引用：
@@ -478,7 +478,7 @@ BuiltInTemplateConditionId_OriginalPublicationContainsData	"Original publication
 PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputForSingleMaleLabel	… a single man:	……单个阳性：
 BuiltInTemplateConditionId_PlaceholderCitationQuotationTypeComment	Citation is for a comment	引用用于评论
 CitationStyleSettingsDialog_threeDotsByEllipsisCheckBox	... > … — Three periods with ellipsis	... > … — 三个句点与省略号
-ManageDerivedCitationStylesDialog_descriptionLabel	The following citation styles are based on the master citation style: {0}	以下引用样式基于主引用样式：{0}
+ManageDerivedCitationStylesDialog_descriptionLabel	The following citation styles are based on the master citation style: {0}	以下引文样式基于主引文样式：{0}
 CitationStyleSettingsDialog_inTextCitationsMultipleEntryTitleLabel	In-text	文内
 CitationStyleUploadDialog_contentVersionLabel	Content version:	内容版本：
 ComponentPartPropertyEditorControl2_editButton	Edit component…	编辑组件……
@@ -534,7 +534,7 @@ ManageDerivedCitationStylesDialog_toolRefresh	Refresh	刷新
 CitationStyleSettingsDialog_citationSystemLabel	Citation system:	引文系统：
 PreviewPropertyEditorControl_previewMax100ReferencesLabel	The preview shows a maximum of 100 references.	预览最多显示 100 条文献。
 PreviewPropertyEditorControl_previewFilteredReferencesRadioButton	Only references of the current use case	仅当前使用情形的文献
-CitationStyleSettingsDialog	Citation Style Properties	引用样式属性
+CitationStyleSettingsDialog	Citation Style Properties	引文样式属性
 CitationStyleSettingsDialog_finalCharacterLabel	Final character:	末尾字符：
 BackOfficeCitationStyleElementsDialog_Title_ComponentPart	Download components	下载组件
 ElectronicAddressFieldElementPropertyEditorControl_examplePathSuppressedLabel	www.nytimes.com	www.nytimes.com
@@ -558,7 +558,7 @@ ComponentsWillBeDeleted	The components defined in the current template will be r
 BuiltInTemplateConditionId_PlaceholderCitationFormatOption1	Citation has option "1"	引用具有选项 "1"
 BuiltInTemplateConditionId_PlaceholderCitationFormatOption3	Citation has option "3"	引用具有选项 "3"
 BuiltInTemplateConditionId_PlaceholderCitationFormatOption2	Citation has option "2"	引用具有选项 "2"
-CitationKeyFieldElementPropertyEditorControl_useTitleIfCitationKeyIsMissingCheckBox	Use title if "Citation key" field is empty	如果 "引用键" 字段为空，则使用标题
+CitationKeyFieldElementPropertyEditorControl_useTitleIfCitationKeyIsMissingCheckBox	Use title if "Citation key" field is empty	如果 "引文键" 字段为空，则使用标题
 ManageDerivedCitationStylesDialog_waitStatusLabel	Working…	处理中…
 CitationStyleUploadDialog_lastSavedWithCitaviVersionLabel	Last saved with Citavi version:	上次使用 Citavi 版本保存：
 CitationStyleSettingsDialog_citationClassTextReferencesNavigationButton	Text citations	文本引用
@@ -588,7 +588,7 @@ CitationStyleSettingsDialog_compositeCitationSeparatingTextGroupBox	Separate sub
 CitationStyleSettingsDialog_subIndexNumbersInMultipleCitationsLabel	Sub-Index Numbers	子索引编号
 ComponentPartPropertyEditorControl_allFieldsRequiredCheckBox	Show only if all fields contain data	仅当所有字段都包含数据时显示
 CitationStyleSettingsDialog_mainIndexLeadingTextLabel	Text before main index numbers:	主索引编号前的文本：
-CompilationTestNoErrorsFound	This citation style contains no scripts with compilation errors.	此引用样式不包含有编译错误的脚本。
+CompilationTestNoErrorsFound	This citation style contains no scripts with compilation errors.	此引文样式不包含有编译错误的脚本。
 BuiltInTemplateConditionId_SameParagraphInPublicationAsPrevious	Same paragraph in publication as previous	出版物中的段落与上一个相同
 FirstFootCitationNumbFieldElePropEditorControl_considerParentReferenceCheckBox	Use first footnote number of parent or child references	使用父级或子级文献的第一个脚注编号
 FontStyleEditorControl_punctuationAfterFontStyleGroupBox	Style for: Punctuation after	样式：后置标点
@@ -601,7 +601,7 @@ BuiltInTemplateConditionId_HasSiblingCitation	Additional child references in the
 CitationStyleSettingsDialog_inTextCitationsMultipleEntryCustomizeSortButton	Customize…	自定义…
 FontStyleEditorControl_punctuationBeforeFontStyleGroupBox	Style for: Punctuation before	样式：前置标点
 PersonFieldElementPropertyEditorControl_subsequentRepetitionBehaviorGroupBoxCheckBox	Special output for repetition of persons (e.g. idem, eadem, etc.) in consecutive citations	连续引用中人员重复时的特殊输出（例如 idem、eadem 等）
-CitationStyleSettingsDialog_derivedCheckBox	Derived citation style	派生引用样式
+CitationStyleSettingsDialog_derivedCheckBox	Derived citation style	派生引文样式
 BuiltInTemplateConditionId_RepeatingFootnoteParentReference	Parent reference was cited in a previous footnote	父级文献已在之前的脚注中引用过
 NumberingStyle_FullRange	Start and end pages (e.g. 153–159)	起始和结束页码（例如 153–159）
 CitationStyleSettingsDialog_inTextCitationsMultipleEntrySeparatorLabel	Separate multiple citations with:	用以下内容分隔多重引用：
@@ -614,7 +614,7 @@ CompilationTestErrorsFoundInCustomSorting	Sorting: {0}	排序：{0}
 CitationStyleSettingsDialog_rangifyMainIndexNumbersMinConsecutiveNumbersLabel	When at least: 	当至少：
 CitationStyleUploadDialog_keywordsLabel	Keywords:	关键词：
 BuiltInTemplateConditionId_PlaceholderCitationFormatYearOnly	Citation has format option "Year only"	引用具有格式选项 "仅年份"
-CitationStyleWaitDialog_titleLabel	Loading citation styles…	正在加载引用样式…
+CitationStyleWaitDialog_titleLabel	Loading citation styles…	正在加载引文样式…
 BuiltInTemplateConditionId_ReferenceLanguageIsPolish	Reference language is Polish	文献语言为波兰语
 CitationStyleSettingsDialog_mainTabControl_Replacements	Replacements	替换
 CitationStyleSettingsDialog_spacingAfterLabel	Space after:	之后空格：
@@ -628,7 +628,7 @@ BuiltInTemplateConditionFieldEqualsParentField	{0} = {1} of the parent reference
 CitationStyleSettingsDialog_bibliographyGeneralTitleLabel	General Settings	常规设置
 ReplacementListDialog_showWhitespaceCharacterNamesCheckBox	Show non-printable characters	显示不可打印字符
 NumericFieldElementPropertyEditorControl_singularSuffixLabel	Singular Suffix:	单数后缀：
-BuiltInCitationStyleOverwriteWarning	The citation style you want to replace is a citation style included with Citavi. Technically we cannot prevent you from overwriting it.\r\nHowever, we strongly advise you against doing so because your work may be lost when a future Citavi update is installed.\r\n\r\nAre you sure that you want to continue anyway?	您要替换的引用样式是 Citavi 附带的引用样式。从技术上讲，我们无法阻止您覆盖它。\r\n但是，我们强烈建议您不要这样做，因为安装未来的 Citavi 更新时您的工作可能会丢失。\r\n\r\n确定仍要继续吗？
+BuiltInCitationStyleOverwriteWarning	The citation style you want to replace is a citation style included with Citavi. Technically we cannot prevent you from overwriting it.\r\nHowever, we strongly advise you against doing so because your work may be lost when a future Citavi update is installed.\r\n\r\nAre you sure that you want to continue anyway?	您要替换的引文样式是 Citavi 附带的引文样式。从技术上讲，我们无法阻止您覆盖它。\r\n但是，我们强烈建议您不要这样做，因为安装未来的 Citavi 更新时您的工作可能会丢失。\r\n\r\n确定仍要继续吗？
 CitationStyleSettingsDialog_footnotesMultipleEntryConsecutiveAuthorsGroupBox	Consecutive citations by same author	同一作者的连续引文
 TextBeforeAfterApplyCondition_AllAttributesHaveData_NameAndAbbbreviation	Both Name and Abbreviation contain data	名称和缩写都包含数据
 CitationStyleSettingsDialog_technicalInformationNavigationButton	Technical Information	技术信息
@@ -640,13 +640,13 @@ PersonFieldElementPropertyEditorControl_organizationNameOrderLabel	Sequence:	顺
 PageRangeFieldElementPropertyEditorControl_separatorLabel	Separator:	分隔符：
 CitationStyleSettingsDialog_mergeReferencesFromMultipleCitationsInCompositeCitationLabel	References can be distinguished from each other using sub-index numbers.	可以使用子索引编号区分不同的文献。
 NumericFieldElementPropertyEditorControl_singularPrefixFontStyleGroupBox	Style for: Singular prefix	样式用于：单数前缀
-StyleEditorPropertyPanelTextCitationStyle	Citation style properties	引用样式属性
+StyleEditorPropertyPanelTextCitationStyle	Citation style properties	引文样式属性
 BuiltInTemplateConditionId_ReferenceLanguageIsSpanish	Reference language is Spanish	文献语言为西班牙语
 FontStyleEditorControl_italicCheckBox	Italic	斜体
 PersonFieldElementPropertyEditorControl_lastPersonLastNameFontStyleLabel	Style for first and middle names:	名字和中间名样式：
 DeleteCustomTemplateCondition_UsedInTemplates	This condition is in use by the following templates:	以下模板正在使用此条件：
 StyleEditorControl_previewPanel_Caption	Preview: {0}	预览：{0}
-CompilationTestErrorsFoundTemplate	This citation style contains compilation errors in the following scripts:\r\n\r\n{0}	此引用样式在以下脚本中包含编译错误：\r\n\r\n{0}
+CompilationTestErrorsFoundTemplate	This citation style contains compilation errors in the following scripts:\r\n\r\n{0}	此引文样式在以下脚本中包含编译错误：\r\n\r\n{0}
 PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputForSingleFemaleLabel	… a single woman:	… 单个女性：
 BuiltInTemplateConditionId_ReferenceLanguageIsGerman	Reference language is German	文献语言为德语
 UnorderedListDialog_customRadioButton	Custom: 	自定义：
@@ -666,5 +666,5 @@ PageRangeFieldElementPropertyEditorControl_fontStyleLabel	Font name:	字体名�
 PageRangeFieldElementPropertyEditorControl_requiredCheckBox	This field must not be empty	此字段不能为空
 PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputForTeamOfMalesFemalesAndNeutersLabel	… women, men and neuters:	… 女性、男性和中性：
 PersonFieldElementPropertyEditorControl_abbreviateUpToPersonLabel	Abbreviate after:	在此之后缩写：
-ManageDerivedCitationStylesDialog_messageDifferentMasterForAllStylesContinue	The derived citation styles you are about to import originally belong to a different master citation style.\r\n\r\nOther master citation style: '{0}'\r\nCurrent master citation style: '{1}'\r\n\r\nWhen changes are saved to the Cloud, the imported derived citation styles will be removed from the former and added to the current master citation style.\r\n\r\nWould you like to continue anyway?	您即将导入的派生引用样式原本属于另一个主引用样式。\r\n\r\n其他主引用样式：'{0}'\r\n当前主引用样式：'{1}'\r\n\r\n将更改保存到云时，导入的派生引用样式将从前一个中移除，并添加到当前主引用样式。\r\n\r\n是否仍要继续？
+ManageDerivedCitationStylesDialog_messageDifferentMasterForAllStylesContinue	The derived citation styles you are about to import originally belong to a different master citation style.\r\n\r\nOther master citation style: '{0}'\r\nCurrent master citation style: '{1}'\r\n\r\nWhen changes are saved to the Cloud, the imported derived citation styles will be removed from the former and added to the current master citation style.\r\n\r\nWould you like to continue anyway?	您即将导入的派生引文样式原本属于另一个主引文样式。\r\n\r\n其他主引文样式：'{0}'\r\n当前主引文样式：'{1}'\r\n\r\n将更改保存到云时，导入的派生引文样式将从前一个中移除，并添加到当前主引文样式。\r\n\r\n是否仍要继续？
 ComponentPartToolboxCaption	Components for: {0}	用于以下项的组件：{0}

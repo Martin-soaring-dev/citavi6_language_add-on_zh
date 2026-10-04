@@ -367,7 +367,7 @@ ConfirmProjectRestoredResult_OK	The project "{0}" has been restored.	项目“{0
 YouHaveNoLicenses	You have no Citavi license in your account.	您的账户中没有 Citavi 许可证。
 ConfirmMembershipMiddleHtml	Here's how:<br/>{0}	方法如下：<br/>{0}
 RecoverDeletedProject_Error	You have either entered a wrong URL, or the corresponding project has been deleted more than ten days ago. After that period, all project data is permanently deleted and the project cannot be recovered any more.	您输入的 URL 有误，或者相应的项目已在十天前被删除。超过该期限后，所有项目数据将被永久删除，项目将无法再恢复。
-HighSchoolSearchPlaceholder	Enter location or part of the name	输入地点或名称的一部分
+HighSchoolSearchPlaceholder	Enter location or part of the name	输入位置或名称的一部分
 Subscriptions	Subscriptions	订阅
 PleaseCheckEmail	Please check your inbox	请检查您的收件箱
 TermsOfUsageAndDataProtection	Terms of use and privacy information	使用条款和隐私信息

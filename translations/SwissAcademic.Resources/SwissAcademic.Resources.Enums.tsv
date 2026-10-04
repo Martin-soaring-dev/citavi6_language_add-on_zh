@@ -55,7 +55,7 @@ SearchResultGroupType_Periodicals	Periodicals	期刊
 ImportFieldMappingTag_Pages	page|pages	
 SearchAttributeType_BlissClassification	Bliss classification	Bliss 分类法
 ImportFieldMappingTag_Title	title	标题
-StyleFinderShortCitationSystem_CitationKey	Citation key, e.g. [Smi08]	引用键,例如 [Smi08]
+StyleFinderShortCitationSystem_CitationKey	Citation key, e.g. [Smi08]	引文键,例如 [Smi08]
 VirtualSearchFieldType_CreatedOrModifiedBy	Created or modified by	创建或修改者
 VirtualSearchFieldType_CreatedOrModifiedOn	Created or modified on	创建或修改时间
 VirtualSearchFieldType_ReferenceTasks	Reference tasks	文献任务
@@ -148,7 +148,7 @@ ImportFieldType_EditorsFullName	{0}: Name	{0}:名称
 FontStyle_SameAsPrevious	Same as previous style	与上一样式相同
 TaskStatus_Faulted	Process failed	进程失败
 PublicationAssistantDoubleClickAction_Insert	Insert in {0}	插入到 {0}
-AppendIdentifyingLetterTo_CitationKey	Citation key	引用键
+AppendIdentifyingLetterTo_CitationKey	Citation key	引文键
 SearchAttributeType_BodyOfText	Body of text	正文
 StyleFinderFullReferenceAuthorsLastNameFontStyle_Indifferent	Any	任意
 ReferenceCompositionSortOption_Custom	As sorted in the project	按项目中排序
@@ -346,7 +346,7 @@ SearchAttributeType_Organizations	Institution	机构
 VirtualSearchFieldType_LibraryLocations	Locations (library)	位置（图书馆）
 ShowMainIndexNumbersInMultipleCitation_OnceOnlyWhenAllReferencesAreOfSingleMainIndex	Once, but only if all references have the same main index number, e.g. [1a, b] or [1a, 1b, 2a-c]	一次，但仅当所有文献具有相同的主索引号时，例如 [1a, b] 或 [1a, 1b, 2a-c]
 SearchResultGroupType_Locations_FullText	Full text, locations	全文、位置
-ImportFieldType_QuotationCategory	Quotation: Category	引用：类别
+ImportFieldType_QuotationCategory	Quotation: Category	引用：分类
 ReferenceFilterTypeInternal_Keyword	Keyword	关键词
 VirtualSearchFieldType_SpecificField5	Specific field 5	特定字段 5
 VirtualSearchFieldType_SpecificField4	Specific field 4	特定字段 4
@@ -355,7 +355,7 @@ VirtualSearchFieldType_SpecificField6	Specific field 6	特定字段 6
 VirtualSearchFieldType_SpecificField1	Specific field 1	特定字段 1
 VirtualSearchFieldType_SpecificField3	Specific field 3	特定字段 3
 VirtualSearchFieldType_SpecificField2	Specific field 2	特定字段 2
-VirtualSearchFieldType_CitationKey	Citation key	引用键
+VirtualSearchFieldType_CitationKey	Citation key	引文键
 SearchResultGroupType_Libraries	Libraries	图书馆
 KnowledgeKeywordEditorRowType_AllEntries	(All)	（全部）
 ImportReferenceType_CollectedWorks	Collected work	文集
@@ -369,7 +369,7 @@ ImportReferenceType_PersonalCommunication	Personal communication	个人通信
 LOBExceptionType_ReferenceInfoNotPossibleNoInternetConnection	Bibliographic information cannot be shown because your computer does not have an active connection to the Internet.	无法显示书目信息，因为您的计算机没有活动的 Internet 连接。
 ImportFieldType_ReviewingReferenceID	Review: Reviewed in (Import ID)	书评：评论收录于（导入 ID）
 VirtualSearchFieldType_Prefix	Prefix	前缀
-ImportFieldType_CitationKey	Citation key	引用键
+ImportFieldType_CitationKey	Citation key	引文键
 KnowledgeItemCompositionReferenceHandling_FullFormatWithInTextCitations	Text, in-text citations, and bibliography	文本、文内引文和参考文献
 UpdateType_Manual	Custom	自定义
 KnownTaskName_VerifyBibliographicInformation	Verify bibliographic information	验证书目信息
@@ -430,7 +430,7 @@ LicenseType_Free	Free	免费版
 DatePublishedPosition_Unspecified	Unspecified	未指定
 TaskStatus_WaitingForActivation	Waiting for activation	等待激活
 TaskStatus_Created	Created	创建时间
-ReferenceFilterTypeInternal_ReferencesWithNoCategory	References without categories	无类别的文献
+ReferenceFilterTypeInternal_ReferencesWithNoCategory	References without categories	无分类的文献
 ImportFieldType_ModifiedBy	Modified:	修改时间：
 ImportFieldType_ParentReferencePlaceOfPublication	Parent reference: Place of publication	父文献：出版地
 SimpleFontStyleCaps_AllCaps	All caps	全部大写
@@ -505,13 +505,13 @@ VirtualSearchFieldType_CallNumber	Call number	索书号
 KnowledgeItemFilterTypeInternal_Person	Person	人员
 LaTeXEditor_None2	word processor	文字处理软件
 ImportGroupType_OnlineSearch	Online search	在线搜索
-KnowledgeItemFilterTypeInternal_KnowledgeItemsWithNoKeyword	Knowledge items without keywords	没有关键词的知识项
+KnowledgeItemFilterTypeInternal_KnowledgeItemsWithNoKeyword	Knowledge items without keywords	没有关键词的知识条目
 SearchAttributeType_AnyField	All fields	所有字段
 UserDataFolderState_UnknownState	Citavi startup cannot continue because the folder for Citavi user files could not be found for an unknown reason. \r\n\r\nSelect the folder for Citavi user files.	Citavi 无法继续启动，因为由于未知原因找不到 Citavi 用户文件的文件夹。 \r\n\r\n请选择 Citavi 用户文件的文件夹。
 SearchAttributeType_Editor	Editor	编辑
 VirtualSearchFieldType_YearResolved	Year derived	年份(推导)
 VirtualSearchFieldType_TaskFields	Task fields	任务字段
-StyleFinderShortReferenceType_CitationKey	Citation key, e.g. [Smi08]	引用键,例如 [Smi08]
+StyleFinderShortReferenceType_CitationKey	Citation key, e.g. [Smi08]	引文键,例如 [Smi08]
 RuleSetType_Footnote	Footnote	脚注
 ProjectDbPermission_Unknown	Unknown	未知
 ColorScheme_Brown	Purple	紫色
@@ -544,7 +544,7 @@ DbServerLicenseType_PerSeat	Per seat	每席位
 ReferenceListFormatInfoSortOption_Custom	As sorted in the project	按项目中排序
 ImportFieldMappingTag_Volume	volume	卷
 SearchResultGroupType_EntityLinks	Links	链接
-SearchInContext_MainFormKnowledgeReferencesCurrentList	In the selected category (without child categories)	在所选类别中（不含子类别）
+SearchInContext_MainFormKnowledgeReferencesCurrentList	In the selected category (without child categories)	在所选分类中（不含子分类）
 TaskState_NotStarted	Not started	未开始
 StyleFinderOrderOfReferenceNumbers_Indifferent	Any	任意
 VirtualSearchFieldType_Abbreviation	Library abbreviation	图书馆缩写
@@ -564,7 +564,7 @@ SearchResultGroupType_Publishers	Publishers	出版社
 SourceOfBibliographicInformationPreset_InformationProvider	Information provider	信息提供商
 SearchResultGroupType_TaskItems	Tasks	任务
 GdPictureStatus_Aborted	Canceled	已取消
-KnowledgeItemFilterTypeInternal_CategoryAndSubcategories	Category (including Subcategories)	类别（含子类别）
+KnowledgeItemFilterTypeInternal_CategoryAndSubcategories	Category (including Subcategories)	分类（含子分类）
 VirtualSearchFieldType_OriginalPublication	Original publication	原始出版物
 SearchResultGroupType_Categories	Categories	分类
 VirtualSearchFieldType_TitleSupplement	Title supplement	标题补充
@@ -640,7 +640,7 @@ ImportFieldType_CustomField2	Custom field 2	自定义字段 2
 ImportFieldType_CustomField3	Custom field 3	自定义字段 3
 TaskImportance_Low	Low	低
 ReferenceFilterTypeInternal_CitedReferences	Cited references	被引文献
-SearchInContext_MainFormKnowledgeKnowledgeItemsCurrentList	In the selected category (without child categories)	在所选类别中（不含子类别）
+SearchInContext_MainFormKnowledgeKnowledgeItemsCurrentList	In the selected category (without child categories)	在所选分类中（不含子分类）
 ImportFieldMappingTag_Authors	author|authors	
 ImportGroupType_FileImport	File import	文件导入
 LinkedResourceType_NotAnUri	(Invalid)	（无效）
@@ -706,7 +706,7 @@ InformationProviderType_DIMDI	DIMDI	DIMDI
 NumberingType_Margin	Margin numbers	页边编号
 StyleFinderShortCitationSystem_Indifferent	Any	任意
 MiddleNameUsage_All	All middle names	所有中间名
-EntityLinkRelationType_Negative	Negative	负数
+EntityLinkRelationType_Negative	Negative	负
 VirtualSearchFieldType_ProjectTasks	Project tasks	项目任务
 ElementApplyCondition_NextElementHasData	The following element contains data	以下元素包含数据
 OpenUrlMetaTagType_Date	Date	日期
@@ -721,7 +721,7 @@ PdfExportSelection_PreviewPdf	From the PDF file currently displayed in the previ
 LOBExceptionType_OnlineOrderNotPossibleNotAvailable	The order cannot be processed because the ISBN number is unknown to the online book store.	由于网上书店无法识别该 ISBN 号，无法处理订单。
 FirstNameFormatInfo_FontStyle	Font Style	字体样式
 ImportFieldType_ParentReferenceVolume	Parent reference: Volume	上级文献：卷
-KnowledgeItemFilterTypeInternal_ExcludeKnowledgeItems	{0} knowledge items excluded	已排除 {0} 个知识项
+KnowledgeItemFilterTypeInternal_ExcludeKnowledgeItems	{0} knowledge items excluded	已排除 {0} 个知识条目
 KnowledgeItemFilterTypeInternal_KnowledgeItemsWithNoCategory	Knowledge items without categories	无分类的知识条目
 ImportReferenceType_ContributionInLegalCommentary	Contribution in legal commentary	法律评注中的篇章
 UpdateType_Automatic	Automatic	自动
@@ -735,7 +735,7 @@ SyncFolderType_GoogleDrive	Google Drive	Google Drive
 SearchResultGroupType_Groups	Groups	组
 KnowledgeItemFilterTypeInternal_Thoughts	Thoughts	想法
 VirtualSearchFieldType_Organizations	Organization	组织
-ReferenceFilterTypeInternal_CategoryAndSubcategories	Category (including Subcategories)	类别（含子类别）
+ReferenceFilterTypeInternal_CategoryAndSubcategories	Category (including Subcategories)	分类（含子分类）
 ConcentrationArea_History	History	历史记录
 SearchResultGroupType_KnowledgeItems	Knowledge items	知识条目
 SearchAttributeType_TitleUniform	Title series	丛书标题
@@ -755,7 +755,7 @@ ImportFieldMappingTag_Periodical	periodical|journal
 AutoFirstLetterCapitalization_Always	At the beginning of every sentence	每句开头
 ImportFieldType_ArxivId	arXiv ID	arXiv ID
 VirtualSearchFieldType_EntityLinksAsTarget	Links to	链接到
-KnowledgeItemFilterTypeInternal_KnowledgeItemsWithNoGroup	Knowledge items without groups	无分组的知识项
+KnowledgeItemFilterTypeInternal_KnowledgeItemsWithNoGroup	Knowledge items without groups	无分组的知识条目
 FirstNameFormatInfo_IsAbbreviated	Abbreviate	缩写
 RolePermissionType_ChangePermissions	Full access	完全访问
 LaTeXEditor_LyX	LyX	LyX
@@ -765,7 +765,7 @@ VirtualSearchFieldType_StorageMedium	Storage medium	存储介质
 ImportFieldType_ParentReferenceYear	Parent reference: Year	上级文献：年份
 ConcentrationArea_LanguageAndLiteratureSciences	Language and Literary Sciences	语言与文学科学
 StyleFinderFullReferenceBookUsesEdition_Indifferent	Any	任意
-VirtualSearchFieldType_KnowledgeItemKeywords	Keywords (in knowledge items)	关键词（在知识项中）
+VirtualSearchFieldType_KnowledgeItemKeywords	Keywords (in knowledge items)	关键词（在知识条目中）
 OpenUrlMetaTagType_jtitle	Periodical: Name	期刊：名称
 TaskPlannerQuickFilter_MyTasks	My tasks	我的任务
 LaTeXEditor_WinEdt	WinEdt	WinEdt
@@ -780,7 +780,7 @@ VirtualSearchFieldType_ReferenceType	Reference type	文献类型
 FullTextExtractionStatus_Error	Error	错误
 StyleFinderFullReferenceAuthorsSeparator_Indifferent	Any	任意
 VirtualSearchFieldType_EntityLinksAsSource	Links from	链接自
-VirtualSearchFieldType_KnowledgeItemType	Knowlege item type	知识项类型
+VirtualSearchFieldType_KnowledgeItemType	Knowlege item type	知识条目类型
 ProjectType_DesktopCloud	Cloud project	云项目
 VirtualSearchFieldType_SourceOfBibliographicInformation	Source for bibliographic information	文献信息来源
 VirtualSearchFieldType_AccessDate	Access date	访问日期
@@ -829,7 +829,7 @@ StyleFinderFullReferenceJournalArticleTitleFormat_Italics	Italicized	斜体
 LineSpacingType_Minimum	Minimum	最小值
 VirtualSearchFieldType_FullText	Full text	全文
 StyleFinderFullReferenceBookTitleFormat_ItalicsInQuotationMarks	Italicized and in quotation marks	斜体并加引号
-SearchInContext_MainFormKnowledgeAllKnowledgeItems	In all knowledge items	在所有知识项中
+SearchInContext_MainFormKnowledgeAllKnowledgeItems	In all knowledge items	在所有知识条目中
 SimpleFontStyleCaps_None	No caps	无大写
 LicenseType_Pro	Citavi for Windows	Citavi for Windows
 QuotationType_Summary	Summary	摘要
@@ -856,8 +856,8 @@ IndentationType_FirstLine	First line	首行
 FullTextExtractionResult_ErrorWhenConvertingUriToFileInfo	The location could not be converted to a file path.	无法将该位置转换为文件路径。
 GdPictureStatus_FileNotFound	File was not found	未找到文件
 KnowledgeItemFilterTypeInternal_SeriesTitle	Series	系列
-VirtualSearchFieldType_KnowledgeItemsModifiedOn	Knowledge items modified on	知识项修改日期
-VirtualSearchFieldType_KnowledgeItemsModifiedBy	Knowledge items modified by	知识项修改者
+VirtualSearchFieldType_KnowledgeItemsModifiedOn	Knowledge items modified on	知识条目修改日期
+VirtualSearchFieldType_KnowledgeItemsModifiedBy	Knowledge items modified by	知识条目修改者
 ImportFieldType_PrivateCollectionItemLocation	Private Collection: Location	私人收藏：位置
 ImportFieldType_Evaluation	Evaluation	评估
 ImportFieldType_TranslatedTitle	Translated title	译名
@@ -871,7 +871,7 @@ ElementApplyCondition_PreviousAndNextElementsHaveData	Both previous and followin
 PeriodicalNameUsage_UserAbbreviation2	Abbreviation 3	缩写 3
 PeriodicalNameUsage_UserAbbreviation1	Abbreviation 2	缩写 2
 SearchInContext_Project	In the whole project	在整个项目中
-KnowledgeItemFilterTypeInternal_KnowledgeItemsInPublication	Cited knowledge items	被引用的知识项
+KnowledgeItemFilterTypeInternal_KnowledgeItemsInPublication	Cited knowledge items	被引用的知识条目
 NumberingType_Other	Other	其他
 StyleFinderFullReferenceJournalArticleTitleFormat_NeutralInQuotationMarks	Plain and in quotation marks	纯文本并加引号
 Z3950ExceptionType_ConnectionTimeout	Could not establish a connection to the information provider.	无法连接到信息提供商。
@@ -881,7 +881,7 @@ ImportFieldType_TaskState	Task: State	任务：状态
 ImportFieldType_CollaboratorsPrefix	{0}: Prefix	{0}:前缀
 ImportReferenceType_UnpublishedWork	Report or gray literature	报告或灰色文献
 ImportReferenceType_RadioPlay	Radio play	广播剧
-TaskImportance_Middle	Medium	媒介
+TaskImportance_Middle	Medium	中
 FullTextExtractionResult_NoLocalFile	The location is not a local file (attachment or linked file).	该位置不是本地文件（附件或链接文件）。
 ImportFieldMappingTag_Keywords	keyword|keywords|tags	
 VirtualSearchFieldType_Affiliation	Affiliation	隶属机构
@@ -898,7 +898,7 @@ EntityLinkRelationType_Positive	Positive	正
 KnowledgeItemFilterTypeInternal_SavedSearch	Saved search	已保存的搜索
 CitationSystem_FootnoteCitation	Footnote: author date	脚注：作者日期
 ReferenceFilterTypeInternal_Person	Person	人员
-VirtualSearchFieldType_KnowledgeItemGroups	Groups (in knowledge items)	分组（在知识项中）
+VirtualSearchFieldType_KnowledgeItemGroups	Groups (in knowledge items)	分组（在知识条目中）
 InformationProviderType_OvidSP	OvidSP	OvidSP
 ImportFieldType_LocationLibrary	Location: Library	位置：图书馆
 ConcentrationArea_EducationAndPsychology	Education and Psychology	教育与心理学

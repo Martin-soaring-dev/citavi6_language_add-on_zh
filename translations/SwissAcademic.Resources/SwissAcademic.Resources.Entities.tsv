@@ -252,8 +252,8 @@ Reference_StartPageFormatted	Start page (formatted)	起始页(带格式)
 CommonProperty_ModifiedBy	Modified by	修改者
 CommonProperty_ModifiedOn	Modified	修改时间
 Reference_OriginalPublication	Original publication	原始出版物
-Reference_CitationKey	Citation key	引用键
-Reference_CitationKeyUpdateType	Citation key update type	引用键更新类型
+Reference_CitationKey	Citation key	引文键
+Reference_CitationKeyUpdateType	Citation key update type	引文键更新类型
 Category_Path	Path	路径
 Reference_TextLinks	Additional links	其他链接
 Location_AddressUri	Address URI	地址 URI

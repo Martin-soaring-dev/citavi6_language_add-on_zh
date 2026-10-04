@@ -46,7 +46,7 @@ OnlineSearchCatalogsPanel_Search	Search	搜索
 CreateKeys_BibTeXKey_Created_Single	BibTeX key created.	BibTeX 键已创建。
 TaskPlanner_WithNotes	With notes	含注释
 SearchPerIsbnDoiTitle	Retrieve references by identifier	通过标识符检索文献
-CreateKeys_CitationKey_Created_Single	Citation key created.	引用键已创建。
+CreateKeys_CitationKey_Created_Single	Citation key created.	引文键已创建。
 RichTextEditorFormatMenu_Bigger	Larger	增大
 CriteriaResources_WithPDFAttachments	PDF	PDF
 Chat_EnterMessage	Enter message	输入消息
@@ -81,7 +81,7 @@ NewGroup	New group	新建分组
 TaskPlanner_ProjectTasks	Project tasks	项目任务
 DeleteGroupsInUse_Smart	{0:Warning: The group "{1}" is assigned to a reference or knowledge item. All links will be deleted if you delete the group. Do you want to delete the group "{1}" anyway?|Warning: at least one of the {0} selected groups is assigned to a reference or knowledge items. All links will be deleted if you delete the group. Do you want to delete the {0} selected groups anyway?}	{0:警告：组"{1}"已分配给参考文献或知识条目。如果删除该组，所有链接都将被删除。是否仍要删除组"{1}"？|警告：所选的 {0} 个组中至少有一个已分配给参考文献或知识条目。如果删除该组，所有链接都将被删除。是否仍要删除所选的 {0} 个组？}
 LastViewedReference	Reference last viewed	最近查看的文献
-NoCategories_AddFirst	<a class="noEntitiesAddFirst" data-value="category">Click here</a> to add a category	<a class="noEntitiesAddFirst" data-value="category">单击此处</a>以添加类别
+NoCategories_AddFirst	<a class="noEntitiesAddFirst" data-value="category">Click here</a> to add a category	<a class="noEntitiesAddFirst" data-value="category">单击此处</a>以添加分类
 CriteriaPeople	Persons and organizations	个人与组织
 FontColor	Font color	字体颜色
 TaskPlanner_WithDate	With due date	有截止日期
@@ -101,7 +101,7 @@ BibTeXKey_AllReferencesDescription	Generates BibTeX keys for all the references 
 ModifiedByLabel	Modified by	修改者
 SeeAlso	See also:	另请参阅：
 Sending	Sending...	正在发送...
-CriteriaYear_From	From	发件人
+CriteriaYear_From	From	自
 RemoveFilter	Remove filter	移除筛选器
 SearchInAllPdfs	Search all PDFs	搜索所有 PDF
 PDFPasswordDontSaveOnServer	Don't save password on the Citavi server<br/><br/><b>Advantage</b>: The content of the PDF file is only visible after entering the password<br/><b>Disadvantag:</b> The full-text search and <a href="" target="_blank">other features</a> will not be available for this PDF. You will have to enter the password every time in order to open the PDF file.	不在 Citavi 服务器上保存密码<br/><br/><b>优点</b>：只有在输入密码后才能看到 PDF 文件的内容<br/><b>缺点</b>：此 PDF 的全文搜索和 <a href="" target="_blank">其他功能</a>将不可用。每次打开 PDF 文件时都必须输入密码。
@@ -120,7 +120,7 @@ Logout	Log out	注销
 Legend	Caption	标题
 Export_SpecialFileDescription	<div class="violet">Edit list</div><a id="export_addFilterLink">Add export format</a> or remove by selecting and clicking [x].	<div class="violet">编辑列表</div><a id="export_addFilterLink">添加导出格式</a>，或通过选择并单击 [x] 来移除。
 OrderedList	Numbered list	编号列表
-CitationKey_AllReferencesNewDescription	Generates new citation keys for all references. Existing citation keys will be replaced.	为所有文献生成新的引用键。现有引用键将被替换。
+CitationKey_AllReferencesNewDescription	Generates new citation keys for all references. Existing citation keys will be replaced.	为所有文献生成新的引文键。现有引文键将被替换。
 ExecuteForMoreThanTresholdWarning	{0} elements will be affected. Do you want to proceed?	{0} 个元素将受到影响。是否继续？
 RecycleBin_Open	Open recycle bin	打开回收站
 GroupingInfo	<div class="violet">About groupings</div>Select a row.	<div class="violet">关于分组</div>选择一行。
@@ -134,7 +134,7 @@ RecycleBin_Restored	<b>The deleted elements were restored.</b>	<b>已删除的�
 CriteriaResources_WithPDFAttachments_Tooltip	References with attached PDFs	带有附加 PDF 的文献
 CreatedByLabel	Created by	创建者
 RemoveFilterById_KnowledgeItems	Show all knowledge items	显示所有知识条目
-CitationKey_CurrentReferenceManualPlaceholder	Enter citation key	输入引用键
+CitationKey_CurrentReferenceManualPlaceholder	Enter citation key	输入引文键
 CoreStatementMissing	[No core statement]	[无核心论点]
 MissingSources	Can't find the database you want?	找不到您想要的数据库？
 RemoveSelection	Cancel selection	取消选择
@@ -196,7 +196,7 @@ Export_SpecialFile	Save as text file (RIS, BibTeX, …)	保存为文本文件（
 ExportOption_WithCategories	With categories	含分类
 RichTextEditorFormatMenu_Font	Font	字体
 PdfToolbar_ImageQuotation	Image&shy; quot&shy;ation	图片&shy;引&shy;用
-CitationKey_CurrentReferenceAutomaticDescription	Generates a citation key for the current reference.	为当前题录生成引用键。
+CitationKey_CurrentReferenceAutomaticDescription	Generates a citation key for the current reference.	为当前题录生成引文键。
 SetToSelectedReferences	Set for selected references	为所选题录设置
 NormalView	Normal view	普通视图
 Libraries	Libraries	图书馆
@@ -240,7 +240,7 @@ ProjectNameChangePermission	(can only be changed by the project owner or leader)
 DbServerConnectionDialog_connectionStringInfoEditor	Enter the connection information you received from your server administrator or open the <a fref="OpenDataConnectionDialog">Connection</a> dialog.	输入您从服务器管理员处收到的连接信息，或打开<a fref="OpenDataConnectionDialog">连接</a>对话框。
 MergeCategories_Placeholder	Search for another category	搜索其他分类
 ProjectSettings	General settings	常规设置
-CitationKey_CurrentReferenceManualDescription	Create the citation key yourself.	自行创建引用键。
+CitationKey_CurrentReferenceManualDescription	Create the citation key yourself.	自行创建引文键。
 Profile	Profile	个人资料
 Export_DuplicateProject	Duplicate project	复制项目
 NvivoTrialBanner	You can trial NVivo for 14 days using this <a href="/trial" target="_blank">link</a>.	您可以通过此<a href="/trial" target="_blank">链接</a>试用 NVivo 14 天。
@@ -301,13 +301,13 @@ OnlineSearchPanel_AvailablePlaceholdersSearchOptions	Available wildcards and sea
 StandardFilterDescription	<html>\r\n\t<head>\r\n\t\t<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />\r\n\t\t<meta http-equiv="Content-Style-Type" content="text/css" />\r\n\t\t<meta name="generator" content="Aspose.Words for .NET 11.11.0.0" />\r\n\t\t<title>\r\n\t\t</title>\r\n\t</head>\r\n\t<body>\r\n\t\t<div>\r\n\t\t\t<p style="margin:0pt 0pt 4pt; line-height:110%; widows:0; orphans:0; font-size:9pt"><span style="font-family:'Segoe UI'; font-size:9pt; color:#ff0000">Common filters</span></p>\r\n\t\t\t<p style="margin:0pt 0pt 4pt; line-height:110%; widows:0; orphans:0; font-size:9pt"><span style="font-family:'Segoe UI'; font-size:9pt">When you export search results from a database, they will usually be saved in RIS, BibTeX, EndNote Tagged, or PubMed format. Here you can select the file or files you want to import in your Citavi project. The file must have the extension .ris, .bib, or .enw.</span></p>\r\n\t\t</div>\r\n\t</body>\r\n</html>	<html>\r\n\t<head>\r\n\t\t<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />\r\n\t\t<meta http-equiv="Content-Style-Type" content="text/css" />\r\n\t\t<meta name="generator" content="Aspose.Words for .NET 11.11.0.0" />\r\n\t\t<title>\r\n\t\t</title>\r\n\t</head>\r\n\t<body>\r\n\t\t<div>\r\n\t\t\t<p style="margin:0pt 0pt 4pt; line-height:110%; widows:0; orphans:0; font-size:9pt"><span style="font-family:'Segoe UI'; font-size:9pt; color:#ff0000">常用筛选</span></p>\r\n\t\t\t<p style="margin:0pt 0pt 4pt; line-height:110%; widows:0; orphans:0; font-size:9pt"><span style="font-family:'Segoe UI'; font-size:9pt">当您从数据库导出检索结果时，通常会保存为 RIS、BibTeX、EndNote Tagged 或 PubMed 格式。在此您可以选择要导入 Citavi 项目的文件。文件扩展名必须为 .ris、.bib 或 .enw。</span></p>\r\n\t\t</div>\r\n\t</body>\r\n</html>
 ApplyPersonsForm_addPerson	<a id="managePersonsAddPerson">Click here to enter a new name </a><br/>or add names from the list.	<a id="managePersonsAddPerson">单击此处输入新名称 </a><br/>或从列表中添加名称。
 ContributionsAddNew	Add additional contribution	添加其他贡献
-CitationKey_AllReferencesDescription	Generates citations keys for all the references whose citation key field is empty.	为引用键字段为空的所有题录生成引用键。
+CitationKey_AllReferencesDescription	Generates citations keys for all the references whose citation key field is empty.	为引文键字段为空的所有题录生成引文键。
 IsbnCatalogsAdd	Add catalogs	添加目录
 KnowledgeItemComment_coreStatementLabelPlaceholder	Your own opinion or evaluation	您自己的观点或评价
 Upload_Cover	Uploading cover image	正在上传封面图片
-CreateKeys_CitationKey_Creating_All	Creating citation keys...	正在创建引用键…
+CreateKeys_CitationKey_Creating_All	Creating citation keys...	正在创建引文键…
 PdfToolbar_Comment	Comment	评论
-CitationKey_AllReferencesNew	Generate new citation keys for all references (replace existing citation keys)	为所有文献生成新的引用键（替换现有引用键）
+CitationKey_AllReferencesNew	Generate new citation keys for all references (replace existing citation keys)	为所有文献生成新的引文键（替换现有引文键）
 NewReferenceMenu_SpecialFiles	Text file (RIS, BibTeX, etc.)	文本文件（RIS、BibTeX 等）
 Tooltip_PdfProtected	This PDF is protected	此 PDF 受保护
 OnlineSearchPanel_LoadedReferences	{0} references loaded	已加载 {0} 条题录
@@ -416,7 +416,7 @@ For	For	对于
 DragNDrop_Category_Copy	Add category	添加分类
 PersonList	Edit persons and organizations	编辑人员和机构
 DragPhotoHere	Drag and drop image	拖放图片
-Marks	Flag	标记
+Marks	Flag	标签
 Close	Close	关闭
 SupportInformationDialog_titleLabel	The following information helps us better answer your support question:	以下信息有助于我们更好地回答您的支持问题：
 Notes	Notes	笔记
@@ -477,7 +477,7 @@ TaskItemSort_DoneDesc	Last completed	最近完成
 CurrentParentReference	Current parent reference	当前父题录
 CriteriaYear_LastYear	This year and last year	今年和去年
 TabMore_Locations	Locations	位置
-CitationKey_AllReferences	Generate citation keys for all references that do not have one yet	为所有尚无引用键的文献生成引用键
+CitationKey_AllReferences	Generate citation keys for all references that do not have one yet	为所有尚无引文键的文献生成引文键
 RichTextEditorFormatMenu_Smaller	Smaller	更小
 AndMore	...and more	……及其他
 AttachmentsLocations	Internet adresses	互联网地址
@@ -524,7 +524,7 @@ Locations	Locations	位置
 TaskPlanner_Done	Done	完成
 OnlineSearchPanel_FurtherInfo	More information	更多信息
 SelectParentReference	Parent reference from the list	列表中的父题录
-CreateKeys_CitationKey_Creating_Single	Creating citation key...	正在创建引用键…
+CreateKeys_CitationKey_Creating_Single	Creating citation key...	正在创建引文键…
 Survey_Subtitle	Your feedback is very important for us. Therefore the question: <br/> Would you recommend Citavi Web?	您的反馈对我们非常重要。因此想问：<br/>您会推荐 Citavi Web 吗？
 TabContent_Keywords	Keywords	关键词
 ReferenceQuotation_MissingLinkMessage	Select the\r\npassage in the PDF and then\r\nclick the icon again.	在 PDF 中选择\r\n该段落，然后\r\n再次单击该图标。
@@ -623,7 +623,7 @@ NoAttachments	No attachments	无附件
 PdfToolbar_Tasks	Tasks	任务
 SortReferences_CreatedDesc	Most recently added	最近添加
 OnlineSearch_Duplicate	In project. Enable checkbox to import duplicate.	已在项目中。启用复选框以导入重复项。
-CitationKey_CurrentReferenceAutomatic	Automatically generate citation key for the current reference	自动为当前参考文献生成引用键
+CitationKey_CurrentReferenceAutomatic	Automatically generate citation key for the current reference	自动为当前参考文献生成引文键
 DeleteKeywordsInUse_Smart	{0:Warning: the keyword "{1}" is assigned to a reference or knowledge items. All links will be deleted if you delete the group. Do you want to delete the keyword "{1}" anyway?|Warning: at least on of the {0} selected keywords is assigned to a reference or knowledge item. All keywords will be deleted if you delete the keywords. Do you want to delete the {0} selected keywords anyway?}	{0:警告：关键词"{1}"已分配给参考文献或知识条目。如果删除该组，所有链接都将被删除。是否仍要删除关键词"{1}"？|警告：所选的 {0} 个关键词中至少有一个已分配给参考文献或知识条目。如果删除这些关键词，所有关键词都将被删除。是否仍要删除所选的 {0} 个关键词？}
 NewReferenceMenu_AddReference	Add reference	添加参考文献
 Survey_NotLikely	Highly unlikely	极不可能
@@ -636,7 +636,7 @@ SortReferences_AuthorDesc	By short title: Z to A	按短标题：Z 到 A
 TaskItemsDeleted_Smart	<b>{0:1 task|{0} tasks} moved to <a id='goToRecycleBin'>recycle bin</a>.</b>	<b>{0:1 个任务|{0} 个任务}已移至<a id='goToRecycleBin'>回收站</a>。</b>
 ReportSuccessful	Bug report sent.	问题报告已发送。
 PrivateCollection	Private Collection	私人收藏
-CitationKey_CurrentReferenceManual	Manually create a citation key for the current reference	手动为当前参考文献创建引用键
+CitationKey_CurrentReferenceManual	Manually create a citation key for the current reference	手动为当前参考文献创建引文键
 CriteriaRating_WithoutWrittenEvaluation	Without evaluation	不评估
 UploadFilesProgress	Uploading files.<br/>\r\nYou'll be notified when the\r\nprocess is complete.	正在上传文件。<br/>\r\n流程完成后，\r\n您将收到通知。
 PreviewControl_noFileLinked	No file attached	未附加文件
@@ -648,9 +648,9 @@ Export_LocalPDFFiles	Save attachments to device	将附件保存到设备
 ReferenceQuotations_moveUpButton	Move up	上移
 ReferenceTypeSelectionDialog_referenceTypesListLabel	Reference types already used appear in <span class="segoeUiSemibold">bold</span>.	已使用的参考文献类型以<span class="segoeUiSemibold">粗体</span>显示。
 DeleteReference_Reference	Move to recycle bin	移到回收站
-CriteriaMarks_Red	Flag	标记
+CriteriaMarks_Red	Flag	标签
 PanelThought_UseFile	Use image or file	使用图片或文件
-CreateKeys_CitationKey_Created_All	Citation keys have been generated for all references.	已为所有参考文献生成引用键。
+CreateKeys_CitationKey_Created_All	Citation keys have been generated for all references.	已为所有参考文献生成引文键。
 PeriodicalsSearchPlaceholder	Search periodicals	搜索期刊
 DeleteWholeEntryQuestion	Delete whole entry?	删除整个条目？
 Export_SelectedReferences	All references selected	已选择所有参考文献
@@ -658,7 +658,7 @@ NoCitationStylesFound	No styles match these filters	没有样式匹配这些筛�
 TabMore_Tasks	Tasks	任务
 DeletePermanently	Delete permanently	永久删除
 CriteriaResources_WithInternetAddress_Tooltip	References with online addresses	带在线地址的参考文献
-CategoriesSearchPlaceholder	Search categories	搜索类别
+CategoriesSearchPlaceholder	Search categories	搜索分类
 TaskItemSort_State	Status	状态
 DownloadLocationWithoutAnnotations	Download without annotations	下载时不包含批注
 Export_References	References	文献条目

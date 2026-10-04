@@ -67,7 +67,7 @@ CustomFieldDialog	Custom Field	自定义字段
 DeleteUnusedItemsDialog	Delete Unused Items	删除未使用的项
 ReferenceGridColumnsForm	Table View Columns	表视图列
 CustomizeReferenceQuotationsTBMDialog	Select your favorite quotation types	选择您常用的引文类型
-BatchAssignOrRemoveCategoriesDialog_Remove	Batch Remove Categories	批量删除类别
+BatchAssignOrRemoveCategoriesDialog_Remove	Batch Remove Categories	批量删除分类
 CreateProjectDialogEx	New Project	新建项目
 BatchApplyOrRemoveGroupsDialog_Apply	Batch Assign Groups	批量分配组
 UngroupedReferencesSettingsForm	Ungrouped References	未分组的文献
@@ -101,7 +101,7 @@ InsertTableDialog	Insert Table	插入表格
 SupportInformationDialog	Support Information	支持信息
 PageSetupDialog	Page Margins	页边距
 StartFormInfoDialog	Samples and Information	示例和信息
-CitationKeyDialog	Citation Key	引用键
+CitationKeyDialog	Citation Key	引文键
 MainFormLayoutInputBox_Save	Save main form	保存主窗体
 MainFormLayoutInputBox_Load	Load main form	加载主窗体
 CloudChangeProjectRoleDialog	Change project role	更改项目角色
@@ -119,7 +119,7 @@ ColumnInformationDialog	Column Information	列信息
 KnowledgeItemTextForm	Quotation	引文
 FormTextReadOnly	{0} - {1} (Read Only) - {2}	{0} - {1}（只读）- {2}
 ReferenceIdentifierDownloadOptionsDialog_Isbn	Retrieve by ISBN	按 ISBN 检索
-AssignCategoriesForm	Assign Categories	分配类别
+AssignCategoriesForm	Assign Categories	分配分类
 RtfForm	Editor	编辑
 TaskItemForm	Task	任务
 LibraryList	Libraries	图书馆
@@ -138,12 +138,12 @@ PersonsDialog	Persons and Organizations	个人与组织
 SortKnowledgeItemsForm	Sort Knowledge Items	排序知识条目
 DirectImportDialog	Direct Import	直接导入
 TextBasedFilterDialog	Text-Based Filter	基于文本的过滤器
-CitationStyleFavoriteDialog	Add Citation Styles	添加引用样式
+CitationStyleFavoriteDialog	Add Citation Styles	添加引文样式
 CreateBibliographyOptionsDialog	Options for Group Headers	组标题选项
 BookStoreFavoritesDialog	Online Booksellers	在线书店
 OnlineSearchCredentialConfigurationDialog	Edit Credentials	编辑凭据
 KnowledgeItemTextForm_Thought	Thought	想法
-CitationStyleSettingsDialog	Citation Style Properties	引用样式属性
+CitationStyleSettingsDialog	Citation Style Properties	引文样式属性
 CreateCompilationDialog	Compilation	汇编
 ReferenceGridGroupsForm	Group References – Table View	分组文献 – 表格视图
 ExtendedSearchForm	Advanced Search	高级搜索
@@ -173,4 +173,4 @@ ProxyConfigurationDialog	Proxy Settings	代理设置
 SampleProjectsDialog	Sample Projects	示例项目
 ExportAdminSettingsDialog	Administrative Settings Assistant	管理设置助手
 ShowReferenceTypeSelectionDialog	Reference Types	参考文献类型
-KeyConfiguration_CitationKey	Customize Citation Key Template	自定义引用键模板
+KeyConfiguration_CitationKey	Customize Citation Key Template	自定义引文键模板
