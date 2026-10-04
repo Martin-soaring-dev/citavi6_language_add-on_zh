@@ -412,7 +412,7 @@ ClearFilter	Cancel	取消
 FormatSubscript	Subscript	下标
 BibTeXAutoExportMruListEmpty	(The recent items list is empty.)	（最近项列表为空。）
 PreviewControl_DrawAnnotations	Show all annotations	显示所有注释
-QuickEditForm_PreviewEvaluation_ToolTipTextFormatted	Display this evaluation in the preview pane.	在预览窗格中显示此评估。
+QuickEditForm_PreviewEvaluation_ToolTipTextFormatted	Display this evaluation in the preview pane.	在预览窗格中显示此评价。
 TableProperties	Properties	属性
 MainForm_ShowUpdateInfo	An update is available	有可用更新
 MainForm_FilterByGroup	By group	按组
@@ -556,7 +556,7 @@ MainForm_CloseProject	Close project	关闭项目
 ExpandTextSelection2	Press and hold the Ctrl key and then select additional text. 	按住 Ctrl 键，然后选择其他文本。
 ExpandTextSelection1	Do you want to add text to the current selection before saving it?	是否要在保存前向当前选择添加文本？
 ReplacementListDialog_EditReplacement	Edit…	编辑…
-QuickEditForm_EditEvaluation_ToolTipTextFormatted	Open evaluation in the editor.	在编辑器中打开评估。
+QuickEditForm_EditEvaluation_ToolTipTextFormatted	Open evaluation in the editor.	在编辑器中打开评价。
 KeyConfigurationDialog_ToolsMenu	Options	选项
 LookupReferenceIdentifierDialog_ReferenceExportCalc	Export to OpenOffice.org Calc	导出到 OpenOffice.org Calc
 Categories_ImportFromCitaviProject	From a Citavi project…	从 Citavi 项目…
@@ -582,7 +582,7 @@ MainForm_MoveForwardInHistory	Forward	前进
 MoveCategoryUp	Move up	上移
 EditLibrary	Edit library "{0}"…	编辑图书馆“{0}”…
 MainForm_ReferencesFilterMenu	Select	选择
-QuickEditForm_PreviewEvaluation_ToolTipTitle	Preview evaluation	预览评估
+QuickEditForm_PreviewEvaluation_ToolTipTitle	Preview evaluation	预览评价
 StyleEditorForm_ShowCitationStyleAnalysis	Show citation style analysis	显示引文样式分析
 PublicationAssistant_Small	Mini	迷你
 CreateBackup_ToolTipTitle	Create a quick backup	创建快速备份

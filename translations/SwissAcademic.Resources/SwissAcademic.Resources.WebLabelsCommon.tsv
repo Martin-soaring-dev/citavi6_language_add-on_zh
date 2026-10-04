@@ -184,7 +184,7 @@ InviteProjectMembersMessage	Add a short message (up to 160 characters)	添加简
 ContactSupport_Create	Adding references	添加文献
 NewProject	New project	新建项目
 SystemInformation_Browser	Browser	浏览器
-ContactSupport_EvaluateReference	Evaluating references	评估文献
+ContactSupport_EvaluateReference	Evaluating references	评价文献
 ProjectRoleType_Owner	Owner	所有者
 Tooltip_ZoomIn	Zoom in	放大
 AttachmentAlreadyPresent	This file was already added.	此文件已添加。

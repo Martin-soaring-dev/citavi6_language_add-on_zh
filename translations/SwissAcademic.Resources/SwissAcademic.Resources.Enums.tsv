@@ -117,7 +117,7 @@ ImportFieldType_Notes	Notes	笔记
 ConcentrationArea_AppliedSciencesAndEngineering	Applied Sciences and Engineering	应用科学与工程
 CitationSystem_Other	Other	其他
 KnowledgeItemFilterTypeInternal_KnowledgeItemType	Type of knowledge item	知识条目类型
-VirtualSearchFieldType_Evaluation	Evaluation	评估
+VirtualSearchFieldType_Evaluation	Evaluation	评价
 ImportReferenceType_BookEdited	Book, edited	图书(编著)
 ImportFieldType_Additions	Additions	补充信息
 UngroupedReferencesPosition_Bottom	Bottom	底部
@@ -859,7 +859,7 @@ KnowledgeItemFilterTypeInternal_SeriesTitle	Series	系列
 VirtualSearchFieldType_KnowledgeItemsModifiedOn	Knowledge items modified on	知识条目修改日期
 VirtualSearchFieldType_KnowledgeItemsModifiedBy	Knowledge items modified by	知识条目修改者
 ImportFieldType_PrivateCollectionItemLocation	Private Collection: Location	私人收藏：位置
-ImportFieldType_Evaluation	Evaluation	评估
+ImportFieldType_Evaluation	Evaluation	评价
 ImportFieldType_TranslatedTitle	Translated title	译名
 OptimizeForSlowDatabaseAccess_Never	Never	从不
 DbServerLicenseType_Concurrent	Concurrent	并发

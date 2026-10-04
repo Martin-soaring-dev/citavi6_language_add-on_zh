@@ -91,7 +91,7 @@ CriteriaMarks_Blue	Circle	圆形
 NavigationBar_ExportPrint_Text	Export / Print	导出 / 打印
 Checks	Circle	圆形
 ImportReferences_NoReferences	The file does not contain data that can be imported.	该文件不包含可导入的数据。
-CriteriaRating	Evaluation	评估
+CriteriaRating	Evaluation	评价
 ReferencePrivateCollectionsDeleted_Smart	<b>{0:1 private collection|{0} private collections} moved to recycle bin.</b>	<b>{0:1 个私人收藏|{0} 个私人收藏}已移至回收站。</b>
 NavTooltipFullTextSearch	Find full text	查找全文
 CriteriaTasksTeamTasks	Team tasks	团队任务
@@ -326,7 +326,7 @@ ApplyPersonsForm_searchPersonsPlaceholder	Search names	搜索姓名
 BibTeXKey_AllReferencesNewDescription	Generates new BibTeX keys for all references. Existing BibTeX keys will be replaced.	为所有参考文献生成新的 BibTeX 键。现有的 BibTeX 键将被替换。
 PreviewControl_orDragFile	Drag and drop	拖放
 SaveEnabled	Saving enabled.	已启用保存。
-TabContent_Rating	Evaluation	评估
+TabContent_Rating	Evaluation	评价
 IsbnCatalogsChange	Change catalogs	更改目录
 DownloadLocationWithAnnotations	Download with annotations	下载并包含注释
 OnlineSearchPanel_NewSearch	Search again	重新检索
@@ -637,7 +637,7 @@ TaskItemsDeleted_Smart	<b>{0:1 task|{0} tasks} moved to <a id='goToRecycleBin'>r
 ReportSuccessful	Bug report sent.	问题报告已发送。
 PrivateCollection	Private Collection	私人收藏
 CitationKey_CurrentReferenceManual	Manually create a citation key for the current reference	手动为当前参考文献创建引文键
-CriteriaRating_WithoutWrittenEvaluation	Without evaluation	不评估
+CriteriaRating_WithoutWrittenEvaluation	Without evaluation	无评价
 UploadFilesProgress	Uploading files.<br/>\r\nYou'll be notified when the\r\nprocess is complete.	正在上传文件。<br/>\r\n流程完成后，\r\n您将收到通知。
 PreviewControl_noFileLinked	No file attached	未附加文件
 NewReferenceMenu_PdfUpload	PDF file upload	PDF 文件上传
@@ -686,7 +686,7 @@ IntoRecycleBin	Move to recycle bin	移到回收站
 AllReferences	All references	所有参考文献
 SaveSuccess	All changes were saved successfully	所有更改已成功保存
 ConvertQuotationIn	Add as	添加为
-CriteriaRating_WithWrittenEvaluation	With evaluation	带评估
+CriteriaRating_WithWrittenEvaluation	With evaluation	有评价
 OnlineSearchPanel_TakeAll	Add all	全部添加
 Export_PDFSelection	All PDFs in the current selection	当前选择中的所有 PDF
 MergePersons_Placeholder	Search for another person or organization	搜索其他个人或机构

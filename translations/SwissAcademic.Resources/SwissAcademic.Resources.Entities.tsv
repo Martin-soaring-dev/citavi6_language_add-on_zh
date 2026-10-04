@@ -30,7 +30,7 @@ EntityLink_Source	Link from	链接自
 Person_Prefix	Prefix	前缀
 KnowledgeItem	Knowledge item	知识条目
 Person_Notes	Notes	笔记
-Reference_EvaluationRtf	Evaluation	评估
+Reference_EvaluationRtf	Evaluation	评价
 KnowledgeItem_EndPageFormatted	End page (formatted)	结束页（已格式化）
 Person_Title	Title	标题
 Keyword_Notes	Notes	笔记
@@ -87,7 +87,7 @@ CommonProperty_CreatedOn	Created	创建时间
 KnowledgeItem_QuotationIndex	Quotation index	引文索引
 Location_CallNumber	Call number	索书号
 Reference_TranslatedTitle	Translated title	译名
-Reference_EvaluationSourceTextFormat	Evaluation format	评估格式
+Reference_EvaluationSourceTextFormat	Evaluation format	评价格式
 Libraries	Libraries	图书馆
 ImportGroup_ImportGroupType	Import group type	导入分组类型
 Reference_Editors	Editors	编者
@@ -136,7 +136,7 @@ Reference_EndPageFormatted	End page (formatted)	结束页（已格式化）
 Role_Permissions	Permissions	权限
 Account_Role	Role	角色
 Reference_AbstractSourceTextFormat	Abstract format	摘要格式
-Reference_EvaluationIsComplex	Evaluation has complex text formatting	评估具有复杂的文本格式
+Reference_EvaluationIsComplex	Evaluation has complex text formatting	评价包含复杂的文本格式
 Reference_FirstFootnoteCitationNumber	First footnote number	首个脚注编号
 KnowledgeItem_StartPage	Start page	起始页
 Reference_FormattedReference	Formatted reference	带格式的参考文献
@@ -160,7 +160,7 @@ EntityLinks	Links	链接
 Person_Sex	Gender	性别
 Group	Group	分组
 Publisher_Notes	Notes	笔记
-Reference_Evaluation	Evaluation	评估
+Reference_Evaluation	Evaluation	评价
 Reference_ExternalLinks	External links	外部链接
 KnowledgeItem_KnowledgeItemType	Knowledge item type	知识条目类型
 Role_Notes	Notes	笔记
@@ -278,7 +278,7 @@ Group_Name	Name	名称
 Reference_Rating	Rating	评分
 Keyword_Protected	Protected	受保护
 Publisher_Name	Name	名称
-Reference_EvaluationHtml	Evaluation	评估
+Reference_EvaluationHtml	Evaluation	评价
 TaskItem_DueDate	Due date	截止日期
 Reference_AbstractRtf	Abstract	摘要
 Reference_Suffix	Suffix	后缀

@@ -257,7 +257,7 @@ SeriesTitleForm_standardAbbreviationLabel	Abbreviation 1:	缩写 1：
 PersonForm_abbreviationLabel	Abbreviation:	缩写：
 OptionsDialog_includeCoreStatementWhenInsertingKnowledgeItemCheckBox	Include core statements	包含核心陈述
 MainForm_taskPlannerAssignedOnLabel	… before/on:	…在之前/当天：
-CriteriaRating	Evaluation	评估
+CriteriaRating	Evaluation	评价
 DbServerCurrentUsersDialog_ProjectColumnHeaderText	Project	项目
 AcceptImportDialog_ImportSelectionAll_Smart	{0:The one reference found|All {0} found references}	{0:找到 1 条参考文献|找到的全部 {0} 条参考文献}
 SearchForm_clearAllFieldsLabel	Clear all fields	清除所有字段
@@ -834,7 +834,7 @@ PreviewControl_knowledgeItemHasNoFileAddLabel	Add file	添加文件
 PreviewControl_orDragFile	or drag a file to this area:	或将文件拖到此处：
 BookstoreFavoriteDialog_availableLabel	Found:	找到：
 Offline_Connected	Connected	已连接
-TabContent_Rating	Evaluation	评估
+TabContent_Rating	Evaluation	评价
 ExportWizardDialog_bibTeXExportTransformerSaveYesRadioButton	Save as:	另存为：
 BookstoreFavoriteDialog_cultureLabel	Country/region:	国家/地区：
 FullTextListForm_extractNotExtractedRadioButton	The {0:file not yet processed|{0} files not yet processed}	{0:尚未处理的文件|{0} 个尚未处理的文件}
@@ -900,7 +900,7 @@ BibTeXExportForm_customizeCheckBox	Customize export definition	自定义导出�
 OptionsDialog_defaultFontForRtfNameLabel	Font:	字体：
 LicenseDialog_helpButtonText	About Citavi licenses	关于 Citavi 许可证
 ComplexTextEditWarning	The text editor is in read-only mode due to complex content. Click here to allow editing.	由于内容复杂，文本编辑器处于只读模式。点击此处以允许编辑。
-MainForm_evaluationLabel	Evaluation	评估
+MainForm_evaluationLabel	Evaluation	评价
 AssignTaskDialog_titleLabel	Assign task	分配任务
 EntityLinkForm_titleLabel	Link	链接
 CriteriaMarks	Labels	标签
