@@ -53,10 +53,10 @@ try {
     $en  = [Globalization.CultureInfo]::GetCultureInfo('en')
 
     $cases = @(
-        @{ Set = 'SwissAcademic.Resources.FormTexts';          Key = 'ReferenceGridForm';            Expect = '表格视图' }
+        @{ Set = 'SwissAcademic.Resources.FormTexts';          Key = 'ReferenceGridForm';            Expect = '表视图' }
         @{ Set = 'SwissAcademic.Resources.WebLabelsOffline';   Key = 'Retry';                        Expect = '重试' }
         @{ Set = 'SwissAcademic.Resources.SpecialChars';       Key = 'Ellipsis';                     Expect = '省略号' }
-        @{ Set = 'SwissAcademic.Resources.Tools';              Key = 'MainForm_PreviewShowNotes';    Expect = $null }   # 未翻译 -> 英文
+        @{ Set = 'SwissAcademic.Resources.Tools';              Key = 'MainForm_PreviewShowNotes';    Expect = '笔记' }
     )
 
     $fail = 0

@@ -237,7 +237,7 @@ ChangeRole_ManagerDescription	Project leaders can make changes to project inform
 HasNotCitaviLicenseToOpenProject	You cannot open this project because you do not have a valid license. For more details, check <a href="https://citaviweb.citavi.com/account" target="_blank">https://citaviweb.citavi.com/account</a>.	您无法打开此项目,因为您没有有效的许可证。有关更多详细信息,请查看 <a href="https://citaviweb.citavi.com/account" target="_blank">https://citaviweb.citavi.com/account</a>。
 Tooltip_RecycleBin	Move to recycle bin	移到回收站
 TermsOfUsage	Terms of use	使用条款
-Loading	Loading…	正在加载……
+Loading	Loading…	正在加载…
 Tooltip_LinkAnnotation	Link selected text	链接选中的文本
 ContactSupport_RssFeeds	Using RSS feeds	使用 RSS 源
 ChangeRole_Cancel	Cancel	取消

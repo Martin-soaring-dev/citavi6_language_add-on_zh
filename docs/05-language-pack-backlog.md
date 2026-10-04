@@ -19,7 +19,9 @@
 
 ## P0 — 正确性
 
-### P0-1 8 条 RTF 字符串转义损坏
+> ✅ P0-1 / P0-2 已在 `v0.102` 修复。
+
+### P0-1 8 条 RTF 字符串转义损坏 ✅ 已修复
 
 翻译时把 TSV 规范要求的字面反斜杠 `\\` 压成了单个 `\`;构建脚本
 `ConvertFrom-TsvField`([tools/Build-LanguagePack.ps1](../tools/Build-LanguagePack.ps1) 第 71–84 行)
@@ -48,48 +50,50 @@
 
 > 注意:EN 中 RTF 控制字写作 `\\rtf1`、`\\ansi`…,换行写作 `\r\n`(单反斜杠),两者语义不同,不能一律翻倍。
 
-### P0-2 校验脚本覆盖不足
+### P0-2 校验脚本覆盖不足 ✅ 已修复
 
 [tools/Test-Translations.ps1](../tools/Test-Translations.ps1) 目前只校验列数、key 重复、`{n}` 占位符,
 **不校验反斜杠转义、RTF/HTML 标签**,所以 P0-1 逃过了 CI。
 
-建议增加断言:
+已增加断言:
 
-- 反转义后,若 EN 以 `{\rtf` 开头,ZH 也必须以 `{\rtf` 开头且不含裸 CR/LF/TAB;
-- 反转义后 HTML 标签集合一致(现有审计脚本可移植);
-- `\r` / `\n` / `\t` 等控制符数量对特定资源组做白名单校验。
+- 反转义后,若 EN 以 `{\rtf` 开头,ZH 也必须以 `{\rtf` 开头(错误);
+- 反斜杠转义规范:奇数长度反斜杠串后非 `r`/`n`/`t` 者报警告(字面反斜杠应写成 `\\`);
+- 原「译文以反斜杠结尾」误报改为奇偶判别。
+
+> 待办:HTML 标签一致性校验(见 P2)。
 
 ---
 
 ## P1 — 一致性
 
-### P1-1 术语/标点不统一(7 组)
+> ✅ P1-1 / P1-2 / P1-3 已在 `v0.102` 处理。
 
-同一英文原文对应多种中文写法:
+### P1-1 术语/标点不统一(7 组) ✅ 已统一
 
-| 英文 | 出现的译法 |
+同一英文原文对应多种中文写法。已统一为单字符省略号 `…`(U+2026),并写入
+[03-translation-guide.md](03-translation-guide.md) 第 5 条:
+
+| 英文 | 统一后 |
 |---|---|
-| `Loading...` | `正在加载...` / `正在加载……` |
-| `Saving...` | `正在保存...` / `正在保存…` |
-| `More...` | `更多...` / `更多…` |
-| `Attempting to reconnect...` | `正在尝试重新连接……` / `正在尝试重新连接…` |
-| `Waiting to reconnect...` | `正在等待重新连接...` / `等待重新连接…` |
-| `Search document...` | `搜索文档……` / `搜索文档…` |
-| `Retrieve from the Citavi server…` | `从 Citavi 服务器获取……` / `从 Citavi 服务器检索...` |
+| `Loading...` / `Loading…` | `正在加载…` |
+| `Saving...` / `Saving…` | `正在保存…` |
+| `More...` / `More…` | `更多…` |
+| `Attempting to reconnect...` / `Attempting to reconnect…` | `正在尝试重新连接…` |
+| `Waiting to reconnect...` / `Waiting to reconnect…` | `正在等待重新连接…` |
+| `Search document...` / `Search document…` | `搜索文档…` |
+| `Retrieve from the Citavi server…` | `从 Citavi 服务器获取…` |
 
-统一规则:简体中文优先用单个省略号 `…`(或确定统一为 `...`),并在
-[03-translation-guide.md](03-translation-guide.md) 中写明。
+### P1-2 `BibTeXAutoExportNotSuccess` 少一个换行 ✅ 已修复
 
-### P1-2 `BibTeXAutoExportNotSuccess` 少一个换行
+`Strings.tsv:1098`:改为与 `BibTeXAutoExportSuccess` 相同的结构
+`BibTeX 文件\r\n{0}\r\n无法创建。`。
 
-`Strings.tsv:1098`:EN 为 `The BibTeX file\r\n{0}\r\ncould not be created.`,ZH 为
-`无法创建 BibTeX 文件\r\n{0}。`(少了 `{0}` 后的 `\r\n`)。仅排版差异,顺手补齐。
-
-### P1-3 校验警告
+### P1-3 校验警告 ✅ 已处理
 
 `SwissAcademic.Resources.WebLabelsAccount.tsv:19` `PasswordContainsInvalidChars`
-译文以反斜杠结尾(来源文本本身为 `& \\\\`)。确认无误后在 `Test-Translations.ps1` 加白名单,
-避免长期噪音。
+结尾为 4 个反斜杠(偶数,合法)。已把 `Test-Translations.ps1` 的「结尾反斜杠」判断改为
+奇偶判别,该误报自然消失,无需白名单。
 
 ---
 
@@ -99,8 +103,8 @@
 - [ ] 复核 `中文==英文` 的 206 条:多数为 Lorem ipsum 占位帮助文本(`*_HelpText`)与
       `ISBN` / `ISBN / EAN` 等专名(正常);逐条确认是否有**应译未译**的真实界面文本。
 - [ ] 复核“译文含 ≥3 个连续英文单词”的 132 处:排除技术术语/URL 后,补译明显遗漏处。
-- [ ] 复核反斜杠结构与英文不同但结果无害的条目(如 `Strings.tsv:1493`
-      `ResetAttachmentsFolderPath_DbServer`),确认无需处理。
+- [x] 复核反斜杠结构与英文不同的条目:`Strings.tsv:1493`
+      `ResetAttachmentsFolderPath_DbServer` 已规范化为 `\\`(结果不变)。
 
 ---
 

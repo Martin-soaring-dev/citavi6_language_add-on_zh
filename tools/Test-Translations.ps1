@@ -7,6 +7,8 @@
     逐文件检查:
       - 每行必须是 3 列(Tab 分隔),key 非空且在同一资源组内唯一;
       - 有译文的条目,`{0}`/`{1}` 等占位符集合必须与英文一致;
+      - RTF 条目反转义后必须以 `{\rtf` 开头(防止 `\\` 被误写成 `\` 而损坏);
+      - 反斜杠转义规范:字面反斜杠须写成 `\\`;
       - 译文不应为空串以外的异常(如全角化后的占位符)。
     退出码:0 全部通过;1 存在错误。
 
@@ -30,6 +32,25 @@ if ([string]::IsNullOrEmpty($TranslationsDir)) { $TranslationsDir = Join-Path $R
 
 $phRegex = '\{[0-9]+\}'
 function Get-Ph([string]$s) { (($phRegex | ForEach-Object { [regex]::Matches([string]$s, $_) } | ForEach-Object { $_.Value }) | Sort-Object) -join ',' }
+
+# 奇数长度的反斜杠串后面不是 r/n/t(或到串尾) => 该反斜杠未按规范写成 \\,反转义会引入非法控制符
+$escapeBad = '(?<!\\)\\(?:\\\\)*(?:[^\\rnt]|$)'
+
+# 与 Build-LanguagePack.ps1 一致的 TSV 字段反转义
+function ConvertFrom-TsvField {
+    param([string]$Value)
+    if ([string]::IsNullOrEmpty($Value)) { return $Value }
+    return [regex]::Replace($Value, '\\.', {
+        param($m)
+        switch ($m.Value) {
+            '\\' { '\' }
+            '\t' { "`t" }
+            '\r' { "`r" }
+            '\n' { "`n" }
+            default { $m.Value }
+        }
+    })
+}
 
 $errors = [System.Collections.Generic.List[string]]::new()
 $warnings = [System.Collections.Generic.List[string]]::new()
@@ -61,7 +82,16 @@ foreach ($f in (Get-ChildItem $TranslationsDir -Recurse -Filter *.tsv | Sort-Obj
         if ((Get-Ph $en) -ne (Get-Ph $zh)) {
             $errors.Add("${rel}:$lineNo 占位符不一致 [$($p[0])]")
         }
-        if ($zh -match '\\$') { $warnings.Add("${rel}:$lineNo 译文以反斜杠结尾 [$($p[0])]") }
+        if ($zh -match $escapeBad) {
+            $warnings.Add("${rel}:$lineNo 非规范反斜杠转义(字面反斜杠应写成 \\ ) [$($p[0])]")
+        }
+        if (([string](ConvertFrom-TsvField $en)).StartsWith('{\rtf')) {
+            $zhU = [string](ConvertFrom-TsvField $zh)
+            if (-not $zhU.StartsWith('{\rtf')) {
+                $head = if ($zhU.Length -gt 8) { $zhU.Substring(0, 8) } else { $zhU }
+                $errors.Add("${rel}:$lineNo RTF 转义损坏:反转义后应以 {\rtf 开头,实际 '$head' [$($p[0])]")
+            }
+        }
         if ($p[1] -match '^\s' -or $p[1] -match '\s$') {
             if ((($zh -replace '^\s+','') -replace '\s+$','') -ne $zh) { } # 忽略
         }

@@ -172,7 +172,7 @@ CitationStyleSettingsDialog_bibliographyTabSortTitleLabel	Sorting	排序
 NumberingStyle_StartPageOnly	Start page only (e.g. 153)	仅起始页（例如 153）
 NumericFieldElementPropertyEditorControl_textPrefixLabel	Prefix:	前缀：
 IndexInBibliographyFieldElementPropertyEditorControl_textBetweenIndexPartsLabel	Text:	文本：
-CitationStyleSettingsDialog_sortMacroFromCitaviServerButton	Retrieve from the Citavi server…	从 Citavi 服务器获取……
+CitationStyleSettingsDialog_sortMacroFromCitaviServerButton	Retrieve from the Citavi server…	从 Citavi 服务器获取…
 PersonFieldElementPropertyEditorControl_secondGroupMiddleNameUsageLabel	Include middle names:	包含中间名：
 BuiltInTemplateConditionId_SpecificField1NotEmpty	"{0}" contains data	“{0}”包含数据
 CompilationTestErrorsFoundInTemplateCondition	Template condition: {0}	模板条件：{0}
@@ -652,7 +652,7 @@ BuiltInTemplateConditionId_ReferenceLanguageIsGerman	Reference language is Germa
 UnorderedListDialog_customRadioButton	Custom: 	自定义：
 BuiltInTemplateConditionId_ReferenceLanguageIsFrench	Reference language is French	文献语言为法语
 PersonFieldElementPropertyEditorControl_organizationNameFormatGroupBoxCheckBox	Format names of organizations like this:	按此格式格式化组织名称：
-TemplateConditionDialog_backOfficeCustomTemplateConditionLinkLabel	Retrieve from the Citavi server...	从 Citavi 服务器检索...
+TemplateConditionDialog_backOfficeCustomTemplateConditionLinkLabel	Retrieve from the Citavi server...	从 Citavi 服务器获取…
 BuiltInTemplateConditionId_RepeatingFootnoteParentOrOtherContribution	Parent reference or other contribution therein was cited in a previous footnote	父级文献或其中的其他贡献已在之前的脚注中引用过
 CitationStyleSettingsDialog_listFormatNoneRadioButton	None	无
 CitationStyleSettingsDialog_SortOptions_IndexInBibliography	In the order of the bibliography	按参考文献顺序
