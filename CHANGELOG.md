@@ -16,6 +16,8 @@
 - 术语表(见 `docs/03-translation-guide.md`)已扩充。
 - 新增第 7 个附属程序集 `SwissAcademic.Citavi.WordAddIn`(Word 加载项的 `_zh` 帮助与异常字符串),
   使 Word 加载项在中文环境下显示中文帮助。
+- 新增一键安装器 `Install-Toolkit.ps1` / `安装.cmd`:自动检测 Citavi 与 Word 加载项目录、
+  预览计划、检测冲突进程(显示名称+PID 并弹窗)后覆盖安装,完成弹窗;支持 `-WhatIf`/`-Uninstall`。
 - **长尾资源组逐条校对**:`WordProcessorResources`(行距选项、图元文件、霍夫曼符号、重启标记等)、
   `CRM`、`TeX`、`WebLabelsCitaviSpace/Offline/HelpTexts`、`LanguagesAndCultures` 等;
   并统一「帐户 → 账户」。
