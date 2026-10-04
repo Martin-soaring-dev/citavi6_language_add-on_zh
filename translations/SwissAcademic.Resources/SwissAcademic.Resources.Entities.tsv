@@ -120,7 +120,7 @@ Person_MiddleName	Middle name(s)	中间名
 ReferenceTypes	Reference types	参考文献类型
 Persons	Persons and organizations	个人与组织
 CommonProperty_ModifiedByCitaviUserId	Modified by Citavi user ID	修改者 Citavi 用户 ID
-KnowledgeItem_CoreStatementUpdateType	Core statement update type	核心论述更新类型
+KnowledgeItem_CoreStatementUpdateType	Core statement update type	核心陈述更新类型
 Reference_OriginalCheckedBy	Original checked by/on	原文核对人/时间
 Publishers	Publishers	出版社
 Reference_Organizations	Organization	组织
@@ -270,7 +270,7 @@ Location_SkipPreviewEntryPage	Always preview this location immediately	始终立
 Reference_UniformTitle	Uniform title	统一题名
 Periodical_UserAbbreviation1	Abbreviation 2	缩写 2
 Periodical_UserAbbreviation2	Abbreviation 3	缩写 3
-KnowledgeItem_CoreStatement	Core statement	核心论述
+KnowledgeItem_CoreStatement	Core statement	核心陈述
 Reference_HasLabel1	Has blue label	有蓝色标签
 Reference_HasLabel2	Has red label	有红色标签
 Reference_TableOfContentsHtml	Table of contents	目录

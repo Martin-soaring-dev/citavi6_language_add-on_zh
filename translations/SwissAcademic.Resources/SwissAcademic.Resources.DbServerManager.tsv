@@ -179,7 +179,7 @@ DbServerManager_BackupConfig_SendTestMessage	Send test message	发送测试消�
 DbServerManager_TheProject	the project	项目
 DbServerManager_Wizard_DataConnectionServerRunsOnHost	The SQL server is running on this computer.	SQL Server 正在此计算机上运行。
 DbServerManager_Manage	Manage	管理
-DbServerManager_Manual	Manual	手动
+DbServerManager_Manual	Manual	手册
 DbServerManager_Setup_SetupPathNotFound	The file could not be found.	找不到该文件。
 DbServerManager_FullTextSearchConfig_SuccessColumn	Success	成功
 DbServerManager_Setup_DecideLanguage	Language:	语言：
@@ -189,7 +189,7 @@ DbServerManager_Updating_Schema	Updating schema…	正在更新架构…
 DbServerManager_FullTextSearchConfig_CitaviFullTextInstalled	The Citavi full text search is installed.\r\n\r\n	已安装 Citavi 全文检索。\r\n\r\n
 DbServerManager_UserName	User name	用户名
 DbServerManager_Logins	Logins	登录名
-DbServerManager_CountPerSeatLicence	Number of per seat licenses	单机许可证数量
+DbServerManager_CountPerSeatLicence	Number of per seat licenses	单席位许可证数量
 DbServerManager_BackupConfig_IncompleteProviderValues	Please complete the following information:	请填写以下信息：
 DbServerManager_BackupConfig_UserName	User name/email address:	用户名/电子邮件地址：
 DbServerManager_Wizard_DataConnectionServerRunsOnOther	The SQL server is running on another computer.	SQL Server 正在另一台计算机上运行。
@@ -247,7 +247,7 @@ DbServerManager_ConvertC5Db_ConvertedInfo	Conversion complete. Click to view pro
 DbServerManager_PathToAttachments	Path for attachments	附件路径
 DbServerManager_BackupConfig_WriteLogFileFailed	The log file for the backup (database: {0}) could not be created in the folder "{1}".	备份（数据库：{0}）的日志文件无法在文件夹“{1}”中创建。
 DbServerManager_BackupConfig_SmtpPort	Port:	端口：
-DbServerManager_PerSeatLicence	Per-seat license	单机许可证
+DbServerManager_PerSeatLicence	Per-seat license	单席位许可证
 DbServerManager_LoginMode_SqlOnly	SQL Server Authentication mode	SQL Server 身份验证模式
 DbServerManager_LicenseSettings_EnterEmails	Enter each email address on a separate line:	每行输入一个电子邮件地址：
 DbServerManager_SqlServerDefaultInstance	The SQL Server is a default instance	SQL Server 是默认实例

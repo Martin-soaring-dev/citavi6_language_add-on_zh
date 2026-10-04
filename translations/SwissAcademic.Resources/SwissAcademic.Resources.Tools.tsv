@@ -20,7 +20,7 @@ GoToTargetEntityLink	Go to	转到
 FormatParagraph	Paragraph…	段落…
 MainForm_QuotationSmartRepeaterKnowledgeItemCompositionCategories	Categories	分类
 SortReferencesByDateModifiedDescending	Most recently modified	最近修改
-HelpCitaviManual	Manual	手动
+HelpCitaviManual	Manual	手册
 MainForm_ExportCategoriesToConceptDraw	To ConceptDraw…	到 ConceptDraw…
 ShowKeywordList	Keywords	关键词
 MacroEditorForm_ExternalReferences	References…	文献…
@@ -288,12 +288,12 @@ SortKnowledgeItemsDialog_ShowCoreStatementOnly	Core statement only	仅核心陈�
 ReferencesSortMenu	Sort	排序
 MainForm_PrintCompilationMenu	Print or save compilation	打印或保存汇编
 RtfForm_Export	Export to file…	导出到文件…
-NewLocationRemoteUri	Add Internet address…	添加网址…
+NewLocationRemoteUri	Add Internet address…	添加 Internet 地址…
 PreviewControl_QuoteAbstract	Abstract	摘要
 NewSubcategory	New subcategory	新建子分类
 ShowZoomWindow	Zoom	缩放
 HelpCitationStyleEditorManual	Citation style editor manual	引文样式编辑器手册
-PublicationAssistant_ViewMiniaturize	Mini	迷你
+PublicationAssistant_ViewMiniaturize	Mini	最小化
 ViewRefresh_ReferenceGrid_ToolTipText	Refreshes the table with its sorting and grouping of references \r\nto reflect any changes.	刷新表格中参考文献的排序和分组 \r\n以反映所有更改。
 SeriesTitleList_ApplyRelatedReferencesAsSelection	Apply related references as selection	将相关文献应用为选择
 MassReferenceIdentifierDownloadDialog_ReferenceDelete	Delete	删除
@@ -429,7 +429,7 @@ FilterByYearCustom_PlaceholderText	Enter a year	输入年份
 MainForm_SaveSelectedTask_Smart	Save {0:selected task|the {0} selected tasks}…	保存{0:所选任务|所选的 {0} 个任务}…
 ViewColumns_ToolTipTitle	Columns	列
 SpecialCharsLowerUpperQuotes	Lower/upper double quotation marks	下/上双引号
-ListOfPublishers	List of publishers	出版商列表
+ListOfPublishers	List of publishers	出版社列表
 GoToParentReferenceDisabled	Go to parent reference	转到父级参考文献
 SpecialCharsOneThird	One third	三分之一
 MainForm_Summary_ToolTipText	A short rendition of a chapter or section, in your own words.	用自己的话对章节或部分进行的简短概述。
@@ -449,7 +449,7 @@ CategoriesExportMenu	Export category system	导出分类体系
 OpenRecentProject	List of recently opened projects	最近打开的项目列表
 ApplyKeywordsForm_SortKeywords	Sort alphabetically	按字母顺序排序
 DeleteCategory	Delete…	删除…
-PreviewControl_NewQuotationDirect	Direct quotation	直接引用
+PreviewControl_NewQuotationDirect	Direct quotation	直接引文
 MainForm_ShareProject	Share…	共享…
 GoToKeywordReferencesMenu	Other references with "{0}"	包含“{0}”的其他参考文献
 MainForm_RenameSavedTaskPlannerFilter	Rename saved selection…	重命名已保存的选择…
@@ -484,8 +484,8 @@ NewLocationLocalFileUriMenu	Local file	本地文件
 ShowClassification_Long_Off	Hide category numbers	隐藏分类编号
 MainForm_ShowMoreFields	Add fields to Reference tab…	向参考文献选项卡添加字段…
 MainForm_NewCommentOnQuotation_ToolbarsInstance	Add comment	添加评论
-GoToPublisherReferencesMenu_FilterByPublisher	Apply all references from publisher "{0}" as selection	将出版商“{0}”的所有参考文献应用为选择
-TaskItemForm_High	Importance: High	重要程度：高
+GoToPublisherReferencesMenu_FilterByPublisher	Apply all references from publisher "{0}" as selection	将出版社“{0}”的所有参考文献应用为选择
+TaskItemForm_High	Importance: High	重要性：高
 FormatChangeTextCase	Capital and small initial letters	大写和小写首字母
 MacroEditorForm_BuildMenu	Build	构建
 MainForm_NewKnowledgeItemMenu_ToolbarInstance	Knowledge item	知识条目
@@ -540,7 +540,7 @@ ReferenceSmartRepeaterQuickEditForm_NewQuotationIndirect	Indirect quotation…	�
 MainForm_NewThoughtMenu_ToolTipTitle	Have a good idea?	有好主意？
 MainForm_ShowCover	Show…	显示…
 PreviewControl_MoveToProject	Move into the Citavi project…	移动到 Citavi 项目中…
-MainForm_ConfigureOrders	Configure ordering…	配置排序…
+MainForm_ConfigureOrders	Configure ordering…	配置订购…
 CollapseAll	Hide details	隐藏详细信息
 ImportFromMindManager	From a MindManager document…	从 MindManager 文档…
 MacroEditorForm_Compile	Compile	编译
@@ -601,7 +601,7 @@ LocationForm_ShowFullText	Full text…	全文…
 QuickEditForm_PreviewCover_ToolTipTextFormatted	Show cover art in preview pane.	在预览窗格中显示封面图片。
 PreviewControl_CopyToProject	Copy into the Citavi project…	复制到 Citavi 项目…
 MainForm_ReferenceManagement_TaskListContextMenu_Delete_InstanceCaption	Delete task	删除任务
-WindowAutoUpdateMode	Keep in front and refresh automatically	保持在前面并自动刷新
+WindowAutoUpdateMode	Keep in front and refresh automatically	始终置顶并自动刷新
 MainForm_UpdateInstall	Install update	安装更新
 KeyConfigurationDialog_Export	Export…	导出…
 MainForm_NewProjectTask_ToolTipTitle	New project task	新建项目任务
@@ -647,7 +647,7 @@ ShowPersonList_Long	List of persons and organizations	人员和组织列表
 ViewGroups	Group…	分组…
 HideReferenceEditorKeywords	Hide keywords	隐藏关键词
 HelpLiveUpdate	Check for updates	检查更新
-MainForm_SwitchQuotationDisplay_CoreStatementOnly	Show core statement only	仅显示核心论述
+MainForm_SwitchQuotationDisplay_CoreStatementOnly	Show core statement only	仅显示核心陈述
 ChangeProjectColor	Project color	项目颜色
 QuickEditForm_EditTableOfContents_ToolTipTitle	Edit table of contents	编辑目录
 MainForm_CopyShortTitle	Copy	复制
@@ -674,7 +674,7 @@ PreviewControl_ContextMenu_Delete	Delete	删除
 MathEditorForm_FileExit	Close	关闭
 TableInsertMenu	Insert	插入
 SearchForm_KnowledgeItemsContextMenu_AssignedReferencesMenu_RemoveReferencesFromProjectShell_Instance	Exclude from selection	从选择中排除
-PreviewControl_ScriptErrorsSuppressed	Suppress script errors (login pages will also not be shown)	抑制脚本错误（登录页面也将不会显示）
+PreviewControl_ScriptErrorsSuppressed	Suppress script errors (login pages will also not be shown)	屏蔽脚本错误提示（登录页也将不再显示）
 TableInsertRowBelow	Row at the bottom	底部的行
 TableInsertRowAbove	Row above	上方行
 CreateLibrary	Create library "{0}"…	新建库 "{0}"…
@@ -851,7 +851,7 @@ PreviewControl_Highlight	Highlight	高亮
 NewLocationLocalFolderUri	Add local folder…	添加本地文件夹…
 TransformerListControl_TransformerFindAuto_ToolTipTitle	Autodetect subscribed databases	自动检测已订阅的数据库
 ReferenceGridForm_ReferencesDuplicatesUnMark	Clear highlight	清除高亮
-PublicationAssistant_KnowledgeItemIncludeCoreStatement	Include core statement	包含核心论述
+PublicationAssistant_KnowledgeItemIncludeCoreStatement	Include core statement	包含核心陈述
 MainForm_NewSubheading_ToolTipTitle	Insert subheading	插入副标题
 QuickEditForm_EditReference_ToolTipTextFormatted	Switch to the <b>Reference</b> tab	切换到 <b>文献</b> 选项卡
 ReferenceSmartRepeaterQuickEditForm_NewLocationPrivateCollection	In Private Collection…	在私人收藏中…
@@ -896,7 +896,7 @@ ReplacementListDialog_AddReplacement	New…	新建…
 FindFullText	Find full text…	查找全文…
 ShowOptions	Options…	选项…
 MainForm_CopyOrMoveReferencesToProject	Copy or move to a Citavi project…	复制或移动到 Citavi 项目…
-PublishersEditorContextMenu	Context menu for publishers	出版商的上下文菜单
+PublishersEditorContextMenu	Context menu for publishers	出版社的上下文菜单
 QuickEditForm_EditReference_ToolTipTitle	Edit reference	编辑文献
 QuickEditForm_EditEvaluation_ToolTipTitle	Edit evaluation	编辑评价
 MainForm_KnowledgeOrganizerGridGoForward	Next knowledge item	下一个知识条目
@@ -905,7 +905,7 @@ StartForm_ActivateOfflineMode_Deactivate	Go online…	联机…
 RatingFiveStars	5 Stars	5 星
 MainForm_QuotationSmartRepeaterKnowledgeItemCompositionModificationText	Modified	修改时间
 EditItemInWindow	Edit in window\r\n	在窗口中编辑\r\n
-MainForm_SetTaskImportanceMiddle	Middle	居中
+MainForm_SetTaskImportanceMiddle	Middle	中
 PublicationAssistant_PlaceholderInsertMenu	Insert in Word	插入到 Word
 DownloadWithIsbn	ISBN download…	ISBN 下载…
 ReferenceSmartRepeaterQuickEditForm_NewQuotationSummary	Summary…	摘要…
@@ -924,7 +924,7 @@ MainForm_NavigationSettings	Settings	设置
 MainForm_ShowSearchReplaceForm	Search and replace…	检索并替换…
 QuickEditForm_AddCoverMenu_ToolTipTitle	Add cover art	添加封面图片
 MainForm_NewProjectTask_ToolTipText	Opens a new editor to enter a reference task. Project tasks are events or milestones \r\n\t\tpertaining to the project as a whole. They are not specific to a reference, as is a reference task.	打开新编辑器以输入文献任务。项目任务是 \r\n\t\t与整个项目相关的事件或里程碑。与文献任务不同，它们不针对特定文献。
-SeriesTitleForm_DeleteSeriesTitle	Delete this series…	删除此系列…
+SeriesTitleForm_DeleteSeriesTitle	Delete this series…	删除此丛书…
 SpecialCharsGuillemetsSingleGerman	Single guillemets inward	单角引号（向内）
 MainForm_ReferenceEditorQuotations_FilterByMore_ToolTipTitle	Filter quotations and PDF annotations	筛选引文和 PDF 注释
 QuickEditForm_AddLocation_ToolTipTitle	Add local file, Internet address or location	添加本地文件、Internet 地址或位置
@@ -943,7 +943,7 @@ SetLabel2	Set red label for selected references	为所选文献设置红色标�
 KeywordList_CollapseAll	Show keywords only	仅显示关键词
 PublicationAssistant_PlaceholderAssignCategories	Assign categories…	分配分类…
 MassReferenceIdentifierDownloadDialog_ReferenceDeleteAll	Clear all	全部清除
-PublicationAssistant_ArrangeByCoreStatement	By core statements	按核心论述
+PublicationAssistant_ArrangeByCoreStatement	By core statements	按核心陈述
 ApplyGroups	Assign groups	分配组
 MainForm_PreviewShowHideKeywords_Show	Show keywords	显示关键词
 MainForm_PreviewShowHideKeywords_Hide	Hide keywords	隐藏关键词
@@ -956,7 +956,7 @@ MainForm_FilterByMore_ProjectShell	Select within the selection	在选择范围�
 MainForm_SetTaskImportanceLow	Low	低
 ManageDerivedCitationStyles_CloudState_Existing_ToolTipText	This derived style is currently available in the cloud.	此派生样式当前在云端可用。
 GoToTargetEntityLink_WithPlaceholder	Go to "{0}"	转到 "{0}"
-MainForm_NewReferenceContribution	Contribution in…	贡献于…
+MainForm_NewReferenceContribution	Contribution in…	收录于…
 QuickEditForm_OpenLocationLocalFileUri_ToolTipTitle	Open local file…	打开本地文件…
 ShowHideReferenceEditorKeywords_Show	Show keyword column	显示关键词列
 ShowHideReferenceEditorKeywords_Hide	Hide keyword column	隐藏关键词列
@@ -972,7 +972,7 @@ Citation	Citation	引用
 MainForm_ListsMenu	Lists	列表
 CiteMenu	Cite…	引用…
 OnlineSearchDialogEx_ShowTransformerInformation	About information providers	关于信息提供者
-MainForm_GoToSiblingReferencesLabel	Go to other contributions in parent reference:	转到上级文献中的其他贡献：
+MainForm_GoToSiblingReferencesLabel	Go to other contributions in parent reference:	转到父级参考文献中的其他贡献：
 ViewGroups_ToolbarInstance	Group	分组
 MainForm_SaveCover	Save as…	另存为…
 MainForm_SplitterLayoutHideCenterPane	Hide center pane	隐藏中间窗格
@@ -1012,7 +1012,7 @@ FormatItalic	Italic	斜体
 GoToSourceEntityLink	Go to	转到
 ProjectSettings_ToolTipTextFormatted	Attachment management, user information correction, statistics, and more.<br/><span style="color:Gray;">Press the Ctrl key while clicking to to open the Citavi manual chapter for this feature.</span>	附件管理、用户信息更正、统计等。<br/><span style="color:Gray;">按住 Ctrl 键的同时单击，可打开 Citavi 手册中有关此功能的章节。</span>
 StyleEditorForm_ManageDerivedCitationStyles	Manage derived citation styles…	管理派生的引文样式…
-TagFormatting	Formatting	正在格式化
+TagFormatting	Formatting	格式
 MainForm_SelectAllKnowledgeItems	Select all knowledge items	选择所有知识条目
 FormatHidden	Hidden	隐藏
 MainForm_NewReference_ToolTipTitle	Enter the bibliographic information of a new reference by hand	手动输入新文献的书目信息
@@ -1037,7 +1037,7 @@ ReferenceGridForm_ViewGroupsExpandAll	Expand all groups	展开所有组
 GoToKeywordReferencesMenu_FilterByKeyword	Apply all references with "{0}" as selection	将所有含 "{0}" 的文献应用为选择
 ProofingToolsDialog_AddLanguage	Download additional spell check dictionaries	下载其他拼写检查词典
 PreviewControl_FitHeight	Fit full page	适合整页
-ParentReferenceEditorContextMenu	Context menu for the "Parent reference" field	"上级文献" 字段的上下文菜单
+ParentReferenceEditorContextMenu	Context menu for the "Parent reference" field	"父级参考文献" 字段的上下文菜单
 MainForm_CreateArchiveWithoutAttachments	Archive project without attachments…	不带附件归档项目…
 MainForm_UndoDeletion	Undo deletion…	撤销删除…
 ManageDerivedCitationStyles_CloudState_Waiting_ToolTipText	This derived style is BEING SAVED to the cloud.	此派生样式正在保存到云端。
@@ -1082,18 +1082,18 @@ PreviewControl_ScreenshotTool_ToolTipText	Select regions in the PDF for highligh
 QuickEditForm_PreviewLocationLocalFolderUri_ToolTipTitle	Preview local folder	预览本地文件夹
 MainForm_SwitchRightPaneVisibility_Off	Hide right pane	隐藏右侧窗格
 RecycleBinDialog_deleteRecycleBinItems	Delete	删除
-PreviewControl_GoToNextAnnotation	Next annotation	下一个批注
+PreviewControl_GoToNextAnnotation	Next annotation	下一个注释
 QuickEditForm_PreviewLocationRemoteUri_ToolTipTitle	Preview Internet address	预览网址
 MainForm_InvertFilter	Invert selection	反选
 MainForm_NewThoughtMenu	Thought	想法
 MainForm_LookupFullText_ToolbarInstance	Find full text	查找全文
 MainForm_ShowReferenceEditorKeywords	Keywords	关键词
-MainForm_SaveBibliographyWithOptions	Save annotated…	保存批注…
+MainForm_SaveBibliographyWithOptions	Save annotated…	保存注释…
 MainForm_OrderByOtherEMail	Other by email…	其他通过电子邮件…
 RefreshSortOrder	Refresh sort order	刷新排序顺序
 MainForm_SwitchCenterPaneVisibility_Off	Hide center pane	隐藏中间窗格
 MainForm_IndirectQuotation_ToolTipTitle	Indirect quotation	间接引用
-PublisherForm_DeletePublisher	Delete this publisher…	删除此出版商…
+PublisherForm_DeletePublisher	Delete this publisher…	删除此出版社…
 MainForm_ShowDuplicateSettingsDialog	Settings…	设置…
 PublicationAssistant_ShowReference	Show reference	显示文献
 FormatRemoveReturnsAndTabs	Remove paragraphs and tabs	移除段落和制表符
@@ -1132,12 +1132,12 @@ ReferenceGridForm_ShowReferenceTypeSelectionDialog	Change reference type…	更�
 QuickEditForm_EditQuotation_ToolTipTitle	Edit quotation	编辑引文
 MainForm_PasteCover	Paste	粘贴
 BatchAssignCategories	Assign categories…	分配分类…
-MainForm_PrintBibliographyWithOptions	Print annotated…	打印批注…
+MainForm_PrintBibliographyWithOptions	Print annotated…	打印注释…
 RatingThreeStars	3 Stars	3 星
 QuickEditForm_EditGroups_ToolTipTextFormatted	Open the group editor.	打开分组编辑器。
 CitationStyleListDialogEx_CitationStyleAddLocalFile	Open citation style file	打开引文样式文件
 FilterByRating_PlaceholderText	for example: 0; <=3; >4	例如：0; <=3; >4
-MainForm_FilterByKeyword_ToolbarInstance	Quick select by keyword	按关键字快速选择
+MainForm_FilterByKeyword_ToolbarInstance	Quick select by keyword	按关键词快速选择
 PreviewControl_SaveAs	Save as…	另存为…
 PreviewControl_NewQuotationIndirect	Indirect quotation	间接引用
 MainForm_EditLocation	Edit location…	编辑位置…
@@ -1192,7 +1192,7 @@ SetColorSchemeYellow	Orange	橙色
 MainForm_PrintCompilationWithOptions	Print with options…	使用选项打印…
 ViewGroups_ToolTipText	Opens a window that lets you select and order columns according to which your data should be grouped.	打开一个窗口，您可以选择和排列用于对数据分组的列。
 BatchAssignCategoriesDialog_EditFilter	 Filter:	 筛选：
-MainForm_OrderByEMail	Book by email…	通过电子邮件获取图书…
+MainForm_OrderByEMail	Book by email…	通过电子邮件订购图书…
 MainForm_NewSourceEntityLink	New link…	新建链接…
 EditCitationStyles	Edit citation style…	编辑引文样式…
 MainForm_ReferenceEditor_CitationPlaceholderMenu_ToolTipTitle	Cite	引用
@@ -1213,7 +1213,7 @@ AssignedReferencesMenu	Related reference	相关文献
 MainForm_ReferenceManagement_NewReferenceTask_InstanceCaption	Task for current reference… (Tools)	当前文献的任务…（工具）
 CustomizeOverviewForm_Reset	Revert to default set	恢复为默认集
 PreviewControl_Print	Print…	打印…
-KeywordsEditorContextMenu	Context menu for keywords	关键字的上下文菜单
+KeywordsEditorContextMenu	Context menu for keywords	关键词的上下文菜单
 Delete_ToolTipText	Deletes the selected item. For important items, you will be asked to confirm.	删除所选条目。对于重要条目，将要求您确认。
 MainForm_PrintBibliography_ToolTipTitle	Print or save project bibliography	打印或保存项目文献目录
 SearchForm_AddReferencesToProjectShell	Add to selection	添加到选择
@@ -1236,7 +1236,7 @@ Label2Menu	Red label	红色标签
 TeXPublicationForm_EditCreateFilterWithCitedReferences	Apply as selection	作为选择应用
 Label1Menu	Blue label	蓝色标签
 QuickEditForm_EditLocationLibrary_ToolTipTitle	Edit library location	编辑库位置
-PreviewControl_Export	Export PDF annotations…	导出 PDF 批注…
+PreviewControl_Export	Export PDF annotations…	导出 PDF 注释…
 MainForm_UpdateMultiUserChanges	Refresh changes made by other users	刷新其他用户所做的更改
 NewKnowledgeItemMenu	New knowledge item	新建知识条目
 MainForm_NewReferenceAuto_ToolTipText	Add a reference by entering an ISBN, DOI name, PubMed ID, PMCID or arXiv ID. The citation information will be downloaded and entered automatically.	通过输入 ISBN、DOI 名称、PubMed ID、PMCID 或 arXiv ID 添加文献。引用信息将自动下载并填入。
@@ -1247,13 +1247,13 @@ MainForm_SwitchQuotationDisplay_CoreStatementAndText	Show core statement and tex
 RatingTwoStars	2 Stars	2 星
 MainForm_PreviewShowHideCreationText_Hide	Hide "Created by"	隐藏“创建者”
 MainForm_PreviewShowHideCreationText_Show	Show "Created by"	显示“创建者”
-ShowHideReferenceEditorFilterTabs_Show	Show category, keyword and group column	显示分类、关键字和分组列
+ShowHideReferenceEditorFilterTabs_Show	Show category, keyword and group column	显示分类、关键词和分组列
 MainForm_ReferenceManagement_PeriodicalEditorContextMenu_ShowPeriodicalList_InstanceCaption	List of periodicals	期刊列表
-ShowHideReferenceEditorFilterTabs_Hide	Hide category, keyword and group column	隐藏分类、关键字和分组列
-MainForm_IndirectQuotation_ToolTipText	A substantially faithful rendition of a text, in your own words.	用自己的语言对文本进行实质忠实的转述。
+ShowHideReferenceEditorFilterTabs_Hide	Hide category, keyword and group column	隐藏分类、关键词和分组列
+MainForm_IndirectQuotation_ToolTipText	A substantially faithful rendition of a text, in your own words.	用自己的话对文本进行基本忠实的复述。
 StyleEditorForm_NewComponentPart	New…	新建…
 PublisherList_ApplyRelatedReferencesAsSelection	Apply related references as selection	将相关文献应用为选择
-HelpCitaviManualShort	Manual	手动
+HelpCitaviManualShort	Manual	手册
 MainForm_HelpSupportInformation	Send support information	发送支持信息
 EditPlaceholderInsertAsFootnote	Insert in Word as footnote	在 Word 中作为脚注插入
 MainForm_WindowShowBackgroundTaskErrors	Show background task errors	显示后台任务错误
@@ -1289,7 +1289,7 @@ ShowActiveReferenceInCitationStyle_Hide	Hide current reference in citation style
 ShowActiveReferenceInCitationStyle_Show	Show current reference in citation style	在引文样式中显示当前文献
 MainForm_PrintBibliographyMenu_ToolbarInstance	Project bibliography	项目文献目录
 EditGroup	Edit "{0}"	编辑“{0}”
-MainForm_HelpCitaviManualShort	Manual	手动
+MainForm_HelpCitaviManualShort	Manual	手册
 KnowledgeItemFileForm_NewKnowledgeItemMenu	New knowledge item	新建知识条目
 ReferenceGridForm_LookupFullText	Find full text…	查找全文…
 ShowTeXPublicationFormWithFileSelector	Automatic BibTeX export	自动 BibTeX 导出
@@ -1304,7 +1304,7 @@ SortKnowledgeItemsDialog_ShowAll	All	全部
 NewQuotationFile_ChooseReference	Image or file…	图像或文件…
 KnowledgeItemTextForm_Export	Export to file…	导出到文件…
 MainForm_PrintBibliographyMenu	Print or save project bibliography	打印或保存项目文献目录
-ShowPublisherList_Long	List of publishers	出版商列表
+ShowPublisherList_Long	List of publishers	出版社列表
 TaskItemForm_Low	Importance: Low	重要性：低
 MainForm_CutCover	Cut	剪切
 NewQuotationComment_ChooseReference	Comment…	评论…
@@ -1341,4 +1341,4 @@ MainForm_ReferenceEditor_CitationPlaceholderMenu_ToolTipText	Inserts selected re
 ReferenceGridColumnsForm_MoveColumnUp	Move up	上移
 MainForm_NewReferenceTaskRead	Read	已读
 MainForm_NewReferenceTaskMenu	Routine tasks	常规任务
-MainForm_ReferenceManagement_PublishersEditorContextMenu_ShowPublisherList_InstanceCaption	List of publishers…	出版商列表…
+MainForm_ReferenceManagement_PublishersEditorContextMenu_ShowPublisherList_InstanceCaption	List of publishers…	出版社列表…

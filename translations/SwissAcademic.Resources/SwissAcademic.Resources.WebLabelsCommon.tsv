@@ -27,7 +27,7 @@ TeamMembers_ResendInvitation	Resend invitation	重新发送邀请
 ProjectUnauthorized	You are not authorized to view this project's properties	您无权查看此项目的属性
 AnErrorHasOccurred	An error has occurred.	发生错误。
 Months	January,February,March,April,May,June,July,August,September,October,November,December	一月,二月,三月,四月,五月,六月,七月,八月,九月,十月,十一月,十二月
-Manual	Manual	手动
+Manual	Manual	手册
 ContactSupport_Word	Writing with Word	使用 Word 写作
 ContactSupport_AddLabels	Adding labels	添加标签
 Tooltip_SaveChanges	Save changes	保存更改
@@ -150,12 +150,12 @@ Mr	Mr.	先生
 ReadSavedFile	Import saved file	导入已保存的文件
 ChangeRole_Title	Change project role	更改项目角色
 Tooltip_FitWidth	Fit to width	适应宽度
-ContactSupport_SearchReferences	Using filters	使用过滤器
+ContactSupport_SearchReferences	Using filters	使用筛选器
 Tooltip_Contribution	Show or add contributions	显示或添加贡献
 ProtocolStarted	The activity log was started.	活动日志已启动。
 ContactSupport_SearchInPdfs	Searching PDFs	搜索 PDF
 Tooltip_Pan	Pan	平移
-Tooltip_JumpToNextAnnotation	Next annotation	下一个批注
+Tooltip_JumpToNextAnnotation	Next annotation	下一个注释
 Tooltip_ShowBookmarks	Show bookmarks	显示书签
 Mrs	Ms.	女士
 Email	Email address	电子邮件地址
@@ -168,7 +168,7 @@ FileUpload_DangerousFileFormat	"{0}" has an invalid file format.	"{0}" 的文件
 ShibbolethError	The Shibboleth login was successful but license verification failed. Please see this FAQ article: <a href="https://www.citavi.com/shibboleth-error">https://www.citavi.com/shibboleth-error</a>.	Shibboleth 登录成功,但许可证验证失败。请参阅此常见问题解答文章:<a href="https://www.citavi.com/shibboleth-error">https://www.citavi.com/shibboleth-error</a>。
 OtherProgramsManual	See manual for other programs	有关其他程序,请参阅手册
 HelpCitaviOnlineSupport	Customer service and support	客户服务和支持
-Tooltip_ApplyCriteria	Add additional filters or cancel selection	添加其他过滤器或取消选择
+Tooltip_ApplyCriteria	Add additional filters or cancel selection	添加其他筛选器或取消选择
 Continue	Continue	继续
 HowCanWeHelp	Additional help	其他帮助
 TeamMembers_Title	Team options	团队选项

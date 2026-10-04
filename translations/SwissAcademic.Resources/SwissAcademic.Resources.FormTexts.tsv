@@ -113,7 +113,7 @@ ApplyKeywordsForm	Apply Keywords	应用关键词
 EquivalentCharactersPairDialog	Equivalent Characters	等效字符
 TagDefinitionFavoritesDialog	Text Import Definitions	文本导入定义
 LookupReferenceIdentifierDialog	Retrieve reference by ID	按 ID 检索文献
-PublisherList	List of Publishers	出版商列表
+PublisherList	List of Publishers	出版社列表
 PublisherForm	Publisher	出版社
 ColumnInformationDialog	Column Information	列信息
 KnowledgeItemTextForm	Quotation	引文
@@ -137,7 +137,7 @@ RecycleBinDialog	Recycle bin	回收站
 PersonsDialog	Persons and Organizations	个人与组织
 SortKnowledgeItemsForm	Sort Knowledge Items	排序知识条目
 DirectImportDialog	Direct Import	直接导入
-TextBasedFilterDialog	Text-Based Filter	基于文本的过滤器
+TextBasedFilterDialog	Text-Based Filter	基于文本的筛选器
 CitationStyleFavoriteDialog	Add Citation Styles	添加引文样式
 CreateBibliographyOptionsDialog	Options for Group Headers	组标题选项
 BookStoreFavoritesDialog	Online Booksellers	在线书店
@@ -145,7 +145,7 @@ OnlineSearchCredentialConfigurationDialog	Edit Credentials	编辑凭据
 KnowledgeItemTextForm_Thought	Thought	想法
 CitationStyleSettingsDialog	Citation Style Properties	引文样式属性
 CreateCompilationDialog	Compilation	汇编
-ReferenceGridGroupsForm	Group References – Table View	分组文献 – 表格视图
+ReferenceGridGroupsForm	Group References – Table View	分组文献 – 表视图
 ExtendedSearchForm	Advanced Search	高级搜索
 CreateBibliographyDialog	Annotated Project Bibliography	带注释的项目参考文献
 BatchApplyOrRemoveKeywordsDialog_Remove	Batch Remove Keywords	批量移除关键词

@@ -18,14 +18,14 @@ NewspaperArticle_HelpText	Lorem ipsum dolor sit amet, consectetur adipiscing eli
 JournalArticle_Volume	Volume	卷
 ComputerProgram_PlaceOfPublication	Place of publication	出版地
 LegalCommentary_Subtitle	Subtitle	副标题
-Movie_Editors	Studio / Producer	录音室 / 制片人
+Movie_Editors	Studio / Producer	制片厂 / 制片人
 InternetDocument_PlaceOfPublication	Place of publication	出版地
 NewspaperArticle_AccessDate	Access date	访问日期
 ConferenceProceedings_Translators	Translator	译者
 Patent_AccessDate	Access date	访问日期
 SpecialIssue_OnlineAddress	Online address	在线地址
 ArchiveMaterial_Affiliation	Affiliation	隶属机构
-Movie_StorageMedium	Medium	媒介
+Movie_StorageMedium	Medium	存储介质
 MusicAlbum_Authors	Composer	作曲家
 Movie_Collaborators	Lead actors	主要演员
 RadioPlay_Plural	Radio Plays (Audio Dramas)	广播剧
@@ -37,7 +37,7 @@ ConferenceProceedings_Title	Title	标题
 BookEdited_Affiliation	Affiliation	隶属机构
 RadioPlay	Radio Play (Audio Drama)	广播剧
 UnpublishedWork_SeriesTitle	Series title	系列标题
-Patent_Editors	Assignee	受托人
+Patent_Editors	Assignee	受让人
 PressRelease_TitleSupplement	Title supplement	标题补充
 Lecture_Authors	Speaker	演讲者
 Lecture_Translators	Translator	译者
@@ -64,7 +64,7 @@ SpecialIssue_HelpText	Lorem ipsum dolor sit amet, consectetur adipiscing elit. D
 MusicTrack_AccessDate	Access date	访问日期
 Manuscript_OnlineAddress	Online address	在线地址
 JournalArticle_Number	Issue number	期号
-PersonalCommunication_StorageMedium	Medium	媒介
+PersonalCommunication_StorageMedium	Medium	存储介质
 ConferenceProceedings_Year	Year	年份
 ConferenceProceedings_Isbn	ISBN	ISBN
 AudioBook_PlaceOfPublication	Place of publication	出版地
@@ -85,12 +85,12 @@ CollectedWorks_TitleSupplement	Title supplement	标题补充
 CollectedWorks_AccessDate	Access date	访问日期
 CourtDecision_TitleSupplement	Parallel sources	平行来源
 Movie_SpecificField1	Country	国家
-Movie_SpecificField2	Run time	运行时间
+Movie_SpecificField2	Run time	片长
 Movie_SpecificField3	Copyright	版权
 Lecture_Affiliation	Affiliation	隶属机构
 JournalArticle_Translators	Translator	译者
 AudioBook_Translators	Translator	译者
-Contribution_AsChild	Contribution in…	贡献于…
+Contribution_AsChild	Contribution in…	收录于…
 PersonalCommunication_OnlineAddress	Online address	在线地址
 UnpublishedWork_Collaborators	Collaborators	合著者
 PressRelease_OnlineAddress	Online address	在线地址
@@ -171,7 +171,7 @@ Broadcast_Subtitle	Subtitle	副标题
 Broadcast_OnlineAddress	Online address	在线地址
 CollectedWorks	Collected Work	文集
 MusicAlbum_AccessDate	Access date	访问日期
-MusicAlbum_StorageMedium	Medium	媒介
+MusicAlbum_StorageMedium	Medium	存储介质
 CourtDecision_Volume	Volume	卷
 ContributionInLegalCommentary	Contribution in Legal Commentary	法律评注中的篇章
 PressRelease_Affiliation	Affiliation	隶属机构
@@ -183,7 +183,7 @@ PressRelease_AccessDate	Access date	访问日期
 CourtDecision_Title	Short description	简短描述
 Unknown_PlaceOfPublication	Place of publication	出版地
 Thesis	Thesis	学位论文
-BookEdited_HelpText	<p>A single or multi-volume work with discrete contributions from various authors which is compiled by one or more editors. Includes dictionaries and encyclopedias.</p><p></p><p>An edited book which does not have a publisher should added with the <strong>Report or Gray Literature</strong> reference type.</p><p></p>	<p>由一位或多位编辑汇编的单卷或多卷著作，包含来自不同作者的独立篇章。包括词典和百科全书。</p><p></p><p>没有出版商的编著图书应使用<strong>报告或灰色文献</strong>参考文献类型添加。</p><p></p>
+BookEdited_HelpText	<p>A single or multi-volume work with discrete contributions from various authors which is compiled by one or more editors. Includes dictionaries and encyclopedias.</p><p></p><p>An edited book which does not have a publisher should added with the <strong>Report or Gray Literature</strong> reference type.</p><p></p>	<p>由一位或多位编辑汇编的单卷或多卷著作，包含来自不同作者的独立篇章。包括词典和百科全书。</p><p></p><p>没有出版社的编著图书应使用<strong>报告或灰色文献</strong>参考文献类型添加。</p><p></p>
 CollectedWorks_SeriesTitle	Series title	系列标题
 MusicTrack_Authors	Composer	作曲家
 ArchiveMaterial_Organizations	Archive	档案馆
@@ -193,7 +193,7 @@ Contribution_Plural	Contributions	贡献
 JournalArticle_NumberOfVolumes	Article number	文章编号
 Thesis_Authors	Author	作者
 InterviewMaterial	Interview Material	访谈材料
-InterviewMaterial_StorageMedium	Medium	媒介
+InterviewMaterial_StorageMedium	Medium	存储介质
 CollectedWorks_Affiliation	Affiliation	隶属机构
 Manuscript_Title	Title	标题
 RadioPlay_Title	Title	标题
@@ -219,7 +219,7 @@ Unknown	Unknown	未知
 PressRelease	Press Release	新闻稿
 Lecture_OnlineAddress	Online address	在线地址
 AudioBook_Plural	Audio Books	有声书
-AudioOrVideoDocument_StorageMedium	Medium	媒介
+AudioOrVideoDocument_StorageMedium	Medium	存储介质
 SpecialIssue_Publishers	Publisher	出版社
 BookEdited_Organizations	Organization	组织
 RadioPlay_NumberOfVolumes	Episode	集
@@ -233,7 +233,7 @@ InternetDocument_Subtitle	Subtitle	副标题
 ArchiveMaterial_PlaceOfPublication	Place of origin	原产地
 SpecialIssue_Subtitle	Subtitle	副标题
 MusicTrack_Editors	Conductor	指挥
-Map_Number	Scale	比例
+Map_Number	Scale	比例尺
 ConferenceProceedings_NumberOfVolumes	Number of volumes	卷数
 Unknown_TitleSupplement	Title supplement	标题补充
 Book_Organizations	Organization	组织
@@ -250,7 +250,7 @@ ConferenceProceedings_SpecificField4	Conference dates	会议日期
 ConferenceProceedings_SpecificField1	Conference location	会议地点
 RadioPlay_Publishers	Publisher	出版社
 Thesis_Date	Date / Year	日期/年份
-BookEdited_StorageMedium	Medium	媒介
+BookEdited_StorageMedium	Medium	存储介质
 ContributionInLegalCommentary_Date	Date	日期
 Unknown_Organizations	Organization	组织
 File_TitleSupplement	Type of file	文件类型
@@ -258,7 +258,7 @@ Lecture_SeriesTitle	Conference or lecture series	会议或讲座系列
 PersonalCommunication_Authors	Sender / Author	发件人/作者
 PersonalCommunication_Translators	Translator	译者
 RadioPlay_AccessDate	Access date	访问日期
-Manuscript_StorageMedium	Medium	媒介
+Manuscript_StorageMedium	Medium	存储介质
 Contribution_Affiliation	Affiliation	隶属机构
 Manuscript_Collaborators	Collaborators	合著者
 BookEdited_AccessDate	Access date	访问日期
@@ -293,7 +293,7 @@ Map_Plural	Maps	地图
 Contribution_OnlineAddress	Online address	在线地址
 NewspaperArticle_Subtitle	Subtitle	副标题
 UnpublishedWork_PlaceOfPublication	Place of publication	出版地
-PressRelease_StorageMedium	Medium	媒介
+PressRelease_StorageMedium	Medium	存储介质
 JournalArticle_Affiliation	Affiliation	隶属机构
 MusicTrack_Subtitle	Subtitle	副标题
 Map_TitleSupplement	Title supplement	标题补充
@@ -324,7 +324,7 @@ Contribution_PageRange	Page range	页码范围
 UnpublishedWork_Edition	Edition	版次
 UnpublishedWork_Editors	Editor	编辑
 UnpublishedWork_Subtitle	Subtitle	副标题
-AudioBook_Collaborators	Reader	读者
+AudioBook_Collaborators	Reader	朗读者
 MusicTrack_Organizations	Orchestra	乐团
 File_Authors	Author	作者
 UnpublishedWork_Date	Date / Year	日期/年份
@@ -337,7 +337,7 @@ CourtDecision_Translators	Translator	译者
 CollectedWorks_Translators	Translator	译者
 ConferenceProceedings_TitleSupplement	Title supplement	标题补充
 AudioBook_AccessDate	Access date	访问日期
-ArchiveMaterial_Year	Period	句号
+ArchiveMaterial_Year	Period	时期
 ArchiveMaterial_Date	Dating	年代
 NewsAgencyReport_AccessDate	Access date	访问日期
 Standard_Volume	ICS notation	ICS 分类号
@@ -359,7 +359,7 @@ Patent_Translators	Translator	译者
 Unknown_Authors	Author	作者
 Book_Year	Year	年份
 Book_Isbn	ISBN	ISBN
-Map_StorageMedium	Medium	媒介
+Map_StorageMedium	Medium	存储介质
 PersonalCommunication_Collaborators	Recipient	收件人
 Contribution_ParentReference	In	收录于
 ArchiveMaterial_Volume	Volume number	卷号
@@ -433,7 +433,7 @@ SpecialIssue_Translators	Translator	译者
 MusicTrack_TitleSupplement	Title supplement	标题补充
 BookEdited_Editors	Editor	编辑
 BookEdited_Edition	Edition	版次
-CourtDecision_Periodical	Reporter	记者
+CourtDecision_Periodical	Reporter	判例汇编
 ConferenceProceedings	Conference Proceedings	会议论文集
 Unknown_Translators	Translator	译者
 BookEdited_Plural	Books, Edited	图书（编著）
@@ -453,7 +453,7 @@ Standard_Date	Date of issue	发布日期
 Lecture_TitleSupplement	Title supplement	标题补充
 ConferenceProceedings_PlaceOfPublication	Place of publication	出版地
 CollectedWorks_HelpText	<p>A selected or complete collection of the work of an author in one or more volumes. This can range from a small anthology of fiction to a collection of an author's scholarly writings, or to a historical-critical edition of the complete works of an author. </p><p></p><p></p><p>To cite a single work from a collected work, use the <strong>Contribution</strong> reference type.</p>	<p>一位作者的选集或全集，分为一卷或多卷。范围可以从小型小说选集到某位作者的学术著作集，或某位作者全集的历史校勘版。</p><p></p><p></p><p>要引用文集中的单篇作品，请使用<strong>贡献</strong>参考文献类型。</p>
-Unknown_StorageMedium	Medium	媒介
+Unknown_StorageMedium	Medium	存储介质
 UnpublishedWork_OnlineAddress	Online address	在线地址
 LegalCommentary_TitleSupplement	Title supplement	标题补充
 NewspaperArticle	Newspaper Article	报纸文章
@@ -517,7 +517,7 @@ NewspaperArticle_TitleSupplement	Title supplement	标题补充
 CollectedWorks_Volume	Volume in the series	丛书卷号
 Thesis_HelpText	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.\r\n\r\nEtiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.\r\ninterdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.\r\n\r\nEtiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.\r\ninterdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.
 File_HelpText	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.\r\n\r\nEtiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.\r\ninterdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.\r\n\r\nEtiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.\r\ninterdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.
-UnpublishedWork_StorageMedium	Medium	媒介
+UnpublishedWork_StorageMedium	Medium	存储介质
 NewspaperArticle_Plural	Newspaper Articles	报纸文章
 ComputerProgram_AccessDate	Access date	访问日期
 Movie_OnlineAddress	Online address	在线地址
@@ -574,7 +574,7 @@ ComputerProgram_Affiliation	Affiliation	隶属机构
 CollectedWorks_Authors	Author	作者
 Broadcast_SpecificField2	Length	时长
 AudioBook_Authors	Author	作者
-Lecture	Presentation	演示文稿
+Lecture	Presentation	报告
 PressRelease_Authors	Author	作者
 AudioOrVideoDocument_Subtitle	Subtitle	副标题
 UnpublishedWork_Plural	Reports or Gray Literature	报告或灰色文献
@@ -587,7 +587,7 @@ ComputerProgram_Plural	Software	软件
 Unknown_Editors	Editor	编辑
 Unknown_Edition	Edition	版次
 StatuteOrRegulation_OnlineAddress	Online address	在线地址
-Book_StorageMedium	Medium	媒介
+Book_StorageMedium	Medium	存储介质
 CollectedWorks_Edition	Edition	版次
 CollectedWorks_Editors	Editor	编辑
 Manuscript_Authors	Author	作者
@@ -597,7 +597,7 @@ Manuscript_PlaceOfPublication	Place	地点
 PersonalCommunication_AccessDate	Access date	访问日期
 Patent_Number	Patent number	专利号
 PersonalCommunication_PlaceOfPublication	Place	地点
-RadioPlay_StorageMedium	Medium	媒介
+RadioPlay_StorageMedium	Medium	存储介质
 AudioOrVideoDocument_Translators	Translator	译者
 ConferenceProceedings_SeriesTitle	Series title	系列标题
 Lecture_Plural	Presentations	演示文稿
@@ -652,7 +652,7 @@ NewsAgencyReport_HelpText	Lorem ipsum dolor sit amet, consectetur adipiscing eli
 LegalCommentary_PlaceOfPublication	Place of publication	出版地
 PersonalCommunication_Affiliation	Affiliation	隶属机构
 JournalArticle_Title	Title	标题
-AudioBook_StorageMedium	Medium	媒介
+AudioBook_StorageMedium	Medium	存储介质
 JournalArticle_Date2	Online since	上线日期
 InterviewMaterial_Collaborators	Interviewee	受访者
 NewsAgencyReport_Affiliation	Affiliation	隶属机构
@@ -669,7 +669,7 @@ CollectedWorks_Year	Year	年份
 InterviewMaterial_HelpText	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.\r\n\r\nEtiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.\r\ninterdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tortor urna, bibendum eu quam eu, pretium scelerisque lacus. Integer aliquet augue sit amet eros ultricies eleifend. Nullam et leo vel lorem mollis aliquam. Mauris non arcu sit amet elit dignissim dapibus. Sed in aliquam nisi. Fusce congue orci eu quam facilisis, eget venenatis eros viverra. In interdum odio id pharetra placerat. Vestibulum rutrum consectetur viverra. Etiam in laoreet enim. Donec et arcu id velit congue scelerisque eget vitae dui. Etiam vitae urna vel turpis rutrum posuere vel non urna. Donec at venenatis justo. Donec tortor ante, dapibus in pharetra in, vulputate sit amet diam.\r\n\r\nEtiam posuere justo orci, eu congue eros hendrerit quis. Vivamus interdum porttitor velit, ullamcorper suscipit nisl pharetra quis. Pellentesque varius neque quis est hendrerit, eu cursus lectus blandit. Fusce enim est, dictum sit amet fringilla sit amet, vehicula ut felis. Praesent vehicula convallis urna, nec interdum lacus varius in. Phasellus hendrerit sapien augue, feugiat rhoncus lectus feugiat eget. Nulla facilisi. Nullam rutrum dui et enim bibendum tincidunt. Nam odio elit, imperdiet ut cursus et, venenatis nec dui.\r\ninterdum aliquet, enim eros mattis magna, eu vehicula nisl risus ac lorem.
 CollectedWorks_Isbn	ISBN	ISBN
 Unknown_NumberOfVolumes	Number of volumes	卷数
-Contribution	Contribution	贡献
+Contribution	Contribution	篇章
 MusicTrack_Title	Title	标题
 Lecture_Date	Date	日期
 JournalArticle_Year	Year	年份

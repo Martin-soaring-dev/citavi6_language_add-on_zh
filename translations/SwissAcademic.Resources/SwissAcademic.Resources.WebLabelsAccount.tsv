@@ -209,7 +209,7 @@ FirstNames	First name	名
 Or	Or:	或：
 VerifyOnlyEmail	Verify email address	验证电子邮件地址
 OrLoginWithMobile	or with	或使用
-RequestVoucherMessage	You can also get your license without a voucher code if your computer is <a href="//www.citavi.com/computeriniprange" target="_blank">within your university's or organization's IP range</a>.	如果您的计算机<a href="//www.citavi.com/computeriniprange" target="_blank">位于您所在大学或机构的 IP 范围内</a>，您也可以无需兑换码获取许可证。
+RequestVoucherMessage	You can also get your license without a voucher code if your computer is <a href="//www.citavi.com/computeriniprange" target="_blank">within your university's or organization's IP range</a>.	如果您的计算机<a href="//www.citavi.com/computeriniprange" target="_blank">位于您所在大学或机构的 IP 范围内</a>，您也可以无需优惠券代码获取许可证。
 RemoveProvider	Remove provider	移除提供商
 ImageSizeTooLarge	Image size must be less than 5 MB.	图片大小必须小于 5 MB。
 RegistrationUpdateEmailTitle	Enter the correct email address here:	在此输入正确的电子邮件地址：
@@ -317,7 +317,7 @@ HighSchoolNotFound	Is your university not in the list? Then it does not support 
 AlreadyHaveCitaviAccount	I already have a Citavi account:	我已经有 Citavi 账户：
 ReloginButton	Login again	重新登录
 WrongPassword	The password is incorrect.	密码不正确。
-PerSeatLicense	Per-seat license	单机许可证
+PerSeatLicense	Per-seat license	单席位许可证
 VoucherCashIn	Redeem voucher	兑换代金券
 VoucherBlock	Vouchers	代金券
 MergeAccountsHere	Merge two accounts here.	在此合并两个账户。
@@ -329,7 +329,7 @@ SearchBeginsAfter3Letters	The search begins as soon as three letters are entered
 ConfirmEmailAddress	Confirm email address	确认电子邮件地址
 ConfirmMembership	Please confirm you are a member of the organization	请确认您是该机构的成员
 PleaseConfirmEmail	Please confirm your email address.	请确认您的电子邮件地址。
-VoucherNotFound	This voucher code does not exist.	该兑换码不存在。
+VoucherNotFound	This voucher code does not exist.	该优惠券代码不存在。
 AddPassword	Add password	添加密码
 ConfirmMembershipEmailDomains	<a id="confirmThroughEmailDomains">Please add an email address with one of these domains: <br/> {0}</a><br />	<a id="confirmThroughEmailDomains">请添加使用以下域之一的电子邮件地址：<br/> {0}</a><br />
 RevokeLicense	Remove license	移除许可证
@@ -354,10 +354,10 @@ EmailAddressInUse	This address is associated with your site license. We will sen
 RecipientNotified	The recipient will receive an automatic email notification. If the recipient does not yet have a Citavi account, he or she will need to create one to access the license key.\r\n<br/><br/>\r\nLicensee information will then also be displayed in this account.	收件人将收到自动电子邮件通知。如果收件人还没有 Citavi 账户，则需要创建一个账户才能访问许可证密钥。\r\n<br/><br/>\r\n随后许可证持有人的信息也将显示在此账户中。
 License_EditUser	Change user	更改用户
 NotificationsSentToThisEmail	Notifications will be sent to this email address:	通知将发送至以下电子邮件地址：
-ConfirmMembershipVoucher	<a id="confirmThroughVoucher">Enter the new voucher code you received from your university.</a><br />	<a id="confirmThroughVoucher">输入您从大学收到的新兑换码。</a><br />
+ConfirmMembershipVoucher	<a id="confirmThroughVoucher">Enter the new voucher code you received from your university.</a><br />	<a id="confirmThroughVoucher">输入您从大学收到的新优惠券代码。</a><br />
 LicenseExpiredMessage	You have exceeded your subscription date and your account is in read-only mode.	您的订阅已过期，账户处于只读模式。
 MyHighSchool_Shibboleth	My university	我的大学
-VoucherForLicenseDescription	Enter the voucher code to obtain a personalized Citavi license. The new license key will then appear in the Citavi account.	输入兑换码以获取个性化的 Citavi 许可证。新的许可证密钥随后将显示在 Citavi 账户中。
+VoucherForLicenseDescription	Enter the voucher code to obtain a personalized Citavi license. The new license key will then appear in the Citavi account.	输入优惠券代码以获取个性化的 Citavi 许可证。新的许可证密钥随后将显示在 Citavi 账户中。
 License_SpaceAvailable	Available	可用
 DesktopLoginSuccess	<ol><li>On the login screen in Citavi for Windows, select a login option and then click "Log in".</li><li>As soon as you're logged in, you can close this tab.</li></ol>	<ol><li>在适用于 Windows 的 Citavi 登录屏幕上，选择一个登录选项，然后点击“登录”。</li><li>登录后，您即可关闭此选项卡。</li></ol>
 Unlimited	Unlimited	无限制

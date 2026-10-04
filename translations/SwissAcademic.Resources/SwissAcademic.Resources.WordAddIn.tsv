@@ -19,7 +19,7 @@ PlaceholderLockedBy	Locked by {0}	由 {0} 锁定
 PublicationPane_ToolStrip_InsertButtonTooltip_Reference	Inserts the selected reference into the document. You can also double-click a reference to insert it. 	将所选文献插入到文档中。您也可以双击文献将其插入。
 InsertKnowledgeItemLayout_CoreStatementAndCitation	Core statement and citation	核心陈述和引文
 PublicationPane_NoReferencesInProject	The current Citavi project does not contain any references.	当前 Citavi 项目不包含任何文献。
-OptionsDialog_stylesTabPage	Formatting	正在格式化
+OptionsDialog_stylesTabPage	Formatting	格式
 PublicationPane_InfoControl_CitaviIsRunningWorkingProjectNoReferences	The current Citavi project does not contain any references.	当前 Citavi 项目不包含任何文献。
 PublicationPane_ToolStrip_InsertButtonTooltip_Keyword	Inserts the selected keyword into the document. You can also double-click a keyword to insert it.	将所选关键词插入到文档中。您也可以双击关键词将其插入。
 PublicationPane_MenuItem_InsertCategory_Category	Current category only	仅当前分类
@@ -44,7 +44,7 @@ PublicationStatisticForm_quotedReferencesLabel	References cited	已引用的文�
 CommandBar_HidePublicationPane	Hide Citavi task pane	隐藏 Citavi 任务窗格
 PublicationPane_MultipleEntryPlaceholder	Multiple citation	多重引文
 PublicationPane_ToolStrip_CollapseAllPersons	Collapse all	全部折叠
-Ribbon_Manual	Manual	手动
+Ribbon_Manual	Manual	手册
 PublicationPane_MenuItem_InsertCategoryAndKnowledgeItemLabelw		
 PublicationPane_ToolStrip_FilterNone_KnowledgeItems	All knowledge items	所有知识条目
 PublicationPane_MenuItem_EditPerson	Edit in Citavi	在 Citavi 中编辑
@@ -124,7 +124,7 @@ PlaceholderPageRangePlausibility	You entered the page range "{0}", which falls o
 OptionsDialog_bibliographyTitleLabel	Create bibliography	创建参考文献表
 CopyToProjectDialog_titleLabel	This reference is not in the current project. It is probably from another project.\r\nCopy the reference into the current project to edit it.	此文献不在当前项目中。它可能来自另一个项目。\r\n请将文献复制到当前项目中进行编辑。
 UndoActionName_InsertPlaceholder	Insert citation	插入引文
-PublicationPane_NoKeywordAssigned	No keywords	无关键字
+PublicationPane_NoKeywordAssigned	No keywords	无关键词
 InsertKnowledgeItemLayout_TextAndCitation	Text and citation	文本和引文
 PublicationPane_ToolStrip_ExpandAllCategories	Expand all	全部展开
 PublicationPane_StatusBar_copyReferenceToProjectToolStripSplitButton	Reference not found in project	项目中未找到文献
@@ -182,7 +182,7 @@ OpenProject_ProjectNotFound	The project "{0}" could not be found. \r\nDo you wan
 PublicationPane_ToolStrip_ExpandAllPersons	Expand all	全部展开
 PublicationPane_ToolStrip_FilterNotQuotet_KnowledgeItems	All knowledge items not quoted	所有未引用的知识条目
 PublicationPane_FilterTextBox_KnowledgeItems	Search knowledge items… (Shift +F8)	搜索知识条目…（Shift +F8）
-ThoughtFile	Image or file thought	图像或文件想法
+ThoughtFile	Image or file thought	想法（图像或文件）
 ConvertTaggedPlaceholderMsg	Placeholders found: {0}\r\nConverted: {1}\r\nNot in project: {2}	找到的占位符：{0}\r\n已转换：{1}\r\n不在项目中：{2}
 PlaceholderParams_TextCit	Format using "In-text citation" rule set	使用“文内引文”规则集设置格式
 Ribbon_ConvertCitaviTaggedCitations	Convert Citavi placeholders to fields	将 Citavi 占位符转换为域
