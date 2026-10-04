@@ -34,7 +34,7 @@ SwissAcademic.Resources.resources.dll
 SwissAcademic.WordProcessing.resources.dll
 ```
 
-即:每个语言包对应 **6 个附属程序集**。
+即:每个语言包对应 **7 个附属程序集**。
 
 > `nl / ru / sv` 目录只含 `SwissAcademic.resources.dll` 与 `SwissAcademic.WordProcessing.resources.dll`(第三方/Word 处理相关),并非完整界面语言。
 
@@ -156,9 +156,11 @@ protected override void OnPropertyChanged(...) {
 | Citavi.exe | 18 | 39 | 其余为 WinForms 设计器布局常量(键为空,非文本) |
 | SwissAcademic.dll | 1 | 5 | |
 | SwissAcademic.WordProcessing.dll | 1 | 1 | |
-| **合计** | **50** | **11,593** | |
+| SwissAcademic.Citavi.WordAddIn.dll | 2 | 19 | Word 加载项:帮助 `_zh` + 异常对话框 |
+| **合计** | **52** | **11,612** | |
 
-> 官方未为 `SwissAcademic.Citavi.WordAddIn.dll` 提供任何语言附属程序集,其字符串已包含在主体的 `WordAddIn` 组中,因此不作为独立目标。
+> `SwissAcademic.Citavi.WordAddIn.dll` 的 Ribbon/对话框字串已包含在主体的 `WordAddIn` 组;
+> 其自带的 `Properties.Help`(按语言后缀的 RTF 帮助)与 `ExceptionDialog` 由第 7 个附属程序集提供 `_zh`。
 
 `SwissAcademic.Resources.dll` 各组明细:
 

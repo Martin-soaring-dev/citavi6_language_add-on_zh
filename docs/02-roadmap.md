@@ -13,7 +13,7 @@
 translations/*.tsv        (key ⇥ English ⇥ 中文)   ← 机翻初稿 + 人工校对
       │  Build-LanguagePack.ps1
       ▼
-build/*.resources  →  csc.exe  →  dist/zh/*.resources.dll (6 个)
+build/*.resources  →  csc.exe  →  dist/zh/*.resources.dll (7 个)
       │  Install-LanguagePack.ps1
       ▼
 C:\Program Files (x86)\Citavi 6\bin\zh\
@@ -58,8 +58,8 @@ C:\Program Files (x86)\Citavi 6\bin\zh\
 2. 为每个目标程序集生成 `AssemblyInfo.cs`(`AssemblyVersion` + `AssemblyCulture("zh")`)。
 3. 调用 .NET Framework 自带的 `csc.exe` 编译:
    - 输出文件名 = `<父程序集名>.resources.dll`
-   - 6 个目标:`Citavi`、`SwissAcademic`、`SwissAcademic.Citavi`、`SwissAcademic.Controls`、
-     `SwissAcademic.Resources`、`SwissAcademic.WordProcessing`
+   - 7 个目标:`Citavi`、`SwissAcademic`、`SwissAcademic.Citavi`、`SwissAcademic.Controls`、
+     `SwissAcademic.Resources`、`SwissAcademic.WordProcessing`、`SwissAcademic.Citavi.WordAddIn`
 4. 产物输出到 `dist/zh/`。
 
 要点:
@@ -88,7 +88,7 @@ Extract-Resources.ps1 -Diff   →  只列出 translations 中缺失的 key
 - [x] `tools/Extract-Resources.ps1` — 实现提取(实测 50 组 / 11,593 条)
 - [x] `tools/Prepare-TranslationShards.ps1` — 分片
 - [x] `tools/Merge-TranslationShards.ps1` — 合并回填
-- [x] `tools/Build-LanguagePack.ps1` — 实现构建(输出 6 个附属程序集)
+- [x] `tools/Build-LanguagePack.ps1` — 实现构建(输出 7 个附属程序集)
 - [x] `tools/Test-Translations.ps1` — 译文格式/占位符校验
 - [x] `tools/Test-LanguagePack.ps1` — 不启动 Citavi 的解析验证
 - [x] `tools/Install-LanguagePack.ps1` — 实现安装/卸载
@@ -112,7 +112,7 @@ Extract-Resources.ps1 -Diff   →  只列出 translations 中缺失的 key
 | `Translate-Draft.ps1` | `translations/` | (备用)免费 Google 机翻初稿 |
 | `mcp_translate.py` | `translations/` | (备用)经 `translate-mcp-server` 批量翻译 |
 | `Setup-TranslateMcp.ps1` | — | 安装/启动本地 MCP 翻译服务 |
-| `Build-LanguagePack.ps1` | `translations/` | `dist/zh/*.resources.dll`(6 个) |
+| `Build-LanguagePack.ps1` | `translations/` | `dist/zh/*.resources.dll`(7 个) |
 | `Test-Translations.ps1` | `translations/` | 格式/占位符校验结果(退出码 0/1) |
 | `Test-LanguagePack.ps1` | `dist/zh/` + Citavi `bin\` | 控制台验证结果(退出码 0/1) |
 | `Install-LanguagePack.ps1` | `dist/zh/` + Citavi `bin\` | `bin\zh\`;`-Uninstall` 删除 |
@@ -120,7 +120,7 @@ Extract-Resources.ps1 -Diff   →  只列出 translations 中缺失的 key
 
 ## 验证清单(端到端)
 
-1. `bin\zh\` 存在且含 6 个 `*.resources.dll`(其中必须有 `SwissAcademic.Resources.resources.dll`)。
+1. `bin\zh\` 存在且含 7 个 `*.resources.dll`(其中必须有 `SwissAcademic.Resources.resources.dll`)。
 2. 启动 Citavi → 工具 → 语言,出现「中文」。
 3. 选择「中文」→ 界面切换(部分需重启)。
 4. 重启后仍为中文(设置已持久化)。

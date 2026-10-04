@@ -27,7 +27,7 @@ jobs:
           if (-not (Test-Path $required)) { throw "缺少 $required" }
           $count = (Get-ChildItem dist/zh -Filter *.dll).Count
           Write-Host "生成 $count 个附属程序集"
-          if ($count -ne 6) { throw "预期 6 个程序集,实际 $count" }
+          if ($count -ne 7) { throw "预期 7 个程序集,实际 $count" }
 
       - name: 打包 zip
         shell: pwsh

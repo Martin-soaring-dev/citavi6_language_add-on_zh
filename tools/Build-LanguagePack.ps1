@@ -51,6 +51,7 @@ $VersionTable = @{
     'Citavi'                        = '5.8.0.0'
     'SwissAcademic'                 = '5.8.0.0'
     'SwissAcademic.Citavi'          = '5.8.0.0'
+    'SwissAcademic.Citavi.WordAddIn'= '1.0.0.0'
     'SwissAcademic.Controls'        = '5.8.0.0'
     'SwissAcademic.WordProcessing'  = '5.8.0.0'
     'SwissAcademic.Resources'       = '6.0.0.0'

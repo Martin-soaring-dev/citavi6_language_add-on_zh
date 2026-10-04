@@ -135,7 +135,7 @@
 - HTML 实体:`EN` 与 `ZH` 0 处不一致。
 - SmartFormat 单复数条件 `{n:...|...}`:0 处结构不一致。
 - 未译 136 条全部为设计上不译:含 `|` 内部数据 106 + 纯数字 15 + 纯符号 11 + 空源 4。
-- `dist/zh/` 6 个附属程序集与 `translations/` 同步(v0.101 构建时间一致)。
+- `dist/zh/` 7 个附属程序集与 `translations/` 同步。
 - CI `validate` 最近一次为 success。
 
 ---
@@ -143,6 +143,6 @@
 ## 验收(每个 P0/P1 修复后)
 
 1. `pwsh ./tools/Test-Translations.ps1` → 0 错误;
-2. `pwsh ./tools/Build-LanguagePack.ps1` → 生成 6 个附属程序集;
+2. `pwsh ./tools/Build-LanguagePack.ps1` → 生成 7 个附属程序集;
 3. `pwsh ./tools/Test-LanguagePack.ps1 -CitaviBin <bin>` → 通过;
 4. 抽查修复条目在 DLL 中反转义后的实际值(尤其 RTF 以 `{\rtf` 开头)。

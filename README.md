@@ -50,7 +50,7 @@ Citavi 在启动时**扫描 `bin\` 的子目录**来生成语言菜单:凡目录
 |---|---|
 | 支持版本 | Citavi 6.x(基于 6.20 开发) |
 | 目标语言 | 简体中文(`zh`,菜单显示为「中文」) |
-| 覆盖范围 | 6 个程序集、50 个资源组、共 **11,593** 条字符串;未翻译的条目自动回退显示英文 |
+| 覆盖范围 | 7 个程序集(含 Word 加载项)、52 个资源组、共 **11,612** 条字符串;未翻译的条目自动回退显示英文 |
 | 不修改原程序 | ✅ 仅新增 `bin\zh\` 目录 |
 | 随 Citavi 升级 | 升级后新增的词条会显示英文,需运行同步脚本补译 |
 
@@ -116,7 +116,7 @@ pwsh ./tools/Prepare-TranslationShards.ps1 -ShardSize 250
 pwsh ./tools/Merge-TranslationShards.ps1
 pwsh ./tools/Test-Translations.ps1
 
-# 3. 构建出 dist/zh/ 下的 6 个附属程序集
+# 3. 构建出 dist/zh/ 下的 7 个附属程序集
 pwsh ./tools/Build-LanguagePack.ps1
 
 # 4. 不启动 Citavi 验证语言包可被正确解析
