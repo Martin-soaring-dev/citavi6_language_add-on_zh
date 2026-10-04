@@ -66,6 +66,9 @@ Citavi 在启动时**扫描 `bin\` 的子目录**来生成语言菜单:凡目录
    C:\Program Files (x86)\Citavi 6\bin\zh\
    ```
    (需要管理员权限)
+   > **Word 加载项**:加载项从 Office 的 `ADDINS\Citavi Word AddIn` 目录运行,若要它也是中文,
+   > 需把同一 `zh` 文件夹再复制到该目录下,例如
+   > `C:\Program Files\Microsoft Office\Root\Office16\ADDINS\Citavi Word AddIn\zh\`;然后重启 Word。
 3. 启动 Citavi → 工具 → 语言 → 选择「中文」。
 4. 若未立即生效,重启 Citavi。
 

@@ -48,11 +48,15 @@ Copy-Item (Join-Path $CultureDir '*.dll') (Join-Path $stamp $Culture) -Force
 @"
 Citavi 6 中文语言包 v$Version(社区汉化)
 
-安装:把本压缩包中的 "$Culture" 文件夹复制到 Citavi 安装目录的 bin\ 下,例如
-      C:\Program Files (x86)\Citavi 6\bin\zh\
-然后打开 Citavi -> 工具 -> 语言 -> 选择「中文」。
+安装:
+1) 把本压缩包中的 "$Culture" 文件夹复制到 Citavi 安装目录的 bin\ 下,例如
+   C:\Program Files (x86)\Citavi 6\bin\zh\
+2) 如需 Word 加载项也显示中文,请把同一 "$Culture" 文件夹再复制到 Word 加载项目录,例如
+   C:\Program Files\Microsoft Office\Root\Office16\ADDINS\Citavi Word AddIn\zh\
+   (该目录由 Citavi 安装程序创建;若不存在可忽略此步)
+3) 打开 Citavi -> 工具 -> 语言 -> 选择「中文」;随后重启 Word。
 
-卸载:删除该 zh 文件夹,并在语言菜单切回其他语言。
+卸载:删除上述 zh 文件夹,并在语言菜单切回其他语言。
 
 本语言包不修改 Citavi 任何原始文件。未翻译的条目会显示英文原文。
 "@ | Set-Content -Path (Join-Path $stamp '安装说明.txt') -Encoding UTF8

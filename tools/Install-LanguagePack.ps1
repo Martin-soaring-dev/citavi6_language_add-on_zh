@@ -36,6 +36,8 @@ param(
 
     [string]$SourceDir = '',
 
+    [string]$WordAddInDir = '',
+
     [switch]$Uninstall
 )
 
@@ -45,6 +47,18 @@ if ([string]::IsNullOrEmpty($SourceDir)) { $SourceDir = Join-Path $RepoDir "dist
 $CitaviBin = (Resolve-Path $CitaviBin).Path
 $target = Join-Path $CitaviBin $Culture
 
+# Word 加载项目录:插件自带一套 Citavi 程序集,其 `<dir>\<Culture>` 也需要语言包。
+function Find-WordAddInDir {
+    $cands = @(
+        (Join-Path $env:ProgramFiles 'Microsoft Office\Root\Office16\ADDINS\Citavi Word AddIn'),
+        (Join-Path ${env:ProgramFiles(x86)} 'Microsoft Office\Root\Office16\ADDINS\Citavi Word AddIn')
+    )
+    foreach ($c in $cands) { if ($c -and (Test-Path (Join-Path $c 'SwissAcademic.Citavi.WordAddIn.dll'))) { return (Resolve-Path $c).Path } }
+    return $null
+}
+if ([string]::IsNullOrEmpty($WordAddInDir)) { $WordAddInDir = Find-WordAddInDir }
+$waTarget = if ($WordAddInDir) { Join-Path $WordAddInDir $Culture } else { $null }
+
 if (-not (Test-Path (Join-Path $CitaviBin 'SwissAcademic.dll'))) {
     throw "不是有效的 Citavi bin 目录(缺少 SwissAcademic.dll):$CitaviBin"
 }
@@ -53,10 +67,14 @@ if ($Uninstall) {
     if (Test-Path $target) {
         Remove-Item $target -Recurse -Force
         Write-Host "已卸载:已删除 $target" -ForegroundColor Green
-        Write-Host "请在 Citavi 中「工具 → 语言」切换回其他语言。"
     } else {
         Write-Host "未安装:$target 不存在。" -ForegroundColor Yellow
     }
+    if ($waTarget -and (Test-Path $waTarget)) {
+        Remove-Item $waTarget -Recurse -Force
+        Write-Host "已卸载:已删除 $waTarget(Word 加载项)" -ForegroundColor Green
+    }
+    Write-Host "请在 Citavi 中「工具 → 语言」切换回其他语言。"
     return
 }
 
@@ -69,12 +87,21 @@ try {
     if (Test-Path $target) { Remove-Item $target -Recurse -Force }
     New-Item -ItemType Directory -Force -Path $target | Out-Null
     Copy-Item (Join-Path $SourceDir '*.dll') $target -Force
+    if ($waTarget) {
+        if (Test-Path $waTarget) { Remove-Item $waTarget -Recurse -Force }
+        New-Item -ItemType Directory -Force -Path $waTarget | Out-Null
+        Copy-Item (Join-Path $SourceDir '*.dll') $waTarget -Force
+    }
 } catch [System.UnauthorizedAccessException] {
     throw "写入被拒绝。请以管理员身份重新运行 PowerShell,或改用带提权的终端。原始错误:$($_.Exception.Message)"
 }
 
 $count = @(Get-ChildItem $target -Filter *.dll).Count
 Write-Host "已安装 $count 个文件到 $target" -ForegroundColor Green
+if ($waTarget) {
+    Write-Host "已同步到 Word 加载项目录:$waTarget" -ForegroundColor Green
+} else {
+    Write-Host "未找到 Word 加载项目录(如需 Word 加载项中文,请用 -WordAddInDir 指定)。" -ForegroundColor Yellow
+}
 Write-Host ''
-Write-Host "下一步:打开 Citavi → 工具(Tools)→ 语言(Language)→ 选择「中文」。"
-Write-Host "若未立即生效,请重启 Citavi。"
+Write-Host "下一步:打开 Citavi → 工具(Tools)→ 语言(Language)→ 选择「中文」;随后重启 Word。"
