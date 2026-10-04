@@ -6,7 +6,7 @@ OptionsDialog_commentStyleLabel	Comment:	注释：
 Ribbon_ConvertCitaviPlaceholderFields	Convert fields from earlier Citavi versions	转换早期 Citavi 版本的域
 DocumentHasConflicts	Word has prevented editing due to open conflicts. Click the Conflicts tab to accept or reject changes. 	由于存在未解决的冲突，Word 已阻止编辑。单击“冲突”选项卡以接受或拒绝更改。
 EditKnowledgeItem_NotInProject	The knowledge item is not in the current project.	该知识条目不在当前项目中。
-PublicationPane_InfoControl_CitaviNotRunningNoPublicationProject	Citavi is not running. Start it and open a project to insert quotations and citations into this document.	Citavi 未运行。请启动它并打开一个项目，以便将引语和引文插入到本文档中。
+PublicationPane_InfoControl_CitaviNotRunningNoPublicationProject	Citavi is not running. Start it and open a project to insert quotations and citations into this document.	Citavi 未运行。请启动它并打开一个项目，以便将引文和引用插入到本文档中。
 PublicationPane_TabPage_KnowlegeItems	Knowledge	知识
 PublicationPane_ContextMenu_FormatOption	Format option:	格式选项：
 SectionBibliographyType_Bookmark	Bookmark	书签
@@ -78,7 +78,7 @@ PublicationStatisticForm_wordsCountlabel	Words	字数
 Progress_FormatPlaceholder	Updating citations…	正在更新引文…
 PublicationPane_ContextMenu_ArrangeByPlaceholder	By citations	按引文
 DocumentFromNewerWAIVersion	This document was created with a later Citavi version and cannot be edited with this Citavi version.	本文档由更高版本的 Citavi 创建，无法使用此 Citavi 版本进行编辑。
-PublicationPane_NoSelection_KnowledgeItem	{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Calibri;}}\r\n{\\*\\generator Msftedit 5.41.21.2510;}\\viewkind4\\uc1\\pard\\sa200\\sl276\\slmult1\\lang9\\f0\\fs22 This tab shows you the quotations and thoughts in the current project. Click the \\b View \\b0 menu to group by categories or keywords.\\par\r\nDouble-click an item to insert it.\\par\r\n}	{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Calibri;}}\r\n{\\*\\generator Msftedit 5.41.21.2510;}\\viewkind4\\uc1\\pard\\sa200\\sl276\\slmult1\\lang9\\f0\\fs22 此选项卡显示当前项目中的引语和想法。单击 \\b 视图 \\b0 菜单可按分类或关键词分组。\\par\r\n双击条目即可插入。\\par\r\n}
+PublicationPane_NoSelection_KnowledgeItem	{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Calibri;}}\r\n{\\*\\generator Msftedit 5.41.21.2510;}\\viewkind4\\uc1\\pard\\sa200\\sl276\\slmult1\\lang9\\f0\\fs22 This tab shows you the quotations and thoughts in the current project. Click the \\b View \\b0 menu to group by categories or keywords.\\par\r\nDouble-click an item to insert it.\\par\r\n}	{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Calibri;}}\r\n{\\*\\generator Msftedit 5.41.21.2510;}\\viewkind4\\uc1\\pard\\sa200\\sl276\\slmult1\\lang9\\f0\\fs22 此选项卡显示当前项目中的引文和想法。单击 \\b 视图 \\b0 菜单可按分类或关键词分组。\\par\r\n双击条目即可插入。\\par\r\n}
 KnowledgeItemListInfo	Click above in the <i>Search knowledge items</i> field to retrieve the desired knowledge item.	单击上方的<i>搜索知识条目</i>字段以检索所需的知识条目。
 ContextMenu_RefreshKnowledgeItem	Refresh knowledge item	刷新知识条目
 ConvertCitationsProgress	Converting fields…	正在转换域…
@@ -112,7 +112,7 @@ PlaceholderParams_Suffix	Suffix:	后缀：
 InsertKnowledgeItemLayout_CoreStatementAndTextAndCitation	Core statement, knowledge item, and citation	核心陈述、知识条目和引文
 ConvertCitaviPlaceholder_QuestionBeforeConvertStart	Make sure that the current Citavi project '{0}' contains the references for the placeholders in this document. \r\nDo you want to continue?	请确保当前 Citavi 项目'{0}'包含本文档中占位符所对应的文献。 \r\n是否继续？
 PlaceholderParams_Prefix	Prefix:	前缀：
-PublicationPane_NoSelection_Chapter	{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Calibri;}}\r\n{\\*\\generator Msftedit 5.41.21.2510;}\\viewkind4\\uc1\\pard\\sa200\\sl276\\slmult1\\lang9\\f0\\fs22 The Citavi Add-In can detect which chapter of your document you are working on and automatically show you the matching references and quotations in your Citavi project. \\par\r\nTo begin, insert your Citavi category into your document as a heading: on the \\b References\\b0  or \\b Knowledge\\b0  tab, simply double-click a category to insert it.\\par\r\n}	{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Calibri;}}\r\n{\\*\\generator Msftedit 5.41.21.2510;}\\viewkind4\\uc1\\pard\\sa200\\sl276\\slmult1\\lang9\\f0\\fs22 Citavi 加载项可以检测您正在处理文档的哪一章节，并自动在您的 Citavi 项目中显示匹配的文献和引语。 \\par\r\n首先，将您的 Citavi 分类作为标题插入到文档中：在 \\b 文献\\b0  或 \\b 知识\\b0  选项卡上，只需双击分类即可插入。\\par\r\n}
+PublicationPane_NoSelection_Chapter	{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Calibri;}}\r\n{\\*\\generator Msftedit 5.41.21.2510;}\\viewkind4\\uc1\\pard\\sa200\\sl276\\slmult1\\lang9\\f0\\fs22 The Citavi Add-In can detect which chapter of your document you are working on and automatically show you the matching references and quotations in your Citavi project. \\par\r\nTo begin, insert your Citavi category into your document as a heading: on the \\b References\\b0  or \\b Knowledge\\b0  tab, simply double-click a category to insert it.\\par\r\n}	{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Calibri;}}\r\n{\\*\\generator Msftedit 5.41.21.2510;}\\viewkind4\\uc1\\pard\\sa200\\sl276\\slmult1\\lang9\\f0\\fs22 Citavi 加载项可以检测您正在处理文档的哪一章节，并自动在您的 Citavi 项目中显示匹配的文献和引文。 \\par\r\n首先，将您的 Citavi 分类作为标题插入到文档中：在 \\b 文献\\b0  或 \\b 知识\\b0  选项卡上，只需双击分类即可插入。\\par\r\n}
 SectionBibliography_CrossRefDeletedMsg	Error: The starting point of the Citavi chapter bibliography is undefined.	错误：Citavi 章节参考文献的起点未定义。
 Progress_FormatBibliography	Updating bibliography…	正在更新参考文献…
 UndoActionName_InsertKnowledgeItem	Insert knowledge item	插入知识条目
@@ -207,7 +207,7 @@ Ribbon_ChangeCitationStyle	Add citation style…	添加引文样式…
 SectionBibliographyType_Heading	Heading	标题
 PublicationPane_ToolStrip_ShowEntityLinks	Show links	显示链接
 PublicationPane_ContextMenu_ArrangeByCategories	By categories	按分类
-OptionsDialog_indirectQuotationLabel	Indirect quotation:	间接引语：
+OptionsDialog_indirectQuotationLabel	Indirect quotation:	间接引文：
 WrongCitaviVersion	The Word Add-In version differs from the Citavi version. Here's how you can fix the problem: \r\nhttp://www.citavi.com/wai-differs	Word 加载项的版本与 Citavi 的版本不同。您可以通过以下方法解决此问题： \r\nhttp://www.citavi.com/wai-differs
 OptionsDialog_instantFormattingCheckBox	Apply citation style formatting automatically	自动应用引文样式格式
 PlaceholderPageCountPlausibility	You entered the page range "{0}", which falls outside of the number of pages ("{1}") of the source.\r\n\r\nIs the page range correct?	您输入的页码范围“{0}”超出了来源的页数（“{1}”）。\r\n\r\n页码范围是否正确？
@@ -239,7 +239,7 @@ InsertKnowledgeItemLayout_Thougth_CoreStatemantAndText	Core statement and though
 PublicationPane_ToolStrip_CollapseAllCategories	Collapse all	全部折叠
 PublicationPane_ToolStrip_FilterQuotet_KnowledgeItems	Quoted knowledge items	已引用的知识条目
 InsertAllProjectCategories_Progress	Inserting category system…	正在插入分类系统…
-OptionsDialog_directQuotationSytleLabel	Direct quotation:	直接引语：
+OptionsDialog_directQuotationSytleLabel	Direct quotation:	直接引文：
 OpenLegacyProjectWarning	This document was created with a previous version of Citavi. Do you want to start Citavi 6 to convert all Citavi fields to the new format?	本文档由旧版 Citavi 创建。是否要启动 Citavi 6 以将所有 Citavi 域转换为新格式？
 ContentControlAppearance_Hidden	Without	无
 CopyReferencesToCitaviProjectMsg_AllExists	No references were copied into the project.	未将任何文献复制到项目中。
@@ -248,7 +248,7 @@ OptionsDialog_categoryStylesLabel	Begin category headings at:	分类标题起始
 CopyToProjectDialog_questionLabel	Select the references you want to copy into the project:	选择要复制到项目中的文献：
 PlaceholderParams_YearOnly_Sample	(Year)	（年份）
 PublicationPane_InfoControl_AssignProjectTitleLabel	Assign project to document	将项目分配给文档
-PublicationPane_InfoControl_CitaviIsRunningNoProjectsOpen	Citavi is running but no project is open. Open a project to insert quotations and citations into this document.	Citavi 正在运行，但未打开任何项目。请打开一个项目，以便将引语和引文插入到本文档中。
+PublicationPane_InfoControl_CitaviIsRunningNoProjectsOpen	Citavi is running but no project is open. Open a project to insert quotations and citations into this document.	Citavi 正在运行，但未打开任何项目。请打开一个项目，以便将引文和引用插入到本文档中。
 QuotationFile	Image quotation	图片引文
 OptionsDialog_copyKnowledgeItemsLayoutLabel	Quote knowledge items as:	知识条目引用方式：
 AddSectionBibliography	Insert chapter bibliography…	插入章节参考文献…

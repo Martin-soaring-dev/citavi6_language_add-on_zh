@@ -134,7 +134,7 @@ CannotMoveDataIntoSameProject	The selection is not valid.\r\nYou cannot move the
 AttachmentsFolderChangeSourceFolderNotAvailable	You are attempting to change the Attachments folder.\r\nThe previous folder "{0}" cannot be accessed. Any attachments in this folder will not be moved to the new folder.\r\nDo you wish to continue?	您正在尝试更改附件文件夹。\r\n无法访问先前的文件夹“{0}”。此文件夹中的所有附件都不会移动到新文件夹。\r\n是否继续？
 RepairIntegrity_ReferenceOrganization_PersonOrphaned	{0} links between references and organizations were removed because the organization does not exist.	由于机构不存在，已移除 {0} 个参考文献与机构之间的链接。
 CopyProject_ProjectNameSuffix	(Copy)	(副本)
-CannotImportReferenceTypesFromOwnProject	You have selected the project you are currently working on. Reference types cannot be imported from this project.	您选择了当前正在处理的项目。无法从此项目导入参考文献类型。
+CannotImportReferenceTypesFromOwnProject	You have selected the project you are currently working on. Reference types cannot be imported from this project.	您选择了当前正在处理的项目。无法从此项目导入文献类型。
 HelpFileRtfException	The Quick Help file "{0}" cannot be displayed because it is damaged.	快速帮助文件“{0}”已损坏，无法显示。
 DiskQuotaLow	Citavi has determined that you only have small amount of storage space on your drive. When this occurs, Citavi may no longer be able to save your changes. Consult the Citavi manual for solutions to this problem.	Citavi 检测到您的驱动器存储空间不足。在这种情况下，Citavi 可能无法再保存您的更改。请查阅 Citavi 手册以了解此问题的解决方法。
 NoCoverAvailable	No cover art available for this ISBN number.	此 ISBN 号没有可用的封面图片。
@@ -148,7 +148,7 @@ ExportWizard_Title_0	Which references do you want to export?	您想要导出哪�
 ExportWizard_Title_1	Which format do you want to export to?	您想要导出为哪种格式？
 ExportWizard_Title_6	Options	选项
 ExportWizard_Title_7	Save BibTeX export definition	保存 BibTeX 导出定义
-ExportWizard_Title_4	Map reference types	映射参考文献类型
+ExportWizard_Title_4	Map reference types	映射文献类型
 ExportWizard_Title_5	Map fields	映射字段
 ExportWizard_Title_8	Enter login credentials:	输入登录凭据：
 ElectronicAddressInfo_Removable_LocationLabel_short	USB drive	USB 驱动器
@@ -182,7 +182,7 @@ FindLicensedDatabases_Search	Detecting {0} databases…	正在检测 {0} 个数�
 ReferenceSelectionDialogTitle_Cut	Which references do you want to cut?	您想要剪切哪些参考文献？
 CitaviWebPage	Citavi Website	Citavi 网站
 YearFieldWarning_Ignore	Ignore this warning and use the Year field.	忽略此警告并使用年份字段。
-KeyItemConfigurationDialog_referenceTypeLabel	Template for reference type: {0}	参考文献类型的模板：{0}
+KeyItemConfigurationDialog_referenceTypeLabel	Template for reference type: {0}	文献类型的模板：{0}
 AvailableTruncationSymbols	Placeholders and phrases	占位符和短语
 SaveOnlineQuerySuccessful	The search "{0}" was saved successfully.	搜索“{0}”已成功保存。
 Duplicate	[Copy]	[副本]
@@ -349,7 +349,7 @@ FindReplace_EmptyReplacementQuestion	Do you want to replace "{0}" with an empty 
 StartForm_BuyCitavi	Buy Citavi	购买 Citavi
 SearchForm_CannotRemoveKnowledgeItemsFromSelection	The knowledge items cannot be excluded from the current selection because none of the selected elements exist in the current project. Presumably they have been deleted since the last search.	无法将这些知识条目从当前所选内容中排除，因为所选元素在当前项目中都不存在。它们可能自上次搜索以来已被删除。
 ElectronicAddressInfo_Remote_LocationPrefix	[Web]	[Web]
-ReferencePropertyNotAvailable	The field "{0}" is not available for the reference type {1}.	字段“{0}”不适用于参考文献类型 {1}。
+ReferencePropertyNotAvailable	The field "{0}" is not available for the reference type {1}.	字段“{0}”不适用于文献类型 {1}。
 BibTeXAutoExportSuccess	The BibTeX file\r\n{0}\r\nwas created successfully.	BibTeX 文件\r\n{0}\r\n已成功创建。
 DesktopAlert_LostCloudConnection_Caption	No connection to the cloud	未连接到云
 SearchForm_UnknownField	Citavi does not recognize the field name or field code "{0}". Try again with the plural or singular form of the field name or use the advanced search. 	Citavi 无法识别字段名或字段代码“{0}”。请尝试使用字段名的复数或单数形式，或使用高级搜索。 
@@ -560,7 +560,7 @@ SelectLocationsDialog_FilteredReferences	The files attached to the {0} selected 
 CitationStyleDerivedInfoCloudDeletionPrompt_Smart	{0:One derived style|{0} derived styles} in the cloud will be marked for later deletion.	云端的 {0:一种派生样式|{0} 种派生样式}将被标记为稍后删除。
 BatchLogger_Errors	Errors	错误
 RepairCorruptedDatabase_UnknownError	An unknown error occurred while repairing the project.\r\n\r\nThe internal error message is: "{0}". \r\n\r\nPlease contact Citavi support for assistance: www.citavi.com/service.	修复项目时发生未知错误。\r\n\r\n内部错误消息为：“{0}”。\r\n\r\n请联系 Citavi 支持以获取帮助：www.citavi.com/service。
-ReferenceTypeInvalidChildrenExceptionMultipleCase_Smart	{0:One of the|{0}} references that you selected for conversion {0:contain|contains} child references. The selected target reference type "{1}" cannot be used because it cannot contain child references.\r\nThe affected {0:reference "{2}" was|references were} not converted to the new reference type.	{0:您选择转换的参考文献中有一条|您选择转换的 {0} 条参考文献} {0:包含|包含}子参考文献。所选的目标参考文献类型"{1}"无法使用，因为它不能包含子参考文献。\r\n受影响的{0:参考文献"{2}"|参考文献}未转换为新的参考文献类型。
+ReferenceTypeInvalidChildrenExceptionMultipleCase_Smart	{0:One of the|{0}} references that you selected for conversion {0:contain|contains} child references. The selected target reference type "{1}" cannot be used because it cannot contain child references.\r\nThe affected {0:reference "{2}" was|references were} not converted to the new reference type.	{0:您选择转换的参考文献中有一条|您选择转换的 {0} 条参考文献} {0:包含|包含}子参考文献。所选的目标文献类型"{1}"无法使用，因为它不能包含子参考文献。\r\n受影响的{0:参考文献"{2}"|参考文献}未转换为新的文献类型。
 ReferenceGrid_VirtualColumnLabel_LocationsElectronic	Locations (electronic)	位置(电子)
 SearchForm_RefineDateSearch	The date search found many results in fields that are often considered irrelevant (for example, in the modification date of notes).\r\nDo you want to restrict the search to relevant fields (for example, "year")?	日期搜索在许多通常被视为不相关的字段中找到了大量结果（例如笔记的修改日期）。\r\n是否要将搜索限制为相关字段（例如“年份”）？
 ProjectDuplicates	Project duplicates	项目重复项
@@ -665,7 +665,7 @@ FormattableString_FontStyle	Style	样式
 CitaviSettingsNotOK	The settings file does not contain valid data.	设置文件不包含有效数据。
 RepairIntegrity_KnowledgeItemKeyword_KeywordOrphaned	{0} links between knowledge items and keywords were removed because the keyword does not exist.	由于关键词不存在，已移除 {0} 个知识条目与关键词之间的链接。
 BarcodeScanner_Clear	Are you sure you want to clear the bar code scanner's memory?	确定要清除条码扫描仪的内存吗？
-AddOnException	The add-on <b>{0} (version {1})</b> ran this command, which caused an error. Please check www.citavi.com/addons to see if a new version of the add-on is available, and that it is compatible with the version <b>{2}</b> of Citavi you are using.\r\n\r\nIf the problem persists, please contact Citavi support for assistance: www.citavi.com/service.\r\n\r\nThe internal error message is:\r\n{3}	附加组件 <b>{0}（版本 {1}）</b> 运行了此命令，导致出错。请访问 www.citavi.com/addons 查看该附加组件是否有新版本，以及它是否与您使用的 Citavi 版本 <b>{2}</b> 兼容。\r\n\r\n如果问题持续存在，请联系 Citavi 支持以获取帮助：www.citavi.com/service。\r\n\r\n内部错误消息为：\r\n{3}
+AddOnException	The add-on <b>{0} (version {1})</b> ran this command, which caused an error. Please check www.citavi.com/addons to see if a new version of the add-on is available, and that it is compatible with the version <b>{2}</b> of Citavi you are using.\r\n\r\nIf the problem persists, please contact Citavi support for assistance: www.citavi.com/service.\r\n\r\nThe internal error message is:\r\n{3}	加载项 <b>{0}（版本 {1}）</b> 运行了此命令，导致出错。请访问 www.citavi.com/addons 查看该加载项是否有新版本，以及它是否与您使用的 Citavi 版本 <b>{2}</b> 兼容。\r\n\r\n如果问题持续存在，请联系 Citavi 支持以获取帮助：www.citavi.com/service。\r\n\r\n内部错误消息为：\r\n{3}
 ReferenceTypeDialogWithMultipleReferences	The new reference type will be applied to the {0} selected references.	新文献类型将应用于所选的 {0} 条文献。
 CannotMoveColumnBeforeMarks	You cannot move another column in front of the label column.	不能将另一列移到标签列之前。
 ActiveLinkToolTip	Hold Ctrl and click to follow link.	按住 Ctrl 并单击以访问链接。
@@ -1857,7 +1857,7 @@ SearchFieldDropDownForm_GroupHeader_CommonFields	Frequently used fields	常用�
 CannotLoginWithCachedPrincipal	Login was not possible because Citavi could not connect to the server. Please check your Internet connection.\r\nCitavi projects cannot be opened without logging in.	无法登录，因为 Citavi 无法连接到服务器。请检查您的 Internet 连接。\r\n不登录则无法打开 Citavi 项目。
 RepairIntegrity_KnowledgeItemGroup_KnowledgeItemOrphaned	{0} links between knowledge items and groups were removed because the knowledge item does not exist.	由于知识条目不存在，已移除 {0} 个知识条目与组之间的链接。
 LocalToDbServerCopyHelper_InsertingTableData	Copying project information: {0}	正在复制项目信息：{0}
-ParentToolboxPaneCaptionNeutral	Parent reference type components	父级参考文献类型组件
+ParentToolboxPaneCaptionNeutral	Parent reference type components	父级文献类型组件
 RepairIntegrity_ReferenceCollaborator_PersonNull	{0} links between references and collaborators were removed because the link to the collaborator was empty.	由于指向协作人的链接为空，已移除 {0} 个文献与协作人之间的链接。
 Location_PreparingFullTextUpload	Preparing upload …	正在准备上传……
 ImportProgressError	An error occurred, no references were retrieved	发生错误，未检索到任何文献

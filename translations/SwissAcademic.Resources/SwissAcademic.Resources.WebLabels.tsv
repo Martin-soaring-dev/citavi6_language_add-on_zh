@@ -321,7 +321,7 @@ CriteriaAdvanced_HasKnowledgeItems	Has knowledge items	含知识条目
 CriteriaPeriodicals	Periodicals	期刊
 SupportInformationDialog_copyToClipboardButton	Copy to the Clipboard	复制到剪贴板
 SearchParentReference	Search parent reference	搜索父级参考文献
-CriteriaReferenceType	Reference types	参考文献类型
+CriteriaReferenceType	Reference types	文献类型
 ApplyPersonsForm_searchPersonsPlaceholder	Search names	搜索姓名
 BibTeXKey_AllReferencesNewDescription	Generates new BibTeX keys for all references. Existing BibTeX keys will be replaced.	为所有参考文献生成新的 BibTeX 键。现有的 BibTeX 键将被替换。
 PreviewControl_orDragFile	Drag and drop	拖放
@@ -646,7 +646,7 @@ CriteriasTitle	Show	显示
 Affiliation_Placeholder	Optional information for institutions, workgroups, project directors, addresses	机构、工作组、项目负责人、地址的可选信息
 Export_LocalPDFFiles	Save attachments to device	将附件保存到设备
 ReferenceQuotations_moveUpButton	Move up	上移
-ReferenceTypeSelectionDialog_referenceTypesListLabel	Reference types already used appear in <span class="segoeUiSemibold">bold</span>.	已使用的参考文献类型以<span class="segoeUiSemibold">粗体</span>显示。
+ReferenceTypeSelectionDialog_referenceTypesListLabel	Reference types already used appear in <span class="segoeUiSemibold">bold</span>.	已使用的文献类型以<span class="segoeUiSemibold">粗体</span>显示。
 DeleteReference_Reference	Move to recycle bin	移到回收站
 CriteriaMarks_Red	Flag	标签
 PanelThought_UseFile	Use image or file	使用图片或文件

@@ -110,7 +110,7 @@ ReferenceGridForm_ReferencesExportToCalc	Export to Calc…	导出到 Calc…
 ReferenceGridForm_FilterDuplicates	Show duplicates only	仅显示重复项
 MainForm_NavigationGoBackInHistory	Back	返回
 MainForm_WindowShowBackgroundTasks	Show background tasks	显示后台任务
-AddOns	Manage add-ons…	管理附加组件…
+AddOns	Manage add-ons…	管理加载项…
 ShowCategoryList	Categories	分类
 OnlineSearchDialogEx_OpenSearchTerm	Saved searches	已保存的检索
 MainForm_ExportCategoriesToFreeMind	To FreeMind…	到 FreeMind…
@@ -333,7 +333,7 @@ SpecialCharsZeroWidthBreakOpportunity	Zero-width space	零宽空格
 FormatParagraphFlow	Text direction	文字方向
 RecordNavigationContextMenu	Context menu for record navigation	记录导航的上下文菜单
 StyleEditorForm_Open	Open…	打开…
-StyleEditorForm_GoTo	Open reference type	打开参考文献类型
+StyleEditorForm_GoTo	Open reference type	打开文献类型
 PreviewControl_TextSelectionTool	Text selection	文本选定范围
 MainForm_SendReferenceByEMail	Send reference by email	通过电子邮件发送参考文献
 ManageDerivedCitationStyles_CloudState_New_ToolTipText	This is a new derived style not yet available in the cloud. It will be GENERATED when changes are saved.	这是一个新的派生样式，尚未在云端提供。保存更改时它将被生成。
@@ -423,7 +423,7 @@ OnlineSearchDialogEx_Tools	Tools	工具
 FormatFontSize	Font size	字号
 FormatFontName	Font	字体
 StyleEditorForm_SetTemplateUseCaseEditStateNone	Undefined	未定义
-StyleEditorForm_SetTemplateUseCaseEditStateMenu	Set edit state of all reference types to	将所有参考文献类型的编辑状态设置为
+StyleEditorForm_SetTemplateUseCaseEditStateMenu	Set edit state of all reference types to	将所有文献类型的编辑状态设置为
 CustomizeSavedOnlineImportDataExchangeProperties	Manage saved searches…	管理已保存的搜索…
 FilterByYearCustom_PlaceholderText	Enter a year	输入年份
 MainForm_SaveSelectedTask_Smart	Save {0:selected task|the {0} selected tasks}…	保存{0:所选任务|所选的 {0} 个任务}…

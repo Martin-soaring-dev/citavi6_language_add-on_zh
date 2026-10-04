@@ -40,7 +40,7 @@ IsDesktopDefinition	Citavi will use your settings from Citavi for Windows.	Citav
 ResetReadNews	Show hidden RSS messages	显示隐藏的 RSS 消息
 MoreInfoInManual	See the manual for more information.	更多信息请参阅手册。
 RSSSubscribedFeeds	My feeds:	我的订阅源：
-AddIns_WordAssistant_Description	With the Citavi Word Assistant, you can insert quotations and citations into your Word document. A bibliography is created automatically in the citation style of your choice.	使用 Citavi Word 助手，您可以将引语和引文插入到 Word 文档中。系统会自动按您选择的引文样式创建参考文献。
+AddIns_WordAssistant_Description	With the Citavi Word Assistant, you can insert quotations and citations into your Word document. A bibliography is created automatically in the citation style of your choice.	使用 Citavi Word 助手，您可以将引文和引用插入到 Word 文档中。系统会自动按您选择的引文样式创建参考文献。
 DeleteProjectConfirmationProjectName	Please enter the project name for confirmation:	请输入项目名称以确认：
 RSSError	Error	错误
 RSSFeeds	RSS feeds	RSS 订阅源
@@ -57,7 +57,7 @@ RSSShowHiddenNews	Show hidden RSS messages	显示隐藏的 RSS 消息
 Others_FirstPublicationYear_Description	When this option is selected, Year derived first checks whether a year is present in the Original publication field (of the reference or its parent reference) and uses it if present.	选中此选项后，年份推算会先检查原始出版物字段（该文献或其父级参考文献的字段）中是否存在年份，如果存在则使用该年份。
 RSSFeedAlreadyPresent	RSS feed URL already exists	RSS 订阅源 URL 已存在
 AddIns_WordAssistant	Word Assistant	Word 助手
-PickerDescription	Save references and quotations you find online in your project.	将您在网上找到的文献和引语保存到项目中。
+PickerDescription	Save references and quotations you find online in your project.	将您在网上找到的文献和引文保存到项目中。
 ImportInWhichProject	Which project would you like to import the reference into?	您要将文献导入哪个项目？
 NavigationBar_Settings	Add-Ins and Settings	加载项和设置
 InvalidUrl	Invalid URL	URL 无效

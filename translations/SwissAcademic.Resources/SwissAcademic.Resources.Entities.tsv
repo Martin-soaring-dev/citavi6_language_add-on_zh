@@ -117,7 +117,7 @@ Reference_Date	Date	日期
 Reference_Isbn	ISBN	ISBN
 Reference_None	(None)	(无)
 Person_MiddleName	Middle name(s)	中间名
-ReferenceTypes	Reference types	参考文献类型
+ReferenceTypes	Reference types	文献类型
 Persons	Persons and organizations	个人与组织
 CommonProperty_ModifiedByCitaviUserId	Modified by Citavi user ID	修改者 Citavi 用户 ID
 KnowledgeItem_CoreStatementUpdateType	Core statement update type	核心陈述更新类型

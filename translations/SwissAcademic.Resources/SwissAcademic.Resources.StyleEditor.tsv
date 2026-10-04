@@ -92,7 +92,7 @@ CitationStyleSettingsDialog_addFirstNamesCheckBox	Add first names or initials of
 CitationStyleSettingsDialog_listFormatUnorderedListRadioButton	Bullets	项目符号
 CitationStyleSettingsDialog_subIndexLeadingTextLabel	Text before :	冒号前的文本：
 BuiltInTemplateConditionId_CustomField4NotEmpty	"Custom field 4" contains data	"自定义字段 4"包含数据
-ComponentPartCannotBeEditedSinceParentReferenceTypeIsMissing	This component cannot be edited here because it expects a parent reference type (for example, "Contribution" in an "Edited book"). The current reference type "{0}", however, does not have a parent reference type.	无法在此处编辑此组件，因为它需要父级参考文献类型(例如"编著图书"中的"章节")。但当前文献类型"{0}"没有父级参考文献类型。
+ComponentPartCannotBeEditedSinceParentReferenceTypeIsMissing	This component cannot be edited here because it expects a parent reference type (for example, "Contribution" in an "Edited book"). The current reference type "{0}", however, does not have a parent reference type.	无法在此处编辑此组件，因为它需要父级文献类型(例如"编著图书"中的"章节")。但当前文献类型"{0}"没有父级文献类型。
 PageRangeFieldElementPropertyEditorControl_pageNumberingType	Page numbers	页码
 NumericFieldElementPropertyEditorControl_defaultNumericAbbreviationLabel	Regular ordinals:	规则序数：
 ManageDerivedCitationStylesDialog_messageCitationStyleDerivedInfoExistsOverwrite	The derived citation style '{0}' already exists (identical ID). \r\n\r\nOverwrite?	派生引文样式'{0}'已存在(ID 相同)。 \r\n\r\n是否覆盖？
@@ -242,7 +242,7 @@ ComponentPartPropertyEditorControl2_punctuationBeforeLabel	Punctuation before:	�
 TemplatePanelPlaceholderText	(Drag components here to create a template.)	（将组件拖到此处以创建模板。）
 PersonFieldElementPropertyEditorControl_secondGroupPersonSeparatorLabel	Text between two persons:	两个人名之间的文本：
 BackofficeCitationStyleElementsDialog_cultureLabel	Language:	语言：
-CitationStyleSettingsDialog_indexNumberDefinitionInTextLabel	The format of in-text citations is defined by the templates in the rule set for in-text citations for each reference type. There you can change the reference number format and define whether parentheses or brackets should be used.	文内引用的格式由各参考文献类型“文内引用”规则集中的模板定义。您可以在其中更改参考文献编号格式，并定义使用圆括号还是方括号。
+CitationStyleSettingsDialog_indexNumberDefinitionInTextLabel	The format of in-text citations is defined by the templates in the rule set for in-text citations for each reference type. There you can change the reference number format and define whether parentheses or brackets should be used.	文内引用的格式由各文献类型“文内引用”规则集中的模板定义。您可以在其中更改参考文献编号格式，并定义使用圆括号还是方括号。
 LocationsFieldElementPropertyEditorControl_includeLibraryLocationsCheckBox	Library locations	位置
 PersonFieldElementPropertyEditorControl_groupPrefixSingularLabel	Singular:	单数：
 TemplatePropertyEditorControl_neverUseThisForAmbiguityResolvingCheckBox	Never check any citations with output based on this template for ambiguity.	永不检查任何基于此模板输出的引用的歧义。
@@ -414,7 +414,7 @@ EditTemplateConditionFromServerWarning	This customized template condition is lin
 CitationStyleSettingsDialog_questionMarkDotByQuestionMarkCheckBox	?. > ? — Question mark and period with question mark	?. > ? — 问号以及带问号的句点
 CitationStyleUploadDialog_createdByOnLabel	Created:	创建于：
 BuiltInTemplateConditionId_EditionIsNumeric	"{0}" is a numeric field	“{0}”是数字字段
-TemplatePropertyEditorControl_alwaysUseThisForAmbiguityResolvingCheckBox	Also check all citations of this reference type and ruleset for ambiguity based on the output of this template.	还基于此模板的输出检查此参考文献类型和规则集的所有引用的歧义。
+TemplatePropertyEditorControl_alwaysUseThisForAmbiguityResolvingCheckBox	Also check all citations of this reference type and ruleset for ambiguity based on the output of this template.	还基于此模板的输出检查此文献类型和规则集的所有引用的歧义。
 PageRangeFieldElementPropertyEditorControl_pageRangeFormattingTwoGroupBox	Use different formatting if the range is exactly 2 pages	如果范围恰好为 2 页，则使用不同的格式
 IndexInBibliographyFieldElementPropertyEditorControl_mainIndexTextAfterLabel	Text after:	后置文本：
 CitationStyleSettingsDialog_currentCitaviVersionLabel	Current Citavi version	当前 Citavi 版本
@@ -577,7 +577,7 @@ PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputCaptionLabel	�
 PersonFieldElementPropertyEditorControl_firstGroupLastPersonSeparatorLabel	Text before last person:	最后一位人员之前的文本：
 BackOfficeCitationStyleElementsDialog_FormText_ComponentPart	Components from the Citavi server	来自 Citavi 服务器的组件
 CitationStyleSettingsDialog_bibliographyCustomizeSortMacroButton	Program…	编程…
-ComponentPartEditorControl_referenceTypePanel_Caption	Reference types	参考文献类型
+ComponentPartEditorControl_referenceTypePanel_Caption	Reference types	文献类型
 NumericFieldElementPropertyEditorControl_textPrefixFontStyleGroupBox	Style for: Text prefix	样式用于：文本前缀
 PeriodicalFieldElementPropertyEditorControl_periodicalNameUsageLabel	Use name or abbreviation:	使用名称或缩写：
 BuiltInTemplateConditionId_AuthorsEqualEditors	Authors of reference are the same as its editors (or its parent's editors)	文献的作者与其编者（或其父级文献的编者）相同

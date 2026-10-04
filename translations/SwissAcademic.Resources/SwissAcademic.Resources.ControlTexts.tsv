@@ -866,7 +866,7 @@ FileDialog_copyRadioButton_Files	Copy into the Citavi project	复制到 Citavi �
 LicenseDialog_supportCodeCopyToClipboardLabel	Copy to Clipboard	复制到剪贴板
 CitationStyleFavoriteDialog_resultsTitleLabel	Results	结果
 BackgroundTaskDialog_statusBarPanelUnsafedChanges	{0} unsaved changes. Do not close Citavi.	{0} 项未保存的更改。请勿关闭 Citavi。
-ChooseReferenceDialog_instructionLabel_AssignIndirectQuotationToReference	Assign the new indirect quotation to a reference.	将新的间接引语分配给文献。
+ChooseReferenceDialog_instructionLabel_AssignIndirectQuotationToReference	Assign the new indirect quotation to a reference.	将新的间接引文分配给文献。
 OptionsDialog_publicationAssistantKnowledgeItemDoubleClickActionLabel	… knowledge item:	…知识条目：
 KnowledgeItemTextForm_pageRangeLabel	Page range:	页码范围：
 KeyItemConfigurationDialog_periodicalFallbackCheckBox	Fall back to next available name	回退到下一个可用名称
@@ -1019,7 +1019,7 @@ KnowledgeItemsWithNoCategory	Knowledge items without categories	无分类的知�
 BibliographyGroupingForm_AllKeywords	All keywords with their references	所有关键词及其文献
 Criterias_ApplyButton	Apply as selection	作为选择应用
 ParagraphFormatControl_indentationGroupBox	Indentation	缩进
-ProofingToolsDialog_defaultSpellCheckCultureLabel	Default spell check language for new quotations, abstracts, etc.:	新引语、摘要等的默认拼写检查语言：
+ProofingToolsDialog_defaultSpellCheckCultureLabel	Default spell check language for new quotations, abstracts, etc.:	新引文、摘要等的默认拼写检查语言：
 PublicationAssistantPreview_noValidBitmap	The file "{0}" cannot be displayed in the LaTex Assistant preview.	文件“{0}”无法在 LaTex Assistant 预览中显示。
 BackgroundTasksDialog_ShowProtocoll	Show activity log	显示活动日志
 ProjectPropertiesDialog_showInExplorerLabel	Open folder in Windows Explorer	在 Windows 资源管理器中打开文件夹
@@ -1068,7 +1068,7 @@ ParagraphFormatControl_spacingBeforeLabel	Before:	之前：
 CopyProjectDialog_sqliteProjectDescriptionLabel_Disabled	Your system adminstrator has configured Citavi in such a way that you cannot create local projects.	您的系统管理员对 Citavi 进行了配置，使您无法创建本地项目。
 AddOnsForm_installAddOnButton	Install	安装
 KnowledgeItemSmartRepeaterRow_OpenInWindow_ToolTipText	Open in window	在窗口中打开
-NumberOfQuotationsLabelNone	No quotations	无引语
+NumberOfQuotationsLabelNone	No quotations	无引文
 PageSetupControl_orientationGroupBox	Orientation	方向
 PrepareProjectForCloudUploadDialog_Title_Settings	Save a copy as cloud project	将副本另存为云项目
 SearchForm_fieldLabel	Search field	检索字段
@@ -1443,7 +1443,7 @@ SplitKeywordsDialog_spaceCheckBox	Space	空格
 SortKnowledgeItemsForm_titleLabel	Sort knowledge items	排序知识条目
 MassReferenceIdentifierDownloadDialog_customizeOpacLabel	Customize this list…	自定义此列表…
 BibliographyGroupingEditor_PublisherAll_None	References without publisher	无出版社的参考文献
-AddOnsForm_installedAddOnAdminLabel	This AddOn was installed by your Administrator and cannot be changed.	此插件由管理员安装，无法更改。
+AddOnsForm_installedAddOnAdminLabel	This AddOn was installed by your Administrator and cannot be changed.	此加载项由管理员安装，无法更改。
 NavigationPaneCollapsedGroupArea_ToolTipText_ReferenceEditor	Click to expand the Reference list pane.	单击展开参考文献列表面板。
 CopyProjectDialog_cloudProjectShareProjectCheckBox	Share after project creation.	项目创建后共享。
 HelpInformationForm_deleteHelpFile1Button	Delete…	删除…
@@ -1466,7 +1466,7 @@ OpenUrlFavoriteDialog_nothingFoundLabel	No results match the above criteria.	没
 KeyItemConfigurationDialog_periodicalAbbreviation2RadioButton	Abbreviation 2	缩写 2
 CloudProjectMembersDialog_Grid_Email	Email address	电子邮件地址
 CitationStyleFavoriteDialog_criteriaLabel	Name:	名称：
-HelpInformationForm_referenceTypeLabel	Name of reference type:	参考文献类型名称：
+HelpInformationForm_referenceTypeLabel	Name of reference type:	文献类型名称：
 SearchForm_quickSearchMatchWholeWordCheckBox	Whole words only	仅全字匹配
 ReferenceGridColumnsForm_hideButton	Remove	移除
 KnowledgeItemFileForm_pageRangeLabel	Page range:	页码范围：
@@ -1694,7 +1694,7 @@ LocationForm_localUriLabel	Local file:	本地文件：
 SortReferencesCustomDialog_sort5DescendingRadioButton	descending	降序
 PrepareProjectForCloudUploadDialog_projectCloseInfoLabel	This project will be closed. During the upload you can continue working on another Citavi project or upload another project to the cloud.	此项目将关闭。上传期间，您可以继续处理另一个 Citavi 项目，或将另一个项目上传到云。
 ShortTitleDialog_titleLabel	Which short title do you want to use for this reference?	您想为此参考文献使用哪个短标题？
-ReferenceTypeSelectionDialog_referenceTypesListLabel	All reference types (reference types already used appear in <b>bold</b>)	所有参考文献类型（已使用的参考文献类型以<b>粗体</b>显示）
+ReferenceTypeSelectionDialog_referenceTypesListLabel	All reference types (reference types already used appear in <b>bold</b>)	所有文献类型（已使用的文献类型以<b>粗体</b>显示）
 TransformerFavoriteDialogEx_countLabel	Available online: {0}	可在线获取：{0}
 OrderedListDialog_leadingTextFontStyleLabel	Style for prefix:	前缀样式：
 WelcomeWizardDialog_convertProjectsSelectionSkipTitleInfoLabel	No projects will be converted for use in Citavi 6 (not recommended). You can convert individual projects later on.	不会转换任何项目以用于 Citavi 6（不推荐）。您可以稍后转换单个项目。
@@ -1720,7 +1720,7 @@ CitationStyleFavoriteDialog_citationSystemLabel	Citation system:	引文系统：
 OptionsImportExportDialog_exportTagDefinitionCheckBox	Import filters	导入筛选器
 TabMore_Tasks	Tasks	任务
 BibliographyGrouping_CustomField5All_None	(Without Custom field 5)	（无自定义字段 5）
-HelpInformationForm_customHelpFile1Label	Help Context-Reference Type.Language:	帮助上下文-参考文献类型.语言：
+HelpInformationForm_customHelpFile1Label	Help Context-Reference Type.Language:	帮助上下文-文献类型.语言：
 ParagraphFormatDialog_keepWithNextCheckBox	Keep paragraphs together	段落不分页
 ImportExportWizard_titleLabel	Select the format you want to export to:	选择要导出为的格式：
 OpenUrlSelectionDialog_titleLabel	OpenURL selection	OpenURL 选择
@@ -1742,7 +1742,7 @@ CitationStyleListDialogEx_InputLabel	  Name:	  名称：
 UltraGridColumnChooser_allColumnsLabel	All columns:	所有列：
 FontStyleEditorControl_punctuationAfterFontStyleGroupBox	Style for: Punctuation after	样式：后置标点
 MainForm_groupsLabel	Groups	组
-HelpInformationForm_citaviHelpFile1Label	Help Context-Reference Type.Language:	帮助上下文-参考文献类型.语言：
+HelpInformationForm_citaviHelpFile1Label	Help Context-Reference Type.Language:	帮助上下文-文献类型.语言：
 BibliographyGrouping_SeriesTitleAll	All series titles	所有丛书标题
 OptionsDialog_directImportCheckBox	Enable direct import	启用直接导入
 SortReferencesCustomDialog_sortLabel2	Then by:	然后按：
@@ -1755,7 +1755,7 @@ SaveProjectAsNewDesktopLocalProject_Progress_CreateProjectFolders	Creating folde
 CreateBibliographyDialog_annotationTitleLabel	Which information do you want to include?	您想包含哪些信息？
 AssignCategoriesForm_previewLabel	Preview:	预览：
 LicenseDialog_copyLicenseKeyClipboardFailedLabel	Citavi did not find a valid license key on the Clipboard.\r\n\r\nEnter the license key by hand, paying attention to capitalization.	Citavi 在剪贴板中未找到有效的许可证密钥。\r\n\r\n请手动输入许可证密钥，注意大小写。
-ReferenceTypeSelectionDialog_referenceTypesLabel	Choose reference type	选择参考文献类型
+ReferenceTypeSelectionDialog_referenceTypesLabel	Choose reference type	选择文献类型
 CitationStyleFavoriteDialog_availableLabel2	Custom styles:	自定义样式：
 ProjectPropertiesDialog_attachmentsFolderDriveMissing	The drive {0} is currently unavailable. The default path will be used instead:	驱动器 {0} 当前不可用。将改用默认路径：
 BibliographyCompositionEditorForm_titleLabel	Customize overview	自定义概览

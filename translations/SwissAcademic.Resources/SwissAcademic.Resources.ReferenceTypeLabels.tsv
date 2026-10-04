@@ -183,7 +183,7 @@ PressRelease_AccessDate	Access date	访问日期
 CourtDecision_Title	Short description	简短描述
 Unknown_PlaceOfPublication	Place of publication	出版地
 Thesis	Thesis	学位论文
-BookEdited_HelpText	<p>A single or multi-volume work with discrete contributions from various authors which is compiled by one or more editors. Includes dictionaries and encyclopedias.</p><p></p><p>An edited book which does not have a publisher should added with the <strong>Report or Gray Literature</strong> reference type.</p><p></p>	<p>由一位或多位编辑汇编的单卷或多卷著作，包含来自不同作者的独立篇章。包括词典和百科全书。</p><p></p><p>没有出版社的编著图书应使用<strong>报告或灰色文献</strong>参考文献类型添加。</p><p></p>
+BookEdited_HelpText	<p>A single or multi-volume work with discrete contributions from various authors which is compiled by one or more editors. Includes dictionaries and encyclopedias.</p><p></p><p>An edited book which does not have a publisher should added with the <strong>Report or Gray Literature</strong> reference type.</p><p></p>	<p>由一位或多位编辑汇编的单卷或多卷著作，包含来自不同作者的独立篇章。包括词典和百科全书。</p><p></p><p>没有出版社的编著图书应使用<strong>报告或灰色文献</strong>文献类型添加。</p><p></p>
 CollectedWorks_SeriesTitle	Series title	系列标题
 MusicTrack_Authors	Composer	作曲家
 ArchiveMaterial_Organizations	Archive	档案馆
@@ -452,7 +452,7 @@ Standard_OnlineAddress	Online address	在线地址
 Standard_Date	Date of issue	发布日期
 Lecture_TitleSupplement	Title supplement	标题补充
 ConferenceProceedings_PlaceOfPublication	Place of publication	出版地
-CollectedWorks_HelpText	<p>A selected or complete collection of the work of an author in one or more volumes. This can range from a small anthology of fiction to a collection of an author's scholarly writings, or to a historical-critical edition of the complete works of an author. </p><p></p><p></p><p>To cite a single work from a collected work, use the <strong>Contribution</strong> reference type.</p>	<p>一位作者的选集或全集，分为一卷或多卷。范围可以从小型小说选集到某位作者的学术著作集，或某位作者全集的历史校勘版。</p><p></p><p></p><p>要引用文集中的单篇作品，请使用<strong>贡献</strong>参考文献类型。</p>
+CollectedWorks_HelpText	<p>A selected or complete collection of the work of an author in one or more volumes. This can range from a small anthology of fiction to a collection of an author's scholarly writings, or to a historical-critical edition of the complete works of an author. </p><p></p><p></p><p>To cite a single work from a collected work, use the <strong>Contribution</strong> reference type.</p>	<p>一位作者的选集或全集，分为一卷或多卷。范围可以从小型小说选集到某位作者的学术著作集，或某位作者全集的历史校勘版。</p><p></p><p></p><p>要引用文集中的单篇作品，请使用<strong>贡献</strong>文献类型。</p>
 Unknown_StorageMedium	Medium	存储介质
 UnpublishedWork_OnlineAddress	Online address	在线地址
 LegalCommentary_TitleSupplement	Title supplement	标题补充
