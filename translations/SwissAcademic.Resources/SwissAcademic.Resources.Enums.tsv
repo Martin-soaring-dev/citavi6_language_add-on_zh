@@ -11,7 +11,7 @@ FontStyle_SmallCaps	Small caps	小型大写字母
 LinkedResourceType_AttachmentFile	Citavi attachment (local)	Citavi 附件(本地)
 StyleFinderFullReferenceJournalArticleTitleFormat_Neutral	Plain	纯文本
 Pagination_Annually	By volume	按卷
-ImportFieldType_PrivateCollectionItemCallNumber	Private Collection: Call number	私人收藏:索书号
+ImportFieldType_PrivateCollectionItemCallNumber	Private Collection: Call number	私人收藏：索书号
 VirtualSearchFieldType_PersonFields	Person fields	个人字段
 StyleFinderFullReferenceJournalArticleJournalNameFormat_Indifferent	Any	任意
 KnownTaskName_Discuss	Discuss	讨论
@@ -20,11 +20,11 @@ StyleFinderFullReferenceAuthorsLastNameFontStyle_SmallCaps	Small caps	小型大�
 SearchInContext_KeywordList	In the keywords list	在关键词列表中
 ImportReferenceType_AudioBook	Audio book	有声书
 SearchAttributeType_Title	Title	标题
-FullTextExtractionResult_CannotOpenPdf	The PDF file could not be opened is likely corrupted.	无法打开 PDF 文件,文件可能已损坏。
+FullTextExtractionResult_CannotOpenPdf	The PDF file could not be opened is likely corrupted.	无法打开 PDF 文件，文件可能已损坏。
 VirtualSearchFieldType_StandardAbbreviation	Abbreviation 1 (Series and Periodicals)	缩写 1(丛书和期刊)
 Z3950ExceptionType_ConnectionInitRejected	Login failed	登录失败
 ImportFieldType_CreatedBy	Created	创建时间
-ShowMainIndexNumbersInMultipleCitation_Always	Always, e.g. [1a, 1b] or [1a, 1b, 2a-2c]	始终,例如 [1a, 1b] 或 [1a, 1b, 2a-2c]
+ShowMainIndexNumbersInMultipleCitation_Always	Always, e.g. [1a, 1b] or [1a, 1b, 2a-2c]	始终，例如 [1a, 1b] 或 [1a, 1b, 2a-2c]
 ImportReferenceType_ContributionInBookEdited	Contribution	贡献
 StyleFinderFullReferenceBookTitleFormat_Neutral	Plain	纯文本
 KnownTaskName_Read	Read	阅读
@@ -55,12 +55,12 @@ SearchResultGroupType_Periodicals	Periodicals	期刊
 ImportFieldMappingTag_Pages	page|pages	
 SearchAttributeType_BlissClassification	Bliss classification	Bliss 分类法
 ImportFieldMappingTag_Title	title	标题
-StyleFinderShortCitationSystem_CitationKey	Citation key, e.g. [Smi08]	引文键,例如 [Smi08]
+StyleFinderShortCitationSystem_CitationKey	Citation key, e.g. [Smi08]	引文键，例如 [Smi08]
 VirtualSearchFieldType_CreatedOrModifiedBy	Created or modified by	创建或修改者
 VirtualSearchFieldType_CreatedOrModifiedOn	Created or modified on	创建或修改时间
 VirtualSearchFieldType_ReferenceTasks	Reference tasks	文献任务
 ImportFieldMappingTag_Notes	note|notes	
-ImportFieldType_OthersInvolvedLastName	Other persons: Last name	其他人员:姓氏
+ImportFieldType_OthersInvolvedLastName	Other persons: Last name	其他人员：姓氏
 VirtualSearchFieldType_Keywords	Keywords (all)	关键词(全部)
 StyleFinderFullReferenceBookUsesPublisher_Yes	Yes	是
 SearchAttributeType_CodeInstitution	Institution (code)	机构(代码)
@@ -69,13 +69,13 @@ VirtualSearchFieldType_Number	Number	编号
 AddressableTextEditor_Word	Microsoft Word	Microsoft Word
 Sex_Neutral	Neutral	中性
 TaskStatus_WaitingToRun	Waiting for processing	等待处理
-ImportFieldType_LocationCallNumber	Location: Call number	位置:索书号
-PersonNameOrder_LastNameFirstName	Last name, first name ("Doe, John Mike")	姓,名 ("Doe, John Mike")
+ImportFieldType_LocationCallNumber	Location: Call number	位置：索书号
+PersonNameOrder_LastNameFirstName	Last name, first name ("Doe, John Mike")	姓，名 ("Doe, John Mike")
 InformationProviderType_Library	Libraries	图书馆
 KnowledgeItemFilterTypeInternal_All	All knowledge items	所有知识条目
 NameFormat_Compact	Compact ("JM")	紧凑 ("JM")
 PersonNameSequence_LastnameFirstnameWithComma	Last name, first name	姓，名
-StyleFinderShortCitationSystem_ReferenceNumbers	Reference numbers, e.g. [14]	参考文献编号,例如 [14]
+StyleFinderShortCitationSystem_ReferenceNumbers	Reference numbers, e.g. [14]	参考文献编号，例如 [14]
 VirtualSearchFieldType_ElectronicLocations	Locations (electronic)	位置(电子)
 NumeralSystem_LetterUpperCase	Uppercase letters	大写字母
 StyleFinderPlaceOfReferences_Indifferent	Any	任意
@@ -87,7 +87,7 @@ VirtualSearchFieldType_LastName	Last name	姓氏
 VirtualSearchFieldType_TitleFields	Title fields	标题字段
 FullTextExtractionResult_ErrorWhileExtractingIFilterText	An error occurred during extraction.	提取过程中发生错误。
 FullTextExtractionResult_EPubIsDrmProtected	The ePub file is protected by DRM. The text could not be extracted.	ePub 文件受 DRM 保护。无法提取文本。
-ImportFieldType_QuotationTextRtf	Quotation: Text (RTF)	引文:文本 (RTF)
+ImportFieldType_QuotationTextRtf	Quotation: Text (RTF)	引文：文本 (RTF)
 SearchAttributeType_PASubject	PA subject	PA 主题
 VirtualSearchFieldType_ParentReference	Parent reference	父参考文献
 StyleFinderRepeatingNonConsecutiveFootnoteCitation_Full	As a full reference	作为完整参考文献
@@ -98,7 +98,7 @@ DbServerLicenseType_ConcurrentReader	Concurrent Reader	并发读者
 VirtualSearchFieldType_Cover	Cover art	封面图片
 VirtualSearchFieldType_Date2	Date2	Date2
 SearchAttributeType_LCSubjectHeading	LC subject heading	LC 主题词
-StyleFinderFullReferenceJournalArticleJournalNameFormat_AbbreviatedNameItalics	Abbreviated name, italicized	缩写名称,斜体
+StyleFinderFullReferenceJournalArticleJournalNameFormat_AbbreviatedNameItalics	Abbreviated name, italicized	缩写名称，斜体
 VirtualSearchFieldType_State	Status	状态
 VirtualSearchFieldType_Title	Title	标题
 VirtualSearchFieldType_Tasks	Tasks	任务
@@ -165,7 +165,7 @@ VirtualSearchFieldType_UniformTitle	Uniform title	统一题名
 FontStyle_AllCaps	All caps	全部大写
 FileNameSeparator_Period	Period	句号
 StyleFinderRepeatingNonConsecutiveFootnoteCitation_Indifferent	Any	任意
-LOBExceptionType_OnlineOrderNotPossibleNoInternetConnection	The order cannot be processed because your computer does not have an active connection to the Internet.	由于您的计算机没有活动的互联网连接,无法处理该订单。
+LOBExceptionType_OnlineOrderNotPossibleNoInternetConnection	The order cannot be processed because your computer does not have an active connection to the Internet.	由于您的计算机没有活动的互联网连接，无法处理该订单。
 TaskPlannerQuickFilter_Custom	Selected tasks	所选任务
 SearchAttributeType_LocationCallNumber	Call number	索书号
 AdobeAcrobatFileImport	PDF file import	PDF 文件导入
@@ -511,7 +511,7 @@ UserDataFolderState_UnknownState	Citavi startup cannot continue because the fold
 SearchAttributeType_Editor	Editor	编辑
 VirtualSearchFieldType_YearResolved	Year derived	年份(推导)
 VirtualSearchFieldType_TaskFields	Task fields	任务字段
-StyleFinderShortReferenceType_CitationKey	Citation key, e.g. [Smi08]	引文键,例如 [Smi08]
+StyleFinderShortReferenceType_CitationKey	Citation key, e.g. [Smi08]	引文键，例如 [Smi08]
 RuleSetType_Footnote	Footnote	脚注
 ProjectDbPermission_Unknown	Unknown	未知
 ColorScheme_Brown	Purple	紫色
@@ -865,7 +865,7 @@ OptimizeForSlowDatabaseAccess_Never	Never	从不
 DbServerLicenseType_Concurrent	Concurrent	并发
 SearchAttributeType_Abstract	Abstract	摘要
 KnownTaskName_GoThroughBibliography	Go through bibliography	浏览文献目录
-StyleFinderShortReferenceType_ReferenceNumbers	Reference numbers, e.g. [14]	参考文献编号,例如 [14]
+StyleFinderShortReferenceType_ReferenceNumbers	Reference numbers, e.g. [14]	参考文献编号，例如 [14]
 KnowledgeItemCompositionReferenceHandling_OmitReference	Omit reference	省略文献
 ElementApplyCondition_PreviousAndNextElementsHaveData	Both previous and following elements contain data	前一个和后一个元素均包含数据
 PeriodicalNameUsage_UserAbbreviation2	Abbreviation 3	缩写 3

@@ -2,7 +2,7 @@ LyX_InsertPlaceholderAsFootnote	Insert in LyX as footnote with {0}	以脚注形�
 LaTeXNumberingTypeMargin	no.|nos.	
 WinShell_InsertPlaceholder	Insert in WinShell with {0}	插入 WinShell，使用 {0}
 TeXstudio_InsertKnowledgeItem	Insert in TeXstudio with {0}	插入 TeXstudio，使用 {0}
-LyX_InsertKnowledgeItemAsFootnote	Insert in LyX as footnote with {0}	以脚注形式插入 LyX，使用 {0}
+LyX_InsertKnowledgeItemAsFootnote	Insert in LyX as footnote with {0}	使用 {0} 以脚注形式插入到 LyX 中
 TeXworks_InsertKnowledgeItem	Insert in TeXworks with {0}	插入 TeXworks，使用 {0}
 WinTeX_InsertKnowledgeItemAsFootnote	Insert in WinTeX as footnote with {0}	以脚注形式插入 WinTeX，使用 {0}
 WinShell_InsertKnowledgeItem	Insert in WinShell with {0}	插入 WinShell，使用 {0}
@@ -16,7 +16,7 @@ TeXMaker_InsertPlaceholder	Insert in Texmaker with {0}	插入 Texmaker，使用 
 TeXstudio_InsertPlaceholderAsFootnote	Insert in TeXstudio as footnote with {0}	以脚注形式插入 TeXstudio，使用 {0}
 WinShell_InsertKnowledgeItemAsFootnote	Insert in WinShell as footnote with {0}	以脚注形式插入 WinShell，使用 {0}
 TeXnicCenter_InsertKnowledgeItemAsFootnote	Insert in TeXnicCenter as footnote with {0}	以脚注形式插入 TeXnicCenter，使用 {0}
-LyX_InsertPlaceholder	Insert in LyX with {0}	插入 LyX，使用 {0}
+LyX_InsertPlaceholder	Insert in LyX with {0}	使用 {0} 插入到 LyX 中
 WinEdt_InsertKnowledgeItemAsFootnote	Insert in WinEdt as footnote with {0}	以脚注形式插入 WinEdt，使用 {0}
 TeXstudio_InsertKnowledgeItemAsFootnote	Insert in TeXstudio as footnote with {0}	以脚注形式插入 TeXstudio，使用 {0}
 LEd_InsertPlaceholderAsFootnote	Insert in LEd as footnote with {0}	以脚注形式插入 LEd，使用 {0}

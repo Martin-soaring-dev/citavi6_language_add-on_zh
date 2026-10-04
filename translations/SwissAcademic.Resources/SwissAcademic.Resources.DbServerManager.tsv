@@ -13,13 +13,13 @@ DbServerManager_ProjectImport_SameTargetDirectoryForAttachments	The Attachments 
 DbServerManager_DatabaseNotAvailable	Database "{0}" on {1} is not available	{1} 上的数据库“{0}”不可用
 DbServerManager_SaveDatabase	Save DBServer Manager connection file	保存 DBServer Manager 连接文件
 EmailNotificationType_Error	Error messages only	仅错误消息
-DbServerManager_AddAdUser_Failed	The following error occurred while adding the user "{0}": {1}	添加用户“{0}”时发生以下错误:{1}
-DbServerManager_Wizard_DataConnectionRunsOtherInfo	If the SQL server is running on another computer, make sure that connections to the SQL server are allowed there (firewall configuration). If you are not sure, start the DBServer Manager on the computer the SQL server is running on.	如果 SQL 服务器在另一台计算机上运行,请确保该处允许连接到 SQL 服务器(防火墙配置)。如果不确定,请在运行 SQL 服务器的计算机上启动 DBServer Manager。
-DbServerManager_RemoveSchema	Are you sure you want to delete this project?	确实要删除此项目吗?
+DbServerManager_AddAdUser_Failed	The following error occurred while adding the user "{0}": {1}	添加用户“{0}”时发生以下错误：{1}
+DbServerManager_Wizard_DataConnectionRunsOtherInfo	If the SQL server is running on another computer, make sure that connections to the SQL server are allowed there (firewall configuration). If you are not sure, start the DBServer Manager on the computer the SQL server is running on.	如果 SQL 服务器在另一台计算机上运行，请确保该处允许连接到 SQL 服务器(防火墙配置)。如果不确定，请在运行 SQL 服务器的计算机上启动 DBServer Manager。
+DbServerManager_RemoveSchema	Are you sure you want to delete this project?	确实要删除此项目吗？
 DbServerManager_Wizard_EmptyProjectIsAvailable	A project with the name "{0}" is already in the database. 	数据库中已存在名为“{0}”的项目。
 DbServerManager_ChangeProjectName	Change project name	更改项目名称
-DbServerManager_AskUserForGroupPermissionChanging	Warning: You are about to change permissions for a Windows group in which you are also a member.\r\n\r\nDo you want to continue?	警告:您即将更改您所属的 Windows 组的权限。\r\n\r\n是否继续?
-DbServerManager_BackupConfig_Receiver	Recipient:	收件人:
+DbServerManager_AskUserForGroupPermissionChanging	Warning: You are about to change permissions for a Windows group in which you are also a member.\r\n\r\nDo you want to continue?	警告：您即将更改您所属的 Windows 组的权限。\r\n\r\n是否继续？
+DbServerManager_BackupConfig_Receiver	Recipient:	收件人：
 DbServerManager_BackupConfig_EmailNotification	Notification by email	通过电子邮件通知
 DbServerManager_LicenceFullConsumed	All per-seat licenses are already assigned.	所有单席位许可证均已分配。
 DbServerManager_BackupConfig_Inform	Inform	通知
@@ -35,21 +35,21 @@ DbServerManager_Wizard_Licence	License	许可证
 DbServerManager_Setup_SetupFinished	Setup complete	安装完成
 DbServerManager_Setup_DisableSALogin_Failed	Disabling SA login failed	禁用 SA 登录失败
 DbServerManager_ConvertC5Db_NoRightsInfo	You do not have the permissions needed to perform conversion.	您没有执行转换所需的权限。
-DbServerManager_ProjectHasRelativePathes	This project uses relative paths. Relative paths are not adjusted when you import the project into the DBServer.\r\n\r\nTo change relative paths in Citavi after the import, click  "File > Project properties > Paths > Repair paths".\r\n\r\nDo you want to continue?	此项目使用相对路径。将项目导入 DBServer 时不会调整相对路径。\r\n\r\n要在导入后在 Citavi 中更改相对路径,请单击“文件 > 项目属性 > 路径 > 修复路径”。\r\n\r\n是否继续?
-DbServerManager_CancelProcess	Do you really want to cancel?	确实要取消吗?
+DbServerManager_ProjectHasRelativePathes	This project uses relative paths. Relative paths are not adjusted when you import the project into the DBServer.\r\n\r\nTo change relative paths in Citavi after the import, click  "File > Project properties > Paths > Repair paths".\r\n\r\nDo you want to continue?	此项目使用相对路径。将项目导入 DBServer 时不会调整相对路径。\r\n\r\n要在导入后在 Citavi 中更改相对路径，请单击“文件 > 项目属性 > 路径 > 修复路径”。\r\n\r\n是否继续？
+DbServerManager_CancelProcess	Do you really want to cancel?	确实要取消吗？
 DbServerManager_Wizard_DataConnectionHeader3	Registration	注册
 DbServerManager_Wizard_DataConnectionHeader2	Instance	实例
 DbServerManager_Wizard_DataConnectionHeader1	Connection to Microsoft SQL server	连接到 Microsoft SQL 服务器
-DbServerManager_FullTextSearchConfig_InstallationFailed	The installation failed. Error:\r\n\r\n{0}\r\n\r\nPlease contact the Citavi Support team.	安装失败。错误:\r\n\r\n{0}\r\n\r\n请联系 Citavi 支持团队。
-DbServerManager_InputProtectedProjectCredentials	Project credentials:	项目凭据:
-QuestionTracingActivated	Citavi DBServer Manager will now start creating an activity log. Logging will stop automatically when you close Citavi. To let you know what we find, we will need your email address and the error log number (session ID). Thank you!	Citavi DBServer Manager 现在将开始创建活动日志。关闭 Citavi 时日志记录将自动停止。为了告知您我们的发现,我们需要您的电子邮件地址和错误日志编号(会话 ID)。谢谢!
+DbServerManager_FullTextSearchConfig_InstallationFailed	The installation failed. Error:\r\n\r\n{0}\r\n\r\nPlease contact the Citavi Support team.	安装失败。错误：\r\n\r\n{0}\r\n\r\n请联系 Citavi 支持团队。
+DbServerManager_InputProtectedProjectCredentials	Project credentials:	项目凭据：
+QuestionTracingActivated	Citavi DBServer Manager will now start creating an activity log. Logging will stop automatically when you close Citavi. To let you know what we find, we will need your email address and the error log number (session ID). Thank you!	Citavi DBServer Manager 现在将开始创建活动日志。关闭 Citavi 时日志记录将自动停止。为了告知您我们的发现，我们需要您的电子邮件地址和错误日志编号(会话 ID)。谢谢！
 DbServerManager_DatabaseAssistent	Citavi database assistant	Citavi 数据库助手
 DbServerManager_Wizard_WelcomeHeader	Welcome to the Citavi DBServer Manager	欢迎使用 Citavi DBServer Manager
 DbServerManager_Wizard_InvalidDatabase	The selected database name "{0}" is not compatible. Please choose a new name.	所选数据库名称“{0}”不兼容。请选择新名称。
-DbServerManager_ProjectImport_UnvalidCharactersInName	The DBServer project name contains the following invalid characters:	DBServer 项目名称包含以下无效字符:
+DbServerManager_ProjectImport_UnvalidCharactersInName	The DBServer project name contains the following invalid characters:	DBServer 项目名称包含以下无效字符：
 DbServerManager_LicenseCombinationNotAllowed_Text	This license combination is not allowed. Please contact	不允许此许可证组合。请联系
-DbServerManager_FullTextSearchConfig_FullTextExtractionOverview	Full text extraction overview:	全文提取概览:
-DbServerManager_PreDropDatabaseRequest	If you continue, the database "{0}" and ALL projects saved in it will be deleted. \r\n\r\nDo you want to continue?	如果继续,数据库“{0}”以及其中保存的所有项目都将被删除。\r\n\r\n是否继续?
+DbServerManager_FullTextSearchConfig_FullTextExtractionOverview	Full text extraction overview:	全文提取概览：
+DbServerManager_PreDropDatabaseRequest	If you continue, the database "{0}" and ALL projects saved in it will be deleted. \r\n\r\nDo you want to continue?	如果继续，数据库“{0}”以及其中保存的所有项目都将被删除。\r\n\r\n是否继续？
 DbServerManager_Wizard_Add	Add	添加
 DbServerManager_Setup_ConnectionSqlServer	Connect to Microsoft SQL Server Express…	连接到 Microsoft SQL Server Express…
 DbServerManager_LicenseCombinationNotAllowed_Hyperlink	the Citavi support.	Citavi 支持。
@@ -58,18 +58,18 @@ DbServerManager_Database	Database	数据库
 DbServerManager_Wizard_ExampleProjectIsAvailable	An example project is already in the database.	数据库中已存在一个示例项目。
 DbServerManager_FullTextSearchConfig_SqlServerFullTextNotInstalled	The full text search is not installed on the SQL server.\r\nThe Citavi full text search can only be installed if the SQL server full text search is installed.\r\n\r\n	SQL 服务器上未安装全文搜索。\r\n只有在安装了 SQL 服务器全文搜索的情况下才能安装 Citavi 全文搜索。\r\n\r\n
 DbServerManager_Setup_LogSavingSuccsess	The log was saved successfully.	日志已成功保存。
-DbServerManager_DatabaseInvalidCharacters	The database name contains the following invalid characters:	数据库名称包含以下无效字符:
+DbServerManager_DatabaseInvalidCharacters	The database name contains the following invalid characters:	数据库名称包含以下无效字符：
 DbServerManager_WinFirewall	Windows Firewall	Windows 防火墙
-DbServerManager_BackupConfig_ErrorRaised	The following errors occurred:\r\n\r\n{0}	发生以下错误:\r\n\r\n{0}
+DbServerManager_BackupConfig_ErrorRaised	The following errors occurred:\r\n\r\n{0}	发生以下错误：\r\n\r\n{0}
 DbServerManager_BackupConfig_RestoreComplete	The information from the database "{0}" was successfully restored in the new database "{1}". 	来自数据库“{0}”的信息已成功还原到新数据库“{1}”中。
-DbServerManager_RemoveLogin	Are you sure you want to remove the user "{0}"?	确实要移除用户“{0}”吗?
+DbServerManager_RemoveLogin	Are you sure you want to remove the user "{0}"?	确实要移除用户“{0}”吗？
 DbServerManager_ServerNeedReLogin	The server "{0}" requires a new login	服务器“{0}”需要新的登录
-DbServerManager_OpenImportProjectFailed	The project could not be loaded. Repair the project in Citavi and then try again.	无法加载项目。请在 Citavi 中修复项目,然后重试。
+DbServerManager_OpenImportProjectFailed	The project could not be loaded. Repair the project in Citavi and then try again.	无法加载项目。请在 Citavi 中修复项目，然后重试。
 DbServerManager_TestEmailSubject	Citavi DbServer Manager test message	Citavi DbServer Manager 测试消息
 DbServerManager_Setup_ProcessIsRunning	The application can only be closed after the installation process has completed.	只有在安装过程完成后才能关闭应用程序。
 DbServerManager_ConvertWarning_Hyperlink	creating a backup for the database	正在为数据库创建备份
-DbServerManager_LoginMode_ChooseLoginMode	Select server authentication mode:	选择服务器身份验证模式:
-DbServerManager_BackupConfig_RemoveFoundedConfig	Do you also want to delete the corresponding backup configuration?	是否同时删除相应的备份配置?
+DbServerManager_LoginMode_ChooseLoginMode	Select server authentication mode:	选择服务器身份验证模式：
+DbServerManager_BackupConfig_RemoveFoundedConfig	Do you also want to delete the corresponding backup configuration?	是否同时删除相应的备份配置？
 DbServerManager_DropDatabase	Delete database	删除数据库
 DbServerManager_Setup_InputValues2	Enter the instance name you used during the installation of SQL Server Express.	请输入您在安装 SQL Server Express 时使用的实例名称。
 DbServerManager_Details	Details	详细信息
@@ -79,9 +79,9 @@ DbServerManager_Setup_ConfigFirewall	Configure Windows Firewall	配置 Windows �
 DbServerManager_Setup_EmptyInstanceName	The instance name must not be empty	实例名称不能为空
 DbServerManager_DoNotShowAgain	Don't show this again	不再显示此消息
 DbServerManager_ProjectImport_InputAttachmentsPath	Please enter the path for attachments.	请输入附件路径。
-DbServerManager_BackupConfig_SmtpServer	SMTP server:	SMTP 服务器:
-DbServerManager_Setup_CheckInputValues	Please check the following values and then continue the setup.	请检查以下值,然后继续安装。
-DbServerManager_Setup_HintToFirewall	This setup program configures the Windows Firewall so that queries from <b>personal and domain networks</b> to the Citavi SQL Server are possible. If you do not perform the firewall configuration, Citavi for DBServer will only work on the local computer.<br>\r\n\r\nIf you're an experienced Windows administrator or if you have special requirements for the firewall configuration, we recommend using the Windows program "Windows Firewall with Advanced Security".	此安装程序会配置 Windows 防火墙,以便可以从<b>个人和域网络</b>查询 Citavi SQL Server。如果您不执行防火墙配置,Citavi for DBServer 将只能在本地计算机上工作。<br>\r\n\r\n如果您是经验丰富的 Windows 管理员,或者对防火墙配置有特殊要求,我们建议使用 Windows 程序“高级安全 Windows 防火墙”。
+DbServerManager_BackupConfig_SmtpServer	SMTP server:	SMTP 服务器：
+DbServerManager_Setup_CheckInputValues	Please check the following values and then continue the setup.	请检查以下值，然后继续安装。
+DbServerManager_Setup_HintToFirewall	This setup program configures the Windows Firewall so that queries from <b>personal and domain networks</b> to the Citavi SQL Server are possible. If you do not perform the firewall configuration, Citavi for DBServer will only work on the local computer.<br>\r\n\r\nIf you're an experienced Windows administrator or if you have special requirements for the firewall configuration, we recommend using the Windows program "Windows Firewall with Advanced Security".	此安装程序会配置 Windows 防火墙，以便可以从<b>个人和域网络</b>查询 Citavi SQL Server。如果您不执行防火墙配置，Citavi for DBServer 将只能在本地计算机上工作。<br>\r\n\r\n如果您是经验丰富的 Windows 管理员，或者对防火墙配置有特殊要求，我们建议使用 Windows 程序“高级安全 Windows 防火墙”。
 DbServerManager_LicencingDeniedForGroups	Per-seat licenses cannot be assigned to active directory groups.	单席位许可证不能分配给 Active Directory 组。
 DbServerManager_Setup_StartMsSqlSetup	Start Microsoft SQL Server Express Setup…	启动 Microsoft SQL Server Express 安装程序…
 DbServerManager_Welcome	Welcome	欢迎
@@ -90,37 +90,37 @@ DbServerManager_AttachmentFolderMustBeEmpty	The Attachments folder for the targe
 DbServerManager_Wizard_MoreInformations	More information	更多信息
 DbServerManager_Setup_CreatedFirewallRule	Rule for Microsoft SQL Server created	已创建 Microsoft SQL Server 规则
 DbServerManager_LoadDialog	Loading dialog…	正在加载对话框…
-DbServerManager_ChoosePermissionRole	Please select the project permissions:	请选择项目权限:
+DbServerManager_ChoosePermissionRole	Please select the project permissions:	请选择项目权限：
 DbServerManager_Setup_DisableSALogin_Succeded	SA Login is disabled	SA 登录已禁用
 DbServerManager_Setup_Install	Install	安装
 DbServerManager_ConvertC5Db_ReadyInfo	Ready for conversion	已准备好转换
-ConvertToC6Message	The selected database is configured for Citavi 5. If you want to work with this version of the DBServer Manager it needs to be converted first. After the conversion, projects can only be opened with Citavi 6. Do you want to convert the database and all projects now?	所选数据库配置为 Citavi 5。如果要使用此版本的 DBServer Manager,必须先进行转换。转换后,项目只能使用 Citavi 6 打开。是否立即转换数据库和所有项目?
+ConvertToC6Message	The selected database is configured for Citavi 5. If you want to work with this version of the DBServer Manager it needs to be converted first. After the conversion, projects can only be opened with Citavi 6. Do you want to convert the database and all projects now?	所选数据库配置为 Citavi 5。如果要使用此版本的 DBServer Manager,必须先进行转换。转换后，项目只能使用 Citavi 6 打开。是否立即转换数据库和所有项目？
 DbServerManager_CopyLocalProjectToSchema	Import local project	导入本地项目
 DbServerManager_Wizard_Caption	Caption	标题
-DbServerManager_Setup_CancelSetup	Do you really want to cancel the setup?	确实要取消安装吗?
+DbServerManager_Setup_CancelSetup	Do you really want to cancel the setup?	确实要取消安装吗？
 DbServerManager_BackupConfig_DirectoryNotFoundException	The target folder "{0}" was not found.	未找到目标文件夹“{0}”。
 DbServerManager_Setup_CreateFirewallRuleForBrowser	Create rule for Microsoft SQL Browser…	为 Microsoft SQL Browser 创建规则…
-DbServerManager_BackupConfig_BackupFailedMessage	Source: {0}\r\nDatabase: {1}\r\nDate: {2}\r\n\r\nError: \r\n\r\n{3}	源: {0}\r\n数据库: {1}\r\n日期: {2}\r\n\r\n错误: \r\n\r\n{3}
+DbServerManager_BackupConfig_BackupFailedMessage	Source: {0}\r\nDatabase: {1}\r\nDate: {2}\r\n\r\nError: \r\n\r\n{3}	源： {0}\r\n数据库： {1}\r\n日期： {2}\r\n\r\n错误： \r\n\r\n{3}
 DbServerManager_ProjectImport_LoadProject	Loading project…	正在加载项目…
 DbServerManager_Convert	Convert	转换
-DbServerManager_Wizard_LicenceInfo	Would you like to install a license for "Citavi for DBServer"?	是否要为“Citavi for DBServer”安装许可证?
-DbServerManager_AdminRightsException	To use this feature you need to have administrator rights on the local computer. 	要使用此功能,您需要在本地计算机上拥有管理员权限。
+DbServerManager_Wizard_LicenceInfo	Would you like to install a license for "Citavi for DBServer"?	是否要为“Citavi for DBServer”安装许可证？
+DbServerManager_AdminRightsException	To use this feature you need to have administrator rights on the local computer. 	要使用此功能，您需要在本地计算机上拥有管理员权限。
 DbServerManager_CanCreateProjects	Can create projects	可以创建项目
 DbServerManager_Wizard_AddEmptyProjekt	Add empty project	添加空项目
 DbServerManager_AllPermissions	All permissions	所有权限
-DbServerManager_NotValidSqlName	The user name contains the following illegal characters:	用户名包含以下非法字符:
-DbServerManager_ReduceLicenceCount	Before you can delete the license you need to disable {0} enabled licenses.	在删除许可证之前,您需要禁用 {0} 个已启用的许可证。
+DbServerManager_NotValidSqlName	The user name contains the following illegal characters:	用户名包含以下非法字符：
+DbServerManager_ReduceLicenceCount	Before you can delete the license you need to disable {0} enabled licenses.	在删除许可证之前，您需要禁用 {0} 个已启用的许可证。
 DbServerManager_LicenceIsUsedOnDB	The license is already in use on the database "{0}".	该许可证已在数据库“{0}”上使用。
 DbServerManager_ProjectImport_ConvertProject	Convert project…	转换项目…
-DbServerManager_BackupConfig_BackupSuccessMessage	Data source: {0}\r\nDatabase: {1}\r\nDate: {2}\r\n\r\nThe backup completed successfully.	数据源: {0}\r\n数据库: {1}\r\n日期: {2}\r\n\r\n备份已成功完成。
+DbServerManager_BackupConfig_BackupSuccessMessage	Data source: {0}\r\nDatabase: {1}\r\nDate: {2}\r\n\r\nThe backup completed successfully.	数据源： {0}\r\n数据库： {1}\r\n日期： {2}\r\n\r\n备份已成功完成。
 DbServerManager_Wizard_Process_CreateDatabase	Create database "{0}"...	正在创建数据库“{0}”...
 DbServerManager_Setup_RenameSALogin	Renaming SA login…	正在重命名 SA 登录…
-DbServerManager_BackupConfig_RemoveOlderBackupFailed	The backup "{0}" could not be deleted. (Error: "{1}")	无法删除备份“{0}”。(错误:“{1}”)
+DbServerManager_BackupConfig_RemoveOlderBackupFailed	The backup "{0}" could not be deleted. (Error: "{1}")	无法删除备份“{0}”。(错误：“{1}”)
 DbServerManager_Wizard_Link	Link	链接
 DbServerManager_Wizard_Path	Path	路径
 DbServerManager_Wizard_Port	Port	端口
 DbServerManager_Wizard_User	User	用户
-DbServerManager_DefaultAttachmentPath_Label	Default path for project attachments:	项目附件的默认路径:
+DbServerManager_DefaultAttachmentPath_Label	Default path for project attachments:	项目附件的默认路径：
 DbServerManager_SettingsAdmin	Can manage settings	可以管理设置
 DbServerManager_ContinueProcess	Do you want to continue?	是否继续？
 DbServerManager_ManageBackups	Manage backups	管理备份
@@ -208,7 +208,7 @@ DbServerManager_Setup_ReadFirewallConfig	Check Windows Firewall configuration…
 DbServerManager_TheDatabase	the database	数据库
 DbServerManager_ServerName	Server name	服务器名称
 DbServerManager_Setup_AcceptSqlServerLicence	I accept the license terms	我接受许可条款
-DbServerManager_BackupConfig_RemoveBackupConfig	Do you also want to delete the corresponding backup configuration?	是否同时删除相应的备份配置?
+DbServerManager_BackupConfig_RemoveBackupConfig	Do you also want to delete the corresponding backup configuration?	是否同时删除相应的备份配置？
 EmailNotificationType_Always	Always	始终
 DbServerManager_RemoveDataSource	Are you sure you want to remove this data source?	确定要移除此数据源吗？
 DbServerManager_Domain	Domains	域

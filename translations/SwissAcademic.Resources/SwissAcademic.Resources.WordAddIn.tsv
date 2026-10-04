@@ -38,7 +38,7 @@ PublicationPane_MenuItem_Insert	Insert	插入
 PublicationPane_AssignReferenceTitleLabel	Search for reference in the current project:	在当前项目中搜索文献：
 PublicationPane_MenuItem_InsertPlaceholderLocation	Placement	位置
 WordAddInActivedRestartWord	You must restart Word for changes to take effect	必须重启 Word 才能使更改生效
-Ribbon_CitationStyleDropDown	Citation style:	引文样式:
+Ribbon_CitationStyleDropDown	Citation style:	引文样式：
 PublicationStatisticForm_includePublicationRangesCheckBox	Include citations and bibliography	包含引文和参考文献
 PublicationStatisticForm_quotedReferencesLabel	References cited	已引用的文献
 CommandBar_HidePublicationPane	Hide Citavi task pane	隐藏 Citavi 任务窗格

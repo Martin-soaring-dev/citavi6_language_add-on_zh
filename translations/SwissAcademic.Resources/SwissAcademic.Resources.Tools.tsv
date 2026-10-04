@@ -4,7 +4,7 @@ SeriesTitleList_SeriesTitlesMenu	Series	系列
 HelpCitaviOnline	Citavi website	Citavi 网站
 MainForm_Summary_ToolTipTitle	Summary	摘要
 MainForm_CreateTaskList	Print task list…	打印任务列表…
-MainForm_PasteAndSwitchPersonNames	Paste 'first name last name' as 'last name, first name'	将 '名 姓' 粘贴为 '姓, 名'
+MainForm_PasteAndSwitchPersonNames	Paste 'first name last name' as 'last name, first name'	将 '名 姓' 粘贴为 '姓， 名'
 MainForm_PreviewShowCover	Cover art	封面图片
 ViewColumns_ToolTipText	Add, remove, and reorder the columns.	添加、移除和重新排序列。
 RemoveCategoryFromSelectedKnowledgeItems	Remove category "{0}" {1:from the selected knowledge item|from the {1} selected knowledge items}	从{1:所选知识条目|所选的 {1} 个知识条目}中移除分类"{0}"

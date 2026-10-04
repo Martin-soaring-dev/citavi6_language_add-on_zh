@@ -1,6 +1,6 @@
 Connected	Your computer is connected to the Internet.	您的计算机已连接到 Internet。
 WaitingToReconnect	Waiting to reconnect…	正在等待重新连接…
 TryingToReconnect	Attempting to reconnect…	正在尝试重新连接…
-ConnectionAttemptFailed	Connection attempt failed.	连接尝试失败。
+ConnectionAttemptFailed	Connection attempt failed.	尝试连接失败。
 Retry	Retry	重试
-ConnectionLost	Your computer lost its Internet connection.	您的计算机丢失了 Internet 连接。
+ConnectionLost	Your computer lost its Internet connection.	您的计算机已断开 Internet 连接。

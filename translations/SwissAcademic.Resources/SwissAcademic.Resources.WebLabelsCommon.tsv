@@ -26,7 +26,7 @@ NotAllowed	Not allowed.	不允许。
 TeamMembers_ResendInvitation	Resend invitation	重新发送邀请
 ProjectUnauthorized	You are not authorized to view this project's properties	您无权查看此项目的属性
 AnErrorHasOccurred	An error has occurred.	发生错误。
-Months	January,February,March,April,May,June,July,August,September,October,November,December	一月,二月,三月,四月,五月,六月,七月,八月,九月,十月,十一月,十二月
+Months	January,February,March,April,May,June,July,August,September,October,November,December	一月，二月，三月，四月，五月，六月，七月，八月，九月，十月，十一月，十二月
 Manual	Manual	手册
 ContactSupport_Word	Writing with Word	使用 Word 写作
 ContactSupport_AddLabels	Adding labels	添加标签
@@ -92,18 +92,18 @@ MyUniversityMeans	What does "my university" mean?	“我的大学”是什么意
 ImportTitle	Import from other reference management tools	从其他文献管理工具导入
 Offline_NewAttempt	New attempt	重新尝试
 Profile	Profile	个人资料
-EmailAddressIsNotVerified	This email address has been registered but not yet confirmed. Please click the confirmation link in the email we sent you. \r\nNo email? Not even in the Spam folder? <a id="resendVerificationEmailLink">We'll send you a new one!</a>	此电子邮件地址已注册,但尚未确认。请点击我们发送的电子邮件中的确认链接。\r\n没有收到邮件?垃圾邮件文件夹里也没有?<a id="resendVerificationEmailLink">我们会再给您发一封!</a>
-HowToRedeemVoucher	How do I redeem multiple voucher codes?	如何兑换多个优惠券代码?
+EmailAddressIsNotVerified	This email address has been registered but not yet confirmed. Please click the confirmation link in the email we sent you. \r\nNo email? Not even in the Spam folder? <a id="resendVerificationEmailLink">We'll send you a new one!</a>	此电子邮件地址已注册，但尚未确认。请点击我们发送的电子邮件中的确认链接。\r\n没有收到邮件？垃圾邮件文件夹里也没有？<a id="resendVerificationEmailLink">我们会再给您发一封！</a>
+HowToRedeemVoucher	How do I redeem multiple voucher codes?	如何兑换多个优惠券代码？
 CitationKeyType_ShortTitle	Short title	短标题
 Tooltip_YellowHighlight	Highlight text passages without saving as knowledge items.	高亮文本段落但不保存为知识条目。
 PageAlreadyOpenHtml	{0} is open in another browser tab or window. Either <br/><div class='tabbed segoeUiSemibold'>close this tab and go back to the other tab</div><div class='clear'></div>or<div class='clear'></div><div class='tabbed segoeUiSemibold'><a>continue working in this tab.</a></div>	{0} 已在另一个浏览器标签页或窗口中打开。您可以 <br/><div class='tabbed segoeUiSemibold'>关闭此标签页并返回另一个标签页</div><div class='clear'></div>或者<div class='clear'></div><div class='tabbed segoeUiSemibold'><a>继续在此标签页中操作。</a></div>
-WhyLicenseDataNotAccepted	Why is Citavi not accepting my license key?	为什么 Citavi 不接受我的许可证密钥?
+WhyLicenseDataNotAccepted	Why is Citavi not accepting my license key?	为什么 Citavi 不接受我的许可证密钥？
 AttachmentTooLarge	The file exceeds the maximum size of 1.5 MB	文件超过 1.5 MB 的最大大小
 ProjectName	Name	名称
 AskCitaviTeam	Ask a question	提问
 Tooltip_HideSearchInPdf	Hide search panel	隐藏搜索面板
 Comment	Comment	评论
-HowCanWeHelp_1	How can we help?	我们能为您提供什么帮助?
+HowCanWeHelp_1	How can we help?	我们能为您提供什么帮助？
 StartPage	Homepage	主页
 TeamMembers_Invite	Invite	邀请
 Tooltip_ShowCover	Show cover	显示封面
@@ -127,16 +127,16 @@ SystemInformation_Copy	Copy	复制
 ProjectRole_RemoveMember	Remove team member	移除团队成员
 Tooltip_ShowEditGroups	Show or edit groups	显示或编辑组
 Details	Details	详细信息
-AccessDenied	You either entered an incorrect URL or you do not have permission to access this project.<br/><br/><a href="javascript:;" id="manualLogoutLink">Login with a different account</a>	您输入的 URL 不正确,或者您没有访问此项目的权限。<br/><br/><a href="javascript:;" id="manualLogoutLink">使用其他帐户登录</a>
+AccessDenied	You either entered an incorrect URL or you do not have permission to access this project.<br/><br/><a href="javascript:;" id="manualLogoutLink">Login with a different account</a>	您输入的 URL 不正确，或者您没有访问此项目的权限。<br/><br/><a href="javascript:;" id="manualLogoutLink">使用其他账户登录</a>
 FileUpload_CanUploadOnlyOneFile	Only one file can be uploaded at a time.	一次只能上传一个文件。
 NoJavascript	Javascript needs to be enabled on your browser in order to run Citavi Web.	您的浏览器需要启用 Javascript 才能运行 Citavi Web。
 ProjectRoleReaderDescription	Readers cannot make changes to project information	读者无法更改项目信息
-EmailAddressIsNotVerifiedPasswordReset	This email address was registered but still needs to be confirmed.	此电子邮件地址已注册,但仍需确认。
+EmailAddressIsNotVerifiedPasswordReset	This email address was registered but still needs to be confirmed.	此电子邮件地址已注册，但仍需确认。
 ProjectRoleType_Reader	Reader	读者
 ContactSupport_Videos	Videos	视频
 TeamMembers_Remove	Remove	移除
 ContactSupport_RetainingAndOrganizingKnowledge	Retaining and Organizing Knowledge	保存和组织知识
-ProjectDeletedConfirmation	<b>Project deleted</b> <br/> Second thoughts? Restore within ten days using the link in the deletion notification email.	<b>项目已删除</b> <br/> 改变主意了?请在十天内使用删除通知邮件中的链接恢复。
+ProjectDeletedConfirmation	<b>Project deleted</b> <br/> Second thoughts? Restore within ten days using the link in the deletion notification email.	<b>项目已删除</b> <br/> 改变主意了？请在十天内使用删除通知邮件中的链接恢复。
 SearchManual	Search the manual	搜索手册
 ImportFile_WrongContent	The import file does not match the selected import format.<a href="//www.citavi.com/cw/rm-import" target="_blank">More information</a>	导入文件与所选的导入格式不匹配。<a href="//www.citavi.com/cw/rm-import" target="_blank">更多信息</a>
 ContactSupport_BookThroughISBN	Adding books by ISBN	按 ISBN 添加图书
@@ -165,16 +165,16 @@ CloseHelpPanel	Close help panel	关闭帮助面板
 Feedback	Send us your feedback	向我们发送您的反馈
 LeaveProject	Leave project	退出项目
 FileUpload_DangerousFileFormat	"{0}" has an invalid file format.	"{0}" 的文件格式无效。
-ShibbolethError	The Shibboleth login was successful but license verification failed. Please see this FAQ article: <a href="https://www.citavi.com/shibboleth-error">https://www.citavi.com/shibboleth-error</a>.	Shibboleth 登录成功,但许可证验证失败。请参阅此常见问题解答文章:<a href="https://www.citavi.com/shibboleth-error">https://www.citavi.com/shibboleth-error</a>。
-OtherProgramsManual	See manual for other programs	有关其他程序,请参阅手册
+ShibbolethError	The Shibboleth login was successful but license verification failed. Please see this FAQ article: <a href="https://www.citavi.com/shibboleth-error">https://www.citavi.com/shibboleth-error</a>.	Shibboleth 登录成功，但许可证验证失败。请参阅此常见问题解答文章：<a href="https://www.citavi.com/shibboleth-error">https://www.citavi.com/shibboleth-error</a>。
+OtherProgramsManual	See manual for other programs	有关其他程序，请参阅手册
 HelpCitaviOnlineSupport	Customer service and support	客户服务和支持
 Tooltip_ApplyCriteria	Add additional filters or cancel selection	添加其他筛选器或取消选择
 Continue	Continue	继续
 HowCanWeHelp	Additional help	其他帮助
 TeamMembers_Title	Team options	团队选项
-YouCanHelpUs	Here's how you can help us:	您可以通过以下方式帮助我们:
+YouCanHelpUs	Here's how you can help us:	您可以通过以下方式帮助我们：
 MaxChars	{0} characters or less	{0} 个字符或更少
-LoadFailed	A setting on your computer is preventing Citavi Account from loading.	您计算机上的某项设置阻止了 Citavi 帐户的加载。
+LoadFailed	A setting on your computer is preventing Citavi Account from loading.	您计算机上的某项设置阻止了 Citavi 账户的加载。
 TeamMembers_DeleteSmart	Do you want to remove the {0:selected team member|{0} selected team members} from the project?	是否要从项目中移除{0:所选团队成员|所选的 {0} 个团队成员}？
 TelemetryInitializationFailed	The page could not be initialized. This may be due to a temporary problem with our server. Please try again in 10 minutes.	页面无法初始化。这可能是由于我们服务器的临时问题。请在 10 分钟后重试。
 Tooltip_EditKnowledgeItem	Edit knowledge item	编辑知识条目
@@ -191,7 +191,7 @@ AttachmentAlreadyPresent	This file was already added.	此文件已添加。
 Tooltip_AddReference	Import references or create manually	导入文献或手动创建
 Tooltip_SearchInPdf	Show or hide search panel	显示或隐藏搜索面板
 ProtocolSendThanx	Thank you for helping us improve Citavi!<br/>We appreciate your help.	感谢您帮助我们改进 Citavi!<br/>感谢您的帮助。
-FileUpload_WrongFileFormat	"{0}" has an invalid file format. Please use one of the following formats: {1}	"{0}" 的文件格式无效。请使用以下格式之一:{1}
+FileUpload_WrongFileFormat	"{0}" has an invalid file format. Please use one of the following formats: {1}	"{0}" 的文件格式无效。请使用以下格式之一：{1}
 PageNotFound	Error 404 <br/>The requested page was not found.	错误 404 <br/>未找到请求的页面。
 ReportError	Send information about this error.	发送关于此错误的信息。
 Tooltip_AddCover	Add cover art	添加封面图片
@@ -200,11 +200,11 @@ ContactSupport_Manage	Managing references	管理文献
 AppOpenInAnotherTab	Citavi Web is already open in another tab or browser. Please close this page or continue using it here.	Citavi Web 已在另一个标签页或浏览器中打开。请关闭此页面或在此继续使用。
 Register	Register	注册
 Offline_AutoRetry	Citavi will attempt to reconnect.	Citavi 将尝试重新连接。
-ProvideLicenseToPcs	How can I install licenses on several computers?	如何在多台计算机上安装许可证?
+ProvideLicenseToPcs	How can I install licenses on several computers?	如何在多台计算机上安装许可证？
 YourName	Your name	您的姓名
 Tooltip_ReloadList	Reload list	重新加载列表
 Tooltip_RedHighlight	Highlight terms and short text passages and save as knowledge items.	高亮显示术语和短文本段落并保存为知识条目。
-ProtocolStartHead	Did the Citavi Support team ask you to send an activity log?<br/> Then you're in the right place!	Citavi 支持团队是否要求您发送活动日志?<br/> 那您来对地方了!
+ProtocolStartHead	Did the Citavi Support team ask you to send an activity log?<br/> Then you're in the right place!	Citavi 支持团队是否要求您发送活动日志？<br/> 那您来对地方了！
 Tooltip_FitPage	Fit page to screen	使页面适合屏幕
 CookiesDisabled	Cookies must be enabled in order to use Citavi Web.	必须启用 Cookies 才能使用 Citavi Web。
 Tooltip_Search	Search	搜索
@@ -223,8 +223,8 @@ Tooltip_Undo	Undo	撤销
 ContactSupport_GroupsVsCategories	Groups vs. categories	组与分类
 HashNotFound	The requested page was not found.	未找到请求的页面。
 ProjectDescription	Description	描述
-NoConfirmationEmailReceived	Where is my confirmation email?	我的确认邮件在哪里?
-ValidUntilMeans	What does "activated until" mean?	"激活至"是什么意思?
+NoConfirmationEmailReceived	Where is my confirmation email?	我的确认邮件在哪里？
+ValidUntilMeans	What does "activated until" mean?	"激活至"是什么意思？
 Attachment	Attachment	附件
 InvalidUrl	The provider URL is invalid.	提供商 URL 无效。
 Tooltip_NextPage	Show next page	显示下一页
@@ -234,7 +234,7 @@ EmailSentLogin	Email sent	邮件已发送
 ChangeRole_AuthorDescription	Authors can change project data	作者可以更改项目数据
 TeamMembers_ConfirmRemove	Do you want to remove {0:the selected team member|the {0} selected team members} from the project?	是否要从项目中移除{0:所选团队成员|所选的 {0} 个团队成员}？
 ChangeRole_ManagerDescription	Project leaders can make changes to project information and the project team	项目负责人可以更改项目信息和项目团队
-HasNotCitaviLicenseToOpenProject	You cannot open this project because you do not have a valid license. For more details, check <a href="https://citaviweb.citavi.com/account" target="_blank">https://citaviweb.citavi.com/account</a>.	您无法打开此项目,因为您没有有效的许可证。有关更多详细信息,请查看 <a href="https://citaviweb.citavi.com/account" target="_blank">https://citaviweb.citavi.com/account</a>。
+HasNotCitaviLicenseToOpenProject	You cannot open this project because you do not have a valid license. For more details, check <a href="https://citaviweb.citavi.com/account" target="_blank">https://citaviweb.citavi.com/account</a>.	您无法打开此项目，因为您没有有效的许可证。有关更多详细信息，请查看 <a href="https://citaviweb.citavi.com/account" target="_blank">https://citaviweb.citavi.com/account</a>。
 Tooltip_RecycleBin	Move to recycle bin	移到回收站
 TermsOfUsage	Terms of use	使用条款
 Loading	Loading…	正在加载…
@@ -243,9 +243,9 @@ ContactSupport_RssFeeds	Using RSS feeds	使用 RSS 源
 ChangeRole_Cancel	Cancel	取消
 Message	Message	消息
 DataProtection	Privacy information	隐私信息
-ExternalProviderAlreadyPresent	The external provider could not be added. <a id='externalProviderFailed'>Why not?</a>	无法添加外部提供商。<a id='externalProviderFailed'>为什么?</a>
+ExternalProviderAlreadyPresent	The external provider could not be added. <a id='externalProviderFailed'>Why not?</a>	无法添加外部提供商。<a id='externalProviderFailed'>为什么？</a>
 TeamMembersTableHeader_Confirmed	Confirmed	已确认
-WhichData	What information is shared with Citavi, Facebook, Google, Microsoft?	与 Citavi、Facebook、Google、Microsoft 共享哪些信息?
+WhichData	What information is shared with Citavi, Facebook, Google, Microsoft?	与 Citavi、Facebook、Google、Microsoft 共享哪些信息？
 ProjectRoleManagerDescription	Project leaders can make changes to project information and the project team	项目负责人可以更改项目信息和项目团队
 ProjectRoleAuthorDescription	Authors can make changes to project information	作者可以修改项目信息
 SystemInformation_Screen	Screen	屏幕
@@ -253,7 +253,7 @@ ContactSupport_RecycleBin	Using the recycle bin	使用回收站
 Tooltip_PreviousOccurrence	Previous result	上一个结果
 ContactSupport_AddKeywords	Adding keywords	添加关键词
 Tooltip_AddKnowledgeItem	Add knowledge item	添加知识条目
-ConsoleWarning	This browser feature is meant for developers only. If someone told you to copy something here to enable a Citavi feature or to gain access to someone else's data, it's a scam to gain access to your Citavi account.	此浏览器功能仅供开发人员使用。如果有人让您在此处复制某些内容以启用 Citavi 功能或访问他人的数据,那是为了获取您 Citavi 帐户访问权限的骗局。
+ConsoleWarning	This browser feature is meant for developers only. If someone told you to copy something here to enable a Citavi feature or to gain access to someone else's data, it's a scam to gain access to your Citavi account.	此浏览器功能仅供开发人员使用。如果有人让您在此处复制某些内容以启用 Citavi 功能或访问他人的数据，那是为了获取您 Citavi 账户访问权限的骗局。
 PasswordRequirementLowercase	Lowercase letters	小写字母
 PasswordRequirementUppercase	Uppercase letters	大写字母
 FileUpload_WrongFileFormat_Image	"{0}" has an invalid file format. Only image files are allowed.	"{0}" 的文件格式无效。仅允许图像文件。
@@ -268,7 +268,7 @@ ContactSupport_Latex	Writing with LaTeX	使用 LaTeX 写作
 TeamMembers_EmailError	One or more entered email addresses are not valid.	一个或多个输入的电子邮件地址无效。
 Tooltip_ShowEditCategories	Show or edit categories	显示或编辑分类
 Tooltip_EntityInfo	Date created and date modified	创建日期和修改日期
-HelpUsFindError	Please help us find the error!	请帮助我们找到错误!
+HelpUsFindError	Please help us find the error!	请帮助我们找到错误！
 Tooltip_JumpToPreviousAnnotation	Previous annotation	上一个注释
 ProtocolEndDescription	Please include a description of the steps leading to the error or any other helpful observations. We will respond as soon as we can.	请描述导致该错误的步骤或任何其他有用的观察结果。我们会尽快回复。
 MergeAccounts	Merge accounts	合并账户
@@ -276,18 +276,18 @@ ContactSupport_GoogleDocs	Writing with Google Docs	使用 Google Docs 写作
 CopiedToClipboard	Copied to Clipboard	已复制到剪贴板
 HideAll	Hide all notifications	隐藏所有通知
 CitaviSpaceFullDescription	You've exceeded your limit of Citavi Space. You can no longer save additional attachments online.<br/><br/>Delete attachments you no longer need to free up space.<br/><br/>Purchase additional Citavi Space <a class="box_link" id="citaviSpaceLink">here</a>.	您已超出 Citavi Space 的限制。您无法再在线保存其他附件。<br/><br/>删除不再需要的附件以释放空间。<br/><br/>在<a class="box_link" id="citaviSpaceLink">此处</a>购买更多 Citavi Space。
-HowToGetHelp	Where can I get assistance?	我在哪里可以获得帮助?
+HowToGetHelp	Where can I get assistance?	我在哪里可以获得帮助？
 ShowColumn	Show	显示
 AskQuestionHere	Enter your search term	输入搜索词
-WhatIsVoucher	What is a license voucher code?	什么是许可证优惠券代码?
+WhatIsVoucher	What is a license voucher code?	什么是许可证优惠券代码？
 Tooltip_MoreKnowledgeItemSelecteds	Recycle and other options	回收及其他选项
 FileUpload_WrongFileFormat_Zip	"{0}" has an invalid file format. Only ZIP files are allowed.	"{0}" 的文件格式无效。仅允许 ZIP 文件。
 OrDragInThisField	Drag and drop	拖放
 ProjectNameError	The project name contains invalid characters	项目名称包含无效字符
-CostCitaviAccount	Do I have to pay for an account?	我需要为帐户付费吗?
+CostCitaviAccount	Do I have to pay for an account?	我需要为账户付费吗？
 NewProjectName	Name of the new project	新项目名称
 Tooltip_DownloadChat	Download chat history	下载聊天记录
-Days	Su,Mo,Tu,We,Th,Fr,Sa	日,一,二,三,四,五,六
+Days	Su,Mo,Tu,We,Th,Fr,Sa	日，一，二，三，四，五，六
 Max3	(maximum of three)	(最多三个)
 Back	Back	返回
 Info	Info	信息
