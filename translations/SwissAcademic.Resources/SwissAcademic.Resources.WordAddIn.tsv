@@ -1,7 +1,7 @@
 OptionsDialog_loadCustomStylesCheckBox	Show custom styles	显示自定义样式
 PublicationPane_MenuItem_EditKnowledgeItem	Edit in Citavi	在 Citavi 中编辑
 PublicationPane_MenuItem_InsertReferenceWithOptions	Insert as	插入为
-SectionBibliographyDialog_titleLabel	Where do the citations for the chapter bibliography start?	章节参考文献的引文从哪里开始？
+SectionBibliographyDialog_titleLabel	Where do the citations for the chapter bibliography start?	章节参考文献目录的引文从哪里开始？
 OptionsDialog_commentStyleLabel	Comment:	注释：
 Ribbon_ConvertCitaviPlaceholderFields	Convert fields from earlier Citavi versions	转换早期 Citavi 版本的域
 DocumentHasConflicts	Word has prevented editing due to open conflicts. Click the Conflicts tab to accept or reject changes. 	由于存在未解决的冲突，Word 已阻止编辑。单击“冲突”选项卡以接受或拒绝更改。
@@ -12,7 +12,7 @@ PublicationPane_ContextMenu_FormatOption	Format option:	格式选项：
 SectionBibliographyType_Bookmark	Bookmark	书签
 ExceptionDialog_CitaviIsNotRunning	Citavi is not running.	Citavi 未运行。
 PublicationPane_ConfirmDeletePlaceholderEntryMsg	Are you sure you want to remove the reference from the citation?	您确定要从引文中移除该文献吗？
-OptionsDialog_bibliographyNoCheckBox	No bibliography	无参考文献
+OptionsDialog_bibliographyNoCheckBox	No bibliography	无参考文献目录
 PublicationPane_TabPage_Live	Chapters	章节
 NotImplementedInfo	This feature is not available.	此功能不可用。
 PlaceholderLockedBy	Locked by {0}	由 {0} 锁定
