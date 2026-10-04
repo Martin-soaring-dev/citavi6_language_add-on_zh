@@ -45,7 +45,7 @@ Groups	Groups	组
 CommonProperty_ModifiedByWindowsUserName	Modified by Windows user	由 Windows 用户修改
 Reference_Groups	Groups	组
 TaskItems	Tasks	任务
-References	References	文献条目
+References	References	文献
 Reference_PageRangeNumberingType	Page range numbering type	页码范围编号类型
 Periodicals	Periodicals	期刊
 Reference_SourceOfBibliographicInformation	Source of bibliographic information	书目信息来源
@@ -54,7 +54,7 @@ CommonProperty_CreatedBy_Short	Created by	创建者
 Reference_Affiliation	Affiliation	隶属机构
 TaskItem_Name	Task	任务
 Reference_OthersInvolved	Others involved	其他参与人
-Keyword_References	References	文献条目
+Keyword_References	References	文献
 KnowledgeItem_Address	File location	文件位置
 Reference_PlaceOfPublication	Place of publication	出版地
 Reference_Number	Number	编号
@@ -73,7 +73,7 @@ KnowledgeItem_ModifiedBy	Modified by	修改者
 Location_Library	Library	图书馆
 Group_KnowledgeItems	Knowledge items	知识条目
 Group_Notes	Notes	笔记
-Reference	Reference	参考文献
+Reference	Reference	文献
 TaskItem_AssignedOnTo	Assigned to/on	分配给/时间
 TaskItem_CreatedBy	Created by	创建者
 TaskItem_CreatedOn	Created on	创建日期
@@ -139,20 +139,20 @@ Reference_AbstractSourceTextFormat	Abstract format	摘要格式
 Reference_EvaluationIsComplex	Evaluation has complex text formatting	评价包含复杂的文本格式
 Reference_FirstFootnoteCitationNumber	First footnote number	首个脚注编号
 KnowledgeItem_StartPage	Start page	起始页
-Reference_FormattedReference	Formatted reference	带格式的参考文献
+Reference_FormattedReference	Formatted reference	带格式的文献
 Location_Uri	URI	URI
 Keywords	Keywords	关键词
 Annotations	PDF annotations	PDF 注释
 CommonProperty_Name	Name	名称
-Periodical_References	References	文献条目
+Periodical_References	References	文献
 Reference_TitleInOtherLanguages	Title in other languages	其他语言标题
 Person_LastNameForSorting	Sort by	排序方式
 Account_Password	Password	密码
 Reference_PageCountNumeralSystem	Page count numeral system	页数数字系统
 CommonProperty_NumberOfAssignedReferences	Number	编号
 CommonProperty_CreatedByCitaviUserId	Created by Citavi user ID	创建者 Citavi 用户 ID
-Group_References	References	文献条目
-Category_References	References	文献条目
+Group_References	References	文献
+Category_References	References	文献
 Reference_Periodical	Periodical	期刊
 Reference_DefaultLocation	Last location shown	上次显示位置
 KnowledgeItem_NumeralSystem	Numeral system	数字系统
@@ -176,9 +176,9 @@ Reference_CustomField7	Custom field 7	自定义字段 7
 Reference_CustomField8	Custom field 8	自定义字段 8
 Reference_CustomField9	Custom field 9	自定义字段 9
 KnowlegeItem_TextRtf	Text (RTF)	文本 (RTF)
-Reference_ChildReferences	Child references	子参考文献
+Reference_ChildReferences	Child references	子文献
 Reference_BibTeXKey	BibTeX key	BibTeX 键
-Location_Reference	Reference	参考文献
+Location_Reference	Reference	文献
 Location_FullText	Full text	全文
 CommonProperty_Id	ID	ID
 Reference_QuotationPageRange	Quotation page range	引文页码范围
@@ -194,11 +194,11 @@ Reference_AuthorsOrEditorsOrOrganizations	Author, editor or organization	作者�
 TaskItem	Task	任务
 TaskItem_HasPdfTaskItemLink	Linked with PDF	已链接 PDF
 KnowledgeItem_Groups	Groups	组
-SeriesTitle_References	References	文献条目
+SeriesTitle_References	References	文献
 Locations	Locations	位置
 Reference_ShortTitleUpdateType	Short title update	短标题更新
 Reference_TableOfContentsRtf	Table of Contents	目录
-TaskItem_Reference	Reference	参考文献
+TaskItem_Reference	Reference	文献
 EntityLink_TargetData	Page/chapter	页/章
 Reference_Abstract	Abstract	摘要
 Reference_ParallelTitle	Parallel title	并列标题
@@ -210,13 +210,13 @@ Reference_AbstractIsComplex	Abstract has complex text formatting	摘要具有复
 CommonProperty_CreatedByWindowsUserName	Created by Windows user	创建者 Windows 用户
 CommonProperty_CreatedOn_Short	Created	创建时间
 Library	Library	图书馆
-ImportGroup_References	References	文献条目
+ImportGroup_References	References	文献
 Periodical	Periodical	期刊
 Reference_TableOfContents	Table of contents	目录
 Reference_IndexInBibliography	Index in bibliography	参考文献中的索引
 Keyword	Keyword	关键词
 Categories	Categories	分类
-Reference_ParentReference	Parent reference (in:)	父参考文献(in:)
+Reference_ParentReference	Parent reference (in:)	父文献(in:)
 KnowledgeItem_ImageDescription	Image description	图片描述
 Reference_YearResolved	Year derived	年份(推导)
 SeriesTitles	Series	系列
@@ -229,10 +229,10 @@ Reference_Subtitle	Subtitle	副标题
 Reference_SeriesTitle	Series	系列
 CommonProperty_CreatedBySid	Created by Windows SID	创建者 Windows SID
 Reference_Collaborators	Collaborators	合著者
-Person_References	References	文献条目
+Person_References	References	文献
 KnowledgeItem_File_CoreStatement	Caption	标题
 Reference_SeriesTitleEditors	Series editors	丛书编者
-Publisher_References	References	文献条目
+Publisher_References	References	文献
 EntityLink_RelationType	Type of link	链接类型
 Category_Level	Level	层级
 Reference_SpecificField3	Specific field 3	特定字段 3
@@ -291,7 +291,7 @@ ReferenceType	Reference type	文献类型
 EntityLink_SourceData	Pages	页码
 Location	Location	位置
 Reference_Volume	Volume	卷
-KnowledgeItem_Reference	Reference	参考文献
+KnowledgeItem_Reference	Reference	文献
 Library_Abbreviation	Abbreviation	缩写
 Periodical_Issn	ISSN	ISSN
 KnowledgeItem_StartPageFormatted	Start page (formatted)	起始页(带格式)

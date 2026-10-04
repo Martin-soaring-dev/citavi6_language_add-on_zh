@@ -141,7 +141,7 @@ CitationStyleSettingsDialog_createdByOnLabel	Created	创建时间
 CitationStyleSettingsDialog_ambiguityResolvingAddFirstNamesFontStyleLabel	Style for first and middle names:	名字和中间名样式：
 Remove	Remove	移除
 CitationStyleSettingsDialog_lastSavedWithCitaviVersionLabel	Last saved with Citavi version:	上次使用 Citavi 版本保存：
-PreviewPropertyEditorControl_previewAllReferencesRadioButton	All references	所有参考文献
+PreviewPropertyEditorControl_previewAllReferencesRadioButton	All references	所有文献
 IndexInBibliographyFieldElementPropertyEditorControl_mainIndexGroupBox	Format main index numbers like this:	按如下方式设置主索引号格式：
 CitationStyleSettingsDialog_autoIncludeParentReferencesCheckBox	Automatically include parent references in the bibliography	自动在参考文献表中包含父级参考文献
 PageRangeFieldElementPropertyEditorControl_columnRangeFormattingTwoGroupBox	Use different formatting if the range is exactly 2 columns	如果范围恰好为 2 列，则使用不同的格式
@@ -164,7 +164,7 @@ FontStyleEditorControl_defineStyleRadioButton	Format:	格式：
 CitationStyleSettingsDialog_subIndexRepeatMainIndexCheckBox	Repeat citation	重复引用
 BuiltInTemplateConditionId_CustomField6NotEmpty	"Custom field 6" contains data	“自定义字段 6”包含数据
 PlaceOfPublicationFieldElementPropertyEditorControl_abbreviateGroupBoxCheckBox	Abbreviate list (e.g. using et. al)	缩写列表（例如使用 et. al）
-BuiltInTemplateConditionId_RepeatingInTextCitationParentReference	Parent reference was cited in a previous in-text citation	父级参考文献已在之前的文内引用中引用
+BuiltInTemplateConditionId_RepeatingInTextCitationParentReference	Parent reference was cited in a previous in-text citation	父级文献已在之前的文内引用中引用
 PersonFieldElementPropertyEditorControl_namePrefixAbbreviationsLabel	List of abbreviations:	缩写列表：
 PersonFieldElementPropertyEditorControl_fillWithIdemEademLabel	Use "idem", "eadem", etc…	使用“idem”、“eadem”等……
 ComponentPartPropertyEditorControl_activateComponentPartFilterCheckBox	Filter output of this component part via program code	通过程序代码过滤此组件部分的输出
@@ -177,13 +177,13 @@ PersonFieldElementPropertyEditorControl_secondGroupMiddleNameUsageLabel	Include 
 BuiltInTemplateConditionId_SpecificField1NotEmpty	"{0}" contains data	“{0}”包含数据
 CompilationTestErrorsFoundInTemplateCondition	Template condition: {0}	模板条件：{0}
 PlaceOfPublicationFieldElementPropertyEditorControl_firstGroupGroupBox	Format places of publication like this:	按如下方式设置出版地格式：
-CitationStyleSettingsDialog_optionMergeNonRecurringReferencesFromMultipleCitationsLabel	If the reference is cited again it will be assigned its own number	如果参考文献被再次引用，将为其分配单独的编号
+CitationStyleSettingsDialog_optionMergeNonRecurringReferencesFromMultipleCitationsLabel	If the reference is cited again it will be assigned its own number	如果文献被再次引用，将为其分配单独的编号
 CitationStyleSettingsDialog_mainTabControl_AmbiguousReferences	Ambiguous citations	歧义引用
 FontStyleEditorControl_underlineCheckBox	Underline	下划线
-BuiltInTemplateConditionId_PreviousReferenceIsPartOfSameMultipleCitationAsCurrent	Previous reference is in the same multiple citation as the current reference.	前一条参考文献与当前参考文献位于同一多重引用中。
+BuiltInTemplateConditionId_PreviousReferenceIsPartOfSameMultipleCitationAsCurrent	Previous reference is in the same multiple citation as the current reference.	前一条文献与当前文献位于同一多重引用中。
 CitationStyleSettingsDialog_SortOptions_OrderOfAppearance	In the order cited	按引用顺序
 NumericFieldElementPropertyEditorControl_pluralSuffixLabel	Plural Suffix:	复数后缀：
-CitationStyleSettingsDialog_titleLabelReferenceNumbers	In-text citations containing reference numbers	包含参考文献编号的文内引用
+CitationStyleSettingsDialog_titleLabelReferenceNumbers	In-text citations containing reference numbers	包含文献编号的文内引用
 BuiltInTemplateConditionId_OtherWorksBySameAuthorsOrEditorsOrOrganizationsAlsoCited	Other works by the same authors, editors or organizations are also cited	相同作者、编者或机构的其它著作也被引用
 PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputForTeamOfMalesAndNeutersLabel	… men and neuters:	……阳性与中性：
 ComponentPartEditorControl_Toolbox_GroupGeneralElements	General elements	常规元素
@@ -194,13 +194,13 @@ PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputForTeamOfFemal
 CitationStyleUploadDialog_currentCitaviVersionLabel	Current Citavi version	当前 Citavi 版本
 CitationStyleSettingsDialog_SortOptions_FirstAuthorYearDescendingTitle	First author, year (descending), title	第一作者，年份（降序），标题
 AdditionalTemplatesWillBeDeleted	The additional templates that you have created for this use case will be deleted.\r\nDo you want to continue?	您为此用例创建的其它模板将被删除。\r\n是否继续？
-StyleEditor_NothingToPreview	[No references to preview]	[没有可供预览的参考文献]
+StyleEditor_NothingToPreview	[No references to preview]	[没有可供预览的文献]
 CitationStyleSettingsDialog_subIndexTrailingTextLabel	Text after:	后置文本：
 PersonFieldElementPropertyEditorControl_namePrefixesFontStyleLabel	Style for name prefixes:	姓名前缀样式：
 StyleEditorControl_Toolbox_GroupGeneralComponents	General components	常规组件
 BuiltInTemplateConditionId_InBibliographyParentReferenceOrSiblingContributionCitedBeforeContribution	Parent reference or another child reference was already cited in bibliography	父级参考文献或其它子级参考文献已在参考文献列表中引用
-CitationStyleSettingsDialog_optionMergeAllReferencesFromMultipleCitationsCheckBox	All reference in multiple citations	多重引用中的所有参考文献
-BuiltInTemplateConditionId_CurrentReferenceIsPartOfCaption	Reference is part of an image or table caption	参考文献是图片或表格题注的一部分
+CitationStyleSettingsDialog_optionMergeAllReferencesFromMultipleCitationsCheckBox	All reference in multiple citations	多重引用中的所有文献
+BuiltInTemplateConditionId_CurrentReferenceIsPartOfCaption	Reference is part of an image or table caption	文献是图片或表格题注的一部分
 BuiltInTemplateConditionTwoFieldsEqual	{0} = {1}	
 TemplatePanelInheritsFromLabel	Inherited from: {0}	继承自：{0}
 PersonFieldElementPropertyEditorControl_abbreviateGroupBoxCheckBox	Abbreviate list (e.g. using et. al)	缩写列表（例如使用 et. al）
@@ -215,8 +215,8 @@ FontStyleEditorControl_sameAsPreviousRadioButton	Same as previous style	与上�
 TemplateConditionDialog_addNewCustomTemplateConditionLinkLabel	Program a custom condition…	编写自定义条件……
 NumericFieldElementPropertyEditorControl_pluralSuffixFontStyleGroupBox	Style for: Plural suffix	样式适用于：复数后缀
 PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputForTeamOfMalesAndFemalesLabel	… women and men:	……阴性与阳性：
-BuiltInTemplateConditionId_PreviousReferenceIsNotPartOfMultipleCitation	Previous reference is NOT part of a multiple citation	前一条参考文献不属于多重引用
-BuiltInTemplateConditionId_InFootnotePreviousIsInOtherFootnoteOnlySeparatedByReferenceFreeFootnotes	Previous reference is in a previous footnote (but other footnotes without references may appear between these footnotes)	前一条参考文献位于之前的脚注中（但这些脚注之间可能出现不含参考文献的其它脚注）
+BuiltInTemplateConditionId_PreviousReferenceIsNotPartOfMultipleCitation	Previous reference is NOT part of a multiple citation	前一条文献不属于多重引用
+BuiltInTemplateConditionId_InFootnotePreviousIsInOtherFootnoteOnlySeparatedByReferenceFreeFootnotes	Previous reference is in a previous footnote (but other footnotes without references may appear between these footnotes)	前一条文献位于之前的脚注中（但这些脚注之间可能出现不含文献的其它脚注）
 ReplacementListDialog_Column_ReplaceBy	With this	用此
 TemplateConditionDialog_editCustomTemplateConditionLinkLabel	Edit	编辑
 NumericFieldElementPropertyEditorControl_specialNumericAbbreviationsFontStyleGroupBox	Style for: Irregular ordinals	样式适用于：不规则序数
@@ -228,13 +228,13 @@ PlaceOfPublicationFieldElementPropertyEditorControl_abbreviationLabel	Abbreviati
 CitationStyleSettingsDialog_emptyBracketsCheckBox	Remove empty brackets	移除空括号
 CitationStyleSettingsDialog_filePathLabel	Path	路径
 BuiltInTemplateConditionId_CustomField9NotEmpty	"Custom field 9" contains data	“自定义字段 9”包含数据
-CitationStyleSettingsDialog_bibliographyReferenceNumbersTabMultipleCitationsTitleLabel	Grouped references	分组的参考文献
+CitationStyleSettingsDialog_bibliographyReferenceNumbersTabMultipleCitationsTitleLabel	Grouped references	分组的文献
 CitationStyleSettingsDialog_insertBibliographyHeadingCheckBox	Insert heading before bibliography	在参考文献列表前插入标题
 SaveChanges	Do you want to save changes?	是否要保存更改？
 CitationStyleSettingsDialog_showAdditionalOptionsForAmbiguityResolving	Show additional options for each template	显示每个模板的其它选项
 CitationStyleSettingsDialog_ambiguityResolvingAddFirstNamesMiddleNameUsageLabel	Include middle names:	包含中间名：
 PersonFieldElementPropertyEditorControl_secondGroupMiddleNameFormatLabel	Middle name format:	中间名格式：
-BuiltInTemplateConditionId_InFootnotePreviousIsInFootnoteOfItsOwn	Previous reference is in a footnote by itself	前一条参考文献单独位于一个脚注中
+BuiltInTemplateConditionId_InFootnotePreviousIsInFootnoteOfItsOwn	Previous reference is in a footnote by itself	前一条文献单独位于一个脚注中
 TemplateConditionDialog_DuplicateTemplateWithIdenticalCondition_Singular	A template with this condition already exists.	已存在具有此条件的模板。
 PersonFieldElementPropertyEditorControl_organizationTextBeforeNameApplyConditionLabel	Apply text before name when:	在以下情况下应用姓名前的文本：
 TemplateConditionDialog_DuplicateTemplateWithIdenticalCondition_Plural	A template with these conditions already exists.	已存在具有这些条件的模板。
@@ -242,7 +242,7 @@ ComponentPartPropertyEditorControl2_punctuationBeforeLabel	Punctuation before:	�
 TemplatePanelPlaceholderText	(Drag components here to create a template.)	（将组件拖到此处以创建模板。）
 PersonFieldElementPropertyEditorControl_secondGroupPersonSeparatorLabel	Text between two persons:	两个人名之间的文本：
 BackofficeCitationStyleElementsDialog_cultureLabel	Language:	语言：
-CitationStyleSettingsDialog_indexNumberDefinitionInTextLabel	The format of in-text citations is defined by the templates in the rule set for in-text citations for each reference type. There you can change the reference number format and define whether parentheses or brackets should be used.	文内引用的格式由各文献类型“文内引用”规则集中的模板定义。您可以在其中更改参考文献编号格式，并定义使用圆括号还是方括号。
+CitationStyleSettingsDialog_indexNumberDefinitionInTextLabel	The format of in-text citations is defined by the templates in the rule set for in-text citations for each reference type. There you can change the reference number format and define whether parentheses or brackets should be used.	文内引用的格式由各文献类型“文内引用”规则集中的模板定义。您可以在其中更改文献编号格式，并定义使用圆括号还是方括号。
 LocationsFieldElementPropertyEditorControl_includeLibraryLocationsCheckBox	Library locations	位置
 PersonFieldElementPropertyEditorControl_groupPrefixSingularLabel	Singular:	单数：
 TemplatePropertyEditorControl_neverUseThisForAmbiguityResolvingCheckBox	Never check any citations with output based on this template for ambiguity.	永不检查任何基于此模板输出的引用的歧义。
@@ -255,7 +255,7 @@ ReplacementListDialog_Column_SearchFor	Replace this	替换此项
 CitationStyleSettingsDialog_indexInBibliographySettingsButton	Index number options…	索引编号选项……
 PersonFieldElementPropertyEditorControl_groupSuffixPluralLabel	Plural:	复数：
 CitationStyleSettingsDialog_subIndexNumeralTypeLabel	Sub-Index Number Type:	次索引号类型：
-BuiltInTemplateConditionId_CurrentReferenceIsNotPartOfMultipleCitation	Reference ist NOT part of a multiple citation	参考文献不属于多重引用
+BuiltInTemplateConditionId_CurrentReferenceIsNotPartOfMultipleCitation	Reference ist NOT part of a multiple citation	文献不属于多重引用
 CitationStyleSettingsDialog_titleInformationLabelReferenceNumbers	Examples: [1], [2-4; 5a], /01/	示例：[1]、[2-4; 5a]、/01/
 CitationStyleUploadDialog_deleteButton	Remove and archive style online	在线移除并存档样式
 CitationStyleUploadDialog_uploadButton	Upload	上传
@@ -266,7 +266,7 @@ CitationStyleSettingsDialog_mainIndexNumberFontStyleLabel	Main index number styl
 ElectronicAddressFieldElementPropertyEditorControl_exampleWWWSuppressedLabel	nytimes.com	nytimes.com
 PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputForTeamOfNeutersOnlyLabel	… multiple neuters:	……多个中性：
 PageRangeFieldElementPropertyEditorControl_marginRangeFormattingTwoGroupBox	Use different formatting if the range is exactly 2 marginal notes	如果范围恰好为 2 个边注，则使用不同的格式
-PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputSuppressedInIbidemIdemSequenceCheckBox	No output in case of a sequence of 'ibidem' and 'idem' (same page of same reference)	在连续出现“ibidem”和“idem”（同一参考文献的同一页）时不输出
+PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputSuppressedInIbidemIdemSequenceCheckBox	No output in case of a sequence of 'ibidem' and 'idem' (same page of same reference)	在连续出现“ibidem”和“idem”（同一文献的同一页）时不输出
 NumericFieldElementPropertyEditorControl_textSuffixLabel	Suffix	后缀
 ManageDerivedCitationStylesDialog_mainGridColumnKeywords	Keywords	关键词
 CitationStyleUploadDialog_savedSchemaVersionLabel	Last saved as schema version:	上次保存为架构版本：
@@ -291,7 +291,7 @@ ManageDerivedCitationStylesDialog_messageRefreshDespiteUnsavedChanges	You have m
 UnorderedListDialog_bulletRadioButton	 • (bullet)	 •（项目符号）
 CitationStyleSettingsDialog_schemaVersionLabel	Schema version:	架构版本：
 BuiltInTemplateConditionId_InBibliographyContributionCitedBeforeParentReference	Child reference was already cited in bibliography	子级参考文献已在参考文献列表中引用
-BuiltInTemplateConditionId_PreviousReferenceIsPartOfMultipleCitationAtFirstPlace	Previous reference is part of a multiple citation, at beginning	前一条参考文献是多重引用的一部分，位于开头
+BuiltInTemplateConditionId_PreviousReferenceIsPartOfMultipleCitationAtFirstPlace	Previous reference is part of a multiple citation, at beginning	前一条文献是多重引用的一部分，位于开头
 PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputForTeamOfFemalesOnlyLabel	… multiple women:	……多个阴性：
 PersonFieldElementPropertyEditorControl_groupSuffixSingularLabel	Singular:	单数：
 IndexInBibliographyFieldElementPropertyEditorControl_subIndexStyleLabel	Style:	样式：
@@ -302,12 +302,12 @@ ElectronicAddressFieldElementPropertyEditorControl_suppressWWWCheckBox	Do not in
 PersonFieldElementPropertyEditorControl_firstGroupLenghOptionSet_All	All persons	所有人
 CitationStyleSettingsDialog_SortOptions_FirstAuthorYearAscendingTitle	First author, year (ascending), title	第一作者，年份（升序），标题
 NewCitationStyle	New citation style	新建引文样式
-BuiltInTemplateConditionId_PreviousReferenceIsPartOfMultipleCitationAtSecondPlaceOrFollowing	Previous reference is part of a multiple citation, in second or later position	前一条参考文献是多重引用的一部分，位于第二位或更后
+BuiltInTemplateConditionId_PreviousReferenceIsPartOfMultipleCitationAtSecondPlaceOrFollowing	Previous reference is part of a multiple citation, in second or later position	前一条文献是多重引用的一部分，位于第二位或更后
 BuiltInTemplateConditionId_ConsecutiveCitationBySameAuthorEditor	Consecutive citations (same {0})	连续引用（相同 {0}）
 BuiltInTemplateConditionId_PlaceholderCitationQuotationTypeSummary	Citation is for a summary	引用用于摘要
 CitationStyleSettingsDialog_internalNameLabel	Internal name	内部名称
 PersonFieldElementPropertyEditorControl_namePrefixesLabel	Name prefixes:	姓名前缀：
-BuiltInTemplateConditionId_CurrentReferenceIsPartOfMultipleCitationAtFirstPlace	Reference is part of a multiple citation, at beginning	参考文献是多重引用的一部分，位于开头
+BuiltInTemplateConditionId_CurrentReferenceIsPartOfMultipleCitationAtFirstPlace	Reference is part of a multiple citation, at beginning	文献是多重引用的一部分，位于开头
 ManageDerivedCitationStylesDialog_mainGridColumnBasedOnStyleName	Based on style	基于样式
 ManageDerivedCitationStylesDialog_toolDelete	Delete	删除
 BackOfficeCitationStyleElementsDialog_FormText_CustomMacroCitationComparer	Customized sortings from the Citavi server	来自 Citavi 服务器的自定义排序
@@ -330,13 +330,13 @@ PersonFieldElementPropertyEditorControl_addLastPersonIfAbbreviatedCheckBox	Concl
 NumberingStyle_FullRange_DynamicExample	Start and end pages (e.g. {0})	起始页和结束页（例如 {0}）
 CitationStyleSettingsDialog_inTextCitationsMultipleEntrySortGroupBox	Sorting	排序
 BuiltInTemplateConditionId_PlaceholderCitationQuotationTypeDirect	Citation is for a direct quotation	引用用于直接引文
-CitationStyleSettingsDialog_autoDotAfterReferencesAtEndOfFootnotesCheckBox	Insert period if reference is at end of footnote	如果参考文献位于脚注末尾，则插入句点
+CitationStyleSettingsDialog_autoDotAfterReferencesAtEndOfFootnotesCheckBox	Insert period if reference is at end of footnote	如果文献位于脚注末尾，则插入句点
 CitationStyleUploadDialog_internalNameLabel	Internal name:	内部名称：
 CitationStyleUploadDialog_builtInCheckBox	Citavi built-in style	Citavi 内置样式
 CitationStyleSettingsDialog_footnotesMultipleEntryConsecutiveAuthorsSeparatorLabel	Separate with:	分隔符：
 ComponentPartPropertyEditorControl_nameLabel	Name:	名称：
 CitationStyleSettingsDialog_showTemplateOptionAlwaysUseThisForAmbiguityResolvingCheckBox	Show the following additional option with each template for "Footnote" and "In-Text" citations:	为“脚注”和“文内”引用显示每个模板的以下其它选项：
-BuiltInTemplateConditionId_CurrentReferenceIsPartOfMultipleCitationAtSecondPlaceOrFollowing	Reference is part of a multiple citation, in second or later position	参考文献是多重引用的一部分，位于第二位或更后
+BuiltInTemplateConditionId_CurrentReferenceIsPartOfMultipleCitationAtSecondPlaceOrFollowing	Reference is part of a multiple citation, in second or later position	文献是多重引用的一部分，位于第二位或更后
 TemplatePropertyEditorControl_nameLabel	Name:	名称：
 CitationStyleUploadDialog_waitStatusLabel	Working…	处理中…
 CitationStyleSettingsDialog_footnotesUseSameReferenceAsPreviousConditionsForMultipleCitationsCheckBox	Apply conditions for consecutive citations to multiple citations	将连续引用的条件应用于多重引用
@@ -363,11 +363,11 @@ CitationStyleSettingsDialog_rangifyIndexNumbersDisclaimerLabel	* Grouping is not
 PageRangeFieldElementPropertyEditorControl_numeralSystemOption_RomanLowerCase	Lowercase Roman (z.B. xxi)	小写罗马数字（例如 xxi）
 BuiltInTemplateConditionId_AuthorsOrEditorsOrOrganizationsEqualPublishers	"Author, editor, or organization" is the same as the publisher	“作者、编者或机构”与出版者相同
 NumberingStyle_AbbreviateLastPage	Abbreviate end page (e.g. 153–9)	缩写结束页码（例如 153–9）
-CitationStyleSettingsDialog_ambiguityInformationLabel	Resolve ambiguous references by applying the following options:	通过应用以下选项解决歧义参考文献：
+CitationStyleSettingsDialog_ambiguityInformationLabel	Resolve ambiguous references by applying the following options:	通过应用以下选项解决歧义文献：
 ComponentPartPropertyEditorControl_filterNotesLabel	Notes:	笔记：
 CitationStyleSettingsDialog_compositeCitationSortingGroupBox	Sorting of sub-index numbers:	子索引编号的排序：
-BuiltInTemplateConditionId_AuthorsEqualParentAuthors	Authors of reference are the same as its parent's authors	参考文献的作者与其父级的作者相同
-BuiltInTemplateConditionParentFieldEmpty	"{0}" in the parent reference is empty 	父级参考文献中的“{0}”为空
+BuiltInTemplateConditionId_AuthorsEqualParentAuthors	Authors of reference are the same as its parent's authors	文献的作者与其父级的作者相同
+BuiltInTemplateConditionParentFieldEmpty	"{0}" in the parent reference is empty 	父级文献中的“{0}”为空
 PersonFieldElementPropertyEditorControl_abbreviateNamePrefixesCheckBox	Abbreviate name prefixes as follows (long and short forms separated by '|')	
 CitationStyleUploadSaveFileFirstPrompt	Before uploading, changes must be saved.\r\nWould you like to save the style now?	上传前必须保存更改。\r\n是否立即保存该样式？
 TemplateConditionDialog_ListIsEmptyLabel	List contains no items	列表不包含任何项目
@@ -383,7 +383,7 @@ CitationStyleUploadDialog_citationStyleIdLabel	Id:	ID：
 StylePropertyEditorControl_settingsButton	Citation style properties…	引文样式属性……
 ManageDerivedCitationStylesDialog_mainGridColumnId	ID	ID
 PersonFieldElementPropertyEditorControl_subsequentRepetitionOutputSuppressedForFirstCitationInsideMultipleCitationCheckBox	No output for first citation inside multiple citations	多重引用中的第一个引用不输出
-BuiltInTemplateConditionId_PlaceholderCitationQuotationTypeNone	Citation is for a reference only, not a knowledge item	引用仅用于参考文献，而非知识条目
+BuiltInTemplateConditionId_PlaceholderCitationQuotationTypeNone	Citation is for a reference only, not a knowledge item	引用仅用于文献，而非知识条目
 ComponentPartEditorControl_toolboxPanel_Caption	Elements	元素
 PersonFieldElementPropertyEditorControl_lastPersonSeparatorIfExactlyTwoPersonsLabel	Separator:	分隔符：
 ManageDerivedCitationStylesDialog_messageExportFinished	Export finished\r\n\r\n{0} derived citation styles exported\r\n	导出完成\r\n\r\n已导出 {0} 个派生的引文样式\r\n
@@ -397,7 +397,7 @@ IndexInBibliographyFieldElementPropertyEditorControl_textBetweenIndexPartsGroupB
 CitationStyleSettingsDialog_rangifySubIndexNumbersInMultipleCitationCheckBox	Group consecutive sub-index numbers when possible*	尽可能对连续的子索引编号进行分组*
 ComponentPartPropertyEditorControl_deleteFilterButton	Delete filter	删除筛选器
 PageRangeFieldElementPropertyEditorControl_suffixLabel	Suffix	后缀
-BuiltInTemplateConditionId_ReferenceLanguageIsItalian	Reference language is Italian	参考文献语言为意大利语
+BuiltInTemplateConditionId_ReferenceLanguageIsItalian	Reference language is Italian	文献语言为意大利语
 BuiltInTemplateConditionId_CustomField8NotEmpty	"Custom field 8" contains data	“自定义字段 8”包含数据
 BuiltInCitationStyleEditWarningInternal	You want to edit the citation style '{0}'. This is a built-in style that all Citavi users can download from the Internet.\r\n\r\nWhen you are finished editing the style, please do not forget to upload the file to the Citavi Cloud again in order to make changes available to all users.	您要编辑引文样式“{0}”。这是所有 Citavi 用户都可以从 Internet 下载的内置样式。\r\n\r\n编辑完样式后，请不要忘记将文件重新上传到 Citavi Cloud，以便让所有用户都能使用这些更改。
 BuiltInTemplateConditionId_SameEditorsAsPrevious	Consecutive citation (same editor)	连续引用（相同编者）
@@ -456,7 +456,7 @@ PreviewPropertyEditorControl_filterTemplatesGroupBox	Preview templates	预览模
 CitationStyleSettingsDialog_citationStyleMasterIdLabel	Master ID	主样式 ID
 PreviewPropertyEditorControl_previewActiveTemplateOnlyRadioButton	Only active template (ignoring conditions and citation style options)	仅活动模板（忽略条件和引文样式选项）
 CitationStyleSettingsDialog_rangifySubIndexNumbersMinConsecutiveNumbersLabel	When at least:	当至少为：
-BuiltInTemplateConditionId_HasParentCitation	Parent reference is also cited	父级参考文献也被引用
+BuiltInTemplateConditionId_HasParentCitation	Parent reference is also cited	父级文献也被引用
 CitationStyleSettingsDialog_footnotesMultipleEntrySeparatorLabel	Separate multiple citations with:	用以下内容分隔多重引用：
 StyleEditorPropertyPanelTextComponentPart	Component properties:  {0}	组件属性：  {0}
 StyleEditorControl_previewPanel_EmptyCaption	Preview	预览
@@ -465,7 +465,7 @@ PageRangeFieldElementPropertyEditorControl_paragraphNumberingType	Sections	章�
 BuiltInConditionTemplateInvalidOrder_ManualCorrect	Cancel save and correct sequence manually	取消保存并手动更正序列
 PageRangeFieldElementPropertyEditorControl_endLabel	End of range:	范围结束：
 CitationStyleSettingsDialog_listFormatOrderedListRadioButton	Numbering	编号
-Preview_SelectTemplateMessage	[Select a template on the left-hand side to see formatted references in the preview.]	[在左侧选择模板以在预览中查看格式化后的参考文献。]
+Preview_SelectTemplateMessage	[Select a template on the left-hand side to see formatted references in the preview.]	[在左侧选择模板以在预览中查看格式化后的文献。]
 FontStyleEditorControl_smallCapsCheckBox	Small caps	小型大写字母
 ComponentPartPropertyEditorControl_addEditFilterButton	Filter…	过滤……
 ComponentPartPropertyEditor_PunctuationAfterFontStyle	Style for: Punctuation after	样式：后置标点
@@ -488,9 +488,9 @@ RuleSetEditorText_Inherited	Rule set: {0}  |  <a fref="UseCaseEditInheritFrom_{1
 SeriesTitleFieldElementPropertyEditorControl_seriesTitleNameUsageLabel	Use name or abbreviation:	使用名称或缩写：
 FontStyleEditorControl_boldCheckBox	Bold	粗体
 BuiltInTemplateConditionId_InBibliographyParentReferenceCitedBeforeContribution	Parent reference was already cited in bibliography	父级参考文献已在参考文献列表中引用
-BuiltInTemplateConditionId_InFootnotePreviousAndCurrentAreInConsecutiveFootnotes	Previous reference is in previous footnote	前一条参考文献位于上一个脚注中
+BuiltInTemplateConditionId_InFootnotePreviousAndCurrentAreInConsecutiveFootnotes	Previous reference is in previous footnote	前一条文献位于上一个脚注中
 PersonFieldElementPropertyEditorControl_organizationTextBeforeNameLabel	Text before name:	姓名前的文本：
-BuiltInTemplateConditionId_RepeatingFootnote	Reference was cited in a previous footnote	参考文献已在之前的脚注中引用
+BuiltInTemplateConditionId_RepeatingFootnote	Reference was cited in a previous footnote	文献已在之前的脚注中引用
 CitationStyleSettingsDialog_SortOptions_APA	American Psychological Association (APA)	美国心理学会（APA）
 CitationStyleSettingsDialog_mainIndexMinimumLengthLabel	Minimum length	最小长度
 CitationStyleSettingsDialog_SortOptions_Custom	Field selection	字段选择
@@ -509,7 +509,7 @@ CitationStyleSettingsDialog_suppressSubIndexNumbersOnFullRangeCheckBox	Suppress 
 CitationStyleSettingsDialog_rangifyMainIndexNunbersRangeCharactersLabel	Separate with: 	分隔符： 
 IndexInBibliographyFieldElementPropertyEditorControl_subIndexTextAfterLabel	Text after:	后置文本：
 ComponentPartPropertyEditorControl_filterNameLabel	Filter name:	筛选器名称：
-BuiltInTemplateConditionId_RepeatingInTextCitationParentOrOtherContribution	Parent reference or other contribution therein was cited in a previous in-text citation	父级参考文献或其中的其它贡献已在之前的文内引用中引用
+BuiltInTemplateConditionId_RepeatingInTextCitationParentOrOtherContribution	Parent reference or other contribution therein was cited in a previous in-text citation	父级文献或其中的其它贡献已在之前的文内引用中引用
 ElectronicAddressFieldElementPropertyEditorControl_makePathWrappableCheckBox	Allow for line breaks in long URLs	允许在长 URL 中换行
 PersonFieldElementPropertyEditorControl_groupPrefixLabel	Group prefix:	组前缀：
 CitationStyleSettingsDialog_autoFirstLetterCapitalizationLabel	Capitalize the first letter automatically:	自动将首字母大写：

@@ -104,7 +104,7 @@ NewVersionInfo	New feature information	新功能信息
 AccountSuccessfullyVerifiedTitle	Welcome to your Citavi Account!	欢迎使用您的 Citavi 账户！
 Subscription_NextValidityPeriod	Next validity period	下一个有效期
 StreetNumber	Street address	街道地址
-LicenseDataHtml	<p>You have a license for {0}.</p><p>With this license, you can install Citavi on all personal devices and can save as many references as you want in each project.</p><p>To unlock the license, copy the license key to the Clipboard and start Citavi. On the Welcome Screen, click <b>License</b> > <b>Enter a license key</b>.</p>	<p>您拥有 {0} 的许可证。</p><p>使用此许可证，您可以在所有个人设备上安装 Citavi，并可在每个项目中保存任意数量的参考文献。</p><p>要解锁许可证，请将许可证密钥复制到剪贴板并启动 Citavi。在欢迎屏幕上，单击 <b>许可证</b> > <b>输入许可证密钥</b>。</p>
+LicenseDataHtml	<p>You have a license for {0}.</p><p>With this license, you can install Citavi on all personal devices and can save as many references as you want in each project.</p><p>To unlock the license, copy the license key to the Clipboard and start Citavi. On the Welcome Screen, click <b>License</b> > <b>Enter a license key</b>.</p>	<p>您拥有 {0} 的许可证。</p><p>使用此许可证，您可以在所有个人设备上安装 Citavi，并可在每个项目中保存任意数量的文献。</p><p>要解锁许可证，请将许可证密钥复制到剪贴板并启动 Citavi。在欢迎屏幕上，单击 <b>许可证</b> > <b>输入许可证密钥</b>。</p>
 ThenYouCanDeleteAccount	Afterwards you can delete your Citavi account.	之后您可以删除您的 Citavi 账户。
 Repeat	Confirm:	确认：
 Reload	Please refresh the page	请刷新页面

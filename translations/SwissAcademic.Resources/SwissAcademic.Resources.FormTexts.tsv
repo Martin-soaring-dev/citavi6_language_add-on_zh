@@ -19,7 +19,7 @@ LiveUpdateDialog	Citavi Update	Citavi 更新
 KeyConfigurationDialog	BibTeX Key Settings	BibTeX 键设置
 TabStopDialog	Tab Stops	制表位
 MassIsbnDownloadDialog	Batch Import ISBN Numbers	批量导入 ISBN 号
-MacroEditorExternalReferencesDialog	References	文献条目
+MacroEditorExternalReferencesDialog	References	文献
 NumberingTypeDialog	Numbering Type	编号类型
 ProgressDialog	Working…	处理中…
 ImageForm	Cover Art	封面图片
@@ -79,7 +79,7 @@ MainForm_ReferenceEditor	Reference Editor	文献编辑器
 BibTeXKeyDialog	Customize BibTeX Keys	自定义 BibTeX 键
 ShortTitleDialog	Short Title	短标题
 ProjectPropertiesDialog	Project Properties	项目属性
-ChooseReferenceDialog	Select Reference	选择参考文献
+ChooseReferenceDialog	Select Reference	选择文献
 UserDataFolderPathDialog	Citavi Folder for User Files	用户文件的 Citavi 文件夹
 TeXPublicationForm	Automatic BibTeX Export	自动 BibTeX 导出
 ReplacementListDialog	Replacements	替换

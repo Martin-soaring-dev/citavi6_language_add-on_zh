@@ -54,7 +54,7 @@ ProjectIsBeingCreated	<b>Creating project</b>	<b>正在创建项目</b>
 Tooltip_Import	Import	导入
 DownloadCitaviForWindows	Download Citavi for Windows	下载适用于 Windows 的 Citavi
 RSSShowHiddenNews	Show hidden RSS messages	显示隐藏的 RSS 消息
-Others_FirstPublicationYear_Description	When this option is selected, Year derived first checks whether a year is present in the Original publication field (of the reference or its parent reference) and uses it if present.	选中此选项后，年份推算会先检查原始出版物字段（该文献或其父级参考文献的字段）中是否存在年份，如果存在则使用该年份。
+Others_FirstPublicationYear_Description	When this option is selected, Year derived first checks whether a year is present in the Original publication field (of the reference or its parent reference) and uses it if present.	选中此选项后，年份推算会先检查原始出版物字段（该文献或其父级文献的字段）中是否存在年份，如果存在则使用该年份。
 RSSFeedAlreadyPresent	RSS feed URL already exists	RSS 订阅源 URL 已存在
 AddIns_WordAssistant	Word Assistant	Word 助手
 PickerDescription	Save references and quotations you find online in your project.	将您在网上找到的文献和引文保存到项目中。

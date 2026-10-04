@@ -94,7 +94,7 @@ Ribbon_ProjectList	Project:	项目：
 PublicationStatisticForm_charsCountLabel	Characters (no spaces)	字符数（不含空格）
 PublicationPane_MenuItem_InsertCategoryWithOptions	Insert categories and knowledge items	插入分类和知识条目
 PublicationPane_ToolStrip_ExpandAllKeywords	Expand all	全部展开
-PublicationPane_ChapterItem_References	References	文献条目
+PublicationPane_ChapterItem_References	References	文献
 PublicationPane_InfoControl_OpenAssignedProjectTitleLabel	Open assigned project	打开已分配的项目
 PublicationPane_ToolStrip_AddTask	Add task to reference: {0}	向文献添加任务：{0}
 WdFieldShading_Never	Never	从不
@@ -135,7 +135,7 @@ PublicationPane_ContextMenu_InsertLocation	Insert as:	插入为：
 Ribbon_ConvertPlaceholderLocation_InText	Convert footnote citations to in-text citations	将脚注引文转换为文内引文
 CopyReferencesToCitaviProjectMsg_Exist_Plural	{0} references are already in the project.	{0} 条文献已在项目中。
 CopyReferencesToCitaviProjectMsg_Add_Singular	1 reference was copied into the project.	已将 1 条文献复制到项目中。
-PublicationPane_TabPage_References	References	文献条目
+PublicationPane_TabPage_References	References	文献
 PublicationPane_ToolStrip_InsertButtonTooltip_KnowledgeItem	Inserts the selected knowledge item into the document. You can also double-click a knowledge item to insert it.	将所选知识条目插入到文档中。您也可以双击知识条目将其插入。
 InsertKnowledgeItemLayout_Thougth_Text	Thought only	仅想法
 PublicationPane_RuleSet	Rule set	规则集
@@ -216,7 +216,7 @@ PublicationPane_MenuItem_InsertKeyword	Insert	插入
 Ribbon_CitationsSaveAsPlainTextWithPlaceholder	Save a copy with Citavi placeholders	保存包含 Citavi 占位符的副本
 PublicationPane_InfoControl_ChangePublicationProjectLabel	Assign other…	分配其他…
 ContentControlAppearance	Show citations as	引文显示方式
-PublicationPane_ToolStrip_FilterNone_References	All references	所有参考文献
+PublicationPane_ToolStrip_FilterNone_References	All references	所有文献
 WdFieldShading_Selected	When selected	选中时
 PublicationPane_ContextMenu_CopyKnowledgeItemsLayout	Include:	包含：
 PublicationPane_MenuItem_InsertReference	Insert	插入

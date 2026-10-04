@@ -31,7 +31,7 @@ KnownTaskName_Read	Read	阅读
 CitationStyleAnalysis_BibliographyBookAuthorsEnumeration		
 BackupFolderPathDialogContext_PathIsEmpty	Select the folder for Citavi backups. Note the help text to the right.	选择 Citavi 备份文件夹。请注意右侧的帮助文本。
 FontStyle_Italic	Italic	斜体
-StyleFinderRepeatingConsecutiveFootnoteCitation_Full	As a full reference	作为完整参考文献
+StyleFinderRepeatingConsecutiveFootnoteCitation_Full	As a full reference	作为完整文献
 FontStyle_Superscript	Superscript	上标
 FinalCharacter_FullStop	. (period)	.(句点)
 VirtualSearchFieldType_ImageDescription	Image description	图片描述
@@ -40,7 +40,7 @@ ImportFieldType_TitleInOtherLanguages	Title in other languages	其他语言标�
 SimpleFontStyleFormatting_Underlined	Underline	下划线
 ImportFieldType_StartPage	Start page	起始页
 ImportFieldType_Categories	Categories	分类
-PdfExportSelection_FilteredReferencesPdfs	From the {0} PDF files of the the filtered references	从筛选出的参考文献的 {0} 个 PDF 文件中
+PdfExportSelection_FilteredReferencesPdfs	From the {0} PDF files of the the filtered references	从筛选出的文献的 {0} 个 PDF 文件中
 LaTeXEditor_WinShell	WinShell	WinShell
 VirtualSearchFieldType_KnowledgeItemCategories	Categories (in knowledge items)	分类(在知识条目中)
 ImportFieldType_AuthorsSuffix	{0}: Suffix	{0}:后缀
@@ -75,11 +75,11 @@ InformationProviderType_Library	Libraries	图书馆
 KnowledgeItemFilterTypeInternal_All	All knowledge items	所有知识条目
 NameFormat_Compact	Compact ("JM")	紧凑 ("JM")
 PersonNameSequence_LastnameFirstnameWithComma	Last name, first name	姓，名
-StyleFinderShortCitationSystem_ReferenceNumbers	Reference numbers, e.g. [14]	参考文献编号，例如 [14]
+StyleFinderShortCitationSystem_ReferenceNumbers	Reference numbers, e.g. [14]	文献编号，例如 [14]
 VirtualSearchFieldType_ElectronicLocations	Locations (electronic)	位置(电子)
 NumeralSystem_LetterUpperCase	Uppercase letters	大写字母
 StyleFinderPlaceOfReferences_Indifferent	Any	任意
-VirtualSearchFieldType_Cover_Description	Reference cover art	参考文献封面图片
+VirtualSearchFieldType_Cover_Description	Reference cover art	文献封面图片
 SourceOfBibliographicInformationPreset_BooksellerCatalog	Bookseller catalog	书商目录
 ImportFieldType_AuthorsPrefix	{0}: Prefix	{0}:前缀
 NumeralSystem_Default	None (as entered)	无(按输入)
@@ -89,8 +89,8 @@ FullTextExtractionResult_ErrorWhileExtractingIFilterText	An error occurred durin
 FullTextExtractionResult_EPubIsDrmProtected	The ePub file is protected by DRM. The text could not be extracted.	ePub 文件受 DRM 保护。无法提取文本。
 ImportFieldType_QuotationTextRtf	Quotation: Text (RTF)	引文：文本 (RTF)
 SearchAttributeType_PASubject	PA subject	PA 主题
-VirtualSearchFieldType_ParentReference	Parent reference	父参考文献
-StyleFinderRepeatingNonConsecutiveFootnoteCitation_Full	As a full reference	作为完整参考文献
+VirtualSearchFieldType_ParentReference	Parent reference	父文献
+StyleFinderRepeatingNonConsecutiveFootnoteCitation_Full	As a full reference	作为完整文献
 MainFormWorkspace_Knowledge	Knowledge	知识
 VirtualSearchFieldType_Notes	Notes	笔记
 ConcentrationArea_NaturalSciences	Natural Sciences	自然科学
@@ -106,7 +106,7 @@ VirtualSearchFieldType_Price	Price	价格
 VirtualSearchFieldType_PmcId	PMC ID	PMC ID
 BackupFolderPathDialogContext_UserSettingsManagement	Select the folder for Citavi backups. Note the help text to the right. 	选择 Citavi 备份文件夹。请注意右侧的帮助文本。
 ImportFieldMappingTag_Publisher	publisher|publishers	
-ReferenceFilterTypeInternal_MovedReferences	Moved references	已移动的参考文献
+ReferenceFilterTypeInternal_MovedReferences	Moved references	已移动的文献
 ImportFieldType_EditorsMiddleName	{0}: Middle name	{0}:中间名
 ImportFieldType_AuthorsFullName	{0}: Name	{0}:名称
 SearchAttributeType_ConferenceName	Conference	会议
@@ -134,7 +134,7 @@ AutoRenamePropertyId_CustomField1	Custom field 1	自定义字段 1
 StyleFinderFullReferenceBookTitleFormat_Italics	Italicized	斜体
 SearchInContext_MainFormKnowledgeKnowledgeItemsWithNoCategories	In uncategorized knowledge items	在未分类的知识条目中
 ImportReferenceType_StatuteOrRegulation	Statute or regulation	法规或条例
-PdfExportSelection_SelectedReferencesPdfs	From the {0} PDF files of the selected references	从所选参考文献的 {0} 个 PDF 文件中
+PdfExportSelection_SelectedReferencesPdfs	From the {0} PDF files of the selected references	从所选文献的 {0} 个 PDF 文件中
 ElementApplyCondition_Always	Always	始终
 ImportFieldType_TableOfContents	Table of contents	目录
 KnowledgeItemCompositionReferenceHandling_InsertPlaceholderInText	Text and in-text placeholders	文本和文中占位符
@@ -169,7 +169,7 @@ LOBExceptionType_OnlineOrderNotPossibleNoInternetConnection	The order cannot be 
 TaskPlannerQuickFilter_Custom	Selected tasks	所选任务
 SearchAttributeType_LocationCallNumber	Call number	索书号
 AdobeAcrobatFileImport	PDF file import	PDF 文件导入
-ReferenceFilterTypeInternal_ChildReferences	Child references	子参考文献
+ReferenceFilterTypeInternal_ChildReferences	Child references	子文献
 GdPictureStatus_OutOfMemory	Out of memory	内存不足
 SearchAttributeType_Date	Date of event	事件日期
 SearchAttributeType_ISBN	ISBN	ISBN
@@ -189,7 +189,7 @@ VirtualSearchFieldType_KnowledgeItemsFile	Knowledge items (image or file)	知识
 Z3950ExceptionType_ConnectionUnavailable	The information provider is not available at the moment.	信息提供程序当前不可用。
 DataCenter_WestEurope	West Europe	西欧
 InformationProviderType_CSA	CSA	CSA
-ReferenceFilterTypeInternal_ReferencesWithNoGroup	References without groups	未分组参考文献
+ReferenceFilterTypeInternal_ReferencesWithNoGroup	References without groups	未分组文献
 VirtualSearchFieldType_KnowledgeFields	Knowledge fields	知识字段
 FontStyle_Neutral	Plain	无格式
 ImportFieldType_Language	Language	语言
@@ -283,7 +283,7 @@ ImportFieldType_ReferenceType	Reference type	文献类型
 RuleSetType_InTextCitation	In-text citation	文内引用
 FontStyle_StrikeThrough	Strikethrough	删除线
 SearchInContext_PeriodicalList	In the periodicals list	在期刊列表中
-ImportFieldType_ParentReferenceCreatedBy	Parent reference: Created	父级参考文献：创建日期
+ImportFieldType_ParentReferenceCreatedBy	Parent reference: Created	父级文献：创建日期
 ProjectRoleType_Author	Author	作者
 ImportFieldType_QuotationText	Quotation: Text	引文：文本
 BibliographyRepeatedPersonsOmissionHandling_Standard	Same as above	同上
@@ -311,7 +311,7 @@ VirtualSearchFieldType_Edition	Edition	版次
 GdPictureStatus_EncryptionSchemeNotSupported	Encryption scheme not supported	不支持该加密方案
 KnowledgeItemType_File	File	文件
 KnowledgeItemType_Text	Text	文本
-ImportFieldType_ParentReferenceSeriesTitle	Parent reference: Series	父级参考文献：丛书
+ImportFieldType_ParentReferenceSeriesTitle	Parent reference: Series	父级文献：丛书
 StyleFinderFullReferenceBookUsesEdition_Yes	Yes	是
 NameFormat_AbbreviatedCompact	Abbreviated, compact ("J.M.")	缩写，紧凑（"J.M."）
 VirtualSearchFieldType_CoreStatement	Core statement	核心陈述
@@ -415,7 +415,7 @@ BibliographyRepeatedPersonsOmissionHandling_Special	Special repetition or omissi
 KnowledgeItemCompositionReferenceHandling_FullFormatAuto	Text, citations, and bibliography	文本、引文和参考文献
 LinkedResourceType_RemoteUri	URL	URL
 ColorScheme_Red	Red	红色
-ReferenceFilterTypeInternal_All	All references	所有参考文献
+ReferenceFilterTypeInternal_All	All references	所有文献
 KnowledgeItemFilterTypeInternal_Keyword	Keyword	关键词
 FullTextExtractionResult_UnexpectedError	An unexpected error occurred while the file was being processed.	处理文件时发生意外错误。
 KnowledgeKeywordEditorRowType_EntriesWithNoKeyword	(No keywords assigned)	（未分配关键词）
@@ -432,7 +432,7 @@ TaskStatus_WaitingForActivation	Waiting for activation	等待激活
 TaskStatus_Created	Created	创建时间
 ReferenceFilterTypeInternal_ReferencesWithNoCategory	References without categories	无分类的文献
 ImportFieldType_ModifiedBy	Modified:	修改时间：
-ImportFieldType_ParentReferencePlaceOfPublication	Parent reference: Place of publication	父级参考文献：出版地
+ImportFieldType_ParentReferencePlaceOfPublication	Parent reference: Place of publication	父级文献：出版地
 SimpleFontStyleCaps_AllCaps	All caps	全部大写
 VirtualSearchFieldType_ReferenceGroups	Groups (for references)	组（用于文献）
 FileNameSeparator_UnderLine	Underline	下划线
@@ -518,7 +518,7 @@ ColorScheme_Brown	Purple	紫色
 SimpleFontStyleFormatting_Bold	Bold	粗体
 SimpleFontStyleFormatting_None	None	无
 ImportFieldType_FileLink	Local file	本地文件
-ImportFieldType_ParentReferenceModifiedBy	Parent reference: Modified	父级参考文献：修改日期
+ImportFieldType_ParentReferenceModifiedBy	Parent reference: Modified	父级文献：修改日期
 ColorScheme_Green	Green	绿色
 PdfExportSelection_ActiveReferencePdfs	From the {0} PDF files of the current reference	从当前文献的 {0} 个 PDF 文件中
 StyleFinderFullReferenceAuthorsNameOrder_LastNameOnly	Last name only	仅姓氏
@@ -615,7 +615,7 @@ UserDataFolderState_InstallationSpecificUserDataFolderDoesNotExist	Citavi startu
 SourceOfBibliographicInformationPreset_OriginalSource	Original source	原始来源
 FullTextExtractionResult_ErrorWhileExtractingEPubText	An error occurred during extraction.	提取过程中发生错误。
 KnowledgeItemCompositionReferenceHandling_InsertPlaceholderAuto	Text and placeholders	文本和占位符
-SearchResultGroupType_References	References	文献条目
+SearchResultGroupType_References	References	文献
 PasswordStrength_Strong	Password strength: strong	密码强度：强
 StyleFinderFullReferenceBookTitleFormat_NeutralInQuotationMarks	Plain and in quotation marks	纯文本并加引号
 VirtualSearchFieldType_TableOfContents	Table of contents	目录
@@ -627,7 +627,7 @@ CitationStyleSortOption_Custom	Custom	自定义
 ImportReferenceType_Lecture	Presentation	演示文稿
 OrganizationNameOrder_NameOnly	Full name only ("United Nations")	仅全名（"United Nations"）
 StyleFinderRepeatingConsecutiveFootnoteCitation_Indifferent	Any	任意
-ImportFieldType_ParentReferenceTitle	Parent reference: Title	父级参考文献：标题
+ImportFieldType_ParentReferenceTitle	Parent reference: Title	父级文献：标题
 ImportFieldType_CollaboratorsTitle	{0}: Title	{0}：标题
 ImportFieldType_CustomField8	Custom field 8	自定义字段 8
 ImportFieldType_CustomField9	Custom field 9	自定义字段 9
@@ -720,7 +720,7 @@ StyleFinderFullReferenceAuthorsNameOrder_LastNameFirstName	Last name first name	
 PdfExportSelection_PreviewPdf	From the PDF file currently displayed in the preview	从预览中当前显示的 PDF 文件
 LOBExceptionType_OnlineOrderNotPossibleNotAvailable	The order cannot be processed because the ISBN number is unknown to the online book store.	由于网上书店无法识别该 ISBN 号，无法处理订单。
 FirstNameFormatInfo_FontStyle	Font Style	字体样式
-ImportFieldType_ParentReferenceVolume	Parent reference: Volume	父级参考文献：卷
+ImportFieldType_ParentReferenceVolume	Parent reference: Volume	父级文献：卷
 KnowledgeItemFilterTypeInternal_ExcludeKnowledgeItems	{0} knowledge items excluded	已排除 {0} 个知识条目
 KnowledgeItemFilterTypeInternal_KnowledgeItemsWithNoCategory	Knowledge items without categories	无分类的知识条目
 ImportReferenceType_ContributionInLegalCommentary	Contribution in legal commentary	法律评注中的篇章
@@ -760,9 +760,9 @@ FirstNameFormatInfo_IsAbbreviated	Abbreviate	缩写
 RolePermissionType_ChangePermissions	Full access	完全访问
 LaTeXEditor_LyX	LyX	LyX
 LaTeXEditor_LEd	LEd (LaTeX Editor)	LEd (LaTeX Editor)
-ImportFieldType_ParentReferenceIsbn	Parent reference: ISBN	父级参考文献：ISBN
+ImportFieldType_ParentReferenceIsbn	Parent reference: ISBN	父级文献：ISBN
 VirtualSearchFieldType_StorageMedium	Storage medium	存储介质
-ImportFieldType_ParentReferenceYear	Parent reference: Year	父级参考文献：年份
+ImportFieldType_ParentReferenceYear	Parent reference: Year	父级文献：年份
 ConcentrationArea_LanguageAndLiteratureSciences	Language and Literary Sciences	语言与文学科学
 StyleFinderFullReferenceBookUsesEdition_Indifferent	Any	任意
 VirtualSearchFieldType_KnowledgeItemKeywords	Keywords (in knowledge items)	关键词（在知识条目中）
@@ -818,7 +818,7 @@ QuotationType_Highlight	Highlight	高亮
 LineSpacingType_Precise	Exactly	固定值
 SearchAttributeType_PlacePublication	Place	地点
 LineSpacingType_Multiple	Multiple	多个
-ImportFieldType_ParentReferenceEditorsFullName	Parent reference: Editor	父级参考文献：编者
+ImportFieldType_ParentReferenceEditorsFullName	Parent reference: Editor	父级文献：编者
 ReferenceFilterTypeInternal_LookupLocationsReferences	References from location search	来自位置检索的文献
 ImportFieldMappingTag_Editors	editor|editors|ed|eds	
 ImportFieldType_TaskType	Task: Type	任务：类型
@@ -849,7 +849,7 @@ VirtualSearchFieldType_Publishers	Publishers	出版社
 ModificationInfoMeasurementUnit_Days	Days	天
 ModificationInfoMeasurementUnit_Week	Week	周
 ModificationInfoMeasurementUnit_Hour	Hour	小时
-ImportFieldType_ParentReferencePublishers	Parent reference: Publishers	父级参考文献：出版者
+ImportFieldType_ParentReferencePublishers	Parent reference: Publishers	父级文献：出版者
 ImportFieldType_PageCount	Page count	页数
 StyleFinderFullReferenceJournalArticleJournalNameFormat_FullName	Full name	全名
 IndentationType_FirstLine	First line	首行
@@ -865,7 +865,7 @@ OptimizeForSlowDatabaseAccess_Never	Never	从不
 DbServerLicenseType_Concurrent	Concurrent	并发
 SearchAttributeType_Abstract	Abstract	摘要
 KnownTaskName_GoThroughBibliography	Go through bibliography	浏览文献目录
-StyleFinderShortReferenceType_ReferenceNumbers	Reference numbers, e.g. [14]	参考文献编号，例如 [14]
+StyleFinderShortReferenceType_ReferenceNumbers	Reference numbers, e.g. [14]	文献编号，例如 [14]
 KnowledgeItemCompositionReferenceHandling_OmitReference	Omit reference	省略文献
 ElementApplyCondition_PreviousAndNextElementsHaveData	Both previous and following elements contain data	前一个和后一个元素均包含数据
 PeriodicalNameUsage_UserAbbreviation2	Abbreviation 3	缩写 3
@@ -886,7 +886,7 @@ FullTextExtractionResult_NoLocalFile	The location is not a local file (attachmen
 ImportFieldMappingTag_Keywords	keyword|keywords|tags	
 VirtualSearchFieldType_Affiliation	Affiliation	隶属机构
 QuotationType_DirectQuotation	Direct quotation	直接引用
-MainFormWorkspace_References	References	文献条目
+MainFormWorkspace_References	References	文献
 IndentationType_None	(None)	(无)
 ImportFieldType_TaskNotes	Task: Notes	任务：笔记
 AutoFirstLetterCapitalization_None	Never	从不
