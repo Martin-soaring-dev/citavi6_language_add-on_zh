@@ -1014,7 +1014,7 @@ CreateProjectDialogEx_sqlServerProjectTitleLabel	DBServer project	DBServer 项�
 EquivalentCharactersPairDialog_replacementLabel	Also finds:	还可找到：
 PreviewControl_newLocationRemoteUriLabel	Add Internet address	添加 Internet 地址
 ReplacementDialog_replacementLabel	Replace with:	替换为：
-EntityLinkForm_targetLabel	To:	收件人：
+EntityLinkForm_targetLabel	To:	目标：
 KnowledgeItemsWithNoCategory	Knowledge items without categories	无分类的知识条目
 BibliographyGroupingForm_AllKeywords	All keywords with their references	所有关键词及其文献
 Criterias_ApplyButton	Apply as selection	作为选择应用
@@ -1510,7 +1510,7 @@ OnlineSearchCredentialDialog_checkButton	Test	测试
 MainForm_taskPlannerSavedSearchesTitleLabel	Saved selections	已保存的选择
 Tabs_LinksTab	Links	链接
 PreviewControl_fileNotFoundDeleteLocationLabel	Delete location	删除位置
-EntityLinkForm_sourceLabel	From:	发件人：
+EntityLinkForm_sourceLabel	From:	来源：
 OrganizationSettingsExportDialog_title1Label	Which file do you want to export the settings to?	要将设置导出到哪个文件？
 knowledgeCategoriesKeywordsHelpTabControl_Keywords	Keywords	关键词
 LicenseDialog_Header_EnterLicenseKey	Enter license key	输入许可证密钥
