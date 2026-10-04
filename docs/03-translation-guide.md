@@ -74,27 +74,47 @@ translations/<程序集名>/<资源基名>.tsv
 
 | 英文 | 中文 |
 |---|---|
-| Reference | 参考文献 / 条目(视语境) |
-| Knowledge item | 知识项 |
-| Quotation | 摘录 |
+| Reference | 文献;参考文献(引文/目录语境);文献条目(编辑区实体) |
+| Reference type | 文献类型 |
+| Knowledge item | 知识条目 |
+| Quotation | 引文 |
+| Citation | 引文 |
+| Citation key | 引文键 |
+| Citation style | 引文样式 |
+| Bibliography | 参考文献目录 |
+| Parent reference | 父级参考文献 |
+| Contribution | 篇章(文献类型);收录于…(Contribution in…) |
 | Category | 分类 |
 | Keyword | 关键词 |
+| Group | 组;分组(动作/Grouping) |
+| Label / Flag | 标签 |
 | Task | 任务 |
-| Citation | 引用 |
-| Citation style | 引用样式 |
-| Bibliography | 参考文献目录 |
+| Evaluation | 评价(字段);评估(动词/试用版) |
+| Rating | 评分 |
+| Importance: Medium | 中 |
 | Project | 项目 |
 | Attachment | 附件 |
+| Storage medium | 存储介质 |
 | Picker | 浏览器插件 |
 | Add-On | 加载项 |
 | Import / Export | 导入 / 导出 |
-| Filter | 筛选 |
+| Filter | 筛选器 |
 | Search | 搜索 |
-| Location (online) | 资源库 |
+| Location | 位置 |
+| Library location | 图书馆位置 |
 | Field | 字段 |
-| Person | 作者(视语境) |
+| Person | 人员 |
 | Institution | 机构 |
 | Periodical | 期刊 |
+| Publisher | 出版社 |
+| Series (title) | 丛书(标题) |
+| Short title | 短标题 |
+| Core statement | 核心陈述 |
+| Note(s) | 笔记 |
+| Annotation | 注释 |
+| Offline | 离线 |
+| Voucher code | 优惠券代码 |
+| per-seat | 单席位 |
 | Cloud project | 云端项目 |
 | Backup | 备份 |
 | Shortcut | 快捷键 |
