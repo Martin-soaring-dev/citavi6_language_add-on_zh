@@ -70,7 +70,18 @@ function MB([string]$text,[string]$title,[string]$buttons='OK',[string]$icon='In
 function Test-Admin {
     try { return ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator) } catch { return $false }
 }
-function Get-StartupSettingsFile { Join-Path $env:APPDATA 'Swiss Academic Software\StartupSettings6.xml' }
+function Get-StartupSettingsFile {
+    # 不假设固定位置:先看常见位置,再主动搜索
+    $known = Join-Path $env:APPDATA 'Swiss Academic Software\StartupSettings6.xml'
+    if (Test-Path $known) { return $known }
+    foreach ($r in @($env:APPDATA, $env:LOCALAPPDATA, "$env:ProgramData", (Join-Path $env:USERPROFILE 'Documents'))) {
+        if ($r -and (Test-Path $r)) {
+            $hit = Get-ChildItem $r -Recurse -Filter 'StartupSettings6.xml' -Depth 4 -ErrorAction SilentlyContinue | Select-Object -First 1
+            if ($hit) { return $hit.FullName }
+        }
+    }
+    return $null
+}
 
 # ---------- 源目录 ----------
 function Resolve-SourceDir {
@@ -184,12 +195,27 @@ try {
     $src = Resolve-SourceDir
     if (-not $src) { MB "找不到语言包源目录(zh)。请把本安装器与 zh 文件夹放在一起。" '错误' 'OK' 'Error'; exit 1 }
 
-    # 检测
+    # 检测(自动找到;找不到则提示手动输入)
     Step "1/4 检测安装"
-    $cit = $null; try { $cit = Resolve-CitaviBin } catch { W "  $_" 'Yellow' }
-    $wa  = $null; try { $wa  = Resolve-WordAddInDir } catch { W "  $_" 'Yellow' }
-    W ("  Citavi bin        : " + $(if($cit){$cit}else{'未检测到(可用 -CitaviBin 指定)'}))
-    W ("  Word 加载项目录   : " + $(if($wa){$wa}else{'未检测到(可用 -WordAddInDir 指定;无则跳过)'}))
+    $cit = $null; $wa = $null
+    try { $cit = Resolve-CitaviBin } catch { W "  $_" 'Yellow' }
+    if (-not $cit) {
+        W "  未自动检测到 Citavi 6。" 'Yellow'
+        if ($Yes) { throw "未检测到 Citavi 6(非交互模式,请用 -CitaviBin 指定)。" }
+        $in = Read-Host "  请手动输入 Citavi 的 bin 目录(例如 D:\Program Files (x86)\Citavi 6\bin;直接回车=退出)"
+        if (-not $in) { MB "未提供 Citavi 安装目录,已取消。" 'Citavi 中文语言包' 'OK' 'Warning'; exit 1 }
+        if (Test-CitaviBin $in) { $cit = (Resolve-Path $in).Path } else { MB "目录无效(缺 Citavi.exe / SwissAcademic.dll):`n$in" '错误' 'OK' 'Error'; exit 1 }
+    }
+    try { $wa = Resolve-WordAddInDir } catch { W "  $_" 'Yellow' }
+    if (-not $wa) {
+        W "  未自动检测到 Word 加载项(可选)。" 'Yellow'
+        if (-not $Yes) {
+            $in = Read-Host "  如需 Word 加载项中文,请手动输入其目录(留空=跳过)"
+            if ($in) { if (Test-WordAddInDir $in) { $wa = (Resolve-Path $in).Path } else { W "  目录无效,已跳过 Word 加载项。" 'Yellow' } }
+        }
+    }
+    W ("  Citavi bin        : " + $(if($cit){$cit}else{'未检测到'}))
+    W ("  Word 加载项目录   : " + $(if($wa){$wa}else{'未检测到(跳过)'}))
     W ("  语言包源          : $src")
 
     # 预览
