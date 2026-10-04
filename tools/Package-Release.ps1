@@ -48,8 +48,8 @@ Copy-Item (Join-Path $CultureDir '*.dll') (Join-Path $stamp $Culture) -Force
 @"
 Citavi 6 中文语言包 v$Version(社区汉化)
 
-安装(推荐):双击本包中的「安装.cmd」,按向导自动检测并安装。
-  - 会自动检测 Citavi 6 安装目录与 Word 加载项目录(检测不到可用命令行参数指定)。
+安装(推荐):双击本包中的「安装.vbs」(图形界面,无控制台)。
+  - 自动检测 Citavi 6 与 Word 加载项目录,可手动修改;预览后一键安装/卸载。
 
 手动安装:
 1) 把本压缩包中的 "$Culture" 文件夹复制到 Citavi 安装目录的 bin\ 下,例如
@@ -59,14 +59,15 @@ Citavi 6 中文语言包 v$Version(社区汉化)
    (该目录由 Citavi 安装程序创建;若不存在可忽略此步)
 3) 打开 Citavi -> 工具 -> 语言 -> 选择「中文」;随后重启 Word。
 
-卸载:删除上述 zh 文件夹,并在语言菜单切回其他语言;或运行「安装.cmd -Uninstall」。
+卸载:删除上述 zh 文件夹,并在语言菜单切回其他语言;或用「安装.vbs」里的“卸载”。
 
 本语言包不修改 Citavi 任何原始文件。未翻译的条目会显示英文原文。
 "@ | Set-Content -Path (Join-Path $stamp '安装说明.txt') -Encoding UTF8
 
-# 安装器(自动检测/预览/执行/弹窗)
+# 图形安装器(双击 安装.vbs 启动,无控制台)+ CLI 备用
+Copy-Item (Join-Path $PSScriptRoot 'Install-Gui.ps1') (Join-Path $stamp 'Install-Gui.ps1') -Force
 Copy-Item (Join-Path $PSScriptRoot 'Install-Toolkit.ps1') (Join-Path $stamp 'Install-Toolkit.ps1') -Force
-Copy-Item (Join-Path $PSScriptRoot 'install-launcher.cmd') (Join-Path $stamp '安装.cmd') -Force
+Copy-Item (Join-Path $PSScriptRoot 'gui-launcher.vbs') (Join-Path $stamp '安装.vbs') -Force
 
 $zip = Join-Path $RepoDir "dist\citavi6-$Culture-v$Version.zip"
 if (Test-Path $zip) { Remove-Item $zip -Force }
