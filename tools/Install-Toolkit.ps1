@@ -94,83 +94,89 @@ function Resolve-SourceDir {
     return $null
 }
 
-# ---------- Citavi 检测 ----------
+# ---------- Citavi 检测:注册表判定是否安装;StartupSettings6.xml 取路径 ----------
 function Test-CitaviBin([string]$p){ return ($p -and (Test-Path (Join-Path $p 'Citavi.exe')) -and (Test-Path (Join-Path $p 'SwissAcademic.dll'))) }
-function Get-CitaviCandidates {
-    $l = [System.Collections.Generic.List[string]]::new()
+
+function Get-CitaviRegistry {
+    $o = [pscustomobject]@{ Installed=$false; Path=$null; Keys=@() }
+    $ks = @()
     foreach ($k in 'HKCU:\SOFTWARE\Swiss Academic Software\Citavi 6','HKLM:\SOFTWARE\WOW6432Node\Swiss Academic Software\Citavi 6','HKLM:\SOFTWARE\Swiss Academic Software\Citavi 6') {
-        try { $v = (Get-ItemProperty $k -ErrorAction Stop).Path; if ($v) { $l.Add((Split-Path $v -Parent)) } } catch {}
+        if (Test-Path $k) { $o.Installed = $true; $ks += $k; if (-not $o.Path) { $p = (Get-ItemProperty $k -ErrorAction SilentlyContinue).Path; if ($p) { $o.Path = $p } } }
     }
-    foreach ($root in 'HKLM:\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall','HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall') {
-        Get-ChildItem $root -ErrorAction SilentlyContinue | ForEach-Object {
-            $p = Get-ItemProperty $_.PSPath -ErrorAction SilentlyContinue
-            if ($p.DisplayName -match 'Citavi 6' -and $p.InstallLocation) { $l.Add((Join-Path $p.InstallLocation 'bin')) }
+    if (-not $o.Installed) {
+        foreach ($root in 'HKLM:\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall','HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall') {
+            Get-ChildItem $root -ErrorAction SilentlyContinue | ForEach-Object {
+                $p = Get-ItemProperty $_.PSPath -ErrorAction SilentlyContinue
+                if ($p.DisplayName -match 'Citavi 6') { $o.Installed = $true; if (-not $o.Path -and $p.InstallLocation) { $o.Path = (Join-Path $p.InstallLocation 'bin\Citavi.exe') } }
+            }
         }
     }
-    $ss = Get-StartupSettingsFile
-    if (Test-Path $ss) {
-        try { [xml]$x = Get-Content $ss -Raw; foreach ($s in $x.StartupSettings.StartupPathSet) { if ($s.ApplicationFolder) { $l.Add($s.ApplicationFolder) } } } catch {}
-    }
-    # 文件系统兜底:在各磁盘 Program Files 下找 Citavi.exe
-    foreach ($base in @($env:ProgramFiles, ${env:ProgramFiles(x86)}, 'C:\Program Files', 'C:\Program Files (x86)', 'D:\Program Files', 'D:\Program Files (x86)')) {
-        if ($base -and (Test-Path $base)) {
-            Get-ChildItem $base -Recurse -Filter 'Citavi.exe' -Depth 5 -ErrorAction SilentlyContinue |
-                ForEach-Object { $l.Add($_.DirectoryName) }
-        }
-    }
-    $l.Add('C:\Program Files (x86)\Citavi 6\bin'); $l.Add('C:\Program Files\Citavi 6\bin')
-    return ($l | Select-Object -Unique)
+    $o.Keys = $ks
+    return $o
 }
+
+function Get-StartupPaths {
+    $o = [pscustomobject]@{ File=(Get-StartupSettingsFile); Bins=@(); AddIns=@(); All=@() }
+    if ($o.File) {
+        try {
+            [xml]$x = Get-Content $o.File -Raw
+            foreach ($s in $x.StartupSettings.StartupPathSet) {
+                $af = $s.ApplicationFolder; if (-not $af) { continue }
+                $o.All += $af
+                $isCit = Test-Path (Join-Path $af 'Citavi.exe')
+                $isWai = Test-Path (Join-Path $af 'SwissAcademic.Citavi.WordAddIn.dll')
+                if ($isCit) { $o.Bins += $af }
+                if ($isWai -and -not $isCit) { $o.AddIns += $af }
+            }
+        } catch {}
+    }
+    return $o
+}
+
 function Resolve-CitaviBin {
     if ($CitaviBin) { if (Test-CitaviBin $CitaviBin) { return (Resolve-Path $CitaviBin).Path } else { throw "指定的 Citavi bin 无效(缺 Citavi.exe / SwissAcademic.dll):$CitaviBin" } }
-    foreach ($c in Get-CitaviCandidates) { if (Test-CitaviBin $c) { return (Resolve-Path $c).Path } }
+    # 1) StartupSettings6.xml 记录的路径
+    foreach ($b in @((Get-StartupPaths).Bins)) { if (Test-CitaviBin $b) { return (Resolve-Path $b).Path } }
+    # 2) 注册表 Path
+    $reg = Get-CitaviRegistry
+    if ($reg.Path) { $b = Split-Path $reg.Path -Parent; if (Test-CitaviBin $b) { return (Resolve-Path $b).Path } }
+    # 3) 文件系统兜底
+    foreach ($base in @($env:ProgramFiles, ${env:ProgramFiles(x86)}, 'C:\Program Files (x86)', 'D:\Program Files (x86)')) {
+        if ($base -and (Test-Path $base)) {
+            $hit = Get-ChildItem $base -Recurse -Filter 'Citavi.exe' -Depth 5 -ErrorAction SilentlyContinue | Select-Object -First 1
+            if ($hit -and (Test-CitaviBin $hit.DirectoryName)) { return (Resolve-Path $hit.DirectoryName).Path }
+        }
+    }
+    # 4) 常见路径
+    foreach ($c in @('C:\Program Files (x86)\Citavi 6\bin','C:\Program Files\Citavi 6\bin')) { if (Test-CitaviBin $c) { return (Resolve-Path $c).Path } }
     return $null
 }
 
-# ---------- Word 加载项检测 ----------
+# ---------- Word 加载项检测:StartupSettings6.xml 优先;Office 约定/文件系统兜底 ----------
 function Test-WordAddInDir([string]$p){ return ($p -and (Test-Path (Join-Path $p 'SwissAcademic.Citavi.WordAddIn.dll'))) }
-function Get-WordAddInCandidates {
-    $l = [System.Collections.Generic.List[string]]::new()
-    # 1) Citavi 自己的 StartupSettings6.xml(Citavi 会记录所有应用目录)
-    $ss = Get-StartupSettingsFile
-    if (Test-Path $ss) {
-        try { [xml]$x = Get-Content $ss -Raw; foreach ($s in $x.StartupSettings.StartupPathSet) { if ($s.ApplicationFolder) { $l.Add($s.ApplicationFolder) } } } catch {}
-    }
+
+function Resolve-WordAddInDir {
+    if ($WordAddInDir) { if (Test-WordAddInDir $WordAddInDir) { return (Resolve-Path $WordAddInDir).Path } else { throw "指定的 Word 加载项目录无效(缺 SwissAcademic.Citavi.WordAddIn.dll):$WordAddInDir" } }
+    $cands = [System.Collections.Generic.List[string]]::new()
+    # 1) StartupSettings6.xml 记录的路径(判别依据:目录里有加载项 DLL)
+    foreach ($d in @((Get-StartupPaths).AddIns)) { $cands.Add($d) }
     # 2) Office ADDINS 约定目录
     foreach ($base in @($env:ProgramFiles, ${env:ProgramFiles(x86)})) {
         if (-not $base) { continue }
         $root = Join-Path $base 'Microsoft Office\Root'
-        Get-ChildItem $root -Directory -ErrorAction SilentlyContinue | ForEach-Object {
-            $p = Join-Path $_.FullName 'ADDINS\Citavi Word AddIn'; if (Test-Path $p) { $l.Add($p) }
-        }
+        Get-ChildItem $root -Directory -ErrorAction SilentlyContinue | ForEach-Object { $cands.Add((Join-Path $_.FullName 'ADDINS\Citavi Word AddIn')) }
     }
-    # 3) 注册表 Office 加载项(尽力解析 Manifest/路径)
-    foreach ($rk in 'HKCU:\Software\Microsoft\Office\Word\Addins','HKLM:\SOFTWARE\Microsoft\Office\Word\Addins') {
-        Get-ChildItem $rk -ErrorAction SilentlyContinue | ForEach-Object {
-            $p = Get-ItemProperty $_.PSPath -ErrorAction SilentlyContinue
-            $blob = "$($p.FriendlyName) $($p.Description) $($p.Manifest)"
-            if ($blob -match 'Citavi') {
-                $m = [regex]::Match($blob, '[A-Za-z]:\\[^"]*'); if ($m.Success) { $d = Split-Path $m.Value -Parent; if ($d -and (Test-Path $d)) { $l.Add($d) } }
-            }
-        }
-    }
-    # 4) 文件系统兜底:搜加载项 DLL
+    $pref = $cands | Where-Object { (Test-WordAddInDir $_) -and ($_ -match '\\ADDINS\\') } | Select-Object -First 1
+    if (-not $pref) { $pref = $cands | Where-Object { Test-WordAddInDir $_ } | Select-Object -First 1 }
+    if ($pref) { return (Resolve-Path $pref).Path }
+    # 3) 文件系统兜底:搜加载项 DLL(排除 Citavi bin)
     foreach ($r in @($env:ProgramFiles, ${env:ProgramFiles(x86)}, "$env:LOCALAPPDATA\Microsoft\Office")) {
         if ($r -and (Test-Path $r)) {
-            Get-ChildItem $r -Recurse -Filter 'SwissAcademic.Citavi.WordAddIn.dll' -Depth 7 -ErrorAction SilentlyContinue |
-                ForEach-Object { $l.Add($_.DirectoryName) }
+            $hit = Get-ChildItem $r -Recurse -Filter 'SwissAcademic.Citavi.WordAddIn.dll' -Depth 7 -ErrorAction SilentlyContinue | Where-Object { $_.DirectoryName -notmatch '\\Citavi 6\\bin' } | Select-Object -First 1
+            if ($hit) { return (Resolve-Path $hit.DirectoryName).Path }
         }
     }
-    return ($l | Select-Object -Unique)
-}
-function Resolve-WordAddInDir {
-    if ($WordAddInDir) { if (Test-WordAddInDir $WordAddInDir) { return (Resolve-Path $WordAddInDir).Path } else { throw "指定的 Word 加载项目录无效(缺 SwissAcademic.Citavi.WordAddIn.dll):$WordAddInDir" } }
-    $cands = @(Get-WordAddInCandidates | Where-Object { Test-WordAddInDir $_ })
-    if ($cands.Count -eq 0) { return $null }
-    # 优先 Office 的 ADDINS 目录
-    $pref = $cands | Where-Object { $_ -match '\\ADDINS\\' } | Select-Object -First 1
-    if (-not $pref) { $pref = $cands[0] }
-    return (Resolve-Path $pref).Path
+    return $null
 }
 
 # ---------- 冲突进程 ----------
@@ -195,8 +201,12 @@ try {
     $src = Resolve-SourceDir
     if (-not $src) { MB "找不到语言包源目录(zh)。请把本安装器与 zh 文件夹放在一起。" '错误' 'OK' 'Error'; exit 1 }
 
-    # 检测(自动找到;找不到则提示手动输入)
+    # 检测:注册表判定是否安装 → StartupSettings6.xml 取路径 → 兜底/手动
     Step "1/4 检测安装"
+    $reg = Get-CitaviRegistry
+    W ("  注册表: Citavi 6 " + $(if($reg.Installed){'已安装'}else{'未安装'}))
+    $st = Get-StartupPaths
+    W ("  StartupSettings6.xml: " + $(if($st.File){$st.File}else{'未找到'}))
     $cit = $null; $wa = $null
     try { $cit = Resolve-CitaviBin } catch { W "  $_" 'Yellow' }
     if (-not $cit) {
