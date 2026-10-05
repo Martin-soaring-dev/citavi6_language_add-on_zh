@@ -52,6 +52,7 @@ Source: "{#RepoRoot}\custom-help\*.zh.rtf"; DestDir: "{code:GetHelpDest}"; Flags
 var
   DirPage: TInputDirWizardPage;
   OptPage: TInputOptionWizardPage;
+  RefreshBtn: TNewButton;
 
 function BS(const S: String): String;
 begin
@@ -209,6 +210,13 @@ begin
   Result := OptPage.Values[1] and (DirPage.Values[2] <> '');
 end;
 
+procedure RefreshPaths(Sender: TObject);
+begin
+  DirPage.Values[0] := DetectCitaviBin();
+  DirPage.Values[1] := DetectWordBin();
+  DirPage.Values[2] := DetectHelpDir();
+end;
+
 procedure InitializeWizard();
 var v: String;
 begin
@@ -226,6 +234,16 @@ begin
   v := CmdValue('CITAVIBIN'); if v <> '' then DirPage.Values[0] := v;
   v := CmdValue('WORDBIN');   if v <> '' then DirPage.Values[1] := v;
   v := CmdValue('HELPDIR');   if v <> '' then DirPage.Values[2] := v;
+
+  // “重新检测”按钮:一键重新自动探测三个路径
+  RefreshBtn := TNewButton.Create(WizardForm);
+  RefreshBtn.Parent := DirPage.Surface;
+  RefreshBtn.Width := ScaleX(120);
+  RefreshBtn.Height := ScaleY(25);
+  RefreshBtn.Left := DirPage.Edits[2].Left;
+  RefreshBtn.Top := DirPage.Edits[2].Top + DirPage.Edits[2].Height + ScaleY(12);
+  RefreshBtn.Caption := '重新检测路径';
+  RefreshBtn.OnClick := @RefreshPaths;
 
   OptPage := CreateInputOptionPage(DirPage.ID, '组件',
     '选择要安装的组件', '语言包(7 个程序集)始终安装;以下两项可选。', False, False);
