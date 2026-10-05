@@ -68,31 +68,48 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          $tag = $env:TAG
-          $version = $env:VERSION
+          $ErrorActionPreference = 'Stop'
+          $repo = "${{ github.repository }}"
+          $tag  = $env:TAG
+          Write-Host "Release: $tag"
+
           $assets = @()
           $assets += (Get-ChildItem dist/citavi6-zh-*.zip | Select-Object -First 1).FullName
           $setup = Get-ChildItem dist/Citavi6-zh-Setup-*.exe -ErrorAction SilentlyContinue | Select-Object -First 1
           if ($setup) { $assets += $setup.FullName }
-          Write-Host "Release: $tag  <-  $($assets -join ', ')"
+          Write-Host ("Assets: " + ($assets -join ', '))
 
-          # 若 Release 已存在(用户在 GitHub 上发布的),只上传资产;否则创建一个
-          gh release view $tag 2>$null | Out-Null
-          if ($LASTEXITCODE -eq 0) {
-            gh release upload $tag $assets --clobber
-          } else {
-            $notes = @"
-          Citavi 6 简体中文语言包 $tag(自动构建)。
+          $headers = @{
+            Authorization = "Bearer $env:GH_TOKEN"
+            'User-Agent'  = 'github-actions'
+            Accept        = 'application/vnd.github+json'
+          }
 
-          提供两种安装方式:
-          1) ``Citavi6-zh-Setup-*.exe``(推荐):双击安装,自动探测 Citavi/Word/快速帮助目录,带卸载项。
-          2) ``citavi6-zh-*.zip``(脚本):解压后双击 ``安装.vbs``。
+          # 取 Release(不存在则创建)
+          $release = $null
+          try { $release = Invoke-RestMethod -Uri "https://api.github.com/repos/$repo/releases/tags/$tag" -Headers $headers } catch { $release = $null }
+          if (-not $release) {
+            $notes = @(
+              "Citavi 6 简体中文语言包 $tag(自动构建)。",
+              "",
+              "提供两种安装方式:",
+              "1) Citavi6-zh-Setup-*.exe(推荐):双击安装,自动探测 Citavi/Word/快速帮助目录,带卸载项。",
+              "2) citavi6-zh-*.zip(脚本):解压后双击 安装.vbs。",
+              "",
+              "安装后在 Citavi 中打开「工具 → 语言 → 选择「中文」」;快速帮助会自动写入 文档\Citavi 6\Custom Help。",
+              "卸载:删除 zh 文件夹并切回其他语言,或用安装程序的卸载项。未翻译的条目会显示英文原文。详见仓库 README。"
+            ) -join "`n"
+            $body = @{ tag_name = $tag; name = "Citavi 6 中文语言包 $tag"; body = $notes; draft = $false; prerelease = $false } | ConvertTo-Json
+            $release = Invoke-RestMethod -Uri "https://api.github.com/repos/$repo/releases" -Method Post -Headers $headers -ContentType 'application/json; charset=utf-8' -Body $body
+            Write-Host "创建 Release: $($release.html_url)"
+          }
 
-          安装后在 Citavi 中打开「工具 → 语言 → 选择「中文」」;快速帮助会自动写入
-          ``文档\Citavi 6\Custom Help``。卸载:删除 ``zh`` 文件夹并切回其他语言,或用安装程序的卸载项。
-          未翻译的条目会显示英文原文。详见仓库 README。
-          "@
-            gh release create $tag $assets --title "Citavi 6 中文语言包 $tag" --notes $notes
+          # 上传资产(用 release id 手写 uploads URL,避免模板占位符解析问题)
+          foreach ($path in $assets) {
+            $name = [IO.Path]::GetFileName($path)
+            $uri  = "https://uploads.github.com/repos/$repo/releases/$($release.id)/assets?name=$([uri]::EscapeDataString($name))"
+            $r = Invoke-RestMethod -Uri $uri -Method Post -Headers $headers -ContentType 'application/octet-stream' -InFile $path
+            Write-Host ("上传: {0} ({1:N2} MB)" -f $r.name, ($r.size / 1MB))
           }
 
       - name: 上传 zip 构件
