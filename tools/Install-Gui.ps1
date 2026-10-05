@@ -153,7 +153,7 @@ $lblC = New-Object System.Windows.Forms.Label
 $lblC.Text = 'Citavi 目录:'; $lblC.Location = New-Object System.Drawing.Point(12, 70); $lblC.Size = New-Object System.Drawing.Size(84, 20)
 $grpDet.Controls.Add($lblC)
 $txtCit = New-Object System.Windows.Forms.TextBox
-$txtCit.Location = New-Object System.Drawing.Point(100, 68); $txtCit.Size = New-Object System.Drawing.Size(420, 22); $txtCit.ReadOnly = $true
+$txtCit.Location = New-Object System.Drawing.Point(100, 68); $txtCit.Size = New-Object System.Drawing.Size(420, 22)
 $grpDet.Controls.Add($txtCit)
 $btnBrowseCit = New-Object System.Windows.Forms.Button
 $btnBrowseCit.Text = '浏览…'; $btnBrowseCit.Location = New-Object System.Drawing.Point(528, 66); $btnBrowseCit.Size = New-Object System.Drawing.Size(72, 24)
@@ -163,7 +163,7 @@ $lblW = New-Object System.Windows.Forms.Label
 $lblW.Text = 'Word 加载项:'; $lblW.Location = New-Object System.Drawing.Point(12, 104); $lblW.Size = New-Object System.Drawing.Size(84, 20)
 $grpDet.Controls.Add($lblW)
 $txtWa = New-Object System.Windows.Forms.TextBox
-$txtWa.Location = New-Object System.Drawing.Point(100, 102); $txtWa.Size = New-Object System.Drawing.Size(420, 22); $txtWa.ReadOnly = $true
+$txtWa.Location = New-Object System.Drawing.Point(100, 102); $txtWa.Size = New-Object System.Drawing.Size(420, 22)
 $grpDet.Controls.Add($txtWa)
 $btnBrowseWa = New-Object System.Windows.Forms.Button
 $btnBrowseWa.Text = '浏览…'; $btnBrowseWa.Location = New-Object System.Drawing.Point(528, 100); $btnBrowseWa.Size = New-Object System.Drawing.Size(72, 24)
