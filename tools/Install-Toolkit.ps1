@@ -42,6 +42,7 @@
 param(
     [string]$CitaviBin = '',
     [string]$WordAddInDir = '',
+    [string]$CustomHelpDir = '',
     [string]$SourceDir = '',
     [string]$Culture = 'zh',
     [switch]$Uninstall,
@@ -103,6 +104,7 @@ function Resolve-HelpSourceDir {
     return $null
 }
 function Resolve-CustomHelpDir {
+    if ($CustomHelpDir) { return $CustomHelpDir }
     $ud = $null
     $ss = Get-StartupSettingsFile
     if ($ss) { try { [xml]$x = Get-Content $ss -Raw; foreach ($s in $x.StartupSettings.StartupPathSet) { if ($s.UserDataFolder) { $ud = $s.UserDataFolder; break } } } catch {} }
@@ -283,6 +285,7 @@ try {
             $arg = "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`" -Culture `"$Culture`" -SourceDir `"$src`" -Yes"
             if ($CitaviBin) { $arg += " -CitaviBin `"$CitaviBin`"" }
             if ($WordAddInDir) { $arg += " -WordAddInDir `"$WordAddInDir`"" }
+            if ($CustomHelpDir) { $arg += " -CustomHelpDir `"$CustomHelpDir`"" }
             if ($Uninstall) { $arg += " -Uninstall" }
             Start-Process -FilePath (Get-Process -Id $PID).Path -Verb RunAs -ArgumentList $arg
             exit 0

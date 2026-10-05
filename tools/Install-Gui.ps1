@@ -12,6 +12,7 @@
 param(
     [string]$CitaviBin = '',
     [string]$WordAddInDir = '',
+    [string]$CustomHelpDir = '',
     [string]$SourceDir = '',
     [string]$Culture = 'zh',
     [switch]$Elevated
@@ -98,6 +99,7 @@ function Resolve-HelpSourceDir {
     return $null
 }
 function Resolve-CustomHelpDir {
+    if ($CustomHelpDir) { return $CustomHelpDir }
     $ud = $null; $ss = Get-StartupSettingsFile
     if ($ss) { try { [xml]$x = Get-Content $ss -Raw; foreach ($s in $x.StartupSettings.StartupPathSet) { if ($s.UserDataFolder) { $ud = $s.UserDataFolder; break } } } catch {} }
     if ($ud) {
@@ -118,7 +120,7 @@ $script:InstallProc = @{ 'Citavi bin' = @('Citavi'); 'Word 加载项' = @('WINWO
 # ================= 窗体 =================
 $form = New-Object System.Windows.Forms.Form
 $form.Text = 'Citavi 6 中文语言包 安装器  v0.102'
-$form.Size = New-Object System.Drawing.Size(660, 560)
+$form.Size = New-Object System.Drawing.Size(660, 604)
 $form.StartPosition = 'CenterScreen'
 $form.Font = New-Object System.Drawing.Font('Microsoft YaHei UI', 9)
 $form.MinimumSize = New-Object System.Drawing.Size(660, 520)
@@ -137,7 +139,7 @@ $form.Controls.Add($lblSub)
 
 # 检测组
 $grpDet = New-Object System.Windows.Forms.GroupBox
-$grpDet.Text = '安装路径'; $grpDet.Location = New-Object System.Drawing.Point(12, 64); $grpDet.Size = New-Object System.Drawing.Size(620, 150)
+$grpDet.Text = '安装路径'; $grpDet.Location = New-Object System.Drawing.Point(12, 64); $grpDet.Size = New-Object System.Drawing.Size(620, 184)
 $form.Controls.Add($grpDet)
 
 $lblReg = New-Object System.Windows.Forms.Label
@@ -167,9 +169,19 @@ $btnBrowseWa = New-Object System.Windows.Forms.Button
 $btnBrowseWa.Text = '浏览…'; $btnBrowseWa.Location = New-Object System.Drawing.Point(528, 100); $btnBrowseWa.Size = New-Object System.Drawing.Size(72, 24)
 $grpDet.Controls.Add($btnBrowseWa)
 
+$lblH = New-Object System.Windows.Forms.Label
+$lblH.Text = '快速帮助目录:'; $lblH.Location = New-Object System.Drawing.Point(12, 138); $lblH.Size = New-Object System.Drawing.Size(88, 20)
+$grpDet.Controls.Add($lblH)
+$txtHelp = New-Object System.Windows.Forms.TextBox
+$txtHelp.Location = New-Object System.Drawing.Point(100, 136); $txtHelp.Size = New-Object System.Drawing.Size(420, 22)
+$grpDet.Controls.Add($txtHelp)
+$btnBrowseHelp = New-Object System.Windows.Forms.Button
+$btnBrowseHelp.Text = '浏览…'; $btnBrowseHelp.Location = New-Object System.Drawing.Point(528, 134); $btnBrowseHelp.Size = New-Object System.Drawing.Size(72, 24)
+$grpDet.Controls.Add($btnBrowseHelp)
+
 # 日志组
 $grpLog = New-Object System.Windows.Forms.GroupBox
-$grpLog.Text = '预览 / 日志'; $grpLog.Location = New-Object System.Drawing.Point(12, 222); $grpLog.Size = New-Object System.Drawing.Size(620, 246)
+$grpLog.Text = '预览 / 日志'; $grpLog.Location = New-Object System.Drawing.Point(12, 256); $grpLog.Size = New-Object System.Drawing.Size(620, 246)
 $form.Controls.Add($grpLog)
 $txtLog = New-Object System.Windows.Forms.TextBox
 $txtLog.Multiline = $true; $txtLog.ScrollBars = 'Vertical'; $txtLog.ReadOnly = $true
@@ -182,16 +194,16 @@ $grpLog.Controls.Add($bar)
 
 # 按钮
 $btnDetect = New-Object System.Windows.Forms.Button
-$btnDetect.Text = '重新检测'; $btnDetect.Location = New-Object System.Drawing.Point(12, 480); $btnDetect.Size = New-Object System.Drawing.Size(96, 30)
+$btnDetect.Text = '重新检测'; $btnDetect.Location = New-Object System.Drawing.Point(12, 516); $btnDetect.Size = New-Object System.Drawing.Size(96, 30)
 $form.Controls.Add($btnDetect)
 $btnInstall = New-Object System.Windows.Forms.Button
-$btnInstall.Text = '安装'; $btnInstall.Location = New-Object System.Drawing.Point(424, 480); $btnInstall.Size = New-Object System.Drawing.Size(96, 30)
+$btnInstall.Text = '安装'; $btnInstall.Location = New-Object System.Drawing.Point(424, 516); $btnInstall.Size = New-Object System.Drawing.Size(96, 30)
 $form.Controls.Add($btnInstall)
 $btnUninstall = New-Object System.Windows.Forms.Button
-$btnUninstall.Text = '卸载'; $btnUninstall.Location = New-Object System.Drawing.Point(524, 480); $btnUninstall.Size = New-Object System.Drawing.Size(72, 30)
+$btnUninstall.Text = '卸载'; $btnUninstall.Location = New-Object System.Drawing.Point(524, 516); $btnUninstall.Size = New-Object System.Drawing.Size(72, 30)
 $form.Controls.Add($btnUninstall)
 $btnExit = New-Object System.Windows.Forms.Button
-$btnExit.Text = '退出'; $btnExit.Location = New-Object System.Drawing.Point(600, 480); $btnExit.Size = New-Object System.Drawing.Size(32, 30); $btnExit.Visible = $false
+$btnExit.Text = '退出'; $btnExit.Location = New-Object System.Drawing.Point(600, 516); $btnExit.Size = New-Object System.Drawing.Size(32, 30); $btnExit.Visible = $false
 $form.Controls.Add($btnExit)
 $form.CancelButton = $btnExit
 
@@ -216,6 +228,7 @@ function DoDetect {
     $script:helpDir = Resolve-CustomHelpDir
     Log ("  快速帮助源      = " + $(if($script:helpSrc){$script:helpSrc}else{'未找到(跳过)'}))
     Log ("  快速帮助目标    = " + $script:helpDir)
+    $txtHelp.Text = $script:helpDir
     $files = if ($script:Src) { @(Get-ChildItem $script:Src -Filter *.dll).Count } else { 0 }
     Log ("  将复制 {0} 个 DLL;模式:覆盖" -f $files)
 }
@@ -258,11 +271,12 @@ function DoInstall([switch]$Uninstall) {
     if (-not (Test-CitaviBin $cit)) { Info 'Citavi 目录无效(缺 Citavi.exe / SwissAcademic.dll)。' 'Error'; return }
     if ($wa -and -not (Test-WordAddInDir $wa)) { Info 'Word 加载项目录无效(缺 SwissAcademic.Citavi.WordAddIn.dll),或清空该框跳过。' 'Error'; return }
     if (-not (Ensure-Elevated $cit $wa)) { Log '已取消(未提权)。'; return }
+    $hDir = if ($txtHelp.Text) { $txtHelp.Text } else { $script:helpDir }
 
     Log ''; Log $(if($Uninstall){'卸载计划:'}else{'安装计划:'})
     Show-Plan $cit $wa
     if (-not $Uninstall) { $files = @(Get-ChildItem $script:Src -Filter *.dll).Count; Log ("  文件数:{0}" -f $files) }
-    if ($script:helpSrc) { Log ("  · 快速帮助 -> {0}  ({1} 个 .zh.rtf)" -f $script:helpDir, @(Get-ChildItem $script:helpSrc -Filter *.zh.rtf).Count) }
+    if ($script:helpSrc) { Log ("  · 快速帮助 -> {0}  ({1} 个 .zh.rtf)" -f $hDir, @(Get-ChildItem $script:helpSrc -Filter *.zh.rtf).Count) }
 
     $targets = @()
     $targets += [pscustomobject]@{ Kind='Citavi bin'; Dir=(Join-Path $cit $Culture); Procs=@('Citavi') }
@@ -286,14 +300,14 @@ function DoInstall([switch]$Uninstall) {
         $bar.Value++
     }
     # 快速帮助(Custom Help)
-    if ($script:helpSrc -and $script:helpDir) {
+    if ($script:helpSrc -and $hDir) {
         Log ''
         if ($Uninstall) {
-            if (Test-Path $script:helpDir) { Remove-Item (Join-Path $script:helpDir '*.zh.rtf') -Force -ErrorAction SilentlyContinue; Log '  已删除快速帮助文件。' }
+            if (Test-Path $hDir) { Remove-Item (Join-Path $hDir '*.zh.rtf') -Force -ErrorAction SilentlyContinue; Log '  已删除快速帮助文件。' }
         } else {
-            New-Item -ItemType Directory -Force -Path $script:helpDir | Out-Null
-            Copy-Item (Join-Path $script:helpSrc '*.zh.rtf') $script:helpDir -Force
-            Log ("  已安装 {0} 个快速帮助文件。" -f @(Get-ChildItem $script:helpDir -Filter *.zh.rtf).Count)
+            New-Item -ItemType Directory -Force -Path $hDir | Out-Null
+            Copy-Item (Join-Path $script:helpSrc '*.zh.rtf') $hDir -Force
+            Log ("  已安装 {0} 个快速帮助文件。" -f @(Get-ChildItem $hDir -Filter *.zh.rtf).Count)
         }
     }
     $msg = if ($Uninstall) { '卸载完成。' } else { "安装完成。`r`n`r`n下一步:打开 Citavi → 工具 → 语言 → 选择「中文」;`r`n快速帮助已写入(重启 Citavi 生效);如装了 Word 加载项,请重启 Word。" }
@@ -311,6 +325,12 @@ $btnBrowseWa.Add_Click({
     $fbd.Description = '选择 Word 加载项目录(含 SwissAcademic.Citavi.WordAddIn.dll)'
     if ($script:wa) { $fbd.SelectedPath = $script:wa }
     if ($fbd.ShowDialog() -eq [System.Windows.Forms.DialogResult]::OK) { $txtWa.Text = $fbd.SelectedPath }
+})
+$btnBrowseHelp.Add_Click({
+    $fbd = New-Object System.Windows.Forms.FolderBrowserDialog
+    $fbd.Description = '选择 Citavi 的 Custom Help 目录(快速帮助)'
+    if ($script:helpDir) { $fbd.SelectedPath = $script:helpDir }
+    if ($fbd.ShowDialog() -eq [System.Windows.Forms.DialogResult]::OK) { $txtHelp.Text = $fbd.SelectedPath }
 })
 $btnDetect.Add_Click({ DoDetect })
 $btnInstall.Add_Click({ DoInstall })
