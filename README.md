@@ -18,6 +18,7 @@
 |---|---|---|
 | **语言包** | Citavi 6 界面简体中文(本仓库主体) | ✅ v0.1 可用 |
 | **Citavi 快速帮助(中文)** | 汉化右侧「快速帮助」面板(622 个主题,写入 `Documents\Citavi 6\Custom Help`;含「选择文献类型」按 35 种类型变化的帮助) | ✅ |
+| **安装程序** | 用 Inno Setup 打包的单文件 `Setup.exe`:自动探测路径、可选组件、带卸载项 | ✅ |
 | **中文文献元数据 Add-On** | 解决中文期刊 DOI 查不到元数据的问题 | 📝 [设计稿](docs/04-cn-metadata-addon.md) |
 
 > 中文期刊 DOI(ISTIC/万方注册)在 `doi.org` 上**没有元数据**,Citavi 原生「按 DOI 检索」必然失败。
@@ -60,7 +61,11 @@ Citavi 在启动时**扫描 `bin\` 的子目录**来生成语言菜单:凡目录
 
 ## 安装
 
-**一键安装(推荐)**:解压后双击 **`安装.vbs`**。启动时会**请求管理员权限(UAC)**(写入 Citavi / Word 加载项目录需要);它会自动检测 Citavi 6、Word 加载项与「快速帮助」目录、**预览计划**、必要时**弹窗提示关闭冲突进程(显示名称+PID)**,再以覆盖方式安装语言包与快速帮助,完成后弹窗。
+**方式 A — 安装程序(最推荐)**:双击 **`Citavi6-zh-Setup-v0.1.exe`**(由 Inno Setup 打包的单文件安装程序)。
+启动即**请求管理员权限(UAC)**;自动探测 Citavi 6 / Word 加载项 /「快速帮助」目录,可选择“是否装到 Word 加载项 / 是否装快速帮助”,安装后在「应用和功能」里有**卸载项**。
+> 静默部署:`Citavi6-zh-Setup-v0.1.exe /VERYSILENT`(可用 `/CITAVIBIN=` `/WORDBIN=` `/HELPDIR=` 覆盖目录)。自行构建:`pwsh ./tools/Build-Installer.ps1 -Version 0.102`(需 [Inno Setup](https://jrsoftware.org/isinfo.php),`winget install JRSoftware.InnoSetup`)。
+
+**方式 B — 脚本安装**:解压 ZIP 后双击 **`安装.vbs`**。启动即**请求管理员权限**;自动检测目录、**预览计划**、必要时**弹窗提示关闭冲突进程(显示名称+PID)**,再以覆盖方式安装语言包与快速帮助,完成后弹窗。
 > 只预览不执行:`pwsh ./Install-Toolkit.ps1 -WhatIf`;手动指定路径:`-CitaviBin` / `-WordAddInDir` / `-CustomHelpDir`。
 
 **手动安装**
@@ -132,7 +137,8 @@ pwsh ./tools/Test-LanguagePack.ps1 -CitaviBin "C:\Program Files (x86)\Citavi 6\b
 
 # 5. 安装 / 打包分发
 pwsh ./tools/Install-LanguagePack.ps1 -CitaviBin "C:\Program Files (x86)\Citavi 6\bin"
-pwsh ./tools/Package-Release.ps1 -Version 0.1
+pwsh ./tools/Package-Release.ps1 -Version 0.1          # 生成 ZIP(脚本安装)
+pwsh ./tools/Build-Installer.ps1 -Version 0.102        # 生成单文件 Setup.exe(需 Inno Setup)
 ```
 
 所需环境:Windows + .NET Framework 4.x(自带 `csc.exe`);无需 Visual Studio。

@@ -18,6 +18,8 @@
   使 Word 加载项在中文环境下显示中文帮助。
 - 新增一键安装器 `安装.vbs`(图形界面,启动即请求管理员权限)与 `Install-Toolkit.ps1`(CLI):自动检测 Citavi、Word 加载项与「快速帮助」目录、
   预览计划、检测冲突进程(显示名称+PID 并弹窗)后覆盖安装,完成弹窗;支持 `-WhatIf`/`-Uninstall`。
+- 新增 **单文件安装程序**(Inno Setup):`tools/Build-Installer.ps1` + [`tools/installer/Citavi6-zh.iss`](../tools/installer/Citavi6-zh.iss)
+  产出 `Citavi6-zh-Setup-v<版本>.exe`——Pascal 脚本自动探测 Citavi/Word/快速帮助目录,自定义页选择组件,写入「应用和功能」卸载项,支持 `/VERYSILENT` 与 `/CITAVIBIN=`/`/WORDBIN=`/`/HELPDIR=` 覆盖。
 - 新增 **Citavi 内置「快速帮助」中文**:622 个主题。该帮助原为**联网**内容(官方无中文),
   现通过本地覆盖机制 `Documents\Citavi 6\Custom Help\<HelpContext>.zh.rtf` 提供中文;安装器一并安装。
   其中「选择文献类型」对话框的帮助**随所选类型变化**,按文件名规则 `<HelpContext>-<TypeId>.zh.rtf`
