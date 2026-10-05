@@ -69,6 +69,11 @@ Copy-Item (Join-Path $PSScriptRoot 'Install-Gui.ps1') (Join-Path $stamp 'Install
 Copy-Item (Join-Path $PSScriptRoot 'Install-Toolkit.ps1') (Join-Path $stamp 'Install-Toolkit.ps1') -Force
 Copy-Item (Join-Path $PSScriptRoot 'gui-launcher.vbs') (Join-Path $stamp '安装.vbs') -Force
 
+# 快速帮助(Custom Help)中文 RTF
+$helpSrcDir = Join-Path $RepoDir 'custom-help'
+if (Test-Path $helpSrcDir) { Copy-Item $helpSrcDir $stamp -Recurse -Force }
+else { Write-Warning "未找到 custom-help 目录,快速帮助不会打包。" }
+
 $zip = Join-Path $RepoDir "dist\citavi6-$Culture-v$Version.zip"
 if (Test-Path $zip) { Remove-Item $zip -Force }
 Compress-Archive -Path (Join-Path $stamp '*') -DestinationPath $zip -Force

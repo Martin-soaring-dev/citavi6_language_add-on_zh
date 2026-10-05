@@ -93,6 +93,28 @@ function Resolve-SourceDir {
     foreach ($c in $cands) { if (Test-Path (Join-Path $c 'SwissAcademic.Resources.resources.dll')) { return (Resolve-Path $c).Path } }
     return $null
 }
+# 快速帮助(Custom Help)源目录与目标目录
+function Resolve-HelpSourceDir {
+    $cands = @(
+        (Join-Path $PSScriptRoot 'custom-help'),
+        (Join-Path (Split-Path -Parent $PSScriptRoot) 'custom-help')
+    )
+    foreach ($c in $cands) { if (Test-Path $c) { return (Resolve-Path $c).Path } }
+    return $null
+}
+function Resolve-CustomHelpDir {
+    $ud = $null
+    $ss = Get-StartupSettingsFile
+    if ($ss) { try { [xml]$x = Get-Content $ss -Raw; foreach ($s in $x.StartupSettings.StartupPathSet) { if ($s.UserDataFolder) { $ud = $s.UserDataFolder; break } } } catch {} }
+    if ($ud) {
+        $ud = $ud -replace '%MyDocuments%', [Environment]::GetFolderPath('MyDocuments')
+        $ud = $ud -replace '%UserProfile%', $env:USERPROFILE
+        $ud = [Environment]::ExpandEnvironmentVariables($ud)
+        $ud = $ud -replace '\\\\','\'
+        return (Join-Path $ud 'Custom Help')
+    }
+    return (Join-Path ([Environment]::GetFolderPath('MyDocuments')) 'Citavi 6\Custom Help')
+}
 
 # ---------- Citavi 检测:注册表判定是否安装;StartupSettings6.xml 取路径 ----------
 function Test-CitaviBin([string]$p){ return ($p -and (Test-Path (Join-Path $p 'Citavi.exe')) -and (Test-Path (Join-Path $p 'SwissAcademic.dll'))) }
@@ -227,6 +249,10 @@ try {
     W ("  Citavi bin        : " + $(if($cit){$cit}else{'未检测到'}))
     W ("  Word 加载项目录   : " + $(if($wa){$wa}else{'未检测到(跳过)'}))
     W ("  语言包源          : $src")
+    $helpSrc = Resolve-HelpSourceDir
+    $helpDir = Resolve-CustomHelpDir
+    W ("  快速帮助源        : " + $(if($helpSrc){$helpSrc}else{'未找到(跳过)'}))
+    W ("  快速帮助目标      : " + $helpDir)
 
     # 预览
     Step "2/4 预览计划"
@@ -240,6 +266,7 @@ try {
         W ("  · {0,-10} -> {1}   [{2}]" -f $t.Kind, $t.Dir, $(if($exist){'将覆盖'}else{'新建'}))
     }
     W ("  将复制 {0} 个 DLL;模式:覆盖" -f $files.Count)
+    if ($helpSrc) { $hc=@(Get-ChildItem $helpSrc -Filter *.zh.rtf).Count; W ("  · 快速帮助   -> {0}   [{1}]  ({2} 个 .zh.rtf)" -f $helpDir, $(if(Test-Path $helpDir){'将覆盖'}else{'新建'}), $hc) }
     $allProc = @(); foreach ($t in $targets) { $allProc += $t.Proc }; $allProc = @($allProc | Select-Object -Unique)
     $running = Get-Running $allProc
     if ($running) { W ("  需关闭进程: " + (($running | ForEach-Object { "$($_.ProcessName)(PID $($_.Id))" }) -join ', ')) 'Yellow' } else { W "  需关闭进程: 无(可直接安装)" 'Green' }
@@ -269,6 +296,7 @@ try {
             if (-not (Wait-ProcessesClosed $t.Proc "卸载 $($t.Kind) 语言包")) { exit 1 }
             if (Test-Path $t.Dir) { Remove-Item $t.Dir -Recurse -Force; W "  已删除 $($t.Dir)" 'Green' } else { W "  跳过(不存在): $($t.Dir)" 'DarkGray' }
         }
+        if (Test-Path $helpDir) { Remove-Item (Join-Path $helpDir '*.zh.rtf') -Force -ErrorAction SilentlyContinue; W "  已删除快速帮助文件:$helpDir" 'Green' }
     } else {
         foreach ($t in $targets) {
             if (-not (Wait-ProcessesClosed $t.Proc "写入 $($t.Kind)(文件可能被占用)")) { exit 1 }
@@ -278,10 +306,15 @@ try {
             $n = @(Get-ChildItem $t.Dir -Filter *.dll).Count
             W ("  已安装 {0} 个文件到 {1}" -f $n, $t.Dir) 'Green'
         }
+        if ($helpSrc) {
+            New-Item -ItemType Directory -Force -Path $helpDir | Out-Null
+            Copy-Item (Join-Path $helpSrc '*.zh.rtf') $helpDir -Force
+            W ("  已安装 {0} 个快速帮助文件到 {1}" -f @(Get-ChildItem $helpDir -Filter *.zh.rtf).Count, $helpDir) 'Green'
+        }
     }
 
     Step "4/4 完成"
-    $done = if ($Uninstall) { "卸载完成。" } else { "安装完成。`n`n下一步:打开 Citavi → 工具 → 语言 → 选择「中文」;如装了 Word 加载项,请重启 Word。" }
+    $done = if ($Uninstall) { "卸载完成。" } else { "安装完成。`n`n下一步:打开 Citavi → 工具 → 语言 → 选择「中文」;`n快速帮助已写入(重启 Citavi 生效);如装了 Word 加载项,请重启 Word。" }
     W $done 'Green'
     MB $done 'Citavi 中文语言包' 'OK' 'Information'
     exit 0

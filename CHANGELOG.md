@@ -18,6 +18,8 @@
   使 Word 加载项在中文环境下显示中文帮助。
 - 新增一键安装器 `Install-Toolkit.ps1` / `安装.cmd`:自动检测 Citavi 与 Word 加载项目录、
   预览计划、检测冲突进程(显示名称+PID 并弹窗)后覆盖安装,完成弹窗;支持 `-WhatIf`/`-Uninstall`。
+- 新增 **Citavi 内置「快速帮助」中文**:586 个主题。该帮助原为**联网**内容(官方无中文),
+  现通过本地覆盖机制 `Documents\Citavi 6\Custom Help\<HelpContext>.zh.rtf` 提供中文;安装器一并安装。
 - **长尾资源组逐条校对**:`WordProcessorResources`(行距选项、图元文件、霍夫曼符号、重启标记等)、
   `CRM`、`TeX`、`WebLabelsCitaviSpace/Offline/HelpTexts`、`LanguagesAndCultures` 等;
   并统一「帐户 → 账户」。

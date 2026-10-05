@@ -17,6 +17,7 @@
 | 组件 | 作用 | 状态 |
 |---|---|---|
 | **语言包** | Citavi 6 界面简体中文(本仓库主体) | ✅ v0.1 可用 |
+| **Citavi 快速帮助(中文)** | 汉化右侧「快速帮助」面板(586 个主题,写入 `Documents\Citavi 6\Custom Help`) | ✅ |
 | **中文文献元数据 Add-On** | 解决中文期刊 DOI 查不到元数据的问题 | 📝 [设计稿](docs/04-cn-metadata-addon.md) |
 
 > 中文期刊 DOI(ISTIC/万方注册)在 `doi.org` 上**没有元数据**,Citavi 原生「按 DOI 检索」必然失败。

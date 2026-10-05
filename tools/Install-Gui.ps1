@@ -93,6 +93,22 @@ function Resolve-SourceDir {
     }
     return $null
 }
+function Resolve-HelpSourceDir {
+    foreach ($c in @((Join-Path $PSScriptRoot 'custom-help'), (Join-Path (Split-Path -Parent $PSScriptRoot) 'custom-help'))) { if (Test-Path $c) { return (Resolve-Path $c).Path } }
+    return $null
+}
+function Resolve-CustomHelpDir {
+    $ud = $null; $ss = Get-StartupSettingsFile
+    if ($ss) { try { [xml]$x = Get-Content $ss -Raw; foreach ($s in $x.StartupSettings.StartupPathSet) { if ($s.UserDataFolder) { $ud = $s.UserDataFolder; break } } } catch {} }
+    if ($ud) {
+        $ud = $ud -replace '%MyDocuments%', [Environment]::GetFolderPath('MyDocuments')
+        $ud = $ud -replace '%UserProfile%', $env:USERPROFILE
+        $ud = [Environment]::ExpandEnvironmentVariables($ud)
+        $ud = $ud -replace '\\\\','\'
+        return (Join-Path $ud 'Custom Help')
+    }
+    return (Join-Path ([Environment]::GetFolderPath('MyDocuments')) 'Citavi 6\Custom Help')
+}
 function Get-Running([string[]]$names){ return @(Get-Process -Name $names -ErrorAction SilentlyContinue) }
 
 # ================= 状态 =================
@@ -196,6 +212,10 @@ function DoDetect {
     Log ("  Citavi 目录     = " + $(if($script:cit){$script:cit}else{'未检测到(请手动选择)'}))
     Log ("  Word 加载项目录 = " + $(if($script:wa){$script:wa}else{'未检测到(可留空跳过)'}))
     Log ("  语言包源        = " + $(if($script:Src){$script:Src}else{'未找到!'}))
+    $script:helpSrc = Resolve-HelpSourceDir
+    $script:helpDir = Resolve-CustomHelpDir
+    Log ("  快速帮助源      = " + $(if($script:helpSrc){$script:helpSrc}else{'未找到(跳过)'}))
+    Log ("  快速帮助目标    = " + $script:helpDir)
     $files = if ($script:Src) { @(Get-ChildItem $script:Src -Filter *.dll).Count } else { 0 }
     Log ("  将复制 {0} 个 DLL;模式:覆盖" -f $files)
 }
@@ -242,6 +262,7 @@ function DoInstall([switch]$Uninstall) {
     Log ''; Log $(if($Uninstall){'卸载计划:'}else{'安装计划:'})
     Show-Plan $cit $wa
     if (-not $Uninstall) { $files = @(Get-ChildItem $script:Src -Filter *.dll).Count; Log ("  文件数:{0}" -f $files) }
+    if ($script:helpSrc) { Log ("  · 快速帮助 -> {0}  ({1} 个 .zh.rtf)" -f $script:helpDir, @(Get-ChildItem $script:helpSrc -Filter *.zh.rtf).Count) }
 
     $targets = @()
     $targets += [pscustomobject]@{ Kind='Citavi bin'; Dir=(Join-Path $cit $Culture); Procs=@('Citavi') }
@@ -264,7 +285,18 @@ function DoInstall([switch]$Uninstall) {
         } catch { Log ("  失败:" + $_.Exception.Message); Info $_.Exception.Message 'Error'; return }
         $bar.Value++
     }
-    $msg = if ($Uninstall) { '卸载完成。' } else { "安装完成。`r`n`r`n下一步:打开 Citavi → 工具 → 语言 → 选择「中文」;`r`n若安装了 Word 加载项,请重启 Word。" }
+    # 快速帮助(Custom Help)
+    if ($script:helpSrc -and $script:helpDir) {
+        Log ''
+        if ($Uninstall) {
+            if (Test-Path $script:helpDir) { Remove-Item (Join-Path $script:helpDir '*.zh.rtf') -Force -ErrorAction SilentlyContinue; Log '  已删除快速帮助文件。' }
+        } else {
+            New-Item -ItemType Directory -Force -Path $script:helpDir | Out-Null
+            Copy-Item (Join-Path $script:helpSrc '*.zh.rtf') $script:helpDir -Force
+            Log ("  已安装 {0} 个快速帮助文件。" -f @(Get-ChildItem $script:helpDir -Filter *.zh.rtf).Count)
+        }
+    }
+    $msg = if ($Uninstall) { '卸载完成。' } else { "安装完成。`r`n`r`n下一步:打开 Citavi → 工具 → 语言 → 选择「中文」;`r`n快速帮助已写入(重启 Citavi 生效);如装了 Word 加载项,请重启 Word。" }
     Info $msg 'Information'; Log ''; Log $msg
 }
 
