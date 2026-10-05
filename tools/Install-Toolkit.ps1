@@ -45,6 +45,9 @@ param(
     [string]$CustomHelpDir = '',
     [string]$SourceDir = '',
     [string]$Culture = 'zh',
+    [string]$UserProfile = '',
+    [string]$UserAppData = '',
+    [string]$UserDocuments = '',
     [switch]$Uninstall,
     [switch]$WhatIf,
     [switch]$Yes,
@@ -73,9 +76,12 @@ function Test-Admin {
 }
 function Get-StartupSettingsFile {
     # 不假设固定位置:先看常见位置,再主动搜索
-    $known = Join-Path $env:APPDATA 'Swiss Academic Software\StartupSettings6.xml'
+    # 提权后可能运行在别的账户下,优先使用启动器传入的“当前用户”路径
+    $appData = if ($UserAppData) { $UserAppData } else { $env:APPDATA }
+    $profile = if ($UserProfile) { $UserProfile } else { $env:USERPROFILE }
+    $known = Join-Path $appData 'Swiss Academic Software\StartupSettings6.xml'
     if (Test-Path $known) { return $known }
-    foreach ($r in @($env:APPDATA, $env:LOCALAPPDATA, "$env:ProgramData", (Join-Path $env:USERPROFILE 'Documents'))) {
+    foreach ($r in @($appData, (Join-Path $profile 'AppData\Local'), "$env:ProgramData", (Join-Path $profile 'Documents'))) {
         if ($r -and (Test-Path $r)) {
             $hit = Get-ChildItem $r -Recurse -Filter 'StartupSettings6.xml' -Depth 4 -ErrorAction SilentlyContinue | Select-Object -First 1
             if ($hit) { return $hit.FullName }
@@ -109,13 +115,16 @@ function Resolve-CustomHelpDir {
     $ss = Get-StartupSettingsFile
     if ($ss) { try { [xml]$x = Get-Content $ss -Raw; foreach ($s in $x.StartupSettings.StartupPathSet) { if ($s.UserDataFolder) { $ud = $s.UserDataFolder; break } } } catch {} }
     if ($ud) {
-        $ud = $ud -replace '%MyDocuments%', [Environment]::GetFolderPath('MyDocuments')
-        $ud = $ud -replace '%UserProfile%', $env:USERPROFILE
+        $docs = if ($UserDocuments) { $UserDocuments } else { [Environment]::GetFolderPath('MyDocuments') }
+        $prof = if ($UserProfile) { $UserProfile } else { $env:USERPROFILE }
+        $ud = $ud -replace '%MyDocuments%', $docs
+        $ud = $ud -replace '%UserProfile%', $prof
         $ud = [Environment]::ExpandEnvironmentVariables($ud)
         $ud = $ud -replace '\\\\','\'
         return (Join-Path $ud 'Custom Help')
     }
-    return (Join-Path ([Environment]::GetFolderPath('MyDocuments')) 'Citavi 6\Custom Help')
+    $docs2 = if ($UserDocuments) { $UserDocuments } else { [Environment]::GetFolderPath('MyDocuments') }
+    return (Join-Path $docs2 'Citavi 6\Custom Help')
 }
 
 # ---------- Citavi 检测:注册表判定是否安装;StartupSettings6.xml 取路径 ----------
@@ -283,9 +292,10 @@ try {
     if ((-not (Test-Admin)) -and ($targets | Where-Object { $_.Dir -match 'Program Files|\\ADDINS\\' })) {
         if ((MB "安装到 Program Files 需要管理员权限。是否以管理员身份重新运行?" '需要提权' 'YesNo' 'Warning') -eq [System.Windows.Forms.DialogResult]::Yes) {
             $arg = "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`" -Culture `"$Culture`" -SourceDir `"$src`" -Yes"
-            if ($CitaviBin) { $arg += " -CitaviBin `"$CitaviBin`"" }
-            if ($WordAddInDir) { $arg += " -WordAddInDir `"$WordAddInDir`"" }
-            if ($CustomHelpDir) { $arg += " -CustomHelpDir `"$CustomHelpDir`"" }
+            if ($cit) { $arg += " -CitaviBin `"$cit`"" }
+            if ($wa)  { $arg += " -WordAddInDir `"$wa`"" }
+            if ($helpDir) { $arg += " -CustomHelpDir `"$helpDir`"" }
+            $arg += " -UserProfile `"$env:USERPROFILE`" -UserAppData `"$env:APPDATA`" -UserDocuments `"$([Environment]::GetFolderPath('MyDocuments'))`""
             if ($Uninstall) { $arg += " -Uninstall" }
             Start-Process -FilePath (Get-Process -Id $PID).Path -Verb RunAs -ArgumentList $arg
             exit 0

@@ -15,6 +15,9 @@ param(
     [string]$CustomHelpDir = '',
     [string]$SourceDir = '',
     [string]$Culture = 'zh',
+    [string]$UserProfile = '',
+    [string]$UserAppData = '',
+    [string]$UserDocuments = '',
     [switch]$Elevated
 )
 
@@ -26,9 +29,12 @@ Add-Type -AssemblyName System.Drawing | Out-Null
 # ================= 共用函数(与 CLI 版一致) =================
 function Test-Admin { try { return ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator) } catch { return $false } }
 function Get-StartupSettingsFile {
-    $known = Join-Path $env:APPDATA 'Swiss Academic Software\StartupSettings6.xml'
+    # 提权后可能运行在别的账户下,优先使用启动器传入的“当前用户”路径
+    $appData = if ($UserAppData) { $UserAppData } else { $env:APPDATA }
+    $profile = if ($UserProfile) { $UserProfile } else { $env:USERPROFILE }
+    $known = Join-Path $appData 'Swiss Academic Software\StartupSettings6.xml'
     if (Test-Path $known) { return $known }
-    foreach ($r in @($env:APPDATA, $env:LOCALAPPDATA, "$env:ProgramData", (Join-Path $env:USERPROFILE 'Documents'))) {
+    foreach ($r in @($appData, (Join-Path $profile 'AppData\Local'), "$env:ProgramData", (Join-Path $profile 'Documents'))) {
         if ($r -and (Test-Path $r)) { $hit = Get-ChildItem $r -Recurse -Filter 'StartupSettings6.xml' -Depth 4 -ErrorAction SilentlyContinue | Select-Object -First 1; if ($hit) { return $hit.FullName } }
     }
     return $null
@@ -102,14 +108,16 @@ function Resolve-CustomHelpDir {
     if ($CustomHelpDir) { return $CustomHelpDir }
     $ud = $null; $ss = Get-StartupSettingsFile
     if ($ss) { try { [xml]$x = Get-Content $ss -Raw; foreach ($s in $x.StartupSettings.StartupPathSet) { if ($s.UserDataFolder) { $ud = $s.UserDataFolder; break } } } catch {} }
+    $docs = if ($UserDocuments) { $UserDocuments } else { [Environment]::GetFolderPath('MyDocuments') }
+    $profile = if ($UserProfile) { $UserProfile } else { $env:USERPROFILE }
     if ($ud) {
-        $ud = $ud -replace '%MyDocuments%', [Environment]::GetFolderPath('MyDocuments')
-        $ud = $ud -replace '%UserProfile%', $env:USERPROFILE
+        $ud = $ud -replace '%MyDocuments%', $docs
+        $ud = $ud -replace '%UserProfile%', $profile
         $ud = [Environment]::ExpandEnvironmentVariables($ud)
         $ud = $ud -replace '\\\\','\'
         return (Join-Path $ud 'Custom Help')
     }
-    return (Join-Path ([Environment]::GetFolderPath('MyDocuments')) 'Citavi 6\Custom Help')
+    return (Join-Path $docs 'Citavi 6\Custom Help')
 }
 function Get-Running([string[]]$names){ return @(Get-Process -Name $names -ErrorAction SilentlyContinue) }
 
@@ -258,9 +266,11 @@ function Ensure-Elevated($cit,$wa) {
     if ($need.Count -eq 0) { return $true }
     $r = [System.Windows.Forms.MessageBox]::Show("写入 Program Files 需要管理员权限。是否以管理员身份重新打开安装器?`r`n`r`n" + ($need -join "`r`n"),'需要提权',[System.Windows.Forms.MessageBoxButtons]::YesNo,[System.Windows.Forms.MessageBoxIcon]::Warning)
     if ($r -ne [System.Windows.Forms.DialogResult]::Yes) { return $false }
-    $a = "-NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File `"$PSCommandPath`" -Culture `"$Culture`""
+    $a = "-NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File `"$PSCommandPath`" -Culture `"$Culture`" -Elevated"
     if ($cit) { $a += " -CitaviBin `"$cit`"" }
     if ($wa)  { $a += " -WordAddInDir `"$wa`"" }
+    if ($script:helpDir) { $a += " -CustomHelpDir `"$script:helpDir`"" }
+    $a += " -UserProfile `"$env:USERPROFILE`" -UserAppData `"$env:APPDATA`" -UserDocuments `"$([Environment]::GetFolderPath('MyDocuments'))`""
     Start-Process -FilePath (Get-Process -Id $PID).Path -Verb RunAs -ArgumentList $a
     return $false
 }

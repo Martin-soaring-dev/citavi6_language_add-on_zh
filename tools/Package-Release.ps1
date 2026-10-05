@@ -49,7 +49,9 @@ Copy-Item (Join-Path $CultureDir '*.dll') (Join-Path $stamp $Culture) -Force
 Citavi 6 中文语言包 v$Version(社区汉化)
 
 安装(推荐):双击本包中的「安装.vbs」(图形界面,无控制台)。
-  - 自动检测 Citavi 6 与 Word 加载项目录,可手动修改;预览后一键安装/卸载。
+  - 启动时会请求管理员权限(UAC):因为要写入 Citavi 与 Word 加载项的 Program Files 目录。
+  - 自动检测 Citavi 6、Word 加载项与「快速帮助」目录,均可手动修改;预览后一键安装/卸载。
+  - 语言包与「快速帮助」会一并安装(快速帮助写入 文档\Citavi 6\Custom Help,无需管理员)。
 
 手动安装:
 1) 把本压缩包中的 "$Culture" 文件夹复制到 Citavi 安装目录的 bin\ 下,例如
