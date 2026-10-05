@@ -16,7 +16,7 @@
 - 术语表(见 `docs/03-translation-guide.md`)已扩充。
 - 新增第 7 个附属程序集 `SwissAcademic.Citavi.WordAddIn`(Word 加载项的 `_zh` 帮助与异常字符串),
   使 Word 加载项在中文环境下显示中文帮助。
-- 新增一键安装器 `Install-Toolkit.ps1` / `安装.cmd`:自动检测 Citavi 与 Word 加载项目录、
+- 新增一键安装器 `安装.vbs`(图形界面,启动即请求管理员权限)与 `Install-Toolkit.ps1`(CLI):自动检测 Citavi、Word 加载项与「快速帮助」目录、
   预览计划、检测冲突进程(显示名称+PID 并弹窗)后覆盖安装,完成弹窗;支持 `-WhatIf`/`-Uninstall`。
 - 新增 **Citavi 内置「快速帮助」中文**:622 个主题。该帮助原为**联网**内容(官方无中文),
   现通过本地覆盖机制 `Documents\Citavi 6\Custom Help\<HelpContext>.zh.rtf` 提供中文;安装器一并安装。

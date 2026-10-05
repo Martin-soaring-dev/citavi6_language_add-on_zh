@@ -130,6 +130,38 @@
 
 ---
 
+## 快速帮助(Quick Help / Custom Help)
+
+Citavi 右侧「快速帮助」原为**联网**内容(官方无中文)。本语言包通过本地覆盖机制,由安装器写入
+`文档\Citavi 6\Custom Help\<HelpContext>.<lang>.rtf`(**622 个主题**,无需管理员)。
+
+机制与命名(依据反编译 `CitaviHelpBox` / `HelpPathHelper`):
+
+- 普通对话框: `<HelpContext>.zh.rtf`
+- 按**文献类型**变化(仅「选择文献类型」对话框): `<HelpContext>-<ReferenceTypeId>.zh.rtf`(35 个类型文件)
+- 查找顺序(带类型时): `<ctx>-<type>.zh.rtf` → `<ctx>-<type>.en.rtf` → `<ctx>.zh.rtf` → `<ctx>.en.rtf` → `<ctx>.rtf`
+- 非 ASCII 一律写 `\uNNNN?` 转义。
+
+### 已知限制:运行时动态/联网帮助无法覆盖
+
+少数对话框**不读本地 Custom Help**,而是运行时**直接联网**取正文、或在本地拼接动态内容后
+`helpBox.SetHelpText(...)` 注入。语言包机制**无法**覆盖这些(且官方服务对 `uiCulture=zh` 仍返回英文):
+
+| 对话框 | 机制 |
+|---|---|
+| 按 ID 检索文献 (`LookupReferenceIdentifierDialog`) | 直接调用 `FindHelpPathOnlineAsync` |
+| 查找馆藏位置 (`LookupLocationsDialog`) | 直接调用 `FindHelpPathOnlineAsync` |
+| 编辑/收藏引文样式 (`CitationStyleListDialogEx` / `CitationStyleFavoriteDialog`) | 样式文件 `.ccs` 内 `<HelpContext>`,按 `<Culture>` 分语言(缺 `_zh` 变体) |
+| 在线检索列表 (`OnlineSearchDialogEx`) | 由在线目录定义动态拼接 |
+| 导入/导出向导凭据 (`ExportWizardDialog` 等) | 动态 `TransformerHelpContext` |
+
+> 这些对话框内**本地可翻译**的部分(如「单击此处选择其他目录/库」`ShowIsbnTransformerDialogHelpContextPart`、
+> `LookupLocations_*` 等)已中文化;仅**正文**来自联网/样式文件,故保持英文。
+> 若需覆盖联网正文,唯一途径是把 `Citavi.exe.config` 的 `BackOfficeUrl` 指向本地帮助服务器(并代理其余请求)
+> —— 会改动 Citavi 原始配置、需常驻服务、影响在线功能,**暂不采用**。
+
+---
+
 ## 已确认正常(无需重复排查)
 
 - HTML 实体:`EN` 与 `ZH` 0 处不一致。
