@@ -104,6 +104,19 @@ jobs:
             Write-Host "创建 Release: $($release.html_url)"
           }
 
+          # 先删除同名旧资产(便于对已有 Release 重跑 / 更新安装程序)
+          $existing = @()
+          try { $existing = Invoke-RestMethod -Uri "https://api.github.com/repos/$repo/releases/$($release.id)/assets" -Headers $headers } catch { $existing = @() }
+          foreach ($path in $assets) {
+            $name = [IO.Path]::GetFileName($path)
+            foreach ($a in $existing) {
+              if ($a.name -eq $name) {
+                Invoke-RestMethod -Uri "https://api.github.com/repos/$repo/releases/assets/$($a.id)" -Method Delete -Headers $headers | Out-Null
+                Write-Host "删除旧资产: $name"
+              }
+            }
+          }
+
           # 上传资产(用 release id 手写 uploads URL,避免模板占位符解析问题)
           foreach ($path in $assets) {
             $name = [IO.Path]::GetFileName($path)

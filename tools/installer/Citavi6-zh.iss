@@ -51,8 +51,9 @@ Source: "{#RepoRoot}\custom-help\*.zh.rtf"; DestDir: "{code:GetHelpDest}"; Flags
 [Code]
 var
   DirPage: TInputDirWizardPage;
-  OptPage: TInputOptionWizardPage;
+  ChkWord, ChkHelp: TNewCheckBox;
   RefreshBtn: TNewButton;
+  OldNextClick: TNotifyEvent;
 
 function BS(const S: String): String;
 begin
@@ -202,12 +203,12 @@ end;
 
 function WantWord(): Boolean;
 begin
-  Result := OptPage.Values[0] and (DirPage.Values[1] <> '');
+  Result := ChkWord.Checked and (DirPage.Values[1] <> '');
 end;
 
 function WantHelp(): Boolean;
 begin
-  Result := OptPage.Values[1] and (DirPage.Values[2] <> '');
+  Result := ChkHelp.Checked and (DirPage.Values[2] <> '');
 end;
 
 procedure RefreshPaths(Sender: TObject);
@@ -215,18 +216,73 @@ begin
   DirPage.Values[0] := DetectCitaviBin();
   DirPage.Values[1] := DetectWordBin();
   DirPage.Values[2] := DetectHelpDir();
+  ChkWord.Checked := (DirPage.Values[1] <> '');
+  ChkHelp.Checked := (DirPage.Values[2] <> '');
+end;
+
+// 取消勾选时清空框(=跳过);重新勾选时补上自动探测值
+procedure WordCheckClick(Sender: TObject);
+begin
+  if ChkWord.Checked then
+  begin
+    if DirPage.Values[1] = '' then DirPage.Values[1] := DetectWordBin();
+    if DirPage.Values[1] = '' then DirPage.Values[1] := DetectCitaviBin();
+  end
+  else
+    DirPage.Values[1] := '';
+end;
+
+procedure HelpCheckClick(Sender: TObject);
+begin
+  if ChkHelp.Checked then
+  begin
+    if DirPage.Values[2] = '' then DirPage.Values[2] := DetectHelpDir();
+  end
+  else
+    DirPage.Values[2] := '';
+end;
+
+// 重写 Next:允许把可选目录留空(=跳过)。
+// Inno 的 TInputDirWizardPage 硬性要求每个框都是合法路径;这里在校验前给空框
+// 临时填一个合法值,通过校验后再还原为空。
+procedure NextClick(Sender: TObject);
+var empty1, empty2: Boolean;
+begin
+  if WizardForm.CurPageID = DirPage.ID then
+  begin
+    if not IsCitaviBin(DirPage.Values[0]) then
+    begin
+      MsgBox('Citavi 目录无效:未找到 Citavi.exe,请选择 Citavi 6 的 bin 目录。', mbError, MB_OK);
+      Exit;
+    end;
+    if ChkWord.Checked and not IsWordBin(DirPage.Values[1]) then
+    begin
+      MsgBox('Word 加载项目录无效:未找到 SwissAcademic.Citavi.WordAddIn.dll。' + #13#10 +
+             '请修正,或取消勾选「安装到 Word 加载项」以跳过。', mbError, MB_OK);
+      Exit;
+    end;
+  end;
+
+  empty1 := (DirPage.Values[1] = '');
+  empty2 := (DirPage.Values[2] = '');
+  if empty1 then DirPage.Values[1] := ExpandConstant('{win}');
+  if empty2 then DirPage.Values[2] := ExpandConstant('{win}');
+
+  OldNextClick(Sender);
+
+  if empty1 then DirPage.Values[1] := '';
+  if empty2 then DirPage.Values[2] := '';
 end;
 
 procedure InitializeWizard();
 var v: String;
 begin
   DirPage := CreateInputDirPage(wpSelectComponents, '选择安装位置',
-    '安装器已自动检测下列目录,如不正确可手动修改。',
-    'Citavi bin 目录为必填;Word 加载项与「快速帮助」目录可留空以跳过。',
-    False, '');
-  DirPage.Add('Citavi 6 的 bin 目录:');
-  DirPage.Add('Word 加载项目录(可选,留空=跳过):');
-  DirPage.Add('「快速帮助」目录(可选,留空=跳过):');
+    '安装器已自动检测下列目录,可手动修改;留空或取消勾选 = 跳过该项。',
+    '', False, '');
+  DirPage.Add('Citavi 6 的 bin 目录(必填):');
+  DirPage.Add('Word 加载项目录:');
+  DirPage.Add('「快速帮助」目录:');
   DirPage.Values[0] := DetectCitaviBin();
   DirPage.Values[1] := DetectWordBin();
   DirPage.Values[2] := DetectHelpDir();
@@ -245,23 +301,29 @@ begin
   RefreshBtn.Caption := '重新检测路径';
   RefreshBtn.OnClick := @RefreshPaths;
 
-  OptPage := CreateInputOptionPage(DirPage.ID, '组件',
-    '选择要安装的组件', '语言包(7 个程序集)始终安装;以下两项可选。', False, False);
-  OptPage.Add('同时把语言包安装到 Word 加载项');
-  OptPage.Add('安装「快速帮助」中文(写入 Custom Help)');
-  OptPage.Values[0] := (DirPage.Values[1] <> '');
-  OptPage.Values[1] := (DirPage.Values[2] <> '');
-end;
+  // 跳过复选框(运行期创建的复选框需手动缩放高度)
+  ChkWord := TNewCheckBox.Create(WizardForm);
+  ChkWord.Parent := DirPage.Surface;
+  ChkWord.Left := DirPage.Edits[0].Left;
+  ChkWord.Top := RefreshBtn.Top + RefreshBtn.Height + ScaleY(12);
+  ChkWord.Width := ScaleX(220);
+  ChkWord.Height := ScaleY(17);
+  ChkWord.Caption := '安装到 Word 加载项';
+  ChkWord.OnClick := @WordCheckClick;
 
-function NextButtonClick(CurPageID: Integer): Boolean;
-begin
-  Result := True;
-  if CurPageID = DirPage.ID then
-  begin
-    if not IsCitaviBin(DirPage.Values[0]) then
-    begin
-      MsgBox('Citavi 目录无效:在该目录中未找到 Citavi.exe。' + #13#10 + '请选择 Citavi 6 的 bin 目录。', mbError, MB_OK);
-      Result := False;
-    end;
-  end;
+  ChkHelp := TNewCheckBox.Create(WizardForm);
+  ChkHelp.Parent := DirPage.Surface;
+  ChkHelp.Left := ChkWord.Left + ScaleX(230);
+  ChkHelp.Top := ChkWord.Top;
+  ChkHelp.Width := ScaleX(220);
+  ChkHelp.Height := ScaleY(17);
+  ChkHelp.Caption := '安装「快速帮助」中文';
+  ChkHelp.OnClick := @HelpCheckClick;
+
+  ChkWord.Checked := (DirPage.Values[1] <> '');
+  ChkHelp.Checked := (DirPage.Values[2] <> '');
+
+  // 覆盖 Next 点击,使“留空=跳过”生效
+  OldNextClick := WizardForm.NextButton.OnClick;
+  WizardForm.NextButton.OnClick := @NextClick;
 end;
