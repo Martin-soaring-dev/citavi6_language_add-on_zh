@@ -1,184 +1,250 @@
 # Citavi 6 中文语言包 (zh)
 
-为 **Citavi 6**(Windows 桌面版,瑞士学术软件 / Lumivero)提供的**简体中文界面语言包**。
+[![Release](https://img.shields.io/github/v/release/Martin-soaring-dev/citavi6_language_add-on_zh?display_name=tag&sort=semver)](https://github.com/Martin-soaring-dev/citavi6_language_add-on_zh/releases/latest)
+[![Platform](https://img.shields.io/badge/platform-Windows-0078D6)](#)
+[![Citavi](https://img.shields.io/badge/Citavi-6.x-2ea44f)](#)
+[![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-lightgrey)](LICENSE)
+[![validate](https://github.com/Martin-soaring-dev/citavi6_language_add-on_zh/actions/workflows/validate.yml/badge.svg)](https://github.com/Martin-soaring-dev/citavi6_language_add-on_zh/actions/workflows/validate.yml)
 
-安装后在 Citavi 的「工具 → 语言 / Tools → Language」菜单中会出现 **中文**,选择即可切换为中文界面。
+为 **Citavi 6**(Windows 桌面版,瑞士学术软件 / Lumivero)提供的**简体中文界面语言包**,外加
+**「快速帮助」中文**与 **Word 加载项中文**。**不改动 Citavi 任何原始文件**。
 
-> 本项目不修改 Citavi 的任何原始文件,只向安装目录新增语言资源;卸载 = 删除新增目录。
-
-> **当前版本:v0.102** — 已完成一轮术语统一与语境校对;仍有长尾条目待人工校对,发现措辞问题欢迎提交 PR。
-
----
-
-## 项目构成(中文用户 Toolkit)
-
-本项目定位为 **面向中文用户的一站式 Toolkit**,一个发布包含两部分,可**独立安装**:
-
-| 组件 | 作用 | 状态 |
-|---|---|---|
-| **语言包** | Citavi 6 界面简体中文(本仓库主体) | ✅ v0.1 可用 |
-| **Citavi 快速帮助(中文)** | 汉化右侧「快速帮助」面板(622 个主题,写入 `Documents\Citavi 6\Custom Help`;含「选择文献类型」按 35 种类型变化的帮助) | ✅ |
-| **安装程序** | 用 Inno Setup 打包的单文件 `Setup.exe`:自动探测路径、可选组件、带卸载项 | ✅ |
-| **中文文献元数据 Add-On** | 解决中文期刊 DOI 查不到元数据的问题 | 📝 [设计稿](docs/04-cn-metadata-addon.md) |
-
-> 中文期刊 DOI(ISTIC/万方注册)在 `doi.org` 上**没有元数据**,Citavi 原生「按 DOI 检索」必然失败。
-> 设计稿分析了根因、数据源与三种实现方案(DOI 结构解析 / WebView2 渲染抓取 / OpenAlex 兜底)。
+> **想直接用?** 到 [最新 Release](https://github.com/Martin-soaring-dev/citavi6_language_add-on_zh/releases/latest)
+> 下载 `Citavi6-zh-Setup-*.exe` → 双击安装 → 重启 Citavi → 「工具 → 语言」选「中文」。完成。
 
 ---
 
-## 目录
+## ✨ 亮点
 
-- [效果 / 原理](#效果--原理)
-- [支持与限制](#支持与限制)
-- [安装](#安装)
-- [目录结构](#目录结构)
-- [开发与构建](#开发与构建)
-- [参与翻译](#参与翻译)
-- [免责声明](#免责声明)
+- **界面中文化** —— 7 个附属程序集、52 个资源组、**11,612** 条字符串。
+- **快速帮助中文化** —— 右侧帮助面板 **622** 个主题,含「选择文献类型」按 35 种文献类型变化的帮助。
+- **Word 加载项中文化** —— 让 Word 里的 Citavi 加载项也显示中文。
+- **一键安装程序** —— 自动探测路径、可勾选组件、带「应用和功能」卸载项,不修改 Citavi 原文件。
+- **可脚本/静默部署** —— 提供 PowerShell 脚本与 `/VERYSILENT` 静默安装。
+
+## 🚀 快速开始
+
+| 步骤 | 操作 |
+|---|---|
+| 1 | 到 [Releases](https://github.com/Martin-soaring-dev/citavi6_language_add-on_zh/releases/latest) 下载 **`Citavi6-zh-Setup-*.exe`** |
+| 2 | 双击运行 →(UAC 授权)→ 确认自动探测到的路径 → 安装 |
+| 3 | **重启 Citavi** → 菜单 **「工具 → 语言」** → 选择 **「中文」** |
+| 4 | 如需 Word 加载项中文:**重启 Word** |
+
+> 只想装界面的最小方案:下载 ZIP,把里面的 `zh` 文件夹复制到 `…\Citavi 6\bin\zh\` 即可(见下文方式 C)。
 
 ---
 
-## 效果 / 原理
+## 📦 安装方式
 
-Citavi 6 的界面文字使用标准 .NET **附属程序集(satellite assemblies)** 实现国际化。安装目录 `bin\` 下每一个语言子目录(`de`、`fr`、`es` …)就是一个语言包,里面是 `*.resources.dll`。
+### 方式 A —— 安装程序(最推荐)
 
-Citavi 在启动时**扫描 `bin\` 的子目录**来生成语言菜单:凡目录名匹配语言代码规则、且目录内存在 `SwissAcademic.Resources.resources.dll`,就视为一个已安装语言。因此只需新增一个 `zh\` 目录,中文就会自动出现在语言菜单中。
+![安装程序界面](docs/images/install-page.png)
 
-详细机制、反编译证据与全部技术约束见 **[docs/01-mechanism.md](docs/01-mechanism.md)**。
+下载 `Citavi6-zh-Setup-<版本>.exe` 双击运行:
 
-## 支持与限制
+- 启动即**请求管理员权限**(写入 Citavi / Word 加载项的 `Program Files` 目录需要)。
+- **自动探测** Citavi 6、Word 加载项、「快速帮助」目录,可在页面上手动修改或点「重新检测路径」。
+- 用复选框选择是否安装到 **Word 加载项** / 是否安装 **「快速帮助」**;取消勾选或留空即**跳过**该项。
+- 安装后在 Windows「**应用和功能**」里生成**卸载项**。
+
+静默部署(可选):
+
+```powershell
+Citavi6-zh-Setup-v0.102.exe /VERYSILENT
+# 覆盖目录(可选):/CITAVIBIN=  /WORDBIN=  /HELPDIR=
+```
+
+### 方式 B —— ZIP + 脚本
+
+解压 ZIP 后双击 **`安装.vbs`**(图形界面,无控制台):
+
+- 启动即请求管理员权限;自动检测目录、**预览计划**、冲突进程弹窗提示(名称+PID),再覆盖安装语言包与快速帮助。
+
+```powershell
+pwsh ./Install-Toolkit.ps1 -WhatIf                         # 只预览,不执行
+pwsh ./Install-Toolkit.ps1 -CitaviBin "…\Citavi 6\bin"     # 手动指定路径
+```
+
+### 方式 C —— 手动 / 命令行
+
+1. 把 `dist/zh/`(或 ZIP 里的 `zh`)复制到 Citavi 安装目录的 `bin\` 下:
+
+   ```
+   C:\Program Files (x86)\Citavi 6\bin\zh\
+   ```
+
+2. *(可选,Word 加载项)* 把同一个 `zh` 再复制到 Word 加载项目录:
+
+   ```
+   C:\Program Files\Microsoft Office\Root\Office16\ADDINS\Citavi Word AddIn\zh\
+   ```
+
+   > 该目录由 Citavi 安装程序创建;不存在可忽略此步(重启 Word 生效)。
+
+3. 启动 Citavi → **工具 → 语言 → 中文**;若未生效,重启 Citavi。
+
+```powershell
+# 等价命令行
+pwsh ./tools/Install-LanguagePack.ps1 -CitaviBin "C:\Program Files (x86)\Citavi 6\bin"
+```
+
+### 卸载
+
+- **安装程序装法**:在 Windows「应用和功能」中卸载(会自动清理 `zh` 目录与快速帮助),或在安装程序里点「卸载」。
+- **手动装法**:删除 `bin\zh\` 目录,并在「工具 → 语言」里切回其他语言。
+
+---
+
+## ✅ 支持与限制
 
 | 项目 | 说明 |
 |---|---|
 | 支持版本 | Citavi 6.x(基于 6.20 开发) |
 | 目标语言 | 简体中文(`zh`,菜单显示为「中文」) |
-| 覆盖范围 | 7 个程序集(含 Word 加载项)、52 个资源组、共 **11,612** 条字符串;外加 **622 条「快速帮助」**(Custom Help);未翻译的条目自动回退显示英文 |
-| 不修改原程序 | ✅ 仅新增 `bin\zh\` 目录与 `文档\Citavi 6\Custom Help`(快速帮助) |
-| 随 Citavi 升级 | 升级后新增的词条会显示英文,需运行同步脚本补译 |
-| 动态/联网帮助 | 少数对话框(**按 ID 检索、查找馆藏位置、引文样式**等)运行时**直接联网**取帮助,官方服务无中文,语言包无法覆盖 → 这些保持英文(详见 [docs/05](docs/05-language-pack-backlog.md)) |
+| 覆盖范围 | 7 个程序集(含 Word 加载项)、52 个资源组、**11,612** 条字符串 + **622** 条「快速帮助」;未翻译条目自动回退英文 |
+| 不修改原程序 | ✅ 仅新增 `bin\zh\` 目录与 `文档\Citavi 6\Custom Help` |
+| 随 Citavi 升级 | 升级后**新增**的词条会显示英文,需重跑同步脚本补译 |
+| 动态/联网帮助 | 少数对话框(**按 ID 检索、查找馆藏位置、引文样式**等)运行时**直接联网**取帮助,官方无中文,语言包无法覆盖 → 保持英文(详见 [docs/05](docs/05-language-pack-backlog.md)) |
 
-> 注:目录名不能使用 `zh-Hans`——Citavi 的语言目录名正则只接受 `xx` 或 `xx-XX` 形式,故本项目使用 `zh`。
+> 注:语言目录名必须形如 `xx` 或 `xx-XX`,**不能**用 `zh-Hans`,故本项目使用 `zh`。
 
-## 安装
+## 🧩 项目构成
 
-**方式 A — 安装程序(最推荐)**:双击 **`Citavi6-zh-Setup-v0.1.exe`**(由 Inno Setup 打包的单文件安装程序)。
-启动即**请求管理员权限(UAC)**;自动探测 Citavi 6 / Word 加载项 /「快速帮助」目录,可选择“是否装到 Word 加载项 / 是否装快速帮助”,安装后在「应用和功能」里有**卸载项**。
-> 静默部署:`Citavi6-zh-Setup-v0.1.exe /VERYSILENT`(可用 `/CITAVIBIN=` `/WORDBIN=` `/HELPDIR=` 覆盖目录)。自行构建:`pwsh ./tools/Build-Installer.ps1 -Version 0.102`(需 [Inno Setup](https://jrsoftware.org/isinfo.php),`winget install JRSoftware.InnoSetup`)。
+| 组件 | 作用 | 状态 |
+|---|---|---|
+| **语言包** | Citavi 6 界面简体中文(仓库主体) | ✅ |
+| **「快速帮助」中文** | 汉化右侧帮助面板(622 个主题,写入 `文档\Citavi 6\Custom Help`) | ✅ |
+| **Word 加载项中文** | 汉化 Word 内的 Citavi 加载项 | ✅ |
+| **安装程序** | Inno Setup 打包的单文件 `Setup.exe`(自动探测/可选组件/卸载项) | ✅ |
+| **中文文献元数据 Add-On** | 解决中文期刊 DOI 查不到元数据的问题 | 📝 [设计稿](docs/04-cn-metadata-addon.md) |
 
-**方式 B — 脚本安装**:解压 ZIP 后双击 **`安装.vbs`**。启动即**请求管理员权限**;自动检测目录、**预览计划**、必要时**弹窗提示关闭冲突进程(显示名称+PID)**,再以覆盖方式安装语言包与快速帮助,完成后弹窗。
-> 只预览不执行:`pwsh ./Install-Toolkit.ps1 -WhatIf`;手动指定路径:`-CitaviBin` / `-WordAddInDir` / `-CustomHelpDir`。
+> 中文期刊 DOI(ISTIC/万方注册)在 `doi.org` 上**没有元数据**,Citavi 原生「按 DOI 检索」必然失败;
+> 设计稿分析了根因、数据源与三种实现方案。
 
-**手动安装**
+---
 
-1. 下载 / 克隆本仓库。
-2. 将 `dist/zh/` 整个目录复制到 Citavi 安装目录下的 `bin\` 内,例如:
-   ```
-   C:\Program Files (x86)\Citavi 6\bin\zh\
-   ```
-   (需要管理员权限)
-   > **Word 加载项**:加载项从 Office 的 `ADDINS\Citavi Word AddIn` 目录运行,若要它也是中文,
-   > 需把同一 `zh` 文件夹再复制到该目录下,例如
-   > `C:\Program Files\Microsoft Office\Root\Office16\ADDINS\Citavi Word AddIn\zh\`;然后重启 Word。
-3. 启动 Citavi → 工具 → 语言 → 选择「中文」。
-4. 若未立即生效,重启 Citavi。
+## ❓ 常见问题(FAQ)
 
-**脚本安装**
+<details>
+<summary><b>语言菜单里没有「中文」?</b></summary>
 
-```powershell
-# 复制 dist/zh/ 到 Citavi 的 bin 目录(通常需管理员权限的终端)
-pwsh ./tools/Install-LanguagePack.ps1 -CitaviBin "C:\Program Files (x86)\Citavi 6\bin"
+确认 `…\Citavi 6\bin\zh\SwissAcademic.Resources.resources.dll` 存在,然后**重启 Citavi**。
+仍未出现时,检查 `zh` 目录名是否被改成了 `zh-Hans` 之类不接受的写法。
+</details>
 
-# 卸载
-pwsh ./tools/Install-LanguagePack.ps1 -CitaviBin "C:\Program Files (x86)\Citavi 6\bin" -Uninstall
-```
+<details>
+<summary><b>安装时提示需要管理员权限?</b></summary>
 
-**卸载**:删除 `bin\zh\` 目录,并在语言菜单切回其他语言即可。
+写入 Citavi / Word 加载项的 `Program Files` 目录需要管理员权限,属正常。安装程序启动时就会请求 UAC。
+</details>
 
-## 目录结构
+<details>
+<summary><b>Word 里的加载项还是英文?</b></summary>
+
+需要把 `zh` 也装到 Word 加载项目录(用安装程序勾选「安装到 Word 加载项」,或手动复制),然后**重启 Word**。
+</details>
+
+<details>
+<summary><b>右侧「快速帮助」有些仍是英文?</b></summary>
+
+绝大多数是中文;少数对话框(**按 ID 检索、查找馆藏位置、引文样式**等)的帮助是 Citavi
+**运行时联网获取**的,官方服务器没有中文,本地语言包无法覆盖。详见 [docs/05](docs/05-language-pack-backlog.md)。
+</details>
+
+<details>
+<summary><b>怎么切回英文?</b></summary>
+
+「工具 → 语言」里选择 **English** 即可;无需卸载。
+</details>
+
+<details>
+<summary><b>支持 macOS / Linux?</b></summary>
+
+Citavi 6 桌面版仅 **Windows**,本语言包仅在 Windows 上使用。
+</details>
+
+---
+
+## 🗂 目录结构
 
 ```
 .
-├─ README.md
-├─ docs/
-│  ├─ 01-mechanism.md           # 语言机制与反编译证据(核心文档)
-│  ├─ 02-roadmap.md             # 实施计划与流水线设计
-│  ├─ 03-translation-guide.md   # 翻译规范与术语表
-│  └─ 04-cn-metadata-addon.md   # 【设计稿】中文文献元数据 Add-On
-├─ addon/                       # 【规划】中文文献元数据 Add-On 源码
-├─ tools/                       # 构建/提取/安装脚本(骨架,待实现)
-│  ├─ Extract-Resources.ps1
-│  ├─ Build-LanguagePack.ps1
-│  └─ Install-LanguagePack.ps1
-├─ translations/                # 翻译源文件(key → 中文),按资源组拆分
-│  └─ README.md
-├─ reference/                   # 从 Citavi 提取的原始资源(不入库)
-└─ dist/                        # 构建产物 dist/zh/*.resources.dll(不入库)
+├─ README.md / CHANGELOG.md / LICENSE
+├─ docs/                    # 文档(机制、路线图、翻译规范、设计稿、Backlog)
+├─ tools/                   # 构建 / 提取 / 安装 / 打包脚本
+│  ├─ Build-LanguagePack.ps1    # 生成 dist/zh/ 下 7 个附属程序集
+│  ├─ Test-Translations.ps1     # 译文校验(CI 用)
+│  ├─ Install-Toolkit.ps1       # CLI 安装器(自动检测/预览/提权)
+│  ├─ Install-Gui.ps1           # WinForms 图形安装器
+│  ├─ gui-launcher.vbs          # 无控制台启动器(打包为「安装.vbs」)
+│  ├─ Package-Release.ps1       # 打 ZIP
+│  ├─ Build-Installer.ps1       # 用 Inno Setup 打单文件 Setup.exe
+│  └─ installer/Citavi6-zh.iss  # Inno 安装脚本
+├─ translations/            # 翻译源文件(key → 中文),按资源组拆分
+├─ custom-help/             # 「快速帮助」中文 RTF(<HelpContext>.zh.rtf, 622 个)
+├─ reference/               # 从 Citavi 提取的原始资源(不入库)
+└─ dist/                    # 构建产物:zh/*.resources.dll、Setup.exe、*.zip(不入库)
 ```
 
-## 开发与构建
+## 🧑💻 开发与构建
 
-流水线设计见 [docs/02-roadmap.md](docs/02-roadmap.md)。当前脚本均已可用:
+需要 **Windows + .NET Framework 4.x**(自带 `csc.exe`),无需 Visual Studio;打包安装程序另需
+[Inno Setup](https://jrsoftware.org/isinfo.php)(`winget install JRSoftware.InnoSetup`)。
 
 ```powershell
-# 1. 提取英文源(需要 Citavi 6 安装目录)
+# 1. 提取英文源(需已安装 Citavi 6)
 pwsh ./tools/Extract-Resources.ps1 -CitaviBin "C:\Program Files (x86)\Citavi 6\bin"
 
 # 2. 切分片 → 翻译 → 合并回填
 pwsh ./tools/Prepare-TranslationShards.ps1 -ShardSize 250
-#    (逐个翻译 reference/shards/shard-XXX.tsv → shard-XXX.zh.tsv)
 pwsh ./tools/Merge-TranslationShards.ps1
-pwsh ./tools/Test-Translations.ps1
+pwsh ./tools/Test-Translations.ps1 -Strict
 
-# 3. 构建出 dist/zh/ 下的 7 个附属程序集
+# 3. 构建 7 个附属程序集
 pwsh ./tools/Build-LanguagePack.ps1
 
-# 4. 不启动 Citavi 验证语言包可被正确解析
+# 4. 不启动 Citavi 校验语言包可被解析
 pwsh ./tools/Test-LanguagePack.ps1 -CitaviBin "C:\Program Files (x86)\Citavi 6\bin"
 
-# 5. 安装 / 打包分发
-pwsh ./tools/Install-LanguagePack.ps1 -CitaviBin "C:\Program Files (x86)\Citavi 6\bin"
-pwsh ./tools/Package-Release.ps1 -Version 0.1          # 生成 ZIP(脚本安装)
-pwsh ./tools/Build-Installer.ps1 -Version 0.102        # 生成单文件 Setup.exe(需 Inno Setup)
+# 5. 分发:ZIP(脚本装)/ Setup.exe(安装程序)
+pwsh ./tools/Package-Release.ps1 -Version 0.102
+pwsh ./tools/Build-Installer.ps1 -Version 0.102
 ```
 
-所需环境:Windows + .NET Framework 4.x(自带 `csc.exe`);无需 Visual Studio。
+## 🔁 自动构建与发布
 
-## 自动构建与发布
-
-仓库自带 GitHub Actions(Windows runner,无需 Citavi):
+GitHub Actions(Windows runner,无需本地 Citavi):
 
 | 工作流 | 触发 | 行为 |
 |---|---|---|
-| `validate` | push 到 `main` / PR / 手动 | 校验译文 → 构建 → 打包 zip,作为 **Artifact** 可下载 |
-| `release` | **在 GitHub 上发布 Release** / 推送 `v*` 标签 / 手动 | 校验 → 构建 → 打包 → **把 zip 附到该 Release** |
+| `validate` | push `main` / PR / 手动 | 校验译文 → 构建 → 打 ZIP,作为 **Artifact** |
+| `release` | 发布 Release / 推送 `v*` 标签 / 手动 | 校验 → 构建 → 打 ZIP **和** `Setup.exe` → 附到该 Release |
 
-发布方式二选一:
-
-**A. 在 GitHub 网页上发布**(推荐)
-
-`Releases → Draft a new release` → 填 tag(如 `v0.1`)→ `Publish release`。
-CI 会自动构建并把 `citavi6-zh-v0.1.zip` 附加到这个 Release 上(不会覆盖你写的发布说明)。
-
-**B. 命令行**
+发布(推荐):在 GitHub 上 `Releases → Draft a new release`,填 tag(如 `v0.102`)→ `Publish release`。
+CI 会自动构建并把 **ZIP + Setup.exe** 附加到该 Release。
 
 ```bash
-git tag v0.1 && git push origin v0.1        # CI 自动创建 Release 并附 zip
-gh release create v0.1                       # 先建空 Release,CI 之后自动补上 zip
+# 或者:直接推标签,CI 自动创建 Release 并附资产
+git tag v0.102 && git push origin v0.102
 ```
 
-> 注意:workflow 文件必须存在于**默认分支**,`release` 事件才会触发。
+## 🤝 参与翻译
 
-## 参与翻译
+翻译文本位于 `translations/`;格式与术语规范见 [docs/03-translation-guide.md](docs/03-translation-guide.md)
+与 [translations/README.md](translations/README.md)。发现措辞问题欢迎提 Issue / PR。
 
-翻译文本位于 `translations/`,格式与规范见 [docs/03-translation-guide.md](docs/03-translation-guide.md) 与 [translations/README.md](translations/README.md)。
+相关文档:[01 机制与反编译证据](docs/01-mechanism.md) ·
+[02 路线图](docs/02-roadmap.md) · [03 术语与规范](docs/03-translation-guide.md) ·
+[04 元数据 Add-On 设计稿](docs/04-cn-metadata-addon.md) · [05 待办与缺陷](docs/05-language-pack-backlog.md)
 
-## 免责声明
+## ⚠️ 免责声明
 
-- Citavi 是 Swiss Academic Software / Lumivero 的注册商标与商业软件。本项目为社区汉化,与官方无关联。
+- Citavi 是 Swiss Academic Software / Lumivero 的注册商标与商业软件;本项目为社区汉化,与官方无关联。
 - 本项目**不包含** Citavi 的任何原始程序集或二进制文件,仅包含社区翻译的字符串资源。
-- 使用本语言包的风险由使用者自行承担;建议在切换语言前备份项目数据。
+- 使用风险自行承担;建议在切换语言前备份项目数据。
 
-## 相关
+## 🔗 相关
 
 - 官方组织:https://github.com/LUMIVERO
-- Citavi 6 Add-Ons 源码(了解扩展模型):https://github.com/LUMIVERO/C6-Add-Ons-and-Online-Sources
+- Citavi 6 Add-Ons 源码(扩展模型):https://github.com/LUMIVERO/C6-Add-Ons-and-Online-Sources
