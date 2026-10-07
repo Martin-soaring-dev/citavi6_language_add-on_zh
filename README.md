@@ -248,3 +248,12 @@ git tag v0.102 && git push origin v0.102
 
 - 官方组织:https://github.com/LUMIVERO
 - Citavi 6 Add-Ons 源码(扩展模型):https://github.com/LUMIVERO/C6-Add-Ons-and-Online-Sources
+
+## 🙏 致谢
+
+- **[OpenCode](https://opencode.ai)** —— 本项目的翻译、术语校对与工程化(构建 / 安装 / 打包 / CI 脚本)
+  均在其编码智能体的协助下完成。
+- **[DeepSeek](https://www.deepseek.com)** —— 译文由 DeepSeek 模型辅助生成与润色(术语统一、语境校对)。
+- 以及所有参与测试、反馈与提交问题的使用者。
+
+> AI 辅助翻译难免疏漏,欢迎在 [Issues](https://github.com/Martin-soaring-dev/citavi6_language_add-on_zh/issues) 指正。
