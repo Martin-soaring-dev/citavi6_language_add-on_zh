@@ -64,12 +64,38 @@ Citavi 6 中文语言包 v$Version(社区汉化)
 卸载:删除上述 zh 文件夹,并在语言菜单切回其他语言;或用「安装.vbs」里的“卸载”。
 
 本语言包不修改 Citavi 任何原始文件。未翻译的条目会显示英文原文。
+
+许可与作者:
+- 本项目由「Citavi 中文社区汉化项目」维护(作者 GitHub:@Martin-soaring-dev),
+  以 CC BY-NC 4.0 发布 —— 允许署名转载与非商业性再分发,禁止任何商业性使用。
+- 唯一官方分发渠道:https://github.com/Martin-soaring-dev/citavi6_language_add-on_zh/releases
+  第三方站点以收费、捆绑、改名或去除署名的方式提供本语言包,均属未授权分发。
+  完整条款见本包内的「使用条款.txt」。
+- Citavi 是 Swiss Academic Software / Lumivero 的注册商标;本项目为社区独立汉化,
+  与官方无隶属或背书关系。译文勘误请提 Issue(地址同上)。
 "@ | Set-Content -Path (Join-Path $stamp '安装说明.txt') -Encoding UTF8
 
 # 图形安装器(双击 安装.vbs 启动,无控制台)+ CLI 备用
 Copy-Item (Join-Path $PSScriptRoot 'Install-Gui.ps1') (Join-Path $stamp 'Install-Gui.ps1') -Force
 Copy-Item (Join-Path $PSScriptRoot 'Install-Toolkit.ps1') (Join-Path $stamp 'Install-Toolkit.ps1') -Force
 Copy-Item (Join-Path $PSScriptRoot 'gui-launcher.vbs') (Join-Path $stamp '安装.vbs') -Force
+
+# 品牌视觉资产(Install-Gui.ps1 读 assets\setup.ico 与 assets\logo-symbol.png)
+# 缺失不影响安装功能,只警告 —— 因为图标与徽标属于外观,不是安装必需品。
+$brandDir = Join-Path $RepoDir 'docs\brand\simple\export\win'
+$brandNeeded = @('setup.ico', 'logo-symbol.png')
+$brandMissing = @($brandNeeded | Where-Object { -not (Test-Path (Join-Path $brandDir $_)) })
+if ($brandMissing.Count) {
+    Write-Warning ("缺少品牌资产 {0},图形安装器将不带图标与徽标。生成: pwsh ./tools/Build-BrandAssets.ps1" -f ($brandMissing -join ', '))
+} else {
+    New-Item -ItemType Directory -Force -Path (Join-Path $stamp 'assets') | Out-Null
+    foreach ($b in $brandNeeded) { Copy-Item (Join-Path $brandDir $b) (Join-Path $stamp 'assets') -Force }
+}
+
+# 使用条款(与 Setup.exe 许可页同一份文本;GUI 安装器的同意门读它)
+$licSrc = Join-Path $PSScriptRoot 'installer\license.zh.txt'
+if (Test-Path $licSrc) { Copy-Item $licSrc (Join-Path $stamp '使用条款.txt') -Force }
+else { Write-Warning "缺少 tools\installer\license.zh.txt,ZIP 内不会带使用条款。" }
 
 # 快速帮助(Custom Help)中文 RTF
 $helpSrcDir = Join-Path $RepoDir 'custom-help'

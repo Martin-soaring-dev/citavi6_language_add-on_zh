@@ -1,5 +1,35 @@
 # 更新日志
 
+## v0.103
+
+**品牌视觉接入分发物**
+- 新增 `tools/Build-BrandAssets.ps1`:用 headless Chromium 把 `docs/brand/simple/svg/` 光栅化为安装包位图,
+  再用 System.Drawing 组装多尺寸 ICO;无 npm/pip 依赖,中间产物写到 `build/brand/`(不入库)。
+- 新增入库位图 `docs/brand/simple/export/win/`:`setup.ico`(16/24/32/48/64/128/256)、
+  `wizard-image.png`(656×1256)、`wizard-small.png`(318×318)、`logo-symbol.png`(456×295)。
+- `Citavi6-zh.iss` 挂载 `SetupIconFile` / `WizardImageFile` / `WizardSmallImageFile`,并设
+  `UninstallDisplayIcon={uninstallexe}` —— 卸载项图标复用内嵌的 SetupIconFile,**不往 Citavi 目录多放任何文件**。
+- `Build-Installer.ps1` 编译前校验三份安装包资产,缺失即报错(而不是等 ISCC 失败)。
+- ZIP 新增 `assets\`(`setup.ico` + `logo-symbol.png`);`Install-Gui.ps1` 窗体加图标与头部徽标,
+  资产缺失时静默降级不带图。
+- 图形资产许可明确为与代码一致的 **CC BY-NC 4.0**(`VISUAL_IDENTITY.md` §10.2);`setup.ico` 的 16/24 帧
+  由 512 图标直接缩放,16 px 简化型仍未绘制(§06 记录该状态)。
+- `.gitattributes` 增加 `*.png/*.ico/*.bmp binary`。
+
+**许可页与作者署名(防盗用举证)**
+- 新增 `tools/installer/license.zh.txt`(使用条款)与 `infoafter.zh.txt`(装完提示页),
+  由 `.iss` 的 `LicenseFile` / `InfoAfterFile` 引用;`.txt` 必须是 UTF-8/UTF-16LE,换行用
+  `.gitattributes` 钉成 CRLF,`Build-Installer.ps1` 编译前校验存在性与 CRLF。
+- Setup.exe 必须选「我接受协议」才能继续;许可页的接受/拒绝文案覆盖为中文
+  (`[Messages] LicenseAccepted` / `LicenseNotAccepted` / `LicenseLabel3`),向导其余文案仍为英文。
+- 作者信息三处常驻:`[Messages] BeveledLabel`(每个向导页底部)、`AppPublisherURL` /
+  `AppSupportURL` / `AppUpdatesURL`(「应用和功能」)、`VersionInfo*` 文件属性
+  (Company / Copyright(含 CC BY-NC 与仓库地址)/ Description / ProductName / Version)。
+- ZIP:「安装说明.txt」增「许可与作者」段,并随附「使用条款.txt」。
+- `Install-Gui.ps1` 加同意门:未同意不得安装(卸载不需同意),「查看条款…」弹模态框显示同一条款;
+  条款文件缺失时退化为要点提示。复选框与按钮放进按钮行既有空档,不动原排版。
+- README「⚠️ 免责声明」→「⚠️ 免责声明与许可」,补许可、作者与唯一官方分发渠道。
+
 ## v0.102
 
 **语言包校正**

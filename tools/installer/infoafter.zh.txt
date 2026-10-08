@@ -1,0 +1,17 @@
+安装完成 —— 请重启 Citavi 让中文生效
+
+1) 打开 Citavi 6,在菜单「工具 → 语言」中选择「中文」;若 Citavi 已打开,请先退出再启动。
+2) 如勾选了 Word 加载项中文,请重启 Word。
+3) 右侧「快速帮助」中文已写入:文档\Citavi 6\Custom Help
+
+许可与来源
+
+本语言包由「Citavi 中文社区汉化项目」维护(作者 GitHub:@Martin-soaring-dev),
+以 CC BY-NC 4.0 发布,禁止任何商业性使用。
+
+唯一官方分发渠道:
+https://github.com/Martin-soaring-dev/citavi6_language_add-on_zh/releases
+
+Citavi 是 Swiss Academic Software / Lumivero 的注册商标;本项目为社区独立汉化,
+与官方无隶属或背书关系。译文勘误欢迎提交 Issue:
+https://github.com/Martin-soaring-dev/citavi6_language_add-on_zh/issues

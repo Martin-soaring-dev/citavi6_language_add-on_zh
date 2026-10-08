@@ -6,11 +6,11 @@
     依赖 Inno Setup 6/7 的 ISCC.exe(可用 winget install JRSoftware.InnoSetup 安装)。
     产物: dist/Citavi6-zh-Setup-v<版本>.exe
 .EXAMPLE
-    pwsh ./tools/Build-Installer.ps1 -Version 0.102
+    pwsh ./tools/Build-Installer.ps1 -Version 0.103
 #>
 [CmdletBinding()]
 param(
-    [string]$Version = '0.102',
+    [string]$Version = '0.103',
     [switch]$SkipBuild
 )
 $ErrorActionPreference = 'Stop'
@@ -45,6 +45,25 @@ if (-not $SkipBuild -or -not (Test-Path (Join-Path $ZhDir 'SwissAcademic.Resourc
 }
 if (-not (Test-Path (Join-Path $ZhDir 'SwissAcademic.Resources.resources.dll'))) { throw "语言包不完整: $ZhDir" }
 if (-not (Test-Path $HelpDir)) { throw "找不到快速帮助目录: $HelpDir" }
+
+# 品牌位图资产(.iss 里 SetupIconFile/WizardImageFile/WizardSmallImageFile 依赖它们)
+$BrandDir = Join-Path $Repo 'docs\brand\simple\export\win'
+$BrandAssets = @('setup.ico', 'wizard-image.png', 'wizard-small.png')
+$missing = @($BrandAssets | Where-Object { -not (Test-Path (Join-Path $BrandDir $_)) })
+if ($missing.Count) {
+    throw ("缺少品牌位图资产: {0}(在 {1})。先运行 pwsh ./tools/Build-BrandAssets.ps1 生成。" -f ($missing -join ', '), $BrandDir)
+}
+$brandKB = [math]::Round((($BrandAssets | ForEach-Object { (Get-Item (Join-Path $BrandDir $_)).Length } | Measure-Object -Sum).Sum) / 1KB, 1)
+Write-Host ("品牌资产: {0}({1} KB)" -f ($BrandAssets -join ', '), $brandKB)
+
+# 许可页与装完提示页(.iss 的 LicenseFile / InfoAfterFile)
+$InstDir = Join-Path $PSScriptRoot 'installer'
+foreach ($t in @('license.zh.txt', 'infoafter.zh.txt')) {
+    $tp = Join-Path $InstDir $t
+    if (-not (Test-Path $tp)) { throw "缺少安装程序文本文件: $tp" }
+    # Inno 只承诺 UTF-8/UTF-16LE 编码,未承诺纯 LF 能正常换行;.gitattributes 已钉 eol=crlf,这里兜底。
+    if (([IO.File]::ReadAllText($tp)) -notmatch "`r`n") { throw "$t 不是 CRLF 换行,许可页可能整页挤成一行。" }
+}
 
 $dllCount  = @(Get-ChildItem $ZhDir  -Filter *.dll).Count
 $helpCount = @(Get-ChildItem $HelpDir -Filter *.zh.rtf).Count

@@ -127,22 +127,50 @@ $script:InstallProc = @{ 'Citavi bin' = @('Citavi'); 'Word 加载项' = @('WINWO
 
 # ================= 窗体 =================
 $form = New-Object System.Windows.Forms.Form
-$form.Text = 'Citavi 6 中文语言包 安装器  v0.102'
-$form.Size = New-Object System.Drawing.Size(660, 604)
+$form.Text = 'Citavi 6 中文语言包 安装器  v0.103'
+$form.Size = New-Object System.Drawing.Size(660, 634)
 $form.StartPosition = 'CenterScreen'
 $form.Font = New-Object System.Drawing.Font('Microsoft YaHei UI', 9)
-$form.MinimumSize = New-Object System.Drawing.Size(660, 520)
+$form.MinimumSize = New-Object System.Drawing.Size(660, 550)
+
+# 品牌视觉:资产在 ZIP 里是 assets\,在源码仓库里是 docs\brand\simple\export\win\;都找不到则不带图。
+function Resolve-AssetDir {
+    $cands = @(
+        (Join-Path $PSScriptRoot 'assets'),
+        (Join-Path (Split-Path -Parent $PSScriptRoot) 'docs\brand\simple\export\win')
+    )
+    foreach ($d in $cands) { if ($d -and (Test-Path (Join-Path $d 'setup.ico'))) { return $d } }
+    return ''
+}
+$assetDir = Resolve-AssetDir
+if ($assetDir) {
+    try { $form.Icon = New-Object System.Drawing.Icon((Join-Path $assetDir 'setup.ico')) } catch { }
+    $logoFile = Join-Path $assetDir 'logo-symbol.png'
+    if (Test-Path $logoFile) {
+        $ms = New-Object IO.MemoryStream(, [IO.File]::ReadAllBytes($logoFile))
+        $tmp = [System.Drawing.Image]::FromStream($ms)
+        try {
+            $picLogo = New-Object System.Windows.Forms.PictureBox
+            $picLogo.SizeMode = 'Zoom'
+            $picLogo.Location = New-Object System.Drawing.Point(566, 6)
+            $picLogo.Size = New-Object System.Drawing.Size(70, 45)
+            # 复制成独立 Bitmap,避免 GDI+ 锁住 PNG 文件(解压目录可能被用户直接删掉)。
+            $picLogo.Image = New-Object System.Drawing.Bitmap($tmp)
+            $form.Controls.Add($picLogo)
+        } finally { $tmp.Dispose(); $ms.Dispose() }
+    }
+}
 
 $lblTitle = New-Object System.Windows.Forms.Label
 $lblTitle.Text = 'Citavi 6 中文语言包(社区汉化)'
 $lblTitle.Font = New-Object System.Drawing.Font('Microsoft YaHei UI', 13, [System.Drawing.FontStyle]::Bold)
-$lblTitle.Location = New-Object System.Drawing.Point(14, 10); $lblTitle.Size = New-Object System.Drawing.Size(500, 28)
+$lblTitle.Location = New-Object System.Drawing.Point(14, 10); $lblTitle.Size = New-Object System.Drawing.Size(470, 28)
 $form.Controls.Add($lblTitle)
 
 $lblSub = New-Object System.Windows.Forms.Label
 $lblSub.Text = '自动检测安装路径(注册表判定安装 → StartupSettings6.xml 取路径);可手动修改。'
 $lblSub.ForeColor = [System.Drawing.Color]::DimGray
-$lblSub.Location = New-Object System.Drawing.Point(16, 40); $lblSub.Size = New-Object System.Drawing.Size(620, 18)
+$lblSub.Location = New-Object System.Drawing.Point(16, 40); $lblSub.Size = New-Object System.Drawing.Size(544, 18)
 $form.Controls.Add($lblSub)
 
 # 检测组
@@ -215,8 +243,61 @@ $btnExit.Text = '退出'; $btnExit.Location = New-Object System.Drawing.Point(60
 $form.Controls.Add($btnExit)
 $form.CancelButton = $btnExit
 
+# 许可同意门:未同意不得安装(卸载不需要同意 —— 移除随时允许)
+$chkAgree = New-Object System.Windows.Forms.CheckBox
+$chkAgree.Text = '同意使用条款'; $chkAgree.Location = New-Object System.Drawing.Point(116, 522); $chkAgree.Size = New-Object System.Drawing.Size(150, 18)
+$chkAgree.Checked = $false
+$form.Controls.Add($chkAgree)
+$btnLicense = New-Object System.Windows.Forms.Button
+$btnLicense.Text = '查看条款…'; $btnLicense.Location = New-Object System.Drawing.Point(272, 516); $btnLicense.Size = New-Object System.Drawing.Size(96, 30)
+$form.Controls.Add($btnLicense)
+
+# 底部署名(与 Setup 向导 [Code] 里的自建标签同一口径、同样两行)
+$lblAuthor = New-Object System.Windows.Forms.Label
+$lblAuthor.Text = "Citavi 6 中文语言包 · 社区汉化`r`n@Martin-soaring-dev · CC BY-NC 4.0"
+$lblAuthor.ForeColor = [System.Drawing.Color]::Gray
+$lblAuthor.Font = New-Object System.Drawing.Font('Microsoft YaHei UI', 8)
+$lblAuthor.Location = New-Object System.Drawing.Point(12, 552); $lblAuthor.Size = New-Object System.Drawing.Size(620, 34)
+$form.Controls.Add($lblAuthor)
+
 function Log([string]$m){ $txtLog.AppendText($m + "`r`n"); $txtLog.SelectionStart = $txtLog.TextLength; $txtLog.ScrollToCaret(); [System.Windows.Forms.Application]::DoEvents() }
 function Info($t,$c='Information'){ return [System.Windows.Forms.MessageBox]::Show($t,'Citavi 中文语言包',[System.Windows.Forms.MessageBoxButtons]::OK,[System.Windows.Forms.MessageBoxIcon]::$c) }
+
+function Get-LicenseText {
+    foreach ($c in @((Join-Path $PSScriptRoot '使用条款.txt'), (Join-Path $PSScriptRoot 'installer\license.zh.txt'))) {
+        if (Test-Path $c) { return [IO.File]::ReadAllText($c, [Text.Encoding]::UTF8) }
+    }
+    return ''
+}
+
+# 许可条款模态框:返回 $true 表示用户明确接受
+function Show-License {
+    $body = Get-LicenseText
+    if (-not $body) {
+        # 只单独拷了脚本、条款文件没跟过来时,至少把署名、许可与官方渠道讲清楚。
+        $body = "本项目由「Citavi 中文社区汉化项目」维护(作者 GitHub:@Martin-soaring-dev),`r`n以 CC BY-NC 4.0 发布,禁止任何商业性使用。`r`n`r`n唯一官方分发渠道:`r`nhttps://github.com/Martin-soaring-dev/citavi6_language_add-on_zh/releases`r`n`r`n(未能读取包内「使用条款.txt」,以上为条款要点。)"
+    }
+    $lf = New-Object System.Windows.Forms.Form
+    $lf.Text = '使用条款与许可声明'; $lf.Size = New-Object System.Drawing.Size(640, 520)
+    $lf.StartPosition = 'CenterParent'; $lf.Font = New-Object System.Drawing.Font('Microsoft YaHei UI', 9)
+    $lf.MinimizeBox = $false; $lf.ShowInTaskbar = $false
+    $txt = New-Object System.Windows.Forms.TextBox
+    $txt.Multiline = $true; $txt.ReadOnly = $true; $txt.ScrollBars = 'Vertical'
+    $txt.Dock = 'Fill'; $txt.BorderStyle = 'None'; $txt.Text = $body
+    $lf.Controls.Add($txt)
+    $pnl = New-Object System.Windows.Forms.Panel; $pnl.Dock = 'Bottom'; $pnl.Height = 44
+    $btnNo = New-Object System.Windows.Forms.Button
+    $btnNo.Text = '不同意'; $btnNo.DialogResult = 'Cancel'
+    $btnNo.Location = New-Object System.Drawing.Point(330, 8); $btnNo.Size = New-Object System.Drawing.Size(90, 28)
+    $btnYes = New-Object System.Windows.Forms.Button
+    $btnYes.Text = '我接受,继续安装'; $btnYes.DialogResult = 'OK'
+    $btnYes.Location = New-Object System.Drawing.Point(430, 8); $btnYes.Size = New-Object System.Drawing.Size(140, 28)
+    $pnl.Controls.Add($btnNo); $pnl.Controls.Add($btnYes)
+    $lf.Controls.Add($pnl)
+    $lf.AcceptButton = $btnYes; $lf.CancelButton = $btnNo
+    try { $ok = ($lf.ShowDialog($form) -eq [System.Windows.Forms.DialogResult]::OK) } finally { $lf.Dispose() }
+    return $ok
+}
 
 function DoDetect {
     $txtLog.Clear(); $bar.Value = 0
@@ -343,7 +424,13 @@ $btnBrowseHelp.Add_Click({
     if ($fbd.ShowDialog() -eq [System.Windows.Forms.DialogResult]::OK) { $txtHelp.Text = $fbd.SelectedPath }
 })
 $btnDetect.Add_Click({ DoDetect })
-$btnInstall.Add_Click({ DoInstall })
+$btnInstall.Add_Click({
+    if (-not $chkAgree.Checked) {
+        if (Show-License) { $chkAgree.Checked = $true } else { Log '已取消:未同意使用条款,不执行安装。'; return }
+    }
+    DoInstall
+})
+$btnLicense.Add_Click({ if (Show-License) { $chkAgree.Checked = $true } })
 $btnUninstall.Add_Click({ DoInstall -Uninstall })
 $btnExit.Add_Click({ $form.Close() })
 

@@ -19,6 +19,20 @@
 
 完整原始效果图及 PNG 预览见交付的本地视觉资产 ZIP，仓库中以 SVG 源文件为主。
 
+## Windows 分发物位图（安装包实际引用的文件）
+
+由 [`tools/Build-BrandAssets.ps1`](../../../tools/Build-BrandAssets.ps1) 从上面的 SVG 生成，提交在 [`export/win/`](export/win/)：
+
+| 文件 | 尺寸 | 被谁引用 |
+|---|---|---|
+| `export/win/setup.ico` | 16/24/32/48/64/128/256（PNG 帧） | `Setup.exe` 与卸载程序的文件图标、「应用和功能」卸载项图标 |
+| `export/win/wizard-image.png` | 656 × 1256（= Inno 固定比例 164:314 的 4 倍） | Inno 欢迎页与安装完成页左侧大图 |
+| `export/win/wizard-small.png` | 318 × 318（正方形） | Inno 内页右上角方图 |
+| `export/win/logo-symbol.png` | 456 × 295 | ZIP 里 `Install-Gui.ps1` 窗体头部徽标 |
+
+改过 `svg/` 后必须重跑 `pwsh ./tools/Build-BrandAssets.ps1` 并把位图一起提交，否则安装程序用的还是旧图。
+后三张是透明底：Inno 向导面板与窗体底色会透过来，所以不要给它们加白底。
+
 ## 2026-10-08 SVG 显示修复
 
 - 横版 `logo-horizontal.svg` 与 `logo-horizontal-outlined.svg`：加宽 viewBox，调整 `6` 的定位，保证字标和英文副标题不重叠、不被裁切。

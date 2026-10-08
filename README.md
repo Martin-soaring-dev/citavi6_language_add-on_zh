@@ -1,3 +1,12 @@
+<div align="center">
+
+<img src="docs/brand/simple/svg/logo-horizontal-outlined.svg" width="680"
+     alt="Citavi 6 中文语言包项目徽标：蓝红开卷、字母 C 与中文字「中」、下垂书签">
+
+**让文献工具更懂中文**
+
+</div>
+
 # Citavi 6 中文语言包 (zh)
 
 [![Release](https://img.shields.io/github/v/release/Martin-soaring-dev/citavi6_language_add-on_zh?display_name=tag&sort=semver)](https://github.com/Martin-soaring-dev/citavi6_language_add-on_zh/releases/latest)
@@ -19,7 +28,8 @@
 - **界面中文化** —— 7 个附属程序集、52 个资源组、**11,612** 条字符串。
 - **快速帮助中文化** —— 右侧帮助面板 **622** 个主题,含「选择文献类型」按 35 种文献类型变化的帮助。
 - **Word 加载项中文化** —— 让 Word 里的 Citavi 加载项也显示中文。
-- **一键安装程序** —— 自动探测路径、可勾选组件、带「应用和功能」卸载项,不修改 Citavi 原文件。
+- **一键安装程序** —— 自动探测路径、可勾选组件、带「应用和功能」卸载项,不修改 Citavi 原文件;
+  安装程序自带项目图标与品牌向导页(图形安装器同样带徽标)。
 - **可脚本/静默部署** —— 提供 PowerShell 脚本与 `/VERYSILENT` 静默安装。
 
 ## 🚀 快速开始
@@ -51,7 +61,7 @@
 静默部署(可选):
 
 ```powershell
-Citavi6-zh-Setup-v0.102.exe /VERYSILENT
+Citavi6-zh-Setup-v0.103.exe /VERYSILENT
 # 覆盖目录(可选):/CITAVIBIN=  /WORDBIN=  /HELPDIR=
 ```
 
@@ -171,7 +181,7 @@ Citavi 6 桌面版仅 **Windows**,本语言包仅在 Windows 上使用。
 ```
 .
 ├─ README.md / CHANGELOG.md / LICENSE
-├─ docs/                    # 文档(机制、路线图、翻译规范、设计稿、Backlog)
+├─ docs/                    # 文档(机制、路线图、翻译规范、设计稿、Backlog)+ brand/ 视觉方案与安装包位图
 ├─ tools/                   # 构建 / 提取 / 安装 / 打包脚本
 │  ├─ Build-LanguagePack.ps1    # 生成 dist/zh/ 下 7 个附属程序集
 │  ├─ Test-Translations.ps1     # 译文校验(CI 用)
@@ -180,6 +190,7 @@ Citavi 6 桌面版仅 **Windows**,本语言包仅在 Windows 上使用。
 │  ├─ gui-launcher.vbs          # 无控制台启动器(打包为「安装.vbs」)
 │  ├─ Package-Release.ps1       # 打 ZIP
 │  ├─ Build-Installer.ps1       # 用 Inno Setup 打单文件 Setup.exe
+│  ├─ Build-BrandAssets.ps1     # 品牌 SVG → 安装包位图(headless Chromium)
 │  └─ installer/Citavi6-zh.iss  # Inno 安装脚本
 ├─ translations/            # 翻译源文件(key → 中文),按资源组拆分
 ├─ custom-help/             # 「快速帮助」中文 RTF(<HelpContext>.zh.rtf, 622 个)
@@ -207,9 +218,12 @@ pwsh ./tools/Build-LanguagePack.ps1
 # 4. 不启动 Citavi 校验语言包可被解析
 pwsh ./tools/Test-LanguagePack.ps1 -CitaviBin "C:\Program Files (x86)\Citavi 6\bin"
 
-# 5. 分发:ZIP(脚本装)/ Setup.exe(安装程序)
-pwsh ./tools/Package-Release.ps1 -Version 0.102
-pwsh ./tools/Build-Installer.ps1 -Version 0.102
+# 5. 品牌位图:仅在改过 docs/brand/simple/svg/ 后需要重跑(产物已入库,CI 不做光栅化)
+pwsh ./tools/Build-BrandAssets.ps1
+
+# 6. 分发:ZIP(脚本装)/ Setup.exe(安装程序)
+pwsh ./tools/Package-Release.ps1 -Version 0.103
+pwsh ./tools/Build-Installer.ps1 -Version 0.103
 ```
 
 ## 🔁 自动构建与发布
@@ -221,12 +235,12 @@ GitHub Actions(Windows runner,无需本地 Citavi):
 | `validate` | push `main` / PR / 手动 | 校验译文 → 构建 → 打 ZIP,作为 **Artifact** |
 | `release` | 发布 Release / 推送 `v*` 标签 / 手动 | 校验 → 构建 → 打 ZIP **和** `Setup.exe` → 附到该 Release |
 
-发布(推荐):在 GitHub 上 `Releases → Draft a new release`,填 tag(如 `v0.102`)→ `Publish release`。
+发布(推荐):在 GitHub 上 `Releases → Draft a new release`,填 tag(如 `v0.103`)→ `Publish release`。
 CI 会自动构建并把 **ZIP + Setup.exe** 附加到该 Release。
 
 ```bash
 # 或者:直接推标签,CI 自动创建 Release 并附资产
-git tag v0.102 && git push origin v0.102
+git tag v0.103 && git push origin v0.103
 ```
 
 ## 🤝 参与翻译
@@ -238,11 +252,17 @@ git tag v0.102 && git push origin v0.102
 [02 路线图](docs/02-roadmap.md) · [03 术语与规范](docs/03-translation-guide.md) ·
 [04 元数据 Add-On 设计稿](docs/04-cn-metadata-addon.md) · [05 待办与缺陷](docs/05-language-pack-backlog.md)
 
-## ⚠️ 免责声明
+## ⚠️ 免责声明与许可
 
 - Citavi 是 Swiss Academic Software / Lumivero 的注册商标与商业软件;本项目为社区汉化,与官方无关联。
 - 本项目**不包含** Citavi 的任何原始程序集或二进制文件,仅包含社区翻译的字符串资源。
 - 使用风险自行承担;建议在切换语言前备份项目数据。
+- **许可与作者**:翻译文本、脚本与原创图形标识由「Citavi 中文社区汉化项目」维护
+  (作者 GitHub:[@Martin-soaring-dev](https://github.com/Martin-soaring-dev)),以
+  [CC BY-NC 4.0](LICENSE) 发布 —— 允许署名转载与**非商业性**再分发,禁止任何商业性使用。
+- **唯一官方分发渠道**:[Releases](https://github.com/Martin-soaring-dev/citavi6_language_add-on_zh/releases)。
+  第三方站点以收费、捆绑、改名或去除署名的方式提供本语言包,均属未授权分发;再分发时请保留完整
+  《使用条款》与文件属性中的作者信息(安装程序与 ZIP 均已随附)。
 
 ## 🔗 相关
 

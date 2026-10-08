@@ -1,0 +1,36 @@
+Citavi 6 中文语言包 —— 使用条款与许可声明
+
+本安装程序由「Citavi 中文社区汉化项目」维护,作者 GitHub 账号 @Martin-soaring-dev。
+本项目是社区独立翻译,与 Citavi 官方(Swiss Academic Software / Lumivero)无任何
+隶属、授权或背书关系;Citavi 是其权利人的注册商标。
+
+一、许可
+
+本项目的翻译文本、脚本与原创图形标识以 CC BY-NC 4.0 发布(见仓库 LICENSE):
+允许署名转载与非商业性再分发;不允许任何商业性使用。
+
+二、唯一官方分发渠道
+
+https://github.com/Martin-soaring-dev/citavi6_language_add-on_zh/releases
+
+任何第三方站点以收费、捆绑、改名、去除署名或去除本条款的方式提供本安装程序,
+均属未授权分发。
+
+三、再分发时必须保留
+
+1) 本使用条款全文;
+2) 文件属性中的作者与版权信息;
+3) 指向上述仓库的地址;
+4) 「非官方社区项目」的说明。
+
+四、无担保
+
+本语言包按「现状」提供,不含任何明示或暗示的担保。Citavi 项目数据请自行备份,
+维护者对使用本项目造成的任何损失不承担责任。
+
+五、反馈
+
+译文问题与勘误:
+https://github.com/Martin-soaring-dev/citavi6_language_add-on_zh/issues
+
+继续安装即表示你已阅读并接受上述条款。

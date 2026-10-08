@@ -5,3 +5,12 @@
 *.tsv text eol=lf
 *.ps1 text eol=lf
 *.md  text eol=lf
+
+# 安装包位图资产由 tools/Build-BrandAssets.ps1 生成,禁止文本转换
+*.png binary
+*.ico binary
+*.bmp binary
+
+# Inno 许可页/装完提示页:官方只承诺 UTF-8/UTF-16LE,没承诺纯 LF 能正常换行,钉成 CRLF
+tools/installer/license.zh.txt   text eol=crlf
+tools/installer/infoafter.zh.txt text eol=crlf

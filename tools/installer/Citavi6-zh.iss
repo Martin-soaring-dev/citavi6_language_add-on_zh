@@ -1,13 +1,16 @@
 ; Citavi 6 中文语言包 —— Inno Setup 安装脚本
 ; 由 tools/Build-Installer.ps1 调用 ISCC 编译。
-; 通过命令行传入: /DRepoRoot=<绝对路径>  /DAppVersion=0.102
+; 通过命令行传入: /DRepoRoot=<绝对路径>  /DAppVersion=0.103
+; 品牌位图资产由 tools/Build-BrandAssets.ps1 从 docs/brand/simple/svg 生成并提交入库。
 
 #ifndef RepoRoot
   #define RepoRoot "..\.."
 #endif
 #ifndef AppVersion
-  #define AppVersion "0.102"
+  #define AppVersion "0.103"
 #endif
+
+#define RepoURL "https://github.com/Martin-soaring-dev/citavi6_language_add-on_zh"
 
 [Setup]
 AppId={{8E2C6E2A-6C1B-4F1E-9B7A-9E2D5B7C1A01}
@@ -15,7 +18,22 @@ AppName=Citavi 6 中文语言包
 AppVersion={#AppVersion}
 AppVerName=Citavi 6 中文语言包 {#AppVersion}
 AppPublisher=Citavi 中文社区汉化项目
+AppPublisherURL={#RepoURL}
+AppSupportURL={#RepoURL}/issues
+AppUpdatesURL={#RepoURL}/releases/latest
 AppComments=安装后请在 Citavi「工具 → 语言」中选择「中文」。
+
+; 许可页(.txt 必须是 UTF-8 或 UTF-16LE;换行符由 .gitattributes 钉成 CRLF)
+LicenseFile=license.zh.txt
+InfoAfterFile=infoafter.zh.txt
+
+; 作者与版权写进 Setup.exe 的文件属性 —— 再分发时最难抹掉的一处举证。
+; 注意:实测 Inno 把每条 VersionInfo 值截到 100 个字符,超了会静默丢尾巴,所以这里刻意压短。
+VersionInfoCompany=Citavi 中文社区汉化项目 (@Martin-soaring-dev)
+VersionInfoCopyright=© 2026 Citavi 中文社区汉化项目 · CC BY-NC 4.0 · github.com/Martin-soaring-dev/citavi6_language_add-on_zh
+VersionInfoDescription=Citavi 6 简体中文语言包 安装程序(社区汉化,非官方)
+VersionInfoProductName=Citavi 6 中文语言包
+VersionInfoVersion={#AppVersion}
 DefaultDirName={code:GetDetectedCitaviBin}
 DisableDirPage=yes
 DisableProgramGroupPage=yes
@@ -37,6 +55,22 @@ CloseApplications=yes
 RestartApplications=no
 ShowLanguageDialog=no
 
+; 尺寸是硬约束:wizard-image 必须保持 164:314(Inno 按此比例缩放,656x1256 覆盖到 250% DPI)、
+; wizard-small 必须是正方形、setup.ico 必须含 16/32/48/64/256 帧。改图请重跑 tools/Build-BrandAssets.ps1。
+SetupIconFile={#RepoRoot}\docs\brand\simple\export\win\setup.ico
+WizardImageFile={#RepoRoot}\docs\brand\simple\export\win\wizard-image.png
+WizardSmallImageFile={#RepoRoot}\docs\brand\simple\export\win\wizard-small.png
+; 卸载项图标取卸载程序(已内嵌 SetupIconFile),这样不必往 Citavi 目录里多放一个 .ico。
+UninstallDisplayIcon={uninstallexe}
+
+[Messages]
+; 署名不放这里:BeveledLabel 按单行设计并垂直居中在底部条带内,给它两行会同时压到上方的
+; 「我接受协议」单选框和下方的 Next/Cancel(实测)。署名改由 [Code] 里的底对齐标签绘制。
+; 同意与否这个动作不能靠猜英文,单独把许可页这三条覆盖成中文(向导其余文案仍为英文)
+LicenseLabel3=请阅读以下使用条款与许可声明。必须选择「我接受」才能继续安装。
+LicenseAccepted=我接受协议(&A)
+LicenseNotAccepted=我不接受协议(&D)
+
 [Files]
 ; 语言包(7 个附属程序集) → Citavi bin\zh
 Source: "{#RepoRoot}\dist\zh\*.dll"; DestDir: "{code:GetCitaviBinDest}\zh"; Flags: ignoreversion
@@ -53,6 +87,7 @@ var
   DirPage: TInputDirWizardPage;
   ChkWord, ChkHelp: TNewCheckBox;
   RefreshBtn: TNewButton;
+  AttributionLbl: TNewStaticText;
   OldNextClick: TNotifyEvent;
 
 function BS(const S: String): String;
@@ -322,6 +357,21 @@ begin
 
   ChkWord.Checked := (DirPage.Values[1] <> '');
   ChkHelp.Checked := (DirPage.Values[2] <> '');
+
+  // 署名:两行、底对齐到 Next 按钮那一行、靠左。
+  // 不用 BeveledLabel —— 它按单行垂直居中在底部条带里,给两行会同时压到上方单选框与下方按钮。
+  // AutoSize 必须为 True:控件要贴着文字收缩,否则会给一个空白的宽块,看着像盖住了底部按钮带。
+  AttributionLbl := TNewStaticText.Create(WizardForm);
+  AttributionLbl.Parent := WizardForm;
+  AttributionLbl.AutoSize := True;
+  AttributionLbl.Font.Size := 8;
+  AttributionLbl.Font.Color := clGray;
+  AttributionLbl.Caption := 'Citavi 6 中文语言包 · 社区汉化' + #13#10 +
+    '@Martin-soaring-dev · CC BY-NC 4.0';
+  AttributionLbl.Left := ScaleX(8);
+  AttributionLbl.Top := WizardForm.NextButton.Top + WizardForm.NextButton.Height -
+    AttributionLbl.Height;
+  AttributionLbl.BringToFront;
 
   // 覆盖 Next 点击,使“留空=跳过”生效
   OldNextClick := WizardForm.NextButton.OnClick;

@@ -228,7 +228,7 @@ function Wait-ProcessesClosed([string[]]$names, [string]$reason) {
 
 # ================= 主流程 =================
 try {
-    Write-Host "Citavi 6 中文语言包安装器 (v0.102)" -ForegroundColor Green
+    Write-Host "Citavi 6 中文语言包安装器 (v0.103)" -ForegroundColor Green
     Write-Host "----------------------------------------" -ForegroundColor DarkGray
 
     $src = Resolve-SourceDir
