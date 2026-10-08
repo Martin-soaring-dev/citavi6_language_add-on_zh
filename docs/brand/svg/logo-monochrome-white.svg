@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1254" height="1254" viewBox="0 0 1254 1254" role="img">
+<title>Citavi 6 中文语言包 — Chinese Language Pack</title>
+<desc>非官方开源项目视觉标识，蓝色C形书页与红色中文书页在书脊处交汇，配有红色书签。</desc>
+<defs>
+  <linearGradient id="blue-front" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#208EF2"/><stop offset=".43" stop-color="#0866BE"/><stop offset="1" stop-color="#002455"/></linearGradient>
+  <linearGradient id="blue-rear" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#147BCD"/><stop offset=".65" stop-color="#003D87"/><stop offset="1" stop-color="#032356"/></linearGradient>
+  <linearGradient id="blue-edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1896F2"/><stop offset=".55" stop-color="#0257A9"/><stop offset="1" stop-color="#001A46"/></linearGradient>
+  <linearGradient id="red-front" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#B8000C"/><stop offset=".49" stop-color="#E31511"/><stop offset="1" stop-color="#FF5540"/></linearGradient>
+  <linearGradient id="red-rear" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#A50016"/><stop offset=".6" stop-color="#D9191D"/><stop offset="1" stop-color="#FF583B"/></linearGradient>
+  <linearGradient id="red-ribbon" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#980825"/><stop offset=".22" stop-color="#C5072D"/><stop offset="1" stop-color="#FF4040"/></linearGradient>
+  <linearGradient id="red-six" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF4E41"/><stop offset="1" stop-color="#C40716"/></linearGradient>
+  <linearGradient id="navy-letter" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#092E69"/><stop offset="1" stop-color="#001946"/></linearGradient>
+</defs>
+
+<rect width="1254" height="1254" fill="#071B3C"/>
+<g id="book-symbol" role="img" aria-label="蓝红翻开书本、字母C和中文字中的社区本地化徽标">
+  <g id="page-edges">
+    <path id="back-page-left" fill="#071B3C" d="M262 228 C243 232 225 239 224 258 L193 602 Q191 619 201 612 C343 554 489 589 605 650 L603 330 Z"/>
+    <path id="back-page-right" fill="#071B3C" d="M985 227 C1009 233 1022 244 1023 264 L1054 603 Q1056 616 1047 612 C901 563 749 581 626 651 L628 318 Z"/>
+  </g>
+  <g id="front-pages">
+    <path id="front-page-blue" fill="#071B3C" d="M305 155 C397 160 524 195 608 279 L608 652 C506 546 360 524 265 534 L284 177 Q284 153 305 155 Z"/>
+    <path id="front-page-red" fill="#071B3C" d="M625 309 C627 242 781 181 943 155 Q963 150 966 174 L984 534 C841 516 717 560 624 654 Z"/>
+    <path id="inner-white-c" fill="#071B3C" d="M607 278 C530 235 464 232 396 260 C337 285 304 337 308 394 C310 454 354 487 421 517 C516 558 572 585 607 638 C581 561 519 548 449 507 C412 486 396 456 395 393 C394 334 432 286 482 271 C534 256 573 269 607 305 Z"/>
+    <path id="chinese-zhong" fill="#071B3C" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="0.7" stroke-linejoin="round" d="M796,243 L782,244 L776,246 L772,249 L772,251 L780,257 L783,263 L783,281 L784,282 L784,321 L783,322 L762,327 L761,328 L758,328 L757,329 L754,329 L753,330 L750,330 L749,331 L746,331 L742,333 L731,335 L720,339 L716,339 L707,335 L698,334 L697,333 L684,333 L683,334 L676,335 L672,338 L672,339 L679,345 L682,350 L682,353 L683,354 L685,409 L686,410 L686,429 L687,430 L687,456 L690,464 L694,468 L699,471 L706,473 L713,472 L717,470 L721,466 L726,453 L726,449 L728,447 L737,447 L742,445 L751,444 L752,443 L769,440 L774,438 L783,437 L784,438 L784,531 L787,536 L790,536 L811,529 L820,524 L825,517 L825,514 L826,513 L826,429 L827,428 L845,425 L846,424 L875,420 L880,425 L887,429 L893,431 L905,431 L911,428 L915,424 L918,418 L918,405 L919,404 L920,394 L921,393 L923,378 L925,372 L925,367 L926,366 L926,361 L927,360 L931,331 L938,318 L938,311 L934,305 L918,296 L901,290 L898,290 L891,293 L879,302 L874,302 L873,303 L869,303 L868,304 L864,304 L858,306 L853,306 L852,307 L848,307 L847,308 L839,309 L829,312 L827,310 L827,295 L828,294 L828,272 L832,263 L831,256 L827,252 L821,249 L808,245 L797,244 Z M783,345 L784,346 L784,413 L783,414 L771,416 L766,418 L762,418 L761,419 L758,419 L749,422 L745,422 L732,426 L728,426 L727,425 L726,357 L727,356 L742,355 L763,349 L767,349 L768,348 Z M885,327 L885,336 L884,337 L884,347 L883,348 L883,358 L882,359 L882,368 L881,369 L879,394 L875,396 L870,396 L869,397 L864,397 L858,399 L853,399 L852,400 L848,400 L842,402 L827,404 L826,403 L826,399 L827,398 L827,336 L830,334 L838,333 L839,332 L844,332 L845,331 L849,331 L850,330 L854,330 L855,329 L859,329 L860,328 L864,328 L865,327 L869,327 L875,325 L880,325 L881,324 Z"/>
+  </g>
+  <g id="book-folio-lines">
+    <!-- Blank negative spaces are structural shapes, not raster artifacts. -->
+    <path id="blue-fold-white" fill="#071B3C" d="M261 531 C359 511 513 568 609 665 C493 587 361 535 261 552 Q242 552 248 532 Z"/>
+    <path id="red-fold-white" fill="#071B3C" d="M624 656 C718 563 844 514 983 533 Q1001 540 1000 525 L984 232 L997 239 L1010 536 Q1009 558 988 552 C835 520 718 579 624 663 Z"/>
+    <path id="blue-bottom-white" fill="#071B3C" d="M196 613 C327 560 470 585 610 672 C500 602 341 583 197 633 Z"/>
+    <path id="red-bottom-white" fill="#071B3C" d="M623 672 C773 575 925 573 1054 613 L1052 639 C903 593 761 613 624 688 Z"/>
+    <path id="left-mid-ink" fill="#071B3C" d="M197 615 C323 559 491 597 608 665 C523 593 377 570 255 585 C233 590 215 606 197 615 Z"/>
+    <path id="right-mid-ink" fill="#071B3C" d="M626 667 C739 578 889 533 986 550 C856 532 720 583 626 667 Z"/>
+    <path id="bottom-left-strip" fill="#071B3C" d="M202 632 C324 580 493 614 600 678 Q618 694 631 681 C739 610 907 596 1048 630 Q1054 632 1053 645 L1052 656 Q1050 664 1041 660 C884 607 727 635 649 682 Q635 690 630 700 C616 718 594 708 586 696 C509 628 340 594 206 660 Q197 665 196 654 L197 644 Q197 635 202 632 Z"/>
+    <path id="center-fold-highlight" fill="#071B3C" d="M595 659 Q615 693 637 659 Q624 680 615 679 Q603 677 595 659 Z"/>
+  </g>
+  <g id="bookmark-layer">
+    <path id="red-bookmark" fill="#071B3C" d="M844 553 L912 548 L913 698 L879 666 L844 695 Z"/>
+    <path id="bookmark-edge" fill="#071B3C" opacity=".66" d="M838 555 L845 553 L845 695 L841 699 Z"/>
+    <path id="bookmark-fold-right" fill="#071B3C" opacity=".78" d="M912 548 L919 548 L919 701 L913 697 Z"/>
+  </g>
+</g><g id="editable-wordmark" transform="translate(626 900) scale(1)">
+    <text id="citavi-name" x="244" y="0" font-family="DejaVu Serif, serif" font-weight="700" font-size="210" fill="#FFFFFF" text-anchor="end" letter-spacing="-6">Citavi</text>
+    <text id="citavi-six" x="252" y="0" font-family="DejaVu Serif, serif" font-weight="700" font-size="251" fill="#FFFFFF" text-anchor="start">6</text>
+    <text id="chinese-title" x="0" y="152" font-family="Noto Serif CJK SC, Source Han Serif SC, serif" font-weight="700" font-size="119" letter-spacing="9" fill="#FFFFFF" text-anchor="middle">中文语言包</text>
+    <text id="english-descriptor" x="0" y="240" font-family="Lato, Arial, sans-serif" font-weight="400" font-size="38" letter-spacing="13" fill="#FFFFFF" text-anchor="middle">CHINESE LANGUAGE PACK</text>
+  </g>
+</svg>
