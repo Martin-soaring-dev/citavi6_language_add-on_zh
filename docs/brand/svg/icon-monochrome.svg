@@ -14,7 +14,7 @@
 </defs>
 
 <rect x="1.5" y="1.5" width="509" height="509" rx="104" fill="#FFFFFF"/>
-<g transform="translate(1 108) scale(.49) translate(-175 -140)"><g id="book-symbol" role="img" aria-label="蓝红翻开书本、字母C和中文字中的社区本地化徽标">
+<g transform="translate(36 108) scale(.49) translate(-175 -140)"><g id="book-symbol" role="img" aria-label="蓝红翻开书本、字母C和中文字中的社区本地化徽标">
   <g id="page-edges">
     <path id="back-page-left" fill="#17202E" d="M262 228 C243 232 225 239 224 258 L193 602 Q191 619 201 612 C343 554 489 589 605 650 L603 330 Z"/>
     <path id="back-page-right" fill="#17202E" d="M985 227 C1009 233 1022 244 1023 264 L1054 603 Q1056 616 1047 612 C901 563 749 581 626 651 L628 318 Z"/>

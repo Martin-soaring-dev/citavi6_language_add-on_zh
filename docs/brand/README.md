@@ -18,3 +18,10 @@
 未加 `-outlined` 后缀的完整版保留可编辑 `<text>` 字标；发布版将字标轮廓化为路径。
 
 完整原始效果图及 PNG 预览见交付的本地视觉资产 ZIP，仓库中以 SVG 源文件为主。
+
+## 2026-10-08 SVG 显示修复
+
+- 横版 `logo-horizontal.svg` 与 `logo-horizontal-outlined.svg`：加宽 viewBox，调整 `6` 的定位，保证字标和英文副标题不重叠、不被裁切。
+- 三种应用图标 `icon-light.svg`、`icon-dark.svg`、`icon-monochrome.svg`：修正书本的水平偏移，统一居中（512 × 512）。
+- `logo-monochrome-white.svg`、`logo-monochrome-white-outlined.svg`：使用**白色书页/文字和深蓝负形**，提供自带深蓝底的白色单色印刷展示版本。深蓝底是该文件的一部分，不是透明底。
+- 可编辑字标版与轮廓版保持并行；白色单色版根据黑色单色版的几何形状进行颜色反转，不再使用与底色相同的书页填色。

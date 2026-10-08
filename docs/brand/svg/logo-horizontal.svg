@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1125" height="460" viewBox="0 0 1125 460" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1320" height="460" viewBox="0 0 1320 460" role="img">
 <title>Citavi 6 中文语言包 — Chinese Language Pack</title>
 <desc>非官方开源项目视觉标识，蓝色C形书页与红色中文书页在书脊处交汇，配有红色书签。</desc>
 <defs>
@@ -42,9 +42,10 @@
     <path id="bookmark-fold-right" fill="#FFFFFF" opacity=".78" d="M912 548 L919 548 L919 701 L913 697 Z"/>
   </g>
 </g></g>
+<!-- 文字标识：6 与 Citavi 保持独立间距；右侧预留完整副标题宽度。 -->
 <g id="horizontal-type">
 <text x="660" y="190" font-family="DejaVu Serif, serif" font-size="102" font-weight="700" fill="url(#navy-letter)">Citavi</text>
-<text x="933" y="190" font-family="DejaVu Serif, serif" font-size="112" font-weight="700" fill="url(#red-six)">6</text>
+<text x="1025" y="190" font-family="DejaVu Serif, serif" font-size="112" font-weight="700" fill="url(#red-six)">6</text>
 <text x="657" y="293" font-family="Noto Serif CJK SC, serif" font-size="81" font-weight="700" fill="#032454" letter-spacing="5">中文语言包</text>
 <text x="659" y="360" font-family="Lato, Arial, sans-serif" font-size="31" letter-spacing="5.6" fill="#667D93">CHINESE LANGUAGE PACK</text>
 </g>
