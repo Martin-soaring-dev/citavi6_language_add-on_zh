@@ -188,20 +188,23 @@ citavi6_language_add-on_zh/
 ├── README.md
 └── docs/
     └── brand/
-        ├── VISUAL_IDENTITY.md
-        ├── svg/
-        │   ├── logo-primary-outlined.svg
-        │   ├── logo-horizontal-outlined.svg
-        │   ├── logo-symbol.svg
-        │   ├── logo-dark-outlined.svg
-        │   ├── icon-light.svg
-        │   ├── icon-dark.svg
-        │   └── ... 其他编辑版及单色版本
-        └── preview/
-            └── ... 预览文件
+        ├── README.md  # 品牌方案索引
+        └── simple/
+            ├── README.md
+            ├── VISUAL_IDENTITY.md
+            ├── svg/
+            │   ├── logo-primary-outlined.svg
+            │   ├── logo-horizontal-outlined.svg
+            │   ├── logo-symbol.svg
+            │   ├── logo-dark-outlined.svg
+            │   ├── icon-light.svg
+            │   ├── icon-dark.svg
+            │   └── ... 其他编辑版及单色版本
+            └── preview/
+                └── ... 预览文件
 ```
 
-建议将本文件复制到 `docs/brand/VISUAL_IDENTITY.md`，保留中文正文与明确版本日期。不要将仅供内部使用的绘图中间产物提交到源代码目录。
+建议将本文件复制到 `docs/brand/simple/VISUAL_IDENTITY.md`，保留中文正文与明确版本日期。不要将仅供内部使用的绘图中间产物提交到源代码目录。
 
 ---
 
@@ -211,7 +214,7 @@ citavi6_language_add-on_zh/
 
 ```html
 <div align="center">
-  <img src="docs/brand/svg/logo-horizontal-outlined.svg"
+  <img src="docs/brand/simple/svg/logo-horizontal-outlined.svg"
        width="720" alt="Citavi 6 中文语言包项目徽标：蓝红开卷与中文字中">
   <p>让文献工具更懂中文</p>
   <p><em>Community-maintained Chinese Language Pack for Citavi 6</em></p>
@@ -221,7 +224,7 @@ citavi6_language_add-on_zh/
 Release 说明页较窄时使用：
 
 ```markdown
-![Citavi 6 中文语言包](docs/brand/svg/logo-primary-outlined.svg)
+![Citavi 6 中文语言包](docs/brand/simple/svg/logo-primary-outlined.svg)
 ```
 
 在 README 中增加一句明确的非官方说明，例如：
