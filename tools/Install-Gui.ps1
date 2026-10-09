@@ -76,23 +76,9 @@ function Resolve-CitaviBin {
     foreach ($c in @('C:\Program Files (x86)\Citavi 6\bin','C:\Program Files\Citavi 6\bin')) { if (Test-CitaviBin $c) { return (Resolve-Path $c).Path } }
     return $null
 }
-function Test-WordAddInDir([string]$p){ return ($p -and (Test-Path (Join-Path $p 'SwissAcademic.Citavi.WordAddIn.dll'))) }
-function Resolve-WordAddInDir {
-    if ($WordAddInDir) { return (Resolve-Path $WordAddInDir).Path }
-    $cands = [System.Collections.Generic.List[string]]::new()
-    foreach ($d in @((Get-StartupPaths).AddIns)) { $cands.Add($d) }
-    foreach ($base in @($env:ProgramFiles, ${env:ProgramFiles(x86)})) {
-        if (-not $base) { continue }
-        Get-ChildItem (Join-Path $base 'Microsoft Office\Root') -Directory -ErrorAction SilentlyContinue | ForEach-Object { $cands.Add((Join-Path $_.FullName 'ADDINS\Citavi Word AddIn')) }
-    }
-    $pref = $cands | Where-Object { (Test-WordAddInDir $_) -and ($_ -match '\\ADDINS\\') } | Select-Object -First 1
-    if (-not $pref) { $pref = $cands | Where-Object { Test-WordAddInDir $_ } | Select-Object -First 1 }
-    if ($pref) { return (Resolve-Path $pref).Path }
-    foreach ($r in @($env:ProgramFiles, ${env:ProgramFiles(x86)}, "$env:LOCALAPPDATA\Microsoft\Office")) {
-        if ($r -and (Test-Path $r)) { $hit = Get-ChildItem $r -Recurse -Filter 'SwissAcademic.Citavi.WordAddIn.dll' -Depth 7 -ErrorAction SilentlyContinue | Where-Object { $_.DirectoryName -notmatch '\\Citavi 6\\bin' } | Select-Object -First 1; if ($hit) { return (Resolve-Path $hit.DirectoryName).Path } }
-    }
-    return $null
-}
+# Word 加载项:与 Setup.exe 共用契约(tools/lib/Resolve-WordAddInPath.ps1)
+. (Join-Path $PSScriptRoot 'lib/Resolve-WordAddInPath.ps1')
+function Test-WordAddInDir([string]$p){ return Test-IsValidWordAddInDir $p }
 function Resolve-SourceDir {
     if ($SourceDir) { return (Resolve-Path $SourceDir).Path }
     foreach ($c in @((Join-Path $PSScriptRoot $Culture), (Join-Path (Split-Path -Parent $PSScriptRoot) "dist\$Culture"))) {
@@ -306,7 +292,8 @@ function DoDetect {
     $sp = Get-StartupPaths
     $lblXml.Text = 'StartupSettings6.xml:' + $(if($sp.File){$sp.File}else{'未找到'})
     $script:cit = Resolve-CitaviBin
-    $script:wa = Resolve-WordAddInDir
+    # 显式 -WordAddInDir 无效必须失败，禁止静默改成空路径
+    $script:wa = Resolve-WordAddInDir -Override $WordAddInDir -ThrowOnInvalidOverride
     $txtCit.Text = if ($script:cit) { $script:cit } else { '' }
     $txtWa.Text  = if ($script:wa)  { $script:wa }  else { '' }
     Log "检测完成:"
@@ -360,7 +347,7 @@ function DoInstall([switch]$Uninstall) {
     if (-not $script:Src) { Info '找不到语言包源目录(zh)。' 'Error'; return }
     $cit = $txtCit.Text; $wa = $txtWa.Text
     if (-not (Test-CitaviBin $cit)) { Info 'Citavi 目录无效(缺 Citavi.exe / SwissAcademic.dll)。' 'Error'; return }
-    if ($wa -and -not (Test-WordAddInDir $wa)) { Info 'Word 加载项目录无效(缺 SwissAcademic.Citavi.WordAddIn.dll),或清空该框跳过。' 'Error'; return }
+    if ($wa -and -not (Test-WordAddInDir $wa)) { Info 'Word 加载项目录无效:需含 SwissAcademic.Citavi.WordAddIn.dll 且不能是 Citavi bin,或清空该框跳过。' 'Error'; return }
     if (-not (Ensure-Elevated $cit $wa)) { Log '已取消(未提权)。'; return }
     $hDir = if ($txtHelp.Text) { $txtHelp.Text } else { $script:helpDir }
 

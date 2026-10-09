@@ -79,6 +79,9 @@ Citavi 6 中文语言包 v$Version(社区汉化)
 Copy-Item (Join-Path $PSScriptRoot 'Install-Gui.ps1') (Join-Path $stamp 'Install-Gui.ps1') -Force
 Copy-Item (Join-Path $PSScriptRoot 'Install-Toolkit.ps1') (Join-Path $stamp 'Install-Toolkit.ps1') -Force
 Copy-Item (Join-Path $PSScriptRoot 'gui-launcher.vbs') (Join-Path $stamp '安装.vbs') -Force
+# Word 加载项探测契约(Install-Gui / Install-Toolkit 共用)
+New-Item -ItemType Directory -Force -Path (Join-Path $stamp 'lib') | Out-Null
+Copy-Item (Join-Path $PSScriptRoot 'lib\Resolve-WordAddInPath.ps1') (Join-Path $stamp 'lib') -Force
 
 # 品牌视觉资产(Install-Gui.ps1 读 assets\setup.ico 与 assets\logo-symbol.png)
 # 缺失不影响安装功能,只警告 —— 因为图标与徽标属于外观,不是安装必需品。

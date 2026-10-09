@@ -15,6 +15,8 @@
 | `Test-LanguagePack.ps1` | 不启动 Citavi,验证语言包能被 .NET 正确解析 |
 | `Install-LanguagePack.ps1` | 把 `dist/zh/` 复制到 Citavi `bin\`(可卸载) |
 | `Install-Gui.ps1` | WinForms 图形安装器;读取 `assets\setup.ico` + `assets\logo-symbol.png` 作窗体图标与头部徽标 |
+| `lib/Resolve-WordAddInPath.ps1` | Word 加载项目录探测契约(注册表/约定路径/Startup/文件系统;排除 Citavi bin) |
+| `Test-WordAddInPath.ps1` | 探测契约回归(有效目录/Citavi bin 排除/自动解析/无效覆盖) |
 | `Package-Release.ps1` | 生成可分发 zip(含 `zh`、快速帮助、安装脚本与 `assets\` 品牌位图) |
 | `Build-BrandAssets.ps1` | 品牌 SVG → 安装包位图(`docs/brand/simple/export/win/`) |
 | `Build-Installer.ps1` | 用 Inno Setup 打单文件 `Setup.exe`(编译前校验品牌位图存在) |
@@ -69,6 +71,20 @@ pwsh ./tools/Build-BrandAssets.ps1 -Renderer edge   # 手动指定
 
 改过 `docs/brand/simple/svg/` 就要重跑并把位图一起提交 —— CI 只装 Inno Setup,没有光栅器。
 `Build-Installer.ps1` 会在编译前检查这三份安装包资产是否存在,缺失直接报错。
+
+## Word 加载项目录探测
+
+`Setup.exe`、`Install-Gui.ps1`、`Install-Toolkit.ps1`、`Install-LanguagePack.ps1` 共用同一契约
+(`lib/Resolve-WordAddInPath.ps1` / Inno `DetectWordBin`):
+
+1. 命令行 `/WORDBIN=`、`-WordAddInDir`(无效则报错,不静默改写);
+2. 注册表 `Office\<ver>\Word\InstallRoot`、`ClickToRun`(含 64 位视图);
+3. 约定路径:`Program Files` 与 `Program Files (x86)` 下 `Microsoft Office\Root\Office1x\ADDINS\Citavi Word AddIn`(及无 `Root` 变体);
+4. `StartupSettings6.xml` 的 `ApplicationFolder`;
+5. 文件系统搜索 `SwissAcademic.Citavi.WordAddIn.dll`。
+
+判定:目录含 `SwissAcademic.Citavi.WordAddIn.dll` 且 **不含** `Citavi.exe`(Citavi `bin` 也带该 DLL,不能当加载项目录)。
+自动失败返回空,由用户取消勾选跳过;**不会**回退到 Citavi bin。回归:`pwsh ./tools/Test-WordAddInPath.ps1`。
 
 ## 环境要求
 

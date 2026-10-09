@@ -185,32 +185,9 @@ function Resolve-CitaviBin {
     return $null
 }
 
-# ---------- Word 加载项检测:StartupSettings6.xml 优先;Office 约定/文件系统兜底 ----------
-function Test-WordAddInDir([string]$p){ return ($p -and (Test-Path (Join-Path $p 'SwissAcademic.Citavi.WordAddIn.dll'))) }
-
-function Resolve-WordAddInDir {
-    if ($WordAddInDir) { if (Test-WordAddInDir $WordAddInDir) { return (Resolve-Path $WordAddInDir).Path } else { throw "指定的 Word 加载项目录无效(缺 SwissAcademic.Citavi.WordAddIn.dll):$WordAddInDir" } }
-    $cands = [System.Collections.Generic.List[string]]::new()
-    # 1) StartupSettings6.xml 记录的路径(判别依据:目录里有加载项 DLL)
-    foreach ($d in @((Get-StartupPaths).AddIns)) { $cands.Add($d) }
-    # 2) Office ADDINS 约定目录
-    foreach ($base in @($env:ProgramFiles, ${env:ProgramFiles(x86)})) {
-        if (-not $base) { continue }
-        $root = Join-Path $base 'Microsoft Office\Root'
-        Get-ChildItem $root -Directory -ErrorAction SilentlyContinue | ForEach-Object { $cands.Add((Join-Path $_.FullName 'ADDINS\Citavi Word AddIn')) }
-    }
-    $pref = $cands | Where-Object { (Test-WordAddInDir $_) -and ($_ -match '\\ADDINS\\') } | Select-Object -First 1
-    if (-not $pref) { $pref = $cands | Where-Object { Test-WordAddInDir $_ } | Select-Object -First 1 }
-    if ($pref) { return (Resolve-Path $pref).Path }
-    # 3) 文件系统兜底:搜加载项 DLL(排除 Citavi bin)
-    foreach ($r in @($env:ProgramFiles, ${env:ProgramFiles(x86)}, "$env:LOCALAPPDATA\Microsoft\Office")) {
-        if ($r -and (Test-Path $r)) {
-            $hit = Get-ChildItem $r -Recurse -Filter 'SwissAcademic.Citavi.WordAddIn.dll' -Depth 7 -ErrorAction SilentlyContinue | Where-Object { $_.DirectoryName -notmatch '\\Citavi 6\\bin' } | Select-Object -First 1
-            if ($hit) { return (Resolve-Path $hit.DirectoryName).Path }
-        }
-    }
-    return $null
-}
+# ---------- Word 加载项检测:与 Setup.exe 共用契约(tools/lib/Resolve-WordAddInPath.ps1) ----------
+. (Join-Path $PSScriptRoot 'lib/Resolve-WordAddInPath.ps1')
+function Test-WordAddInDir([string]$p){ return Test-IsValidWordAddInDir $p }
 
 # ---------- 冲突进程 ----------
 function Get-Running([string[]]$names){ return @(Get-Process -Name $names -ErrorAction SilentlyContinue) }
@@ -249,7 +226,8 @@ try {
         if (-not $in) { MB "未提供 Citavi 安装目录,已取消。" 'Citavi 中文语言包' 'OK' 'Warning'; exit 1 }
         if (Test-CitaviBin $in) { $cit = (Resolve-Path $in).Path } else { MB "目录无效(缺 Citavi.exe / SwissAcademic.dll):`n$in" '错误' 'OK' 'Error'; exit 1 }
     }
-    try { $wa = Resolve-WordAddInDir } catch { W "  $_" 'Yellow' }
+    # 显式 -WordAddInDir 无效必须失败，禁止静默改成“未检测到”
+    $wa = Resolve-WordAddInDir -Override $WordAddInDir -ThrowOnInvalidOverride
     if (-not $wa) {
         W "  未自动检测到 Word 加载项(可选)。" 'Yellow'
         if (-not $Yes) {

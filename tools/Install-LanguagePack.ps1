@@ -47,16 +47,13 @@ if ([string]::IsNullOrEmpty($SourceDir)) { $SourceDir = Join-Path $RepoDir "dist
 $CitaviBin = (Resolve-Path $CitaviBin).Path
 $target = Join-Path $CitaviBin $Culture
 
-# Word 加载项目录:插件自带一套 Citavi 程序集,其 `<dir>\<Culture>` 也需要语言包。
-function Find-WordAddInDir {
-    $cands = @(
-        (Join-Path $env:ProgramFiles 'Microsoft Office\Root\Office16\ADDINS\Citavi Word AddIn'),
-        (Join-Path ${env:ProgramFiles(x86)} 'Microsoft Office\Root\Office16\ADDINS\Citavi Word AddIn')
-    )
-    foreach ($c in $cands) { if ($c -and (Test-Path (Join-Path $c 'SwissAcademic.Citavi.WordAddIn.dll'))) { return (Resolve-Path $c).Path } }
-    return $null
+# Word 加载项目录:与 Setup.exe 共用同一探测契约(tools/lib/Resolve-WordAddInPath.ps1)
+. (Join-Path $PSScriptRoot 'lib/Resolve-WordAddInPath.ps1')
+if ([string]::IsNullOrEmpty($WordAddInDir)) {
+    $WordAddInDir = Resolve-WordAddInDir
+} elseif (-not (Test-IsValidWordAddInDir $WordAddInDir)) {
+    throw "指定的 Word 加载项目录无效(需含 SwissAcademic.Citavi.WordAddIn.dll 且不是 Citavi bin):$WordAddInDir"
 }
-if ([string]::IsNullOrEmpty($WordAddInDir)) { $WordAddInDir = Find-WordAddInDir }
 $waTarget = if ($WordAddInDir) { Join-Path $WordAddInDir $Culture } else { $null }
 
 if (-not (Test-Path (Join-Path $CitaviBin 'SwissAcademic.dll'))) {
