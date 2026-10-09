@@ -12,9 +12,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: 校验译文格式与占位符
+      - name: 校验译文格式、占位符、SmartFormat 与 HTML 标签
         shell: pwsh
-        run: ./tools/Test-Translations.ps1
+        run: ./tools/Test-Translations.ps1 -Strict
 
       - name: 构建语言包
         shell: pwsh

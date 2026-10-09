@@ -114,7 +114,7 @@ pwsh ./tools/Install-LanguagePack.ps1 -CitaviBin "C:\Program Files (x86)\Citavi 
 | 目标语言 | 简体中文(`zh`,菜单显示为「中文」) |
 | 覆盖范围 | 7 个程序集(含 Word 加载项)、52 个资源组、**11,612** 条字符串 + **622** 条「快速帮助」;未翻译条目自动回退英文 |
 | 不修改原程序 | ✅ 仅新增 `bin\zh\` 目录与 `文档\Citavi 6\Custom Help` |
-| 随 Citavi 升级 | 升级后**新增**的词条会显示英文,需重跑同步脚本补译 |
+| Citavi 版本 | 基于 **6.20** 开发;官方已停止更新,不预期再有新增词条 |
 | 动态/联网帮助 | 少数对话框(**按 ID 检索、查找馆藏位置、引文样式**等)运行时**直接联网**取帮助,官方无中文,语言包无法覆盖 → 保持英文(详见 [docs/05](docs/05-language-pack-backlog.md)) |
 
 > 注:语言目录名必须形如 `xx` 或 `xx-XX`,**不能**用 `zh-Hans`,故本项目使用 `zh`。
@@ -127,10 +127,8 @@ pwsh ./tools/Install-LanguagePack.ps1 -CitaviBin "C:\Program Files (x86)\Citavi 
 | **「快速帮助」中文** | 汉化右侧帮助面板(622 个主题,写入 `文档\Citavi 6\Custom Help`) | ✅ |
 | **Word 加载项中文** | 汉化 Word 内的 Citavi 加载项 | ✅ |
 | **安装程序** | Inno Setup 打包的单文件 `Setup.exe`(自动探测/可选组件/卸载项) | ✅ |
-| **中文文献元数据 Add-On** | 解决中文期刊 DOI 查不到元数据的问题 | 📝 [设计稿](docs/04-cn-metadata-addon.md) |
 
-> 中文期刊 DOI(ISTIC/万方注册)在 `doi.org` 上**没有元数据**,Citavi 原生「按 DOI 检索」必然失败;
-> 设计稿分析了根因、数据源与三种实现方案。
+> 本仓库**只做汉化包**(界面 / 快速帮助 / Word 加载项),不含检索、元数据等扩展插件。
 
 ---
 
@@ -250,7 +248,7 @@ git tag v0.103 && git push origin v0.103
 
 相关文档:[01 机制与反编译证据](docs/01-mechanism.md) ·
 [02 路线图](docs/02-roadmap.md) · [03 术语与规范](docs/03-translation-guide.md) ·
-[04 元数据 Add-On 设计稿](docs/04-cn-metadata-addon.md) · [05 待办与缺陷](docs/05-language-pack-backlog.md)
+[05 待办与缺陷](docs/05-language-pack-backlog.md)
 
 ## ⚠️ 免责声明与许可
 
@@ -267,7 +265,6 @@ git tag v0.103 && git push origin v0.103
 ## 🔗 相关
 
 - 官方组织:https://github.com/LUMIVERO
-- Citavi 6 Add-Ons 源码(扩展模型):https://github.com/LUMIVERO/C6-Add-Ons-and-Online-Sources
 
 ## 🙏 致谢
 

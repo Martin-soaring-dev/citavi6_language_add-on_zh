@@ -42,7 +42,7 @@ jobs:
 
       - name: 校验译文
         shell: pwsh
-        run: ./tools/Test-Translations.ps1
+        run: ./tools/Test-Translations.ps1 -Strict
 
       - name: 构建语言包
         shell: pwsh

@@ -1,6 +1,10 @@
 # 实施计划与流水线设计
 
-状态:🟡 **流水线已可用** —— 提取 / 分片 / 合并 / 构建 / 测试 / 打包脚本均已实现;翻译进行中(改用模型按分片翻译)。
+状态:✅ **语言包已发布** —— 提取 / 分片 / 合并 / 构建 / 测试 / 打包 / 安装 / CI 全链路可用;
+界面字符串覆盖约 98.8%(11,476 / 11,612),快速帮助 622 主题已汉化。
+
+> **范围**:本仓库只做汉化包。中文元数据检索等扩展插件**不在本项目内**。
+> **基线**:目标 Citavi 6.x 基于 6.20;**官方已停止更新**,后续以译文打磨与分发稳定性为主。
 
 ---
 
@@ -73,34 +77,32 @@ C:\Program Files (x86)\Citavi 6\bin\zh\
 - 可选 `-Uninstall` 删除目录。
 - 安装后提示:工具 → 语言 → 中文。
 
-### 阶段 5 — 版本同步(后续)
+### 阶段 5 — 版本同步(已搁置)
 
-Citavi 升级后新增字符串需补翻:
-
-```
-Extract-Resources.ps1 -Diff   →  只列出 translations 中缺失的 key
-```
+Citavi 6 **官方已停止更新**,不再预期新增词条;原先规划的
+`Extract-Resources.ps1 -Diff` **不实现**。若将来需要对其他小版本重提取,
+直接重跑 `Extract-Resources.ps1`(会保留已有译文)即可。
 
 ---
 
 ## 待办清单
 
-- [x] `tools/Extract-Resources.ps1` — 实现提取(实测 50 组 / 11,593 条)
+- [x] `tools/Extract-Resources.ps1` — 实现提取
 - [x] `tools/Prepare-TranslationShards.ps1` — 分片
 - [x] `tools/Merge-TranslationShards.ps1` — 合并回填
 - [x] `tools/Build-LanguagePack.ps1` — 实现构建(输出 7 个附属程序集)
-- [x] `tools/Test-Translations.ps1` — 译文格式/占位符校验
+- [x] `tools/Test-Translations.ps1` — 译文格式/占位符/转义/RTF 校验
 - [x] `tools/Test-LanguagePack.ps1` — 不启动 Citavi 的解析验证
 - [x] `tools/Install-LanguagePack.ps1` — 实现安装/卸载
 - [x] `tools/Package-Release.ps1` — 生成分发 zip
 - [x] `tools/Setup-TranslateMcp.ps1` + `tools/mcp_translate.py` — 接入 MCP 翻译服务(备用)
-- [x] `translations/` — 生成英文源文件骨架
-- [ ] 用模型完成全量翻译(8,078 条唯一原文,分片进行中)
-- [ ] 人工校对(术语、占位符、长度)
-- [ ] 在真实 Citavi 中端到端验证(语言菜单出现「中文」)
-- [x] CI:校验 TSV 格式、占位符一致、构建产物、打包 zip(Artifact)
-- [x] 自动发布:在 GitHub 上发布 Release 时自动构建并附加 zip(也支持推送 `v*` 标签)
-- [ ] Citavi 升级后的词条 diff 流程
+- [x] `translations/` — 英文源 + 中文译文(52 组 / 11,612 条)
+- [x] 全量翻译 + 语境校对(覆盖约 98.8%;未译 136 条为设计上不译)
+- [x] 在真实 Citavi 中端到端验证(语言菜单「中文」、切换、重启保持、切回英文)
+- [x] CI:校验 TSV / 占位符 / 转义,构建 7 个附属程序集,打包 zip(Artifact)
+- [x] 自动发布:Release / `v*` 标签 → 自动构建并附加 ZIP + Setup.exe
+- [x] CI 启用 `-Strict`,并补 SmartFormat / HTML 标签结构校验
+- [ ] 译文持续润色(术语与措辞,非阻塞)
 
 ## 已实现的脚本行为
 
@@ -130,22 +132,15 @@ Extract-Resources.ps1 -Diff   →  只列出 translations 中缺失的 key
 
 | 风险 | 说明 | 缓解 |
 |---|---|---|
-| 词条量大(≈11.7k) | 全量翻译工作量大 | 分批、优先高可见部分;英文回退保证可用 |
-| Citavi 升级 | 新增/改动词条 | 版本同步脚本 + 定期 diff |
+| 词条量大(≈11.7k) | 全量翻译工作量大 | 已完成主界面覆盖;英文回退保证可用 |
+| Citavi 官方停更 | 不再新增词条,但安装器路径仍需兼容 | 以 6.20 为基线;不实现升级 diff |
 | 长文本/富文本 | 含 HTML、`{0}` 占位符 | 翻译规范强制保留占位符;CI 校验 |
 | 版式溢出 | 中文较短一般无碍,个别按钮可能变长 | 抽查截图 |
 | 版权 | 不得分发 Citavi 原始二进制 | `.gitignore` 排除 `reference/`;仅提交译文 |
+| 动态/联网帮助 | 少数对话框正文来自官方服务 | 无法本地覆盖,文档中如实说明 |
 
 ---
 
-## 第二阶段:中文文献元数据 Add-On
+## 项目边界
 
-语言包(v0.1)完成后,下一阶段做"中文期刊 DOI 查不到元数据"的问题,详见 **[04-cn-metadata-addon.md](04-cn-metadata-addon.md)**。
-
-- [x] M1 调研扩展机制(**已完成**):内置 DOI 检索硬编码(PubMed→CrossRef→DataCite);但 `IFetcher`/`Importer`/`FetcherFactory`/`Transformer` 均为 public 可复用;`.CitaviTX`(XML,可内嵌运行时编译的 C#)会被自动加载;Add-On 已用 Roslyn `csc` 编译验证通过
-- [ ] M1b 搭 Add-On 骨架 + 「文献条目」菜单命令 + 预览对话框(空实现)
-- [ ] M2 方案 B:中文 DOI 结构解析(ISSN/年/期)+ 本地 ISSN→刊名表
-- [ ] M3 方案 C:OpenAlex / Crossref 按标题回查
-- [ ] M4 方案 A:WebView2 渲染抓取(万方 / 期刊官网)
-- [ ] M5 批量检索 + 进度/取消 + 缓存 + 日志
-- [ ] M6 Toolkit 打包(语言包 + Add-On 同一发布包)与文档
+本仓库**专注汉化包**。检索、元数据补全等扩展能力属独立产品线,**不在此实现、不在此分发**。

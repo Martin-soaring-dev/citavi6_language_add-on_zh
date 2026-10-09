@@ -11,7 +11,7 @@
 | `mcp_translate.py` | (备用)通过 MCP `translate-mcp-server` 批量翻译 |
 | `Setup-TranslateMcp.ps1` | 安装/启动本地 `translate-mcp-server`(含两处必要补丁) |
 | `Build-LanguagePack.ps1` | `translations/*.tsv` → `.resources` → `csc` 编译 → `dist/zh/` |
-| `Test-Translations.ps1` | 校验 TSV 格式与占位符一致性 |
+| `Test-Translations.ps1` | 校验 TSV 格式、占位符、SmartFormat 分支、HTML 标签、RTF/转义(CI 用 `-Strict`) |
 | `Test-LanguagePack.ps1` | 不启动 Citavi,验证语言包能被 .NET 正确解析 |
 | `Install-LanguagePack.ps1` | 把 `dist/zh/` 复制到 Citavi `bin\`(可卸载) |
 | `Install-Gui.ps1` | WinForms 图形安装器;读取 `assets\setup.ico` + `assets\logo-symbol.png` 作窗体图标与头部徽标 |

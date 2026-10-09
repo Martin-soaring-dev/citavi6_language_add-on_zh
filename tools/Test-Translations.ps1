@@ -7,9 +7,10 @@
     逐文件检查:
       - 每行必须是 3 列(Tab 分隔),key 非空且在同一资源组内唯一;
       - 有译文的条目,`{0}`/`{1}` 等占位符集合必须与英文一致;
+      - SmartFormat 条件 `{n:…|…}`:起点 `{n:` 多重集与分支 `|` 数量须与英文一致;
+      - HTML 标签(白名单)名称多重集须与英文一致(不把 `<Project name>` 之类伪标签算作 HTML);
       - RTF 条目反转义后必须以 `{\rtf` 开头(防止 `\\` 被误写成 `\` 而损坏);
-      - 反斜杠转义规范:字面反斜杠须写成 `\\`;
-      - 译文不应为空串以外的异常(如全角化后的占位符)。
+      - 反斜杠转义规范:字面反斜杠须写成 `\\`。
     退出码:0 全部通过;1 存在错误。
 
 .PARAMETER Strict
@@ -32,6 +33,19 @@ if ([string]::IsNullOrEmpty($TranslationsDir)) { $TranslationsDir = Join-Path $R
 
 $phRegex = '\{[0-9]+\}'
 function Get-Ph([string]$s) { (($phRegex | ForEach-Object { [regex]::Matches([string]$s, $_) } | ForEach-Object { $_.Value }) | Sort-Object) -join ',' }
+
+function Get-SmartStarts([string]$s) {
+    @([regex]::Matches($s, '\{[0-9]+:') | ForEach-Object { $_.Value } | Sort-Object) -join ','
+}
+
+# 只认常见 HTML 标签,避免把 <Project name> / <not given> 之类伪标签算进来
+$htmlTagPattern = '</?(?:a|abbr|b|blockquote|br|code|dd|div|dl|dt|em|font|h1|h2|h3|h4|h5|h6|hr|i|img|li|ol|p|pre|small|span|strong|sub|sup|table|tbody|td|tfoot|th|thead|tr|u|ul)(?=[\s/>])'
+function Get-HtmlTags([string]$s) {
+    @([regex]::Matches($s, $htmlTagPattern) | ForEach-Object {
+        if ($_.Value.StartsWith('</')) { '/' + $_.Value.Substring(2).TrimEnd('>', '/').Trim() }
+        else { $_.Value.Substring(1).TrimEnd('>', '/').Trim() -replace '\s.*$', '' }
+    } | ForEach-Object { $_.ToLowerInvariant() } | Sort-Object) -join ','
+}
 
 # 奇数长度的反斜杠串后面不是 r/n/t(或到串尾) => 该反斜杠未按规范写成 \\,反转义会引入非法控制符
 $escapeBad = '(?<!\\)\\(?:\\\\)*(?:[^\\rnt]|$)'
@@ -82,6 +96,27 @@ foreach ($f in (Get-ChildItem $TranslationsDir -Recurse -Filter *.tsv | Sort-Obj
         if ((Get-Ph $en) -ne (Get-Ph $zh)) {
             $errors.Add("${rel}:$lineNo 占位符不一致 [$($p[0])]")
         }
+
+        $enSmart = Get-SmartStarts $en
+        $zhSmart = Get-SmartStarts $zh
+        if ($enSmart -or $zhSmart) {
+            if ($enSmart -ne $zhSmart) {
+                $errors.Add("${rel}:$lineNo SmartFormat 条件起点不一致 [$($p[0])] EN={$enSmart} ZH={$zhSmart}")
+            } else {
+                $enPipe = ([regex]::Matches($en, '\|')).Count
+                $zhPipe = ([regex]::Matches($zh, '\|')).Count
+                if ($enPipe -ne $zhPipe) {
+                    $errors.Add("${rel}:$lineNo SmartFormat 分支 | 数量不一致(EN=$enPipe ZH=$zhPipe) [$($p[0])]")
+                }
+            }
+        }
+
+        $enHtml = Get-HtmlTags $en
+        $zhHtml = Get-HtmlTags $zh
+        if (($enHtml -or $zhHtml) -and ($enHtml -ne $zhHtml)) {
+            $errors.Add("${rel}:$lineNo HTML 标签不一致 [$($p[0])] EN={$enHtml} ZH={$zhHtml}")
+        }
+
         if ($zh -match $escapeBad) {
             $warnings.Add("${rel}:$lineNo 非规范反斜杠转义(字面反斜杠应写成 \\ ) [$($p[0])]")
         }
@@ -91,9 +126,6 @@ foreach ($f in (Get-ChildItem $TranslationsDir -Recurse -Filter *.tsv | Sort-Obj
                 $head = if ($zhU.Length -gt 8) { $zhU.Substring(0, 8) } else { $zhU }
                 $errors.Add("${rel}:$lineNo RTF 转义损坏:反转义后应以 {\rtf 开头,实际 '$head' [$($p[0])]")
             }
-        }
-        if ($p[1] -match '^\s' -or $p[1] -match '\s$') {
-            if ((($zh -replace '^\s+','') -replace '\s+$','') -ne $zh) { } # 忽略
         }
     }
 }

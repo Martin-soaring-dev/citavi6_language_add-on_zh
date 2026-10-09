@@ -2,24 +2,20 @@
 
 存放本项目的中文译文。由 `tools/Extract-Resources.ps1` 从 Citavi 提取英文源后生成,人工/机翻结果保存在这里。
 
-## 结构(计划)
+## 结构
 
 ```
 translations/
-├─ SwissAcademic.Resources/
-│  ├─ Strings.tsv
-│  ├─ ControlTexts.tsv
-│  ├─ Tools.tsv
-│  ├─ Enums.tsv
-│  ├─ WebLabels.tsv
-│  ├─ ReferenceTypeLabels.tsv
-│  ├─ StyleEditor.tsv
-│  └─ ... (其余资源组)
-├─ SwissAcademic.Controls/
-├─ SwissAcademic.Citavi/
-├─ SwissAcademic/
-└─ SwissAcademic.WordProcessing/
+├─ Citavi/                              (18 组)
+├─ SwissAcademic/                       (1 组)
+├─ SwissAcademic.Citavi/                (3 组)
+├─ SwissAcademic.Citavi.WordAddIn/      (2 组)
+├─ SwissAcademic.Controls/              (1 组)
+├─ SwissAcademic.Resources/             (26 组,界面主体)
+└─ SwissAcademic.WordProcessing/        (1 组)
 ```
+
+共 **52** 个 TSV / **11,612** 条词条;覆盖约 **98.8%**(未译条目为设计上不译,运行时回退英文)。
 
 ## 格式
 
@@ -34,4 +30,4 @@ key<TAB>English<TAB>中文
 
 详见 [../docs/03-translation-guide.md](../docs/03-translation-guide.md)。
 
-> 当前为空骨架。生成英文源文件需要本机安装 Citavi 6(见 `tools/Extract-Resources.ps1`)。
+> 重新提取需要本机安装 Citavi 6(见 `tools/Extract-Resources.ps1`);会保留已有中文列。

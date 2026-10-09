@@ -23,7 +23,7 @@
 2. 英文描述：**Chinese Language Pack**
 3. GitHub 仓库标识：`citavi6_language_add-on_zh`
 
-英文描述刻意采用 **Chinese Language Pack**，与项目目前已经实现的本地化功能保持一致。未来如果中文元数据等 Add-On 成为正式可用模块，可以在功能介绍中扩展为 `Chinese Language Pack & Add-ons`，不必修改图形标识。
+英文描述刻意采用 **Chinese Language Pack**，与项目范围保持一致：本仓库只做汉化包，不含检索、元数据等扩展插件。
 
 > **独立性声明：** 本项目并非 Citavi 开发方运营或背书。图形为本项目独立制作，不得将其用作 Citavi 官方产品标志，页面显著位置应保留社区项目说明。Citavi 名称及相关商标归各自权利人所有。
 

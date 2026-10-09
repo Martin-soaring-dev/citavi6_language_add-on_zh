@@ -9,7 +9,7 @@
        (中文为空的 key 省略 -> 运行时自动回退英文)。
     3. 还原 reference/nonstring/ 下的非字符串条目。
     4. 生成 AssemblyInfo.cs(AssemblyVersion + AssemblyCulture)。
-    5. 用 csc.exe 编译出 6 个 <Assembly>.resources.dll 到 dist/<Culture>/。
+    5. 用 csc.exe 编译出 7 个 <Assembly>.resources.dll 到 dist/<Culture>/。
 
     版本号取自 reference/manifest.json(由 Extract 生成),缺失时使用内置表。
 

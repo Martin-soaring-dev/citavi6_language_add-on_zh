@@ -1,8 +1,8 @@
 # 语言包待办与缺陷清单(Backlog)
 
-> 分支:`v0.102`(基于 `origin/main`)。
-> 本文档只针对 **语言包**;Add-On 见 [04-cn-metadata-addon.md](04-cn-metadata-addon.md)。
-> 基线:v0.101 已发布;50 组 / 11,593 词条,已译 11,457(98.8%)。
+> 基线:v0.103 已发布;52 组 / 11,612 词条,已译 11,476(约 98.8%)。
+> 本文档只针对 **语言包**;扩展插件不在本仓库范围内。
+> Citavi 6 **官方已停止更新**,不再规划词条同步 / diff 流程。
 
 ## 0. 说明
 
@@ -119,13 +119,10 @@
 
 ## P3 — 验证与工程化
 
-- [ ] **真实 Citavi 端到端验证**(核心):用本机已提取的 Citavi 6(见
-      `%LOCALAPPDATA%\citavi6\extracted\program files\Citavi 6\bin`)安装 `dist/zh/`,
-      确认语言菜单出现「中文」并可切换、重启后保持、切回英文正常。
-      验证清单见 [02-roadmap.md](02-roadmap.md) 的「验证清单」。
-- [ ] CI 增加对 [tools/Test-Translations.ps1](../tools/Test-Translations.ps1) 的 `-Strict` 调用
-      (或把 P0-2 的新断言并入)。
-- [ ] Citavi 升级后的**词条 diff 流程**:`Extract-Resources.ps1 -Diff` 只列缺失 key 并补译。
+- [x] **真实 Citavi 端到端验证**(核心):语言菜单出现「中文」、可切换、重启后保持、切回英文正常。
+- [x] CI 对 [tools/Test-Translations.ps1](../tools/Test-Translations.ps1) 使用 `-Strict`,
+      并校验 **SmartFormat 分支结构** 与 **HTML 标签集合**(白名单,忽略 `<Project name>` 之类伪标签)。
+- [x] ~~Citavi 升级后的词条 diff 流程~~ —— **不做**:官方已停止更新,无新增词条预期。
 - [ ] 发布命名规范化:现有标签为 `v0.100` / `v0.101`,建议统一为 `v0.1.x`(需另议,避免重发)。
 
 ---
