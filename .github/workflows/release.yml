@@ -34,6 +34,112 @@ jobs:
         shell: pwsh
         run: |
           $tag = "$env:RELEASE_TAG"
+          if ($tag -notmatch '^v\d+\.\d+([.-][0-9A-Za-z.-]+)?          "TAG     = $tag"
+          "VERSION = $version"
+          "TAG=$tag"         >> $env:GITHUB_ENV
+          "VERSION=$version" >> $env:GITHUB_ENV
+
+      - name: 校验译文
+        shell: pwsh
+        run: ./tools/Test-Translations.ps1 -Strict
+
+      - name: 构建语言包
+        shell: pwsh
+        run: ./tools/Build-LanguagePack.ps1
+
+      - name: 打包 zip(版本来自 tag)
+        shell: pwsh
+        run: ./tools/Package-Release.ps1 -Version $env:VERSION -SkipBuild
+
+      - name: 安装 Inno Setup
+        shell: pwsh
+        run: choco install innosetup --no-progress -y
+
+      - name: 构建安装程序(Setup.exe)
+        shell: pwsh
+        run: ./tools/Build-Installer.ps1 -Version $env:VERSION -SkipBuild
+
+      - name: 校验发布资产并生成 SHA-256
+        shell: pwsh
+        run: ./tools/Test-ReleaseAssets.ps1 -Version $env:VERSION
+
+      - name: 把 ZIP / Setup.exe 附到 Release
+        if: startsWith(github.ref, 'refs/tags/') || github.event_name == 'release'
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $repo = "${{ github.repository }}"
+          $tag  = $env:TAG
+          Write-Host "Release: $tag"
+
+          $assets = @(
+            (Join-Path $PWD "dist/citavi6-zh-v$env:VERSION.zip"),
+            (Join-Path $PWD "dist/Citavi6-zh-Setup-v$env:VERSION.exe"),
+            (Join-Path $PWD "dist/SHA256SUMS-v$env:VERSION.txt")
+          )
+          foreach ($path in $assets) {
+            if (-not (Test-Path -LiteralPath $path -PathType Leaf) -or (Get-Item -LiteralPath $path).Length -le 0) {
+              throw "发布资产缺失或为空: $path"
+            }
+          }
+          Write-Host ("Assets: " + ($assets -join ', '))
+
+          $headers = @{
+            Authorization = "Bearer $env:GH_TOKEN"
+            'User-Agent'  = 'github-actions'
+            Accept        = 'application/vnd.github+json'
+          }
+
+          # 取 Release(不存在则创建)
+          $release = $null
+          try { $release = Invoke-RestMethod -Uri "https://api.github.com/repos/$repo/releases/tags/$tag" -Headers $headers } catch { $release = $null }
+          if (-not $release) {
+            $notes = @(
+              "Citavi 6 简体中文语言包 $tag(自动构建)。",
+              "",
+              "提供两种安装方式:",
+              "1) Citavi6-zh-Setup-*.exe(推荐):双击安装,自动探测 Citavi/Word/快速帮助目录,带卸载项。",
+              "2) citavi6-zh-*.zip(脚本):解压后双击 安装.vbs。",
+              "",
+              "安装后在 Citavi 中打开「工具 → 语言 → 选择「中文」」;快速帮助会自动写入 文档\Citavi 6\Custom Help。",
+              "卸载:删除 zh 文件夹并切回其他语言,或用安装程序的卸载项。未翻译的条目会显示英文原文。详见仓库 README。"
+            ) -join "`n"
+            $body = @{ tag_name = $tag; name = "Citavi 6 中文语言包 $tag"; body = $notes; draft = $false; prerelease = $false } | ConvertTo-Json
+            $release = Invoke-RestMethod -Uri "https://api.github.com/repos/$repo/releases" -Method Post -Headers $headers -ContentType 'application/json; charset=utf-8' -Body $body
+            Write-Host "创建 Release: $($release.html_url)"
+          }
+
+          # 先删除同名旧资产(便于对已有 Release 重跑 / 更新安装程序)
+          $existing = @()
+          try { $existing = Invoke-RestMethod -Uri "https://api.github.com/repos/$repo/releases/$($release.id)/assets" -Headers $headers } catch { $existing = @() }
+          foreach ($path in $assets) {
+            $name = [IO.Path]::GetFileName($path)
+            foreach ($a in $existing) {
+              if ($a.name -eq $name) {
+                Invoke-RestMethod -Uri "https://api.github.com/repos/$repo/releases/assets/$($a.id)" -Method Delete -Headers $headers | Out-Null
+                Write-Host "删除旧资产: $name"
+              }
+            }
+          }
+
+          # 上传资产(用 release id 手写 uploads URL,避免模板占位符解析问题)
+          foreach ($path in $assets) {
+            $name = [IO.Path]::GetFileName($path)
+            $uri  = "https://uploads.github.com/repos/$repo/releases/$($release.id)/assets?name=$([uri]::EscapeDataString($name))"
+            $r = Invoke-RestMethod -Uri $uri -Method Post -Headers $headers -ContentType 'application/octet-stream' -InFile $path
+            Write-Host ("上传: {0} ({1:N2} MB)" -f $r.name, ($r.size / 1MB))
+          }
+
+      - name: 上传 zip 构件
+        uses: actions/upload-artifact@v4
+        with:
+          name: citavi6-zh-language-pack
+          path: dist/citavi6-zh-*.zip
+          if-no-files-found: error) {
+            throw "发布必须使用形如 v0.104 的版本标签；当前值: $tag"
+          }
           $version = $tag -replace '^v',''
           "TAG     = $tag"
           "VERSION = $version"
