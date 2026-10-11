@@ -28,7 +28,7 @@ UseHere	Use here	在此使用
 VoucherCode	Voucher code	优惠券代码
 ResetPassword	Reset password	重置密码
 ConfirmMembershipShibboleth	<a id="confirmThroughShibboleth">Log in to your Citavi account again here</a>	<a id="confirmThroughShibboleth">在此重新登录您的 Citavi 账户</a>
-SetPassword	Choose a password	选择密码
+SetPassword	Choose a password	设置密码
 EmailConfirmedMobile	Your registration is complete. You can now log in to the Citavi Mobile App with your user name and password.	您的注册已完成。现在您可以使用用户名和密码登录 Citavi 移动应用。
 Upgrade	Upgrade	升级
 MergeAccountsCancel	Cancel	取消
