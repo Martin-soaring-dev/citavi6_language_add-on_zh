@@ -40,7 +40,7 @@ jobs:
       - name: 打包 zip
         shell: pwsh
         run: |
-          $v = if ($env:GITHUB_REF_TYPE -eq 'tag') { $env:GITHUB_REF_NAME -replace '^v','' } else { '0.0.0-ci' }
+          $v = if ($env:GITHUB_REF_TYPE -eq 'tag') { $env:GITHUB_REF_NAME -replace '^v','' } else { '0.0.0' }
           "VERSION=$v" >> $env:GITHUB_ENV
           ./tools/Package-Release.ps1 -Version $v -SkipBuild
 
