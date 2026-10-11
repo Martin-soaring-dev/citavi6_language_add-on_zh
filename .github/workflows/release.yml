@@ -53,12 +53,10 @@ jobs:
         run: ./tools/Package-Release.ps1 -Version $env:VERSION -SkipBuild
 
       - name: 安装 Inno Setup
-        continue-on-error: true
         shell: pwsh
         run: choco install innosetup --no-progress -y
 
       - name: 构建安装程序(Setup.exe)
-        continue-on-error: true
         shell: pwsh
         run: ./tools/Build-Installer.ps1 -Version $env:VERSION -SkipBuild
 
