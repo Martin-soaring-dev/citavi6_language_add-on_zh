@@ -25,7 +25,7 @@ VirtualSearchFieldType_StandardAbbreviation	Abbreviation 1 (Series and Periodica
 Z3950ExceptionType_ConnectionInitRejected	Login failed	登录失败
 ImportFieldType_CreatedBy	Created	创建时间
 ShowMainIndexNumbersInMultipleCitation_Always	Always, e.g. [1a, 1b] or [1a, 1b, 2a-2c]	始终，例如 [1a, 1b] 或 [1a, 1b, 2a-2c]
-ImportReferenceType_ContributionInBookEdited	Contribution	贡献
+ImportReferenceType_ContributionInBookEdited	Contribution	篇章
 StyleFinderFullReferenceBookTitleFormat_Neutral	Plain	纯文本
 KnownTaskName_Read	Read	阅读
 CitationStyleAnalysis_BibliographyBookAuthorsEnumeration		
@@ -624,7 +624,7 @@ ImportFieldType_PeriodicalNotes	{0}: Notes	{0}：笔记
 ConcentrationArea_MathematicsAndComputerScience	Mathematics and Computer Science	数学与计算机科学
 ImportFieldType_PeriodicalEIssn	{0}: eISSN	{0}：eISSN
 CitationStyleSortOption_Custom	Custom	自定义
-ImportReferenceType_Lecture	Presentation	演示文稿
+ImportReferenceType_Lecture	Presentation	报告
 OrganizationNameOrder_NameOnly	Full name only ("United Nations")	仅全名（"United Nations"）
 StyleFinderRepeatingConsecutiveFootnoteCitation_Indifferent	Any	任意
 ImportFieldType_ParentReferenceTitle	Parent reference: Title	父级文献：标题

@@ -694,7 +694,7 @@ ImportGroup_OnlineSearch_ToolTipText	Double-click to display the online search d
 OutOfMemoryClrException	Your computer's memory is full. Citavi will try to save the open project and will then close automatically. \r\nIf this error occurs frequently, please contact Citavi support for assistance: www.citavi.com/service.	您的计算机内存已满。Citavi 将尝试保存打开的项目，然后自动关闭。\r\n如果此错误频繁出现，请联系 Citavi 支持以获取帮助：www.citavi.com/service。
 RenameFile_Description	Select the files to rename:	选择要重命名的文件：
 ReferencePropertyIdGroup_TitleData	Bibliographic information	书目信息
-CRM_Email_AccountCreatedViaProcessOrderMailBilling_Business_button	Choose a password	选择密码
+CRM_Email_AccountCreatedViaProcessOrderMailBilling_Business_button	Choose a password	设置密码
 BiblioscapeReferenceParentCategoryName	Subject areas of Biblioscape references, {0}	Biblioscape 文献的主题领域，{0}
 ReferenceDataCompletion_InvalidIsbn	The ISBN field does not contain a valid ISBN number.\r\nWith a valid ISBN, you can import bibliographic information from selected information providers automatically. (Set in Tools > Options > Online search).	ISBN 字段不包含有效的 ISBN 编号。\r\n有了有效的 ISBN，您可以自动从所选信息提供商导入书目信息。（在“工具”>“选项”>“在线搜索”中设置）。
 ImportWizard_tabularDefinitionDelimiterCommaRadioButton	Comma	逗号
@@ -1688,9 +1688,9 @@ PlaceholdersFeatureDisallowedMessage	Due to patent regulations, this feature is 
 DuplicateLibraryInfo	The library "{0}" already exists. How do you want to proceed?	该库 "{0}" 已存在。您要如何继续？
 SearchFieldDropDownForm_InfoLabel	Search inside the following fields:	在以下字段中搜索：
 ImportSettingHelpContext_Port	Port:	端口：
-CRM_Email_AccountCreatedViaProcessOrderMailBilling_DbServer_button	Choose a password	选择密码
+CRM_Email_AccountCreatedViaProcessOrderMailBilling_DbServer_button	Choose a password	设置密码
 RepairIntegrity_KnowledgeItemCategory_CategoryNull	{0} links between knowledge items and categories were removed because the link to the category was empty.	由于指向分类的链接为空，已移除 {0} 个知识条目与分类之间的链接。
-ElectronicAddressInfo_Remote_LocationLabel_withDomain	Online at {0}	在线于 {0}
+ElectronicAddressInfo_Remote_LocationLabel_withDomain	Online at {0}	在线位置：{0}
 CRM_Email_CampusContractExtensionLicensfileExportData_second_paragraph	To learn more about creating settings files, please see the Citavi Manual.	要了解有关创建设置文件的更多信息，请参阅 Citavi 手册。
 ListOutputOptions_includeItemsGroupBox	Select the items to output:	选择要输出的项：
 AddQuotationFromWindowsPreviewFailed	Citavi was unable to extract a quotation from the preview. Right-click the preview and see if the Copy command is available. If so, copy the quotation by hand using the Clipboard.	Citavi 无法从预览中提取引文。请右键单击预览，查看是否有“复制”命令。如果有，请使用剪贴板手动复制引文。
@@ -2251,7 +2251,7 @@ StartScreenLicenseKey	License {0}	许可证 {0}
 SettingsSavedSuccessfully	Settings saved.	设置已保存。
 CRM_Email_ConfirmEmailAddressMailWithSignature_subject	Please confirm your email address	请确认您的电子邮件地址
 RepairIntegrity_UserMessage_FileReadOnly	Data inconsistencies in your project "{0}" are preventing Citavi from loading correctly. Citavi can try to repair these inconsistencies. However, the project is currently read-only.\r\n\r\nPlease remove the write protection and reopen the project to start the automatic repair.	项目"{0}"中的数据不一致导致 Citavi 无法正确加载。Citavi 可以尝试修复这些不一致。但该项目当前为只读。\r\n\r\n请移除写保护并重新打开项目，以启动自动修复。
-CRM_Email_AccountCreatedViaProcessOrderMailBilling_Home_button	Choose a password	选择密码
+CRM_Email_AccountCreatedViaProcessOrderMailBilling_Home_button	Choose a password	设置密码
 RepairIntegrity_SeriesTitleEditor_PersonOrphaned	{0} links between series and editors were removed because the editor does not exist.	由于编者不存在，已移除 {0} 个丛书与编者之间的链接。
 CantMoveItemsInTheSameProject	Items cannot be copied within the same project.	无法在同一项目内复制条目。
 FindLicensedDatabases_NotFound	No subscribed databases were found.	未找到已订阅的数据库。

@@ -710,7 +710,7 @@ issnLabel	ISSN:	ISSN：
 ImportFieldMappingEditor_citaviFieldLabel	Field in Citavi:	Citavi 中的字段：
 BibliographyGroupingEditor_CategoryAll_None	References without a category	不含分类的文献
 StartPage	Homepage	主页
-Tabs_Knowledge_NoCoreStatement	[No core statement]	[无核心论点]
+Tabs_Knowledge_NoCoreStatement	[No core statement]	[无核心陈述]
 ActivateOfflineModeDialog_titleLabel	Go offline	离线
 ReferenceTypeSelectionDialog_currentReferenceTypeLabel	Current	当前
 BibliographyGroupingForm_AllReferenceProperty	All entries in this field with their references	此字段中所有条目及其文献
@@ -1667,7 +1667,7 @@ FontStyleEditorControl_allCapsCheckBox	All caps	全部大写
 SearchForm_extendedSearchMatchCaseCheckBox	A = a	A = a
 KeyItemConfigurationDialog_uppercaseCheckBox	All caps	全部大写
 ParagraphFormatDialog_alignmentLabel	Alignment:	对齐方式：
-KnowledgeItem_NoCoreStatement	[No core statement]	[无核心论点]
+KnowledgeItem_NoCoreStatement	[No core statement]	[无核心陈述]
 KnowledgeItemCoreStatementDialog_autoRadioButton_Text	The core statement generated automatically:	自动生成的核心陈述：
 CriteriaRating_WithoutWrittenEvaluation	Without written evaluation	无书面评价
 BibliographyGroupingForm_AllPeriodicals	All periodicals with their references	所有期刊及其文献

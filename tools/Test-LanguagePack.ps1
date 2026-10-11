@@ -59,6 +59,32 @@ try {
         @{ Set = 'SwissAcademic.Resources.Tools';              Key = 'MainForm_PreviewShowNotes';    Expect = '笔记' }
     )
 
+    # 从翻译源中动态选取一个英文原文非空、中文为空的资源键，
+    # 确保英文回退测试真实执行，而不是仅保留一个永远不会触发的空分支。
+    $translationDir = Join-Path $RepoDir 'translations\SwissAcademic.Resources'
+    $fallbackCase = $null
+    foreach ($tsv in (Get-ChildItem $translationDir -Filter '*.tsv' | Sort-Object Name)) {
+        foreach ($line in [System.IO.File]::ReadAllLines($tsv.FullName)) {
+            if ([string]::IsNullOrEmpty($line)) { continue }
+            $parts = $line.Split([char]9)
+            if ($parts.Length -eq 3 -and -not [string]::IsNullOrWhiteSpace($parts[0]) -and
+                -not [string]::IsNullOrWhiteSpace($parts[1]) -and [string]::IsNullOrEmpty($parts[2])) {
+                $fallbackCase = @{
+                    Set = $tsv.BaseName
+                    Key = $parts[0]
+                    Expect = $null
+                }
+                break
+            }
+        }
+        if ($null -ne $fallbackCase) { break }
+    }
+    if ($null -eq $fallbackCase) {
+        throw "找不到可用于英文回退测试的未翻译词条: $translationDir"
+    }
+    $cases += $fallbackCase
+    Write-Host ("英文回退测试键: {0}.{1}" -f $fallbackCase.Set, $fallbackCase.Key)
+
     $fail = 0
     foreach ($c in $cases) {
         $rm = New-Object System.Resources.ResourceManager($c.Set, $asm)

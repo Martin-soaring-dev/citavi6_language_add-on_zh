@@ -16,6 +16,14 @@ jobs:
         shell: pwsh
         run: ./tools/Test-Translations.ps1 -Strict
 
+      - name: 术语一致性审查(报告模式)
+        shell: pwsh
+        run: ./tools/Test-TranslationTerms.ps1
+
+      - name: Word 加载项路径探测契约回归测试(隔离样例)
+        shell: pwsh
+        run: ./tools/Test-WordAddInPath-Fixtures.ps1
+
       - name: 构建语言包
         shell: pwsh
         run: ./tools/Build-LanguagePack.ps1
@@ -32,12 +40,28 @@ jobs:
       - name: 打包 zip
         shell: pwsh
         run: |
-          $v = if ($env:GITHUB_REF_TYPE -eq 'tag') { $env:GITHUB_REF_NAME -replace '^v','' } else { 'dev' }
+          $v = if ($env:GITHUB_REF_TYPE -eq 'tag') { $env:GITHUB_REF_NAME -replace '^v','' } else { '0.0.0' }
+          "VERSION=$v" >> $env:GITHUB_ENV
           ./tools/Package-Release.ps1 -Version $v -SkipBuild
 
-      - name: 上传 zip 构件
+      - name: 安装 Inno Setup
+        shell: pwsh
+        run: choco install innosetup --no-progress -y
+
+      - name: 构建安装程序
+        shell: pwsh
+        run: ./tools/Build-Installer.ps1 -Version $env:VERSION -SkipBuild
+
+      - name: 校验发布资产并生成 SHA-256
+        shell: pwsh
+        run: ./tools/Test-ReleaseAssets.ps1 -Version $env:VERSION
+
+      - name: 上传语言包构件
         uses: actions/upload-artifact@v4
         with:
-          name: citavi6-zh-language-pack
-          path: dist/citavi6-zh-*.zip
+          name: citavi6-zh-release-assets
+          path: |
+            dist/citavi6-zh-*.zip
+            dist/Citavi6-zh-Setup-*.exe
+            dist/SHA256SUMS-*.txt
           if-no-files-found: error
