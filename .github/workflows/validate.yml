@@ -16,6 +16,10 @@ jobs:
         shell: pwsh
         run: ./tools/Test-Translations.ps1 -Strict
 
+      - name: 术语一致性审查(报告模式)
+        shell: pwsh
+        run: ./tools/Test-TranslationTerms.ps1
+
       - name: Word 加载项路径探测契约回归测试(隔离样例)
         shell: pwsh
         run: ./tools/Test-WordAddInPath-Fixtures.ps1
