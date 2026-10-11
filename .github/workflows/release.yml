@@ -7,6 +7,14 @@ on:
   push:
     tags:
       - "v*"
+  # Allows rebuilding an already-created tag/release after fixing the workflow.
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: "Existing release tag to build, e.g. v0.105-beta.1"
+        required: true
+        default: "v0.105-beta.1"
+        type: string
 
 permissions:
   contents: write
@@ -16,7 +24,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  RELEASE_TAG: ${{ github.event.release.tag_name || github.ref_name }}
+  RELEASE_TAG: ${{ github.event.release.tag_name || inputs.release_tag || github.ref_name }}
 
 jobs:
   build-and-attach:
