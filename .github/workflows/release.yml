@@ -60,6 +60,10 @@ jobs:
         shell: pwsh
         run: ./tools/Build-Installer.ps1 -Version $env:VERSION -SkipBuild
 
+      - name: 校验发布资产并生成 SHA-256
+        shell: pwsh
+        run: ./tools/Test-ReleaseAssets.ps1 -Version $env:VERSION
+
       - name: 把 ZIP / Setup.exe 附到 Release
         if: startsWith(github.ref, 'refs/tags/') || github.event_name == 'release'
         shell: pwsh
@@ -71,10 +75,16 @@ jobs:
           $tag  = $env:TAG
           Write-Host "Release: $tag"
 
-          $assets = @()
-          $assets += (Get-ChildItem dist/citavi6-zh-*.zip | Select-Object -First 1).FullName
-          $setup = Get-ChildItem dist/Citavi6-zh-Setup-*.exe -ErrorAction SilentlyContinue | Select-Object -First 1
-          if ($setup) { $assets += $setup.FullName }
+          $assets = @(
+            (Join-Path $PWD "dist/citavi6-zh-v$env:VERSION.zip"),
+            (Join-Path $PWD "dist/Citavi6-zh-Setup-v$env:VERSION.exe"),
+            (Join-Path $PWD "dist/SHA256SUMS-v$env:VERSION.txt")
+          )
+          foreach ($path in $assets) {
+            if (-not (Test-Path -LiteralPath $path -PathType Leaf) -or (Get-Item -LiteralPath $path).Length -le 0) {
+              throw "发布资产缺失或为空: $path"
+            }
+          }
           Write-Host ("Assets: " + ($assets -join ', '))
 
           $headers = @{
